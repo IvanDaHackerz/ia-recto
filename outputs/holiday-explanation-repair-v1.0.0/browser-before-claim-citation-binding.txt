@@ -1,0 +1,118 @@
+- link "Skip to main content":
+  - /url: "#main"
+- banner:
+  - link "Recto & Co. Legal":
+    - /url: /
+  - navigation "Primary":
+    - link "Ask":
+      - /url: /
+    - link "History":
+      - /url: /history
+    - link "Library":
+      - /url: /library
+    - link "Performance":
+      - /url: /performance
+    - link "Settings":
+      - /url: /settings
+    - link "Scope & limitations":
+      - /url: /about
+- strong: Development preview.
+- text: Live classification, retrieval & AI explanations · source applicability remains under review.
+- main:
+  - status: Analysis ready. Open references to inspect any retrieved provisions.
+  - heading "Ask about your rights" [level=1]
+  - button "New question":
+    - generic: New question
+  - region "Conversation":
+    - article "Response 1" [active]:
+      - generic: Question 1
+      - heading "A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?" [level=2]
+      - region "AI explanation":
+        - heading "AI explanation" [level=3]
+        - paragraph: Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.
+        - paragraph:
+          - generic: The recorded provision states that every worker must receive his regular daily wage for a regular holiday, unless the employer is a retail or service establishment that regularly employs fewer than ten workers; it also notes that an employee who is on a paid leave of absence is still entitled to holiday pay, but one who is on an unpaid leave the day before the holiday loses that entitlement if he does not work on the holiday itself. Applying this rule requires knowing whether the employer falls within the small‑retail/service exemption and whether the employee was on paid or unpaid leave (or simply absent) on the day preceding Christmas Day, as well as whether the employee actually worked on Christmas Day.
+          - text: The recorded provision states that every worker must receive his regular daily wage for a regular holiday, unless the employer is a retail or service establishment that regularly employs fewer than ten workers; it also notes that an employee who is on a paid leave of absence is still entitled to holiday pay, but one who is on an unpaid leave the day before the holiday loses that entitlement if he does not work on the holiday itself. Applying this rule requires knowing whether the employer falls within the small‑retail/service exemption and whether the employee was on paid or unpaid leave (or simply absent) on the day preceding Christmas Day, as well as whether the employee actually worked on Christmas Day.
+        - generic "Sources for paragraph 1":
+          - button "PD 442, as amended and renumbered, ART. 94"
+      - paragraph: A recorded passage has a wording discrepancy and was excluded from AI explanations. Open its reference for details.
+      - generic "Where to ask for assistance"
+      - generic "How this question was checked"
+      - paragraph: Retrieved candidates
+      - button "1 PD 442, as amended and renumbered, ART. 94":
+        - generic: "1"
+        - text: PD 442, as amended and renumbered, ART. 94
+      - button "2 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV":
+        - generic: "2"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV
+      - button "3 Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV":
+        - generic: "3"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV
+      - button "4 Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV":
+        - generic: "4"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV
+      - button "5 Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE IV":
+        - generic: "5"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE IV
+  - generic: Try another question
+  - textbox "Try another question":
+    - /placeholder: Ask about a labor or consumer concern…
+  - button "Ask" [disabled]:
+    - generic: Ask
+  - generic "AI & saving · AI on · Saving off"
+  - paragraph:
+    - text: Use fictional details. Each question is checked independently; include the complete concern and any requested facts.
+    - link "Scope & privacy":
+      - /url: /about
+  - complementary "Source references":
+    - heading "Source references" [level=2]
+    - paragraph: For response 1 · 5 references
+    - region "Reference blocks":
+      - paragraph: Inspect the recorded source text here. Current legal applicability remains under review.
+      - list:
+        - button "1 PD 442, as amended and renumbered, ART. 94 Labor Code of the Philippines - Renumbered DOLE Edition 2022" [expanded]:
+          - generic: "1"
+          - generic: PD 442, as amended and renumbered, ART. 94
+          - generic: Labor Code of the Philippines - Renumbered DOLE Edition 2022
+        - paragraph: Recorded source · current applicability unreviewed
+        - paragraph: "For: a private-sector employer refuses to pay a worker for christmas day because the office was closed and no work was performed. what holiday-pay rules and exceptions apply"
+        - term: Recorded status
+        - definition: official_consolidation_through_2022
+        - term: Status checked
+        - definition: 2026-09-29
+        - term: Search ranking
+        - definition: 17.8692 · not confidence
+        - generic "Use restrictions and source checks"
+        - heading "Complete stored provision" [level=3]
+        - paragraph: Highlighted passages were cited in the explanation.
+        - paragraph:
+          - text: ART. 94.
+          - mark: Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage
+          - mark: during regular holidays, except in retail and service establishments regularly employing less
+          - mark: than ten (10) workers;
+          - text: "(b) The employer may require an employee to work on any holiday but such employee shall be paid a compensation equivalent to twice his regular rate; and (c) As used in this Article, \"holiday\" includes: New Year’s Day, Maundy Thursday, Good Friday, the ninth of April, the first of May, the twelfth of June, the fourth of July, the thirtieth of November, the twenty-fifth and thirtieth of December and the day designated by law for holding a general election.79"
+        - paragraph: LAB_CODE_2022__art_94
+        - link "Open recorded source":
+          - /url: https://dole.gov.ph/labor-code-of-the-philippines-2/
+          - text: Open recorded source
+        - button "2 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV Omnibus Rules Implementing the Labor Code":
+          - generic: "2"
+          - generic: Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV
+          - generic: Omnibus Rules Implementing the Labor Code
+        - paragraph: Recorded source · current applicability unreviewed
+        - paragraph: This passage has a worked/unworked wording discrepancy. It is excluded from AI explanations pending source review.
+        - button "3 Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV Omnibus Rules Implementing the Labor Code":
+          - generic: "3"
+          - generic: Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV
+          - generic: Omnibus Rules Implementing the Labor Code
+        - paragraph: Recorded source · current applicability unreviewed
+        - button "4 Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV Omnibus Rules Implementing the Labor Code":
+          - generic: "4"
+          - generic: Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV
+          - generic: Omnibus Rules Implementing the Labor Code
+        - paragraph: Recorded source · current applicability unreviewed
+        - button "5 Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE IV Omnibus Rules Implementing the Labor Code":
+          - generic: "5"
+          - generic: Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE IV
+          - generic: Omnibus Rules Implementing the Labor Code
+        - paragraph: Recorded source · current applicability unreviewed

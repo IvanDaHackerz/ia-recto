@@ -1,0 +1,1340 @@
+[
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I19": {
+        "after": "Gusto ko po malaman kung kailan puwedeng mag-request ng repair, replacement, or refund.",
+        "before": "Gusto ko po malaman kung kaylan puwede ma-irequest ang repair, replacement, or refund "
+      },
+      "P19": {
+        "after": "Consolidation: Correct spelling and phrasing while preserving the request for remedy information.",
+        "before": ""
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_635BAB7850FDE02E",
+    "reasons": [
+      "Normalize whitespace without changing meaning.",
+      "Correct spelling and phrasing while preserving the request for remedy information."
+    ],
+    "row": 19
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "C27": {
+        "after": "What should I do if I want to know when repair, replacement, or refund may be requested?",
+        "before": "Saan po ako puwedeng lumapit if I want to know when repair, replacement, or refund may be requested?"
+      },
+      "D27": {
+        "after": "English",
+        "before": "Taglish"
+      },
+      "H27": {
+        "after": "Reject wording",
+        "before": "Keep as written"
+      },
+      "P27": {
+        "after": "Word for word repeated to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Word for word repeated to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_A0E6E46799D95ADD",
+    "reasons": [
+      "Restore original question from Item 9 source.",
+      "Restore original display language.",
+      "Retain the human rejection and exclude the variant.",
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 27
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "H29": {
+        "after": "Reject wording",
+        "before": "Keep as written"
+      },
+      "P29": {
+        "after": "Word for word repeated to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Word for word repeated to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_A416356B82F0B015",
+    "reasons": [
+      "Retain the human rejection and exclude the variant.",
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 29
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I30": {
+        "after": "Tinanggihan ng shop ang warranty claim ko because I lost the original receipt.",
+        "before": "Tinaggihan ng shop ang warranty claim because I lost the original receipt?"
+      },
+      "P30": {
+        "after": "Improved taglish translation | Consolidation: Correct spelling while preserving the lost-receipt warranty scenario.",
+        "before": "Improved taglish translation"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_A440AC8D639E0454",
+    "reasons": [
+      "Correct spelling while preserving the lost-receipt warranty scenario."
+    ],
+    "row": 30
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J94": {
+        "after": "Labels correct",
+        "before": "Change labels"
+      },
+      "K94": {
+        "after": "",
+        "before": "labor"
+      },
+      "L94": {
+        "after": "",
+        "before": "partially_supported"
+      },
+      "N94": {
+        "after": "Approved",
+        "before": "Revised approved"
+      },
+      "P94": {
+        "after": "Consolidation: Restore the agreed scope: kasambahay is excluded; supported plus excluded is mixed/partially_supported, and a standalone kasambahay concern is out_of_scope/unsupported.",
+        "before": ""
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_3699BBA906C7642F",
+    "reasons": [
+      "Restore the agreed scope: kasambahay is excluded; supported plus excluded is mixed/partially_supported, and a standalone kasambahay concern is out_of_scope/unsupported.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 94
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "P96": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_537A48C2195BCBCA",
+    "reasons": [
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 96
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "P98": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_5CFC873819355F91",
+    "reasons": [
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 98
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J100": {
+        "after": "Labels correct",
+        "before": "Change labels"
+      },
+      "K100": {
+        "after": "",
+        "before": "labor"
+      },
+      "L100": {
+        "after": "",
+        "before": "partially_supported"
+      },
+      "P100": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_8BF0F8AE1C4A33BD",
+    "reasons": [
+      "Discard invalid label overrides on excluded rows.",
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 100
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "P102": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_9CF325BBA6C6AE1F",
+    "reasons": [
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 102
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "P103": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_B1DEEE6288404BDB",
+    "reasons": [
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 103
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J104": {
+        "after": "Labels correct",
+        "before": "Change labels"
+      },
+      "K104": {
+        "after": "",
+        "before": "labor"
+      },
+      "L104": {
+        "after": "",
+        "before": "partially_supported"
+      },
+      "P104": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_B826FE066B3ED8FF",
+    "reasons": [
+      "Discard invalid label overrides on excluded rows.",
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 104
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "P105": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_C3D3A98F4AD5D96F",
+    "reasons": [
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 105
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "P106": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_F3CAEB575F38A2AF",
+    "reasons": [
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 106
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J107": {
+        "after": "Labels correct",
+        "before": "Change labels"
+      },
+      "K107": {
+        "after": "",
+        "before": "labor"
+      },
+      "L107": {
+        "after": "",
+        "before": "partially_supported"
+      },
+      "P107": {
+        "after": "Only first part is different and inconsequential to the question, Too similar to previous question | Consolidation: Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance.",
+        "before": "Only first part is different and inconsequential to the question, Too similar to previous question"
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_F6AA460CC80EA304",
+    "reasons": [
+      "Discard invalid label overrides on excluded rows.",
+      "Rejection retained as conservative variant selection. Similarity is not proof of exact duplication or split leakage; original reviewer rationale is preserved in provenance."
+    ],
+    "row": 107
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J114": {
+        "after": "Labels correct",
+        "before": "Change labels"
+      },
+      "K114": {
+        "after": "",
+        "before": "labor"
+      },
+      "L114": {
+        "after": "",
+        "before": "partially_supported"
+      },
+      "N114": {
+        "after": "Approved",
+        "before": "Revised approved"
+      },
+      "P114": {
+        "after": "Consolidation: Restore the agreed scope: kasambahay is excluded; supported plus excluded is mixed/partially_supported, and a standalone kasambahay concern is out_of_scope/unsupported.",
+        "before": ""
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_58CB491C93663C15",
+    "reasons": [
+      "Restore the agreed scope: kasambahay is excluded; supported plus excluded is mixed/partially_supported, and a standalone kasambahay concern is out_of_scope/unsupported.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 114
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J129": {
+        "after": "Change labels",
+        "before": "Labels correct"
+      },
+      "K129": {
+        "after": "out_of_scope",
+        "before": ""
+      },
+      "L129": {
+        "after": "unsupported",
+        "before": ""
+      },
+      "M129": {
+        "after": "referral_ids=REF_DMW",
+        "before": ""
+      },
+      "N129": {
+        "after": "Revised approved",
+        "before": "Approved"
+      },
+      "P129": {
+        "after": "Consolidation: Use DMW for the explicitly overseas seafarer deployment concern, rather than the MARINA STCW certification service.",
+        "before": ""
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_AE6653ED64358AF7",
+    "reasons": [
+      "Use DMW for the explicitly overseas seafarer deployment concern, rather than the MARINA STCW certification service.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 129
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J136": {
+        "after": "Change labels",
+        "before": "Labels correct"
+      },
+      "K136": {
+        "after": "out_of_scope",
+        "before": ""
+      },
+      "L136": {
+        "after": "unsupported",
+        "before": ""
+      },
+      "M136": {
+        "after": "referral_ids=REF_DMW",
+        "before": ""
+      },
+      "N136": {
+        "after": "Revised approved",
+        "before": "Approved"
+      },
+      "P136": {
+        "after": "Consolidation: Use DMW for the explicitly overseas seafarer deployment concern, rather than the MARINA STCW certification service.",
+        "before": ""
+      }
+    },
+    "file": "ABO_item10_reviewer_2.xlsx",
+    "question_id": "Q9_E4E2015E0D5E11E0",
+    "reasons": [
+      "Use DMW for the explicitly overseas seafarer deployment concern, rather than the MARINA STCW certification service.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 136
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I9": {
+        "after": "Saan po ako puwedeng lumapit if an online seller sent an item different from the listing?",
+        "before": "Saan po ako puwedeng lumapit if an online seller sent a different item from the list?"
+      },
+      "P9": {
+        "after": "Consolidation: Preserve the online listing meaning rather than changing it to a list.",
+        "before": ""
+      }
+    },
+    "file": "CANAYNAY_item10_reviewer_4.xlsx",
+    "question_id": "Q9_242918CB6EE1BFB1",
+    "reasons": [
+      "Preserve the online listing meaning rather than changing it to a list."
+    ],
+    "row": 9
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "H11": {
+        "after": "Revise wording",
+        "before": "Keep as written"
+      },
+      "I11": {
+        "after": "Puwede po bang i-explain kung paano gumagana ang DTI consumer mediation?",
+        "before": "Puwede po bang i-explain kung paano nagana ang DTI consumer mediation?"
+      },
+      "P11": {
+        "after": "Consolidation: Accept the reviewer replacement and correct gumagana.",
+        "before": ""
+      }
+    },
+    "file": "CANAYNAY_item10_reviewer_4.xlsx",
+    "question_id": "Q9_3E6CC0C5077D45CF",
+    "reasons": [
+      "Accept the reviewer replacement and correct gumagana."
+    ],
+    "row": 11
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I17": {
+        "after": "Is it allowed for a sales promotion to use misleading conditions that were not clearly disclosed?",
+        "before": "Is it allowed for a sales promotion to used a misleading condtions that were not clearly disclosed?"
+      },
+      "P17": {
+        "after": "Consolidation: Repair the grammar and spelling of the accepted English replacement. Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+        "before": ""
+      }
+    },
+    "file": "CANAYNAY_item10_reviewer_4.xlsx",
+    "question_id": "Q9_6F7BAE0F9F6FEB96",
+    "reasons": [
+      "Repair the grammar and spelling of the accepted English replacement. Record English for the accepted final replacement; retain original Taglish metadata in provenance."
+    ],
+    "row": 17
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "P25": {
+        "after": "Consolidation: Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+        "before": ""
+      }
+    },
+    "file": "CANAYNAY_item10_reviewer_4.xlsx",
+    "question_id": "Q9_AB4917257E6E1B2A",
+    "reasons": [
+      "Record English for the accepted final replacement; retain original Taglish metadata in provenance."
+    ],
+    "row": 25
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I30": {
+        "after": "Is a salesperson allowed to conceal an important defect before the sale?",
+        "before": "Is it allowed for a salesperosn to concealed an important defect before the sale?"
+      },
+      "P30": {
+        "after": "sam topic as no. 9 | Consolidation: Repair the grammar and spelling of the accepted English replacement. Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+        "before": "sam topic as no. 9"
+      }
+    },
+    "file": "CANAYNAY_item10_reviewer_4.xlsx",
+    "question_id": "Q9_C562A8F98C7C6778",
+    "reasons": [
+      "Repair the grammar and spelling of the accepted English replacement. Record English for the accepted final replacement; retain original Taglish metadata in provenance."
+    ],
+    "row": 30
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I35": {
+        "after": "What can I do if the seller has repaired the defective product several times but it still fails?",
+        "before": "Is it allowed for seller to repair the defective product several times but still fails?"
+      },
+      "P35": {
+        "after": "same topic as no. 16 | Consolidation: Repair the replacement while preserving repeated failed repairs. Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+        "before": "same topic as no. 16"
+      }
+    },
+    "file": "CANAYNAY_item10_reviewer_4.xlsx",
+    "question_id": "Q9_DD1542590D3ADD79",
+    "reasons": [
+      "Repair the replacement while preserving repeated failed repairs. Record English for the accepted final replacement; retain original Taglish metadata in provenance."
+    ],
+    "row": 35
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I55": {
+        "after": "Allowed po ba na my supervisor requires overtime but calls it voluntary?",
+        "before": "Allowed po a na my surpervisor requires overtime but calls it voluntary?"
+      },
+      "P55": {
+        "after": "Consolidation: Correct ba and supervisor without changing the scenario.",
+        "before": ""
+      }
+    },
+    "file": "CANAYNAY_item10_reviewer_4.xlsx",
+    "question_id": "Q9_5364174BB963EDF8",
+    "reasons": [
+      "Correct ba and supervisor without changing the scenario."
+    ],
+    "row": 55
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "P65": {
+        "after": "Consolidation: Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+        "before": ""
+      }
+    },
+    "file": "CANAYNAY_item10_reviewer_4.xlsx",
+    "question_id": "Q9_B26E8F8C6FEC1043",
+    "reasons": [
+      "Record English for the accepted final replacement; retain original Taglish metadata in provenance."
+    ],
+    "row": 65
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "M16": {
+        "after": "",
+        "before": "Wrong topic: incorrect change from a cashier is not a price-tag/displayed-price issue. Suggest 'Deceptive or unfair sales practices' (or 'Basic service complaints'). Referral to DTI CCARS stays."
+      },
+      "N16": {
+        "after": "Approved",
+        "before": "Revised approved"
+      },
+      "P16": {
+        "after": "Consolidation: Decline the proposed topic change: consumer.price_tags expressly includes exact-change concerns.",
+        "before": ""
+      }
+    },
+    "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+    "question_id": "Q9_4ACF98B99A42F6E7",
+    "reasons": [
+      "Decline the proposed topic change: consumer.price_tags expressly includes exact-change concerns.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 16
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "H38": {
+        "after": "Revise wording",
+        "before": "Keep as written"
+      },
+      "N38": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+    "question_id": "Q9_D8D6361DCD26771C",
+    "reasons": [
+      "Use the replacement already entered by the reviewer.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 38
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "M39": {
+        "after": "",
+        "before": "Wrong topic: incorrect change from a cashier is not a price-tag/displayed-price issue. Suggest 'Deceptive or unfair sales practices' (or 'Basic service complaints'). Referral to DTI CCARS stays."
+      },
+      "N39": {
+        "after": "Approved",
+        "before": "Revised approved"
+      },
+      "P39": {
+        "after": "Consolidation: Decline the proposed topic change: consumer.price_tags expressly includes exact-change concerns.",
+        "before": ""
+      }
+    },
+    "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+    "question_id": "Q9_E23C881C1F7546E2",
+    "reasons": [
+      "Decline the proposed topic change: consumer.price_tags expressly includes exact-change concerns.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 39
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N59": {
+        "after": "Revised approved",
+        "before": "Approved"
+      },
+      "P59": {
+        "after": "Consolidation: Record Taglish for the accepted final replacement; retain original English metadata in provenance.",
+        "before": ""
+      }
+    },
+    "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+    "question_id": "Q9_6FFFC05C885AACEC",
+    "reasons": [
+      "Record Taglish for the accepted final replacement; retain original English metadata in provenance.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 59
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N61": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+    "question_id": "Q9_934486D1462408C1",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 61
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J115": {
+        "after": "Change labels",
+        "before": "Labels correct"
+      },
+      "K115": {
+        "after": "out_of_scope",
+        "before": ""
+      },
+      "L115": {
+        "after": "unsupported",
+        "before": ""
+      },
+      "M115": {
+        "after": "referral_ids=REF_PAO",
+        "before": "Referral looks wrong: seafarer contract/onboard pay disputes should go to the Department of Migrant Workers (and DOLE/NLRC for money claims); MARINA STCW office handles training/certification."
+      },
+      "P115": {
+        "after": "Check Referrals tab for seafarer entry. | Consolidation: Use qualified legal assistance for a seafarer onboard-pay dispute. The wording does not establish overseas versus domestic employment, so do not assume a specific employment forum; PAO assistance is subject to eligibility.",
+        "before": "Check Referrals tab for seafarer entry."
+      }
+    },
+    "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+    "question_id": "Q9_5076CE4AE2E67FD1",
+    "reasons": [
+      "Use qualified legal assistance for a seafarer onboard-pay dispute. The wording does not establish overseas versus domestic employment, so do not assume a specific employment forum; PAO assistance is subject to eligibility."
+    ],
+    "row": 115
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J137": {
+        "after": "Change labels",
+        "before": "Labels correct"
+      },
+      "K137": {
+        "after": "out_of_scope",
+        "before": ""
+      },
+      "L137": {
+        "after": "unsupported",
+        "before": ""
+      },
+      "M137": {
+        "after": "referral_ids=REF_PAO",
+        "before": "Referral looks wrong: seafarer contract/onboard pay disputes should go to the Department of Migrant Workers (and DOLE/NLRC for money claims); MARINA STCW office handles training/certification."
+      },
+      "P137": {
+        "after": "Same issue as row 110. | Consolidation: Use qualified legal assistance for a seafarer onboard-pay dispute. The wording does not establish overseas versus domestic employment, so do not assume a specific employment forum; PAO assistance is subject to eligibility.",
+        "before": "Same issue as row 110."
+      }
+    },
+    "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+    "question_id": "Q9_E891D6B3759F82C5",
+    "reasons": [
+      "Use qualified legal assistance for a seafarer onboard-pay dispute. The wording does not establish overseas versus domestic employment, so do not assume a specific employment forum; PAO assistance is subject to eligibility."
+    ],
+    "row": 137
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I11": {
+        "after": "Allowed po ba na a repair shop damaged my item instead of fixing it?",
+        "before": "Allowed po ba na a repair shop damaged my item instead of fixing it?\n"
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_3E41E04434510EAF",
+    "reasons": [
+      "Normalize whitespace without changing meaning."
+    ],
+    "row": 11
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I14": {
+        "after": "Allowed po ba na an advertisement made claims that the actual product cannot meet?",
+        "before": "Allowed po ba na an advertisement made claims that the actual product cannot meet?\n"
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_43EAFE01F4D5019B",
+    "reasons": [
+      "Normalize whitespace without changing meaning."
+    ],
+    "row": 14
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I16": {
+        "after": "Allowed po ba na the cashier did not give me the correct change?",
+        "before": "Allowed po ba na the cashier did not give me the correct change?\n"
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_5322285956AC015E",
+    "reasons": [
+      "Normalize whitespace without changing meaning."
+    ],
+    "row": 16
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I30": {
+        "after": "Allowed po ba na ang newly purchased appliance ay nasira agad after two days?",
+        "before": "Is it allowed po ba that a new purchased appliance stopped working agad after two days?"
+      },
+      "N30": {
+        "after": "Revised approved",
+        "before": "Approved"
+      },
+      "P30": {
+        "after": "Consolidation: Correct newly purchased while preserving the Taglish scenario.",
+        "before": ""
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_C5779FF763B27DC5",
+    "reasons": [
+      "Correct newly purchased while preserving the Taglish scenario.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 30
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I43": {
+        "after": "Puwede po bang dumaan muna sa conciliation ang labor concern ko?",
+        "before": "Allowed po ba na I want to show whether a labor concern can first go through conciliation?"
+      },
+      "P43": {
+        "after": "Consolidation: Express the original request for conciliation-process information clearly.",
+        "before": ""
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_37B05541C51B6BD2",
+    "reasons": [
+      "Express the original request for conciliation-process information clearly."
+    ],
+    "row": 43
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N61": {
+        "after": "Approved",
+        "before": "Revised approved"
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_B442FA9B3B59A2C4",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 61
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J93": {
+        "after": "Change labels",
+        "before": "Labels correct"
+      },
+      "K93": {
+        "after": "mixed",
+        "before": ""
+      },
+      "L93": {
+        "after": "partially_supported",
+        "before": ""
+      },
+      "M93": {
+        "after": "referral_ids=REF_DMW|REF_DTI_CARE",
+        "before": ""
+      },
+      "N93": {
+        "after": "Revised approved",
+        "before": "Approved"
+      },
+      "P93": {
+        "after": "Consolidation: Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+        "before": ""
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_35D89C064D6ACB3D",
+    "reasons": [
+      "Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 93
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J98": {
+        "after": "Change labels",
+        "before": "Labels correct"
+      },
+      "K98": {
+        "after": "mixed",
+        "before": ""
+      },
+      "L98": {
+        "after": "partially_supported",
+        "before": ""
+      },
+      "M98": {
+        "after": "referral_ids=REF_DMW|REF_DTI_CARE",
+        "before": ""
+      },
+      "N98": {
+        "after": "Revised approved",
+        "before": "Approved"
+      },
+      "P98": {
+        "after": "Consolidation: Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+        "before": ""
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_5F0D6275176D37A4",
+    "reasons": [
+      "Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 98
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J103": {
+        "after": "Change labels",
+        "before": "Labels correct"
+      },
+      "K103": {
+        "after": "mixed",
+        "before": ""
+      },
+      "L103": {
+        "after": "partially_supported",
+        "before": ""
+      },
+      "M103": {
+        "after": "referral_ids=REF_DMW|REF_DTI_CARE",
+        "before": ""
+      },
+      "N103": {
+        "after": "Revised approved",
+        "before": "Approved"
+      },
+      "P103": {
+        "after": "Consolidation: Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+        "before": ""
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_9CDEBAFE5FC27DF3",
+    "reasons": [
+      "Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 103
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "J104": {
+        "after": "Change labels",
+        "before": "Labels correct"
+      },
+      "K104": {
+        "after": "mixed",
+        "before": ""
+      },
+      "L104": {
+        "after": "partially_supported",
+        "before": ""
+      },
+      "M104": {
+        "after": "referral_ids=REF_DMW|REF_DTI_CARE",
+        "before": ""
+      },
+      "N104": {
+        "after": "Revised approved",
+        "before": "Approved"
+      },
+      "P104": {
+        "after": "Consolidation: Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+        "before": ""
+      }
+    },
+    "file": "MACARAIG_item10_reviewer_1.xlsx",
+    "question_id": "Q9_A20958B9E670352F",
+    "reasons": [
+      "Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 104
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "I14": {
+        "after": "Saan po ako puwedeng lumapit if a service provider refuses to correct clearly defective work?",
+        "before": "Saan po ako pwedeng lumapit if a service provider refuses to correct a clearly defective product?"
+      },
+      "P14": {
+        "after": "Consolidation: Restore defective service work; do not turn the scenario into a defective-product complaint.",
+        "before": ""
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_4B4AB10655A17463",
+    "reasons": [
+      "Restore defective service work; do not turn the scenario into a defective-product complaint."
+    ],
+    "row": 14
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N16": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_603090C41250938E",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 16
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N26": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_919EF69CDD0C22DE",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 26
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N29": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_AE27AE9DDD7E5117",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 29
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N35": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_C7A3EB3A395B5AFE",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 35
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N46": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_2ED45ED218B88A64",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 46
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N48": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_3866B70BE474517D",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 48
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N54": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_546AFC4B69EC94B8",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 54
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N66": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_B9A1473EE9C33A5A",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 66
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N82": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_92633905A96A6B03",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 82
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N83": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_9CF0DA95F8B4CE75",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 83
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N84": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_A9394B081CEBC1B4",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 84
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N85": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_AF069035F5AAE39B",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 85
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N88": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_F6EE07CC1D2E5D6A",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 88
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N95": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_5D82F1B6785167DF",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 95
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N96": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_7A206A0B3CF8A8A2",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 96
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N97": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_80871B67D8E23C8C",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 97
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N98": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_8F31B0B92FE0A91E",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 98
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N99": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_9098B9B003324387",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 99
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N100": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_9359734EF063A6ED",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 100
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N101": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_9D51C4FD692855BE",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 101
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N102": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_B6D207E03032B56A",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 102
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N103": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_DBBDBAD49F3132CE",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 103
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N104": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_F0A45E9776ABBE4A",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 104
+  },
+  {
+    "actor": "Codex (project-owner-authorized cleanup)",
+    "changed_cells": {
+      "N105": {
+        "after": "Revised approved",
+        "before": "Approved"
+      }
+    },
+    "file": "MONTANO_item10_reviewer_3.xlsx",
+    "question_id": "Q9_FACDCE41A12805E2",
+    "reasons": [
+      "Align the accepted outcome with the recorded changes."
+    ],
+    "row": 105
+  }
+]

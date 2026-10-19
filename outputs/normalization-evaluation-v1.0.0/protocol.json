@@ -1,0 +1,36 @@
+{
+  "version": "normalization-evaluation-v1.0.0",
+  "role": "development",
+  "prepared_at_utc": "2026-10-19T02:12:17.891592+00:00",
+  "classifier": "outputs/item10-classifier-v1.5.6",
+  "retrieval": "outputs/item11-retrieval-v1.2.5",
+  "verifier": "outputs/item12-verifier-v1.0.3",
+  "normalizer_version": "conditional-normalization-v2.0.0",
+  "provider": "together",
+  "model": "openai/gpt-oss-120b",
+  "base_questions": 100,
+  "input_forms": 200,
+  "pipeline_executions": 400,
+  "maximum_llm_requests": 200,
+  "cost_stop_usd": 0.5,
+  "pricing_usd_per_million_tokens": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "pricing_source": "https://docs.together.ai/docs/serverless/models",
+  "pricing_verified_date": "2026-10-19",
+  "generation_seed": 20261019,
+  "selection_quotas": {
+    "('labor', 'fully_supported')": 24,
+    "('consumer', 'fully_supported')": 24,
+    "('mixed', 'fully_supported')": 12,
+    "('mixed', 'partially_supported')": 15,
+    "('out_of_scope', 'unsupported')": 20,
+    "(None, None)": 5
+  },
+  "execution_order": "alternate baseline-first and normalized-first by input index",
+  "semantic_review_protocol": "Codex AI audit of accepted rewrites using a queue without labels, predictions or metrics; not independent human review",
+  "formal_acceptance_allowed": false,
+  "answer_generation_allowed": false,
+  "deployment_allowed": false
+}

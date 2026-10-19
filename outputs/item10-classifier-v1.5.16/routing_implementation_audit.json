@@ -1,0 +1,123 @@
+[
+  {
+    "case_id": "EVAL_054",
+    "question_text": "Sa private office, walang malinaw na meal break dahil may phone duty. Sa personal purchase ko naman, iba ang warranty period sa sinabi ng retailer. Puwede bang parehong ipaliwanag?",
+    "before_action": "clarify",
+    "before_reason": "low_confidence",
+    "after_action": "retrieve_supported_components",
+    "after_reason": "separate_supported_components_require_evidence",
+    "expected_action": "retrieve_supported_components",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "EVAL_056",
+    "question_text": "Pinalitan yung weekly rest day ko sa private shop. May online store din na kulang ang pinadalang personal order ko. Ano gagawin ko sa bawat isa?",
+    "before_action": "clarify",
+    "before_reason": "low_confidence",
+    "after_action": "retrieve_supported_components",
+    "after_reason": "separate_supported_components_require_evidence",
+    "expected_action": "retrieve_supported_components",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "EVAL_062",
+    "question_text": "Required yung briefing after shift sa private warehouse namin. May online store din na binago yung agreed delivery fee ng personal purchase ko. Ano puwede kong gawin sa dalawang concern?",
+    "before_action": "clarify",
+    "before_reason": "low_confidence",
+    "after_action": "retrieve_supported_components",
+    "after_reason": "separate_supported_components_require_evidence",
+    "expected_action": "retrieve_supported_components",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "EVAL_067",
+    "question_text": "A shop turned down my appliance warranty claim. Separately, my home insurer denied a claim under my insurance policy. How do I raise each dispute?",
+    "before_action": "clarify",
+    "before_reason": "unresolved_concern",
+    "after_action": "retrieve_supported_components",
+    "after_reason": "separate_supported_components_require_evidence",
+    "expected_action": "retrieve_supported_components",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "EVAL_079",
+    "question_text": "My insurer won't cover a hospital expense because it says the policy excludes it. Can you explain the exclusion and how to dispute it?",
+    "before_action": "clarify",
+    "before_reason": "unresolved_concern",
+    "after_action": "refer_out_of_scope",
+    "after_reason": "recognized_excluded_concern",
+    "expected_action": "refer_out_of_scope",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "EVAL_084",
+    "question_text": "May disagreement ang union at management tungkol sa bargaining unit at gusto naming i-challenge ang representation. Anong labor rules ang applicable?",
+    "before_action": "clarify",
+    "before_reason": "low_confidence",
+    "after_action": "refer_out_of_scope",
+    "after_reason": "recognized_excluded_concern",
+    "expected_action": "refer_out_of_scope",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "EVAL_094",
+    "question_text": "Kung ibibigay ko ang chat screenshots, masasabi mo ba kung siguradong mananalo ako sa illegal-dismissal case?",
+    "before_action": "clarify",
+    "before_reason": "low_confidence",
+    "after_action": "refer_out_of_scope",
+    "after_reason": "recognized_excluded_concern",
+    "expected_action": "refer_out_of_scope",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "EVAL_100",
+    "question_text": "Municipal employee ako at gusto kong malaman kung mananalo ang administrative appeal ko. Puwede mo bang i-predict ang result?",
+    "before_action": "clarify",
+    "before_reason": "no_identified_concern",
+    "after_action": "refer_out_of_scope",
+    "after_reason": "recognized_excluded_concern",
+    "expected_action": "refer_out_of_scope",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "TYPE_044",
+    "question_text": "Yung kettle ko mula sa store ayaw umandar. Gusto ko ring i-check yung thirteenth-month pay ko bilang private restaurant employee. Paano sa bawat issue?",
+    "before_action": "clarify",
+    "before_reason": "low_confidence",
+    "after_action": "retrieve_supported_components",
+    "after_reason": "separate_supported_components_require_evidence",
+    "expected_action": "retrieve_supported_components",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "TYPE_062",
+    "question_text": "municipal goverment employe here, salry delayd. what civil servce remedy applies?",
+    "before_action": "clarify",
+    "before_reason": "no_identified_concern",
+    "after_action": "refer_out_of_scope",
+    "after_reason": "recognized_excluded_concern",
+    "expected_action": "refer_out_of_scope",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  },
+  {
+    "case_id": "TYPE_064",
+    "question_text": "Delayed yung sahod ko bilang empleyado ng municipal government. Ano ang remedy sa civil service?",
+    "before_action": "clarify",
+    "before_reason": "low_confidence",
+    "after_action": "refer_out_of_scope",
+    "after_reason": "recognized_excluded_concern",
+    "expected_action": "refer_out_of_scope",
+    "implementation_expectation_met": true,
+    "role": "Inspected regression scenario; not independent evaluation"
+  }
+]

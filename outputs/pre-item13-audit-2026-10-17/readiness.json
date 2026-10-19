@@ -1,0 +1,47 @@
+{
+  "as_of": "2026-10-17",
+  "verifier": "outputs/item12-verifier-v1.0.1",
+  "audited_software_checks_passed": true,
+  "item13_offline_evaluation_ready": true,
+  "item13_started": false,
+  "item13_full_generated_answer_evaluation_ready": false,
+  "all_project_issues_closed": false,
+  "production_ready": false,
+  "deployment_allowed": false,
+  "answer_generation_allowed": false,
+  "independent_human_questions_available": 0,
+  "trusted_source_reviews": 0,
+  "trusted_claim_reviews": 0,
+  "remaining_work": [
+    {
+      "issue": "Independent human evaluation and real-world calibration",
+      "status": "open",
+      "detail": "The 200 existing AI-reviewed questions remain development material. The 100-row independent intake is blank."
+    },
+    {
+      "issue": "Source coverage/extraction approval",
+      "status": "open",
+      "detail": "Final pay/COE has no eligible evidence; MO 28 and applicable thirteenth-month guidance remain unresolved. DTI/final-pay AI copies remain gated; the original 258-entry human queue remains."
+    },
+    {
+      "issue": "Legal currentness and proposition support",
+      "status": "open",
+      "detail": "No real scoped source/claim reviews exist. Exact-source previews verify provenance only; arbitrary paraphrases are a review gate, not automatic entailment."
+    },
+    {
+      "issue": "Actual generated-answer evaluation",
+      "status": "not_yet_ready",
+      "detail": "No LLM drafter is connected. Prepare the offline evaluation protocol now; generated-answer quality needs a controlled drafter and the relevant source/support conditions resolved."
+    },
+    {
+      "issue": "Referral-contact completion and application integration",
+      "status": "partial_or_future_work",
+      "detail": "The refreshed directory corroborates 36 fields across 15 of 19 entries; four remain unresolved. The classifier still uses its frozen directory. UI/backend/history integration is future Item 14 work."
+    },
+    {
+      "issue": "Independent legal review and formal acceptance",
+      "status": "external_review_pending",
+      "detail": "Licensed Philippine legal review of selected generated answers and required team/adviser acceptance are not recorded."
+    }
+  ]
+}

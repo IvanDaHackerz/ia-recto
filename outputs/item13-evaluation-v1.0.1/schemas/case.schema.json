@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    },
+    "concerns": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "anchors": {
+            "items": {
+              "maxLength": 100000,
+              "minLength": 1,
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "domain": {
+            "enum": [
+              "labor",
+              "consumer",
+              "excluded"
+            ]
+          },
+          "evidence_gap": {
+            "type": "boolean"
+          },
+          "relevant_ids": {
+            "items": {
+              "maxLength": 200,
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "domain",
+          "anchors",
+          "relevant_ids",
+          "evidence_gap"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "expected_clarification_reason": {
+      "enum": [
+        null,
+        "employment_category_missing",
+        "refund_transaction_missing",
+        "contract_relationship_missing",
+        "charge_context_missing"
+      ]
+    },
+    "expected_domains": {
+      "items": {
+        "enum": [
+          "labor",
+          "consumer"
+        ]
+      },
+      "type": "array"
+    },
+    "expected_excluded": {
+      "type": "boolean"
+    },
+    "expected_primary": {
+      "enum": [
+        "labor",
+        "consumer",
+        "mixed",
+        "out_of_scope",
+        null
+      ]
+    },
+    "expected_route": {
+      "enum": [
+        "retrieve_supported_evidence",
+        "retrieve_supported_components",
+        "refer_out_of_scope",
+        "clarify"
+      ]
+    },
+    "expected_scope": {
+      "enum": [
+        "fully_supported",
+        "partially_supported",
+        "unsupported",
+        null
+      ]
+    },
+    "family_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    },
+    "language": {
+      "enum": [
+        "en",
+        "en_tl"
+      ]
+    },
+    "origin": {
+      "const": "ai_authored"
+    },
+    "question_text": {
+      "maxLength": 100000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "relevant_ids": {
+      "items": {
+        "maxLength": 200,
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "retrieval_judgment": {
+      "enum": [
+        "known_relevant",
+        "no_candidates",
+        "unjudged"
+      ]
+    },
+    "role": {
+      "const": "development"
+    },
+    "source_path": {
+      "maxLength": 100000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "source_record_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    },
+    "suite": {
+      "enum": [
+        "general",
+        "typing",
+        "retrieval",
+        "system"
+      ]
+    },
+    "topic_ids": {
+      "items": {
+        "maxLength": 200,
+        "minLength": 1,
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "variation": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "case_id",
+    "suite",
+    "family_id",
+    "question_text",
+    "language",
+    "variation",
+    "origin",
+    "role",
+    "source_path",
+    "source_record_id",
+    "expected_primary",
+    "expected_scope",
+    "expected_route",
+    "expected_clarification_reason",
+    "expected_domains",
+    "expected_excluded",
+    "topic_ids",
+    "relevant_ids",
+    "retrieval_judgment",
+    "concerns"
+  ],
+  "type": "object"
+}

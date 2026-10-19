@@ -1,0 +1,14 @@
+{
+  "role": "Reused inspected AI Item 11 development cases, not independent human gold or Item 13 final evaluation.",
+  "total": 67,
+  "passed": 67,
+  "positive_cases": 56,
+  "positive_passed": 56,
+  "negative_cases": 11,
+  "negative_passed": 11,
+  "current_guidance_candidates_permitted": 0,
+  "failed_query_ids": [],
+  "live_llm_called": false,
+  "legal_answer_accuracy_measured": false,
+  "deployment_allowed": false
+}

@@ -1,0 +1,147 @@
+{
+  "all_issues_closed": false,
+  "item12_started": true,
+  "proceed_to_item12_under_owner_instruction": true,
+  "independent_human_approval_recorded": false,
+  "legal_professional_approval_recorded": false,
+  "issues": [
+    {
+      "id": 1,
+      "issue": "Investment/investigation false scope match",
+      "status": "fixed_and_tested"
+    },
+    {
+      "id": 2,
+      "issue": "69% routing coverage below 70%",
+      "status": "fixed_on_development_regression",
+      "current": 0.92
+    },
+    {
+      "id": 3,
+      "issue": "Generic defective-service classification miss",
+      "status": "fixed_on_development_regression"
+    },
+    {
+      "id": 4,
+      "issue": "Six BM25 top-five misses",
+      "status": "fixed_on_inspected_development_benchmark"
+    },
+    {
+      "id": 5,
+      "issue": "English/Taglish development retrieval gap",
+      "status": "fixed_on_inspected_development_benchmark"
+    },
+    {
+      "id": 6,
+      "issue": "Independent human evaluation missing",
+      "status": "external_human_input_required",
+      "prepared": "human_gold_intake.jsonl and validator"
+    },
+    {
+      "id": 7,
+      "issue": "Real-world confidence validation",
+      "status": "requires_fresh_independent_evaluation",
+      "development_ece_primary": 0.13193005473183095
+    },
+    {
+      "id": 8,
+      "issue": "Final pay/COE, thirteenth-month and DTI source gaps",
+      "status": "open_source_verification_required",
+      "prepared": "Four final-pay AI proposals; 29 DTI structural candidates; MO 28 official copy still needed"
+    },
+    {
+      "id": 9,
+      "issue": "OCR/text review backlog and specialized-source quarantine",
+      "status": "pending_human_source_review",
+      "pending_provisions": 258,
+      "additional_quarantine_chunks": 58
+    },
+    {
+      "id": 10,
+      "issue": "Currentness and referral-contact refresh",
+      "status": "partial_followup_currentness_and_four_contacts_still_open",
+      "public_urls_attempted": 39,
+      "public_urls_accessible": 19,
+      "corroborated_contact_fields": 36,
+      "agencies_with_confirmed_fields": 15,
+      "total_agencies": 19
+    },
+    {
+      "id": 11,
+      "issue": "Item 12 evidence/citation verification",
+      "status": "offline_verifier_implemented_and_audited",
+      "software_tests": 37,
+      "development_scenarios": 50,
+      "real_current_guidance_reviews": 0
+    },
+    {
+      "id": 12,
+      "issue": "Answer generation, frontend, system evaluation and formal approval",
+      "status": "future_milestones_and_external_approvals_pending"
+    },
+    {
+      "id": 13,
+      "issue": "Household repair mistaken for domestic employment",
+      "status": "fixed_and_tested"
+    },
+    {
+      "id": 14,
+      "issue": "Unnecessary clarification despite cashier/product context",
+      "status": "fixed_and_tested"
+    },
+    {
+      "id": 15,
+      "issue": "Cross-references split into fake DTI sections and Rule headings",
+      "status": "candidate_parser_fixed_source_approval_pending"
+    },
+    {
+      "id": 16,
+      "issue": "Automatic official referral selection absent",
+      "status": "candidate_routing_implemented_contact_refresh_pending"
+    },
+    {
+      "id": 17,
+      "issue": "Overseas foreign-exchange-remittance passages in general labor index",
+      "status": "quarantined_and_tested",
+      "additional_chunks": 3
+    }
+  ],
+  "as_of": "2026-10-17",
+  "historical_parent": "outputs/pre-item12-repair-2026-10-17/issue_ledger.json",
+  "item13_started": false,
+  "item13_offline_evaluation_ready": true,
+  "item13_full_generated_answer_evaluation_ready": false,
+  "current_verifier": "outputs/item12-verifier-v1.0.1",
+  "remaining_work": [
+    {
+      "issue": "Independent human evaluation and real-world calibration",
+      "status": "open",
+      "detail": "The 200 existing AI-reviewed questions remain development material. The 100-row independent intake is blank."
+    },
+    {
+      "issue": "Source coverage/extraction approval",
+      "status": "open",
+      "detail": "Final pay/COE has no eligible evidence; MO 28 and applicable thirteenth-month guidance remain unresolved. DTI/final-pay AI copies remain gated; the original 258-entry human queue remains."
+    },
+    {
+      "issue": "Legal currentness and proposition support",
+      "status": "open",
+      "detail": "No real scoped source/claim reviews exist. Exact-source previews verify provenance only; arbitrary paraphrases are a review gate, not automatic entailment."
+    },
+    {
+      "issue": "Actual generated-answer evaluation",
+      "status": "not_yet_ready",
+      "detail": "No LLM drafter is connected. Prepare the offline evaluation protocol now; generated-answer quality needs a controlled drafter and the relevant source/support conditions resolved."
+    },
+    {
+      "issue": "Referral-contact completion and application integration",
+      "status": "partial_or_future_work",
+      "detail": "The refreshed directory corroborates 36 fields across 15 of 19 entries; four remain unresolved. The classifier still uses its frozen directory. UI/backend/history integration is future Item 14 work."
+    },
+    {
+      "issue": "Independent legal review and formal acceptance",
+      "status": "external_review_pending",
+      "detail": "Licensed Philippine legal review of selected generated answers and required team/adviser acceptance are not recorded."
+    }
+  ]
+}

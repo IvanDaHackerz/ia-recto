@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    },
+    "draft": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false,
+      "properties": {
+        "claims": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "claim_id": {
+                "maxLength": 200,
+                "minLength": 1,
+                "type": "string"
+              },
+              "component_id": {
+                "maxLength": 200,
+                "minLength": 1,
+                "type": "string"
+              },
+              "evidence": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "chunk_id": {
+                      "maxLength": 200,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "document_id": {
+                      "maxLength": 200,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "end": {
+                      "minimum": 1,
+                      "type": "integer"
+                    },
+                    "provision_id": {
+                      "maxLength": 200,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "quote": {
+                      "maxLength": 100000,
+                      "minLength": 1,
+                      "type": "string"
+                    },
+                    "start": {
+                      "minimum": 0,
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "chunk_id",
+                    "provision_id",
+                    "document_id",
+                    "start",
+                    "end",
+                    "quote"
+                  ],
+                  "type": "object"
+                },
+                "maxItems": 8,
+                "minItems": 1,
+                "type": "array"
+              },
+              "kind": {
+                "enum": [
+                  "source_excerpt",
+                  "paraphrase"
+                ],
+                "type": "string"
+              },
+              "text": {
+                "maxLength": 100000,
+                "minLength": 1,
+                "type": "string"
+              }
+            },
+            "required": [
+              "claim_id",
+              "component_id",
+              "kind",
+              "text",
+              "evidence"
+            ],
+            "type": "object"
+          },
+          "maxItems": 50,
+          "minItems": 1,
+          "type": "array"
+        },
+        "question_text": {
+          "maxLength": 10000,
+          "minLength": 1,
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0",
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "question_text",
+        "claims"
+      ],
+      "title": "Item 12 structured draft (no unchecked free-form answer)",
+      "type": "object"
+    },
+    "generated_at": {
+      "maxLength": 100000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "model": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    },
+    "origin": {
+      "enum": [
+        "llm_draft",
+        "software_fixture"
+      ]
+    },
+    "prompt_sha256": {
+      "maxLength": 64,
+      "minLength": 64,
+      "type": "string"
+    },
+    "provider": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "case_id",
+    "origin",
+    "provider",
+    "model",
+    "prompt_sha256",
+    "generated_at",
+    "draft"
+  ],
+  "type": "object"
+}

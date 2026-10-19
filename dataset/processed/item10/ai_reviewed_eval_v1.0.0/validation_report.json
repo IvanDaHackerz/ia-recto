@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "as_of": "2026-10-17",
+  "records_reviewed": 200,
+  "ai_approved": 200,
+  "human_approved": 0,
+  "wording_revisions": 91,
+  "topic_corrections": 2,
+  "primary_scope_changes": 0,
+  "classification_questions": 180,
+  "clarification_questions": 20,
+  "typing_scenario_families": 20,
+  "exact_duplicates": 0,
+  "exact_matches_to_existing_seed": 0,
+  "maximum_token_jaccard": 0.47368421052631576,
+  "semantic_independence_claimed": false,
+  "formula_errors": 0,
+  "formula_completion_checks": [
+    {
+      "set": "evaluation",
+      "complete": 100,
+      "pending": 0
+    },
+    {
+      "set": "typing",
+      "complete": 100,
+      "pending": 0
+    }
+  ],
+  "locked": false,
+  "training_data_modified": false,
+  "saved_file_checks": [
+    {
+      "set": "evaluation",
+      "source_text_preserved": true,
+      "review_matches_json_csv": true,
+      "formulas_preserved": true,
+      "native_tables_validations_freeze_merges_preserved": true
+    },
+    {
+      "set": "typing",
+      "source_text_preserved": true,
+      "review_matches_json_csv": true,
+      "formulas_preserved": true,
+      "native_tables_validations_freeze_merges_preserved": true
+    }
+  ],
+  "visual_verification": {
+    "method": "Read-only saved XLSX values/styles rendered with Pillow/openpyxl; every populated cell checked for height and wrapped-token width.",
+    "layout_findings": [],
+    "native_excel_ui_checked": false
+  },
+  "language_alignment_repairs": 6,
+  "final_content_recheck": {
+    "records": 200,
+    "topic_scope_primary_derivation_passed": true,
+    "exact_duplicate_or_seed_matches": 0,
+    "code_switching_repairs": 6
+  }
+}

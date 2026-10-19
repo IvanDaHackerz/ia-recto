@@ -1,0 +1,48 @@
+# Local website application
+
+Run `C:\IA\start-website.ps1` from the VS Code PowerShell terminal and open its printed URL. It selects free loopback ports starting at website 5173 and API 8766. An occupied port is skipped; an API is reused only when project identity and current runtime signature match. Ctrl+C stops the launcher session and the API child it started. Other processes remain running.
+
+Prerequisites: Python 3.12 in `.venv-item10`, pinned dependencies, the exact local multilingual embedding cache and Node.js/npm dependencies in `UI/UX/app`. See [setup/recovery](../../DEPLOYMENT_AND_RECOVERY.md) and `setup-project.ps1`. A second Vite session may use a different port. Restart older manually launched servers after updating backend code. `start-website.ps1 -PlanOnly` prints a non-mutating port/reuse plan.
+
+For separate terminals, run `python -m backend.application.server --port 8766` using the pinned Python, then `npm.cmd run dev -- --host 127.0.0.1 --port 5173 --strictPort` inside the app. `RECTO_API_TARGET` can select another exact `http://127.0.0.1:PORT` proxy. Extra UI origins must be explicitly allowed with the API's `--ui-port`. The Vite proxy allows 65 seconds; whole application work is bounded at 55 seconds. Static dist files need a same-origin API proxy. This is not a public deployment.
+
+## Endpoints
+
+- `GET /api/health`: cheap readiness, application identity, classifier/retrieval/verifier bindings, provider/history configuration and last local integrity-check time. It does not wait for provider generation or claim legal accuracy.
+- `POST /api/chat`: `question_text`, optional `request_id`, boolean `use_ai` (default true), boolean `save_history` (default false), optional owned `conversation_id`. Original classifier-only API remains stricter. Input limit: 8,000 characters and 64 KiB HTTP body. Each question is independent.
+- `POST /api/cancel`: only `request_id`. Cancels work belonging to the signed browser session and closes active upstream sockets. Work already processed by a provider may still be billed.
+- `GET /api/performance`: checksum-pinned development reports. Per-question correctness requires an existing expected label; a new unlabeled question has no accuracy/F1 score.
+- `GET /api/status`: health plus aggregate local daily provider attempts and estimated spending.
+- `GET /api/history`: browser-owned saved conversations, retention and availability. `GET /api/history/ID` or `/ID/export` returns that browser's saved packets. `DELETE /api/history/ID` or `DELETE /api/history` deletes only that browser's records.
+
+Requests validate exact loopback Host/Origin, body size/encoding and JSON structure. Random HttpOnly SameSite=Strict host-only browser cookies are HMAC signed using a persistent DPAPI-encrypted secret. This isolates local browser history but is not a deployed login system. The local API has bounded HTTP connections and four active question slots. Completed request IDs deduplicate for a five-minute reuse window; cache cleanup happens on subsequent requests/restart. Twelve new questions per browser per minute are allowed. Health/cancel requests have spare HTTP capacity.
+
+## Question and explanation path
+
+Known identifier patterns are redacted locally before any provider-bound inference. Original text stays local for display/history, except credential-like strings are removed even from that stored/display packet. Masking is best effort and can miss names or indirect identifiers; use fictional inputs. A safety/intent check precedes both LLM stages. Current harm can show an official emergency contact and skip LLM calls; the notice is not a comprehensive emergency detector.
+
+The custom classifier and source-filtered retrieval run locally. Decisive routing bypasses the conditional wording LLM. Where necessary, the normalizer proposes a full wording repair, local fact checks reject detectable changes, and an accepted interpretation is classified again. Missing deciding facts still require clarification.
+
+Supported questions may use the owner-enabled **development recorded-source explanation** path. The provider selects numbered verbatim passages supplied from eligible recorded text. The backend restores exact source bytes, rejects unknown/cross-concern selections, invented numeric facts and prohibited outcomes/excluded advice, and checks the strict claim/citation contract. A separate structured same-model support assessment must cover every claim and preserve qualifications, actor direction and scope. Missing/negative assessments withhold the whole explanation. No rejected raw draft reaches the client.
+
+Normal explanation generation uses two provider requests (draft + support), plus at most one conditional wording request. If complete assessments find only qualification or citation-support problems, one correction may be attempted when enough request time remains. Case-outcome, excluded-advice, invented-case-fact, insufficient-context and malformed/missing-assessment failures cannot trigger that path. The entire revised draft must clear citation/numeric/source checks and a new support assessment; at most four explanation requests are allowed. No transport request is automatically retried. Failures retain classification/sources and withhold the explanation. The UI reveals already checked text in bounded word batches, with Skip animation and immediate text for reduced motion. It does not stream unchecked tokens before verification. Component-aware citations open the correct source and highlight the selected exact passage within the complete stored provision.
+
+Both generation and assessment prompts include the exact response schema, with IDs and output counts bound to the supplied components/claims. Each assessment receives only its claim's cited full sources; an uncited candidate or another claim's source cannot supply positive support. Runtime checks still independently validate the returned structure, IDs, quotations, quantities and support. Written ordinal dates and date lists are compared with equivalent digits. HTTP failures have safe diagnostic codes; provider response bodies and rejected drafts are not returned to the browser.
+
+`source_issues.py` places the IRR holiday-pay Section 3 passage on an AI-inspected wording-discrepancy hold: the recorded text says worked holidays, while a government-hosted DOLE/BWC reference uses unworked holidays. It is excluded before generation and rejected again during citation validation. Original canonical text/index records remain unchanged and inspectable, with an explanation-use restriction shown in the UI. This hold is not an independent legal review or a currentness approval. [Focused repair report](../../outputs/holiday-explanation-repair-v1.0.0/REPORT.md).
+
+The same-model judge is not independent legal review. Development output flags keep `legal_support_verified:false` and `currentness_reviewed:false`. Trusted source/claim reviews, current-guidance display permission and deployment remain closed. Missing final-pay/MO28 evidence is surfaced with an official-record link; unverified text is not invented or promoted. Referrals display only field-confirmed directory values and do not certify jurisdiction.
+
+## Privacy, persistence and operating controls
+
+AI can be disabled in the composer or Settings: `use_ai:false` skips both provider stages. `RECTO_ENABLE_NORMALIZATION=0` and `RECTO_ENABLE_EXPLANATIONS=0` independently disable them on the server. Configuration stays server-side; never put API keys in Vite/browser environment variables.
+
+Default provider controls: 100 reserved attempts/day and $0.50/day estimated at configured rates, shared across local browser sessions. Failed attempts count; missing usage keeps the conservative reservation. `RECTO_MAX_DAILY_CALLS` (0–10000) and `RECTO_MAX_DAILY_USD` (0–100) override bounded limits. Unknown model prices block website export until configured. Three consecutive failures within a minute open the circuit; a healthy provider reply resets the streak. No automatic retries or redirects are used. Estimates are not confirmed provider billing; set provider-account limits too.
+
+Saving is explicit opt-in. `.local/website/history.sqlite3` contains gzip-compressed Windows-user DPAPI-encrypted response packets; no plaintext fallback. Owners are hashed signed browser tokens; conversations and turns have random IDs. Retention is 30 days, capped at 500 turns per owner, with access-time cleanup. The same Windows identity and browser cookie are required. History supports open/export/delete; JSON exports are readable. Old responses are marked recorded and not revalidated when opened. `.local` stays out of source control/shareable snapshots. No project question is used to train this classifier. Provider-side data policies/retention remain separate.
+
+## Verification and limitations
+
+Run `check-project.ps1` from the IA root. It checks dependencies, all backend tests, metrics, frontend interaction/a11y tests, lint, build and npm advisories. Source package tests have their own versioned reports. The Python advisory scan is recorded in the repair packet and should be rerun periodically against installed versions.
+
+The local-only report and whole-application AI replays use the same 436 synthetic development inputs. They are not independent people or a fresh holdout. Failures/withholding and repeated runs are preserved; same-model support acceptance is not generated-answer accuracy. Fresh independent human questions, source/currentness and legal-professional review, assistive-technology/user testing, key rotation, owner/adviser acceptance and a production deployment design remain outstanding. [Repair report](../../outputs/project-repair-v1.0.0/REPORT.md).

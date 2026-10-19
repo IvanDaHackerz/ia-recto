@@ -1,0 +1,6 @@
+{
+  "parent": "outputs/item11-retrieval-v1.3.2",
+  "source_records_unchanged": true,
+  "explicit_unworked_holiday_relevance_filter": true,
+  "independent_evaluation": false
+}

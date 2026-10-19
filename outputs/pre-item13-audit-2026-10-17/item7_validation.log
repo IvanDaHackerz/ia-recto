@@ -1,0 +1,15 @@
+{
+  "item": 7,
+  "validated_at": "2026-09-29",
+  "contract_version": "1.0.0",
+  "documents": 20,
+  "provisions": 1928,
+  "chunks": 2001,
+  "answer_eligible_provisions": 406,
+  "ocr_provisions_pending_human_review": 255,
+  "provisions_with_footnotes": 191,
+  "provisions_with_printed_page_locators": 589,
+  "provisions_quarantined_for_extraction_quality": 3,
+  "errors": [],
+  "status": "passed"
+}

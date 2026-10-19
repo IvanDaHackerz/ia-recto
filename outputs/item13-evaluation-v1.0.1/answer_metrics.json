@@ -1,0 +1,18 @@
+{
+  "answer_generation_allowed": false,
+  "answers_reviewed": 0,
+  "answers_supplied": 0,
+  "deployment_allowed": false,
+  "false_decline_rate": null,
+  "false_decline_unavailable_reason": "Needs independently adjudicated current-answerability labels for answered and declined questions.",
+  "license_attestation_is_not_machine_authentication": true,
+  "live_llm_calls": 0,
+  "missing_qualification_rate": null,
+  "reviewed_answer_quality_rate": null,
+  "reviewer_identity_authenticated": false,
+  "scoring_meaning": "Raw supplied drafts assessed against separately supplied operator review judgments; does not override Item 12 source/display gates.",
+  "software_fixture_mode": false,
+  "status": "not_measured",
+  "unreviewed_case_ids": [],
+  "unsupported_claim_rate": null
+}

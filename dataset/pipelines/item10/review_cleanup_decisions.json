@@ -1,0 +1,315 @@
+{
+  "repairs": {
+    "Q9_242918CB6EE1BFB1": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Saan po ako puwedeng lumapit if an online seller sent an item different from the listing?"
+      },
+      "reason": "Preserve the online listing meaning rather than changing it to a list.",
+      "reviewer": "Canaynay",
+      "source_row": 9
+    },
+    "Q9_35D89C064D6ACB3D": {
+      "cells": {
+        "J": "Change labels",
+        "K": "mixed",
+        "L": "partially_supported",
+        "M": "referral_ids=REF_DMW|REF_DTI_CARE"
+      },
+      "reason": "Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+      "referral_ids": [
+        "REF_DMW",
+        "REF_DTI_CARE"
+      ],
+      "reviewer": "Macaraig",
+      "source_row": 93
+    },
+    "Q9_3699BBA906C7642F": {
+      "cells": {
+        "J": "Labels correct",
+        "K": "",
+        "L": ""
+      },
+      "reason": "Restore the agreed scope: kasambahay is excluded; supported plus excluded is mixed/partially_supported, and a standalone kasambahay concern is out_of_scope/unsupported.",
+      "reviewer": "Abo",
+      "source_row": 94
+    },
+    "Q9_37B05541C51B6BD2": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Puwede po bang dumaan muna sa conciliation ang labor concern ko?"
+      },
+      "reason": "Express the original request for conciliation-process information clearly.",
+      "reviewer": "Macaraig",
+      "source_row": 43
+    },
+    "Q9_3E6CC0C5077D45CF": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Puwede po bang i-explain kung paano gumagana ang DTI consumer mediation?"
+      },
+      "reason": "Accept the reviewer replacement and correct gumagana.",
+      "reviewer": "Canaynay",
+      "source_row": 11
+    },
+    "Q9_4ACF98B99A42F6E7": {
+      "cells": {
+        "J": "Labels correct",
+        "K": "",
+        "L": "",
+        "M": ""
+      },
+      "reason": "Decline the proposed topic change: consumer.price_tags expressly includes exact-change concerns.",
+      "reviewer": "Emboltorio",
+      "source_row": 16
+    },
+    "Q9_4B4AB10655A17463": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Saan po ako puwedeng lumapit if a service provider refuses to correct clearly defective work?"
+      },
+      "reason": "Restore defective service work; do not turn the scenario into a defective-product complaint.",
+      "reviewer": "Montano",
+      "source_row": 14
+    },
+    "Q9_5076CE4AE2E67FD1": {
+      "cells": {
+        "J": "Change labels",
+        "K": "out_of_scope",
+        "L": "unsupported",
+        "M": "referral_ids=REF_PAO"
+      },
+      "reason": "Use qualified legal assistance for a seafarer onboard-pay dispute. The wording does not establish overseas versus domestic employment, so do not assume a specific employment forum; PAO assistance is subject to eligibility.",
+      "referral_ids": [
+        "REF_PAO"
+      ],
+      "reviewer": "Emboltorio",
+      "source_row": 115
+    },
+    "Q9_5364174BB963EDF8": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Allowed po ba na my supervisor requires overtime but calls it voluntary?"
+      },
+      "reason": "Correct ba and supervisor without changing the scenario.",
+      "reviewer": "Canaynay",
+      "source_row": 55
+    },
+    "Q9_58CB491C93663C15": {
+      "cells": {
+        "J": "Labels correct",
+        "K": "",
+        "L": ""
+      },
+      "reason": "Restore the agreed scope: kasambahay is excluded; supported plus excluded is mixed/partially_supported, and a standalone kasambahay concern is out_of_scope/unsupported.",
+      "reviewer": "Abo",
+      "source_row": 114
+    },
+    "Q9_5F0D6275176D37A4": {
+      "cells": {
+        "J": "Change labels",
+        "K": "mixed",
+        "L": "partially_supported",
+        "M": "referral_ids=REF_DMW|REF_DTI_CARE"
+      },
+      "reason": "Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+      "referral_ids": [
+        "REF_DMW",
+        "REF_DTI_CARE"
+      ],
+      "reviewer": "Macaraig",
+      "source_row": 98
+    },
+    "Q9_635BAB7850FDE02E": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Gusto ko po malaman kung kailan puwedeng mag-request ng repair, replacement, or refund."
+      },
+      "reason": "Correct spelling and phrasing while preserving the request for remedy information.",
+      "reviewer": "Abo",
+      "source_row": 19
+    },
+    "Q9_6F7BAE0F9F6FEB96": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Is it allowed for a sales promotion to use misleading conditions that were not clearly disclosed?"
+      },
+      "language_style": "en",
+      "reason": "Repair the grammar and spelling of the accepted English replacement. Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+      "reviewer": "Canaynay",
+      "source_row": 17
+    },
+    "Q9_6FFFC05C885AACEC": {
+      "cells": {},
+      "language_style": "en_tl",
+      "reason": "Record Taglish for the accepted final replacement; retain original English metadata in provenance.",
+      "reviewer": "Emboltorio",
+      "source_row": 59
+    },
+    "Q9_9CDEBAFE5FC27DF3": {
+      "cells": {
+        "J": "Change labels",
+        "K": "mixed",
+        "L": "partially_supported",
+        "M": "referral_ids=REF_DMW|REF_DTI_CARE"
+      },
+      "reason": "Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+      "referral_ids": [
+        "REF_DMW",
+        "REF_DTI_CARE"
+      ],
+      "reviewer": "Macaraig",
+      "source_row": 103
+    },
+    "Q9_A20958B9E670352F": {
+      "cells": {
+        "J": "Change labels",
+        "K": "mixed",
+        "L": "partially_supported",
+        "M": "referral_ids=REF_DMW|REF_DTI_CARE"
+      },
+      "reason": "Retain the DTI referral for the consumer issue and use DMW for the explicitly overseas seafarer deployment issue.",
+      "referral_ids": [
+        "REF_DMW",
+        "REF_DTI_CARE"
+      ],
+      "reviewer": "Macaraig",
+      "source_row": 104
+    },
+    "Q9_A440AC8D639E0454": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Tinanggihan ng shop ang warranty claim ko because I lost the original receipt."
+      },
+      "reason": "Correct spelling while preserving the lost-receipt warranty scenario.",
+      "reviewer": "Abo",
+      "source_row": 30
+    },
+    "Q9_AB4917257E6E1B2A": {
+      "cells": {},
+      "language_style": "en",
+      "reason": "Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+      "reviewer": "Canaynay",
+      "source_row": 25
+    },
+    "Q9_AE6653ED64358AF7": {
+      "cells": {
+        "J": "Change labels",
+        "K": "out_of_scope",
+        "L": "unsupported",
+        "M": "referral_ids=REF_DMW"
+      },
+      "reason": "Use DMW for the explicitly overseas seafarer deployment concern, rather than the MARINA STCW certification service.",
+      "referral_ids": [
+        "REF_DMW"
+      ],
+      "reviewer": "Abo",
+      "source_row": 129
+    },
+    "Q9_B26E8F8C6FEC1043": {
+      "cells": {},
+      "language_style": "en",
+      "reason": "Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+      "reviewer": "Canaynay",
+      "source_row": 65
+    },
+    "Q9_C562A8F98C7C6778": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Is a salesperson allowed to conceal an important defect before the sale?"
+      },
+      "language_style": "en",
+      "reason": "Repair the grammar and spelling of the accepted English replacement. Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+      "reviewer": "Canaynay",
+      "source_row": 30
+    },
+    "Q9_C5779FF763B27DC5": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "Allowed po ba na ang newly purchased appliance ay nasira agad after two days?"
+      },
+      "reason": "Correct newly purchased while preserving the Taglish scenario.",
+      "reviewer": "Macaraig",
+      "source_row": 30
+    },
+    "Q9_DD1542590D3ADD79": {
+      "cells": {
+        "H": "Revise wording",
+        "I": "What can I do if the seller has repaired the defective product several times but it still fails?"
+      },
+      "language_style": "en",
+      "reason": "Repair the replacement while preserving repeated failed repairs. Record English for the accepted final replacement; retain original Taglish metadata in provenance.",
+      "reviewer": "Canaynay",
+      "source_row": 35
+    },
+    "Q9_E23C881C1F7546E2": {
+      "cells": {
+        "J": "Labels correct",
+        "K": "",
+        "L": "",
+        "M": ""
+      },
+      "reason": "Decline the proposed topic change: consumer.price_tags expressly includes exact-change concerns.",
+      "reviewer": "Emboltorio",
+      "source_row": 39
+    },
+    "Q9_E4E2015E0D5E11E0": {
+      "cells": {
+        "J": "Change labels",
+        "K": "out_of_scope",
+        "L": "unsupported",
+        "M": "referral_ids=REF_DMW"
+      },
+      "reason": "Use DMW for the explicitly overseas seafarer deployment concern, rather than the MARINA STCW certification service.",
+      "referral_ids": [
+        "REF_DMW"
+      ],
+      "reviewer": "Abo",
+      "source_row": 136
+    },
+    "Q9_E891D6B3759F82C5": {
+      "cells": {
+        "J": "Change labels",
+        "K": "out_of_scope",
+        "L": "unsupported",
+        "M": "referral_ids=REF_PAO"
+      },
+      "reason": "Use qualified legal assistance for a seafarer onboard-pay dispute. The wording does not establish overseas versus domestic employment, so do not assume a specific employment forum; PAO assistance is subject to eligibility.",
+      "referral_ids": [
+        "REF_PAO"
+      ],
+      "reviewer": "Emboltorio",
+      "source_row": 137
+    }
+  },
+  "seed_sha256": "84e04c84f9329e2657772f41a3868baafb4ef33e42028fcacae79ca6cac56c5f",
+  "support_sources_sha256": {
+    "dataset\\data_contract\\topic_taxonomy.csv": "2f97e84279c0d4e971efb7b083aaf106d2e2fa3962dedcb8a188334c3e22d84d",
+    "dataset\\pipelines\\item10\\ANNOTATION_GUIDE.md": "be5d5a22788129912d665cb74361f5ebb624252c51e36fdde12f796caed91c04",
+    "dataset\\processed\\item9\\referral_directory.csv": "6a6ded1f1d01f5433d3b86f6d5293576f72c88e3002e4ee7c268566b58897b5a",
+    "outputs\\item10-review-audit\\action_list.csv": "288ce528fdafe21dd383dafd976c0482507fbb12c0d1b44def2a92d9e0e322f8",
+    "project_legal_scope.md": "38dc149a0d6c237c9dc4cc1d0bbadfa0c5a29a95b5a7a01cad26fef7b185ccdb"
+  },
+  "workbooks": [
+    {
+      "file": "ABO_item10_reviewer_2.xlsx",
+      "sha256": "e608a0c311727665bba0003fa90567d7e824e30cf4ed08ad055370b180703a57"
+    },
+    {
+      "file": "CANAYNAY_item10_reviewer_4.xlsx",
+      "sha256": "f22241c0a5ce176ad8e627e620e8d70c2615e3acb89376473dd8467515291a89"
+    },
+    {
+      "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+      "sha256": "a13aa21f6b4fe27a5bd12500bb7731251651ed73b277cbe418405e402d7b2c36"
+    },
+    {
+      "file": "MACARAIG_item10_reviewer_1.xlsx",
+      "sha256": "06b022f1b59675c95588a83594ab3ea3d6683d7ad24c3d80f4e2f17ed546f3dd"
+    },
+    {
+      "file": "MONTANO_item10_reviewer_3.xlsx",
+      "sha256": "1ae6b6212e9bccba46572422cc3b02e97e28309c8f2b5b2c557bc39277027d7d"
+    }
+  ]
+}

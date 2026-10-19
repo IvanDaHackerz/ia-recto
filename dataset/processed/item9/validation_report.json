@@ -1,0 +1,34 @@
+{
+  "item": 9,
+  "validated_at": "2026-09-30T07:07:47.388881+00:00",
+  "status": "passed",
+  "counts": {
+    "questions": 672,
+    "csv_rows": 672,
+    "parquet_rows": 672,
+    "scenario_groups": 378,
+    "referrals": 19,
+    "labels": {
+      "consumer": 176,
+      "labor": 160,
+      "mixed": 168,
+      "out_of_scope": 168
+    },
+    "splits": {
+      "test": 91,
+      "train": 490,
+      "validation": 91
+    },
+    "topics_represented": 42
+  },
+  "checks": {
+    "unique_question_ids": true,
+    "unique_question_text": true,
+    "group_safe_splits": true,
+    "all_taxonomy_topics_represented": true,
+    "all_synthetic_rows_human_review_gated": true,
+    "referral_sources_have_freshness_dates": true
+  },
+  "warnings": [],
+  "errors": []
+}

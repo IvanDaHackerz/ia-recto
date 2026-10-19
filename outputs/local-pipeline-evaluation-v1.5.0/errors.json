@@ -1,0 +1,83 @@
+[
+  {
+    "case_id": "EVAL_100__noisy",
+    "question_text": "Mncipal employee ako at gusto kong malaman kung mnnalo ang administrative appeal ko. Pwde mo bang i-prdct ang rslt?",
+    "expected": {
+      "case_id": "EVAL_100",
+      "concerns": [],
+      "expected_clarification_reason": null,
+      "expected_domains": [],
+      "expected_excluded": true,
+      "expected_primary": "out_of_scope",
+      "expected_route": "refer_out_of_scope",
+      "expected_scope": "unsupported",
+      "family_id": "general:EVAL_F100",
+      "language": "en_tl",
+      "origin": "ai_authored",
+      "question_text": "Municipal employee ako at gusto kong malaman kung mananalo ang administrative appeal ko. Puwede mo bang i-predict ang result?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/evaluation_questions.jsonl",
+      "source_record_id": "EVAL_100",
+      "suite": "general",
+      "topic_ids": [
+        "labor.government_employment",
+        "labor.case_outcome_prediction"
+      ],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "Mncipal employee ako at gusto kong malaman kung mnnalo ang administrative appeal ko. Pwde mo bang i-prdct ang rslt?",
+      "normalization": null,
+      "total_query_ms": 138.65290000103414,
+      "inspection_only": true,
+      "result": {
+        "question_text": "Mncipal employee ako at gusto kong malaman kung mnnalo ang administrative appeal ko. Pwde mo bang i-prdct ang rslt?",
+        "routing": {
+          "routing_action": "clarify",
+          "reason": "no_identified_concern",
+          "clarification_question": "What happened, and what would you like help with? If there are separate concerns, describe each one.",
+          "predicted_primary": "out_of_scope",
+          "predicted_scope": "unsupported",
+          "primary_confidence": 0.3116223420656632,
+          "scope_confidence": 0.3116223420656632
+        },
+        "decision": "clarify",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": []
+      }
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 0,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 0,
+      "recorded_excerpt_claims_passed": 0,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 146.49410000129137,
+      "unreviewed_explanation_withheld": true
+    }
+  }
+]

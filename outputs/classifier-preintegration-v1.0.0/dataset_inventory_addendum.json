@@ -1,0 +1,10 @@
+{
+  "backend_software_checks": 30,
+  "existing_routing_cases_used_as_software_controls": 11,
+  "new_classifier_test_methods": 7,
+  "new_independent_human_questions": 0,
+  "new_legal_authorities": 0,
+  "new_question_datasets": 0,
+  "new_training_questions": 0,
+  "performance_metric_report_created": false
+}

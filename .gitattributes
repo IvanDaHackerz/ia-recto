@@ -1,0 +1,6 @@
+# Runtime manifests bind exact source/artifact bytes. Preserve them on checkout,
+# including on Windows machines with core.autocrlf=true.
+* -text
+*.pdf binary
+dataset/consolidated.parquet filter=lfs diff=lfs merge=lfs -text
+dataset/juris.parquet filter=lfs diff=lfs merge=lfs -text

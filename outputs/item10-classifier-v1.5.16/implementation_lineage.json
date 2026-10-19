@@ -1,0 +1,13 @@
+{
+  "parent": "outputs/item10-classifier-v1.5.15",
+  "parent_checksums_sha256": "26e60d9714e791a0b865060d4dc69cffa4ca4baa10a9b10a2659dffb8e000ead",
+  "unchanged_learned_state": {
+    "atomic_weights": true,
+    "feature_vocabulary": true,
+    "calibration": true,
+    "thresholds": true,
+    "training_membership": true
+  },
+  "repair_informed_by_inspected_development_cases": true,
+  "new_training_questions": 0
+}

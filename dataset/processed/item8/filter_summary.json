@@ -1,0 +1,92 @@
+{
+  "item": 8,
+  "filter_version": "1.0.0",
+  "generated_at": "2026-09-29T09:51:22.809843+00:00",
+  "status_as_of": "2026-09-29",
+  "input": {
+    "consolidated_rows": 114340,
+    "source_counts": {
+      "acts": 4257,
+      "ao": 2811,
+      "bataspam": 887,
+      "comacts": 733,
+      "consti": 9,
+      "execord": 5750,
+      "genor": 81,
+      "juris": 68080,
+      "mc": 2220,
+      "mo": 2401,
+      "presdecs": 1845,
+      "proc": 13195,
+      "repacts": 12071
+    },
+    "category_counts": {
+      "consti": 9,
+      "executive": 26458,
+      "juris": 68080,
+      "statutes": 19793
+    },
+    "canonical_documents": 20,
+    "minimum_year": 1970
+  },
+  "results": {
+    "eligible_metadata_records": 28385,
+    "candidate_documents": 182,
+    "canonical_duplicates_removed": 9,
+    "internal_duplicates_removed": 1,
+    "missing_markdown_files": 0,
+    "review_priority_counts": {
+      "boundary_review": 125,
+      "low": 53,
+      "medium": 4
+    },
+    "predicted_domain_counts": {
+      "consumer": 7,
+      "labor": 163,
+      "mixed": 12
+    },
+    "supported_topic_counts": {
+      "labor.wages_payment": 79,
+      "labor.overtime_pay": 33,
+      "labor.termination_due_process": 33,
+      "labor.hours_of_work": 26,
+      "labor.employment_contracts": 22,
+      "labor.rest_days": 12,
+      "labor.holiday_premium_pay": 8,
+      "consumer.online_transactions": 8,
+      "consumer.warranties": 8,
+      "labor.thirteenth_month_pay": 7,
+      "consumer.general_framework": 6,
+      "labor.complaint_referral": 3,
+      "labor.final_pay_coe": 1,
+      "consumer.product_safety": 1
+    },
+    "excluded_topic_counts": {
+      "labor.government_employment": 66,
+      "consumer.investments": 48,
+      "consumer.insurance": 42,
+      "consumer.banking_credit": 25,
+      "labor.union_cba": 24,
+      "labor.pending_case": 17,
+      "labor.workers_compensation": 15,
+      "consumer.real_estate": 15,
+      "labor.regional_minimum_wage_amounts": 10,
+      "labor.ofw": 7,
+      "consumer.telecommunications": 5,
+      "labor.seafarers": 4,
+      "consumer.data_privacy": 3,
+      "labor.retirement_pension": 3,
+      "labor.occupational_safety": 1,
+      "labor.kasambahay": 1,
+      "consumer.medical_malpractice": 1
+    }
+  },
+  "safety": {
+    "all_candidates_discovery_only": true,
+    "all_candidates_answer_eligible_false": true,
+    "official_source_verification_required": true,
+    "jurisprudence_excluded": true,
+    "constitutions_excluded": true,
+    "candidate_text_not_copied_to_outputs": true
+  }
+}

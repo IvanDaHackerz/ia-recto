@@ -1,0 +1,11 @@
+{
+  "new_ai_development_questions": 0,
+  "new_independent_human_questions": 0,
+  "new_legal_authorities": 0,
+  "new_system_scenario_families": 0,
+  "new_training_examples": 0,
+  "reused_general_and_typing_questions": 200,
+  "reused_retrieval_queries": 67,
+  "reused_system_questions": 24,
+  "total_evaluation_cases": 291
+}

@@ -1,0 +1,11 @@
+{
+  "source_records_unchanged": true,
+  "trusted_reviews_unchanged": true,
+  "learned_state_unchanged": {
+    "atomic_weights": true,
+    "feature_vocabulary": true,
+    "calibration": true,
+    "thresholds": true,
+    "training_membership": true
+  }
+}

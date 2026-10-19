@@ -1,0 +1,33 @@
+{
+  "all_classifier_implementation_tasks_completed": true,
+  "all_project_issues_closed": false,
+  "as_of": "2026-10-18",
+  "deferred_by_owner": [
+    "Formal performance evaluation and independent holdout execution",
+    "Display metrics",
+    "Interactive terminal testing with owner",
+    "Website integration",
+    "LLM integration"
+  ],
+  "external_inputs_for_later": [
+    "Independent human-written/human-labeled questions",
+    "Required formal acceptance"
+  ],
+  "implemented": [
+    "Routing/background/follow-up repairs",
+    "Bounded spelling and scope/workplace recognition",
+    "Preserved confidence/clarification policy",
+    "Pinned local Python/HTTP adapter and schemas",
+    "Input/error/origin/size/concurrency handling",
+    "Versioned classifier and compatible dependency bindings",
+    "Current/historical documentation separation",
+    "Future evaluation protocol bindings"
+  ],
+  "scope": "Classifier preintegration implementation only",
+  "separate_project_workstreams": [
+    "Legal source coverage/currentness/support approvals",
+    "Referral-contact completion",
+    "Generated-answer and licensed legal review",
+    "Application history/database and release decisions"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "checks_passed": 43,
+  "normalizer_and_terminal_checks": 37,
+  "evaluation_runner_checks": 6,
+  "real_provider_calls_in_software_tests": 0,
+  "command": "python -m unittest backend.test_normalization_evaluation backend.test_normalization backend.test_terminal_test -v",
+  "note": "Synthetic/mocked software checks; actual model behavior is measured separately in this frozen comparison"
+}

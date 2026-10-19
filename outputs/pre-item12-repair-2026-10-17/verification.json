@@ -1,0 +1,25 @@
+{
+  "classifier_tests": {
+    "tests_run": 49,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "counterfactual_development_regressions": 19,
+    "accuracy_acceptance_is_separate": true
+  },
+  "retrieval_tests": {
+    "tests_run": 38,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "independent_legal_validation": false
+  },
+  "gold_intake_tests": 5,
+  "source_structure_tests": 3,
+  "frozen_seed_checks": 59,
+  "all_software_tests_passed": true,
+  "blank_intake_expected_to_fail": true,
+  "independent_human_gold_available": false
+}

@@ -1,0 +1,20 @@
+{
+  "7": {
+    "exit_code": 0,
+    "passed": true,
+    "errors": [],
+    "report": "item7_validation.json"
+  },
+  "8": {
+    "exit_code": 0,
+    "passed": true,
+    "errors": [],
+    "report": "item8_validation.json"
+  },
+  "9": {
+    "exit_code": 0,
+    "passed": true,
+    "errors": [],
+    "report": "item9_validation.json"
+  }
+}

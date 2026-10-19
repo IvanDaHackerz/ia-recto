@@ -1,0 +1,15 @@
+{
+  "experiment_history.json": "2311eb759f21bf2af91bd6f4da848fda45e4454a75995298dd754073b54a2c9c",
+  "human_gold_intake.jsonl": "b7783c3f7691f373e97ed0ed23fe35edbb6586c25ca312abfdc52721ff6878c9",
+  "human_gold_intake_validation.json": "2e6511ed361ba4a4a078794d8d436037f7ec6c8e6e04f1c61673da3824c512eb",
+  "HUMAN_REVIEW_HANDOFF.md": "41dd50102d4d3f6c5fc1882f89aad8cef867ef8027e38a820305b7b88f6db432",
+  "issue_ledger.json": "e6661dd1c69fb3c96293708b078ba706c510c02fb629313d8e755d7ce06448b4",
+  "public_source_audit.json": "550b3f88d90aa48c7d58720398c7e2b2de1d3b169523d66f6c0a696750b10d1f",
+  "public_source_audit_network.json": "14c1335c96640016a38b84184f06575ecd33f58fe96aca2ddbfbec40e3e0971d",
+  "REPAIR_REPORT.md": "cdc874b1551b3cec62dadc09a680cf895dd00a5378dc70e995a3907a4eaf64b5",
+  "verification.json": "252e73e40c1859c1fa244fd0be205622f1fa079422a0d1f86757517b86397301",
+  "source-repairs\\dti_structure_repairs.jsonl": "37a220e148eb2f1e69dd742876a737f64ee5428bc15a0cc39996401e762ff200",
+  "source-repairs\\final_pay_text_repairs.jsonl": "359c4deeb27d9462c32978a8658d1a94cc54cd273e7925a6e3d8e71f35937847",
+  "source-repairs\\source_repair_summary.json": "73cb52f153a5205c8867e9dfb44c31e2bc29df5598e906e45ae98d1074658532",
+  "source-repairs\\source_review_intake.jsonl": "533c56dc74325a4487eed36d156511318ec46bc4ad939bc273f1ed4980c0ecdf"
+}

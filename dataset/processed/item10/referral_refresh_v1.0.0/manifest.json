@@ -1,0 +1,16 @@
+{
+  "records": 19,
+  "records_with_confirmed_fields": 15,
+  "records_without_confirmed_operational_fields": [
+    "REF_NTC",
+    "REF_HSAC_DHSUD",
+    "REF_LTFRB",
+    "REF_PNP_ACG"
+  ],
+  "confirmed_field_count": 36,
+  "frozen_directory_modified": false,
+  "all_contacts_verified": false,
+  "source_sha256": "95bbdf891c6067d368d4bbf10b9b5c951ea19cb794008ddc5617a58919e413b6",
+  "default_classifier_directory_replaced": false,
+  "human_or_legal_approval_supplied": false
+}

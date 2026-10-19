@@ -1,0 +1,55 @@
+{
+  "dataset_version": "1.0.0",
+  "status": "ai_reviewed_development_benchmarks",
+  "as_of": "2026-10-17",
+  "actor": "Codex (AI reviewer; project-owner-authorized)",
+  "authorization": "Project owner requested full AI validation, natural wording and self-approval on 17 October 2026.",
+  "counts": {
+    "evaluation": 100,
+    "typing": 100,
+    "classification": 180,
+    "clarification": 20,
+    "ai_approved": 200,
+    "human_approved": 0
+  },
+  "locked": false,
+  "training_eligible": false,
+  "independent_human_gold": false,
+  "files_sha256": {
+    "evaluation_questions.csv": "2bd17be55d75f81111701e110aa2e5f7f17c6cc25de441aadfae9f87a25641cd",
+    "evaluation_questions.jsonl": "fe780075acdf799fbe8bce47b4dd1e86998a154e2babc47cc65682b696249dc3",
+    "overlap_screen.json": "277180713a9061317fcd1e79d53e123eedeed6364c51b52b2e3bffb404e09a7c",
+    "README.md": "3a3a12cdba09623194d35deecc898378a7ee02f58b8948cd3e207dbc3bb1e0f9",
+    "review_decisions.json": "bc281ee6c87dec4f71d9dccc6dc50a96f5d318f8e9e239036bbb7c950dc4ea2e",
+    "review_log.json": "8118e9a5939e9cc2cabe47b020e0b9e05542ead9b921ebbdca42eaaca6283cae",
+    "typing_questions.csv": "f6204d9287b52d2d3477cb7bbff83b7b839e668dc1a202d74aba49226d502323",
+    "typing_questions.jsonl": "fc5a27cd983b0d6d7b9c70de24bf744d98f66d214f987673c646749a261c98a7",
+    "validation_report.json": "47aea6865f1dc12e23a383ee3108187658f1219703dba979a778fccad7b25a7a"
+  },
+  "source_workbooks": [
+    {
+      "path": "C:/IA/outputs/item10-evaluation-review/item10_evaluation_review_draft.xlsx",
+      "sha256": "e028364be0d6923ed426e1f5a6a76300a593ec44d3715df2866a87a38e1a2d0c"
+    },
+    {
+      "path": "C:/IA/outputs/item10-typing-robustness-review/item10_typing_robustness_review.xlsx",
+      "sha256": "61ed2513f377d1ceea28ba5809f89c6a372b5d0cfc72357044ea89693ad48875"
+    }
+  ],
+  "reviewed_workbooks": [
+    {
+      "path": "C:/IA/outputs/item10-ai-reviewed-evaluation/item10_evaluation_ai_reviewed.xlsx",
+      "sha256": "b822f2fd05f0db8ac0f70f39ba8e919260e6ed8642b0e9991541b75ab3244873"
+    },
+    {
+      "path": "C:/IA/outputs/item10-ai-reviewed-evaluation/item10_typing_ai_reviewed.xlsx",
+      "sha256": "f13f25c7628e726b09daa5bc244b32527a0eec66a9e154936a9c2cf100249d71"
+    }
+  ],
+  "limitations": [
+    "AI-authored and AI-reviewed; not independent human validation.",
+    "Typing set has only 20 scenario families.",
+    "Semantic and writer-style independence are not established.",
+    "Development use; not a final locked holdout."
+  ]
+}

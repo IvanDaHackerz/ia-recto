@@ -1,0 +1,184 @@
+{
+  "actor": "Codex (AI reviewer; project-owner-authorized)",
+  "review_date": "2026-10-17",
+  "approval_scope": "exploratory_evaluation_only",
+  "eval_revisions": {
+    "EVAL_001": "I work at a private print shop. Payday passed, but the owner says we only get paid once customers settle their bills. Where can I ask for help?",
+    "EVAL_002": "Sa private grocery ako nagtatrabaho. Binabawas sa sahod namin yung kulang sa kaha, pero hindi sinasabi paano hinati yung amount. Puwede ba yun?",
+    "EVAL_003": "I'm a private-company employee. My payslip has a uniform deduction I never agreed to. Can they take that from my salary?",
+    "EVAL_005": "I work at the front desk of a private hotel. Even during lunch, I have to stay there and assist guests. Does that count as a meal break?",
+    "EVAL_007": "My private employer has moved my day off three times this month. What are the rules about changing rest-day schedules?",
+    "EVAL_009": "I'm an employee at a private company. My time sheet shows eleven hours, but I was paid for eight. How do I check the overtime?",
+    "EVAL_010": "Sa private company ako nagtatrabaho. Approved ng supervisor yung extra shift ko, pero walang OT sa payslip kasi di raw nakita ng payroll yung approval email. Ano ihahanda ko para ma-raise ito?",
+    "EVAL_011": "Our private office closed for a regular holiday, but payroll marked it unpaid. Should I still have been paid for that day?",
+    "EVAL_013": "I switched private employers halfway through the year. How does that affect my thirteenth-month pay from each one?",
+    "EVAL_014": "May basic salary at sales commission ako sa private shop. Kasama ba pareho sa computation ng 13th month?",
+    "EVAL_015": "My private employer says our year-end payment is an optional bonus. Is that different from thirteenth-month pay?",
+    "EVAL_016": "Probationary receptionist ako sa private clinic. Patapos na probation ko nang sabihin nila yung performance standards. Puwede bang ganun?",
+    "EVAL_017": "The offer I accepted from a private company listed one work location. On my first day, they gave me a contract with a different location. What should I check before signing?",
+    "EVAL_018": "Private factory employee ako. Pinapapirma kami ng resignation letter kahit gusto pa naming magtrabaho. Ano puwede naming gawin?",
+    "EVAL_019": "My private employer sent me a notice to explain, but it doesn't say what I'm accused of doing. What should that notice contain?",
+    "EVAL_020": "Nagsara yung branch ng private employer ko. Sa chat lang sinabi na last day na namin bukas. Ano dapat yung notice bago kami tanggalin?",
+    "EVAL_021": "I've left a private company and finished clearance. There's an adjustment in my final pay that nobody has explained. What records can I ask for?",
+    "EVAL_022": "Kailangan ko ng COE para mag-apply. Sabi ng dati kong private employer, bibigyan lang ako kung sa kanila ako babalik. Puwede ba yun?",
+    "EVAL_023": "My private employer still owes me wages. Can I go to SEnA first, or do I need to pay someone to file a case?",
+    "EVAL_025": "A private agency pays me, but I work at a supermarket. My salary hasn't arrived. Who can help me figure out where to raise the complaint?",
+    "EVAL_027": "The appliance shop replaced my rice cooker, but the replacement has a cracked handle. Do I have to accept it?",
+    "EVAL_029": "The shop took my laptop for a warranty repair. Now it wants me to pay for the repair without saying why the warranty won't cover it. What should I ask them?",
+    "EVAL_030": "Ilang beses ko nang binalik yung electric kettle sa authorized service center, pero pareho pa rin sira. Ano options ko bukod sa isa pang repair?",
+    "EVAL_031": "The store admits the chair it delivered was defective, but it's only offering a voucher. How is that different from a refund or replacement?",
+    "EVAL_033": "A furniture shop advertised free delivery. After I paid, it added a delivery fee. What should I keep as proof when I complain?",
+    "EVAL_035": "I asked a retailer to demonstrate an appliance. Now it says that means I agreed to buy it. Can it insist on that?",
+    "EVAL_037": "The cashier gave me candy instead of my remaining change and didn't ask first. Is that allowed?",
+    "EVAL_039": "A shop is still selling an extension cord that the manufacturer has recalled. Where can I report it, and what details should I include?",
+    "EVAL_041": "The repair shop returned my bicycle with the same problem. It also charged me for a part it admits it never installed. How do I complain?",
+    "EVAL_042": "Online appliance store yung seller. Ibang model ang dumating, pero ayaw nang tanggapin yung complaint dahil na-click ko na yung received. Ano puwede kong gawin?",
+    "EVAL_043": "An online store sent my order in two parcels. Only one arrived, and it won't check what happened to the other. Where can I complain?",
+    "EVAL_045": "I bought a second-hand washing machine from a registered appliance shop. Does consumer protection still apply because it's used?",
+    "EVAL_047": "I've emailed the retailer about a faulty keyboard, but it won't reply. What documents do I need for a DTI complaint?",
+    "EVAL_049": "If DTI sends my consumer complaint to another government office, what happens next?",
+    "EVAL_050": "Yung handwritten receipt ko, walang hiwalay na amount para sa item at add-on. Ayaw ipaliwanag ng store yung total. Saan ko puwedeng i-raise yung concern?",
+    "EVAL_051": "My private employer left overtime off my payslip. A shop also charged more than the price tag on a school bag I bought. What can I do about each one?",
+    "EVAL_053": "How do I ask my old private employer for a COE? I also need to file a DTI complaint about a repair shop. Where do I start?",
+    "EVAL_055": "My private-company thirteenth-month statement leaves out a month I worked. A furniture seller also added charges after I paid. What records do I need for each complaint?",
+    "EVAL_056": "Pinalitan yung weekly rest day ko sa private shop. May online store din na kulang ang pinadalang personal order ko. Ano gagawin ko sa bawat isa?",
+    "EVAL_057": "A private employer changed the job terms after I accepted. A laundry business also gave me someone else's clothes. What can I do about both problems?",
+    "EVAL_059": "My private employer is late paying wages, and a store misled me with its sale ad. How do I raise the wage issue with SEnA and the store issue with DTI?",
+    "EVAL_061": "My private employer deducted a uniform fee from my salary. An appliance shop also won't discuss replacing a faulty fan I bought. Where do I start with each complaint?",
+    "EVAL_062": "Required yung briefing after shift sa private warehouse namin. May online store din na binago yung agreed delivery fee ng personal purchase ko. Ano puwede kong gawin sa dalawang concern?",
+    "EVAL_063": "There's something I don't understand in my final-pay breakdown from a private employer. I also want to know exactly how much my SSS retirement pension will be. Can you help with both?",
+    "EVAL_064": "Hindi gumagana yung vacuum na binili ko sa appliance shop. May charge din sa bank account ko na hindi ko ginawa. Ano gagawin ko sa bawat issue?",
+    "EVAL_065": "I'm asking about overtime pay at my private job. My sister has a pay problem under her overseas employment contract too. Where do we each start?",
+    "EVAL_066": "May tanong ako sa regular-holiday pay sa private company ko. Magkano rin mismo yung minimum wage sa city namin ngayon?",
+    "EVAL_067": "A shop turned down my appliance warranty claim. Separately, my home insurer denied a claim under my insurance policy. How do I raise each dispute?",
+    "EVAL_068": "Ano rules sa probation sa private employer ko? May concern din ako sa promotion ng kapatid kong municipal employee. Saan kami magtatanong?",
+    "EVAL_070": "May reklamo ako sa paid laundry service. May online seller din na nag-post ng ID photo ko nang walang permiso. Ano gagawin ko sa bawat isa?",
+    "EVAL_071": "What are the rest-day rules for my private-sector job? I also want someone to assess whether our chemical-storage area meets technical workplace safety standards.",
+    "EVAL_072": "Lalapit sana ako sa SEnA dahil hindi pa bayad sahod ko sa private job. Yung pinsan kong seafarer may problema rin sa onboard pay. Saan naman siya lalapit?",
+    "EVAL_073": "How do I check my thirteenth-month pay at a private company? Also, if I file a dismissal case, can you tell me for sure whether I'll win?",
+    "EVAL_074": "Mas mataas yung singil sa grocery kaysa sa price label. Gusto ko ring ipa-compute yung employees' compensation disability benefit ng asawa ko. Paano sa bawat concern?",
+    "EVAL_075": "I have a question about my home appliance warranty. My cousin is a kasambahay whose household employer won't give her a rest day. What can each of us do?",
+    "EVAL_077": "My bank froze my savings account after a disputed transfer. Where can I complain, and how do I challenge it?",
+    "EVAL_079": "My insurer won't cover a hospital expense because it says the policy excludes it. Can you explain the exclusion and how to dispute it?",
+    "EVAL_081": "An investment adviser got me to put money in a fund, but now I can't withdraw it. How do I raise a securities complaint?",
+    "EVAL_083": "I cancelled my internet connection, but the provider keeps billing me. What telecom rules apply?",
+    "EVAL_085": "I asked a website to delete my ID document, but it kept it. Is that a data-privacy violation?",
+    "EVAL_087": "I think my surgeon made a mistake during my operation. Can you assess whether I have a medical-negligence claim?",
+    "EVAL_089": "The developer changed my condo's layout after I signed the purchase agreement. What housing complaint options do I have?",
+    "EVAL_091": "The airline changed my itinerary and I missed a connection. It's refusing compensation. What aviation rules apply?",
+    "EVAL_093": "My water provider added an adjustment for charges from years ago. Can you help me dispute its utility-billing calculation?",
+    "EVAL_095": "I paid a fake store page and then the page disappeared. How do I report it for a criminal cyberfraud investigation?",
+    "EVAL_096": "Magkano mismo ang minimum wage sa municipality namin ngayon, para sa industry at tranche ko? Exact pesos sana.",
+    "EVAL_097": "An online lender keeps contacting people in my phone list about my debt. What can I do about the collection calls and its use of my personal data?",
+    "EVAL_099": "My pension provider and investment broker disagree about fees on my retirement investment product. Can you explain the financial contracts?"
+  },
+  "topic_corrections": {
+    "EVAL_042": {
+      "supported_topic_ids": [
+        "consumer.online_transactions",
+        "consumer.deceptive_unfair_sales"
+      ],
+      "excluded_topic_ids": [],
+      "reason": "A different model is a goods-description or sales issue, not evidence that the delivered product is physically defective."
+    },
+    "EVAL_050": {
+      "supported_topic_ids": [
+        "consumer.complaint_referral"
+      ],
+      "excluded_topic_ids": [],
+      "reason": "Unexplained item/add-on charges support a complaint-routing question; the text does not establish a deceptive representation."
+    }
+  },
+  "typing_revisions": {
+    "TYPE_009": "For ten-hour shifts, no extra pay. Is that allowed for an employee of a private bakery?",
+    "TYPE_019": "A requested COE, my old private hotel employer won't give it to me. What are the rules?",
+    "TYPE_041": "I work for a private restaurant and want to check my thirteenth-month pay. A store also sold me a kettle that won't turn on. What can I do about each?",
+    "TYPE_044": "Yung kettle ko mula sa store ayaw umandar. Gusto ko ring i-check yung thirteenth-month pay ko bilang private restaurant employee. Paano sa bawat issue?",
+    "TYPE_045": "private restaurant employee here... question on my 13th month pay. also store-bought kettle, WON'T turn on!! what can i do about both?",
+    "TYPE_046": "Employee ako sa private salon. Ano yung weekly rest-day rules? Sa grocery naman, mas mataas ang singil kaysa shelf price. Ano gagawin ko sa dalawang issue?",
+    "TYPE_049": "The grocery charged more than the shelf price. I also need to check my weekly rest-day rights as an employee of a private salon. What can I do?",
+    "TYPE_050": "private salon employee... weekly rest day rules?? saka sa grocery, shelf price iba sa singil. help sa pareho pls",
+    "TYPE_055": "private factory employee here... wages UNPAID!! where can i get help? also exact minimum wage in my town TODAY, how much?",
+    "TYPE_060": "ayaw i-honor ng appliance store yung rice cooker WARRANTY... tapos ID ko nasa public page nila?? ano gagawin sa dalawa",
+    "TYPE_065": "municipal government employee... salary delayed again!! what civil-service remedy can i use?",
+    "TYPE_070": "bank credit card... disputed INTEREST charge!! anong banking rules pwede gamitin?",
+    "TYPE_071": "I'm a seafarer on an overseas ship. The company is withholding pay under my seafarer contract. What rules apply to my claim?",
+    "TYPE_075": "overseas ship seafarer here... PAY withheld under my seafarer contract!! what rules apply?",
+    "TYPE_080": "mobile phone plan ko... EXTRA charge sa service na di ko ginamit?? anong telecom rules dito",
+    "TYPE_085": "my employer... NO salary yet!! help please?",
+    "TYPE_086": "Ayaw nila i-refund yung binayad ko. Ano puwede kong gawin?",
+    "TYPE_087": "ayw nila irefund yng binayad ko, ano pwde gawin?",
+    "TYPE_090": "yung bayad ko... ayaw i-REFUND?? ano pwede gawin",
+    "TYPE_095": "my contract... they ended it!! what rights do i have?",
+    "TYPE_096": "Sobra yung charge nila sa akin. Saan ako puwedeng magreklamo?",
+    "TYPE_097": "sobra chrge nla sakin. san pwde magreklmo?",
+    "TYPE_100": "sobra yung CHARGE nila sakin... saan po magreklamo??"
+  },
+  "typing_language_corrections": {},
+  "review_findings": [
+    {
+      "ids": [
+        "EVAL_003",
+        "EVAL_005",
+        "EVAL_010"
+      ],
+      "issue": "Supported labor wording omitted an explicit private-sector context.",
+      "resolution": "Added private employment context without changing the drafted legal issue."
+    },
+    {
+      "ids": [
+        "EVAL_042",
+        "EVAL_050"
+      ],
+      "issue": "Proposed topic inferred a defect or deception not established in the question.",
+      "resolution": "Corrected topic tagging; primary and scope labels remain consumer/fully_supported."
+    },
+    {
+      "ids": [
+        "EVAL_067"
+      ],
+      "issue": "Original insurer wording described denial of a policy rather than a claim.",
+      "resolution": "Clarified that a claim under the policy was denied."
+    },
+    {
+      "ids": [
+        "EVAL_056"
+      ],
+      "issue": "Online order did not explicitly indicate a personal purchase.",
+      "resolution": "Clarified ordinary personal online purchase."
+    },
+    {
+      "ids": [
+        "EVAL_068"
+      ],
+      "issue": "Municipal promotion concern lacked a clearly identified employee.",
+      "resolution": "Identified a municipal-employee sibling."
+    },
+    {
+      "ids": [
+        "TYPE_081",
+        "TYPE_082",
+        "TYPE_083",
+        "TYPE_084",
+        "TYPE_085",
+        "TYPE_086",
+        "TYPE_087",
+        "TYPE_088",
+        "TYPE_089",
+        "TYPE_090",
+        "TYPE_091",
+        "TYPE_092",
+        "TYPE_093",
+        "TYPE_094",
+        "TYPE_095",
+        "TYPE_096",
+        "TYPE_097",
+        "TYPE_098",
+        "TYPE_099",
+        "TYPE_100"
+      ],
+      "issue": "Facts needed to distinguish domain or scope are absent.",
+      "resolution": "Approved as clarification tests only; primary and scope remain null."
+    }
+  ]
+}

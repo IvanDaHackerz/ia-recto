@@ -1,0 +1,15 @@
+{
+  "searched_domains": [
+    "labor"
+  ],
+  "route": "retrieve_supported_components",
+  "excluded_topics": [
+    "consumer.real_estate"
+  ],
+  "passed": true,
+  "scope": "partially_supported",
+  "historical_metrics_marked_current": false,
+  "explanation": "withheld",
+  "primary": "mixed",
+  "wording_llm_calls": 0
+}

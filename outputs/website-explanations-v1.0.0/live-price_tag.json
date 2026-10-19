@@ -1,0 +1,643 @@
+{
+  "inspection_only": true,
+  "labeled_evaluation": false,
+  "original_question_text": "The shop charged more at checkout than the price tag on the blender I bought. What does the recorded rule say?",
+  "normalization": {
+    "version": "conditional-normalization-v3.0.0",
+    "original_question_text": "The shop charged more at checkout than the price tag on the blender I bought. What does the recorded rule say?",
+    "normalized_question_text": null,
+    "effective_question_text": "The shop charged more at checkout than the price tag on the blender I bought. What does the recorded rule say?",
+    "gate": {
+      "needed": false,
+      "reason": "raw_question_understood",
+      "trigger_spans": [],
+      "mode": "whole_question_interpretation"
+    },
+    "status": "bypassed",
+    "reason": "raw_question_understood",
+    "llm_calls": 0,
+    "elapsed_ms": 0.0,
+    "edits": [],
+    "usage": {},
+    "provider": null,
+    "model": null,
+    "clarification_question": null,
+    "performance_evaluation_completed": false,
+    "meaning_preservation_guaranteed": false,
+    "validation_failure": null
+  },
+  "clarification_follow_up": null,
+  "total_query_ms": 4455.130800000916,
+  "result": {
+    "schema_version": "1.0",
+    "verifier_version": "item12-verifier-v1.0.8",
+    "question_text": "The shop charged more at checkout than the price tag on the blender I bought. What does the recorded rule say?",
+    "question_sha256": "e586b3fe64de8b782060b567e6eec856596c16bbdc25999693fc8d70feb80de0",
+    "mode": "current_guidance",
+    "as_of": "2026-10-19",
+    "classifier_version": "item10-classifier-v1.5.13",
+    "index_version": "item11-retrieval-v1.2.9",
+    "policy_sha256": "634a11090d36987805c9c6b7a0153d90fab7bce8d35cc43c5b65ac4abf73d3b4",
+    "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+    "software_fixture_mode": false,
+    "answer_generation_allowed": false,
+    "deployment_allowed": false,
+    "display_allowed": false,
+    "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+    "routing": {
+      "routing_action": "retrieve_supported_evidence",
+      "reason": "supported_candidate_requires_evidence",
+      "clarification_question": null,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_confidence": 0.870028282133089,
+      "scope_confidence": 0.9348670261969897
+    },
+    "excluded_components": [],
+    "referral_ids": [],
+    "components": [
+      {
+        "component_id": "concern_001",
+        "query": "the shop charged more at checkout than the price tag on the blender i bought. what does the recorded rule say",
+        "allowed_domain": "consumer",
+        "retrieval_status": "candidates_found",
+        "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+        "candidates": [
+          {
+            "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+            "provision_id": "RA_7394_1992__art_81",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 81",
+            "heading": "Price Tag Requirement",
+            "display_text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 790,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 114291,
+              "source_char_end": 115083
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+            "document_title": "Consumer Act of the Philippines",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+            "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+            "domains": [
+              "consumer"
+            ],
+            "supported_topics": [
+              "consumer.price_tags"
+            ],
+            "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+            "conditions": [
+              "Pair with the responsible agency's current topic-specific rule and later special law."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_013",
+                "source_document_id": "DTI_DAO_02_1993",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "General Consumer Act rules",
+                "effective_or_issue_date": "1993",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "high",
+                "note": "Use subject to later topic-specific rules."
+              },
+              {
+                "relationship_id": "LSR_015",
+                "source_document_id": "DTI_DAO_20_02",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "governs_complaint_procedure",
+                "scope": "DTI consumer mediation and adjudication",
+                "effective_or_issue_date": "2020",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "high",
+                "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+              },
+              {
+                "relationship_id": "LSR_018",
+                "source_document_id": "RA_11967_2023",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "operates_alongside",
+                "scope": "Online consumer protection and DTI compliance",
+                "effective_or_issue_date": "2023-12-05",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                "confidence": "high",
+                "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 15.607137895539669,
+            "bm25_score": 15.607137895539669,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false
+          },
+          {
+            "chunk_id": "RA_10909_2016__sec_3__chunk_0001",
+            "provision_id": "RA_10909_2016__sec_3",
+            "document_id": "RA_10909_2016",
+            "citation_display": "Republic Act No. 10909, SEC. 3",
+            "heading": "Definition of Terms",
+            "display_text": "SEC. 3. Definition of Terms. – For the purpose of this Act, the following terms shall mean;\n\n(a) Business establishment – any person, natural or juridical, whether single proprietorship, partnership or corporation, including a government-owned and-controlled corporation or a government entity exercising its proprietary functions, engaged in, or doing business in the Philippines, either in selling goods or providing services;\n\n(b) Change – the excess in the payment given by a consumer for goods and services purchased or received from a business establishment;\n\n(c) Consumer – a natural person who purchases goods or services in cash;\n\n(d) Goods – all types of tangible property that could be bought and sold, and the possession of which could be transferred in whole or in part, temporarily or permanently;\n\n(e) Gross sales – the total invoice value of sales, before deducting for customer discount, allowances and returns;.\n\n(f) Insufficient change – a change that is less than what is due the consumers;\n\n(g) Price – tag any device written, printed, affixed or attached to a good, or displayed in a consumer retail or service establishment for the purpose of indicating the retail price per unit or services;\n\n(h) Services – all types of commercial activities which enable the supply, access to, consumption or use of goods, intellectual property or other services; and\n\n(i) Shortchange – the act of giving insufficient or no change to a consumer who purchased a product or service.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 1489,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 1225,
+              "source_char_end": 2716
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "SEC. 3. Definition of Terms. – For the purpose of this Act, the following terms shall mean;\n\n(a) Business establishment – any person, natural or juridical, whether single proprietorship, partnership or corporation, including a government-owned and-controlled corporation or a government entity exercising its proprietary functions, engaged in, or doing business in the Philippines, either in selling goods or providing services;\n\n(b) Change – the excess in the payment given by a consumer for goods and services purchased or received from a business establishment;\n\n(c) Consumer – a natural person who purchases goods or services in cash;\n\n(d) Goods – all types of tangible property that could be bought and sold, and the possession of which could be transferred in whole or in part, temporarily or permanently;\n\n(e) Gross sales – the total invoice value of sales, before deducting for customer discount, allowances and returns;.\n\n(f) Insufficient change – a change that is less than what is due the consumers;\n\n(g) Price – tag any device written, printed, affixed or attached to a good, or displayed in a consumer retail or service establishment for the purpose of indicating the retail price per unit or services;\n\n(h) Services – all types of commercial activities which enable the supply, access to, consumption or use of goods, intellectual property or other services; and\n\n(i) Shortchange – the act of giving insufficient or no change to a consumer who purchased a product or service.",
+            "document_title": "No Shortchanging Act of 2016",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/70322",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/70322",
+            "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_10909_2016_scel.html",
+            "domains": [
+              "consumer"
+            ],
+            "supported_topics": [
+              "consumer.price_tags"
+            ],
+            "legal_status": "in_force",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Use together with DAO 16-03 and current DTI enforcement guidance.",
+            "conditions": [
+              "Use together with DAO 16-03 and current DTI enforcement guidance."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_014",
+                "source_document_id": "DTI_DAO_16_03",
+                "target_document_id": "RA_10909_2016",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "No Shortchanging Act",
+                "effective_or_issue_date": "2016-12-21",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://www.dti.gov.ph/dti-news-archived/dti-region-11-news-archived/dti-dti-issues-irr-on-no-shortchanging-act-2",
+                "confidence": "high",
+                "note": "Pair statutory duties and penalties with this IRR."
+              },
+              {
+                "relationship_id": "LSR_016",
+                "source_document_id": "DTI_DAO_20_02",
+                "target_document_id": "RA_10909_2016",
+                "target_citation_if_external": "",
+                "relationship_type": "governs_complaint_procedure",
+                "scope": "DTI handling of covered No Shortchanging complaints",
+                "effective_or_issue_date": "2020",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "medium_high",
+                "note": "Use only where the complaint falls within DTI jurisdiction."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 15.52121614795395,
+            "bm25_score": 15.52121614795395,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+            "provision_id": "RA_7394_1992__art_83",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 83",
+            "heading": "Regulations for Price Tag Placement",
+            "display_text": "ART. 83. Regulations for Price Tag Placement. - The concerned department shall prescribe rules and regulations for the visible placement of price tags for specific consumer products and services. There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 284,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 115258,
+              "source_char_end": 115544
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "ART. 83. Regulations for Price Tag Placement. - The concerned department shall prescribe rules and regulations for the visible placement of price tags for specific consumer products and services. There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+            "document_title": "Consumer Act of the Philippines",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+            "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+            "domains": [
+              "consumer"
+            ],
+            "supported_topics": [
+              "consumer.price_tags"
+            ],
+            "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+            "conditions": [
+              "Pair with the responsible agency's current topic-specific rule and later special law."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_013",
+                "source_document_id": "DTI_DAO_02_1993",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "General Consumer Act rules",
+                "effective_or_issue_date": "1993",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "high",
+                "note": "Use subject to later topic-specific rules."
+              },
+              {
+                "relationship_id": "LSR_015",
+                "source_document_id": "DTI_DAO_20_02",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "governs_complaint_procedure",
+                "scope": "DTI consumer mediation and adjudication",
+                "effective_or_issue_date": "2020",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "high",
+                "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+              },
+              {
+                "relationship_id": "LSR_018",
+                "source_document_id": "RA_11967_2023",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "operates_alongside",
+                "scope": "Online consumer protection and DTI compliance",
+                "effective_or_issue_date": "2023-12-05",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                "confidence": "high",
+                "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 14.216133997783016,
+            "bm25_score": 14.216133997783016,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_95__chunk_0001",
+            "provision_id": "RA_7394_1992__art_95",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 95",
+            "heading": "Penalties",
+            "display_text": "ART. 95. Penalties. -\nAny person who shall violate the provisions of Title III, Chapter IV of this Act, or its implementing rules and regulations, except Articles 81 to 83 of the same chapter, shall be subject to a fine of not less than Five hundred pesos (P500.00) but not more than Twenty thousand pesos (P20,000.00) or imprisonment of not less than three (3) months but not more than two (2) years or both, at the discretion of the court: Provided, That, if the consumer product is one which is not a food, cosmetic, drug, device or hazardous substance, the penalty shall be a fine of not less than Two hundred pesos (P200.00) but not more than Five thousand pesos (P5,000.00) or imprisonment of not less than one (1) month but not more than one (1) year or both, at the discretion of the court.\n\nAny person who violates the provisions of Article 81 to 83 for the first time shall be subject to a fine of not less than Two hundred pesos (P200.00) but not more than Five thousand pesos (P5,000.00) or by imprisonment of not less than one (1) month but not more than six (6) months or both, at the discretion of the court. A second conviction under this paragraph shall also carry with it the penalty of revocation of business permit and license.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 1247,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 130732,
+              "source_char_end": 131980
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "ART. 95. Penalties. -\nAny person who shall violate the provisions of Title III, Chapter IV of this Act, or its implementing rules and regulations, except Articles 81 to 83 of the same chapter, shall be subject to a fine of not less than Five hundred pesos (P500.00) but not more than Twenty thousand pesos (P20,000.00) or imprisonment of not less than three (3) months but not more than two (2) years or both, at the discretion of the court: Provided, That, if the consumer product is one which is not a food, cosmetic, drug, device or hazardous substance, the penalty shall be a fine of not less than Two hundred pesos (P200.00) but not more than Five thousand pesos (P5,000.00) or imprisonment of not less than one (1) month but not more than one (1) year or both, at the discretion of the court.\n\nAny person who violates the provisions of Article 81 to 83 for the first time shall be subject to a fine of not less than Two hundred pesos (P200.00) but not more than Five thousand pesos (P5,000.00) or by imprisonment of not less than one (1) month but not more than six (6) months or both, at the discretion of the court. A second conviction under this paragraph shall also carry with it the penalty of revocation of business permit and license.",
+            "document_title": "Consumer Act of the Philippines",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+            "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+            "domains": [
+              "consumer"
+            ],
+            "supported_topics": [
+              "consumer.product_safety"
+            ],
+            "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+            "conditions": [
+              "Pair with the responsible agency's current topic-specific rule and later special law."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_013",
+                "source_document_id": "DTI_DAO_02_1993",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "General Consumer Act rules",
+                "effective_or_issue_date": "1993",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "high",
+                "note": "Use subject to later topic-specific rules."
+              },
+              {
+                "relationship_id": "LSR_015",
+                "source_document_id": "DTI_DAO_20_02",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "governs_complaint_procedure",
+                "scope": "DTI consumer mediation and adjudication",
+                "effective_or_issue_date": "2020",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "high",
+                "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+              },
+              {
+                "relationship_id": "LSR_018",
+                "source_document_id": "RA_11967_2023",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "operates_alongside",
+                "scope": "Online consumer protection and DTI compliance",
+                "effective_or_issue_date": "2023-12-05",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                "confidence": "high",
+                "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 8.12157394920705,
+            "bm25_score": 8.12157394920705,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_111__chunk_0001",
+            "provision_id": "RA_7394_1992__art_111",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 111",
+            "heading": "Price Comparisons",
+            "display_text": "ART. 111. Price Comparisons. - Comparative price advertising by sellers of consumer products or services shall conform to the following conditions:\nWhere the comparison relates to a former price of the seller, the item compared shall either have been sold at that price within ninety (90) days immediately preceding the date of the advertisement, or it shall have been offered for sale for at least four (4) weeks during such ninety-day period. If the comparison does not relate to an item sold or offered for sale during the ninety-day period, the date, time or seasonal period of such sale or offer shall be disclosed in the advertisement.\n\nWhere the comparison relates to a seller's future price, the future price shall take effect on the date disclosed in the advertisement or within ninety (90) days after the price comparison is stated in the advertisement. The stated future price shall be maintained by the seller for a period of at least four (4) weeks after its effective date: Provided, That compliance thereof may be dispensed with in case of circumstances beyond the seller's control.\n\nWhere the comparison relates to a competitor's price, the competitor's price shall relate to the consumer products or services advertised or sold in the ninety-day period and shall be representative of the prices similar consumer products or services are sold or advertised in the locality where the price comparison was made.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 1425,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 142071,
+              "source_char_end": 143497
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "ART. 111. Price Comparisons. - Comparative price advertising by sellers of consumer products or services shall conform to the following conditions:\nWhere the comparison relates to a former price of the seller, the item compared shall either have been sold at that price within ninety (90) days immediately preceding the date of the advertisement, or it shall have been offered for sale for at least four (4) weeks during such ninety-day period. If the comparison does not relate to an item sold or offered for sale during the ninety-day period, the date, time or seasonal period of such sale or offer shall be disclosed in the advertisement.\n\nWhere the comparison relates to a seller's future price, the future price shall take effect on the date disclosed in the advertisement or within ninety (90) days after the price comparison is stated in the advertisement. The stated future price shall be maintained by the seller for a period of at least four (4) weeks after its effective date: Provided, That compliance thereof may be dispensed with in case of circumstances beyond the seller's control.\n\nWhere the comparison relates to a competitor's price, the competitor's price shall relate to the consumer products or services advertised or sold in the ninety-day period and shall be representative of the prices similar consumer products or services are sold or advertised in the locality where the price comparison was made.",
+            "document_title": "Consumer Act of the Philippines",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+            "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+            "domains": [
+              "consumer"
+            ],
+            "supported_topics": [
+              "consumer.misleading_advertising"
+            ],
+            "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+            "conditions": [
+              "Pair with the responsible agency's current topic-specific rule and later special law."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_013",
+                "source_document_id": "DTI_DAO_02_1993",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "General Consumer Act rules",
+                "effective_or_issue_date": "1993",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "high",
+                "note": "Use subject to later topic-specific rules."
+              },
+              {
+                "relationship_id": "LSR_015",
+                "source_document_id": "DTI_DAO_20_02",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "governs_complaint_procedure",
+                "scope": "DTI consumer mediation and adjudication",
+                "effective_or_issue_date": "2020",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                "confidence": "high",
+                "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+              },
+              {
+                "relationship_id": "LSR_018",
+                "source_document_id": "RA_11967_2023",
+                "target_document_id": "RA_7394_1992",
+                "target_citation_if_external": "",
+                "relationship_type": "operates_alongside",
+                "scope": "Online consumer protection and DTI compliance",
+                "effective_or_issue_date": "2023-12-05",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                "confidence": "high",
+                "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 7.7077230368258585,
+            "bm25_score": 7.7077230368258585,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false
+          }
+        ],
+        "evidence_gates": [
+          {
+            "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          },
+          {
+            "chunk_id": "RA_10909_2016__sec_3__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [
+              "DTI_DAO_16_03"
+            ],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Use together with DAO 16-03 and current DTI enforcement guidance.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_95__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_111__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          }
+        ],
+        "evidence_ready": false
+      }
+    ],
+    "offline_drafting_allowed": false,
+    "all_supported_components_evidence_ready": false,
+    "decision": "insufficient_evidence"
+  },
+  "explanation": {
+    "status": "generated",
+    "reason": "recorded_sources_citations_checked",
+    "llm_calls": 1,
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "The rule says it is unlawful to sell a consumer product at a price higher than the price shown on its tag or label, and the product must have a visible price tag or a price list nearby if a tag is impractical.  It states: “It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers” (RA_7394_1992__art_81__chunk_0001).",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+            "provision_id": "RA_7394_1992__art_81",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 81",
+            "quote": "It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers",
+            "start": 34,
+            "end": 342
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_001",
+        "text": "The law also requires that price tags be placed visibly and not altered in any way, reinforcing the prohibition against charging more than the displayed price.  It provides: “There shall be no erasures or alterations of any sort of price tags, labels or markings.” (RA_7394_1992__art_83__chunk_0001).",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+            "provision_id": "RA_7394_1992__art_83",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 83",
+            "quote": "There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+            "start": 196,
+            "end": 284
+          }
+        ]
+      }
+    ],
+    "mode": "development_recorded_sources",
+    "citations_checked": true,
+    "legal_support_verified": false,
+    "currentness_reviewed": false,
+    "usage": {
+      "prompt_tokens": 1121,
+      "completion_tokens": 423,
+      "total_tokens": 1544
+    },
+    "provider": "together",
+    "model": "openai/gpt-oss-120b"
+  },
+  "safety_notice": null,
+  "request_id": "5a953a933aff42f497103ef7b6839b0c",
+  "schema_version": "1.0"
+}

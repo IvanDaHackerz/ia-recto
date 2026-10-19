@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-19",
+  "role": "local_development_integration",
+  "software_tests": {
+    "passed": 18,
+    "live_llm_calls": 0,
+    "http": "loopback only; sandbox socket restriction required approved local execution"
+  },
+  "frontend": {
+    "build": "passed",
+    "lint": "passed",
+    "metric_numeric_comparisons": 174,
+    "confusion_matrices": "exact across both paths and all/clear/noisy strata",
+    "edge_checks": [
+      "language subsets",
+      "empty data",
+      "withheld labels remain in denominator"
+    ]
+  },
+  "browser": {
+    "tested": [
+      "real local labor query",
+      "full recorded provision",
+      "confidence",
+      "noisy-input metric filter",
+      "issue filter",
+      "mobile Sources/Back",
+      "mobile detailed table scrolling"
+    ],
+    "console_errors_or_warnings": 0,
+    "mobile_viewport_width": 390,
+    "mobile_document_width": 390
+  },
+  "ui_review": {
+    "initial_disposition": "fix",
+    "finding": "Fixed two-deferral text did not follow selected subset/pipeline",
+    "fix": "Compute withheld count from selected labeled rows and path",
+    "verdict": "ship",
+    "verdict_scope": "single scored fix; no introduced regressions observed"
+  },
+  "documentation_review": "ordinary extension; no system changes; pre-existing PRODUCT.md drift remains",
+  "classifier_changed": false,
+  "legal_records_changed": false,
+  "training_changed": false,
+  "answer_generation_allowed": false,
+  "display_allowed": false,
+  "deployment_allowed": false,
+  "explanation_adapter_implemented": true,
+  "explanation_live_call_tested": false,
+  "independent_human_evaluation": false,
+  "known_new_model_issue": "joined_concerns_at_can_lose_supported_clause"
+}

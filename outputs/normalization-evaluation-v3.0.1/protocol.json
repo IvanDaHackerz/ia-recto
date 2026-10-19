@@ -1,0 +1,47 @@
+{
+  "version": "normalization-evaluation-v3.0.1",
+  "role": "development",
+  "prepared_at_utc": "2026-10-19T11:11:12.981417+00:00",
+  "classifier": "outputs/item10-classifier-v1.5.12",
+  "retrieval": "outputs/item11-retrieval-v1.2.8",
+  "verifier": "outputs/item12-verifier-v1.0.7",
+  "normalizer_version": "conditional-normalization-v3.0.0",
+  "provider": "together",
+  "model": "openai/gpt-oss-120b",
+  "base_questions": 171,
+  "input_forms": 436,
+  "pipeline_executions": 872,
+  "baseline_note": "Both paths use the pinned current classifier, including its local spelling features. Historical classifier/pipeline comparisons require matched earlier observations.",
+  "maximum_llm_requests": 5,
+  "cost_stop_usd": 0.5,
+  "pricing_usd_per_million_tokens": {
+    "input": 0.15,
+    "output": 0.6
+  },
+  "pricing_source": "https://www.together.ai/pricing",
+  "pricing_verified_date": "2026-10-19",
+  "generation_seed": 20261019,
+  "selection_quotas": null,
+  "suite": "frozen_local_replay",
+  "case_freeze": "outputs/local-pipeline-cases-v1.1.0",
+  "case_freeze_sha256": "f5026391cfe15c74dd285b8dd6a77687a48795bedcbd39bbcca47c3a0f6365bc",
+  "case_judgment_correction": {
+    "case_id": "joined_english",
+    "previous_relevant_ids": [
+      "LAB_CODE_2022__art_87"
+    ],
+    "new_relevant_ids": [],
+    "reason": "Question mentions wages, not overtime. No new relevance judgment claimed; mark retrieval unjudged.",
+    "previous_case_freeze": "outputs/local-pipeline-cases-v1.0.0",
+    "original_424_inputs_and_expectations_unchanged": true
+  },
+  "suite_note": null,
+  "fresh_after": null,
+  "fresh_selection": null,
+  "execution_order": "alternate baseline-first and normalized-first by input index",
+  "semantic_review_protocol": "Codex AI audit of accepted rewrites using a queue without labels, predictions or metrics; not independent human review",
+  "capture_development_diagnostics": true,
+  "formal_acceptance_allowed": false,
+  "answer_generation_allowed": false,
+  "deployment_allowed": false
+}

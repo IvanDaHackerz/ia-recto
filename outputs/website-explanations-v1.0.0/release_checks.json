@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-19T12:07:49.883663+00:00",
+  "packages": {
+    "item10-classifier-v1.5.13": {
+      "files": 49,
+      "passed": true
+    },
+    "item11-retrieval-v1.2.9": {
+      "files": 25,
+      "passed": true
+    },
+    "item12-verifier-v1.0.8": {
+      "files": 19,
+      "passed": true
+    }
+  },
+  "backend_tests_passed": 126,
+  "combined_software_tests_passed": 271,
+  "performance_numeric_comparisons_passed": 261,
+  "frontend_build": "passed",
+  "frontend_lint": "passed",
+  "local_live_health": "ready",
+  "local_frontend_status": 200,
+  "local_weather_smoke": {
+    "route": "refer_out_of_scope",
+    "primary": "out_of_scope",
+    "coverage": "unsupported",
+    "wording_calls": 0,
+    "explanation_calls": 0
+  },
+  "finish_review": "ship_ui_extension_only",
+  "documentation_review": "no_design_system_changes_needed",
+  "legal_quality_approved": false,
+  "independent_acceptance": false
+}

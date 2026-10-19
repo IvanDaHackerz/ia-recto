@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+  File "C:\IA\.local\release-validation-v1.0.0\backend\terminal_test.py", line 31, in load_runtime
+    verify_packet(ROOT / current["verifier"], runtime=True)
+  File "C:\IA\.local\release-validation-v1.0.0\dataset\pipelines\item13\evaluation_common.py", line 116, in verify_packet
+    if sha(path / name) != expected:
+       ^^^^^^^^^^^^^^^^
+  File "C:\IA\.local\release-validation-v1.0.0\dataset\pipelines\item13\evaluation_common.py", line 51, in sha
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\IA\\.local\\release-validation-v1.0.0\\outputs\\item12-verifier-v1.0.9\\classifier_tests.log'

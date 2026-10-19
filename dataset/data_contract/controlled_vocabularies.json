@@ -1,0 +1,64 @@
+{
+  "contract_version": "1.0.0",
+  "domains": ["labor", "consumer", "general"],
+  "scope_statuses": ["supported", "excluded", "partial", "review_required"],
+  "status_families": [
+    "current",
+    "current_with_conditions",
+    "historical",
+    "time_bound",
+    "explanatory",
+    "verification_pending"
+  ],
+  "answer_use_modes": [
+    "default_answer",
+    "historical_only",
+    "time_bound_only",
+    "corroboration_only",
+    "explanatory_only",
+    "blocked_pending_verification",
+    "scope_excluded",
+    "manual_review_required"
+  ],
+  "authority_levels": ["primary_official", "secondary_reliable", "unverified"],
+  "permitted_uses": ["answer_and_citation", "verification", "retrieval_only", "blocked"],
+  "provision_levels": [
+    "article",
+    "section",
+    "rule",
+    "regulation",
+    "subsection",
+    "paragraph",
+    "clause",
+    "defined_term",
+    "annex_item",
+    "other"
+  ],
+  "chunk_methods": ["whole_provision", "natural_subdivision", "token_window_fallback"],
+  "extraction_methods": [
+    "html_structural",
+    "pdf_text",
+    "pdf_text_with_visual_verification",
+    "ocr",
+    "ocr_with_manual_verification",
+    "manual_transcription_from_scan_for_contract_sample"
+  ],
+  "review_statuses": ["unreviewed", "machine_validated", "human_review_required", "sample_verified", "verified"],
+  "blocking_quality_flags": [
+    "unresolved_replacement_character",
+    "ocr_low_confidence_critical_text",
+    "provision_boundary_uncertain",
+    "source_locator_missing",
+    "official_text_comparison_pending",
+    "legal_status_review_required"
+  ],
+  "nonblocking_quality_flags": [
+    "pdf_text_glyph_repair_visual_verified",
+    "image_only_pdf",
+    "rotated_page",
+    "multiple_printed_pages_per_pdf_page",
+    "manual_transcription_sample",
+    "footnotes_present",
+    "table_structure_present"
+  ]
+}

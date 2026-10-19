@@ -1,0 +1,19 @@
+{
+  "role": "offline_reconciliation_of_frozen_AI_development_comparison",
+  "case_bytes_equal_prior_freeze": true,
+  "unchanged_baseline_assessments": 436,
+  "unchanged_bypassed_assessments": 431,
+  "provider_calls_match_predeclared_plan": 5,
+  "clear_provider_calls": 0,
+  "closed_permission_checks": 872,
+  "label_route_endpoint_reconciliations": 6,
+  "csv_rows_reconciled": 436,
+  "llm_called_total_latency_ms": {
+    "median": 1518.7167000040063,
+    "min": 1399.352300002647,
+    "max": 2430.5157999988296
+  },
+  "evaluation_and_runtime_package_checksums_passed": true,
+  "generated_legal_answers": 0,
+  "independent_human_questions": 0
+}

@@ -1,0 +1,29 @@
+{
+  "dti_provisions_ai_compared": 29,
+  "dti_pages_ai_compared": 11,
+  "dti_records_with_text_repairs": 11,
+  "final_pay_provisions_ai_compared": 4,
+  "final_pay_pages_ai_compared": 2,
+  "contact_records": 19,
+  "contact_records_with_some_confirmed_fields": 15,
+  "contact_confirmed_fields": 36,
+  "contacts_without_confirmed_operational_fields": [
+    "REF_NTC",
+    "REF_HSAC_DHSUD",
+    "REF_LTFRB",
+    "REF_PNP_ACG"
+  ],
+  "source_review_tests_passed": 4,
+  "contact_tests_passed": 5,
+  "human_gold_created": false,
+  "human_approvals_created": false,
+  "all_pending_issues_closed": false,
+  "original_sources_or_models_modified": false,
+  "item12_started": false,
+  "deployment_allowed": false,
+  "source_review_artifacts": [
+    "dataset/processed/item7/ai_visual_review_dti_v1.0.0",
+    "dataset/processed/item7/ai_visual_review_final_pay_v1.0.0",
+    "dataset/processed/item10/referral_refresh_v1.0.0"
+  ]
+}

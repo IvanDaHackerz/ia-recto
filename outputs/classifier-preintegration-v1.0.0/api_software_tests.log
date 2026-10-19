@@ -1,0 +1,35 @@
+test_controls_surrogates_and_size_are_rejected (backend.classifier.test_service.ContractTests.test_controls_surrogates_and_size_are_rejected) ... ok
+test_duplicate_nonfinite_and_malformed_json_are_rejected (backend.classifier.test_service.ContractTests.test_duplicate_nonfinite_and_malformed_json_are_rejected) ... ok
+test_non_string_input_is_rejected (backend.classifier.test_service.ContractTests.test_non_string_input_is_rejected) ... ok
+test_operator_paths_stay_in_workspace (backend.classifier.test_service.ContractTests.test_operator_paths_stay_in_workspace) ... ok
+test_origins_are_exact_not_wildcards_or_paths (backend.classifier.test_service.ContractTests.test_origins_are_exact_not_wildcards_or_paths) ... ok
+test_request_ids_cannot_inject_headers_or_log_lines (backend.classifier.test_service.ContractTests.test_request_ids_cannot_inject_headers_or_log_lines) ... ok
+test_unknown_fields_and_overrides_are_rejected (backend.classifier.test_service.ContractTests.test_unknown_fields_and_overrides_are_rejected) ... ok
+test_connection_limit_returns_busy (backend.classifier.test_service.HTTPTests.test_connection_limit_returns_busy) ... ok
+test_duplicate_or_chunked_lengths_are_rejected (backend.classifier.test_service.HTTPTests.test_duplicate_or_chunked_lengths_are_rejected) ... ok
+test_integrity_failure_returns_unavailable (backend.classifier.test_service.HTTPTests.test_integrity_failure_returns_unavailable) ... ok
+test_json_errors_invalid_utf8_and_unsupported_content_type (backend.classifier.test_service.HTTPTests.test_json_errors_invalid_utf8_and_unsupported_content_type) ... ok
+test_model_failure_returns_no_traceback_question_or_paths (backend.classifier.test_service.HTTPTests.test_model_failure_returns_no_traceback_question_or_paths) ... ok
+test_origin_allowlist_and_preflight (backend.classifier.test_service.HTTPTests.test_origin_allowlist_and_preflight) ... ok
+test_oversized_request_is_rejected (backend.classifier.test_service.HTTPTests.test_oversized_request_is_rejected) ... ok
+test_read_only_health_and_contract_endpoints (backend.classifier.test_service.HTTPTests.test_read_only_health_and_contract_endpoints) ... ok
+test_real_http_classification_uses_versioned_contract (backend.classifier.test_service.HTTPTests.test_real_http_classification_uses_versioned_contract) ... ok
+test_server_cannot_bind_public_interface (backend.classifier.test_service.HTTPTests.test_server_cannot_bind_public_interface) ... ok
+test_unknown_endpoint_methods_and_query_overrides_are_rejected (backend.classifier.test_service.HTTPTests.test_unknown_endpoint_methods_and_query_overrides_are_rejected) ... ok
+test_artifact_mutation_is_checked_on_every_call (backend.classifier.test_service.ServiceTests.test_artifact_mutation_is_checked_on_every_call) ... ok
+test_bad_manifest_is_rejected_before_executable_model_load (backend.classifier.test_service.ServiceTests.test_bad_manifest_is_rejected_before_executable_model_load) ... ok
+test_health_describes_implementation_without_claiming_evaluation (backend.classifier.test_service.ServiceTests.test_health_describes_implementation_without_claiming_evaluation) ... ok
+test_incompatible_dependencies_are_rejected (backend.classifier.test_service.ServiceTests.test_incompatible_dependencies_are_rejected) ... ok
+test_no_outbound_network_or_semantic_download_is_needed (backend.classifier.test_service.ServiceTests.test_no_outbound_network_or_semantic_download_is_needed) ... ok
+test_original_unicode_text_and_request_id_are_preserved (backend.classifier.test_service.ServiceTests.test_original_unicode_text_and_request_id_are_preserved) ... ok
+test_partial_component_excludes_insurance_from_retrieval (backend.classifier.test_service.ServiceTests.test_partial_component_excludes_insurance_from_retrieval) ... ok
+test_probabilities_and_invalid_route_fail_closed (backend.classifier.test_service.ServiceTests.test_probabilities_and_invalid_route_fail_closed) ... ok
+test_referral_only_has_no_retrieval_and_contacts_stay_candidates (backend.classifier.test_service.ServiceTests.test_referral_only_has_no_retrieval_and_contacts_stay_candidates) ... ok
+test_response_contract_rejects_changed_types_and_live_permissions (backend.classifier.test_service.ServiceTests.test_response_contract_rejects_changed_types_and_live_permissions) ... ok
+test_supported_component_returns_a_request_not_a_legal_answer (backend.classifier.test_service.ServiceTests.test_supported_component_returns_a_request_not_a_legal_answer) ... ok
+test_vague_and_empty_inputs_clarify_without_retrieval (backend.classifier.test_service.ServiceTests.test_vague_and_empty_inputs_clarify_without_retrieval) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 5.563s
+
+OK

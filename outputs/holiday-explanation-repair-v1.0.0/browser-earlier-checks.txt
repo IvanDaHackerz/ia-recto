@@ -1,0 +1,214 @@
+- link "Skip to main content":
+  - /url: "#main"
+- banner:
+  - link "Recto & Co. Legal":
+    - /url: /
+  - navigation "Primary":
+    - link "Ask":
+      - /url: /
+    - link "History":
+      - /url: /history
+    - link "Library":
+      - /url: /library
+    - link "Performance":
+      - /url: /performance
+    - link "Settings":
+      - /url: /settings
+    - link "Scope & limitations":
+      - /url: /about
+- strong: Development preview.
+- text: Live classification, retrieval & AI explanations · source applicability remains under review.
+- main:
+  - status: Analysis ready. Open references to inspect any retrieved provisions.
+  - heading "Ask about your rights" [level=1]
+  - button "New question":
+    - generic: New question
+  - region "Conversation":
+    - article "Response 1":
+      - generic: Question 1
+      - heading "A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?" [level=2]
+      - heading "Inspect supporting provisions" [level=3]
+      - term: Topic
+      - definition:
+        - text: Labor
+        - generic: 87.0% confidence
+      - term: Topic coverage
+      - definition:
+        - text: Within project topics
+        - generic: 93.5% label confidence
+      - heading "Provisions found for inspection" [level=3]
+      - paragraph: Open a reference to inspect its complete stored text.
+      - paragraph:
+        - strong: Explanation withheld.
+        - text: The AI service could not complete the explanation. Your classification and sources are still available.
+      - generic "Where to ask for assistance"
+      - generic "How this question was checked"
+      - term: Wording check
+      - definition: bypassed · 0 LLM calls
+      - term: Explanation
+      - definition: provider unavailable · 1 LLM calls
+      - term: AI service detail
+      - definition: provider unavailable
+      - term: Support check
+      - definition: Not run — no validated draft was ready
+      - term: Analysis time
+      - definition: 1245 ms
+      - paragraph:
+        - text: Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label.
+        - link "View recorded evaluation metrics":
+          - /url: /performance
+        - text: .
+      - paragraph: Retrieved candidates
+      - button "1 Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I":
+        - generic: "1"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I
+      - button "2 PD 442, as amended and renumbered, ART. 94":
+        - generic: "2"
+        - text: PD 442, as amended and renumbered, ART. 94
+      - button "3 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV":
+        - generic: "3"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV
+      - button "4 Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV":
+        - generic: "4"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV
+      - button "5 Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV":
+        - generic: "5"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV
+    - article "Response 2":
+      - generic: Question 2
+      - heading "A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?" [level=2]
+      - heading "Inspect supporting provisions" [level=3]
+      - term: Topic
+      - definition:
+        - text: Labor
+        - generic: 87.0% confidence
+      - term: Topic coverage
+      - definition:
+        - text: Within project topics
+        - generic: 93.5% label confidence
+      - heading "Provisions found for inspection" [level=3]
+      - paragraph: Open a reference to inspect its complete stored text.
+      - paragraph:
+        - strong: Explanation withheld.
+        - text: The AI service could not complete the explanation. Your classification and sources are still available.
+      - generic "Where to ask for assistance"
+      - generic "How this question was checked"
+      - paragraph: Retrieved candidates
+      - button "1 Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I":
+        - generic: "1"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I
+      - button "2 PD 442, as amended and renumbered, ART. 94":
+        - generic: "2"
+        - text: PD 442, as amended and renumbered, ART. 94
+      - button "3 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV":
+        - generic: "3"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV
+      - button "4 Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV":
+        - generic: "4"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV
+      - button "5 Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV":
+        - generic: "5"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV
+    - article "Response 3":
+      - generic: Question 3
+      - heading "A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?" [level=2]
+      - heading "Inspect supporting provisions" [level=3]
+      - term: Topic
+      - definition:
+        - text: Labor
+        - generic: 87.0% confidence
+      - term: Topic coverage
+      - definition:
+        - text: Within project topics
+        - generic: 93.5% label confidence
+      - heading "Provisions found for inspection" [level=3]
+      - paragraph: Open a reference to inspect its complete stored text.
+      - paragraph:
+        - strong: Explanation withheld.
+        - text: The proposed explanation did not clear the source-support check. Inspect the sources; an unsupported draft has not been shown.
+      - generic "Where to ask for assistance"
+      - generic "How this question was checked" [active]
+      - term: Wording check
+      - definition: bypassed · 0 LLM calls
+      - term: Explanation
+      - definition: claim support failed · 2 LLM calls
+      - term: Support check
+      - definition: Automated check did not approve an explanation
+      - term: Analysis time
+      - definition: 15825 ms
+      - paragraph:
+        - text: Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label.
+        - link "View recorded evaluation metrics":
+          - /url: /performance
+        - text: .
+      - paragraph: Retrieved candidates
+      - button "1 Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I":
+        - generic: "1"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I
+      - button "2 PD 442, as amended and renumbered, ART. 94":
+        - generic: "2"
+        - text: PD 442, as amended and renumbered, ART. 94
+      - button "3 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV":
+        - generic: "3"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV
+      - button "4 Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV":
+        - generic: "4"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV
+      - button "5 Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV":
+        - generic: "5"
+        - text: Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV
+  - generic: Try another question
+  - textbox "Try another question":
+    - /placeholder: Ask about a labor or consumer concern…
+  - button "Ask" [disabled]:
+    - generic: Ask
+  - generic "AI & saving · AI on · Saving off"
+  - paragraph:
+    - text: Use fictional details. Each question is checked independently; include the complete concern and any requested facts.
+    - link "Scope & privacy":
+      - /url: /about
+  - complementary "Source references":
+    - heading "Source references" [level=2]
+    - paragraph: For response 3 · 5 references
+    - region "Reference blocks":
+      - paragraph: Inspect the recorded source text here. Current legal applicability remains under review.
+      - list:
+        - button "1 Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I Omnibus Rules Implementing the Labor Code" [expanded]:
+          - generic: "1"
+          - generic: Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I
+          - generic: Omnibus Rules Implementing the Labor Code
+        - paragraph: Recorded source · current applicability unreviewed
+        - paragraph: "For: a private-sector employer refuses to pay a worker for christmas day because the office was closed and no work was performed. what holiday-pay rules and exceptions apply"
+        - term: Recorded status
+        - definition: in_force_as_amended_not_a_current_consolidation
+        - term: Status checked
+        - definition: 2026-09-29
+        - term: Search ranking
+        - definition: 18.7564 · not confidence
+        - generic "Use restrictions and source checks"
+        - heading "Complete stored provision" [level=3]
+        - paragraph: SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof. (b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof. (c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.
+        - paragraph: LAB_IRR_1989__rule_i_hours_of_work__section_9
+        - link "Open recorded source":
+          - /url: https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819
+          - text: Open recorded source
+        - button "2 PD 442, as amended and renumbered, ART. 94 Labor Code of the Philippines - Renumbered DOLE Edition 2022":
+          - generic: "2"
+          - generic: PD 442, as amended and renumbered, ART. 94
+          - generic: Labor Code of the Philippines - Renumbered DOLE Edition 2022
+        - paragraph: Recorded source · current applicability unreviewed
+        - button "3 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV Omnibus Rules Implementing the Labor Code":
+          - generic: "3"
+          - generic: Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV
+          - generic: Omnibus Rules Implementing the Labor Code
+        - paragraph: Recorded source · current applicability unreviewed
+        - button "4 Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV Omnibus Rules Implementing the Labor Code":
+          - generic: "4"
+          - generic: Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV
+          - generic: Omnibus Rules Implementing the Labor Code
+        - paragraph: Recorded source · current applicability unreviewed
+        - button "5 Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV Omnibus Rules Implementing the Labor Code":
+          - generic: "5"
+          - generic: Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV
+          - generic: Omnibus Rules Implementing the Labor Code
+        - paragraph: Recorded source · current applicability unreviewed

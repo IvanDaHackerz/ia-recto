@@ -1,0 +1,19 @@
+{
+  "cases.jsonl": "00b01b86cd008610792c4a6f22c6beb5fce3f073f223abe3422eff0bf4b57f09",
+  "case_manifest.json": "5cc1cc62a2b3161e0332949829b277856c8f5bd69d3c697b02f73fc3881f2742",
+  "current_artifacts_snapshot.json": "fcb415e8f40185da7a7809ba94802bdba4c1be161dd7ec11daa53e1884f22787",
+  "error_log.jsonl": "6893b075f1717cb0460043dd0122c7606347c63ce6698f93c2da4b3aac8e756d",
+  "evaluator.py": "e9bdc6a6628b61e95bde3fd3142928349deaa0e78405b58155978edb8038a7b4",
+  "execution_completed.json": "9882a3d3661669f629c044d42a8d45fa30fc4973d0095f97972ba3c39fc31ee0",
+  "execution_started.json": "06f9487cde6d10330490a1518db57d0ea6aee7ef6cfda765d99e4ae5d00b084b",
+  "freeze.json": "2a9ea4bd4f42669401e1ef9f70b854faadd7f57d447630cb752c86a1791e0328",
+  "metrics.json": "d211836b3171c9a9266729bd90bddcb802da9ec7e13ad0fece13bc8be34c209a",
+  "metrics_implementation.py": "70fba33e567404943621c515ad2be12b727b3f5cf64fecc12f761bf6f900996b",
+  "observations.jsonl": "c492331fbb6ef70a3b2f8e1f2c58efbaf87fff67125a1dcdcf6fba5b95a5c7b8",
+  "protocol.json": "4d0d2156bf1a7954e69647845b3d6c51a3c546bc298bc6fb818cd2987336010f",
+  "REPORT.md": "571a3bea857fed6f0306608d28278395bd73a6182523c17be2600b5926746b21",
+  "results.csv": "24067efe301a26ed8c94c596a10c553505a68ecd222e6f7723681df999f33d19",
+  "semantic_reviews.jsonl": "e916b7858cc4292ce5265416dde87a296efb16fc2c8da1663428bd379846735d",
+  "semantic_review_queue.jsonl": "b5e4419d34a749ad81a74e7b1200db21caac762e7812ea10054f77abc2f11fa4",
+  "trigger_plan.json": "072c3facc8427d7333e6102e27df8f71565e82f5d4393f2901d4b67b3b7c2fd6"
+}

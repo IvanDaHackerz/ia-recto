@@ -1,0 +1,52 @@
+{
+  "frozen_at_utc": "2026-10-19T11:11:13.017621+00:00",
+  "status": "prepared_before_inference",
+  "inputs_sha256": {
+    "cases.jsonl": "00b01b86cd008610792c4a6f22c6beb5fce3f073f223abe3422eff0bf4b57f09",
+    "protocol.json": "4d0d2156bf1a7954e69647845b3d6c51a3c546bc298bc6fb818cd2987336010f",
+    "case_manifest.json": "5cc1cc62a2b3161e0332949829b277856c8f5bd69d3c697b02f73fc3881f2742",
+    "current_artifacts_snapshot.json": "fcb415e8f40185da7a7809ba94802bdba4c1be161dd7ec11daa53e1884f22787",
+    "trigger_plan.json": "072c3facc8427d7333e6102e27df8f71565e82f5d4393f2901d4b67b3b7c2fd6"
+  },
+  "runtime_source_sha256": {
+    "backend/__init__.py": "5bc80a0ae757163973d7c45f8775df6134608c033929318da11208ed01867830",
+    "backend/application/__init__.py": "55c0ad392c112b4efa4f11464e835c4b80aa862437535565ef8e7268c1dc9f49",
+    "backend/application/check_metrics.py": "d758b628a52fb3a8331a912c2b0d64c6c4cbd50b3a025db6761111422ed9e1cb",
+    "backend/application/explanation.py": "1ee22804c77bca801f8cae4189ac568ac8f6d4966a92f87484dc2433cc9140a0",
+    "backend/application/performance.py": "02909c76fbd556c1d608bac6a2f7316cb1edc5d162146722fa479c67b4f2ece1",
+    "backend/application/server.py": "948a3d8b76a190375b8c50074d9ea20cd19ba8a731accf18a9e14f6486aef260",
+    "backend/application/service.py": "655deef9a53f5a574b0d49329c81ba5759f18248217ee0ece22c9f86d722fc9a",
+    "backend/application/test_application.py": "1cf31168e1ca8bf06626b980d1c116716d6bffa68b4f85b534ce5bbf0854cd8b",
+    "backend/clarification.py": "ecfde50506395fcc5b2022a9ffecd559d1e2d57c8f5b8a1deda758d1bcd5c2de",
+    "backend/classifier/__init__.py": "e8fbc501b6fdc3123b9b0ce8eaf50b013ce2121e1c671d45fc52d82cd9a99721",
+    "backend/classifier/build_config.py": "376c1d5edcf8e2955607d19d266f70bde0fb6f801963367d39348bcea33c0d2f",
+    "backend/classifier/check_implementation.py": "9798f2df507187b55ee6d3aa0fe68e7bd91c582a4f1c5449d7284af820596237",
+    "backend/classifier/contracts.py": "aaf40ca9800185f7c746b0bd8c51cbca79cfda6997bf052649aa8f4f8c3e050d",
+    "backend/classifier/server.py": "514ae8faeb34d3366d947bbe4762d3ab44708836cff1a9df42a2758fa8a93bbc",
+    "backend/classifier/service.py": "e1a5d6a868c94029f8c14f3282db95e9681c679d6297a20119171701690a39ea",
+    "backend/classifier/test_service.py": "48c0a85d20e688689ba5dc4eb009d7cd787661494c32eeb167167fea0620d190",
+    "backend/diagnose_normalization.py": "19a0643ca0d9b061b31b6abe1f52d7f5b69c89b804ef2b0642cef333b8c465c1",
+    "backend/evaluate_local_pipeline.py": "347c67e666137955e9f3d3b7d724305ad30616b6abfe0059759e0cb5c09e8836",
+    "backend/evaluate_normalization.py": "e9bdc6a6628b61e95bde3fd3142928349deaa0e78405b58155978edb8038a7b4",
+    "backend/normalization.py": "3e88f947428c6135c918d66849c0d843c26bf6d97dcf3e218ea5f1c855947cd9",
+    "backend/normalization_cases.py": "7523faba74af9e5177d3954af2ab88f6328fbd291e1a79ff3652a2f3e1703cb1",
+    "backend/normalization_metrics.py": "70fba33e567404943621c515ad2be12b727b3f5cf64fecc12f761bf6f900996b",
+    "backend/normalization_provider.py": "f2071903e3f3164580e118f336b801eef62677a6c89a686c694bee2fb6d96c46",
+    "backend/normalization_validation.py": "858a8272d7ee97b2d14489d672b865b21cad2892bed711f8aa59e535262ae003",
+    "backend/normalizer_credentials.py": "9d6742a0467c4202b4a2d080e22d76e3d038d76273d3e99fa71037defabe854b",
+    "backend/terminal_test.py": "96383032f4527f8a8891d575cab2b39e53d12387b47e006d0cae2b4dd10e029a",
+    "backend/test_local_evaluation.py": "208b98c88a88dc6f2e9f3f56ff9dd7c85584f644f994665f65b946d5f4a01428",
+    "backend/test_normalization.py": "ba042aaf7eecd492fb581a1b39e09559169d2b7e43cc0013925fcdfb707a2124",
+    "backend/test_normalization_evaluation.py": "834d14c78e2d05dcc21031f94dbc6fc917d032598de6d8b18601c7e21aa8faec",
+    "backend/test_terminal_test.py": "1441f2b11626ab2cc3c0080c696d6fa154f807fca94d5d55c41a1ad87c93efe0",
+    "backend/test_typing_features.py": "4f325be26cbbcb90b47e9152278c9a1fbf0c40f76fe85cf8de24e55497c017dd",
+    "backend/classifier/config.json": "f8b41ad0d278ba1bbb0391f1f625d807bf5924dcf8c8269ddce95ab4700c7c0e",
+    "outputs/item13-evaluation-v1.0.1/cases.jsonl": "925414e457b3507fd7a05e77ac9fb22998bf0bf320d3c42b1f1183f881106760"
+  },
+  "runtime_artifact_manifest_sha256": {
+    "outputs/item10-classifier-v1.5.12/artifact_checksums.json": "91987597ee9e89af0573f2b358a8fb842d9b0b7a7a138856ef85082ab0cfa7ad",
+    "outputs/item11-retrieval-v1.2.8/artifact_checksums.json": "b5c0d9f1fd9cf7f4ec89c4245d37a71243eacd69f4bf75e861f1c31f41ca0670",
+    "outputs/item12-verifier-v1.0.7/artifact_checksums.json": "ae93de4de1599ebb298058597ca0171c4e92fe947255cca1fb0a760103dc4c70"
+  },
+  "no_predictions_observed_by_this_run": true
+}

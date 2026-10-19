@@ -1,0 +1,3406 @@
+[
+  {
+    "question_id": "EVAL_001",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I work in a private print shop. Our payroll date came and went, and the owner says customers must pay their invoices before we get our salaries. Where do I start?",
+    "final_question_text": "I work at a private print shop. Payday passed, but the owner says we only get paid once customers settle their bills. Where can I ask for help?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment",
+      "labor.complaint_referral"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment",
+      "labor.complaint_referral"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_002",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Private grocery po ang employer ko. Binabawas nila sa sahod namin ang kulang sa kaha kahit hindi sinasabi kung paano nila hinati ang amount. Ano po ang basic rules dito?",
+    "final_question_text": "Sa private grocery ako nagtatrabaho. Binabawas sa sahod namin yung kulang sa kaha, pero hindi sinasabi paano hinati yung amount. Puwede ba yun?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_003",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My payslip includes a uniform charge I never agreed to. Can you explain the general rules on taking expenses out of a private employee's wages?",
+    "final_question_text": "I'm a private-company employee. My payslip has a uniform deduction I never agreed to. Can they take that from my salary?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_004",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Sa private warehouse, pinapaaga kami ng 30 minutes para sa required briefing pero sa official start lang ang time-in. Kasama ba iyon sa working hours?",
+    "final_question_text": "Sa private warehouse, pinapaaga kami ng 30 minutes para sa required briefing pero sa official start lang ang time-in. Kasama ba iyon sa working hours?",
+    "original_supported_topic_ids": [
+      "labor.hours_of_work"
+    ],
+    "final_supported_topic_ids": [
+      "labor.hours_of_work"
+    ],
+    "reason": "Required pre-shift activity raises a compensable-working-time question."
+  },
+  {
+    "question_id": "EVAL_005",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I stay at the front desk during lunch and have to serve anyone who comes in. Is that treated the same as an uninterrupted meal break?",
+    "final_question_text": "I work at the front desk of a private hotel. Even during lunch, I have to stay there and assist guests. Does that count as a meal break?",
+    "original_supported_topic_ids": [
+      "labor.hours_of_work"
+    ],
+    "final_supported_topic_ids": [
+      "labor.hours_of_work"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_006",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Office staff ako sa private company. Kailangan daw naka-online kami after shift para sumagot agad sa work messages. Paano malalaman kung working time pa iyon?",
+    "final_question_text": "Office staff ako sa private company. Kailangan daw naka-online kami after shift para sumagot agad sa work messages. Paano malalaman kung working time pa iyon?",
+    "original_supported_topic_ids": [
+      "labor.hours_of_work"
+    ],
+    "final_supported_topic_ids": [
+      "labor.hours_of_work"
+    ],
+    "reason": "General inquiry about required availability and working time; facts may need clarification."
+  },
+  {
+    "question_id": "EVAL_007",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My private employer moved my weekly day off three times this month. What information should I check to understand the rules on scheduling rest days?",
+    "final_question_text": "My private employer has moved my day off three times this month. What are the rules about changing rest-day schedules?",
+    "original_supported_topic_ids": [
+      "labor.rest_days"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_008",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Halos buong buwan na akong duty sa private bakery at wala pang full day na pahinga. May basic rest-day rule po ba kahit maliit ang shop?",
+    "final_question_text": "Halos buong buwan na akong duty sa private bakery at wala pang full day na pahinga. May basic rest-day rule po ba kahit maliit ang shop?",
+    "original_supported_topic_ids": [
+      "labor.rest_days"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days"
+    ],
+    "reason": "Basic weekly rest entitlement; coverage facts can be checked without expanding scope."
+  },
+  {
+    "question_id": "EVAL_009",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "The time sheet records eleven hours, but my payslip lists only eight. How can I check the basic overtime-pay calculation for an ordinary private-sector employee?",
+    "final_question_text": "I'm an employee at a private company. My time sheet shows eleven hours, but I was paid for eight. How do I check the overtime?",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_010",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Na-approve ng supervisor ang extra shift ko, pero sabi ng payroll walang OT kasi hindi nila nakita ang approval email. Ano po ang puwede kong ihanda para ma-raise ito?",
+    "final_question_text": "Sa private company ako nagtatrabaho. Approved ng supervisor yung extra shift ko, pero walang OT sa payslip kasi di raw nakita ng payroll yung approval email. Ano ihahanda ko para ma-raise ito?",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay",
+      "labor.complaint_referral"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay",
+      "labor.complaint_referral"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_011",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Our private office closed for a regular holiday, and payroll marked the day as unpaid. Which general holiday-pay rules should I look at?",
+    "final_question_text": "Our private office closed for a regular holiday, but payroll marked it unpaid. Should I still have been paid for that day?",
+    "original_supported_topic_ids": [
+      "labor.holiday_premium_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.holiday_premium_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_012",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Nag-duty ako sa private convenience store noong regular holiday. Pareho lang ang hourly pay sa ordinary day. Paano ko po iche-check ang holiday premium?",
+    "final_question_text": "Nag-duty ako sa private convenience store noong regular holiday. Pareho lang ang hourly pay sa ordinary day. Paano ko po iche-check ang holiday premium?",
+    "original_supported_topic_ids": [
+      "labor.holiday_premium_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.holiday_premium_pay"
+    ],
+    "reason": "Basic holiday-premium question within the wage module."
+  },
+  {
+    "question_id": "EVAL_013",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I transferred between two private employers during the year. What should I understand about thirteenth-month pay from each employer?",
+    "final_question_text": "I switched private employers halfway through the year. How does that affect my thirteenth-month pay from each one?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_014",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "May basic salary at sales commission ako sa private shop. Aling parts ng compensation ang dapat kong tingnan kapag chine-check ang 13th-month computation?",
+    "final_question_text": "May basic salary at sales commission ako sa private shop. Kasama ba pareho sa computation ng 13th month?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_015",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My private employer calls my year-end payment a discretionary bonus. How do I distinguish that from thirteenth-month pay?",
+    "final_question_text": "My private employer says our year-end payment is an optional bonus. Is that different from thirteenth-month pay?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_016",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Probationary ako sa private clinic as receptionist. Saka lang sinabi ang performance standards noong malapit na matapos ang probation. Ano pong general rules ang relevant?",
+    "final_question_text": "Probationary receptionist ako sa private clinic. Patapos na probation ko nang sabihin nila yung performance standards. Puwede bang ganun?",
+    "original_supported_topic_ids": [
+      "labor.employment_contracts"
+    ],
+    "final_supported_topic_ids": [
+      "labor.employment_contracts"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_017",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I signed a private-company employment offer with one work location, then received a different contract on my first day. What should I examine before agreeing to the change?",
+    "final_question_text": "The offer I accepted from a private company listed one work location. On my first day, they gave me a contract with a different location. What should I check before signing?",
+    "original_supported_topic_ids": [
+      "labor.employment_contracts"
+    ],
+    "final_supported_topic_ids": [
+      "labor.employment_contracts"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_018",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Private factory employee po ako. Pinapapirma kami sa resignation letter kahit gusto naming magpatuloy sa trabaho. Ano ang basic employment issues na dapat kong maintindihan?",
+    "final_question_text": "Private factory employee ako. Pinapapirma kami ng resignation letter kahit gusto pa naming magtrabaho. Ano puwede naming gawin?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_019",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A private employer gave me a notice to explain an accusation but did not describe what I allegedly did. What is the purpose of that notice in the termination process?",
+    "final_question_text": "My private employer sent me a notice to explain, but it doesn't say what I'm accused of doing. What should that notice contain?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_020",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Nagsara ang branch ng private employer ko at sinabi sa chat na tapos na ang trabaho namin bukas. Ano po ang basic notice requirements na dapat i-check?",
+    "final_question_text": "Nagsara yung branch ng private employer ko. Sa chat lang sinabi na last day na namin bukas. Ano dapat yung notice bago kami tanggalin?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_021",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I left a private company after completing clearance. My final-pay breakdown includes an unexplained adjustment. What records should I request to understand it?",
+    "final_question_text": "I've left a private company and finished clearance. There's an adjustment in my final pay that nobody has explained. What records can I ask for?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_022",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Kailangan ko ng COE para sa bagong application. Sabi ng former private employer, puwede lang kung kukunin din nila ako ulit. Ano po ang general guidance sa pag-request nito?",
+    "final_question_text": "Kailangan ko ng COE para mag-apply. Sabi ng dati kong private employer, bibigyan lang ako kung sa kanila ako babalik. Puwede ba yun?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_023",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Can I ask for SEnA assistance about unpaid wages from a private employer before paying anyone to file a case?",
+    "final_question_text": "My private employer still owes me wages. Can I go to SEnA first, or do I need to pay someone to file a case?",
+    "original_supported_topic_ids": [
+      "labor.complaint_referral",
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.complaint_referral",
+      "labor.wages_payment"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_024",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May screenshots ako ng work schedule pero wala na ang ibang payslip. Puwede pa ba akong magtanong sa DOLE tungkol sa private employer ko, at anong records ang ihahanda?",
+    "final_question_text": "May screenshots ako ng work schedule pero wala na ang ibang payslip. Puwede pa ba akong magtanong sa DOLE tungkol sa private employer ko, at anong records ang ihahanda?",
+    "original_supported_topic_ids": [
+      "labor.complaint_referral"
+    ],
+    "final_supported_topic_ids": [
+      "labor.complaint_referral"
+    ],
+    "reason": "Basic preparation and referral information, not a request to argue a pending case."
+  },
+  {
+    "question_id": "EVAL_025",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I am paid by a private agency but assigned to a supermarket. Where can I ask for help identifying who should respond to my unpaid-salary complaint?",
+    "final_question_text": "A private agency pays me, but I work at a supermarket. My salary hasn't arrived. Who can help me figure out where to raise the complaint?",
+    "original_supported_topic_ids": [
+      "labor.complaint_referral",
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.complaint_referral",
+      "labor.wages_payment"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_026",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Bumili ako ng desk fan sa appliance store. Pag-uwi, hindi gumagana ang lowest setting kahit bago at hindi pa nabubuksan ang casing. Paano ko irereport ang defect?",
+    "final_question_text": "Bumili ako ng desk fan sa appliance store. Pag-uwi, hindi gumagana ang lowest setting kahit bago at hindi pa nabubuksan ang casing. Paano ko irereport ang defect?",
+    "original_supported_topic_ids": [
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.defective_products"
+    ],
+    "reason": "Ordinary defective consumer product bought from a business."
+  },
+  {
+    "question_id": "EVAL_027",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "The replacement rice cooker delivered by an appliance shop has a cracked handle. Do I have to accept it just because it was sent as a replacement?",
+    "final_question_text": "The appliance shop replaced my rice cooker, but the replacement has a cracked handle. Do I have to accept it?",
+    "original_supported_topic_ids": [
+      "consumer.defective_products",
+      "consumer.repair_replace_refund"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.defective_products",
+      "consumer.repair_replace_refund"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_028",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May warranty card ang blender ko, pero sabi ng retailer hindi raw applicable kapag sale price binili. Ano ang dapat kong i-check sa warranty terms?",
+    "final_question_text": "May warranty card ang blender ko, pero sabi ng retailer hindi raw applicable kapag sale price binili. Ano ang dapat kong i-check sa warranty terms?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Product-warranty issue; not a financial or insurance product."
+  },
+  {
+    "question_id": "EVAL_029",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A shop accepted my laptop for a warranty repair and now says I must pay for the same repair without explaining why coverage was refused. What should I ask them to clarify?",
+    "final_question_text": "The shop took my laptop for a warranty repair. Now it wants me to pay for the repair without saying why the warranty won't cover it. What should I ask them?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_030",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Nagpa-repair ako ng electric kettle sa authorized service center. Ilang balik na pero iyon pa rin ang sira. Ano ang options na puwede kong itanong bukod sa another repair?",
+    "final_question_text": "Ilang beses ko nang binalik yung electric kettle sa authorized service center, pero pareho pa rin sira. Ano options ko bukod sa isa pang repair?",
+    "original_supported_topic_ids": [
+      "consumer.repair_replace_refund"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.repair_replace_refund"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_031",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "The store offered a voucher after admitting it delivered a defective chair. Can you explain the general difference between a voucher, replacement, and refund?",
+    "final_question_text": "The store admits the chair it delivered was defective, but it's only offering a voucher. How is that different from a refund or replacement?",
+    "original_supported_topic_ids": [
+      "consumer.repair_replace_refund"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.repair_replace_refund"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_032",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Advertised na solid wood ang cabinet, pero pag-deliver ay laminated board. Business seller ang kausap ko. Ano pong consumer issue ito?",
+    "final_question_text": "Advertised na solid wood ang cabinet, pero pag-deliver ay laminated board. Business seller ang kausap ko. Ano pong consumer issue ito?",
+    "original_supported_topic_ids": [
+      "consumer.misleading_advertising"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.misleading_advertising"
+    ],
+    "reason": "Mismatch with a business advertisement, not a real-estate sale."
+  },
+  {
+    "question_id": "EVAL_033",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A furniture shop advertised free delivery, then added a delivery charge only after taking my payment. What should I document when raising a complaint?",
+    "final_question_text": "A furniture shop advertised free delivery. After I paid, it added a delivery fee. What should I keep as proof when I complain?",
+    "original_supported_topic_ids": [
+      "consumer.misleading_advertising",
+      "consumer.deceptive_unfair_sales"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.misleading_advertising",
+      "consumer.deceptive_unfair_sales"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_034",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Sa mall stall, sinabi ng salesperson na required ang extra accessory para gumana ang item, pero sabi ng manual optional lang. Ano po ang general rules sa misleading sales explanation?",
+    "final_question_text": "Sa mall stall, sinabi ng salesperson na required ang extra accessory para gumana ang item, pero sabi ng manual optional lang. Ano po ang general rules sa misleading sales explanation?",
+    "original_supported_topic_ids": [
+      "consumer.deceptive_unfair_sales"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.deceptive_unfair_sales"
+    ],
+    "reason": "Possible deceptive sales representation; no outcome is assumed."
+  },
+  {
+    "question_id": "EVAL_035",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A retailer insists I already agreed to buy an appliance merely because I asked for a demonstration. Can I ask about the basic rules on unfair sales pressure?",
+    "final_question_text": "I asked a retailer to demonstrate an appliance. Now it says that means I agreed to buy it. Can it insist on that?",
+    "original_supported_topic_ids": [
+      "consumer.deceptive_unfair_sales"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.deceptive_unfair_sales"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_036",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May dalawang price sticker sa storage box at mas mahal ang siningil sa counter. Ano pong proof ang useful kapag nireklamo ko ang displayed price?",
+    "final_question_text": "May dalawang price sticker sa storage box at mas mahal ang siningil sa counter. Ano pong proof ang useful kapag nireklamo ko ang displayed price?",
+    "original_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "reason": "Displayed-price complaint; asks for ordinary supporting records."
+  },
+  {
+    "question_id": "EVAL_037",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A cashier gave me a candy instead of the remaining change without asking. Which consumer topic covers that?",
+    "final_question_text": "The cashier gave me candy instead of my remaining change and didn't ask first. Is that allowed?",
+    "original_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_038",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May sharp edge ang bagong folding table at may nasugatan nang daliri sa bahay. Saan puwedeng mag-report ng possible unsafe household product?",
+    "final_question_text": "May sharp edge ang bagong folding table at may nasugatan nang daliri sa bahay. Saan puwedeng mag-report ng possible unsafe household product?",
+    "original_supported_topic_ids": [
+      "consumer.product_safety"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.product_safety"
+    ],
+    "reason": "General household-product safety, not workplace OSH or medical negligence."
+  },
+  {
+    "question_id": "EVAL_039",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A shop still displays a household extension cord after the manufacturer announced a recall. What information should I include in a product-safety complaint?",
+    "final_question_text": "A shop is still selling an extension cord that the manufacturer has recalled. Where can I report it, and what details should I include?",
+    "original_supported_topic_ids": [
+      "consumer.product_safety"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.product_safety"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_040",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Nagbayad ako sa laundry business para sa wash-and-fold, pero mali ang naibalik na bag at ayaw nilang i-check ang claim stub. Ano ang basic complaint process?",
+    "final_question_text": "Nagbayad ako sa laundry business para sa wash-and-fold, pero mali ang naibalik na bag at ayaw nilang i-check ang claim stub. Ano ang basic complaint process?",
+    "original_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "reason": "Ordinary consumer service; not a specialized regulated service."
+  },
+  {
+    "question_id": "EVAL_041",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A repair shop returned my bicycle with the original problem still present and charged me for a part it says it never installed. How do I raise the service complaint?",
+    "final_question_text": "The repair shop returned my bicycle with the same problem. It also charged me for a part it admits it never installed. How do I complain?",
+    "original_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_042",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": true,
+    "original_question_text": "Online appliance store ang seller. Iba ang model sa dumating at sinasabing tapos na ang complaint dahil na-click ko ang received. Ano ang puwede kong i-check?",
+    "final_question_text": "Online appliance store yung seller. Ibang model ang dumating, pero ayaw nang tanggapin yung complaint dahil na-click ko na yung received. Ano puwede kong gawin?",
+    "original_supported_topic_ids": [
+      "consumer.online_transactions",
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.online_transactions",
+      "consumer.deceptive_unfair_sales"
+    ],
+    "reason": "A different model is a goods-description or sales issue, not evidence that the delivered product is physically defective."
+  },
+  {
+    "question_id": "EVAL_043",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "An online business split my order into two parcels, but only one arrived and it refuses to investigate the missing item. Where should I start with a consumer complaint?",
+    "final_question_text": "An online store sent my order in two parcels. Only one arrived, and it won't check what happened to the other. Where can I complain?",
+    "original_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_044",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May business page ang seller ng office chair. Pagkatapos kong magbayad, biglang ibang delivery fee ang hinihingi kahit may written quote. Anong records ang itatabi ko?",
+    "final_question_text": "May business page ang seller ng office chair. Pagkatapos kong magbayad, biglang ibang delivery fee ang hinihingi kahit may written quote. Anong records ang itatabi ko?",
+    "original_supported_topic_ids": [
+      "consumer.online_transactions",
+      "consumer.deceptive_unfair_sales"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.online_transactions",
+      "consumer.deceptive_unfair_sales"
+    ],
+    "reason": "Online merchant changing a quoted charge; no criminal investigation requested."
+  },
+  {
+    "question_id": "EVAL_045",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I bought a used washing machine from a registered appliance business. Does asking about consumer protection automatically become out of scope because the item is second-hand?",
+    "final_question_text": "I bought a second-hand washing machine from a registered appliance shop. Does consumer protection still apply because it's used?",
+    "original_supported_topic_ids": [
+      "consumer.general_framework"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.general_framework"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_046",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Wala akong legal background. Ano ang Consumer Act, at paano ko malalaman kung relevant ito sa ordinary purchase ko sa store?",
+    "final_question_text": "Wala akong legal background. Ano ang Consumer Act, at paano ko malalaman kung relevant ito sa ordinary purchase ko sa store?",
+    "original_supported_topic_ids": [
+      "consumer.general_framework"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.general_framework"
+    ],
+    "reason": "General consumer-law framework and scope information."
+  },
+  {
+    "question_id": "EVAL_047",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I have already emailed a retailer about a faulty keyboard. What basic documents should accompany a DTI complaint if the retailer will not respond?",
+    "final_question_text": "I've emailed the retailer about a faulty keyboard, but it won't reply. What documents do I need for a DTI complaint?",
+    "original_supported_topic_ids": [
+      "consumer.complaint_referral"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.complaint_referral"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_048",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May ongoing usapan kami ng store pero gusto ko munang maintindihan kung paano ang DTI mediation. Kailangan bang lawyer agad para magtanong tungkol sa process?",
+    "final_question_text": "May ongoing usapan kami ng store pero gusto ko munang maintindihan kung paano ang DTI mediation. Kailangan bang lawyer agad para magtanong tungkol sa process?",
+    "original_supported_topic_ids": [
+      "consumer.complaint_referral"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.complaint_referral"
+    ],
+    "reason": "General DTI mediation information; not a pending court case."
+  },
+  {
+    "question_id": "EVAL_049",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Can you explain what happens after an ordinary consumer complaint is referred to a different government office through DTI's complaint process?",
+    "final_question_text": "If DTI sends my consumer complaint to another government office, what happens next?",
+    "original_supported_topic_ids": [
+      "consumer.complaint_referral"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.complaint_referral"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_050",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": true,
+    "original_question_text": "Binigyan ako ng cashier ng handwritten receipt na walang breakdown ng singil sa item at add-on. Paano ko hihingin ang explanation at iraraise ang sales concern?",
+    "final_question_text": "Yung handwritten receipt ko, walang hiwalay na amount para sa item at add-on. Ayaw ipaliwanag ng store yung total. Saan ko puwedeng i-raise yung concern?",
+    "original_supported_topic_ids": [
+      "consumer.deceptive_unfair_sales"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.complaint_referral"
+    ],
+    "reason": "Unexplained item/add-on charges support a complaint-routing question; the text does not establish a deceptive representation."
+  },
+  {
+    "question_id": "EVAL_051",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My private employer left overtime off my payslip, and a shop charged me more than the price label on a school bag. Can you explain the two issues separately?",
+    "final_question_text": "My private employer left overtime off my payslip. A shop also charged more than the price tag on a school bag I bought. What can I do about each one?",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay",
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay",
+      "consumer.price_tags"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_052",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Hindi pa nire-release ng former private employer ang final pay ko. May appliance store rin na ayaw ayusin ang defective mixer na binili ko. Ano ang next steps sa bawat concern?",
+    "final_question_text": "Hindi pa nire-release ng former private employer ang final pay ko. May appliance store rin na ayaw ayusin ang defective mixer na binili ko. Ano ang next steps sa bawat concern?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe",
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe",
+      "consumer.defective_products"
+    ],
+    "reason": "Two supported domains; separate employers/sellers and remedies."
+  },
+  {
+    "question_id": "EVAL_053",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I need to request a COE from my old private employer and find out how to submit a DTI complaint about a repair shop. Where do I start with each?",
+    "final_question_text": "How do I ask my old private employer for a COE? I also need to file a DTI complaint about a repair shop. Where do I start?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe",
+      "consumer.complaint_referral"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe",
+      "consumer.complaint_referral"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_054",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Sa private office, walang malinaw na meal break dahil may phone duty. Sa personal purchase ko naman, iba ang warranty period sa sinabi ng retailer. Puwede bang parehong ipaliwanag?",
+    "final_question_text": "Sa private office, walang malinaw na meal break dahil may phone duty. Sa personal purchase ko naman, iba ang warranty period sa sinabi ng retailer. Puwede bang parehong ipaliwanag?",
+    "original_supported_topic_ids": [
+      "labor.hours_of_work",
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "labor.hours_of_work",
+      "consumer.warranties"
+    ],
+    "reason": "Supported working-time question and separate consumer warranty."
+  },
+  {
+    "question_id": "EVAL_055",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My private-company thirteenth-month statement omits a month I worked, and a home-furniture seller added charges after I paid. What records should I check for both?",
+    "final_question_text": "My private-company thirteenth-month statement leaves out a month I worked. A furniture seller also added charges after I paid. What records do I need for each complaint?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.deceptive_unfair_sales"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.deceptive_unfair_sales"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_056",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Napalitan ang weekly rest day ko sa private shop. Separately, may online business na kulang ang ipinadalang order ko. Saan magsisimula sa dalawang reklamo?",
+    "final_question_text": "Pinalitan yung weekly rest day ko sa private shop. May online store din na kulang ang pinadalang personal order ko. Ano gagawin ko sa bawat isa?",
+    "original_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.online_transactions"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.online_transactions"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_057",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A private employer changed the job terms after I accepted, and a laundry business returned the wrong clothes to me. Are both questions within your coverage?",
+    "final_question_text": "A private employer changed the job terms after I accepted. A laundry business also gave me someone else's clothes. What can I do about both problems?",
+    "original_supported_topic_ids": [
+      "labor.employment_contracts",
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "labor.employment_contracts",
+      "consumer.service_complaints"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_058",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May notice to explain ako mula sa private employer at gusto kong maintindihan ang process. May unsafe extension cord din akong nabili para sa bahay. Paano ko haharapin ang bawat isa?",
+    "final_question_text": "May notice to explain ako mula sa private employer at gusto kong maintindihan ang process. May unsafe extension cord din akong nabili para sa bahay. Paano ko haharapin ang bawat isa?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process",
+      "consumer.product_safety"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process",
+      "consumer.product_safety"
+    ],
+    "reason": "Termination-process information and household-product safety are supported."
+  },
+  {
+    "question_id": "EVAL_059",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I want to ask SEnA about delayed private-sector wages and DTI about a misleading sale advertisement. Can you identify the separate complaint routes?",
+    "final_question_text": "My private employer is late paying wages, and a store misled me with its sale ad. How do I raise the wage issue with SEnA and the store issue with DTI?",
+    "original_supported_topic_ids": [
+      "labor.complaint_referral",
+      "labor.wages_payment",
+      "consumer.misleading_advertising"
+    ],
+    "final_supported_topic_ids": [
+      "labor.complaint_referral",
+      "labor.wages_payment",
+      "consumer.misleading_advertising"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_060",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Walang holiday premium sa payslip ko sa private grocery. Nang bumili naman ako ng gamit sa ibang store, candy ang isinukli. Ano ang relevant rules sa bawat issue?",
+    "final_question_text": "Walang holiday premium sa payslip ko sa private grocery. Nang bumili naman ako ng gamit sa ibang store, candy ang isinukli. Ano ang relevant rules sa bawat issue?",
+    "original_supported_topic_ids": [
+      "labor.holiday_premium_pay",
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "labor.holiday_premium_pay",
+      "consumer.price_tags"
+    ],
+    "reason": "Supported holiday pay and exact-change concerns."
+  },
+  {
+    "question_id": "EVAL_061",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My private employer deducted a uniform fee, while an appliance business refuses to discuss a replacement for a faulty fan. Can you help me organize both complaints?",
+    "final_question_text": "My private employer deducted a uniform fee from my salary. An appliance shop also won't discuss replacing a faulty fan I bought. Where do I start with each complaint?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment",
+      "consumer.repair_replace_refund"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment",
+      "consumer.repair_replace_refund"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_062",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Required ang after-shift briefing sa private warehouse namin. May online merchant din na nagpalit ng agreed delivery fee para sa personal purchase ko. Alin ang dapat kong i-check sa dalawang concern?",
+    "final_question_text": "Required yung briefing after shift sa private warehouse namin. May online store din na binago yung agreed delivery fee ng personal purchase ko. Ano puwede kong gawin sa dalawang concern?",
+    "original_supported_topic_ids": [
+      "labor.hours_of_work",
+      "consumer.online_transactions"
+    ],
+    "final_supported_topic_ids": [
+      "labor.hours_of_work",
+      "consumer.online_transactions"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_063",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I want general advice about my private-employment final-pay breakdown, and I also want you to calculate my exact SSS retirement pension. Can you handle both?",
+    "final_question_text": "There's something I don't understand in my final-pay breakdown from a private employer. I also want to know exactly how much my SSS retirement pension will be. Can you help with both?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_064",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Hindi gumagana ang vacuum na binili ko sa appliance shop. Separately, may unauthorized charge sa bank account ko. Aling part ang sakop ninyo?",
+    "final_question_text": "Hindi gumagana yung vacuum na binili ko sa appliance shop. May charge din sa bank account ko na hindi ko ginawa. Ano gagawin ko sa bawat issue?",
+    "original_supported_topic_ids": [
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.defective_products"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_065",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I need basic information about overtime at my private job, and my sister needs advice on pay under her overseas employment contract. Which part can you explain?",
+    "final_question_text": "I'm asking about overtime pay at my private job. My sister has a pay problem under her overseas employment contract too. Where do we each start?",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_066",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "May regular-holiday pay question ako sa private company, at gusto kong malaman ang exact minimum wage amount sa city namin ngayon. Puwede bang parehong sagutin?",
+    "final_question_text": "May tanong ako sa regular-holiday pay sa private company ko. Magkano rin mismo yung minimum wage sa city namin ngayon?",
+    "original_supported_topic_ids": [
+      "labor.holiday_premium_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.holiday_premium_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_067",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A shop refuses my appliance warranty claim, and an insurer has denied the separate insurance policy on my home. Are those handled the same way here?",
+    "final_question_text": "A shop turned down my appliance warranty claim. Separately, my home insurer denied a claim under my insurance policy. How do I raise each dispute?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_068",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Gusto kong maintindihan ang basic probation rules sa private employer ko. May hiwalay din akong concern tungkol sa municipal employee promotion. Ano ang kaya ninyong ipaliwanag?",
+    "final_question_text": "Ano rules sa probation sa private employer ko? May concern din ako sa promotion ng kapatid kong municipal employee. Saan kami magtatanong?",
+    "original_supported_topic_ids": [
+      "labor.employment_contracts"
+    ],
+    "final_supported_topic_ids": [
+      "labor.employment_contracts"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_069",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Please explain a private employee's basic termination-notice process. Separately, I have an NLRC hearing next week and want help choosing the arguments for it.",
+    "final_question_text": "Please explain a private employee's basic termination-notice process. Separately, I have an NLRC hearing next week and want help choosing the arguments for it.",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "General procedure is supported; strategy for an ongoing tribunal case is excluded."
+  },
+  {
+    "question_id": "EVAL_070",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "May complaint ako tungkol sa paid laundry service. Kasabay nito, inilabas ng online seller ang ID photo ko nang walang permission. Aling issue ang puwedeng sagutin?",
+    "final_question_text": "May reklamo ako sa paid laundry service. May online seller din na nag-post ng ID photo ko nang walang permiso. Ano gagawin ko sa bawat isa?",
+    "original_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_071",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I need basic private-sector rest-day information, and I want a technical assessment of whether our chemical-storage area complies with workplace safety standards.",
+    "final_question_text": "What are the rest-day rules for my private-sector job? I also want someone to assess whether our chemical-storage area meets technical workplace safety standards.",
+    "original_supported_topic_ids": [
+      "labor.rest_days"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_072",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Gusto kong magtanong sa SEnA tungkol sa unpaid wages sa private job ko. May kamag-anak din akong seafarer na may onboard-pay dispute. Pareho bang sakop ng assistant?",
+    "final_question_text": "Lalapit sana ako sa SEnA dahil hindi pa bayad sahod ko sa private job. Yung pinsan kong seafarer may problema rin sa onboard pay. Saan naman siya lalapit?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment",
+      "labor.complaint_referral"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment",
+      "labor.complaint_referral"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_073",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I am checking thirteenth-month pay for my private office job. I also want a guaranteed prediction that I would win a dismissal case if I filed one.",
+    "final_question_text": "How do I check my thirteenth-month pay at a private company? Also, if I file a dismissal case, can you tell me for sure whether I'll win?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_074",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "May price-label issue ako sa grocery. Separately, gusto kong ipa-compute ang employees' compensation disability benefit ng asawa ko. Alin dito ang sakop?",
+    "final_question_text": "Mas mataas yung singil sa grocery kaysa sa price label. Gusto ko ring ipa-compute yung employees' compensation disability benefit ng asawa ko. Paano sa bawat concern?",
+    "original_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_075",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I need basic warranty information for a home appliance and separate advice about a household employer who will not give a kasambahay a rest day. Can you cover both?",
+    "final_question_text": "I have a question about my home appliance warranty. My cousin is a kasambahay whose household employer won't give her a rest day. What can each of us do?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_076",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Government employee ako at gusto kong i-challenge ang bagong salary grade assignment. Paano ang civil-service process dito?",
+    "final_question_text": "Government employee ako at gusto kong i-challenge ang bagong salary grade assignment. Paano ang civil-service process dito?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Government employment is excluded even though the concern involves pay."
+  },
+  {
+    "question_id": "EVAL_077",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My bank froze my savings account after a disputed transfer. Which regulator handles the complaint and how do I challenge the freeze?",
+    "final_question_text": "My bank froze my savings account after a disputed transfer. Where can I complain, and how do I challenge it?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_078",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Kasambahay ako at kasama sa usapan na may paid leave, pero ayaw itong kilalanin ng household employer. Ano ang puwede kong i-claim?",
+    "final_question_text": "Kasambahay ako at kasama sa usapan na may paid leave, pero ayaw itong kilalanin ng household employer. Ano ang puwede kong i-claim?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Domestic-worker employment is an excluded specialized category."
+  },
+  {
+    "question_id": "EVAL_079",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My insurer says a hospital expense is excluded under my policy. Can you interpret that exclusion and tell me how to dispute it?",
+    "final_question_text": "My insurer won't cover a hospital expense because it says the policy excludes it. Can you explain the exclusion and how to dispute it?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_080",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "OFW ako at binago ng overseas employer ang accommodation arrangement sa contract ko. Kanino ako dapat lumapit?",
+    "final_question_text": "OFW ako at binago ng overseas employer ang accommodation arrangement sa contract ko. Kanino ako dapat lumapit?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Overseas employment is excluded from the private-sector MVP module."
+  },
+  {
+    "question_id": "EVAL_081",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "An investment adviser persuaded me to put money into a fund that I now cannot withdraw. Can you assess the securities complaint?",
+    "final_question_text": "An investment adviser got me to put money in a fund, but now I can't withdraw it. How do I raise a securities complaint?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_082",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. Paano ko ipapa-correct ang maritime record?",
+    "final_question_text": "Seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. Paano ko ipapa-correct ang maritime record?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Specialized maritime/seafarer record issue is excluded."
+  },
+  {
+    "question_id": "EVAL_083",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My internet provider keeps billing me after I cancelled the connection. Can you explain the telecom rules for this dispute?",
+    "final_question_text": "I cancelled my internet connection, but the provider keeps billing me. What telecom rules apply?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_084",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May disagreement ang union at management tungkol sa bargaining unit at gusto naming i-challenge ang representation. Anong labor rules ang applicable?",
+    "final_question_text": "May disagreement ang union at management tungkol sa bargaining unit at gusto naming i-challenge ang representation. Anong labor rules ang applicable?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Complex union representation is excluded."
+  },
+  {
+    "question_id": "EVAL_085",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A website retained my identification document after I requested deletion. Can you determine whether it violated data-protection rules?",
+    "final_question_text": "I asked a website to delete my ID document, but it kept it. Is that a data-privacy violation?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_086",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Na-deny ang employees' compensation claim ko para sa work-related illness. Paano ko ia-appeal at magkano ang benefit?",
+    "final_question_text": "Na-deny ang employees' compensation claim ko para sa work-related illness. Paano ko ia-appeal at magkano ang benefit?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Workers compensation and disability benefit assessment are excluded."
+  },
+  {
+    "question_id": "EVAL_087",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I believe a surgeon made an avoidable mistake during my operation. Can you assess whether I have a medical-negligence claim?",
+    "final_question_text": "I think my surgeon made a mistake during my operation. Can you assess whether I have a medical-negligence claim?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_088",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Sa factory namin, gusto kong ipa-check kung compliant ang ventilation at chemical exposure limits. Kaya ba ninyong gumawa ng technical OSH assessment?",
+    "final_question_text": "Sa factory namin, gusto kong ipa-check kung compliant ang ventilation at chemical exposure limits. Kaya ba ninyong gumawa ng technical OSH assessment?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Technical occupational-safety compliance is excluded."
+  },
+  {
+    "question_id": "EVAL_089",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "A condominium developer changed the unit layout after I signed the purchase agreement. Can you advise on my housing adjudication options?",
+    "final_question_text": "The developer changed my condo's layout after I signed the purchase agreement. What housing complaint options do I have?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_090",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Pakicompute po ang retirement pension ko gamit ang contribution history at retirement age ko. Gusto ko ang exact monthly amount.",
+    "final_question_text": "Pakicompute po ang retirement pension ko gamit ang contribution history at retirement age ko. Gusto ko ang exact monthly amount.",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Exact pension computation is excluded."
+  },
+  {
+    "question_id": "EVAL_091",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "An airline changed my itinerary and refuses compensation for the missed connection. Which aviation rules apply?",
+    "final_question_text": "The airline changed my itinerary and I missed a connection. It's refusing compensation. What aviation rules apply?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_092",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May pending labor case na ako at may order ang tribunal. Ano ang dapat kong isagot para mas malakas ang case ko?",
+    "final_question_text": "May pending labor case na ako at may order ang tribunal. Ano ang dapat kong isagot para mas malakas ang case ko?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Individual strategy in an ongoing proceeding is excluded."
+  },
+  {
+    "question_id": "EVAL_093",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My water provider added an adjustment that it says goes back several years. Can you challenge the utility's billing computation for me?",
+    "final_question_text": "My water provider added an adjustment for charges from years ago. Can you help me dispute its utility-billing calculation?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_094",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Kung ibibigay ko ang chat screenshots, masasabi mo ba kung siguradong mananalo ako sa illegal-dismissal case?",
+    "final_question_text": "Kung ibibigay ko ang chat screenshots, masasabi mo ba kung siguradong mananalo ako sa illegal-dismissal case?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Requests a personalized prediction rather than supported general information."
+  },
+  {
+    "question_id": "EVAL_095",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Someone used a fake store page to obtain my payment and then deleted the page. I want help with the criminal cyberfraud investigation, not a refund procedure.",
+    "final_question_text": "I paid a fake store page and then the page disappeared. How do I report it for a criminal cyberfraud investigation?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_096",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Ano mismo ang minimum wage sa municipality namin ngayong araw, kasama ang applicable tranche at industry category? Exact pesos po ang kailangan ko.",
+    "final_question_text": "Magkano mismo ang minimum wage sa municipality namin ngayon, para sa industry at tranche ko? Exact pesos sana.",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_097",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "An online lending company is contacting everyone in my phone list about a debt. Can you assess both its collection practices and its use of my personal data?",
+    "final_question_text": "An online lender keeps contacting people in my phone list about my debt. What can I do about the collection calls and its use of my personal data?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_098",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May complaint ako sa doctor tungkol sa maling treatment at sa insurer na hindi nagbayad ng hospital bill. Ano ang rights ko sa dalawang issue?",
+    "final_question_text": "May complaint ako sa doctor tungkol sa maling treatment at sa insurer na hindi nagbayad ng hospital bill. Ano ang rights ko sa dalawang issue?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Both medical negligence and insurance are excluded."
+  },
+  {
+    "question_id": "EVAL_099",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "My pension provider and my investment broker disagree about fees on a retirement investment product. Can you interpret the financial contracts?",
+    "final_question_text": "My pension provider and investment broker disagree about fees on my retirement investment product. Can you explain the financial contracts?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "EVAL_100",
+    "set": "evaluation",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Municipal employee ako at gusto kong malaman kung mananalo ang administrative appeal ko. Puwede mo bang i-predict ang result?",
+    "final_question_text": "Municipal employee ako at gusto kong malaman kung mananalo ang administrative appeal ko. Puwede mo bang i-predict ang result?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Government employment and outcome prediction are both excluded."
+  },
+  {
+    "question_id": "TYPE_001",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "I am employed by a private warehouse. My last two weekly salaries are unpaid. Where can I ask for help?",
+    "final_question_text": "I am employed by a private warehouse. My last two weekly salaries are unpaid. Where can I ask for help?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "Private warehouse employee asks about delayed wages."
+  },
+  {
+    "question_id": "TYPE_002",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private warhouse employe here, last 2 weekly salries still unpayed. where do i ask help?",
+    "final_question_text": "private warhouse employe here, last 2 weekly salries still unpayed. where do i ask help?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "Private warehouse employee asks about delayed wages."
+  },
+  {
+    "question_id": "TYPE_003",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private warehouse employee ako. 2 wks sahod wala pa. san pwede lumapit?",
+    "final_question_text": "private warehouse employee ako. 2 wks sahod wala pa. san pwede lumapit?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "Private warehouse employee asks about delayed wages."
+  },
+  {
+    "question_id": "TYPE_004",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Yung dalawang linggong sahod ko, hindi pa bayad ng private warehouse na employer ko. Kanino ako lalapit?",
+    "final_question_text": "Yung dalawang linggong sahod ko, hindi pa bayad ng private warehouse na employer ko. Kanino ako lalapit?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "Private warehouse employee asks about delayed wages."
+  },
+  {
+    "question_id": "TYPE_005",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "PRIVATE warehouse employee here... 2 weeks, no salary!! who can help me?",
+    "final_question_text": "PRIVATE warehouse employee here... 2 weeks, no salary!! who can help me?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "Private warehouse employee asks about delayed wages."
+  },
+  {
+    "question_id": "TYPE_006",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Employee ako sa private bakery. Sampung oras ang trabaho ko araw-araw pero walang extra pay. May overtime ba dapat?",
+    "final_question_text": "Employee ako sa private bakery. Sampung oras ang trabaho ko araw-araw pero walang extra pay. May overtime ba dapat?",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "reason": "Private bakery employee asks general overtime entitlement, without claiming an exact amount."
+  },
+  {
+    "question_id": "TYPE_007",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "employe ako sa private bakrey, 10 oras araw araw pero wlang extrang bayad. may overtym ba?",
+    "final_question_text": "employe ako sa private bakrey, 10 oras araw araw pero wlang extrang bayad. may overtym ba?",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "reason": "Private bakery employee asks general overtime entitlement, without claiming an exact amount."
+  },
+  {
+    "question_id": "TYPE_008",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private bakery employee, 10 hrs/day no OT pay. am i entitled to extra pay?",
+    "final_question_text": "private bakery employee, 10 hrs/day no OT pay. am i entitled to extra pay?",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "reason": "Private bakery employee asks general overtime entitlement, without claiming an exact amount."
+  },
+  {
+    "question_id": "TYPE_009",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "No extra pay for ten-hour shifts: is that allowed for an employee of a private bakery?",
+    "final_question_text": "For ten-hour shifts, no extra pay. Is that allowed for an employee of a private bakery?",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_010",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private bakery employee po / 10hrs araw araw / walang extra bayad?? may OT po ba",
+    "final_question_text": "private bakery employee po / 10hrs araw araw / walang extra bayad?? may OT po ba",
+    "original_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "final_supported_topic_ids": [
+      "labor.overtime_pay"
+    ],
+    "reason": "Private bakery employee asks general overtime entitlement, without claiming an exact amount."
+  },
+  {
+    "question_id": "TYPE_011",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "My private clinic employer dismissed me without a written notice. What procedure should an employer generally follow?",
+    "final_question_text": "My private clinic employer dismissed me without a written notice. What procedure should an employer generally follow?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "Private-sector employee requests general dismissal procedure."
+  },
+  {
+    "question_id": "TYPE_012",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private clinic employr dismised me w/o writen notce. what procedur should they follow?",
+    "final_question_text": "private clinic employr dismised me w/o writen notce. what procedur should they follow?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "Private-sector employee requests general dismissal procedure."
+  },
+  {
+    "question_id": "TYPE_013",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "employee sa private clinic, tinanggal w/o written notice. ano basic process dapat?",
+    "final_question_text": "employee sa private clinic, tinanggal w/o written notice. ano basic process dapat?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "Private-sector employee requests general dismissal procedure."
+  },
+  {
+    "question_id": "TYPE_014",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Walang written notice nang tanggalin ako bilang employee sa private clinic. Anong proseso ang dapat sundin?",
+    "final_question_text": "Walang written notice nang tanggalin ako bilang employee sa private clinic. Anong proseso ang dapat sundin?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "Private-sector employee requests general dismissal procedure."
+  },
+  {
+    "question_id": "TYPE_015",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private clinic employee here. FIRED. no written notice... what is the usual procedure?",
+    "final_question_text": "private clinic employee here. FIRED. no written notice... what is the usual procedure?",
+    "original_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "final_supported_topic_ids": [
+      "labor.termination_due_process"
+    ],
+    "reason": "Private-sector employee requests general dismissal procedure."
+  },
+  {
+    "question_id": "TYPE_016",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Nag-resign ako bilang employee sa private hotel. Humingi ako ng COE pero ayaw pa nilang ibigay. Ano ang general rules?",
+    "final_question_text": "Nag-resign ako bilang employee sa private hotel. Humingi ako ng COE pero ayaw pa nilang ibigay. Ano ang general rules?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "reason": "Former private-sector employee asks general COE release guidance."
+  },
+  {
+    "question_id": "TYPE_017",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "nagresign na ko sa private htel as employe. ayw ibigay certifcate of employmnt. ano rules?",
+    "final_question_text": "nagresign na ko sa private htel as employe. ayw ibigay certifcate of employmnt. ano rules?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "reason": "Former private-sector employee asks general COE release guidance."
+  },
+  {
+    "question_id": "TYPE_018",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "resigned private hotel employee. requested COE, employer refuses. what are the basic rules?",
+    "final_question_text": "resigned private hotel employee. requested COE, employer refuses. what are the basic rules?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "reason": "Former private-sector employee asks general COE release guidance."
+  },
+  {
+    "question_id": "TYPE_019",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "What are the general rules when a private hotel refuses its former employee a requested certificate of employment?",
+    "final_question_text": "A requested COE, my old private hotel employer won't give it to me. What are the rules?",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_020",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private hotel employee dati... resigned na. COE request ko, AYAW ibigay??? ano po rules",
+    "final_question_text": "private hotel employee dati... resigned na. COE request ko, AYAW ibigay??? ano po rules",
+    "original_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "final_supported_topic_ids": [
+      "labor.final_pay_coe"
+    ],
+    "reason": "Former private-sector employee asks general COE release guidance."
+  },
+  {
+    "question_id": "TYPE_021",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "The appliance store refuses to honor the written warranty on the blender I bought there. What can I do?",
+    "final_question_text": "The appliance store refuses to honor the written warranty on the blender I bought there. What can I do?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Retail appliance warranty refusal is a covered consumer question."
+  },
+  {
+    "question_id": "TYPE_022",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "apliance store wont honnor the writen waranty on my blnder. what can i do?",
+    "final_question_text": "apliance store wont honnor the writen waranty on my blnder. what can i do?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Retail appliance warranty refusal is a covered consumer question."
+  },
+  {
+    "question_id": "TYPE_023",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "blender ko galing appliance store may written warranty, ayaw i-honor. ano pwede gawin?",
+    "final_question_text": "blender ko galing appliance store may written warranty, ayaw i-honor. ano pwede gawin?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Retail appliance warranty refusal is a covered consumer question."
+  },
+  {
+    "question_id": "TYPE_024",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May written warranty yung blender na binili ko sa appliance store. Ayaw nila itong sundin, ano ang options ko?",
+    "final_question_text": "May written warranty yung blender na binili ko sa appliance store. Ayaw nila itong sundin, ano ang options ko?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Retail appliance warranty refusal is a covered consumer question."
+  },
+  {
+    "question_id": "TYPE_025",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "blender / appliance store / WRITTEN warranty... store says no!! what can i do?",
+    "final_question_text": "blender / appliance store / WRITTEN warranty... store says no!! what can i do?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Retail appliance warranty refusal is a covered consumer question."
+  },
+  {
+    "question_id": "TYPE_026",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Sa grocery, kulang ng limang piso ang sukli ko. Sabi ng cashier wala silang barya kaya hindi na ibibigay. Puwede ba iyon?",
+    "final_question_text": "Sa grocery, kulang ng limang piso ang sukli ko. Sabi ng cashier wala silang barya kaya hindi na ibibigay. Puwede ba iyon?",
+    "original_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "reason": "A retail cashier keeping change is covered by the exact-change topic."
+  },
+  {
+    "question_id": "TYPE_027",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "grocerry kulang 5 piso sukli ko, wla daw baryya ung cashir kaya di na bigay. pwde ba yon?",
+    "final_question_text": "grocerry kulang 5 piso sukli ko, wla daw baryya ung cashir kaya di na bigay. pwde ba yon?",
+    "original_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "reason": "A retail cashier keeping change is covered by the exact-change topic."
+  },
+  {
+    "question_id": "TYPE_028",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "grocery cashier kept P5 of my change, says no coins available. is that allowed?",
+    "final_question_text": "grocery cashier kept P5 of my change, says no coins available. is that allowed?",
+    "original_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "reason": "A retail cashier keeping change is covered by the exact-change topic."
+  },
+  {
+    "question_id": "TYPE_029",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Is a grocery allowed to keep five pesos of my change because its cashier has no coins?",
+    "final_question_text": "Is a grocery allowed to keep five pesos of my change because its cashier has no coins?",
+    "original_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "reason": "A retail cashier keeping change is covered by the exact-change topic."
+  },
+  {
+    "question_id": "TYPE_030",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "grocery purchase po... SUKLI kulang 5 pesos!! walang coins daw??? allowed ba",
+    "final_question_text": "grocery purchase po... SUKLI kulang 5 pesos!! walang coins daw??? allowed ba",
+    "original_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.price_tags"
+    ],
+    "reason": "A retail cashier keeping change is covered by the exact-change topic."
+  },
+  {
+    "question_id": "TYPE_031",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "I paid an appliance repair shop to fix my electric fan, but it returned the fan without doing the repair. Where can I complain?",
+    "final_question_text": "I paid an appliance repair shop to fix my electric fan, but it returned the fan without doing the repair. Where can I complain?",
+    "original_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "reason": "Incomplete ordinary household repair service is supported."
+  },
+  {
+    "question_id": "TYPE_032",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "paid a repair shopp to fix my eletric fan, got it back unrepaiired. where can i complan?",
+    "final_question_text": "paid a repair shopp to fix my eletric fan, got it back unrepaiired. where can i complan?",
+    "original_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "reason": "Incomplete ordinary household repair service is supported."
+  },
+  {
+    "question_id": "TYPE_033",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "nagbayad sa appliance repair shop para ayusin fan ko. binalik na di inayos. san magreklamo?",
+    "final_question_text": "nagbayad sa appliance repair shop para ayusin fan ko. binalik na di inayos. san magreklamo?",
+    "original_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "reason": "Incomplete ordinary household repair service is supported."
+  },
+  {
+    "question_id": "TYPE_034",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Hindi inayos yung electric fan kahit bayad na ang appliance repair shop. Saan ako puwedeng magreklamo?",
+    "final_question_text": "Hindi inayos yung electric fan kahit bayad na ang appliance repair shop. Saan ako puwedeng magreklamo?",
+    "original_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "reason": "Incomplete ordinary household repair service is supported."
+  },
+  {
+    "question_id": "TYPE_035",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "paid appliance repair shop... fan returned, NO repair!! where do I complain?",
+    "final_question_text": "paid appliance repair shop... fan returned, NO repair!! where do I complain?",
+    "original_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.service_complaints"
+    ],
+    "reason": "Incomplete ordinary household repair service is supported."
+  },
+  {
+    "question_id": "TYPE_036",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Nagbayad ako sa online furniture store pero hindi dumating ang upuan. Sumasagot pa ang shop pero puro next week. Ano ang options ko?",
+    "final_question_text": "Nagbayad ako sa online furniture store pero hindi dumating ang upuan. Sumasagot pa ang shop pero puro next week. Ano ang options ko?",
+    "original_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "reason": "Ordinary B2C delivery dispute with an operating retailer, without an express criminal-investigation request."
+  },
+  {
+    "question_id": "TYPE_037",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "online furnture store bayad na upuan ko pero di nadelivr. sumasgot shop puro nxt week. ano options?",
+    "final_question_text": "online furnture store bayad na upuan ko pero di nadelivr. sumasgot shop puro nxt week. ano options?",
+    "original_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "reason": "Ordinary B2C delivery dispute with an operating retailer, without an express criminal-investigation request."
+  },
+  {
+    "question_id": "TYPE_038",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "online furniture store: chair paid, not delivered. shop still replies but keeps saying next wk. options?",
+    "final_question_text": "online furniture store: chair paid, not delivered. shop still replies but keeps saying next wk. options?",
+    "original_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "reason": "Ordinary B2C delivery dispute with an operating retailer, without an express criminal-investigation request."
+  },
+  {
+    "question_id": "TYPE_039",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "What can I do about a paid chair that an online furniture retailer keeps promising to deliver next week? The shop is still replying.",
+    "final_question_text": "What can I do about a paid chair that an online furniture retailer keeps promising to deliver next week? The shop is still replying.",
+    "original_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "reason": "Ordinary B2C delivery dispute with an operating retailer, without an express criminal-investigation request."
+  },
+  {
+    "question_id": "TYPE_040",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "online furniture SHOP... bayad na chair, wala pa!! nagrereply pa pero next week lagi??? ano pwede gawin",
+    "final_question_text": "online furniture SHOP... bayad na chair, wala pa!! nagrereply pa pero next week lagi??? ano pwede gawin",
+    "original_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.online_transactions"
+    ],
+    "reason": "Ordinary B2C delivery dispute with an operating retailer, without an express criminal-investigation request."
+  },
+  {
+    "question_id": "TYPE_041",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I work for a private restaurant and have a question about thirteenth-month pay. Separately, a store sold me a kettle that does not turn on. Can you explain my options for both?",
+    "final_question_text": "I work for a private restaurant and want to check my thirteenth-month pay. A store also sold me a kettle that won't turn on. What can I do about each?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_042",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private restarant employe, question abt thirteenth mnth pay. also a store sold me a ketle that wont turn on. options for both?",
+    "final_question_text": "private restarant employe, question abt thirteenth mnth pay. also a store sold me a ketle that wont turn on. options for both?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "reason": "Supported private employment benefit plus a separate defective retail product."
+  },
+  {
+    "question_id": "TYPE_043",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "employee ako private resto, ask ko 13th month pay. tsaka kettle na binili sa store ayaw umandar. help sa 2 issue?",
+    "final_question_text": "employee ako private resto, ask ko 13th month pay. tsaka kettle na binili sa store ayaw umandar. help sa 2 issue?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "reason": "Supported private employment benefit plus a separate defective retail product."
+  },
+  {
+    "question_id": "TYPE_044",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Yung kettle ko mula sa store ayaw umandar. May tanong din ako sa thirteenth-month pay bilang private restaurant employee. Puwedeng parehong issue?",
+    "final_question_text": "Yung kettle ko mula sa store ayaw umandar. Gusto ko ring i-check yung thirteenth-month pay ko bilang private restaurant employee. Paano sa bawat issue?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_045",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "two issues!! private restaurant employee: 13th month pay question... AND store-bought kettle, will not turn on. options please",
+    "final_question_text": "private restaurant employee here... question on my 13th month pay. also store-bought kettle, WON'T turn on!! what can i do about both?",
+    "original_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "final_supported_topic_ids": [
+      "labor.thirteenth_month_pay",
+      "consumer.defective_products"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_046",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Employee ako sa private salon at gusto kong malaman ang weekly rest-day rules. Sa grocery naman, mas mataas ang singil kaysa shelf price. Ano ang puwede sa dalawang issue?",
+    "final_question_text": "Employee ako sa private salon. Ano yung weekly rest-day rules? Sa grocery naman, mas mataas ang singil kaysa shelf price. Ano gagawin ko sa dalawang issue?",
+    "original_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_047",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private salon employe ako ask restday rules. grocerry naman mas mahal singil kesa shelff price. ano pwde sa 2?",
+    "final_question_text": "private salon employe ako ask restday rules. grocerry naman mas mahal singil kesa shelff price. ano pwde sa 2?",
+    "original_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "reason": "Private-sector rest-day rules plus ordinary retail displayed price."
+  },
+  {
+    "question_id": "TYPE_048",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private salon employee: weekly rest day rules? also grocery charged above shelf price. need help w/ both.",
+    "final_question_text": "private salon employee: weekly rest day rules? also grocery charged above shelf price. need help w/ both.",
+    "original_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "reason": "Private-sector rest-day rules plus ordinary retail displayed price."
+  },
+  {
+    "question_id": "TYPE_049",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "The grocery charged more than the shelf price. Separately, what weekly rest-day rules apply to me as a private salon employee?",
+    "final_question_text": "The grocery charged more than the shelf price. I also need to check my weekly rest-day rights as an employee of a private salon. What can I do?",
+    "original_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_050",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "private salon EMPLOYEE / weekly rest day rules?? saka grocery: shelf price iba, singil mas mataas!! help sa pareho",
+    "final_question_text": "private salon employee... weekly rest day rules?? saka sa grocery, shelf price iba sa singil. help sa pareho pls",
+    "original_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "final_supported_topic_ids": [
+      "labor.rest_days",
+      "consumer.price_tags"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_051",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "I am a private factory employee with unpaid wages. Where can I get help, and what is the exact minimum wage in my town today?",
+    "final_question_text": "I am a private factory employee with unpaid wages. Where can I get help, and what is the exact minimum wage in my town today?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "General private wage-payment issue is supported; an exact current local minimum-wage rate is excluded."
+  },
+  {
+    "question_id": "TYPE_052",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private factry employe, unpayed wages. where get help and whats the exact minimun wage in my town today?",
+    "final_question_text": "private factry employe, unpayed wages. where get help and whats the exact minimun wage in my town today?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "General private wage-payment issue is supported; an exact current local minimum-wage rate is excluded."
+  },
+  {
+    "question_id": "TYPE_053",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "private factory employee, di bayad sahod. san help? saka exact min wage sa town ko today magkano?",
+    "final_question_text": "private factory employee, di bayad sahod. san help? saka exact min wage sa town ko today magkano?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "General private wage-payment issue is supported; an exact current local minimum-wage rate is excluded."
+  },
+  {
+    "question_id": "TYPE_054",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Magkano mismo ang minimum wage sa town ko ngayong araw? At bilang private factory employee na hindi pa bayad ang sahod, saan ako hihingi ng tulong?",
+    "final_question_text": "Magkano mismo ang minimum wage sa town ko ngayong araw? At bilang private factory employee na hindi pa bayad ang sahod, saan ako hihingi ng tulong?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "General private wage-payment issue is supported; an exact current local minimum-wage rate is excluded."
+  },
+  {
+    "question_id": "TYPE_055",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "PRIVATE factory employee, wages unpaid!! help please... also exact town minimum wage TODAY, how much?",
+    "final_question_text": "private factory employee here... wages UNPAID!! where can i get help? also exact minimum wage in my town TODAY, how much?",
+    "original_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "final_supported_topic_ids": [
+      "labor.wages_payment"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_056",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Ayaw i-honor ng appliance store ang warranty ng rice cooker ko. Pinost din nila ang ID ko sa public page. Ano ang rights ko sa dalawang issue?",
+    "final_question_text": "Ayaw i-honor ng appliance store ang warranty ng rice cooker ko. Pinost din nila ang ID ko sa public page. Ano ang rights ko sa dalawang issue?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Product warranty is supported; disclosure of customer identification information is excluded."
+  },
+  {
+    "question_id": "TYPE_057",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "apliance store ayaw honnor waranty rice cookr ko. pinost den ID ko public page. ano rights ko sa dalawa?",
+    "final_question_text": "apliance store ayaw honnor waranty rice cookr ko. pinost den ID ko public page. ano rights ko sa dalawa?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Product warranty is supported; disclosure of customer identification information is excluded."
+  },
+  {
+    "question_id": "TYPE_058",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "appliance store refuses rice cooker warranty + posted my ID publicly. what are my rights for both?",
+    "final_question_text": "appliance store refuses rice cooker warranty + posted my ID publicly. what are my rights for both?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Product warranty is supported; disclosure of customer identification information is excluded."
+  },
+  {
+    "question_id": "TYPE_059",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "The appliance store posted my ID publicly and also refused my rice cooker warranty. What can I do about each issue?",
+    "final_question_text": "The appliance store posted my ID publicly and also refused my rice cooker warranty. What can I do about each issue?",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Product warranty is supported; disclosure of customer identification information is excluded."
+  },
+  {
+    "question_id": "TYPE_060",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "rice cooker WARRANTY ayaw ng appliance store!! tapos ID ko nasa PUBLIC page nila??? help sa 2 issue",
+    "final_question_text": "ayaw i-honor ng appliance store yung rice cooker WARRANTY... tapos ID ko nasa public page nila?? ano gagawin sa dalawa",
+    "original_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "final_supported_topic_ids": [
+      "consumer.warranties"
+    ],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_061",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "I am employed by the municipal government, and my salary is delayed. What civil-service remedy applies to me?",
+    "final_question_text": "I am employed by the municipal government, and my salary is delayed. What civil-service remedy applies to me?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Municipal employee wage issue falls under excluded government employment."
+  },
+  {
+    "question_id": "TYPE_062",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "municipal goverment employe here, salry delayd. what civil servce remedy applies?",
+    "final_question_text": "municipal goverment employe here, salry delayd. what civil servce remedy applies?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Municipal employee wage issue falls under excluded government employment."
+  },
+  {
+    "question_id": "TYPE_063",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "municipal govt employee ako delayed sahod. ano civil service remedy ko?",
+    "final_question_text": "municipal govt employee ako delayed sahod. ano civil service remedy ko?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Municipal employee wage issue falls under excluded government employment."
+  },
+  {
+    "question_id": "TYPE_064",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Delayed yung sahod ko bilang empleyado ng municipal government. Ano ang remedy sa civil service?",
+    "final_question_text": "Delayed yung sahod ko bilang empleyado ng municipal government. Ano ang remedy sa civil service?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Municipal employee wage issue falls under excluded government employment."
+  },
+  {
+    "question_id": "TYPE_065",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "MUNICIPAL government employee... salary still delayed!!! what civil-service remedy can I use?",
+    "final_question_text": "municipal government employee... salary delayed again!! what civil-service remedy can i use?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_066",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May interest charge sa credit card ko na dini-dispute ko sa bank. Anong banking rules ang puwede kong gamitin?",
+    "final_question_text": "May interest charge sa credit card ko na dini-dispute ko sa bank. Anong banking rules ang puwede kong gamitin?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Credit-card interest dispute requires excluded financial-consumer rules."
+  },
+  {
+    "question_id": "TYPE_067",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "credit crad intrest charge dini dispute ko sa bnko. anong bankng rules gamit?",
+    "final_question_text": "credit crad intrest charge dini dispute ko sa bnko. anong bankng rules gamit?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Credit-card interest dispute requires excluded financial-consumer rules."
+  },
+  {
+    "question_id": "TYPE_068",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "disputing bank credit card interest charge. what banking rules apply pls?",
+    "final_question_text": "disputing bank credit card interest charge. what banking rules apply pls?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Credit-card interest dispute requires excluded financial-consumer rules."
+  },
+  {
+    "question_id": "TYPE_069",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "What banking rules apply when I dispute an interest charge on my bank credit card?",
+    "final_question_text": "What banking rules apply when I dispute an interest charge on my bank credit card?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Credit-card interest dispute requires excluded financial-consumer rules."
+  },
+  {
+    "question_id": "TYPE_070",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "BANK credit card... interest charge dispute!! anong banking rules pwede ko gamitin???",
+    "final_question_text": "bank credit card... disputed INTEREST charge!! anong banking rules pwede gamitin?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_071",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "I work as a seafarer on an overseas ship. The company has withheld pay under my seafarer contract. Which specialized rules apply?",
+    "final_question_text": "I'm a seafarer on an overseas ship. The company is withholding pay under my seafarer contract. What rules apply to my claim?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_072",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "oversees seafrer on a ship, company witholds pay under seafrer contrct. which special rules apply?",
+    "final_question_text": "oversees seafrer on a ship, company witholds pay under seafrer contrct. which special rules apply?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Express overseas seafarer contract claim requires specialized employment rules."
+  },
+  {
+    "question_id": "TYPE_073",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "seafarer sa overseas ship ako, hold ng company sahod sa seafarer contract. anong special rules?",
+    "final_question_text": "seafarer sa overseas ship ako, hold ng company sahod sa seafarer contract. anong special rules?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Express overseas seafarer contract claim requires specialized employment rules."
+  },
+  {
+    "question_id": "TYPE_074",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Anong specialized rules ang para sa sahod kong hinold ng company? Seafarer ako sa overseas ship under seafarer contract.",
+    "final_question_text": "Anong specialized rules ang para sa sahod kong hinold ng company? Seafarer ako sa overseas ship under seafarer contract.",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Express overseas seafarer contract claim requires specialized employment rules."
+  },
+  {
+    "question_id": "TYPE_075",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "OVERSEAS ship seafarer!! pay withheld under seafarer contract... which specialized rules apply?",
+    "final_question_text": "overseas ship seafarer here... PAY withheld under my seafarer contract!! what rules apply?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_076",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "May extra charge sa mobile phone plan ko kahit hindi ko naman ginamit ang service na iyon. Anong telecom rules ang para rito?",
+    "final_question_text": "May extra charge sa mobile phone plan ko kahit hindi ko naman ginamit ang service na iyon. Anong telecom rules ang para rito?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Mobile subscription billing requires excluded telecom regulation."
+  },
+  {
+    "question_id": "TYPE_077",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "mobile fone plan may extrang chrge sa serbisyong di ko ginamit. anong telcom rules dito?",
+    "final_question_text": "mobile fone plan may extrang chrge sa serbisyong di ko ginamit. anong telcom rules dito?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Mobile subscription billing requires excluded telecom regulation."
+  },
+  {
+    "question_id": "TYPE_078",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "mobile phone plan billed extra service i didnt use. what telecom rules apply?",
+    "final_question_text": "mobile phone plan billed extra service i didnt use. what telecom rules apply?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Mobile subscription billing requires excluded telecom regulation."
+  },
+  {
+    "question_id": "TYPE_079",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "What telecom rules apply to an unused service charged on my mobile phone plan?",
+    "final_question_text": "What telecom rules apply to an unused service charged on my mobile phone plan?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Mobile subscription billing requires excluded telecom regulation."
+  },
+  {
+    "question_id": "TYPE_080",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "MOBILE phone plan ko... extra charge!! di ko ginamit yung service??? anong telecom rules",
+    "final_question_text": "mobile phone plan ko... EXTRA charge sa service na di ko ginamit?? anong telecom rules dito",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_081",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "My employer has not paid me. Can you help?",
+    "final_question_text": "My employer has not paid me. Can you help?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Employment category is missing and can change project scope."
+  },
+  {
+    "question_id": "TYPE_082",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "my employr hasnt payed me. can u help?",
+    "final_question_text": "my employr hasnt payed me. can u help?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Employment category is missing and can change project scope."
+  },
+  {
+    "question_id": "TYPE_083",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "di pa bayad sahod ko, help po?",
+    "final_question_text": "di pa bayad sahod ko, help po?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Employment category is missing and can change project scope."
+  },
+  {
+    "question_id": "TYPE_084",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Sahod ko hindi pa binibigay ng employer. Ano gagawin?",
+    "final_question_text": "Sahod ko hindi pa binibigay ng employer. Ano gagawin?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Employment category is missing and can change project scope."
+  },
+  {
+    "question_id": "TYPE_085",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "employer... NO PAY yet!!! help?",
+    "final_question_text": "my employer... NO salary yet!! help please?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_086",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Ayaw nila ibalik ang binayad ko. Ano ang puwede kong gawin?",
+    "final_question_text": "Ayaw nila i-refund yung binayad ko. Ano puwede kong gawin?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Added natural English code-switching so Taglish metadata matches the text; missing context and clarification expectation are preserved."
+  },
+  {
+    "question_id": "TYPE_087",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "ayw nila ibalk yung binyad ko, ano pwde gawin?",
+    "final_question_text": "ayw nila irefund yng binayad ko, ano pwde gawin?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Added natural English code-switching so Taglish metadata matches the text; missing context and clarification expectation are preserved."
+  },
+  {
+    "question_id": "TYPE_088",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "they wont give my money back. what can i do pls?",
+    "final_question_text": "they wont give my money back. what can i do pls?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Refund source and transaction type are missing; retail and specialized services have different coverage."
+  },
+  {
+    "question_id": "TYPE_089",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "What can I do when they refuse to refund my payment?",
+    "final_question_text": "What can I do when they refuse to refund my payment?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Refund source and transaction type are missing; retail and specialized services have different coverage."
+  },
+  {
+    "question_id": "TYPE_090",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "BAYAD ko... ayaw ibalik nila??? help po",
+    "final_question_text": "yung bayad ko... ayaw i-REFUND?? ano pwede gawin",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Added natural English code-switching so Taglish metadata matches the text; missing context and clarification expectation are preserved."
+  },
+  {
+    "question_id": "TYPE_091",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "They ended my contract. What rights do I have?",
+    "final_question_text": "They ended my contract. What rights do I have?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "The kind of contract and relationship are unspecified; employment cannot be assumed."
+  },
+  {
+    "question_id": "TYPE_092",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "they endded my contrct. what rigths do i have?",
+    "final_question_text": "they endded my contrct. what rigths do i have?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "The kind of contract and relationship are unspecified; employment cannot be assumed."
+  },
+  {
+    "question_id": "TYPE_093",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "tinapos nila contract ko. ano rights ko?",
+    "final_question_text": "tinapos nila contract ko. ano rights ko?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "The kind of contract and relationship are unspecified; employment cannot be assumed."
+  },
+  {
+    "question_id": "TYPE_094",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Ano ang rights ko kung tinapos nila ang kontrata?",
+    "final_question_text": "Ano ang rights ko kung tinapos nila ang kontrata?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "The kind of contract and relationship are unspecified; employment cannot be assumed."
+  },
+  {
+    "question_id": "TYPE_095",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "my CONTRACT... they ended it!! what are my rights???",
+    "final_question_text": "my contract... they ended it!! what rights do i have?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Simplified phrasing or clarified scenario facts; retained intended classification."
+  },
+  {
+    "question_id": "TYPE_096",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "Sobra ang singil nila sa akin. Saan ako puwedeng magreklamo?",
+    "final_question_text": "Sobra yung charge nila sa akin. Saan ako puwedeng magreklamo?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Added natural English code-switching so Taglish metadata matches the text; missing context and clarification expectation are preserved."
+  },
+  {
+    "question_id": "TYPE_097",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "sobra singgil nla sakin. san pwde magreklmo?",
+    "final_question_text": "sobra chrge nla sakin. san pwde magreklmo?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Added natural English code-switching so Taglish metadata matches the text; missing context and clarification expectation are preserved."
+  },
+  {
+    "question_id": "TYPE_098",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "they charged me too much. where can i complain pls?",
+    "final_question_text": "they charged me too much. where can i complain pls?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "The charge, provider and transaction are unspecified; no legal domain can be selected reliably."
+  },
+  {
+    "question_id": "TYPE_099",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "ai_approved",
+    "wording_changed": false,
+    "topics_changed": false,
+    "original_question_text": "Where can I complain about being charged too much by them?",
+    "final_question_text": "Where can I complain about being charged too much by them?",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "The charge, provider and transaction are unspecified; no legal domain can be selected reliably."
+  },
+  {
+    "question_id": "TYPE_100",
+    "set": "typing",
+    "actor": "Codex (AI reviewer; project-owner-authorized)",
+    "date": "2026-10-17",
+    "decision": "revised_ai_approved",
+    "wording_changed": true,
+    "topics_changed": false,
+    "original_question_text": "SINGIL nila... sobra!!! saan po mag complaint??",
+    "final_question_text": "sobra yung CHARGE nila sakin... saan po magreklamo??",
+    "original_supported_topic_ids": [],
+    "final_supported_topic_ids": [],
+    "reason": "Added natural English code-switching so Taglish metadata matches the text; missing context and clarification expectation are preserved."
+  }
+]

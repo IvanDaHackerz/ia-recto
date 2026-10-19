@@ -1,0 +1,351 @@
+--- v1.0.0/build_packet.py
++++ v1.0.1/build_packet.py
+@@ -40,6 +40,10 @@
+     for path in index_dir.iterdir():
+         if path.is_file():
+             parent_files[path.relative_to(ROOT).as_posix()] = sha(path)
++    if runtime.policy.get('parent_verifier'):
++        for path in (ROOT / runtime.policy['parent_verifier']).rglob('*'):
++            if path.is_file():
++                parent_files[path.relative_to(ROOT).as_posix()] = sha(path)
+     source_files = {**runtime.source['source_sha256'], **runtime.source['raw_source_sha256']}
+     from test_verifier import VerifierTests
+     import test_logical_classifier
+@@ -110,6 +114,11 @@
+         'tests': tests, 'development_cases': metrics['total'], 'development_cases_passed': metrics['passed'],
+         'all_project_issues_closed': False, 'deployment_allowed': False, 'answer_generation_allowed': False,
+         'live_llm_calls': 0, 'legal_status_refreshed': False, 'independent_human_evaluation': False,
++        'parent_verifier': runtime.policy.get('parent_verifier'),
++        'audit_repairs': ['Reject exponent-overflow JSON numbers.',
++            'Reject unknown modes and sources in the direct source gate.',
++            'Refresh the default date and recheck artifacts/review snapshot on every request.',
++            'Require expected surviving component identities in development metrics.'],
+         'implementation_authorization': 'Project owner explicitly requested: Ok build item 12. Earlier milestone hold superseded for offline development only.',
+         'runtime_source_sha256': {p.name: sha(p) for p in HERE.iterdir() if p.is_file() and p.suffix in {'.py', '.json', '.md'}}}
+     save(output / 'run_manifest.json', manifest)
+@@ -125,6 +134,8 @@
+ Postflight accepts only a strict claim/evidence contract. It checks document/provision/chunk identity, retrieval membership for the concern, exact full-provision quotation/offsets and context. Current-guidance claims additionally need scoped support, relevance, qualification and concern-coverage review. A missing citation or an altered/truncated quote fails. A draft cannot supply its own approval, citation label, confidence or unchecked free-form answer.
+ 
+ Each concern is withheld as a unit if any of its claims fail. Independently passing concerns can produce a partial development candidate, accompanied by explicit disclosures. Preview blocks use only checked claim text and trusted citation metadata.
++
++This audit revision rejects JSON exponent overflow and invalid source-gate modes/candidates, refreshes the default date and rechecks file/review integrity on every request. Explicit historical dates remain available for reproducible offline evaluation. Development metrics now verify which concerns survive, in addition to their count. The previous v1.0.0 packet is preserved.
+ 
+ ## Validation results
+ 
+@@ -152,7 +163,7 @@
+ 
+ **Paraphrase checking is a review gate.** Arbitrary legal entailment is not automatically solved by this implementation. Current-guidance approval must bind the exact claim, evidence, concern, source conditions, index and policy. A future service must keep this operator configuration inaccessible to draft/end-user input and authenticate reviewers separately.
+ 
+-Final-pay/COE evidence remains unavailable. MO 28, thirteenth-month guidance, DTI procedure/source review, independent human evaluation, contact follow-up and formal approvals remain open as documented in the prior repair/follow-up packets. The original canonical files, reviewed seed, model weights and evaluated parent versions remain preserved. This build did not revalidate all 59 frozen workbook checks; their prior result remains historical and source preservation is checked here.
++Final-pay/COE evidence remains unavailable. MO 28, thirteenth-month guidance, DTI procedure/source review, independent human evaluation, contact follow-up and formal approvals remain open as documented in the prior repair/follow-up packets. The original canonical files, reviewed seed, model weights and evaluated parent versions remain preserved. Frozen-workbook validation is performed separately from this packet builder; source preservation is checked here.
+ 
+ ## Next step
+ 
+--- v1.0.0/contracts.py
++++ v1.0.1/contracts.py
+@@ -2,6 +2,7 @@
+ from __future__ import annotations
+ 
+ import json
++import math
+ from pathlib import Path
+ 
+ 
+@@ -21,8 +22,14 @@
+     def constant(value):
+         raise ContractError('Non-finite JSON number: ' + value)
+ 
++    def finite_float(value):
++        result = float(value)
++        if not math.isfinite(result):
++            raise ContractError('Non-finite JSON number: ' + value)
++        return result
++
+     return json.loads(Path(path).read_text(encoding='utf-8'),
+-                      object_pairs_hook=pairs, parse_constant=constant)
++                      object_pairs_hook=pairs, parse_constant=constant, parse_float=finite_float)
+ 
+ 
+ def validate(value, schema, path='$'):
+--- v1.0.0/development_cases.py
++++ v1.0.1/development_cases.py
+@@ -69,6 +69,7 @@
+     clone = copy.copy(verifier)
+     clone.fixture_mode = True
+     clone._load_reviews(store)
++    clone._review_snapshot_sha256 = digest(clone.reviews)
+     return clone
+ 
+ 
+@@ -79,11 +80,13 @@
+     partial = excerpt(verifier, PARTIAL)
+     result = []
+ 
+-    def add(name, question, draft, expected, *, category='adversarial', mode='recorded_excerpt', reviews=None, reason=None):
++    def add(name, question, draft, expected, *, category='adversarial', mode='recorded_excerpt', reviews=None, reason=None, expected_ids=None):
+         result.append({'case_id': name, 'provenance': 'AI-authored development software fixture',
+                        'category': category, 'question_text': question, 'mode': mode,
+                        'draft': copy.deepcopy(draft), 'software_reviews': copy.deepcopy(reviews),
+-                       'expected_preview_components': expected, 'expected_reason': reason})
++                       'expected_preview_components': expected,
++                       'expected_preview_component_ids': expected_ids if expected_ids is not None else [f'concern_{i:03d}' for i in range(1, expected + 1)],
++                       'expected_reason': reason})
+ 
+     for name, q, d, n in [('valid_labor_excerpt', LABOR, labor, 1), ('valid_consumer_excerpt', PRICE, price, 1),
+                            ('valid_mixed_excerpts', MIXED, mixed, 2), ('valid_partial_excerpt', PARTIAL, partial, 1)]:
+@@ -100,10 +103,10 @@
+     add('claim_review_without_source_review', LABOR, labor, 0, mode='current_guidance',
+         reviews={**store, 'source_reviews': []}, reason='scoped_currentness_review_missing')
+ 
+-    def mutate(name, operation, reason, *, source=labor, question=LABOR, expected=0):
++    def mutate(name, operation, reason, *, source=labor, question=LABOR, expected=0, expected_ids=None):
+         d = copy.deepcopy(source)
+         operation(d)
+-        add(name, question, d, expected, reason=reason)
++        add(name, question, d, expected, reason=reason, expected_ids=expected_ids)
+ 
+     mutate('invented_citation', lambda d: d['claims'][0]['evidence'][0].update(chunk_id='FAKE__art_999__chunk_0001'), 'unknown_or_ineligible_citation')
+     mutate('wrong_document', lambda d: d['claims'][0]['evidence'][0].update(document_id='RA_7394_1992'), 'citation_identity_mismatch')
+@@ -140,7 +143,7 @@
+     mutate('empty_draft', lambda d: d.update(claims=[]), '$.claims: invalid array length')
+     mutate('duplicate_evidence', lambda d: d['claims'][0]['evidence'].append(copy.deepcopy(d['claims'][0]['evidence'][0])), 'duplicate_evidence')
+     mutate('missing_mixed_component', lambda d: d['claims'].pop(), 'missing_component_claims', source=mixed, question=MIXED, expected=1)
+-    mutate('bad_mixed_component', lambda d: d['claims'][0].update(text='Fabricated rule'), 'excerpt_text_mismatch', source=mixed, question=MIXED, expected=1)
++    mutate('bad_mixed_component', lambda d: d['claims'][0].update(text='Fabricated rule'), 'excerpt_text_mismatch', source=mixed, question=MIXED, expected=1, expected_ids=['concern_002'])
+     def bad_sibling(d):
+         c = copy.deepcopy(d['claims'][0])
+         c.update(claim_id='invalid_second_claim', text='Additional unsupported conclusion')
+--- v1.0.0/evaluate_verifier.py
++++ v1.0.1/evaluate_verifier.py
+@@ -38,14 +38,18 @@
+         result = runtime.verify(case['question_text'], case['draft'], case['mode'])
+         validate(result, RESULT_SCHEMA)
+         observed = result['coverage']['components_with_preview']
++        observed_ids = sorted({block['component_id'] for block in result['preview']})
++        component_ids_ok = observed_ids == sorted(case['expected_preview_component_ids'])
+         reason_ok = case['expected_reason'] is None or case['expected_reason'] in reasons(result)
+         flags_ok = not any(result[k] for k in ['deployment_allowed', 'answer_generation_allowed', 'display_allowed'])
+         route_ok = (case['case_id'] != 'clarification_route' or result['decision'] == 'clarify') and (
+             case['case_id'] != 'excluded_route' or result['decision'] == 'refer_out_of_scope')
+         records.append({'case_id': case['case_id'], 'category': case['category'],
+-                        'passed': observed == case['expected_preview_components'] and reason_ok and flags_ok and route_ok,
++                        'passed': observed == case['expected_preview_components'] and component_ids_ok and reason_ok and flags_ok and route_ok,
+                         'expected_preview_components': case['expected_preview_components'],
+                         'observed_preview_components': observed, 'expected_reason_found': reason_ok,
++                        'expected_preview_component_ids': case['expected_preview_component_ids'],
++                        'observed_preview_component_ids': observed_ids,
+                         'verification': result})
+     groups = {}
+     for name in sorted({r['category'] for r in records}):
+--- v1.0.0/policy.json
++++ v1.0.1/policy.json
+@@ -1,5 +1,6 @@
+ {
+-  "version": "item12-verifier-v1.0.0",
++  "version": "item12-verifier-v1.0.1",
++  "parent_verifier": "outputs/item12-verifier-v1.0.0",
+   "classifier": "outputs/item10-classifier-v1.5.4",
+   "retrieval": "outputs/item11-retrieval-v1.2.3",
+   "retrieval_method": "bm25",
+--- v1.0.0/README.md
++++ v1.0.1/README.md
+@@ -1,6 +1,8 @@
+ # Item 12 — offline citation and evidence verifier
+ 
+ Built on 17 October 2026 around classifier v1.5.4 and retrieval v1.2.3. This package checks evidence before drafting and checks structured claims afterward. It runs locally without an LLM API, a new model download or changes to the training/source datasets.
++
++Current audit revision: **v1.0.1**. Requests refresh the default date and recheck file/review integrity, so a long-lived evaluator stops after a source/runtime change and does not retain expired approvals. Explicit historical dates remain available for reproducible offline tests. JSON exponent overflow and invalid direct source-gate modes/candidates are rejected. Development scenarios check the identities of surviving concerns, as well as their counts. The original v1.0.0 packet remains preserved.
+ 
+ ## What it does
+ 
+@@ -70,6 +72,6 @@
+ 
+ ## Review and continuation
+ 
+-See [verification report](C:/IA/outputs/item12-verifier-v1.0.0/VERIFICATION_REPORT.md), [metrics](C:/IA/outputs/item12-verifier-v1.0.0/metrics.json) and [example previews](C:/IA/outputs/item12-verifier-v1.0.0/examples.json). Classifier probabilities remain label probabilities; retrieval scores remain ranking values. No combined legal-confidence percentage is manufactured.
++See [verification report](C:/IA/outputs/item12-verifier-v1.0.1/VERIFICATION_REPORT.md), [metrics](C:/IA/outputs/item12-verifier-v1.0.1/metrics.json) and [example previews](C:/IA/outputs/item12-verifier-v1.0.1/examples.json). Classifier probabilities remain label probabilities; retrieval scores remain ranking values. No combined legal-confidence percentage is manufactured.
+ 
+ The offline implementation can proceed to Item 13 system evaluation. Independent human questions, licensed legal review, source-currentness/coverage gaps and formal acceptance remain outstanding. Item 13 must measure answer support and false declines, including relevance and missing conditions, before any live generation or UI integration.
+--- v1.0.0/test_verifier.py
++++ v1.0.1/test_verifier.py
+@@ -3,11 +3,13 @@
+ 
+ import copy
+ import json
++import os
+ import socket
+ import subprocess
+ import sys
+ import tempfile
+ import unittest
++from datetime import date
+ from pathlib import Path
+ from unittest.mock import patch
+ 
+@@ -187,10 +189,99 @@
+     def test_duplicate_keys_and_nonfinite_json_are_rejected(self):
+         with tempfile.TemporaryDirectory(dir=ROOT / 'tmp') as directory:
+             path = Path(directory) / 'bad.json'
+-            for payload in ['{"claims": [], "claims": []}', '{"number": NaN}', '{"number": Infinity}']:
++            for payload in ['{"claims": [], "claims": []}', '{"number": NaN}', '{"number": Infinity}',
++                            '{"number":1e1000}', '{"number":-1e1000}']:
+                 path.write_text(payload)
+                 with self.assertRaises(ContractError):
+                     strict_json(path)
++
++    def test_finite_json_numbers_remain_valid(self):
++        with tempfile.TemporaryDirectory(dir=ROOT / 'tmp') as directory:
++            path = Path(directory) / 'finite.json'
++            path.write_text('{"number":1e2}', encoding='utf-8')
++            self.assertEqual(strict_json(path), {'number': 100.0})
++
++    def test_source_helper_rejects_unknown_modes_and_sources(self):
++        comp = self.v.preflight(PRICE, 'recorded_excerpt')['components'][0]
++        with self.assertRaisesRegex(ContractError, 'Unknown verification mode'):
++            self.v.source_gate(PRICE, comp, comp['candidates'][0], 'misspelled_mode')
++        with self.assertRaisesRegex(ContractError, 'Unknown or ineligible'):
++            self.v.source_gate(PRICE, comp, {'chunk_id': 'FAKE'}, 'current_guidance')
++
++    def test_default_date_updates_and_expired_reviews_stop_passing(self):
++        clone = fixture_verifier(self.v, self.store)
++        clone._fixed_as_of = None  # Same clock behavior as a default constructor.
++        with patch.object(verification, 'date') as clock:
++            clock.fromisoformat.side_effect = date.fromisoformat
++            clock.today.return_value = date(2026, 10, 17)
++            self.assertTrue(clone.verify(LABOR, self.labor)['offline_preview_allowed'])
++            clock.today.return_value = date(2026, 10, 25)
++            result = clone.verify(LABOR, self.labor)
++        self.assertEqual(result['as_of'], '2026-10-25')
++        self.assertFalse(result['offline_preview_allowed'])
++        self.assertIn('review_expired_or_invalid_interval', reasons(result))
++
++    def test_explicit_historical_date_remains_reproducible(self):
++        clone = fixture_verifier(self.v, self.store)
++        with patch.object(verification, 'date') as clock:
++            clock.fromisoformat.side_effect = date.fromisoformat
++            clock.today.return_value = date(2026, 10, 25)
++            result = clone.verify(LABOR, self.labor)
++            clock.today.assert_not_called()
++        self.assertEqual(result['as_of'], AS_OF)
++        self.assertTrue(result['offline_preview_allowed'])
++
++    def test_changed_file_is_detected_even_with_preserved_timestamp(self):
++        clone = copy.copy(self.v)
++        clone.integrity_files = dict(self.v.integrity_files)
++        with tempfile.TemporaryDirectory(dir=ROOT / 'tmp') as directory:
++            path = Path(directory) / 'artifact.json'
++            path.write_text('before', encoding='utf-8')
++            original_stat = path.stat()
++            clone.integrity_files[path] = verification.sha(path)
++            self.assertTrue(clone.preflight(PRICE, 'recorded_excerpt')['offline_drafting_allowed'])
++            path.write_text('after!', encoding='utf-8')
++            os.utime(path, ns=(original_stat.st_atime_ns, original_stat.st_mtime_ns))
++            with self.assertRaisesRegex(ValueError, 'Artifact changed since'):
++                clone.preflight(PRICE, 'recorded_excerpt')
++
++    def test_deleted_file_stops_subsequent_requests(self):
++        clone = copy.copy(self.v)
++        clone.integrity_files = dict(self.v.integrity_files)
++        with tempfile.TemporaryDirectory(dir=ROOT / 'tmp') as directory:
++            path = Path(directory) / 'artifact.json'
++            path.write_text('content', encoding='utf-8')
++            clone.integrity_files[path] = verification.sha(path)
++            path.unlink()
++            with self.assertRaisesRegex(ValueError, 'Artifact changed since'):
++                clone.preflight(PRICE, 'recorded_excerpt')
++
++    def test_request_rechecks_source_index_runtime_and_model_hashes(self):
++        targets = [ROOT / 'dataset/canonical_sources/manifests/legal_status_review.csv',
++                   ROOT / self.v.policy['retrieval'] / 'records.jsonl',
++                   ROOT / self.v.policy['classifier'] / 'classifier.joblib',
++                   ROOT / 'dataset/pipelines/item11/retrieval.py', HERE / 'policy.json']
++        original_sha = verification.sha
++        for target in targets:
++            self.assertIn(target, self.v.integrity_files)
++            with self.subTest(target=target.name), patch.object(verification, 'sha', side_effect=lambda p: '0' * 64 if p == target else original_sha(p)):
++                with self.assertRaisesRegex(ValueError, 'Artifact changed since'):
++                    self.v.preflight(PRICE, 'recorded_excerpt')
++
++    def test_mutated_review_store_stops_subsequent_requests(self):
++        clone = copy.copy(self.v)
++        clone.reviews = copy.deepcopy(self.v.reviews)
++        clone.reviews['source_reviews'].append({'approved': True})
++        with self.assertRaisesRegex(ValueError, 'Review store changed since'):
++            clone.preflight(PRICE, 'recorded_excerpt')
++
++    def test_claim_review_expiration_is_checked_separately(self):
++        changed = copy.deepcopy(self.store)
++        changed['claim_reviews'][0]['valid_through'] = '2026-10-16'
++        result = fixture_verifier(self.v, changed).verify(LABOR, self.labor)
++        self.assertFalse(result['offline_preview_allowed'])
++        self.assertIn('review_expired_or_invalid_interval', reasons(result))
++        self.assertIn('claim_support_and_coverage_review_missing', reasons(result))
+ 
+     def test_bm25_verification_works_with_network_and_semantics_disabled(self):
+         with patch.object(socket, 'create_connection', side_effect=AssertionError('Network access forbidden')), \
+--- v1.0.0/verification.py
++++ v1.0.1/verification.py
+@@ -42,7 +42,8 @@
+     def __init__(self, *, review_store=None, as_of=None, allow_test_reviews=False):
+         self.policy = strict_json(HERE / 'policy.json')
+         self.policy_hash = digest(self.policy)
+-        self.as_of = iso_date(as_of) if as_of is not None else date.today()
++        self._fixed_as_of = iso_date(as_of) if as_of is not None else None
++        self.as_of = self._fixed_as_of or date.today()
+         self.fixture_mode = allow_test_reviews is True
+         self.retriever = LegalRetriever(ROOT / self.policy['retrieval'])
+         self.source = sources()
+@@ -64,6 +65,34 @@
+         self.bundle = joblib.load(classifier / 'classifier.joblib')
+         store = strict_json(HERE / 'trusted_reviews.json') if review_store is None else review_store
+         self._load_reviews(store)
++        # Check these bindings on every public request as well as construction.
++        # A long-lived offline evaluator must stop after any source/runtime change.
++        index_dir = ROOT / self.policy['retrieval']
++        self.integrity_files = {
++            ROOT / name: value for name, value in {
++                **self.source['source_sha256'], **self.source['raw_source_sha256']}.items()}
++        self.integrity_files.update({classifier / name: value for name, value in self.parent_checksums.items()})
++        self.integrity_files.update({index_dir / name: value for name, value in
++                                     strict_json(index_dir / 'index_checksums.json').items()})
++        extra = [index_dir / name for name in ['index_manifest.json', 'index_checksums.json']]
++        extra += [classifier / 'artifact_checksums.json', ROOT / 'models/embedding_backbone_manifest.json']
++        extra += [ROOT / 'dataset/pipelines/item11' / name for name in self.retriever.manifest['runtime_source_sha256']]
++        extra += [ROOT / 'dataset/pipelines/item10' / name for name in
++                  ['classifier_runtime.py', 'clause_classifier.py', 'logical_clause_model.py',
++                   'scope_constraints.py', 'referral_routing.py', 'semantic_encoder.py']]
++        extra += [HERE / name for name in ['verification.py', 'contracts.py', 'policy.json']]
++        if review_store is None:
++            extra.append(HERE / 'trusted_reviews.json')
++        self.integrity_files.update({path: sha(path) for path in extra})
++        self._review_snapshot_sha256 = digest(self.reviews)
++
++    def _begin_request(self):
++        self.as_of = self._fixed_as_of or date.today()
++        for path, expected in self.integrity_files.items():
++            if not path.is_file() or sha(path) != expected:
++                raise ValueError('Artifact changed since verifier construction; reload/rebuild: ' + path.as_posix())
++        if digest(self.reviews) != self._review_snapshot_sha256:
++            raise ValueError('Review store changed since verifier construction; reload it explicitly')
+ 
+     def _load_reviews(self, store):
+         store = copy.deepcopy(store)
+@@ -153,6 +182,10 @@
+         return problems
+ 
+     def source_gate(self, question, component, hit, mode):
++        if mode not in {'current_guidance', 'recorded_excerpt'}:
++            raise ContractError('Unknown verification mode')
++        if type(hit) is not dict or hit.get('chunk_id') not in self.records:
++            raise ContractError('Unknown or ineligible source candidate')
+         r = self.records[hit['chunk_id']]
+         problems = self.check_candidate(hit, component['allowed_domain'])
+         required = self.required_related(r)
+@@ -186,6 +219,7 @@
+             raise ContractError('Question must be non-empty text of at most 10000 characters')
+         if mode not in {'current_guidance', 'recorded_excerpt'}:
+             raise ContractError('Unknown verification mode')
++        self._begin_request()
+         result = self._base(question, mode)
+         pipeline = self.retriever.retrieve_question(question, self.bundle,
+                                                     method=self.policy['retrieval_method'], top_k=self.policy['top_k'])

@@ -1,0 +1,713 @@
+{
+  "inspection_only": true,
+  "labeled_evaluation": false,
+  "original_question_text": "A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?",
+  "normalization": {
+    "version": "conditional-normalization-v3.0.0",
+    "original_question_text": "A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?",
+    "normalized_question_text": null,
+    "effective_question_text": "A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?",
+    "gate": {
+      "needed": false,
+      "reason": "raw_question_understood",
+      "trigger_spans": [],
+      "mode": "whole_question_interpretation"
+    },
+    "status": "bypassed",
+    "reason": "raw_question_understood",
+    "llm_calls": 0,
+    "elapsed_ms": 0.0,
+    "edits": [],
+    "usage": {},
+    "provider": null,
+    "model": null,
+    "clarification_question": null,
+    "performance_evaluation_completed": false,
+    "meaning_preservation_guaranteed": false,
+    "validation_failure": null
+  },
+  "clarification_follow_up": null,
+  "total_query_ms": 11189.83339999977,
+  "result": {
+    "schema_version": "1.0",
+    "verifier_version": "item12-verifier-v1.0.10",
+    "question_text": "A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?",
+    "question_sha256": "788dbc3f7292d45ca93b46293337fc380d00db0428621bdecddcf9b8eaa832a7",
+    "mode": "current_guidance",
+    "as_of": "2026-10-19",
+    "classifier_version": "item10-classifier-v1.5.16",
+    "index_version": "item11-retrieval-v1.3.2",
+    "policy_sha256": "168e0679c1c1325cb4c8862eeff68e6027e20dfaa5b72fdcac6bca9d6bcf3321",
+    "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+    "software_fixture_mode": false,
+    "answer_generation_allowed": false,
+    "deployment_allowed": false,
+    "display_allowed": false,
+    "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+    "routing": {
+      "routing_action": "retrieve_supported_evidence",
+      "reason": "supported_candidate_requires_evidence",
+      "clarification_question": null,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_confidence": 0.870028282133089,
+      "scope_confidence": 0.9348670261969897
+    },
+    "excluded_components": [],
+    "referral_ids": [],
+    "components": [
+      {
+        "component_id": "concern_001",
+        "query": "a private-sector employer refuses to pay a worker for christmas day because the office was closed and no work was performed. what holiday-pay rules and exceptions apply",
+        "allowed_domain": "labor",
+        "retrieval_status": "candidates_found",
+        "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+        "candidates": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+            "heading": "Premium and overtime pay for holiday and rest day work",
+            "display_text": "SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 1127,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 136895,
+              "source_char_end": 138024
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+            "document_title": "Omnibus Rules Implementing the Labor Code",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+            "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+            "domains": [
+              "labor"
+            ],
+            "supported_topics": [
+              "labor.holiday_premium_pay",
+              "labor.hours_of_work",
+              "labor.overtime_pay",
+              "labor.rest_days",
+              "labor.wages_payment"
+            ],
+            "legal_status": "in_force_as_amended_not_a_current_consolidation",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+            "conditions": [
+              "Before using a provision, check the manifest relationships and later topic-specific orders."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_008",
+                "source_document_id": "LAB_IRR_1989",
+                "target_document_id": "PD_442_1974",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "General Labor Code implementing rules",
+                "effective_or_issue_date": "1989-05-27",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                "confidence": "high",
+                "note": "Later subject-specific amendments control."
+              },
+              {
+                "relationship_id": "LSR_009",
+                "source_document_id": "DOLE_DO_147_15",
+                "target_document_id": "LAB_IRR_1989",
+                "target_citation_if_external": "",
+                "relationship_type": "amends",
+                "scope": "Book VI termination rules",
+                "effective_or_issue_date": "2015-09-07",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                "confidence": "high",
+                "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 18.756376206525253,
+            "bm25_score": 18.756376206525253,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "heading": "Right to Holiday Pay",
+            "display_text": "ART. 94. Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage\nduring regular holidays, except in retail and service establishments regularly employing less\nthan ten (10) workers;\n(b) The employer may require an employee to work on any holiday but such employee\nshall be paid a compensation equivalent to twice his regular rate; and\n\n(c) As used in this Article, \"holiday\" includes: New Year’s Day, Maundy Thursday, Good\nFriday, the ninth of April, the first of May, the twelfth of June, the fourth of July, the thirtieth\nof November, the twenty-fifth and thirtieth of December and the day designated by law for\nholding a general election.79",
+            "normalized_char_start": 0,
+            "normalized_char_end": 667,
+            "source_locator": {
+              "pdf_page_start": 42,
+              "pdf_page_end": 43,
+              "printed_page_start": "30",
+              "printed_page_end": "31",
+              "html_anchor": null,
+              "source_region": "PDF page text",
+              "source_char_start": null,
+              "source_char_end": null
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "ART. 94. Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage\nduring regular holidays, except in retail and service establishments regularly employing less\nthan ten (10) workers;\n(b) The employer may require an employee to work on any holiday but such employee\nshall be paid a compensation equivalent to twice his regular rate; and\n\n(c) As used in this Article, \"holiday\" includes: New Year’s Day, Maundy Thursday, Good\nFriday, the ninth of April, the first of May, the twelfth of June, the fourth of July, the thirtieth\nof November, the twenty-fifth and thirtieth of December and the day designated by law for\nholding a general election.79",
+            "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+            "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+            "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+            "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+            "domains": [
+              "labor"
+            ],
+            "supported_topics": [
+              "labor.holiday_premium_pay",
+              "labor.wages_payment"
+            ],
+            "legal_status": "official_consolidation_through_2022",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+            "conditions": [
+              "Check for post-2022 statutes and issuances before stating the present rule."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_001",
+                "source_document_id": "LAB_CODE_2022",
+                "target_document_id": "PD_442_1974",
+                "target_citation_if_external": "",
+                "relationship_type": "consolidates_as_amended_and_renumbered",
+                "scope": "Labor Code text through the edition's cutoff",
+                "effective_or_issue_date": "2022",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                "confidence": "high",
+                "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+              },
+              {
+                "relationship_id": "LSR_010",
+                "source_document_id": "DOLE_LA_06_20",
+                "target_document_id": "LAB_CODE_2022",
+                "target_citation_if_external": "",
+                "relationship_type": "provides_agency_guidance",
+                "scope": "Final pay and certificate of employment timelines",
+                "effective_or_issue_date": "2020-01-31",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                "confidence": "medium_high",
+                "note": "No official superseding advisory was located in this audit."
+              }
+            ],
+            "quality_flags": [
+              "footnotes_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "pdf_text",
+            "score": 17.869185417470167,
+            "bm25_score": 17.869185417470167,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "heading": "Holiday Pay",
+            "display_text": "SECTION 3. Holiday Pay. — Every employer shall pay his employees their regular daily wage for any worked regular holidays.\n\nAs used in the rule, the term 'regular holiday' shall exclusively refer to: New Year's Day, Maundy Thursday, Good Friday, the ninth of April, the first of May, the twelfth of June, the last Sunday of August, the thirtieth of November, the twenty-fifth and thirtieth of December. Nationwide special days shall include the first of November and the last day of December.\n\nAs used in this Rule legal or regular holiday and special holiday shall now be referred to as 'regular holiday' and 'special day', respectively.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 638,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 153126,
+              "source_char_end": 153766
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "SECTION 3. Holiday Pay. — Every employer shall pay his employees their regular daily wage for any worked regular holidays.\n\nAs used in the rule, the term 'regular holiday' shall exclusively refer to: New Year's Day, Maundy Thursday, Good Friday, the ninth of April, the first of May, the twelfth of June, the last Sunday of August, the thirtieth of November, the twenty-fifth and thirtieth of December. Nationwide special days shall include the first of November and the last day of December.\n\nAs used in this Rule legal or regular holiday and special holiday shall now be referred to as 'regular holiday' and 'special day', respectively.",
+            "document_title": "Omnibus Rules Implementing the Labor Code",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+            "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+            "domains": [
+              "labor"
+            ],
+            "supported_topics": [
+              "labor.holiday_premium_pay",
+              "labor.wages_payment"
+            ],
+            "legal_status": "in_force_as_amended_not_a_current_consolidation",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+            "conditions": [
+              "Before using a provision, check the manifest relationships and later topic-specific orders."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_008",
+                "source_document_id": "LAB_IRR_1989",
+                "target_document_id": "PD_442_1974",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "General Labor Code implementing rules",
+                "effective_or_issue_date": "1989-05-27",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                "confidence": "high",
+                "note": "Later subject-specific amendments control."
+              },
+              {
+                "relationship_id": "LSR_009",
+                "source_document_id": "DOLE_DO_147_15",
+                "target_document_id": "LAB_IRR_1989",
+                "target_citation_if_external": "",
+                "relationship_type": "amends",
+                "scope": "Book VI termination rules",
+                "effective_or_issue_date": "2015-09-07",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                "confidence": "high",
+                "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 16.955522459614997,
+            "bm25_score": 16.955522459614997,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_6__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_6",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6",
+            "heading": "Absences",
+            "display_text": "SECTION 6. Absences. — (a) All covered employees shall be entitled to the benefit provided herein when they are on leave of absence with pay. Employees who are on leave of absence without pay on the day immediately preceding a regular holiday may not be paid the required holiday pay if he has not worked on such regular holiday.\n\n(b) Employees shall grant the same percentage of the holiday pay as the benefit granted by competent authority in the form of employee's compensation or social security payment, whichever is higher, if they are not reporting for work while on such benefits.\n\n(c) Where the day immediately preceding the holiday is a non-working day in the establishment or the scheduled rest day of the employee, he shall not be deemed to be on leave of absence on that day, in which case he shall be entitled to the holiday pay if he worked on the day immediately preceding the non- working day or rest day.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 922,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 154851,
+              "source_char_end": 155775
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "SECTION 6. Absences. — (a) All covered employees shall be entitled to the benefit provided herein when they are on leave of absence with pay. Employees who are on leave of absence without pay on the day immediately preceding a regular holiday may not be paid the required holiday pay if he has not worked on such regular holiday.\n\n(b) Employees shall grant the same percentage of the holiday pay as the benefit granted by competent authority in the form of employee's compensation or social security payment, whichever is higher, if they are not reporting for work while on such benefits.\n\n(c) Where the day immediately preceding the holiday is a non-working day in the establishment or the scheduled rest day of the employee, he shall not be deemed to be on leave of absence on that day, in which case he shall be entitled to the holiday pay if he worked on the day immediately preceding the non- working day or rest day.",
+            "document_title": "Omnibus Rules Implementing the Labor Code",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+            "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+            "domains": [
+              "labor"
+            ],
+            "supported_topics": [
+              "labor.holiday_premium_pay",
+              "labor.rest_days"
+            ],
+            "legal_status": "in_force_as_amended_not_a_current_consolidation",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+            "conditions": [
+              "Before using a provision, check the manifest relationships and later topic-specific orders."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_008",
+                "source_document_id": "LAB_IRR_1989",
+                "target_document_id": "PD_442_1974",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "General Labor Code implementing rules",
+                "effective_or_issue_date": "1989-05-27",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                "confidence": "high",
+                "note": "Later subject-specific amendments control."
+              },
+              {
+                "relationship_id": "LSR_009",
+                "source_document_id": "DOLE_DO_147_15",
+                "target_document_id": "LAB_IRR_1989",
+                "target_citation_if_external": "",
+                "relationship_type": "amends",
+                "scope": "Book VI termination rules",
+                "effective_or_issue_date": "2015-09-07",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                "confidence": "high",
+                "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 16.84620751341507,
+            "bm25_score": 16.84620751341507,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_10__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_10",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 10",
+            "heading": "Successive regular holidays",
+            "display_text": "SECTION 10. Successive regular holidays. — Where there are two (2) successive regular holidays, like Holy Thursday and Good Friday, an employee may not be paid for both holidays if he absents himself from work on the day immediately preceding the first holiday, unless he works on the first holiday, in which case he is entitled to his holiday pay on the second holiday.",
+            "normalized_char_start": 0,
+            "normalized_char_end": 370,
+            "source_locator": {
+              "pdf_page_start": null,
+              "pdf_page_end": null,
+              "printed_page_start": null,
+              "printed_page_end": null,
+              "html_anchor": null,
+              "source_region": "main legal text",
+              "source_char_start": 157514,
+              "source_char_end": 157886
+            },
+            "former_locator_labels": [],
+            "parent_provision_id": null,
+            "parent_text": "SECTION 10. Successive regular holidays. — Where there are two (2) successive regular holidays, like Holy Thursday and Good Friday, an employee may not be paid for both holidays if he absents himself from work on the day immediately preceding the first holiday, unless he works on the first holiday, in which case he is entitled to his holiday pay on the second holiday.",
+            "document_title": "Omnibus Rules Implementing the Labor Code",
+            "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+            "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+            "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+            "domains": [
+              "labor"
+            ],
+            "supported_topics": [
+              "labor.holiday_premium_pay"
+            ],
+            "legal_status": "in_force_as_amended_not_a_current_consolidation",
+            "status_family": "current_with_conditions",
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+            "conditions": [
+              "Before using a provision, check the manifest relationships and later topic-specific orders."
+            ],
+            "legal_relationships": [
+              {
+                "relationship_id": "LSR_008",
+                "source_document_id": "LAB_IRR_1989",
+                "target_document_id": "PD_442_1974",
+                "target_citation_if_external": "",
+                "relationship_type": "implements",
+                "scope": "General Labor Code implementing rules",
+                "effective_or_issue_date": "1989-05-27",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                "confidence": "high",
+                "note": "Later subject-specific amendments control."
+              },
+              {
+                "relationship_id": "LSR_009",
+                "source_document_id": "DOLE_DO_147_15",
+                "target_document_id": "LAB_IRR_1989",
+                "target_citation_if_external": "",
+                "relationship_type": "amends",
+                "scope": "Book VI termination rules",
+                "effective_or_issue_date": "2015-09-07",
+                "status_as_of": "2026-09-29",
+                "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                "confidence": "high",
+                "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+              }
+            ],
+            "quality_flags": [
+              "table_structure_present"
+            ],
+            "review_status": "machine_validated",
+            "extraction_method": "html_structural",
+            "score": 14.722715117791708,
+            "bm25_score": 14.722715117791708,
+            "semantic_similarity": null,
+            "retrieval_candidate_only": true,
+            "answer_generation_allowed": false,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 10 — BOOK THREE, RULE IV"
+          }
+        ],
+        "evidence_gates": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_6__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_10__chunk_0001",
+            "passed": false,
+            "reasons": [
+              "scoped_currentness_review_missing"
+            ],
+            "source_review_ids": [],
+            "required_related_documents": [],
+            "unavailable_related_documents": [],
+            "status_as_of": "2026-09-29",
+            "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+            "currentness_reviewed": false,
+            "recorded_excerpt_only": false
+          }
+        ],
+        "evidence_ready": false
+      }
+    ],
+    "offline_drafting_allowed": false,
+    "all_supported_components_evidence_ready": false,
+    "decision": "insufficient_evidence"
+  },
+  "privacy": {
+    "redacted": false,
+    "categories": {},
+    "guaranteed_complete": false,
+    "note": "Known identifiers are removed locally; avoid personal details. Names and indirect identifiers may still be missed.",
+    "external_ai_enabled": true
+  },
+  "safety_notice": null,
+  "explanation": {
+    "status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "llm_calls": 2,
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "The recorded provision states that every worker must receive his regular daily wage for regular holidays, unless the employer is a retail or service establishment that regularly employs fewer than ten workers. Applying this rule requires knowing whether the employer falls within the excluded category of small retail/service businesses and whether Christmas Day is classified as a regular holiday under the law.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage",
+            "start": 9,
+            "end": 88,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "during regular holidays, except in retail and service establishments regularly employing less",
+            "start": 89,
+            "end": 182,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "than ten (10) workers;",
+            "start": 183,
+            "end": 205,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_001",
+        "text": "If the employee is required to work on the holiday, the law provides that the employee must be paid twice his regular rate; if the employee does not work, he is still entitled to his regular daily wage. Determining the applicable amount therefore depends on whether the worker actually performed work on Christmas Day.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "(b) The employer may require an employee to work on any holiday but such employee",
+            "start": 206,
+            "end": 287,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "shall be paid a compensation equivalent to twice his regular rate; and",
+            "start": 288,
+            "end": 358,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_3",
+        "component_id": "concern_001",
+        "text": "The Omnibus Rules clarify that the payment of additional compensation for work performed on regular holidays is governed by a separate rule, which requires premium pay of at least 30% of the regular wage for work on special days and double pay for work on regular holidays. To apply this, it must be established whether Christmas Day is treated as a regular holiday (it is) and whether the employee actually worked on that day.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "Holiday Pay. — Every employer shall pay his employees their regular daily wage for any worked regular holidays.",
+            "start": 11,
+            "end": 122,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "As used in the rule, the term 'regular holiday' shall exclusively refer to: New Year's Day, Maundy Thursday, Good Friday, the ninth of April, the first of May, the twelfth of June, the last Sunday of August, the thirtieth of November, the twenty-fifth and thirtieth of December.",
+            "start": 124,
+            "end": 402,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+            "quote": "(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+            "start": 988,
+            "end": 1127,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I"
+          }
+        ]
+      }
+    ],
+    "mode": "development_recorded_sources",
+    "citations_checked": true,
+    "legal_support_verified": false,
+    "currentness_reviewed": false,
+    "automated_support_checked": true,
+    "support_check_independent": false,
+    "usage_generation": {
+      "prompt_tokens": 2154,
+      "completion_tokens": 496,
+      "total_tokens": 2650
+    },
+    "usage_support": {
+      "prompt_tokens": 2408,
+      "completion_tokens": 636,
+      "total_tokens": 3044
+    },
+    "provider": "together",
+    "model": "openai/gpt-oss-120b"
+  },
+  "request_id": "holiday-repair-live-smoke",
+  "schema_version": "1.0",
+  "network_requests": [
+    {
+      "stage": "explanation_generation",
+      "model": "openai/gpt-oss-120b"
+    },
+    {
+      "stage": "explanation_support",
+      "model": "openai/gpt-oss-120b"
+    }
+  ],
+  "history": {
+    "saved": false
+  },
+  "referrals": [
+    {
+      "id": "REF_DOLE_ARMS",
+      "agency": "Department of Labor and Employment",
+      "service": "DOLE Assistance for Request Management System / SEnA",
+      "contact": {
+        "portal_url": "https://arms.dole.gov.ph/"
+      },
+      "checked_on": "2026-10-17",
+      "information_url": "https://arms.dole.gov.ph/",
+      "note": "Official portal describes filing and tracking RFAs; phone not reverified on this page.",
+      "complete": false,
+      "jurisdiction_certified": false
+    }
+  ],
+  "source_review_notices": []
+}

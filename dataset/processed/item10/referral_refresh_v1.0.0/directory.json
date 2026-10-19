@@ -1,0 +1,915 @@
+[
+  {
+    "referral_id": "REF_DOLE_ARMS",
+    "agency": "Department of Labor and Employment",
+    "service": "DOLE Assistance for Request Management System / SEnA",
+    "original_record": {
+      "referral_id": "REF_DOLE_ARMS",
+      "agency": "Department of Labor and Employment",
+      "service": "DOLE Assistance for Request Management System / SEnA",
+      "topic_ids": "labor.complaint_referral|labor.kasambahay|labor.union_cba",
+      "when_to_use": "Private-sector labor requests for assistance and excluded labor categories accepted by SEnA.",
+      "first_step": "File or track a Request for Assistance through DOLE ARMS, or call DOLE Hotline 1349.",
+      "portal_url": "https://arms.dole.gov.ph/",
+      "information_url": "https://dole.gov.ph/news/dole-digitization-expands-access-to-labor-services-nationwide/",
+      "email": "",
+      "phone": "1349",
+      "office_address": "",
+      "verification_source_url": "https://arms.dole.gov.ph/",
+      "verification_status": "verified_current_portal",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://arms.dole.gov.ph/",
+    "confirmed_fields": {
+      "portal_url": "https://arms.dole.gov.ph/"
+    },
+    "field_verification": {
+      "portal_url": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://arms.dole.gov.ph/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "email",
+      "phone",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "Official portal describes filing and tracking RFAs; phone not reverified on this page.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_DTI_CARE",
+    "agency": "Department of Trade and Industry",
+    "service": "Consumer Complaints Assistance and Resolution System",
+    "original_record": {
+      "referral_id": "REF_DTI_CARE",
+      "agency": "Department of Trade and Industry",
+      "service": "Consumer Complaints Assistance and Resolution System",
+      "topic_ids": "consumer.complaint_referral|consumer.service_complaints",
+      "when_to_use": "Ordinary consumer-product, service, and online-transaction complaints within DTI jurisdiction.",
+      "first_step": "Use the DTI CARe portal or contact ConsumerCare before escalation.",
+      "portal_url": "https://consumercare.dti.gov.ph/",
+      "information_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/",
+      "email": "consumercare@dti.gov.ph",
+      "phone": "1-DTI (1-384)",
+      "office_address": "DTI Fair Trade Enforcement Bureau, 361 Sen. Gil J. Puyat Ave., Makati City",
+      "verification_source_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/",
+      "verification_status": "verified_current_contact_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/",
+    "confirmed_fields": {
+      "portal_url": "https://consumercare.dti.gov.ph/",
+      "email": "consumercare@dti.gov.ph",
+      "phone": "(02) 7215 1165",
+      "office_address": "5th Floor, Trade and Industry Building, 361 Sen. Gil J. Puyat Ave., 1200 Makati City"
+    },
+    "field_verification": {
+      "portal_url": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/"
+      },
+      "email": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/"
+      }
+    },
+    "unverified_fields_withheld": [],
+    "complete_contact_verification": true,
+    "note": "Phone is the FTEB general office number. Filing guidance on this page expressly addresses Metro Manila; regional offices may differ.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_PAO",
+    "agency": "Public Attorney's Office",
+    "service": "Legal counselling and assistance for qualified clients",
+    "original_record": {
+      "referral_id": "REF_PAO",
+      "agency": "Public Attorney's Office",
+      "service": "Legal counselling and assistance for qualified clients",
+      "topic_ids": "labor.pending_case|labor.case_outcome_prediction|consumer.medical_malpractice|labor.seafarers",
+      "when_to_use": "A question needs individualized legal advice, representation, case strategy, or another remedy outside the information system. Includes seafarer employment/pay disputes; eligibility and the appropriate forum require assessment.",
+      "first_step": "Review PAO qualification and regional contact information, then contact the appropriate PAO office.",
+      "portal_url": "https://pao.gov.ph/contact-us/",
+      "information_url": "https://pao.gov.ph/transparency/mission-and-vision/",
+      "email": "pao_executive@yahoo.com",
+      "phone": "(02) 8929-9436 local 106/107",
+      "office_address": "DOJ Agencies Building, NIA Road corner East Avenue, Diliman, Quezon City",
+      "verification_source_url": "https://pao.gov.ph/contact-us/",
+      "verification_status": "verified_current_contact_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://pao.gov.ph/contact-us/",
+    "confirmed_fields": {
+      "phone": "(02) 8929-9436 local 106/107 (office hours); local 159 (outside office hours)",
+      "office_address": "4th & 5th Floors, DOJ Agencies Building, NIA Road corner East Avenue, Diliman, Quezon City"
+    },
+    "field_verification": {
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://pao.gov.ph/contact-us/"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://pao.gov.ph/contact-us/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "portal_url",
+      "email"
+    ],
+    "complete_contact_verification": false,
+    "note": "Email is masked in retrieved official content; it has not been reverified. Qualification for PAO assistance remains conditional.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_DMW",
+    "agency": "Department of Migrant Workers",
+    "service": "OFW information and assistance",
+    "original_record": {
+      "referral_id": "REF_DMW",
+      "agency": "Department of Migrant Workers",
+      "service": "OFW information and assistance",
+      "topic_ids": "labor.ofw|labor.seafarers",
+      "when_to_use": "Overseas employment, recruitment, welfare, or repatriation concerns, including overseas seafarer deployment. Use qualified legal assistance for a disputed contract or money claim.",
+      "first_step": "Contact the DMW hotline or the appropriate Migrant Workers Office.",
+      "portal_url": "https://dmw.gov.ph/contact-us",
+      "information_url": "https://dmw.gov.ph/contact-us",
+      "email": "info@dmw.gov.ph",
+      "phone": "1348",
+      "office_address": "Blas F. Ople Building, Ortigas Avenue corner EDSA, Mandaluyong City",
+      "verification_source_url": "https://dmw.gov.ph/contact-us",
+      "verification_status": "verified_current_contact_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://dmw.gov.ph/contact-us",
+    "confirmed_fields": {
+      "portal_url": "https://dmw.gov.ph/contact-us",
+      "email": "info@dmw.gov.ph",
+      "phone": "1348",
+      "office_address": "BFO Building, Ortigas Avenue corner EDSA, Mandaluyong City 1550"
+    },
+    "field_verification": {
+      "portal_url": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://dmw.gov.ph/contact-us"
+      },
+      "email": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://dmw.gov.ph/contact-us"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://dmw.gov.ph/contact-us"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://dmw.gov.ph/contact-us"
+      }
+    },
+    "unverified_fields_withheld": [],
+    "complete_contact_verification": true,
+    "note": "1348 is labeled an emergency hotline by DMW; do not present it as an online filing portal.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_MARINA_STCW",
+    "agency": "Maritime Industry Authority",
+    "service": "MARINA STCW Administration Office",
+    "original_record": {
+      "referral_id": "REF_MARINA_STCW",
+      "agency": "Maritime Industry Authority",
+      "service": "MARINA STCW Administration Office",
+      "topic_ids": "labor.seafarers",
+      "when_to_use": "Seafarer certification, training, STCW, and maritime professional concerns.",
+      "first_step": "Contact the MARINA STCW Administration Office; overseas employment concerns may also require DMW.",
+      "portal_url": "https://stcw.marina.gov.ph/contact-us/",
+      "information_url": "https://stcw.marina.gov.ph/contact-us/",
+      "email": "stcw_cert@marina.gov.ph",
+      "phone": "(02) 8240-9950",
+      "office_address": "MARINA Building, Bonifacio Drive corner 20th Street, Port Area, Manila",
+      "verification_source_url": "https://stcw.marina.gov.ph/contact-us/",
+      "verification_status": "verified_current_contact_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://marina.gov.ph/marina-directory/",
+    "confirmed_fields": {
+      "phone": "(02) 8240-9950 extension 2",
+      "office_address": "3rd Floor, MARINA Building, Bonifacio Drive corner 20th Street, Port Area, Manila"
+    },
+    "field_verification": {
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://marina.gov.ph/marina-directory/"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://marina.gov.ph/marina-directory/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "portal_url",
+      "email"
+    ],
+    "complete_contact_verification": false,
+    "note": "Certification Division contact only. Do not use for seafarer wage complaints. Masked email is not reverified.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_CSC_CCB",
+    "agency": "Civil Service Commission",
+    "service": "Contact Center ng Bayan",
+    "original_record": {
+      "referral_id": "REF_CSC_CCB",
+      "agency": "Civil Service Commission",
+      "service": "Contact Center ng Bayan",
+      "topic_ids": "labor.government_employment",
+      "when_to_use": "Government employment and public-service concerns outside private-sector labor scope.",
+      "first_step": "Use Contact Center ng Bayan or contact the appropriate CSC regional office.",
+      "portal_url": "https://contactcenterngbayan.gov.ph/",
+      "information_url": "https://csc.gov.ph/programs/ccb",
+      "email": "email@contactcenterngbayan.gov.ph",
+      "phone": "(02) 8932-0111; SMS 0908-881-6565",
+      "office_address": "",
+      "verification_source_url": "https://csc.gov.ph/programs/ccb",
+      "verification_status": "verified_official_service_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://csc.gov.ph/programs/ccb",
+    "confirmed_fields": {
+      "portal_url": "https://www.contactcenterngbayan.gov.ph/",
+      "phone": "CSC hotline: 8932-0111; SMS: 0908-8816565"
+    },
+    "field_verification": {
+      "portal_url": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://csc.gov.ph/programs/ccb"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://csc.gov.ph/programs/ccb"
+      }
+    },
+    "unverified_fields_withheld": [
+      "email",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "Government frontline-service feedback; this is not confirmation that CCB adjudicates government employment/pay disputes. Email is masked.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_ECC",
+    "agency": "Employees' Compensation Commission",
+    "service": "Employees' Compensation Program public assistance",
+    "original_record": {
+      "referral_id": "REF_ECC",
+      "agency": "Employees' Compensation Commission",
+      "service": "Employees' Compensation Program public assistance",
+      "topic_ids": "labor.workers_compensation",
+      "when_to_use": "Employees' compensation, occupational disease, work-injury benefit, disability, and appeal concerns.",
+      "first_step": "Contact the ECC Public Assistance Center or the appropriate regional extension unit.",
+      "portal_url": "https://ecc.gov.ph/contact-us/",
+      "information_url": "https://ecc.gov.ph/directory/",
+      "email": "info@ecc.gov.ph",
+      "phone": "(02) 8899-4251 local 239",
+      "office_address": "ECC Building, 355 Sen. Gil J. Puyat Ave., Makati City",
+      "verification_source_url": "https://ecc.gov.ph/directory/",
+      "verification_status": "verified_official_directory",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://ecc.gov.ph/directory/",
+    "confirmed_fields": {
+      "phone": "(02) 8899-4251 local 239",
+      "office_address": "4th & 5th Floors, ECC Building, 355 Sen. Gil Puyat Avenue, 1209 Makati City"
+    },
+    "field_verification": {
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://ecc.gov.ph/directory/"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://ecc.gov.ph/directory/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "portal_url",
+      "email"
+    ],
+    "complete_contact_verification": false,
+    "note": "Public Assistance Center number. Masked email is not reverified.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_OSHC",
+    "agency": "Occupational Safety and Health Center",
+    "service": "Occupational safety and health information",
+    "original_record": {
+      "referral_id": "REF_OSHC",
+      "agency": "Occupational Safety and Health Center",
+      "service": "Occupational safety and health information",
+      "topic_ids": "labor.occupational_safety",
+      "when_to_use": "Technical workplace-safety, health, training, or exposure concerns outside the MVP.",
+      "first_step": "Contact OSHC or the relevant regional extension unit.",
+      "portal_url": "https://oshc.dole.gov.ph/contact-us-2/",
+      "information_url": "https://oshc.dole.gov.ph/contact-us-2/",
+      "email": "oed@oshc.dole.gov.ph",
+      "phone": "(02) 8929-6036; (02) 8929-6030",
+      "office_address": "North Avenue corner Sen. Miriam P. Defensor-Santiago Avenue, Diliman, Quezon City",
+      "verification_source_url": "https://oshc.dole.gov.ph/contact-us-2/",
+      "verification_status": "verified_current_contact_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://oshc.dole.gov.ph/contact-us-2/",
+    "confirmed_fields": {
+      "email": "oed@oshc.dole.gov.ph",
+      "phone": "(02) 8929-6036; (02) 8929-6030",
+      "office_address": "North Avenue corner Sen. Miriam P. Defensor-Santiago Avenue, Diliman, Quezon City 1105"
+    },
+    "field_verification": {
+      "email": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://oshc.dole.gov.ph/contact-us-2/"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://oshc.dole.gov.ph/contact-us-2/"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://oshc.dole.gov.ph/contact-us-2/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "portal_url"
+    ],
+    "complete_contact_verification": false,
+    "note": "Official contact page checked; another official page mentions temporary trunkline disruption, so email is preferable if calls fail.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_SSS",
+    "agency": "Social Security System",
+    "service": "SSS member assistance",
+    "original_record": {
+      "referral_id": "REF_SSS",
+      "agency": "Social Security System",
+      "service": "SSS member assistance",
+      "topic_ids": "labor.retirement_pension",
+      "when_to_use": "Private-sector social-security contribution, retirement, pension, and benefit questions.",
+      "first_step": "Use My.SSS or contact the SSS hotline for member-specific records and computations.",
+      "portal_url": "https://www.sss.gov.ph/contact-us/",
+      "information_url": "https://www.sss.gov.ph/contact-us/",
+      "email": "usssaptayo@sss.gov.ph",
+      "phone": "1455",
+      "office_address": "SSS Main Building, East Avenue, Diliman, Quezon City",
+      "verification_source_url": "https://www.sss.gov.ph/contact-us/",
+      "verification_status": "verified_current_contact_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://www.sss.gov.ph/usssaptayo-portal/",
+    "confirmed_fields": {
+      "email": "usssaptayo@sss.gov.ph",
+      "phone": "1455",
+      "office_address": "SSS Building, East Avenue, Diliman, Quezon City"
+    },
+    "field_verification": {
+      "email": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://www.sss.gov.ph/usssaptayo-portal/"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://www.sss.gov.ph/usssaptayo-portal/"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://www.sss.gov.ph/usssaptayo-portal/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "portal_url"
+    ],
+    "complete_contact_verification": false,
+    "note": "Official uSSSap Tayo information page confirms these channels.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_NWPC",
+    "agency": "National Wages and Productivity Commission",
+    "service": "Current regional wage information",
+    "original_record": {
+      "referral_id": "REF_NWPC",
+      "agency": "National Wages and Productivity Commission",
+      "service": "Current regional wage information",
+      "topic_ids": "labor.regional_minimum_wage_amounts",
+      "when_to_use": "Exact current regional wage rates and wage-order coverage.",
+      "first_step": "Check the current wage order and regional wage-board information on the NWPC website.",
+      "portal_url": "https://nwpc.dole.gov.ph/",
+      "information_url": "https://nwpc.dole.gov.ph/",
+      "email": "",
+      "phone": "",
+      "office_address": "",
+      "verification_source_url": "https://nwpc.dole.gov.ph/",
+      "verification_status": "official_domain_only_contact_not_recorded",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://nwpc.dole.gov.ph/connect-with-us/",
+    "confirmed_fields": {
+      "portal_url": "https://nwpc.dole.gov.ph/connect-with-us/"
+    },
+    "field_verification": {
+      "portal_url": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://nwpc.dole.gov.ph/connect-with-us/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "email",
+      "phone",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "Use the official RTWPB directory for regional wage enquiries; this does not add current regional wage amounts to the model.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_BSP_CAM",
+    "agency": "Bangko Sentral ng Pilipinas",
+    "service": "BSP Consumer Assistance Mechanism",
+    "original_record": {
+      "referral_id": "REF_BSP_CAM",
+      "agency": "Bangko Sentral ng Pilipinas",
+      "service": "BSP Consumer Assistance Mechanism",
+      "topic_ids": "consumer.banking_credit",
+      "when_to_use": "Unresolved complaints involving BSP-supervised banks, e-money issuers, payment systems, and other supervised institutions.",
+      "first_step": "Complain first to the financial institution, then escalate through BSP Online Buddy or the BSP consumer-assistance channel.",
+      "portal_url": "https://www.bsp.gov.ph/",
+      "information_url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870",
+      "email": "consumeraffairs@bsp.gov.ph",
+      "phone": "(02) 5306-2584",
+      "office_address": "BSP Complex, A. Mabini Street, Malate, Manila",
+      "verification_source_url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870",
+      "verification_status": "verified_current_contact_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870",
+    "confirmed_fields": {
+      "email": "consumeraffairs@bsp.gov.ph",
+      "phone": "(02) 5306-2584"
+    },
+    "field_verification": {
+      "email": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870"
+      }
+    },
+    "unverified_fields_withheld": [
+      "portal_url",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "Official indexed BSP-CAM content corroborates channels. Concerns should first be raised with the supervised institution.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_SEC_IMESSAGE",
+    "agency": "Securities and Exchange Commission",
+    "service": "SEC iMessage complaints",
+    "original_record": {
+      "referral_id": "REF_SEC_IMESSAGE",
+      "agency": "Securities and Exchange Commission",
+      "service": "SEC iMessage complaints",
+      "topic_ids": "consumer.investments|consumer.banking_credit",
+      "when_to_use": "Investment scams and complaints involving registered or unauthorized lending and financing companies.",
+      "first_step": "Use SEC iMessage; the applicable SEC department depends on whether the concern involves lending, financing, or investments.",
+      "portal_url": "https://imessage.sec.gov.ph/",
+      "information_url": "https://www.sec.gov.ph/lending-companies-and-financing-companies/complaints/",
+      "email": "",
+      "phone": "",
+      "office_address": "",
+      "verification_source_url": "https://www.sec.gov.ph/lending-companies-and-financing-companies/complaints/",
+      "verification_status": "verified_current_portal",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://www.sec.gov.ph/lending-companies-and-financing-companies/complaints/",
+    "confirmed_fields": {
+      "portal_url": "https://imessage.sec.gov.ph/"
+    },
+    "field_verification": {
+      "portal_url": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://www.sec.gov.ph/lending-companies-and-financing-companies/complaints/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "email",
+      "phone",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "SEC explicitly identifies iMessage for financing/lending complaints; its official contact directory also identifies iMessage for EIPD matters.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_INSURANCE_COMMISSION",
+    "agency": "Insurance Commission",
+    "service": "Public Assistance and Mediation Division",
+    "original_record": {
+      "referral_id": "REF_INSURANCE_COMMISSION",
+      "agency": "Insurance Commission",
+      "service": "Public Assistance and Mediation Division",
+      "topic_ids": "consumer.insurance",
+      "when_to_use": "Insurance, pre-need, HMO, mutual-benefit, and insurance-broker complaints.",
+      "first_step": "Contact the Insurance Commission Public Assistance and Mediation Division.",
+      "portal_url": "https://www.insurance.gov.ph/",
+      "information_url": "https://www.bsp.gov.ph/Pages/InclusiveFinance/PYMContacts.aspx",
+      "email": "publicassistance@insurance.gov.ph",
+      "phone": "(02) 8523-8461 local 103 or 127",
+      "office_address": "",
+      "verification_source_url": "https://www.bsp.gov.ph/Pages/InclusiveFinance/PYMContacts.aspx",
+      "verification_status": "contact_corroborated_on_official_bsp_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://site.insurance.gov.ph/contact-us/",
+    "confirmed_fields": {
+      "email": "publicassistance@insurance.gov.ph",
+      "phone": "(02) 8523-8461 local 103/127; Globe 0917 116-0007; Smart 0999 993-0637",
+      "office_address": "1071 United Nations Avenue, Ermita, Manila 1000"
+    },
+    "field_verification": {
+      "email": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://site.insurance.gov.ph/contact-us/"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://site.insurance.gov.ph/contact-us/"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://site.insurance.gov.ph/contact-us/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "portal_url"
+    ],
+    "complete_contact_verification": false,
+    "note": "Replaces reliance on the BSP cross-agency directory with the Insurance Commission own page.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_NPC",
+    "agency": "National Privacy Commission",
+    "service": "Privacy complaint filing",
+    "original_record": {
+      "referral_id": "REF_NPC",
+      "agency": "National Privacy Commission",
+      "service": "Privacy complaint filing",
+      "topic_ids": "consumer.data_privacy",
+      "when_to_use": "Misuse, disclosure, breach, or improper processing of personal information.",
+      "first_step": "Review the NPC complaint requirements and use the current complaint-assisted form.",
+      "portal_url": "https://privacy.gov.ph/file-a-complaint/",
+      "information_url": "https://privacy.gov.ph/file-a-complaint-2/",
+      "email": "complaints@privacy.gov.ph",
+      "phone": "(02) 5322-1322 local 114 or 115",
+      "office_address": "25th-27th Floors, The Upper Class Tower, Quezon Ave. corner Scout Reyes St., Quezon City",
+      "verification_source_url": "https://privacy.gov.ph/contactus/",
+      "verification_status": "verified_current_contact_page",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://privacy.gov.ph/contactus/",
+    "confirmed_fields": {
+      "portal_url": "https://privacy.gov.ph/file-a-complaint/",
+      "phone": "(02) 5322-1322 local 114 or 115; Smart 0970 818 0555; Globe 0905 506 1478",
+      "office_address": "25th-27th Floors, The Upper Class Tower, Quezon Avenue corner Scout Reyes Street, Quezon City"
+    },
+    "field_verification": {
+      "portal_url": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://privacy.gov.ph/file-a-complaint/"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://privacy.gov.ph/contactus/"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://privacy.gov.ph/contactus/"
+      }
+    },
+    "unverified_fields_withheld": [
+      "email"
+    ],
+    "complete_contact_verification": false,
+    "note": "Complaint phone verified. Email remains masked; formal filing requirements are separate from contact verification.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_NTC",
+    "agency": "National Telecommunications Commission",
+    "service": "Consumer Welfare and Protection complaints",
+    "original_record": {
+      "referral_id": "REF_NTC",
+      "agency": "National Telecommunications Commission",
+      "service": "Consumer Welfare and Protection complaints",
+      "topic_ids": "consumer.telecommunications",
+      "when_to_use": "Telecommunications billing, poor service, spam, SIM, and related subscriber complaints.",
+      "first_step": "Submit a written complaint to the NTC or the appropriate regional office.",
+      "portal_url": "https://www.edge.ntc.gov.ph/",
+      "information_url": "https://www.ntc.gov.ph/wp-content/uploads/2025/CITIZENS_CHARTER/7-FEEDBACK-03282025.pdf",
+      "email": "administrative@ntc.gov.ph",
+      "phone": "(02) 8924-4028; (02) 8924-4046",
+      "office_address": "Sen. Miriam P. Defensor-Santiago Ave., East Triangle, Diliman, Quezon City",
+      "verification_source_url": "https://www.ntc.gov.ph/wp-content/uploads/2025/CITIZENS_CHARTER/7-FEEDBACK-03282025.pdf",
+      "verification_status": "verified_official_citizens_charter",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://www.ntc.gov.ph/wp-content/uploads/2025/CITIZENS_CHARTER/7-FEEDBACK-03282025.pdf",
+    "confirmed_fields": {},
+    "field_verification": {},
+    "unverified_fields_withheld": [
+      "portal_url",
+      "email",
+      "phone",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "Official 2025 charter located, but consumer-service channels are not sufficiently reverified. Do not turn an administrative-feedback email into a telecom complaint filing address.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_HSAC_DHSUD",
+    "agency": "Human Settlements Adjudication Commission / DHSUD",
+    "service": "Housing and real-estate dispute referral",
+    "original_record": {
+      "referral_id": "REF_HSAC_DHSUD",
+      "agency": "Human Settlements Adjudication Commission / DHSUD",
+      "service": "Housing and real-estate dispute referral",
+      "topic_ids": "consumer.real_estate",
+      "when_to_use": "Subdivision, condominium, developer, homeowner-association, and housing adjudication matters.",
+      "first_step": "Determine whether the concern is adjudicatory or administrative, then consult HSAC or the proper DHSUD regional office.",
+      "portal_url": "https://hsac.gov.ph/",
+      "information_url": "https://dhsud.gov.ph/",
+      "email": "complaint@hsac.gov.ph",
+      "phone": "",
+      "office_address": "",
+      "verification_source_url": "https://hsac.gov.ph/wp-content/uploads/Citizens-Charter-2021_ver5.3.pdf",
+      "verification_status": "verified_official_citizens_charter_contact_requires_recheck",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://hsac.gov.ph/wp-content/uploads/1-Citizens-Charter-2025_1st-Edition_final.pdf",
+    "confirmed_fields": {},
+    "field_verification": {},
+    "unverified_fields_withheld": [
+      "portal_url",
+      "email",
+      "phone",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "Newer official charter identifies info@hsac.gov.ph as ARTA Lead feedback. This is not proof of a housing-case filing email; old complaint@hsac.gov.ph is withheld.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_LTFRB",
+    "agency": "Land Transportation Franchising and Regulatory Board",
+    "service": "Public-transport regulatory referral",
+    "original_record": {
+      "referral_id": "REF_LTFRB",
+      "agency": "Land Transportation Franchising and Regulatory Board",
+      "service": "Public-transport regulatory referral",
+      "topic_ids": "consumer.transportation",
+      "when_to_use": "Public-transport fares, franchises, and operator-service concerns.",
+      "first_step": "Use the current contact or complaint channel shown on the LTFRB official website.",
+      "portal_url": "https://ltfrb.gov.ph/",
+      "information_url": "https://ltfrb.gov.ph/",
+      "email": "",
+      "phone": "",
+      "office_address": "",
+      "verification_source_url": "https://ltfrb.gov.ph/",
+      "verification_status": "official_domain_only_contact_not_verified",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://www.ltfrb.gov.ph/wp-content/uploads/2024/11/Fare-Guide_Traditional-PUJ-Provisional-Fare-Increase_08Oct2023.pdf",
+    "confirmed_fields": {},
+    "field_verification": {},
+    "unverified_fields_withheld": [
+      "portal_url",
+      "email",
+      "phone",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "Official historical guide corroborates hotline 1342, but it has not been confirmed for October 2026. Do not renew verification from an old fare guide.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_ERC",
+    "agency": "Energy Regulatory Commission",
+    "service": "Electric-utility regulatory referral",
+    "original_record": {
+      "referral_id": "REF_ERC",
+      "agency": "Energy Regulatory Commission",
+      "service": "Electric-utility regulatory referral",
+      "topic_ids": "consumer.utility_billing",
+      "when_to_use": "Electricity billing, distribution-utility, and regulated-rate concerns. Other utilities may require a different regulator.",
+      "first_step": "Identify the utility type and use the current complaint channel on the appropriate regulator's official website.",
+      "portal_url": "https://www.erc.gov.ph/",
+      "information_url": "https://www.erc.gov.ph/",
+      "email": "",
+      "phone": "",
+      "office_address": "",
+      "verification_source_url": "https://www.erc.gov.ph/",
+      "verification_status": "official_domain_only_contact_not_verified",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://erc.gov.ph/ERC-Offices",
+    "confirmed_fields": {
+      "portal_url": "https://ccts.erc.ph",
+      "phone": "(02) 8689-5372 local 5345, 5577, 5398 or 5397",
+      "office_address": "Exquadra Tower, 1 Jade Drive, Ortigas Center, Brgy. San Antonio, Pasig City 1605"
+    },
+    "field_verification": {
+      "portal_url": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://erc.gov.ph/ERC-Offices"
+      },
+      "phone": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://erc.gov.ph/ERC-Offices"
+      },
+      "office_address": {
+        "verified_on": "2026-10-17",
+        "evidence_url": "https://erc.gov.ph/ERC-Offices"
+      }
+    },
+    "unverified_fields_withheld": [
+      "email"
+    ],
+    "complete_contact_verification": false,
+    "note": "Official ERC directory links this online filing system. Email is masked and remains unverified.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  },
+  {
+    "referral_id": "REF_PNP_ACG",
+    "agency": "Philippine National Police Anti-Cybercrime Group",
+    "service": "Cybercrime reporting referral",
+    "original_record": {
+      "referral_id": "REF_PNP_ACG",
+      "agency": "Philippine National Police Anti-Cybercrime Group",
+      "service": "Cybercrime reporting referral",
+      "topic_ids": "consumer.criminal_online_fraud",
+      "when_to_use": "Online fraud, phishing, account takeover, and conduct requiring criminal investigation.",
+      "first_step": "Preserve transaction records and use the current reporting channel on the PNP Anti-Cybercrime Group official website; urgent threats should go to local law enforcement.",
+      "portal_url": "https://acg.pnp.gov.ph/",
+      "information_url": "https://acg.pnp.gov.ph/",
+      "email": "",
+      "phone": "",
+      "office_address": "",
+      "verification_source_url": "https://acg.pnp.gov.ph/",
+      "verification_status": "official_domain_only_contact_page_blocked_during_check",
+      "last_verified": "2026-09-29",
+      "routing_review_as_of": "2026-10-17",
+      "contact_reverification_status": "carried_forward_from_item9_not_rechecked"
+    },
+    "checked_on": "2026-10-17",
+    "review_actor": "Codex",
+    "review_origin": "AI review of official web pages/indexed official content",
+    "verification_source_url": "https://batanesppo.pro2.pnp.gov.ph/cybersecurity-advisory/",
+    "confirmed_fields": {},
+    "field_verification": {},
+    "unverified_fields_withheld": [
+      "portal_url",
+      "email",
+      "phone",
+      "office_address"
+    ],
+    "complete_contact_verification": false,
+    "note": "Official 2026 PNP advisory corroborates reporting to the nearest ACG or eGov app. No national contact phone/email or functional national ACG portal was confirmed.",
+    "jurisdiction_or_filing_requirements_certified": false,
+    "deployment_allowed": false
+  }
+]

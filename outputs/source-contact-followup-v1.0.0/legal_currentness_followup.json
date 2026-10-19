@@ -1,0 +1,288 @@
+[
+  {
+    "document_id": "LAB_CODE_2022",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "official_consolidation_through_2022",
+    "original_freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "PD_442_1974",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "historical_original_text_subsequently_amended_and_renumbered",
+    "original_freshness_rule": "Never answer a current-law question from the original 1974 text alone.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "PD_851_1975",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force_as_modified",
+    "original_freshness_rule": "Use together with MO 28 and current DOLE guidance; do not rely on the original coverage wording alone.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "MO_28_1986",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force_modifier_source_copy_not_fully_verified",
+    "original_freshness_rule": "Legal effect may be described only from an answer-eligible official copy or corroborating official authority.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "url": "https://issuances-library.senate.gov.ph/executive-issuance/memorandum-order-no-28-s-1986",
+      "status": "official_title_and_date_metadata_found_full_copy_unverified",
+      "limit": "Official PDF access failed; suspect employees/employers wording in stored secondary copy is not silently corrected."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "RA_6727_1989",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force_framework_with_dynamic_wage_orders",
+    "original_freshness_rule": "Never use it to state a current regional minimum-wage amount; retrieve the applicable current wage order separately.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "RA_10151_2011",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force_partial_repeal_and_renumbering_authority",
+    "original_freshness_rule": "Night-work guidance remains outside MVP scope and its implementing order is not in the canonical set.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "RA_10396_2013",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force_implemented_by_current_sena_rules",
+    "original_freshness_rule": "Use DO 249-25 for present SEnA procedure.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "RA_7394_1992",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+    "original_freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "RA_10909_2016",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force",
+    "original_freshness_rule": "Use together with DAO 16-03 and current DTI enforcement guidance.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "RA_11967_2023",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force_after_transitory_compliance_period",
+    "original_freshness_rule": "Use together with JAO 24-03 and RA 7394 where the provisions operate alongside one another.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "LAB_IRR_1989",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "in_force_as_amended_not_a_current_consolidation",
+    "original_freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DOLE_DO_147_15",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "operative_no_superseding_order_located",
+    "original_freshness_rule": "Recheck DOLE issuances before production refreshes and apply later statutes or Supreme Court doctrine where relevant.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DOLE_DO_249_25",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "current_revised_sena_rules",
+    "original_freshness_rule": "Refresh against the DOLE department-order index before deployment.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "url": "https://bwc.dole.gov.ph/issuances/department-orders/",
+      "status": "listed_in_official_department_order_index",
+      "limit": "Indexed official content located; direct retrieval was blocked. No exhaustive no-superseder conclusion."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DOLE_LA_06_20",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "operative_guidance_no_superseding_advisory_located",
+    "original_freshness_rule": "Recheck the BWC advisory index before deployment.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "url": "https://dole.gov.ph/news/final-pay-coe-must-be-released-on-time-dole/",
+      "status": "official_2026_reminder_corroborates_advisory",
+      "limit": "Does not prove no later amendment or superseder exists."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DOLE_LA_16_25",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "time_bound_2025_annual_guidance",
+    "original_freshness_rule": "Do not use as current-year guidance for 2026 or later; await or retrieve the applicable annual advisory.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "url": "https://bwc.dole.gov.ph/issuances/labor-advisories/",
+      "status": "2025_only_2026_annual_thirteenth_month_guidance_not_located",
+      "limit": "No annual 2026 thirteenth-month advisory located in this search. This is not proof of nonexistence; future-dated listed entries were not adopted as currently effective."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DOLE_BWC_HANDBOOK_2024",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "official_secondary_explanatory_material",
+    "original_freshness_rule": "Every legal proposition must be supported by the controlling statute or issuance; refresh when a newer handbook appears.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DTI_DAO_02_1993",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "operative_general_irr_as_supplemented",
+    "original_freshness_rule": "Check later topic-specific DTI orders before using a provision.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+      "status": "official_registry_lists_general_irr",
+      "limit": "Listing does not certify every 1993 provision current; 218 extraction reviews remain pending."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DTI_DAO_16_03",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "operative_implementing_rule",
+    "original_freshness_rule": "Use together with RA 10909 and the current DTI complaint procedure.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DTI_DAO_20_02",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "current_dti_mediation_and_adjudication_procedure",
+    "original_freshness_rule": "Refresh against the FTEB laws-and-policies page before deployment.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "url": "https://fairtrade.dti.gov.ph/about/complaints-handling/mediation-division/",
+      "status": "official_service_page_still_identifies_order",
+      "limit": "Related rules and issue-specific applicability still require checks."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  },
+  {
+    "document_id": "DTI_JAO_24_03",
+    "original_status_as_of": "2026-09-29",
+    "original_legal_status": "current_implementing_rule",
+    "original_freshness_rule": "Refresh against the DTI E-Commerce Bureau page before deployment.",
+    "followup_attempted_on": "2026-10-17",
+    "ai_review_actor": "Codex",
+    "followup": {
+      "status": "no_new_substantive_currentness_conclusion",
+      "limit": "Retain original conditions; URL availability alone is insufficient."
+    },
+    "legal_currentness_certified": false,
+    "original_status_date_changed": false
+  }
+]

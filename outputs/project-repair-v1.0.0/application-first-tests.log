@@ -1,0 +1,19 @@
+test_exact_quote_offsets_are_calculated_from_stored_text (backend.application.test_development_explanation.CitationTests.test_exact_quote_offsets_are_calculated_from_stored_text) ... ok
+test_fabricated_quote_wrong_source_extra_fields_and_numbers_are_rejected (backend.application.test_development_explanation.CitationTests.test_fabricated_quote_wrong_source_extra_fields_and_numbers_are_rejected) ... ok
+test_missing_supported_component_is_not_silently_omitted (backend.application.test_development_explanation.CitationTests.test_missing_supported_component_is_not_silently_omitted) ... ok
+test_related_authority_and_fixture_gates_skip_provider (backend.application.test_development_explanation.CitationTests.test_related_authority_and_fixture_gates_skip_provider) ... ok
+test_whitespace_only_quote_recovery_preserves_the_exact_stored_span (backend.application.test_development_explanation.CitationTests.test_whitespace_only_quote_recovery_preserves_the_exact_stored_span) ... ok
+test_all_frozen_random_background_and_supported_concerns (backend.application.test_development_explanation.ConcernTests.test_all_frozen_random_background_and_supported_concerns) ... ok
+test_outside_and_clarification_do_not_generate (backend.application.test_development_explanation.ConcernTests.test_outside_and_clarification_do_not_generate) ... ok
+test_real_supported_sources_generate_without_invented_legal_approval (backend.application.test_development_explanation.ConcernTests.test_real_supported_sources_generate_without_invented_legal_approval) ... ok
+test_reported_harm_never_reaches_either_provider (backend.application.test_development_explanation.ConcernTests.test_reported_harm_never_reaches_either_provider) ... ok
+test_safety_notice_does_not_turn_negation_or_a_termination_report_into_harm (backend.application.test_development_explanation.ConcernTests.test_safety_notice_does_not_turn_negation_or_a_termination_report_into_harm) ... ok
+test_input_and_busy_boundaries (backend.application.test_application.RuntimeTests.test_input_and_busy_boundaries) ... ok
+test_real_routing_paths_and_local_noisy_features (backend.application.test_application.RuntimeTests.test_real_routing_paths_and_local_noisy_features) ... ok
+test_supported_question_uses_real_classifier_and_complete_sources (backend.application.test_application.RuntimeTests.test_supported_question_uses_real_classifier_and_complete_sources) ... ok
+test_uncertain_provider_output_is_withheld (backend.application.test_application.RuntimeTests.test_uncertain_provider_output_is_withheld) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 10.866s
+
+OK

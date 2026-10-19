@@ -1,0 +1,11 @@
+{
+  "REPAIR_REPORT.md": "d08c5b77bc4376c248f6cb667b20c2dd205dc624e865ef4d95ca8f197e1fed0a",
+  "before_retrieval.py": "302d80440a25a63031a2a5d033ff877d3e8480de6addd6e48c956fb79c6f8c92",
+  "before_scope_constraints.py": "c1a7ee1ff8838a7344bd0806b2f63033f47dbcac5e8419f64c7f2a09014da6c4",
+  "comparison.json": "8196042408ff9003603cee85dd5c593b42b2d7131bf1d4c68dfd758147cab65c",
+  "current_artifacts_after.json": "ebb98afc54985a03e1b5d8d0515c50f83c373eb20d5ac047d4046e9fde73b1b0",
+  "dataset_inventory_addendum.json": "cf0dc628a9b2461a265126a731d9cf02a9fda4edf8ffd9a40df6870e9636ffc1",
+  "preservation_audit.json": "0c11a2e796f03eacec58c8af5356fb5d89aa9f61862c3bfe675ea213dccb0d91",
+  "repair_freeze.json": "bf8e21a18b45ce200cf0f3b411f7632ad0867a49cfa938212789bfb75300daff",
+  "runtime_changes.patch": "37a2f17c5f1fb257cbfa6051b59498a52499b1d2797defb82d189eeaebe9e6d3"
+}

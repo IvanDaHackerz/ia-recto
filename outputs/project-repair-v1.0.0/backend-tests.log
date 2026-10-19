@@ -1,0 +1,236 @@
+test_all_preflight_gates_skip_provider (backend.application.test_application.ExplanationTests.test_all_preflight_gates_skip_provider) ... ok
+test_failed_postflight_never_leaks_raw_draft (backend.application.test_application.ExplanationTests.test_failed_postflight_never_leaks_raw_draft) ... ok
+test_only_postflight_claims_returned_when_every_permission_passes (backend.application.test_application.ExplanationTests.test_only_postflight_claims_returned_when_every_permission_passes) ... ok
+test_provider_failure_is_withheld (backend.application.test_application.ExplanationTests.test_provider_failure_is_withheld) ... ok
+test_transport_caps_input_before_any_provider_request (backend.application.test_application.ExplanationTests.test_transport_caps_input_before_any_provider_request) ... ok
+test_transport_refuses_redirects_and_incomplete_provider_output (backend.application.test_application.ExplanationTests.test_transport_refuses_redirects_and_incomplete_provider_output) ... ok
+test_transport_sends_only_eligible_sources_and_has_no_retries (backend.application.test_application.ExplanationTests.test_transport_sends_only_eligible_sources_and_has_no_retries) ... ok
+test_errors_do_not_echo_payloads_or_credentials (backend.application.test_application.HTTPTests.test_errors_do_not_echo_payloads_or_credentials) ... ok
+test_get_routes_and_no_store (backend.application.test_application.HTTPTests.test_get_routes_and_no_store) ... ok
+test_host_origin_paths_and_methods (backend.application.test_application.HTTPTests.test_host_origin_paths_and_methods) ... ok
+test_invalid_json_content_and_unknown_client_review_fields (backend.application.test_application.HTTPTests.test_invalid_json_content_and_unknown_client_review_fields) ... ok
+test_real_json_post_and_exact_origin (backend.application.test_application.HTTPTests.test_real_json_post_and_exact_origin) ... ok
+test_actual_frozen_denominators_and_deferrals (backend.application.test_application.PerformanceTests.test_actual_frozen_denominators_and_deferrals) ... ok
+test_checksum_failure_is_not_silently_replaced_with_fixtures (backend.application.test_application.PerformanceTests.test_checksum_failure_is_not_silently_replaced_with_fixtures) ... ok
+test_complete_application_replay_never_claims_independent_answer_accuracy (backend.application.test_application.PerformanceTests.test_complete_application_replay_never_claims_independent_answer_accuracy) ... ok
+test_evidence_metrics_do_not_claim_legal_approval (backend.application.test_application.PerformanceTests.test_evidence_metrics_do_not_claim_legal_approval) ... ok
+test_historical_llm_comparison_remains_separate_and_unchanged (backend.application.test_application.PerformanceTests.test_historical_llm_comparison_remains_separate_and_unchanged) ... ok
+test_input_and_busy_boundaries (backend.application.test_application.RuntimeTests.test_input_and_busy_boundaries) ... ok
+test_real_routing_paths_and_local_noisy_features (backend.application.test_application.RuntimeTests.test_real_routing_paths_and_local_noisy_features) ... ok
+test_supported_question_uses_real_classifier_and_complete_sources (backend.application.test_application.RuntimeTests.test_supported_question_uses_real_classifier_and_complete_sources) ... ok
+test_uncertain_provider_output_is_withheld (backend.application.test_application.RuntimeTests.test_uncertain_provider_output_is_withheld) ... ok
+test_exact_quote_offsets_are_calculated_from_stored_text (backend.application.test_development_explanation.CitationTests.test_exact_quote_offsets_are_calculated_from_stored_text) ... ok
+test_fabricated_quote_wrong_source_extra_fields_and_numbers_are_rejected (backend.application.test_development_explanation.CitationTests.test_fabricated_quote_wrong_source_extra_fields_and_numbers_are_rejected) ... ok
+test_missing_supported_component_is_not_silently_omitted (backend.application.test_development_explanation.CitationTests.test_missing_supported_component_is_not_silently_omitted) ... ok
+test_related_authority_and_fixture_gates_skip_provider (backend.application.test_development_explanation.CitationTests.test_related_authority_and_fixture_gates_skip_provider) ... ok
+test_whitespace_only_quote_recovery_preserves_the_exact_stored_span (backend.application.test_development_explanation.CitationTests.test_whitespace_only_quote_recovery_preserves_the_exact_stored_span) ... ok
+test_all_frozen_random_background_and_supported_concerns (backend.application.test_development_explanation.ConcernTests.test_all_frozen_random_background_and_supported_concerns) ... ok
+test_outside_and_clarification_do_not_generate (backend.application.test_development_explanation.ConcernTests.test_outside_and_clarification_do_not_generate) ... ok
+test_real_supported_sources_generate_without_invented_legal_approval (backend.application.test_development_explanation.ConcernTests.test_real_supported_sources_generate_without_invented_legal_approval) ... ok
+test_reported_harm_never_reaches_either_provider (backend.application.test_development_explanation.ConcernTests.test_reported_harm_never_reaches_either_provider) ... ok
+test_safety_notice_does_not_turn_negation_or_a_termination_report_into_harm (backend.application.test_development_explanation.ConcernTests.test_safety_notice_does_not_turn_negation_or_a_termination_report_into_harm) ... ok
+test_cancel_is_scoped_and_blocks_the_same_pending_request_id (backend.application.test_history_http.HistoryHTTPTests.test_cancel_is_scoped_and_blocks_the_same_pending_request_id) ... ok
+test_client_ids_deduplicate_completed_requests (backend.application.test_history_http.HistoryHTTPTests.test_client_ids_deduplicate_completed_requests) ... ok
+test_cookie_tampering_does_not_select_another_history_owner (backend.application.test_history_http.HistoryHTTPTests.test_cookie_tampering_does_not_select_another_history_owner) ... ok
+test_history_opt_in_export_and_owner_isolation (backend.application.test_history_http.HistoryHTTPTests.test_history_opt_in_export_and_owner_isolation) ... ok
+test_unknown_options_and_cross_origin_writes_are_rejected (backend.application.test_history_http.HistoryHTTPTests.test_unknown_options_and_cross_origin_writes_are_rejected) ... ok
+test_full_citation_labels_distinguish_ambiguous_provisions (backend.application.test_repairs.ApplicationRepairTests.test_full_citation_labels_distinguish_ambiguous_provisions) ... ok
+test_health_and_another_question_work_while_generation_waits (backend.application.test_repairs.ApplicationRepairTests.test_health_and_another_question_work_while_generation_waits) ... ok
+test_live_referral_fields_and_missing_sources_are_explained (backend.application.test_repairs.ApplicationRepairTests.test_live_referral_fields_and_missing_sources_are_explained) ... ok
+test_local_only_skips_both_providers_but_keeps_classification (backend.application.test_repairs.ApplicationRepairTests.test_local_only_skips_both_providers_but_keeps_classification) ... ok
+test_unsupported_judgment_withholds_the_entire_draft (backend.application.test_repairs.ApplicationRepairTests.test_unsupported_judgment_withholds_the_entire_draft) ... ok
+test_cancel_tombstone_prevents_a_racing_export (backend.application.test_repairs.ControlTests.test_cancel_tombstone_prevents_a_racing_export) ... ok
+test_cancellation_closes_an_active_connection (backend.application.test_repairs.ControlTests.test_cancellation_closes_an_active_connection) ... ok
+test_daily_request_cap_and_estimated_cost_settlement (backend.application.test_repairs.ControlTests.test_daily_request_cap_and_estimated_cost_settlement) ... ok
+test_idempotence_is_scoped_and_conflicts_are_rejected (backend.application.test_repairs.ControlTests.test_idempotence_is_scoped_and_conflicts_are_rejected) ... ok
+test_success_resets_the_consecutive_outage_streak (backend.application.test_repairs.ControlTests.test_success_resets_the_consecutive_outage_streak) ... ok
+test_transport_rejects_other_hosts_before_any_connection (backend.application.test_repairs.ControlTests.test_transport_rejects_other_hosts_before_any_connection) ... ok
+test_unknown_pricing_and_repeated_failures_stop_new_exports (backend.application.test_repairs.ControlTests.test_unknown_pricing_and_repeated_failures_stop_new_exports) ... ok
+test_judge_must_cover_each_claim_once_with_all_checks (backend.application.test_repairs.GroundingTests.test_judge_must_cover_each_claim_once_with_all_checks) ... ok
+test_known_unentailed_and_excluded_claims_fail_before_a_judge (backend.application.test_repairs.GroundingTests.test_known_unentailed_and_excluded_claims_fail_before_a_judge) ... ok
+test_malformed_judge_cannot_approve_itself (backend.application.test_repairs.GroundingTests.test_malformed_judge_cannot_approve_itself) ... ok
+test_malformed_provider_envelopes_and_redirects_are_safe (backend.application.test_repairs.GroundingTests.test_malformed_provider_envelopes_and_redirects_are_safe) ... ok
+test_selected_sources_restore_exact_bytes_and_cannot_cross_concerns (backend.application.test_repairs.GroundingTests.test_selected_sources_restore_exact_bytes_and_cannot_cross_concerns) ... ok
+test_written_numeric_facts_match_literal_quantities (backend.application.test_repairs.GroundingTests.test_written_numeric_facts_match_literal_quantities) ... ok
+test_append_does_not_allow_another_owner_to_claim_a_thread (backend.application.test_repairs.HistoryTests.test_append_does_not_allow_another_owner_to_claim_a_thread) ... ok
+test_delete_is_scoped_and_cap_is_enforced (backend.application.test_repairs.HistoryTests.test_delete_is_scoped_and_cap_is_enforced) ... ok
+test_expiry_and_corrupt_data_are_not_returned (backend.application.test_repairs.HistoryTests.test_expiry_and_corrupt_data_are_not_returned) ... ok
+test_native_windows_storage_does_not_contain_plain_question (backend.application.test_repairs.HistoryTests.test_native_windows_storage_does_not_contain_plain_question) ... ok
+test_owner_isolation_and_saved_state_round_trip (backend.application.test_repairs.HistoryTests.test_owner_isolation_and_saved_state_round_trip) ... ok
+test_address_does_not_consume_following_concern (backend.application.test_repairs.PrivacyTests.test_address_does_not_consume_following_concern) ... ok
+test_credential_patterns_do_not_leave_the_local_redactor (backend.application.test_repairs.PrivacyTests.test_credential_patterns_do_not_leave_the_local_redactor) ... ok
+test_identifiers_are_removed_and_legal_facts_remain (backend.application.test_repairs.PrivacyTests.test_identifiers_are_removed_and_legal_facts_remain) ... ok
+test_no_redaction_is_claimed_for_unrecognized_identifiers (backend.application.test_repairs.PrivacyTests.test_no_redaction_is_claimed_for_unrecognized_identifiers) ... ok
+test_history_quotes_and_negation_do_not_raise_current_notice (backend.application.test_repairs.SafetyTests.test_history_quotes_and_negation_do_not_raise_current_notice) ... ok
+test_present_and_filipino_harm_variants (backend.application.test_repairs.SafetyTests.test_present_and_filipino_harm_variants) ... ok
+test_present_threat_is_not_hidden_by_a_historical_sentence (backend.application.test_repairs.SafetyTests.test_present_threat_is_not_hidden_by_a_historical_sentence) ... ok
+test_controls_surrogates_and_size_are_rejected (backend.classifier.test_service.ContractTests.test_controls_surrogates_and_size_are_rejected) ... ok
+test_duplicate_nonfinite_and_malformed_json_are_rejected (backend.classifier.test_service.ContractTests.test_duplicate_nonfinite_and_malformed_json_are_rejected) ... ok
+test_non_string_input_is_rejected (backend.classifier.test_service.ContractTests.test_non_string_input_is_rejected) ... ok
+test_operator_paths_stay_in_workspace (backend.classifier.test_service.ContractTests.test_operator_paths_stay_in_workspace) ... ok
+test_origins_are_exact_not_wildcards_or_paths (backend.classifier.test_service.ContractTests.test_origins_are_exact_not_wildcards_or_paths) ... ok
+test_request_ids_cannot_inject_headers_or_log_lines (backend.classifier.test_service.ContractTests.test_request_ids_cannot_inject_headers_or_log_lines) ... ok
+test_unknown_fields_and_overrides_are_rejected (backend.classifier.test_service.ContractTests.test_unknown_fields_and_overrides_are_rejected) ... ok
+test_connection_limit_returns_busy (backend.classifier.test_service.HTTPTests.test_connection_limit_returns_busy) ... ok
+test_duplicate_or_chunked_lengths_are_rejected (backend.classifier.test_service.HTTPTests.test_duplicate_or_chunked_lengths_are_rejected) ... ok
+test_integrity_failure_returns_unavailable (backend.classifier.test_service.HTTPTests.test_integrity_failure_returns_unavailable) ... ok
+test_json_errors_invalid_utf8_and_unsupported_content_type (backend.classifier.test_service.HTTPTests.test_json_errors_invalid_utf8_and_unsupported_content_type) ... ok
+test_model_failure_returns_no_traceback_question_or_paths (backend.classifier.test_service.HTTPTests.test_model_failure_returns_no_traceback_question_or_paths) ... ok
+test_origin_allowlist_and_preflight (backend.classifier.test_service.HTTPTests.test_origin_allowlist_and_preflight) ... ok
+test_oversized_request_is_rejected (backend.classifier.test_service.HTTPTests.test_oversized_request_is_rejected) ... ok
+test_read_only_health_and_contract_endpoints (backend.classifier.test_service.HTTPTests.test_read_only_health_and_contract_endpoints) ... ok
+test_real_http_classification_uses_versioned_contract (backend.classifier.test_service.HTTPTests.test_real_http_classification_uses_versioned_contract) ... ok
+test_server_cannot_bind_public_interface (backend.classifier.test_service.HTTPTests.test_server_cannot_bind_public_interface) ... ok
+test_unknown_endpoint_methods_and_query_overrides_are_rejected (backend.classifier.test_service.HTTPTests.test_unknown_endpoint_methods_and_query_overrides_are_rejected) ... ok
+test_artifact_mutation_is_checked_on_every_call (backend.classifier.test_service.ServiceTests.test_artifact_mutation_is_checked_on_every_call) ... ok
+test_bad_manifest_is_rejected_before_executable_model_load (backend.classifier.test_service.ServiceTests.test_bad_manifest_is_rejected_before_executable_model_load) ... ok
+test_health_describes_implementation_without_claiming_evaluation (backend.classifier.test_service.ServiceTests.test_health_describes_implementation_without_claiming_evaluation) ... ok
+test_incompatible_dependencies_are_rejected (backend.classifier.test_service.ServiceTests.test_incompatible_dependencies_are_rejected) ... ok
+test_no_outbound_network_or_semantic_download_is_needed (backend.classifier.test_service.ServiceTests.test_no_outbound_network_or_semantic_download_is_needed) ... ok
+test_original_unicode_text_and_request_id_are_preserved (backend.classifier.test_service.ServiceTests.test_original_unicode_text_and_request_id_are_preserved) ... ok
+test_partial_component_excludes_insurance_from_retrieval (backend.classifier.test_service.ServiceTests.test_partial_component_excludes_insurance_from_retrieval) ... ok
+test_probabilities_and_invalid_route_fail_closed (backend.classifier.test_service.ServiceTests.test_probabilities_and_invalid_route_fail_closed) ... ok
+test_referral_only_has_no_retrieval_and_contacts_stay_candidates (backend.classifier.test_service.ServiceTests.test_referral_only_has_no_retrieval_and_contacts_stay_candidates) ... ok
+test_response_contract_rejects_changed_types_and_live_permissions (backend.classifier.test_service.ServiceTests.test_response_contract_rejects_changed_types_and_live_permissions) ... ok
+test_supported_component_returns_a_request_not_a_legal_answer (backend.classifier.test_service.ServiceTests.test_supported_component_returns_a_request_not_a_legal_answer) ... ok
+test_vague_and_empty_inputs_clarify_without_retrieval (backend.classifier.test_service.ServiceTests.test_vague_and_empty_inputs_clarify_without_retrieval) ... ok
+Frozen 436 local development inputs
+test_changed_freeze_is_rejected_before_model_load (backend.test_local_evaluation.LocalEvaluationTests.test_changed_freeze_is_rejected_before_model_load) ... ok
+test_interval_uses_families_and_excludes_unlabeled_rows (backend.test_local_evaluation.LocalEvaluationTests.test_interval_uses_families_and_excludes_unlabeled_rows) ... ok
+Frozen 436 local development inputs
+test_prepare_freezes_existing_inputs_and_joined_regressions (backend.test_local_evaluation.LocalEvaluationTests.test_prepare_freezes_existing_inputs_and_joined_regressions) ... ok
+test_local_encrypted_config_can_supply_together_without_env (backend.test_normalization.ConfigurationTests.test_local_encrypted_config_can_supply_together_without_env) ... ok
+test_real_dpapi_roundtrip_never_writes_plaintext_key (backend.test_normalization.ConfigurationTests.test_real_dpapi_roundtrip_never_writes_plaintext_key) ... ok
+test_together_environment_overrides_local_configuration (backend.test_normalization.ConfigurationTests.test_together_environment_overrides_local_configuration) ... ok
+test_absent_credentials_only_affect_flagged_messages (backend.test_normalization.GateTests.test_absent_credentials_only_affect_flagged_messages) ... ok
+test_actor_change_new_agency_and_dropped_second_concern_are_rejected (backend.test_normalization.GateTests.test_actor_change_new_agency_and_dropped_second_concern_are_rejected) ... ok
+test_clear_language_and_isolated_typo_make_zero_provider_calls (backend.test_normalization.GateTests.test_clear_language_and_isolated_typo_make_zero_provider_calls) ... ok
+test_dense_unknown_noise_can_ask_for_clarification (backend.test_normalization.GateTests.test_dense_unknown_noise_can_ask_for_clarification) ... ok
+test_dti_is_never_blindly_expanded (backend.test_normalization.GateTests.test_dti_is_never_blindly_expanded) ... ok
+test_fact_injection_negation_deletion_and_invalid_schema_are_rejected (backend.test_normalization.GateTests.test_fact_injection_negation_deletion_and_invalid_schema_are_rejected) ... ok
+test_failed_fallback_does_not_classify_an_uncertain_rewrite (backend.test_normalization.GateTests.test_failed_fallback_does_not_classify_an_uncertain_rewrite) ... ok
+test_failed_payment_rewrite_asks_context_without_classifying_the_proposal (backend.test_normalization.GateTests.test_failed_payment_rewrite_asks_context_without_classifying_the_proposal) ... ok
+test_gate_detects_unlisted_typing_shapes (backend.test_normalization.GateTests.test_gate_detects_unlisted_typing_shapes) ... ok
+test_long_flagged_question_does_not_pay_for_truncated_rewrite (backend.test_normalization.GateTests.test_long_flagged_question_does_not_pay_for_truncated_rewrite) ... ok
+test_missing_employment_and_payment_facts_cannot_be_invented (backend.test_normalization.GateTests.test_missing_employment_and_payment_facts_cannot_be_invented) ... ok
+test_preservation_repairs_block_observed_semantic_regressions (backend.test_normalization.GateTests.test_preservation_repairs_block_observed_semantic_regressions) ... ok
+test_provider_can_decline_unnecessary_rewrite (backend.test_normalization.GateTests.test_provider_can_decline_unnecessary_rewrite) ... ok
+test_raw_decisive_result_bypasses_even_suspicious_spelling (backend.test_normalization.GateTests.test_raw_decisive_result_bypasses_even_suspicious_spelling) ... ok
+test_rejected_diagnostics_require_explicit_opt_in_and_never_enter_inference (backend.test_normalization.GateTests.test_rejected_diagnostics_require_explicit_opt_in_and_never_enter_inference) ... ok
+test_scope_anchors_cannot_turn_into_plausible_wrong_words (backend.test_normalization.GateTests.test_scope_anchors_cannot_turn_into_plausible_wrong_words) ... ok
+test_shorthand_calls_once_and_preserves_facts (backend.test_normalization.GateTests.test_shorthand_calls_once_and_preserves_facts) ... ok
+test_terminal_does_not_run_inference_when_normalization_is_unresolved (backend.test_normalization.GateTests.test_terminal_does_not_run_inference_when_normalization_is_unresolved) ... ok
+test_terminal_fallback_runs_once_and_reclassifies_only_validated_text (backend.test_normalization.GateTests.test_terminal_fallback_runs_once_and_reclassifies_only_validated_text) ... ok
+test_unclear_or_timeout_never_passes_an_interpretation (backend.test_normalization.GateTests.test_unclear_or_timeout_never_passes_an_interpretation) ... ok
+test_unknown_wording_fallback_is_not_low_confidence_alone (backend.test_normalization.GateTests.test_unknown_wording_fallback_is_not_low_confidence_alone) ... ok
+test_unlisted_phonetic_forms_and_merged_words_are_accepted (backend.test_normalization.GateTests.test_unlisted_phonetic_forms_and_merged_words_are_accepted) ... ok
+test_whole_sentence_repairs_grammar_and_preserves_original (backend.test_normalization.GateTests.test_whole_sentence_repairs_grammar_and_preserves_original) ... ok
+test_word_boundaries_and_conjunction_do_not_invent_facts_or_negation (backend.test_normalization.GateTests.test_word_boundaries_and_conjunction_do_not_invent_facts_or_negation) ... ok
+test_actual_http_contract_is_bounded_stateless_and_structured (backend.test_normalization.ProviderTests.test_actual_http_contract_is_bounded_stateless_and_structured) ... ok
+test_http_error_never_leaks_response_or_key_and_does_not_retry (backend.test_normalization.ProviderTests.test_http_error_never_leaks_response_or_key_and_does_not_retry) ... ok
+test_incomplete_refused_and_bad_json_responses_fail_closed (backend.test_normalization.ProviderTests.test_incomplete_refused_and_bad_json_responses_fail_closed) ... ok
+test_stronger_model_uses_bounded_low_reasoning_and_sentence_schema (backend.test_normalization.TogetherTests.test_stronger_model_uses_bounded_low_reasoning_and_sentence_schema) ... ok
+test_together_http_error_is_redacted_and_not_retried (backend.test_normalization.TogetherTests.test_together_http_error_is_redacted_and_not_retried) ... ok
+test_together_incomplete_refusal_tool_calls_and_bad_json_are_rejected (backend.test_normalization.TogetherTests.test_together_incomplete_refusal_tool_calls_and_bad_json_are_rejected) ... ok
+test_together_request_schema_usage_and_identification (backend.test_normalization.TogetherTests.test_together_request_schema_usage_and_identification) ... ok
+test_100_families_200_forms_keep_source_expectations_and_reversible_noise (backend.test_normalization_evaluation.EvaluationTests.test_100_families_200_forms_keep_source_expectations_and_reversible_noise) ... ok
+test_abstentions_remain_in_accuracy_recall_and_f1_denominators (backend.test_normalization_evaluation.EvaluationTests.test_abstentions_remain_in_accuracy_recall_and_f1_denominators) ... ok
+test_current_local_replay_preserves_cases_judgments_and_export_plan (backend.test_normalization_evaluation.EvaluationTests.test_current_local_replay_preserves_cases_judgments_and_export_plan) ... ok
+test_fresh_followup_uses_only_recorded_families_absent_from_initial_selection (backend.test_normalization_evaluation.EvaluationTests.test_fresh_followup_uses_only_recorded_families_absent_from_initial_selection) ... ok
+Completed 10/200 inputs / 20 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 20/200 inputs / 40 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 30/200 inputs / 60 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 40/200 inputs / 80 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 50/200 inputs / 100 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 60/200 inputs / 120 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 70/200 inputs / 140 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 80/200 inputs / 160 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 90/200 inputs / 180 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 100/200 inputs / 200 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 110/200 inputs / 220 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 120/200 inputs / 240 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 130/200 inputs / 260 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 140/200 inputs / 280 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 150/200 inputs / 300 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 160/200 inputs / 320 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 170/200 inputs / 340 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 180/200 inputs / 360 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 190/200 inputs / 380 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 200/200 inputs / 400 pipeline executions; LLM requests 0; estimated cost $0.0000
+Inference complete. Review semantic_review_queue.jsonl before opening performance metrics.
+test_frozen_execution_question_only_and_final_report_cannot_be_overwritten (backend.test_normalization_evaluation.EvaluationTests.test_frozen_execution_question_only_and_final_report_cannot_be_overwritten) ... ok
+Finalized development comparison: C:\IA\outputs\normalization-eval-test-doyxeyx_\study\REPORT.md
+Completed 10/436 inputs / 20 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 20/436 inputs / 40 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 30/436 inputs / 60 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 40/436 inputs / 80 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 50/436 inputs / 100 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 60/436 inputs / 120 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 70/436 inputs / 140 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 80/436 inputs / 160 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 90/436 inputs / 180 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 100/436 inputs / 200 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 110/436 inputs / 220 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 120/436 inputs / 240 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 130/436 inputs / 260 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 140/436 inputs / 280 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 150/436 inputs / 300 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 160/436 inputs / 320 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 170/436 inputs / 340 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 180/436 inputs / 360 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 190/436 inputs / 380 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 200/436 inputs / 400 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 210/436 inputs / 420 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 220/436 inputs / 440 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 230/436 inputs / 460 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 240/436 inputs / 480 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 250/436 inputs / 500 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 260/436 inputs / 520 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 270/436 inputs / 540 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 280/436 inputs / 560 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 290/436 inputs / 580 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 300/436 inputs / 600 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 310/436 inputs / 620 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 320/436 inputs / 640 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 330/436 inputs / 660 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 340/436 inputs / 680 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 350/436 inputs / 700 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 360/436 inputs / 720 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 370/436 inputs / 740 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 380/436 inputs / 760 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 390/436 inputs / 780 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 400/436 inputs / 800 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 410/436 inputs / 820 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 420/436 inputs / 840 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 430/436 inputs / 860 pipeline executions; LLM requests 0; estimated cost $0.0000
+Inference complete. Review semantic_review_queue.jsonl before opening performance metrics.
+test_joined_cases_without_reference_metadata_can_finalize (backend.test_normalization_evaluation.EvaluationTests.test_joined_cases_without_reference_metadata_can_finalize) ... ok
+test_missing_context_clarification_is_scored_as_route_without_invented_labels (backend.test_normalization_evaluation.EvaluationTests.test_missing_context_clarification_is_scored_as_route_without_invented_labels) ... ok
+test_paired_bootstrap_keeps_clear_and_noisy_in_one_family (backend.test_normalization_evaluation.EvaluationTests.test_paired_bootstrap_keeps_clear_and_noisy_in_one_family) ... ok
+test_provider_export_ceiling_blocks_unplanned_and_extra_calls (backend.test_normalization_evaluation.EvaluationTests.test_provider_export_ceiling_blocks_unplanned_and_extra_calls) ... ok
+test_repair_suite_preserves_old_inputs_and_adds_partial_scope_stress (backend.test_normalization_evaluation.EvaluationTests.test_repair_suite_preserves_old_inputs_and_adds_partial_scope_stress) ... ok
+test_retrieval_rank_resets_per_component_and_stops_at_five (backend.test_normalization_evaluation.EvaluationTests.test_retrieval_rank_resets_per_component_and_stops_at_five) ... ok
+test_full_provision_matches_global_number_across_components (backend.test_terminal_test.TerminalTests.test_full_provision_matches_global_number_across_components) ... ok
+test_invalid_input_does_not_reach_inference (backend.test_terminal_test.TerminalTests.test_invalid_input_does_not_reach_inference) ... ok
+test_loop_handles_commands_eof_and_correctable_input_error (backend.test_terminal_test.TerminalTests.test_loop_handles_commands_eof_and_correctable_input_error) ... ok
+test_only_original_question_enters_normal_current_guidance (backend.test_terminal_test.TerminalTests.test_only_original_question_enters_normal_current_guidance) ... ok
+test_payment_follow_up_does_not_change_specific_routes_or_repeat_known_category (backend.test_terminal_test.TerminalTests.test_payment_follow_up_does_not_change_specific_routes_or_repeat_known_category) ... ok
+test_payment_follow_up_keeps_actual_predictions_and_permissions (backend.test_terminal_test.TerminalTests.test_payment_follow_up_keeps_actual_predictions_and_permissions) ... ok
+test_permission_leak_stops_inspection (backend.test_terminal_test.TerminalTests.test_permission_leak_stops_inspection) ... ok
+test_report_does_not_invent_accuracy_or_legal_confidence (backend.test_terminal_test.TerminalTests.test_report_does_not_invent_accuracy_or_legal_confidence) ... ok
+test_source_controls_are_escaped_only_for_terminal_display (backend.test_terminal_test.TerminalTests.test_source_controls_are_escaped_only_for_terminal_display) ... ok
+test_boundaries_preserve_actors_and_function_words (backend.test_typing_features.TypingFeaturesTests.test_boundaries_preserve_actors_and_function_words) ... ok
+test_existing_training_wordforms_are_preserved_without_evaluation_vocabulary (backend.test_typing_features.TypingFeaturesTests.test_existing_training_wordforms_are_preserved_without_evaluation_vocabulary) ... ok
+test_literals_names_negation_and_numbers_are_not_repaired (backend.test_typing_features.TypingFeaturesTests.test_literals_names_negation_and_numbers_are_not_repaired) ... ok
+test_matching_is_idempotent (backend.test_typing_features.TypingFeaturesTests.test_matching_is_idempotent) ... ok
+test_privacy_deletion_does_not_exclude_product_label_correction (backend.test_typing_features.TypingFeaturesTests.test_privacy_deletion_does_not_exclude_product_label_correction) ... ok
+test_product_label_quantity_is_supported_without_guessing_compressed_word (backend.test_typing_features.TypingFeaturesTests.test_product_label_quantity_is_supported_without_guessing_compressed_word) ... ok
+test_scope_contrasts_survive_typing_noise (backend.test_typing_features.TypingFeaturesTests.test_scope_contrasts_survive_typing_noise) ... ok
+test_separate_supported_and_excluded_concerns_remain_separate (backend.test_typing_features.TypingFeaturesTests.test_separate_supported_and_excluded_concerns_remain_separate) ... ok
+test_unique_procedure_and_provider_spellings_use_declared_terms (backend.test_typing_features.TypingFeaturesTests.test_unique_procedure_and_provider_spellings_use_declared_terms) ... ok
+
+----------------------------------------------------------------------
+Ran 162 tests in 27.182s
+
+OK
+Finalized development comparison: C:\IA\outputs\normalization-joined-test-gjtzmxu3\study\REPORT.md

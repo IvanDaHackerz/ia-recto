@@ -1,0 +1,19 @@
+{
+  "cases.jsonl": "acd8e078194ca54779a7010f5d8306c5dd384508d55f21edc076da88750dcae3",
+  "case_manifest.json": "76f876902461c66fde3fa40d04883baa8beeb1fa7569f6a676a3a9322e8d6f00",
+  "current_artifacts_snapshot.json": "1b9fc2dca48e94ae4d6f49cf97a285b5e2c251fe69963939ab4c879ab8c282e3",
+  "error_log.jsonl": "08ec519aa2b971aa38dfc5145385c78c7d1fc458cceae444cdf1d3b58ff00506",
+  "execution_completed.json": "a499ed43d60b1f19c3766c2fd0b71180a46d5a7e583b56cf88da04e861572edc",
+  "execution_started.json": "4c7d4b8d0920c9fdf36b7fe9a25887fdfc2ca4713fc0866625498744e9379270",
+  "freeze.json": "b6ec1d6b4b9ef00b16732039f6f22625b61cbc1b2f98415c4f16a8b27a81f853",
+  "metrics.json": "e6e19ee4736c36780bd61a981f1694c18ef7074358abce50a9da759a2e7e709c",
+  "observations.jsonl": "33af1a0f09af92dc8c1360bc60e4da9d1b5d3bc50c863ffdf5075d7a961cdccf",
+  "protocol.json": "c505b9041ba8b465cdacc57d1cda7caf0b582f951fc1483df86d0239f9e0f679",
+  "REPORT.md": "5ccfb67dbd30ed37d9a000cb26c9abe5df309f50d072f01d4eb64b33d6fc2e92",
+  "results.csv": "83b2587092252a1e0318c39658214b6a44d84df93ea838a7aa03854a3efda890",
+  "semantic_reviews.jsonl": "bb269d79c9a2292a1864dcf449661a91597c8fe4b143d015e672cfed99490b4a",
+  "semantic_review_manifest.json": "0781330a876a5f67dfa173e0b89451d20854ee49114841d03b0eaabdd91acdaf",
+  "semantic_review_queue.jsonl": "e7522c442c3fd57e3c3393606257d012c000d1427c25982a05338d798d9b5a96",
+  "software_checks.json": "a05063e80e9f0b354f74e53317f636fddf7770bdaebc153b6eb17f7bf04a6cca",
+  "source_snapshot_manifest.json": "acd409a951751d949afd580ac866d0402ea314cba0e1ff642c17480f702e8f72"
+}

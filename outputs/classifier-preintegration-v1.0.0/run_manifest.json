@@ -1,0 +1,30 @@
+{
+  "answer_generation_allowed": false,
+  "as_of": "2026-10-18",
+  "backend_config_sha256": "d8b61fa71859b6a4019ee6a820f109339d6a02ab76661a5bfa2648703937a3c1",
+  "classifier": "outputs/item10-classifier-v1.5.6",
+  "deployment_allowed": false,
+  "future_evaluation_protocol_sha256": "6850a942a9bc96516a7bf4d4ddaf8910c3a08042cfd29af383c4042afff5ab5c",
+  "retrieval": "outputs/item11-retrieval-v1.2.5",
+  "runtime_source_sha256": {
+    "backend/classifier/README.md": "af5b47e1e5a377d14f7bcced8d0cfcc99bd3a38bffca6167fb6041eb7d7875c0",
+    "backend/classifier/__init__.py": "e8fbc501b6fdc3123b9b0ce8eaf50b013ce2121e1c671d45fc52d82cd9a99721",
+    "backend/classifier/build_config.py": "376c1d5edcf8e2955607d19d266f70bde0fb6f801963367d39348bcea33c0d2f",
+    "backend/classifier/check_implementation.py": "9798f2df507187b55ee6d3aa0fe68e7bd91c582a4f1c5449d7284af820596237",
+    "backend/classifier/config.json": "d8b61fa71859b6a4019ee6a820f109339d6a02ab76661a5bfa2648703937a3c1",
+    "backend/classifier/contracts.py": "aaf40ca9800185f7c746b0bd8c51cbca79cfda6997bf052649aa8f4f8c3e050d",
+    "backend/classifier/server.py": "514ae8faeb34d3366d947bbe4762d3ab44708836cff1a9df42a2758fa8a93bbc",
+    "backend/classifier/service.py": "646833989695674ffa9d95afa723aaca9865db455c1a3241ed7ea71334c16a24",
+    "backend/classifier/test_service.py": "48c0a85d20e688689ba5dc4eb009d7cd787661494c32eeb167167fea0620d190"
+  },
+  "software_test_counts": {
+    "api": 30,
+    "classifier": 60,
+    "evaluation_harness": 34,
+    "retrieval": 42,
+    "verifier": 37
+  },
+  "status": "implementation_complete_evaluation_deferred",
+  "verifier": "outputs/item12-verifier-v1.0.3",
+  "version": "classifier-preintegration-v1.0.0"
+}

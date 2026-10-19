@@ -1,0 +1,39 @@
+test_absent_relevance_ids_rejected (test_evaluation.EvaluationTests.test_absent_relevance_ids_rejected) ... ok
+test_always_clarifying_cannot_pass_coverage_screen (test_evaluation.EvaluationTests.test_always_clarifying_cannot_pass_coverage_screen) ... ok
+test_anchors_use_whole_normalized_words (test_evaluation.EvaluationTests.test_anchors_use_whole_normalized_words) ... ok
+test_answer_review_cannot_be_future_dated (test_evaluation.EvaluationTests.test_answer_review_cannot_be_future_dated) ... ok
+test_answer_review_cannot_omit_or_duplicate_claims (test_evaluation.EvaluationTests.test_answer_review_cannot_omit_or_duplicate_claims) ... ok
+test_answer_reviews_require_exact_bindings (test_evaluation.EvaluationTests.test_answer_reviews_require_exact_bindings) ... ok
+test_answer_score_records_failures_and_keeps_live_flags_off (test_evaluation.EvaluationTests.test_answer_score_records_failures_and_keeps_live_flags_off) ... ok
+test_calibration_high_confidence_wrong (test_evaluation.EvaluationTests.test_calibration_high_confidence_wrong) ... ok
+test_calibration_probability_one_bin_and_empty_bins (test_evaluation.EvaluationTests.test_calibration_probability_one_bin_and_empty_bins) ... ok
+test_case_inventory_and_provenance (test_evaluation.EvaluationTests.test_case_inventory_and_provenance) ... ok
+test_changed_answer_question_is_rejected (test_evaluation.EvaluationTests.test_changed_answer_question_is_rejected) ... ok
+test_classification_counts_abstentions (test_evaluation.EvaluationTests.test_classification_counts_abstentions) ... ok
+test_corpus_gap_is_distinct_from_exclusion (test_evaluation.EvaluationTests.test_corpus_gap_is_distinct_from_exclusion) ... ok
+test_csv_cells_preserve_text_without_formula_execution (test_evaluation.EvaluationTests.test_csv_cells_preserve_text_without_formula_execution) ... ok
+test_development_cannot_be_relabelled_final (test_evaluation.EvaluationTests.test_development_cannot_be_relabelled_final) ... ok
+test_duplicate_case_and_question_rejected (test_evaluation.EvaluationTests.test_duplicate_case_and_question_rejected) ... ok
+test_empty_answer_scoring_is_not_perfect (test_evaluation.EvaluationTests.test_empty_answer_scoring_is_not_perfect) ... ok
+test_excluded_concern_leak_is_detected (test_evaluation.EvaluationTests.test_excluded_concern_leak_is_detected) ... ok
+test_family_bootstrap_groups_all_variants (test_evaluation.EvaluationTests.test_family_bootstrap_groups_all_variants) ... ok
+test_final_protocol_is_blocked_before_output_creation (test_evaluation.EvaluationTests.test_final_protocol_is_blocked_before_output_creation) ... ok
+test_freeze_precedes_inference_and_detects_changed_cases (test_evaluation.EvaluationTests.test_freeze_precedes_inference_and_detects_changed_cases) ... ok
+test_invalid_probabilities_and_confidence_rejected (test_evaluation.EvaluationTests.test_invalid_probabilities_and_confidence_rejected) ... ok
+test_known_relevant_ranks_and_partial_recall (test_evaluation.EvaluationTests.test_known_relevant_ranks_and_partial_recall) ... ok
+test_no_candidates_control_detects_leak (test_evaluation.EvaluationTests.test_no_candidates_control_detects_leak) ... ok
+test_normal_answer_scoring_rejects_software_fixtures (test_evaluation.EvaluationTests.test_normal_answer_scoring_rejects_software_fixtures) ... ok
+test_perfect_development_interval_has_boundary_caveat (test_evaluation.EvaluationTests.test_perfect_development_interval_has_boundary_caveat) ... ok
+test_repair_rejects_changed_targets (test_evaluation.EvaluationTests.test_repair_rejects_changed_targets) ... ok
+test_repair_rejects_different_case_binding (test_evaluation.EvaluationTests.test_repair_rejects_different_case_binding) ... ok
+test_repair_reuses_exact_parent_case_bytes (test_evaluation.EvaluationTests.test_repair_reuses_exact_parent_case_bytes) ... ok
+test_runtime_receives_question_only (test_evaluation.EvaluationTests.test_runtime_receives_question_only) ... ok
+test_started_runs_cannot_be_reused (test_evaluation.EvaluationTests.test_started_runs_cannot_be_reused) ... ok
+test_unjudged_cases_do_not_become_retrieval_failures (test_evaluation.EvaluationTests.test_unjudged_cases_do_not_become_retrieval_failures) ... ok
+test_variants_are_grouped (test_evaluation.EvaluationTests.test_variants_are_grouped) ... ok
+test_zero_denominator_is_unavailable (test_evaluation.EvaluationTests.test_zero_denominator_is_unavailable) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.972s
+
+OK

@@ -1,0 +1,100 @@
+{
+  "authorization": "Project owner: i trust you. please repair and do the cleanup yourself with discretion of course.",
+  "cleaned_workbooks_sha256": {
+    "ABO_item10_reviewer_2.xlsx": "1223d1f0d857e1b6f528bf2c0ed02a023007e9a74ee56e4275b187ffc02d80b4",
+    "CANAYNAY_item10_reviewer_4.xlsx": "368a6b871a205e8953538ac173bd1768fccea61aca151f2021db796f74fb66fd",
+    "EMBOLTORIO_item10_reviewer_5.xlsx": "c902ba7a12ae1dea060da5264afd0cb5a1d75da655a1f6fcf897086c891a9698",
+    "MACARAIG_item10_reviewer_1.xlsx": "4a6d6db167a8ca0d42f5939df364829943834ae921934b5fa823ea6db9c39a0b",
+    "MONTANO_item10_reviewer_3.xlsx": "6a41d9ced38612b1dcb84611054bfd87813ab4383706ddbe45bb2489af9a576c"
+  },
+  "cleanup_decisions_sha256": "45890b0b77062139608539f8f98bc7a6f071f7bae990eb5d0d778c0307920859",
+  "consolidation_actor": "Codex (project-owner-authorized cleanup)",
+  "counts": {
+    "changed_rows": 67,
+    "excluded": 11,
+    "included": 661,
+    "labels": {
+      "consumer": 174,
+      "labor": 160,
+      "mixed": 159,
+      "out_of_scope": 168
+    },
+    "languages": {
+      "en": 373,
+      "en_tl": 288
+    },
+    "leakage_groups": 210,
+    "reviewed": 672,
+    "scopes": {
+      "fully_supported": 418,
+      "partially_supported": 75,
+      "unsupported": 168
+    },
+    "splits": {
+      "test": 100,
+      "train": 459,
+      "validation": 102
+    }
+  },
+  "dataset_version": "1.0.0",
+  "files_sha256": {
+    "README.md": "33cc8c14e9c1cbd341df817351c8544af22a7c835effb93dda2f7c3398d49f10",
+    "audit_resolutions.csv": "4150c93692935e44ef3d018302966e41c7b29f09a872f2277a61a498c66b0c7f",
+    "classifier_questions.csv": "d9b1bec77564d1bc3fe9eebf297f4e6283305c03791234d93e0875169e35dbcd",
+    "classifier_questions.jsonl": "c6592be4d3fcc5a1491d3c005148c97473b95d29dbbea51a46881560e150cd87",
+    "consolidation_changes.json": "1fb334b9a4357b68478902b1ae269b6f3100bac7ea2697e9f885834253313b6e",
+    "excluded_questions.csv": "27b0131fc6e2c51975e87dc4697eae3e4aa31427fc4e86c06f758e6777ef3d2d",
+    "excluded_questions.jsonl": "c443c2cb7e551fa46f613e86a1f1ee294ded6811a8af4639240e97f738b06fa9",
+    "referral_directory.csv": "95bbdf891c6067d368d4bbf10b9b5c951ea19cb794008ddc5617a58919e413b6",
+    "reproducibility_check.json": "5a146d5229b2c45d91ef52b4ac516d7997a8787df301990bf69eb292a97dac08",
+    "validation_report.json": "54d804df2f96f0a1ab7e843ca9cebd85780d671139e1f06c67acefeec8145d6b"
+  },
+  "limitations": [
+    "One human reviewer per seed row; owner-authorized AI cleanup is disclosed, not a second independent human annotation.",
+    "Synthetic partitions still share generator style; new split grouping removes full-scenario overlap but does not prove real-world generalization.",
+    "Inherited agency contact details retain their Item 9 verification dates; this cleanup is a routing review, not a contact-directory freshness certification."
+  ],
+  "remaining_prerequisites": [
+    "Independent human-written and labeled gold set prepared and locked",
+    "Team/adviser performance targets and abstention policy recorded"
+  ],
+  "source_seed_sha256": "84e04c84f9329e2657772f41a3868baafb4ef33e42028fcacae79ca6cac56c5f",
+  "source_workbooks": [
+    {
+      "file": "ABO_item10_reviewer_2.xlsx",
+      "sha256": "e608a0c311727665bba0003fa90567d7e824e30cf4ed08ad055370b180703a57"
+    },
+    {
+      "file": "CANAYNAY_item10_reviewer_4.xlsx",
+      "sha256": "f22241c0a5ce176ad8e627e620e8d70c2615e3acb89376473dd8467515291a89"
+    },
+    {
+      "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+      "sha256": "a13aa21f6b4fe27a5bd12500bb7731251651ed73b277cbe418405e402d7b2c36"
+    },
+    {
+      "file": "MACARAIG_item10_reviewer_1.xlsx",
+      "sha256": "06b022f1b59675c95588a83594ab3ea3d6683d7ad24c3d80f4e2f17ed546f3dd"
+    },
+    {
+      "file": "MONTANO_item10_reviewer_3.xlsx",
+      "sha256": "1ae6b6212e9bccba46572422cc3b02e97e28309c8f2b5b2c557bc39277027d7d"
+    }
+  ],
+  "split_policy": {
+    "method": "SHA256-ranked whole underlying scenarios stratified by primary and scope labels; group targets 70/15/15; original IDs and splits retained.",
+    "original_scenario_group_ids_preserved": true,
+    "random_seed": "item10-split-20261017",
+    "version": "underlying_scenario_stratified_70_15_15_v1"
+  },
+  "status": "frozen_reviewed_seed",
+  "status_as_of": "2026-10-17",
+  "support_sources_sha256": {
+    "dataset\\data_contract\\topic_taxonomy.csv": "2f97e84279c0d4e971efb7b083aaf106d2e2fa3962dedcb8a188334c3e22d84d",
+    "dataset\\pipelines\\item10\\ANNOTATION_GUIDE.md": "be5d5a22788129912d665cb74361f5ebb624252c51e36fdde12f796caed91c04",
+    "dataset\\processed\\item9\\referral_directory.csv": "6a6ded1f1d01f5433d3b86f6d5293576f72c88e3002e4ee7c268566b58897b5a",
+    "outputs\\item10-review-audit\\action_list.csv": "288ce528fdafe21dd383dafd976c0482507fbb12c0d1b44def2a92d9e0e322f8",
+    "project_legal_scope.md": "38dc149a0d6c237c9dc4cc1d0bbadfa0c5a29a95b5a7a01cad26fef7b185ccdb"
+  },
+  "training_ready": false
+}

@@ -1,0 +1,58 @@
+--- parent/scope_constraints.py
++++ dataset/pipelines/item10/scope_constraints.py
+@@ -21,7 +21,7 @@
+  ('consumer.insurance',r'\binsur\w*\b'),
+  ('consumer.investments',r'\b(?:invest|invests|invested|investing|investments?|investors?|mag-invest|nag-invest|maginvest|naginvest)\b|\bsecurit(?:y|ies)\s+(?:broker|trading|account|complaint)'),
+  ('consumer.telecommunications',r'\b(?:telecom\w*|telco)\b|\b(?:mobile|phone|internet|broadband)\s+(?:plan|provider|bill|subscription|service)|\b(?:mobile|phone)\b.{0,35}\b(?:plan|bill|data.charge)'),
+- ('consumer.data_privacy',r'\bprivacy\b|\bpersonal\s+(?:data|information)\b|\b(?:post\w*|pinost|expos\w*|publish\w*|leak\w*|share\w*)\b.{0,50}\b(?:id|identity|address|phone.number|data|information)\b|\b(?:id|identity|address|data)\b.{0,35}\b(?:public|pinost|posted|exposed|leaked)'),
++ ('consumer.data_privacy',r'\bprivacy\b|\bpersonal\s+(?:data|information)\b|\b(?:post\w*|pinost|expos\w*|publish\w*|leak\w*|share\w*)\b.{0,50}\b(?:id|identity|address|phone.number|data|information)\b|\b(?:id|identity|address|data)\b.{0,35}\b(?:public|pinost|posted|exposed|leaked)|\b(?:inilabas|nilabas|ibinunyag|isinapubliko|ikinakalat|kinakalat|ibinahagi|ipinost)\b.{0,60}\b(?:address|tirahan|id|identity|numero|phone.number|data|information)\b.{0,55}\b(?:online|public\w*|facebook|social.media|walang\s+pahintulot|without\s+(?:consent|permission))\b'),
+  ('consumer.medical_malpractice',r'\b(?:malpractice|doctor|physician|surgeon|patient|medical.negligence|medical.service|medical.care|medical.treatment|hospital)\b'),
+  ('consumer.real_estate',r'\b(?:condo\w*|real.estate|housing.developer|housing.adjudication|subdivision|landlord|tenant)\b|\bdeveloper\b.{0,45}\b(?:house|turnover|layout|purchase|unit)'),
+  ('consumer.transportation',r'\b(?:airline|flight|passenger|bus.operator|transport.operator|transport.regulat\w*)\b'),
+@@ -43,7 +43,7 @@
+         if match:
+             # A negated category is not evidence of that category.
+             preceding=t[max(0,match.start()-24):match.start()]
+-            if re.search(r'\b(?:not|hindi|never)\s+(?:(?:a|an|the|ako|sa)\s+){0,2}$',preceding):continue
++            if re.search(r'\b(?:not|hindi|never)\s+(?:(?:a|an|the|ako|sa|nila|niya|ko|namin)\s+){0,2}$',preceding):continue
+             return ('excluded',topic)
+     if MINIMUM.search(t) and AMOUNT.search(t):return ('excluded','labor.regional_minimum_wage_amounts')
+     if re.search(r'\bsena\b',t):return ('labor','explicit_sena_procedure_context')
+--- parent/retrieval.py
++++ dataset/pipelines/item11/retrieval.py
+@@ -34,6 +34,23 @@
+     text=unicodedata.normalize('NFKC',text).casefold()
+     for pattern,replacement in CONCEPTS:text=re.sub(pattern,replacement,text)
+     return [w for w in re.findall(r'[^\W_]+',text) if w not in STOP]
++
++def ranking_expansion(query,allowed_domain):
++    """Bounded labor concepts for lexical ranking, never user facts or citations.
++
++    Preserve every original word, especially negations and qualifications. No
++    expected question/provision IDs, learned query statistics or answer claims
++    enter these transparent development rules.
++    """
++    if allowed_domain!='labor':return []
++    words=set(tokens(query));extra=[]
++    if 'wage' in words and ('frequency' in words or re.search(r'\b(?:delay\w*|late|overdue|unpaid|unpayed)\b',query,re.I)):
++        extra+=['time','payment','frequency']
++    if 'overtime' in words and words&{'payment','unpaid','unpayed','compensation'}:
++        extra+=['work','additional','compensation']
++        if not words&{'holiday','holidays','rest','undertime','offset','emergency','compulsory','health','hospital','clinic'}:
++            extra.append('ordinary')
++    return list(dict.fromkeys(extra))
+ 
+ class LegalRetriever:
+     def __init__(self,index_dir,verify_sources=True):
+@@ -89,7 +106,10 @@
+             topic_ids=['labor.final_pay_coe'];base['explicit_query_topic_filter']=topic_ids
+         allowed=[i for i,r in enumerate(self.records) if allowed_domain in r['domains'] and (topic_ids is None or set(topic_ids)&set(r['supported_topics']))]
+         if not allowed:base.update(status='no_eligible_evidence',reason='no_indexed_chunks_for_requested_scope');return base
+-        lex=self.lexical_scores(query) if method in {'bm25','hybrid'} else None
++        expansion=ranking_expansion(query,allowed_domain)
++        lexical_query=query+(' '+' '.join(expansion) if expansion else '')
++        base['ranking_expansion']={'terms':expansion,'meaning':'Lexical ranking only; not supplied facts, confidence or legal support'}
++        lex=self.lexical_scores(lexical_query) if method in {'bm25','hybrid'} else None
+         sem=self.semantic_scores(query) if method in {'semantic','hybrid'} else None
+         def ranking(scores,positive=False):return sorted([i for i in allowed if not positive or scores[i]>0],key=lambda i:(-float(scores[i]),self.records[i]['chunk_id']))
+         if method=='bm25':score=lex;order=ranking(lex,True)

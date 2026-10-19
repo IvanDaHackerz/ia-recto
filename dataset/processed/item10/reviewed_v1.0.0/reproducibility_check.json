@@ -1,0 +1,14 @@
+{
+  "file_hashes": {
+    "audit_resolutions.csv": "4150c93692935e44ef3d018302966e41c7b29f09a872f2277a61a498c66b0c7f",
+    "classifier_questions.csv": "d9b1bec77564d1bc3fe9eebf297f4e6283305c03791234d93e0875169e35dbcd",
+    "classifier_questions.jsonl": "c6592be4d3fcc5a1491d3c005148c97473b95d29dbbea51a46881560e150cd87",
+    "consolidation_changes.json": "1fb334b9a4357b68478902b1ae269b6f3100bac7ea2697e9f885834253313b6e",
+    "dataset_manifest.json": "011dfa2cca2ab64be65064d6d8f1bea181ed63c49721edcdf0874fd8aa9eb12f",
+    "excluded_questions.csv": "27b0131fc6e2c51975e87dc4697eae3e4aa31427fc4e86c06f758e6777ef3d2d",
+    "excluded_questions.jsonl": "c443c2cb7e551fa46f613e86a1f1ee294ded6811a8af4639240e97f738b06fa9",
+    "referral_directory.csv": "95bbdf891c6067d368d4bbf10b9b5c951ea19cb794008ddc5617a58919e413b6"
+  },
+  "method": "Same immutable sources and decisions rebuilt twice before freeze; file SHA-256 values match.",
+  "status": "passed"
+}

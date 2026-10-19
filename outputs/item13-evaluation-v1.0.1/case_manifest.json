@@ -1,0 +1,24 @@
+{
+  "case_count": 291,
+  "families": 167,
+  "independent_human_questions": 0,
+  "new_ai_system_questions": 24,
+  "new_questions_in_this_revision": 0,
+  "new_training_questions": 0,
+  "parent_evaluation": "outputs/item13-evaluation-v1.0.0",
+  "reused_frozen_cases": true,
+  "role": "development",
+  "source_sha256": {
+    "dataset/pipelines/item10/evaluation_policy.json": "0676e9c0600f5d428076363f289d501acad4b717f9dcd456029875796d505ee0",
+    "dataset/pipelines/item13/create_cases.py": "b84886001610a5a49b7670b6815ea5e5f20a8a2098accfe78c0e979eb8c8bc12",
+    "dataset/processed/item10/ai_reviewed_eval_v1.0.0/evaluation_questions.jsonl": "fe780075acdf799fbe8bce47b4dd1e86998a154e2babc47cc65682b696249dc3",
+    "dataset/processed/item10/ai_reviewed_eval_v1.0.0/typing_questions.jsonl": "fc5a27cd983b0d6d7b9c70de24bf744d98f66d214f987673c646749a261c98a7",
+    "outputs/item11-retrieval-v1.2.3/benchmark_queries.jsonl": "3a354b2204065df29a035e4c1c48c3cd9d96cb1f4cf3f5aafd971ac665be9de6"
+  },
+  "suite_counts": {
+    "general": 100,
+    "retrieval": 67,
+    "system": 24,
+    "typing": 100
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "answer_relevant": {
+      "type": "boolean"
+    },
+    "answer_sha256": {
+      "maxLength": 64,
+      "minLength": 64,
+      "type": "string"
+    },
+    "case_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    },
+    "claim_findings": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "claim_id": {
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "qualifications_preserved": {
+            "type": "boolean"
+          },
+          "rationale": {
+            "maxLength": 100000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "sources_relevant": {
+            "type": "boolean"
+          },
+          "supported": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "claim_id",
+          "supported",
+          "qualifications_preserved",
+          "sources_relevant",
+          "rationale"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "clear": {
+      "type": "boolean"
+    },
+    "coverage_complete": {
+      "type": "boolean"
+    },
+    "credential_reference": {
+      "maxLength": 100000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "current_applicability_checked": {
+      "const": true,
+      "type": "boolean"
+    },
+    "jurisdiction": {
+      "const": "PH"
+    },
+    "license_attested": {
+      "const": true,
+      "type": "boolean"
+    },
+    "protocol_sha256": {
+      "maxLength": 64,
+      "minLength": 64,
+      "type": "string"
+    },
+    "question_sha256": {
+      "maxLength": 64,
+      "minLength": 64,
+      "type": "string"
+    },
+    "review_kind": {
+      "enum": [
+        "licensed_legal_professional",
+        "software_fixture"
+      ]
+    },
+    "reviewed_on": {
+      "maxLength": 100000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "reviewer_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "case_id",
+    "answer_sha256",
+    "question_sha256",
+    "protocol_sha256",
+    "review_kind",
+    "reviewer_id",
+    "credential_reference",
+    "jurisdiction",
+    "license_attested",
+    "reviewed_on",
+    "current_applicability_checked",
+    "answer_relevant",
+    "coverage_complete",
+    "clear",
+    "claim_findings"
+  ],
+  "type": "object"
+}

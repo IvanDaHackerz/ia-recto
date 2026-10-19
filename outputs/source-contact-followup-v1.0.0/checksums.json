@@ -1,0 +1,10 @@
+{
+  "build_referral_refresh.py": "f4a3473d540856ed194e04e3c661d95ceacbb42c3c3e4477c914c7351ec75e16",
+  "complete_dti_visual_review.py": "1dafa78036ee74663a65bf0be994f0cbd1bc4d33a7bb326d02b0d4b85480f1ea",
+  "FOLLOWUP_REPORT.md": "46a6cf55eac45aaddaa6d00f53942391f5623f7066c3ac1adfd2ef645c6a38a9",
+  "legal_currentness_followup.json": "872474943b93164d77b0160c812e3a1196d05b1c45160aacae99ad20a20fb9c3",
+  "referral_lookup.py": "b951136d5027b60505cbe82ee5be565a77715fff387a5b8ad3a82bb6b8606244",
+  "summary.json": "f29aad512f1bc0733464d2ec6d0c8e0df706ae109112525662c8293f5cda20c2",
+  "test_dti_visual_review.py": "0cad36c59596d92972187c05eff0e116b5e6dac13d3df0f23383d9dcedc6f892",
+  "test_referral_refresh.py": "860b3674d64e71d0e2c8217dbe61cabe28c669f961c7ab32875113ebe4857e1e"
+}

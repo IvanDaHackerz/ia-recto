@@ -1,0 +1,289 @@
+{
+  "version": "conditional-normalization-v3.0.0",
+  "role": "local_development_website_and_terminal_integration",
+  "implementation_completed": true,
+  "provider_adapters": [
+    "openai_responses",
+    "together_chat_completions"
+  ],
+  "configured_provider_or_model": true,
+  "configured_provider": "together",
+  "configured_model": "openai/gpt-oss-120b",
+  "credential_storage": "Windows-user DPAPI encrypted; ignored .local directory; no plaintext key",
+  "live_provider_test_completed": true,
+  "live_provider_test_date": "2026-10-19",
+  "software_checks_passed": 43,
+  "provider_replies_in_tests": "unit tests use synthetic/mocked HTTP; separate live Together smoke checks completed",
+  "local_pipeline_smoke_checks": "clear_bypass_clarification_bypass_live_together_normalization_to_real_retrieval_unconfigured_stop",
+  "last_live_pipeline_smoke": {
+    "normalizer_version": "conditional-normalization-v1.0.0",
+    "role": "synthetic development example, not aggregate model evaluation",
+    "clear_message_llm_calls": 0,
+    "compressed_message_llm_calls": 1,
+    "normalized_question": "hindi po binayaran overtime ko sa private company",
+    "primary_label": "labor",
+    "scope_label": "fully_supported",
+    "retrieved_provisions": 5,
+    "normalizer_ms": 3021.1,
+    "total_query_ms": 3131.8,
+    "input_tokens": 556,
+    "output_tokens": 181,
+    "answer_generation_allowed": false
+  },
+  "spelling_regression_smoke": {
+    "normalizer_version": "conditional-normalization-v1.1.0",
+    "date": "2026-10-19",
+    "role": "reported development bug plus synthetic smoke checks, not an independent evaluation",
+    "reported_spelling_variants": [
+      "inde",
+      "nakoha",
+      "amu",
+      "anu"
+    ],
+    "reported_question_llm_calls": 1,
+    "reported_question_result": "clarify_payment_and_employment_context",
+    "reported_question_retrieved_provisions": 0,
+    "reported_question_total_ms": 2846.2,
+    "explicit_private_employment_llm_calls": 1,
+    "explicit_private_employment_route": "retrieve_supported_evidence",
+    "explicit_private_employment_retrieved_provisions": 5,
+    "explicit_private_employment_total_ms": 1924.0,
+    "clear_message_checks": 5,
+    "clear_message_llm_calls": 0,
+    "government_and_household_referral_routes_preserved": true,
+    "classifier_result_preserved_verbatim": true,
+    "follow_up_version": "inspection-clarification-v1.0.0",
+    "clarification_labels_displayed_as_tentative": true,
+    "answer_generation_allowed": false
+  },
+  "dynamic_interpretation_smoke": {
+    "date": "2026-10-19",
+    "role": "reported bug and synthetic development examples, not aggregate evaluation",
+    "model": "openai/gpt-oss-120b",
+    "mode": "whole_question_interpretation",
+    "unlisted_wording_supported": true,
+    "rewrite_dictionary_restricted": false,
+    "original_question_result": "accepted_interpretation_then_payment_context_clarification",
+    "original_question_total_ms": 1123.1,
+    "noisy_private_employment_provisions": 5,
+    "noisy_private_employment_total_ms": 990.2,
+    "noisy_consumer_explicit_pronoun_provisions": 1,
+    "noisy_consumer_total_ms": 1430.4,
+    "ambiguous_pronoun_rewrite_rejected": true,
+    "gibberish_result": "clarify_without_inference_on_rewrite",
+    "clear_message_checks": 2,
+    "clear_message_llm_calls": 0,
+    "maximum_llm_requests_per_question": 1,
+    "meaning_preservation_guaranteed": false,
+    "answer_generation_allowed": false,
+    "normalizer_version": "conditional-normalization-v2.0.0"
+  },
+  "normalization_performance_evaluation_completed": false,
+  "classifier_weights_or_thresholds_changed": false,
+  "website_connected": true,
+  "answer_generation_allowed": false,
+  "deployment_allowed": false,
+  "documentation": "backend/NORMALIZATION.md",
+  "evaluation_runner_software_checks_passed": 8,
+  "combined_software_checks_passed": 58,
+  "raw_classifier_preflight_first": true,
+  "decisive_raw_routes_bypass_llm": true,
+  "paired_development_evaluation_completed": true,
+  "performance_evaluation_scope_note": "Current complete application replay covers conditional wording and development explanation checks on 436 reused synthetic inputs. Source support acceptance is automated by the same model, not independent legal accuracy. Fresh independent evaluation remains pending.",
+  "quality_approved_for_website": false,
+  "development_evaluation_summary": "outputs/current-stack-validation-v1.0.0",
+  "development_evaluation_history": [
+    "outputs/normalization-evaluation-v1.0.0",
+    "outputs/normalization-evaluation-v1.1.0",
+    "outputs/normalization-evaluation-v1.2.1",
+    "outputs/normalization-evaluation-v2.0.0",
+    "outputs/normalization-evaluation-v3.0.1"
+  ],
+  "remaining_quality_issues": [
+    "Fresh independent-human and broader language/generalization evaluation is pending.",
+    "In the latest complete replay, one wording request was unavailable and one labeled input remained an abstention; routes matched 435/436.",
+    "Provider failures, missing source approvals, conservative contract and support checks still limit explanation availability.",
+    "Independent source/currentness, generated-answer legal quality, user/accessibility and owner/adviser acceptance remain pending."
+  ],
+  "post_repair_original_question_smoke": {
+    "normalizer_version": "conditional-normalization-v3.0.0",
+    "status": "clarify",
+    "validation_failure": "ambiguous_short_content_replaced",
+    "llm_requests": 1,
+    "live_source": "outputs/normalization-diagnostics-v2.0.0",
+    "follow_up_fix_verified_by_recorded_provider_replay": "outputs/normalization-repair-v2.0.0/payment_clarification_replay.json",
+    "result": "Uncertain rewrite stays blocked; targeted Tagalog payment/employment context question is shown. No salary/employer category invented."
+  },
+  "diagnostic_replay_history": [
+    "outputs/normalization-diagnostics-v1.0.0",
+    "outputs/normalization-diagnostics-v1.1.0",
+    "outputs/normalization-diagnostics-v1.2.0",
+    "outputs/normalization-diagnostics-v2.0.0"
+  ],
+  "development_diagnostics": {
+    "explicit_opt_in": true,
+    "normal_terminal_enabled": false,
+    "rejected_text_classified": false,
+    "maximum_logged_proposal_characters": 8000,
+    "no_provider_headers_or_raw_bodies_logged": true
+  },
+  "previous_post_repair_original_question_smoke": {
+    "normalizer_version": "conditional-normalization-v2.1.0",
+    "status": "clarify",
+    "reason": "normalization_did_not_pass_validation",
+    "validation_failure": "ambiguous_short_content_replaced",
+    "llm_requests": 1,
+    "input_tokens": 778,
+    "output_tokens": 128,
+    "normalizer_ms": 1328.4,
+    "note": "Original user example still requested fuller wording. Do not claim the repaired interpreter reliably recovers this message."
+  },
+  "latest_development_evaluation": {
+    "path": "outputs/normalization-evaluation-v3.0.1",
+    "classifier": "outputs/item10-classifier-v1.5.12",
+    "retrieval": "outputs/item11-retrieval-v1.2.8",
+    "verifier": "outputs/item12-verifier-v1.0.7",
+    "input_forms": 436,
+    "families": 171,
+    "pipeline_executions": 872,
+    "noisy_primary_accuracy_raw": {
+      "numerator": 252,
+      "denominator": 252,
+      "value": 1.0
+    },
+    "noisy_primary_accuracy_conditional": {
+      "numerator": 252,
+      "denominator": 252,
+      "value": 1.0
+    },
+    "noisy_partial_support_recall_raw": 1.0,
+    "noisy_partial_support_recall_conditional": 1.0,
+    "all_route_match_raw": {
+      "numerator": 434,
+      "denominator": 436,
+      "value": 0.9954128440366973
+    },
+    "all_route_match_conditional": {
+      "numerator": 436,
+      "denominator": 436,
+      "value": 1.0
+    },
+    "semantic_review": {
+      "role": "disclosed_Codex_AI_audit_not_independent_human_judgment",
+      "accepted_rewrites": 3,
+      "reviewed": 3,
+      "pending": 0,
+      "verdict_counts": {
+        "equivalent": 3
+      },
+      "AI_flagged_meaning_change_rate": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "uncertain_rate": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "independent_meaning_change_rate": null
+    },
+    "llm_requests": 5,
+    "clear_llm_requests": 0,
+    "estimated_provider_cost_usd": 0.0011026500000000002,
+    "quality_approved_for_website": false,
+    "stack_matches_current": false
+  },
+  "local_classifier_typing_features": "scope-typing-v1.2.0",
+  "clarification_version": "inspection-clarification-v1.1.0",
+  "typing_feature_software_checks_passed": 7,
+  "all_backend_classifier_retrieval_verifier_checks_passed": 271,
+  "previous_post_repair_original_question_smoke_history": [
+    {
+      "normalizer_version": "conditional-normalization-v2.1.0",
+      "status": "clarify",
+      "reason": "normalization_did_not_pass_validation",
+      "validation_failure": "ambiguous_short_content_replaced",
+      "llm_requests": 1,
+      "input_tokens": 778,
+      "output_tokens": 128,
+      "normalizer_ms": 1328.4,
+      "note": "Original user example still requested fuller wording. Do not claim the repaired interpreter reliably recovers this message."
+    },
+    {
+      "normalizer_version": "conditional-normalization-v2.2.1",
+      "status": "applied",
+      "interpretation": "Hindi ako nakakuha ng bayad ko sa amo ko... ano pwede gawin?",
+      "routing_action": "clarify",
+      "follow_up": {
+        "version": "inspection-clarification-v1.0.0",
+        "reason": "employer_payment_context_unconfirmed",
+        "question": "Ang tinutukoy mong bayad mula sa amo ay sahod para sa trabaho, o ibang uri ng bayad? Kung sahod ito, private company, gobyerno, kasambahay, OFW, o seafarer ba ang trabaho mo? Pakisulat muli ang buong tanong kasama ang detalyeng ito.",
+        "changes_classifier_prediction": false
+      },
+      "note": "Accepted in final replay; earlier replies differ. Missing payment/employment details still require clarification.",
+      "diagnostic_source": "outputs/normalization-diagnostics-v1.2.0",
+      "llm_requests": 1
+    }
+  ],
+  "software_implementation_ready_for_integration_discussion": true,
+  "previous_latest_development_evaluation": {
+    "path": "outputs/normalization-evaluation-v2.0.0",
+    "classifier": "outputs/item10-classifier-v1.5.10",
+    "input_forms": 424,
+    "pipeline_executions": 848,
+    "noisy_primary_accuracy_raw": {
+      "numerator": 251,
+      "denominator": 252,
+      "value": 0.996031746031746
+    },
+    "noisy_primary_accuracy_conditional": {
+      "numerator": 250,
+      "denominator": 252,
+      "value": 0.9920634920634921
+    },
+    "noisy_partial_support_recall_raw": 1.0,
+    "noisy_partial_support_recall_conditional": 1.0,
+    "semantic_review": {
+      "role": "disclosed_Codex_AI_audit_not_independent_human_judgment",
+      "accepted_rewrites": 2,
+      "reviewed": 2,
+      "pending": 0,
+      "verdict_counts": {
+        "equivalent": 2
+      },
+      "AI_flagged_meaning_change_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "uncertain_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "independent_meaning_change_rate": null
+    },
+    "quality_approved_for_website": false
+  },
+  "current_stack_development_evaluation_completed": true,
+  "latest_backend_software_checks_passed": 162,
+  "current_local_development_evaluation": "outputs/local-pipeline-evaluation-v1.3.0",
+  "latest_development_evaluation_stack_matches_current": false,
+  "development_explanations_enabled": true,
+  "development_explanation_release": "outputs/project-repair-v1.0.0",
+  "current_application_development_evaluation": "outputs/application-evaluation-v1.2.0",
+  "application_replay_summary": {
+    "path": "outputs/application-evaluation-v1.2.0",
+    "inputs": 436,
+    "packets_returned": 436,
+    "topic_and_coverage_matches": 424,
+    "labeled_inputs": 425,
+    "routes_matched": 435,
+    "explanations_generated": 82,
+    "explanations_withheld": 354,
+    "provider_attempts": 459,
+    "estimated_cost_usd": 0.4522386,
+    "independent_legal_accuracy": null
+  }
+}

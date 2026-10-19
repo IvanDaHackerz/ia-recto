@@ -1,0 +1,34 @@
+name: Local software validation
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: ['backend/**', 'dataset/pipelines/**', 'UI/UX/app/**', 'CURRENT_ARTIFACTS.json', 'check-project.ps1']
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: windows-latest
+    timeout-minutes: 25
+    env:
+      RECTO_ENABLE_EXPLANATIONS: '0'
+      RECTO_ENABLE_NORMALIZATION: '0'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: UI/UX/app/package-lock.json
+      - name: Install pinned runtime and fetch public encoder
+        shell: pwsh
+        run: ./setup-project.ps1 -DownloadEmbeddingModel
+      - name: Validate without external LLM requests
+        shell: pwsh
+        run: ./check-project.ps1
+# Requires the complete curated source/runtime release in version control.
+# This workflow is supplied for the future project repository; it has not run
+# remotely, and it deliberately contains no deployment or provider credentials.

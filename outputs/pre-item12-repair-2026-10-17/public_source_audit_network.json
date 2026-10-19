@@ -1,0 +1,594 @@
+{
+  "role": "Automated public URL and literal-contact audit, not legal or human approval",
+  "original_metadata_modified": false,
+  "sources": [
+    {
+      "kind": "legal_source",
+      "id": "LAB_CODE_2022",
+      "url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+      "checked_at": "2026-10-17T10:10:45.966286+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "legal_source",
+      "id": "PD_442_1974",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/26/25306",
+      "checked_at": "2026-10-17T10:10:45.967305+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/26/25306",
+      "sha256": "44dcf6e37da3ae339c5ceec2d057bf0c9c20f5ca3d282c6b831ab6e967868bbe",
+      "bytes_read": 278747,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "PD_851_1975",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/26/17290",
+      "checked_at": "2026-10-17T10:10:45.968309+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/26/17290",
+      "sha256": "cc9f093b8c1bb1d25c7ee57b1aef45113b5703c33fe23937a595aa5684571767",
+      "bytes_read": 28237,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "MO_28_1986",
+      "url": "https://issuances-library.senate.gov.ph/executive-issuance/memorandum-order-no-28-s-1986",
+      "checked_at": "2026-10-17T10:10:45.969337+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_6727_1989",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/6255",
+      "checked_at": "2026-10-17T10:10:45.969337+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/6255",
+      "sha256": "25185cfdca3c526a21e9b32b1dd14f33c6b0cf31f688dbc0e86e33d4b229baaa",
+      "bytes_read": 54808,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_10151_2011",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/37482",
+      "checked_at": "2026-10-17T10:10:45.970342+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/37482",
+      "sha256": "ab5823d37a68ff5f6a1c9efed83591052b779b8df01d2fb721ba1efbb39f82ba",
+      "bytes_read": 35148,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_10396_2013",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/53640",
+      "checked_at": "2026-10-17T10:10:46.186120+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/53640",
+      "sha256": "d2fe4650ec57523c22e0a2c6ccba006d94ed9d2e25feadd1bb8b54cbdf02d979",
+      "bytes_read": 28902,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_7394_1992",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+      "checked_at": "2026-10-17T10:10:46.197530+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+      "sha256": "14f5ddf518e4bb31dfa982fc24d94af5d662e729e61b194493cf26b4ee8b5839",
+      "bytes_read": 237717,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_10909_2016",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/70322",
+      "checked_at": "2026-10-17T10:10:46.365673+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/70322",
+      "sha256": "77b9285bc4f98b83bed9b7a49e19c848bda9e663126cc9f6e098de4ef0b34afa",
+      "bytes_read": 34284,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_11967_2023",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/96902",
+      "checked_at": "2026-10-17T10:10:46.369837+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/96902",
+      "sha256": "c77faade0be153cfdfe39e90e42bbf92192c4b8d3b6486b26774c045bf0dcd3a",
+      "bytes_read": 99564,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "LAB_IRR_1989",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+      "checked_at": "2026-10-17T10:10:46.400075+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+      "sha256": "db00c50e00836fedb0cd4a8256a662fb2cdf899a5f0594cfda476b8ba554c193",
+      "bytes_read": 414279,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_DO_147_15",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+      "checked_at": "2026-10-17T10:10:46.422049+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+      "sha256": "068a20bb1bec0632d14bd9e2184320a9bbfe145bf47faec028418684e651319e",
+      "bytes_read": 57313,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_DO_249_25",
+      "url": "https://bwc.dole.gov.ph/issuances/department-orders/",
+      "checked_at": "2026-10-17T10:10:46.582869+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_LA_06_20",
+      "url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+      "checked_at": "2026-10-17T10:10:46.585878+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_LA_16_25",
+      "url": "https://bwc.dole.gov.ph/issuances/labor-advisories/",
+      "checked_at": "2026-10-17T10:10:46.592432+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_BWC_HANDBOOK_2024",
+      "url": "https://bwc.dole.gov.ph/handbooks-manuals/",
+      "checked_at": "2026-10-17T10:10:46.609685+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DTI_DAO_02_1993",
+      "url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+      "checked_at": "2026-10-17T10:10:46.614090+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+      "sha256": "255cdd1a94805dd449922f876a2e51457581e2609b04effb7cdda8461a9f83e5",
+      "bytes_read": 649865,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DTI_DAO_16_03",
+      "url": "https://www.dti.gov.ph/dti-news-archived/dti-region-11-news-archived/dti-dti-issues-irr-on-no-shortchanging-act-2",
+      "checked_at": "2026-10-17T10:10:46.620108+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://www.dti.gov.ph/dti-archives/dti-regional-archived/dti-region-11-news-archived/dti-dti-issues-irr-on-no-shortchanging-act-2",
+      "sha256": "d75d5376cdc5e35c82dc951a2c86a3ba078b72769e535e12a266982b3194ede1",
+      "bytes_read": 200740,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DTI_DAO_20_02",
+      "url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+      "checked_at": "2026-10-17T10:10:46.634322+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+      "sha256": "3a33ac72e38458cbe1f86a949f265dcb0a3d0c2960362aaacf4ffb17570b72a6",
+      "bytes_read": 649865,
+      "contact_literal_matches": {},
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DTI_JAO_24_03",
+      "url": "https://ecommerce.dti.gov.ph/implementing-rules-and-regulations/",
+      "checked_at": "2026-10-17T10:10:46.657140+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_DOLE_ARMS",
+      "url": "https://arms.dole.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "1349",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:46.662886+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://arms.dole.gov.ph/",
+      "sha256": "d1826dc9c1ae8227dbf4e835b70105da63eccbb4b6672f1ccd8bc61a2e2f028b",
+      "bytes_read": 89398,
+      "contact_literal_matches": {
+        "email": false,
+        "phone": false,
+        "office_address": false
+      },
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_DTI_CARE",
+      "url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/",
+      "contacts": {
+        "email": "consumercare@dti.gov.ph",
+        "phone": "1-DTI (1-384)",
+        "office_address": "DTI Fair Trade Enforcement Bureau, 361 Sen. Gil J. Puyat Ave., Makati City"
+      },
+      "checked_at": "2026-10-17T10:10:46.823582+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/",
+      "sha256": "4b7fb8bdb73cd6e598ca0ac73ecf9fbac6e13b7d78c743f4411a3e5880dc3f38",
+      "bytes_read": 107468,
+      "contact_literal_matches": {
+        "email": true,
+        "phone": false,
+        "office_address": false
+      },
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_PAO",
+      "url": "https://pao.gov.ph/contact-us/",
+      "contacts": {
+        "email": "pao_executive@yahoo.com",
+        "phone": "(02) 8929-9436 local 106/107",
+        "office_address": "DOJ Agencies Building, NIA Road corner East Avenue, Diliman, Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:47.002941+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_DMW",
+      "url": "https://dmw.gov.ph/contact-us",
+      "contacts": {
+        "email": "info@dmw.gov.ph",
+        "phone": "1348",
+        "office_address": "Blas F. Ople Building, Ortigas Avenue corner EDSA, Mandaluyong City"
+      },
+      "checked_at": "2026-10-17T10:10:47.033176+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_MARINA_STCW",
+      "url": "https://stcw.marina.gov.ph/contact-us/",
+      "contacts": {
+        "email": "stcw_cert@marina.gov.ph",
+        "phone": "(02) 8240-9950",
+        "office_address": "MARINA Building, Bonifacio Drive corner 20th Street, Port Area, Manila"
+      },
+      "checked_at": "2026-10-17T10:10:47.052127+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://stcw.marina.gov.ph/contact-us/",
+      "sha256": "e0e47f1743965edd578684571cc6b2821be4fc242e6c22c4e5b34aa60d904223",
+      "bytes_read": 43330,
+      "contact_literal_matches": {
+        "email": false,
+        "phone": false,
+        "office_address": false
+      },
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_CSC_CCB",
+      "url": "https://csc.gov.ph/programs/ccb",
+      "contacts": {
+        "email": "email@contactcenterngbayan.gov.ph",
+        "phone": "(02) 8932-0111; SMS 0908-881-6565",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:47.835574+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_ECC",
+      "url": "https://ecc.gov.ph/directory/",
+      "contacts": {
+        "email": "info@ecc.gov.ph",
+        "phone": "(02) 8899-4251 local 239",
+        "office_address": "ECC Building, 355 Sen. Gil J. Puyat Ave., Makati City"
+      },
+      "checked_at": "2026-10-17T10:10:47.867295+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://ecc.gov.ph/directory/",
+      "sha256": "6b251cd61f067fded0f32e3021226544da57813dbe89f09205d47fbef684cde9",
+      "bytes_read": 130634,
+      "contact_literal_matches": {
+        "email": false,
+        "phone": false,
+        "office_address": false
+      },
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_OSHC",
+      "url": "https://oshc.dole.gov.ph/contact-us-2/",
+      "contacts": {
+        "email": "oed@oshc.dole.gov.ph",
+        "phone": "(02) 8929-6036; (02) 8929-6030",
+        "office_address": "North Avenue corner Sen. Miriam P. Defensor-Santiago Avenue, Diliman, Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:48.025130+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_SSS",
+      "url": "https://www.sss.gov.ph/contact-us/",
+      "contacts": {
+        "email": "usssaptayo@sss.gov.ph",
+        "phone": "1455",
+        "office_address": "SSS Main Building, East Avenue, Diliman, Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:48.057195+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://www.sss.gov.ph/contact-us/",
+      "sha256": "1d2ea5d566143b2dcedf61ff9de9cf5a465ef437d2a3af3a6e5bd17777fbde16",
+      "bytes_read": 75059,
+      "contact_literal_matches": {
+        "email": true,
+        "phone": true,
+        "office_address": false
+      },
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_NWPC",
+      "url": "https://nwpc.dole.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:48.110864+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_BSP_CAM",
+      "url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870",
+      "contacts": {
+        "email": "consumeraffairs@bsp.gov.ph",
+        "phone": "(02) 5306-2584",
+        "office_address": "BSP Complex, A. Mabini Street, Malate, Manila"
+      },
+      "checked_at": "2026-10-17T10:10:48.255005+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_SEC_IMESSAGE",
+      "url": "https://www.sec.gov.ph/lending-companies-and-financing-companies/complaints/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:48.299368+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_INSURANCE_COMMISSION",
+      "url": "https://www.bsp.gov.ph/Pages/InclusiveFinance/PYMContacts.aspx",
+      "contacts": {
+        "email": "publicassistance@insurance.gov.ph",
+        "phone": "(02) 8523-8461 local 103 or 127",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:48.357004+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_NPC",
+      "url": "https://privacy.gov.ph/contactus/",
+      "contacts": {
+        "email": "complaints@privacy.gov.ph",
+        "phone": "(02) 5322-1322 local 114 or 115",
+        "office_address": "25th-27th Floors, The Upper Class Tower, Quezon Ave. corner Scout Reyes St., Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:48.388488+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "http_status": 200,
+      "final_url": "https://privacy.gov.ph/contactus/",
+      "sha256": "e830055062e241d721b8b38c87d2d9ca986c2bb4877dbc4ee349d6e8bc26faa4",
+      "bytes_read": 248135,
+      "contact_literal_matches": {
+        "email": false,
+        "phone": false,
+        "office_address": false
+      },
+      "status": "accessible_requires_content_review"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_NTC",
+      "url": "https://www.ntc.gov.ph/wp-content/uploads/2025/CITIZENS_CHARTER/7-FEEDBACK-03282025.pdf",
+      "contacts": {
+        "email": "administrative@ntc.gov.ph",
+        "phone": "(02) 8924-4028; (02) 8924-4046",
+        "office_address": "Sen. Miriam P. Defensor-Santiago Ave., East Triangle, Diliman, Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:48.600434+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_HSAC_DHSUD",
+      "url": "https://hsac.gov.ph/wp-content/uploads/Citizens-Charter-2021_ver5.3.pdf",
+      "contacts": {
+        "email": "complaint@hsac.gov.ph",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:48.648883+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_LTFRB",
+      "url": "https://ltfrb.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:48.680824+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_ERC",
+      "url": "https://www.erc.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:48.701197+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_PNP_ACG",
+      "url": "https://acg.pnp.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:48.743501+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "accessible": 19,
+  "total": 39,
+  "all_legal_status_dates_remain_unchanged": true
+}

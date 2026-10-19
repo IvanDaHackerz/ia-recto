@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://recto-co.local/schemas/legal_document.schema.json",
+  "title": "Recto & Co. Legal Document Snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "document_id",
+    "domains",
+    "citation",
+    "title",
+    "document_type",
+    "issuer",
+    "approval_or_edition_date",
+    "jurisdiction",
+    "source_id",
+    "authority_level",
+    "permitted_use",
+    "official_source_url",
+    "retrieval_url",
+    "raw_local_path",
+    "raw_file_format",
+    "verification_status",
+    "document_answer_eligible_candidate",
+    "collection_role",
+    "legal_status",
+    "status_family",
+    "status_as_of",
+    "retrieval_use_policy",
+    "freshness_rule",
+    "languages",
+    "processing_state"
+  ],
+  "properties": {
+    "contract_version": {"type": "string", "const": "1.0.0"},
+    "document_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+    "domains": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "enum": ["labor", "consumer", "general"]}
+    },
+    "citation": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "document_type": {"type": "string", "minLength": 1},
+    "issuer": {"type": "string", "minLength": 1},
+    "approval_or_edition_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}(-[0-9]{2}-[0-9]{2})?$"
+    },
+    "effectivity_date": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}
+      ]
+    },
+    "jurisdiction": {"type": "string", "const": "Philippines"},
+    "source_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+    "authority_level": {
+      "type": "string",
+      "enum": ["primary_official", "secondary_reliable", "unverified"]
+    },
+    "permitted_use": {
+      "type": "string",
+      "enum": ["answer_and_citation", "verification", "retrieval_only", "blocked"]
+    },
+    "official_source_url": {"type": "string", "format": "uri"},
+    "retrieval_url": {"type": "string", "format": "uri"},
+    "raw_local_path": {"type": "string", "minLength": 1},
+    "raw_file_format": {"type": "string", "enum": ["html", "pdf", "markdown", "text"]},
+    "verification_status": {"type": "string", "minLength": 1},
+    "document_answer_eligible_candidate": {"type": "boolean"},
+    "collection_role": {"type": "string", "minLength": 1},
+    "legal_status": {"type": "string", "minLength": 1},
+    "status_family": {
+      "type": "string",
+      "enum": [
+        "current",
+        "current_with_conditions",
+        "historical",
+        "time_bound",
+        "explanatory",
+        "verification_pending"
+      ]
+    },
+    "status_as_of": {"type": "string", "format": "date"},
+    "retrieval_use_policy": {"type": "string", "minLength": 1},
+    "freshness_rule": {"type": "string", "minLength": 1},
+    "languages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "enum": ["en", "fil"]}
+    },
+    "version_label": {"type": ["string", "null"]},
+    "notes": {"type": ["string", "null"]},
+    "processing_state": {
+      "type": "string",
+      "enum": ["contract_sample", "pending_extraction", "extracted", "validated", "quarantined"]
+    }
+  }
+}

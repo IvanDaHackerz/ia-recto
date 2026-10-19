@@ -1,0 +1,30 @@
+{
+  "outputs/local-pipeline-evaluation-v1.0.0": {
+    "checked_files": 6,
+    "failures": []
+  },
+  "outputs/local-pipeline-evaluation-v1.1.0": {
+    "checked_files": 8,
+    "failures": []
+  },
+  "outputs/item10-classifier-v1.5.12": {
+    "checked_files": 49,
+    "failures": []
+  },
+  "outputs/item11-retrieval-v1.2.8": {
+    "checked_files": 25,
+    "failures": []
+  },
+  "outputs/item12-verifier-v1.0.7": {
+    "checked_files": 19,
+    "failures": []
+  },
+  "permissions_closed": true,
+  "outputs/item11-retrieval-v1.2.8/records.jsonl": {
+    "same_bytes_as_parent": true
+  },
+  "outputs/item11-retrieval-v1.2.8/semantic_vectors.npz": {
+    "same_bytes_as_parent": true
+  },
+  "current_packet_pinned": true
+}

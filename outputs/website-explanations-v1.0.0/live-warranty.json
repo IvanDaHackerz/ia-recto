@@ -1,0 +1,630 @@
+{
+  "question_origin": "synthetic_development",
+  "packet": {
+    "inspection_only": true,
+    "labeled_evaluation": false,
+    "original_question_text": "The store refuses to repair the defective blender I bought under its written warranty. What does the recorded law explain?",
+    "normalization": {
+      "version": "conditional-normalization-v3.0.0",
+      "original_question_text": "The store refuses to repair the defective blender I bought under its written warranty. What does the recorded law explain?",
+      "normalized_question_text": null,
+      "effective_question_text": "The store refuses to repair the defective blender I bought under its written warranty. What does the recorded law explain?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "clarification_follow_up": null,
+    "total_query_ms": 3254.7635000009905,
+    "result": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.8",
+      "question_text": "The store refuses to repair the defective blender I bought under its written warranty. What does the recorded law explain?",
+      "question_sha256": "775b8bd7cd20e199318796e2958b53a4696332ca26f2b233a1e2d28d4e951ba5",
+      "mode": "current_guidance",
+      "as_of": "2026-10-19",
+      "classifier_version": "item10-classifier-v1.5.13",
+      "index_version": "item11-retrieval-v1.2.9",
+      "policy_sha256": "634a11090d36987805c9c6b7a0153d90fab7bce8d35cc43c5b65ac4abf73d3b4",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "the store refuses to repair the defective blender i bought under its written warranty. what does the recorded law explain",
+          "allowed_domain": "consumer",
+          "retrieval_status": "candidates_found",
+          "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+          "candidates": [
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "heading": "Additional Provisions on Warranties",
+              "display_text": "ART. 68. Additional Provisions on Warranties. - In addition to the Civil Code provisions on sale with warranties, the following provisions shall govern the sale of consumer products with warranty:\nTerms of express warranty. - Any seller or manufacturer who gives an express warranty shall:\n\nset forth the terms of warranty in clear and readily understandable language and clearly identify himself as the warrantor;\n\nidentify the party to whom the warranty is extended;\n\nstate the products or parts covered;\n\nstate what the warrantor will do in the event of a defect, malfunction or failure to conform to the written warranty and at whose expense;\n\nstate what the consumer must do to avail of the rights which accrue to the warranty; and\n\nstipulate the period within which, after notice of defect, malfunction or failure to conform to the warranty, the warrantor will perform any obligation under the warranty.\n\nExpress warranty-operative from moment of sale. - All written warranties or guarantees issued by a manufacturer, producer, or importer shall be operative from the moment of sale.\n\nSales Report. - All sales made by distributors of products covered by this Article shall be reported to the manufacturer, producer, or importer of the product sold within thirty (30) days from date of purchase, unless otherwise agreed upon. The report shall contain, among others, the date of purchase, model of the product bought, its serial number, name and address of the buyer. The report made in accordance with this provision shall be equivalent to a warranty registration with the manufacturer, producer, or importer. Such registration is sufficient to hold the manufacturer, producer, or importer liable, in appropriate cases, under its warranty.\n\nFailure to make or send report. - Failure of the distributor to make the report or send them the form required by the manufacturer, producer, or importer shall relieve the latter of its liability under the warranty: Provided, however, That the distributor who failed to comply with its obligation to send the sales report shall be personally liable under the warranty. For this purpose, the manufacturer shall be obligated to make good the warranty at the expense of the distributor.\n\nRetail. - The retailer shall be subsidiarily liable under the warranty in case of failure of both the manufacturer and distributor to honor the warranty. In such case, the retailer shall shoulder the expenses and costs necessary to honor the warranty. Nothing therein shall prevent the retailer from proceeding against the distributor or manufacturer.\n\nEnforcement of warranty or guarantee. - The warranty rights can be enforced by presentment of a claim. To this end, the purchaser needs only to present to the immediate seller either the warranty card or the official receipt along with the product to be serviced or returned to the immediate seller. No other documentary requirement shall be demanded from the purchaser. ",
+              "normalized_char_start": 0,
+              "normalized_char_end": 2956,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 99187,
+                "source_char_end": 105330
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 68. Additional Provisions on Warranties. - In addition to the Civil Code provisions on sale with warranties, the following provisions shall govern the sale of consumer products with warranty:\nTerms of express warranty. - Any seller or manufacturer who gives an express warranty shall:\n\nset forth the terms of warranty in clear and readily understandable language and clearly identify himself as the warrantor;\n\nidentify the party to whom the warranty is extended;\n\nstate the products or parts covered;\n\nstate what the warrantor will do in the event of a defect, malfunction or failure to conform to the written warranty and at whose expense;\n\nstate what the consumer must do to avail of the rights which accrue to the warranty; and\n\nstipulate the period within which, after notice of defect, malfunction or failure to conform to the warranty, the warrantor will perform any obligation under the warranty.\n\nExpress warranty-operative from moment of sale. - All written warranties or guarantees issued by a manufacturer, producer, or importer shall be operative from the moment of sale.\n\nSales Report. - All sales made by distributors of products covered by this Article shall be reported to the manufacturer, producer, or importer of the product sold within thirty (30) days from date of purchase, unless otherwise agreed upon. The report shall contain, among others, the date of purchase, model of the product bought, its serial number, name and address of the buyer. The report made in accordance with this provision shall be equivalent to a warranty registration with the manufacturer, producer, or importer. Such registration is sufficient to hold the manufacturer, producer, or importer liable, in appropriate cases, under its warranty.\n\nFailure to make or send report. - Failure of the distributor to make the report or send them the form required by the manufacturer, producer, or importer shall relieve the latter of its liability under the warranty: Provided, however, That the distributor who failed to comply with its obligation to send the sales report shall be personally liable under the warranty. For this purpose, the manufacturer shall be obligated to make good the warranty at the expense of the distributor.\n\nRetail. - The retailer shall be subsidiarily liable under the warranty in case of failure of both the manufacturer and distributor to honor the warranty. In such case, the retailer shall shoulder the expenses and costs necessary to honor the warranty. Nothing therein shall prevent the retailer from proceeding against the distributor or manufacturer.\n\nEnforcement of warranty or guarantee. - The warranty rights can be enforced by presentment of a claim. To this end, the purchaser needs only to present to the immediate seller either the warranty card or the official receipt along with the product to be serviced or returned to the immediate seller. No other documentary requirement shall be demanded from the purchaser. If the immediate seller is the manufacturer's factory or showroom, the warranty shall immediately be honored. If the product was purchased from a distributor, the distributor shall likewise immediately honor the warranty. In the case of a retailer other than the distributor, the former shall take responsibility without cost to the buyer of presenting the warranty claim to the distributor in the consumer's behalf.\n\nRecord of purchases. - Distributors and retailers covered by this article shall keep a record of all purchases covered by a warranty or guarantee for such period of time corresponding to the lifetime of the products' respective warranties or guarantees.\n\nContrary stipulations-null and void. - All covenants, stipulations or agreements contrary to the provisions of this article shall be without legal effect.\n\nDesignation of warranties. - A written warranty shall clearly and conspicuously designate such warranty as\n\n\"Full warranty\" if the written warranty meets the minimum requirements set forth in paragraph (d); or\n\n\"Limited warranty\" if the written warranty does not meet such minimum requirements.\n\nMinimum standards for warranties. - For the warrantor of a consumer product to meet the minimum standards for warranty, he shall:\n\nremedy such consumer product within a reasonable time and without charge in case of a defect, malfunction or failure to conform to such written warranty;\n\npermit the consumer to elect whether to ask for a refund or replacement without charge of such product or part, as the case may be, where after reasonable number of attempts to remedy the defect or malfunction, the product continues to have the defect or to malfunction.\n\nThe warrantor will not be required to perform the above duties if he can show that the defect, malfunction or failure to conform to a written warranty was caused by damage due to unreasonable use thereof.\n\nDuration of warranty. - The seller and the consumer may stipulate the period within which the express warranty shall be enforceable. If the implied warranty on merchantability accompanies an express warranty, both will be of equal duration.\n\nAny other implied warranty shall endure not less than sixty (60) days nor more than one (1) year following the sale of new consumer products.\n\nBreach of warranties. - 1) In case of breach of express warranty, the consumer may elect to have the goods repaired or its purchase price refunded by the warrantor. In case the repair of the product in whole or in part is elected, the warranty work must be made to conform to the express warranty within thirty (30) days by either the warrantor or his representative. The thirty-day period, however, may be extended by conditions which are beyond the control of the warrantor or his representative. In case the refund of the purchase price is elected, the amount directly attributable to the use of the consumer prior to the discovery of the non-conformity shall be deducted.\n\n2) In case of breach of implied warranty, the consumer may retain in the goods and recover damages, or reject the goods, cancel and contract and recover from the seller so much of the purchase price as has been paid, including damages.",
+              "document_title": "Consumer Act of the Philippines",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.defective_products",
+                "consumer.repair_replace_refund",
+                "consumer.warranties"
+              ],
+              "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "conditions": [
+                "Pair with the responsible agency's current topic-specific rule and later special law."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 22.201053635574887,
+              "bm25_score": 22.201053635574887,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_11__chunk_0001",
+              "provision_id": "RA_7394_1992__art_11",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 11",
+              "heading": null,
+              "display_text": "ART. 11. Amendment and Revocation of Declaration of the Injurious Unsafe or Dangerous Character of a Consumer Product. - Any interested person may petition the appropriate department to commence a proceeding for the issuance of an amendment or revocation of a consumer product safety or an order declaring a consumer product injurious, dangerous and unsafe.\n\nIn case the department, upon petition by an interested party or its own initiative and after due notice and hearing, determines a consumer product to be substandard or materially defective, it shall so notify the manufacturer, distributor or seller thereof of such finding and order such manufacturer, distributor or seller to:\ngive notice to the public of the defect or failure to comply with the product safety standards; and\n\ngive notice to each distributor or retailer of such product.\nThe department shall also direct the manufacturer, distributor or seller of such product to extend any or all of the following remedies to the injured person:\nto bring such product into conformity with the requirements of the applicable consumer product standards or to repair the defect in order to conform with the same;\n\nto replace the product with a like or equivalent product which complies with the applicable consumer product standards which does not contain the defect;\n\nto refund the purchase price of the product less a reasonable allowance for use; and\n\nto pay the consumer reasonable damages as may be determined by the department.\nThe manufacturer, distributor or seller shall not charge a consumer who avails himself of the remedy as provided above of any expense and cost that may be incurred.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 1657,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 37122,
+                "source_char_end": 38781
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 11. Amendment and Revocation of Declaration of the Injurious Unsafe or Dangerous Character of a Consumer Product. - Any interested person may petition the appropriate department to commence a proceeding for the issuance of an amendment or revocation of a consumer product safety or an order declaring a consumer product injurious, dangerous and unsafe.\n\nIn case the department, upon petition by an interested party or its own initiative and after due notice and hearing, determines a consumer product to be substandard or materially defective, it shall so notify the manufacturer, distributor or seller thereof of such finding and order such manufacturer, distributor or seller to:\ngive notice to the public of the defect or failure to comply with the product safety standards; and\n\ngive notice to each distributor or retailer of such product.\nThe department shall also direct the manufacturer, distributor or seller of such product to extend any or all of the following remedies to the injured person:\nto bring such product into conformity with the requirements of the applicable consumer product standards or to repair the defect in order to conform with the same;\n\nto replace the product with a like or equivalent product which complies with the applicable consumer product standards which does not contain the defect;\n\nto refund the purchase price of the product less a reasonable allowance for use; and\n\nto pay the consumer reasonable damages as may be determined by the department.\nThe manufacturer, distributor or seller shall not charge a consumer who avails himself of the remedy as provided above of any expense and cost that may be incurred.",
+              "document_title": "Consumer Act of the Philippines",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.defective_products",
+                "consumer.product_safety",
+                "consumer.repair_replace_refund"
+              ],
+              "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "conditions": [
+                "Pair with the responsible agency's current topic-specific rule and later special law."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 10.81613030450534,
+              "bm25_score": 10.81613030450534,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "RA_10909_2016__sec_3__chunk_0001",
+              "provision_id": "RA_10909_2016__sec_3",
+              "document_id": "RA_10909_2016",
+              "citation_display": "Republic Act No. 10909, SEC. 3",
+              "heading": "Definition of Terms",
+              "display_text": "SEC. 3. Definition of Terms. – For the purpose of this Act, the following terms shall mean;\n\n(a) Business establishment – any person, natural or juridical, whether single proprietorship, partnership or corporation, including a government-owned and-controlled corporation or a government entity exercising its proprietary functions, engaged in, or doing business in the Philippines, either in selling goods or providing services;\n\n(b) Change – the excess in the payment given by a consumer for goods and services purchased or received from a business establishment;\n\n(c) Consumer – a natural person who purchases goods or services in cash;\n\n(d) Goods – all types of tangible property that could be bought and sold, and the possession of which could be transferred in whole or in part, temporarily or permanently;\n\n(e) Gross sales – the total invoice value of sales, before deducting for customer discount, allowances and returns;.\n\n(f) Insufficient change – a change that is less than what is due the consumers;\n\n(g) Price – tag any device written, printed, affixed or attached to a good, or displayed in a consumer retail or service establishment for the purpose of indicating the retail price per unit or services;\n\n(h) Services – all types of commercial activities which enable the supply, access to, consumption or use of goods, intellectual property or other services; and\n\n(i) Shortchange – the act of giving insufficient or no change to a consumer who purchased a product or service.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 1489,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 1225,
+                "source_char_end": 2716
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SEC. 3. Definition of Terms. – For the purpose of this Act, the following terms shall mean;\n\n(a) Business establishment – any person, natural or juridical, whether single proprietorship, partnership or corporation, including a government-owned and-controlled corporation or a government entity exercising its proprietary functions, engaged in, or doing business in the Philippines, either in selling goods or providing services;\n\n(b) Change – the excess in the payment given by a consumer for goods and services purchased or received from a business establishment;\n\n(c) Consumer – a natural person who purchases goods or services in cash;\n\n(d) Goods – all types of tangible property that could be bought and sold, and the possession of which could be transferred in whole or in part, temporarily or permanently;\n\n(e) Gross sales – the total invoice value of sales, before deducting for customer discount, allowances and returns;.\n\n(f) Insufficient change – a change that is less than what is due the consumers;\n\n(g) Price – tag any device written, printed, affixed or attached to a good, or displayed in a consumer retail or service establishment for the purpose of indicating the retail price per unit or services;\n\n(h) Services – all types of commercial activities which enable the supply, access to, consumption or use of goods, intellectual property or other services; and\n\n(i) Shortchange – the act of giving insufficient or no change to a consumer who purchased a product or service.",
+              "document_title": "No Shortchanging Act of 2016",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/70322",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/70322",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_10909_2016_scel.html",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.price_tags"
+              ],
+              "legal_status": "in_force",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Use together with DAO 16-03 and current DTI enforcement guidance.",
+              "conditions": [
+                "Use together with DAO 16-03 and current DTI enforcement guidance."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_014",
+                  "source_document_id": "DTI_DAO_16_03",
+                  "target_document_id": "RA_10909_2016",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "No Shortchanging Act",
+                  "effective_or_issue_date": "2016-12-21",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://www.dti.gov.ph/dti-news-archived/dti-region-11-news-archived/dti-dti-issues-irr-on-no-shortchanging-act-2",
+                  "confidence": "high",
+                  "note": "Pair statutory duties and penalties with this IRR."
+                },
+                {
+                  "relationship_id": "LSR_016",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_10909_2016",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI handling of covered No Shortchanging complaints",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "medium_high",
+                  "note": "Use only where the complaint falls within DTI jurisdiction."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 10.69000965269335,
+              "bm25_score": 10.69000965269335,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+              "provision_id": "DTI_JAO_24_03__section_37",
+              "document_id": "DTI_JAO_24_03",
+              "citation_display": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37",
+              "heading": "Remedies of Online Consumers Under the Consumer Act of the",
+              "display_text": "Section 37. Remedies of Online Consumers Under the Consumer Act of the\nPhilippines. - ln case of defect, malfunction, or loss without the fault of the online\nconsumer, or failure to conform with warranty or any liability of the online merchant or eretailer arising from the contract, the online consumer shall have the right to pursue repair,\nreplacement, refund or other remedies provided under the Consumer Act of the\nPhilippines or any relevant laws.\nWhen the online consumer avails of replacement or refund as a remedy, the online\nmerchant or e-retailer is entitled to the return of the original goods delivered, without any\ncost to the online consumer, within a reasonable period from the receipt thereof, unless\notherwise agreed upon by the parties. ln case the refund is already paid, but the goods\ncannot be returned due to the fault of the online consumer, the amount received shall be\nimmediately returned by the consumer to the online merchant or e-retailer subject to a\nproportionate reduction in price, if appropriate.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 1031,
+              "source_locator": {
+                "pdf_page_start": 17,
+                "pdf_page_end": 17,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "Section 37. Remedies of Online Consumers Under the Consumer Act of the\nPhilippines. - ln case of defect, malfunction, or loss without the fault of the online\nconsumer, or failure to conform with warranty or any liability of the online merchant or eretailer arising from the contract, the online consumer shall have the right to pursue repair,\nreplacement, refund or other remedies provided under the Consumer Act of the\nPhilippines or any relevant laws.\nWhen the online consumer avails of replacement or refund as a remedy, the online\nmerchant or e-retailer is entitled to the return of the original goods delivered, without any\ncost to the online consumer, within a reasonable period from the receipt thereof, unless\notherwise agreed upon by the parties. ln case the refund is already paid, but the goods\ncannot be returned due to the fault of the online consumer, the amount received shall be\nimmediately returned by the consumer to the online merchant or e-retailer subject to a\nproportionate reduction in price, if appropriate.",
+              "document_title": "Implementing Rules and Regulations of Republic Act No. 11967 or the Internet Transactions Act of 2023",
+              "official_source_url": "https://ecommerce.dti.gov.ph/implementing-rules-and-regulations/",
+              "retrieval_url": "https://ecommerce.dti.gov.ph/wp-content/uploads/2024/06/Joint-Administrative-Order-No.-24-03.pdf",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/regulations/jao_24_03_internet_transactions_irr.pdf",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.defective_products",
+                "consumer.general_framework",
+                "consumer.online_transactions",
+                "consumer.repair_replace_refund",
+                "consumer.warranties"
+              ],
+              "legal_status": "current_implementing_rule",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Refresh against the DTI E-Commerce Bureau page before deployment.",
+              "conditions": [
+                "Refresh against the DTI E-Commerce Bureau page before deployment."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_017",
+                  "source_document_id": "DTI_JAO_24_03",
+                  "target_document_id": "RA_11967_2023",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "Internet transactions",
+                  "effective_or_issue_date": "2024-05-24",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/implementing-rules-and-regulations/",
+                  "confidence": "high",
+                  "note": "Current located IRR for the statute."
+                }
+              ],
+              "quality_flags": [],
+              "review_status": "machine_validated",
+              "extraction_method": "pdf_text",
+              "score": 10.602238775637653,
+              "bm25_score": 10.602238775637653,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "heading": "Remedies of Online Consumers",
+              "display_text": "SEC. 20. Remedies of Online Consumers. - In case of defect, malfunction, or loss without the fault of the online consumer, or failure to conform with warranty or any liability of the online merchant or e-retailer arising from the contract, the online consumer shall have the right to pursue repair, replacement, refund or other remedies provided under Republic Act No. 7394 or any existing relevant laws.\n\nWhen the online consumer avails replacement or refund as a remedy, the online merchant is entitled to the return of the original goods delivered, without any cost to the online consumer, within a reasonable period from the receipt thereof, unless otherwise agreed upon by the parties. In case the refund is already paid, but the goods cannot be returned due to the fault of the online consumer, the amount received shall be immediately reimbursed to the online merchant or e-retailer subject to proportionate reduction in price, if appropriate.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 950,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 16957,
+                "source_char_end": 17909
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SEC. 20. Remedies of Online Consumers. - In case of defect, malfunction, or loss without the fault of the online consumer, or failure to conform with warranty or any liability of the online merchant or e-retailer arising from the contract, the online consumer shall have the right to pursue repair, replacement, refund or other remedies provided under Republic Act No. 7394 or any existing relevant laws.\n\nWhen the online consumer avails replacement or refund as a remedy, the online merchant is entitled to the return of the original goods delivered, without any cost to the online consumer, within a reasonable period from the receipt thereof, unless otherwise agreed upon by the parties. In case the refund is already paid, but the goods cannot be returned due to the fault of the online consumer, the amount received shall be immediately reimbursed to the online merchant or e-retailer subject to proportionate reduction in price, if appropriate.",
+              "document_title": "Internet Transactions Act of 2023",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/96902",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/96902",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_11967_2023_scel.html",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.defective_products",
+                "consumer.online_transactions",
+                "consumer.repair_replace_refund",
+                "consumer.warranties"
+              ],
+              "legal_status": "in_force_after_transitory_compliance_period",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Use together with JAO 24-03 and RA 7394 where the provisions operate alongside one another.",
+              "conditions": [
+                "Use together with JAO 24-03 and RA 7394 where the provisions operate alongside one another."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_017",
+                  "source_document_id": "DTI_JAO_24_03",
+                  "target_document_id": "RA_11967_2023",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "Internet transactions",
+                  "effective_or_issue_date": "2024-05-24",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/implementing-rules-and-regulations/",
+                  "confidence": "high",
+                  "note": "Current located IRR for the statute."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 10.48041559273779,
+              "bm25_score": 10.48041559273779,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            }
+          ],
+          "evidence_gates": [
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_11__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "RA_10909_2016__sec_3__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [
+                "DTI_DAO_16_03"
+              ],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Use together with DAO 16-03 and current DTI enforcement guidance.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Refresh against the DTI E-Commerce Bureau page before deployment.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [
+                "DTI_JAO_24_03",
+                "RA_7394_1992"
+              ],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Use together with JAO 24-03 and RA 7394 where the provisions operate alongside one another.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            }
+          ],
+          "evidence_ready": false
+        }
+      ],
+      "offline_drafting_allowed": false,
+      "all_supported_components_evidence_ready": false,
+      "decision": "insufficient_evidence"
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "recorded_sources_citations_checked",
+      "llm_calls": 1,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "If a store refuses to fix a blender that is covered by a written warranty, the law says the seller must honor the warranty by repairing the product or offering a refund, and it must do so within a reasonable time and without charging you, as long as the defect isn’t due to misuse. The warranty can be enforced simply by showing the warranty card or receipt along with the defective blender to the seller.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Breach of warranties. - 1) In case of breach of express warranty, the consumer may elect to have the goods repaired or its purchase price refunded by the warrantor. In case the repair of the product in whole or in part is elected, the warranty work must be made to conform to the express warranty within thirty (30) days by either the warrantor or his representative.",
+              "start": 5230,
+              "end": 5597
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Enforcement of warranty or guarantee. - The warranty rights can be enforced by presentment of a claim. To this end, the purchaser needs only to present to the immediate seller either the warranty card or the official receipt along with the product to be serviced or returned to the immediate seller.",
+              "start": 2585,
+              "end": 2884
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "usage": {
+        "prompt_tokens": 2450,
+        "completion_tokens": 353,
+        "total_tokens": 2803
+      },
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "safety_notice": null,
+    "request_id": "5b0fe3252d50402a988093ec7aabc793",
+    "schema_version": "1.0"
+  },
+  "proposed_draft": {
+    "paragraphs": [
+      {
+        "component_id": "concern_001",
+        "text": "If a store refuses to fix a blender that is covered by a written warranty, the law says the seller must honor the warranty by repairing the product or offering a refund, and it must do so within a reasonable time and without charging you, as long as the defect isn’t due to misuse. The warranty can be enforced simply by showing the warranty card or receipt along with the defective blender to the seller.",
+        "evidence": [
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+            "quote": "Breach of warranties. - 1) In case of breach of express warranty, the consumer may elect to have the goods repaired or its purchase price refunded by the warrantor. In case the repair of the product in whole or in part is elected, the warranty work must be made to conform to the express warranty within thirty (30) days by either the warrantor or his representative."
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+            "quote": "Enforcement of warranty or guarantee. - The warranty rights can be enforced by presentment of a claim. To this end, the purchaser needs only to present to the immediate seller either the warranty card or the official receipt along with the product to be serviced or returned to the immediate seller."
+          }
+        ]
+      }
+    ]
+  }
+}

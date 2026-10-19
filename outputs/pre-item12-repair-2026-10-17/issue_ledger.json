@@ -1,0 +1,103 @@
+{
+  "all_issues_closed": false,
+  "item12_started": false,
+  "proceed_to_item12_under_owner_instruction": false,
+  "independent_human_approval_recorded": false,
+  "legal_professional_approval_recorded": false,
+  "issues": [
+    {
+      "id": 1,
+      "issue": "Investment/investigation false scope match",
+      "status": "fixed_and_tested"
+    },
+    {
+      "id": 2,
+      "issue": "69% routing coverage below 70%",
+      "status": "fixed_on_development_regression",
+      "current": 0.92
+    },
+    {
+      "id": 3,
+      "issue": "Generic defective-service classification miss",
+      "status": "fixed_on_development_regression"
+    },
+    {
+      "id": 4,
+      "issue": "Six BM25 top-five misses",
+      "status": "fixed_on_inspected_development_benchmark"
+    },
+    {
+      "id": 5,
+      "issue": "English/Taglish development retrieval gap",
+      "status": "fixed_on_inspected_development_benchmark"
+    },
+    {
+      "id": 6,
+      "issue": "Independent human evaluation missing",
+      "status": "external_human_input_required",
+      "prepared": "human_gold_intake.jsonl and validator"
+    },
+    {
+      "id": 7,
+      "issue": "Real-world confidence validation",
+      "status": "requires_fresh_independent_evaluation",
+      "development_ece_primary": 0.13193005473183095
+    },
+    {
+      "id": 8,
+      "issue": "Final pay/COE, thirteenth-month and DTI source gaps",
+      "status": "open_source_verification_required",
+      "prepared": "Four final-pay AI proposals; 29 DTI structural candidates; MO 28 official copy still needed"
+    },
+    {
+      "id": 9,
+      "issue": "OCR/text review backlog and specialized-source quarantine",
+      "status": "pending_human_source_review",
+      "pending_provisions": 258,
+      "additional_quarantine_chunks": 58
+    },
+    {
+      "id": 10,
+      "issue": "Currentness and referral-contact refresh",
+      "status": "partial_audit_only",
+      "public_urls_attempted": 39,
+      "public_urls_accessible": 19
+    },
+    {
+      "id": 11,
+      "issue": "Item 12 evidence/citation verification",
+      "status": "planned_item12_not_started"
+    },
+    {
+      "id": 12,
+      "issue": "Answer generation, frontend, system evaluation and formal approval",
+      "status": "future_milestones_and_external_approvals_pending"
+    },
+    {
+      "id": 13,
+      "issue": "Household repair mistaken for domestic employment",
+      "status": "fixed_and_tested"
+    },
+    {
+      "id": 14,
+      "issue": "Unnecessary clarification despite cashier/product context",
+      "status": "fixed_and_tested"
+    },
+    {
+      "id": 15,
+      "issue": "Cross-references split into fake DTI sections and Rule headings",
+      "status": "candidate_parser_fixed_source_approval_pending"
+    },
+    {
+      "id": 16,
+      "issue": "Automatic official referral selection absent",
+      "status": "candidate_routing_implemented_contact_refresh_pending"
+    },
+    {
+      "id": 17,
+      "issue": "Overseas foreign-exchange-remittance passages in general labor index",
+      "status": "quarantined_and_tested",
+      "additional_chunks": 3
+    }
+  ]
+}

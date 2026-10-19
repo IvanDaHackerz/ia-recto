@@ -1,0 +1,7 @@
+{
+  "website": "http://127.0.0.1:5173",
+  "api": "http://127.0.0.1:8766",
+  "reuseApi": true,
+  "reuseUi": true,
+  "runtimeSignature": "6609e966d9fa1a4900d736b9728d831b7e659079440734138ad9b4553854fe57"
+}

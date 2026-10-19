@@ -1,0 +1,12 @@
+{
+  "backend/application/service.py": "92dbd52418f5011d38a31d802a203d0162be3b140f59aac6c0308b22022285a6",
+  "backend/application/controls.py": "dd5f58b4a8ae4c005868a7d2064ac0acc2bf7604808ccf3841f2208a52e49e0d",
+  "backend/application/development_explanation.py": "d213166f9dcac2de12f5e5a5fa6a424d0b75ba69af76fe5a98f607c00a80ea32",
+  "backend/application/grounding.py": "6ecd397ccbdb5513ec73d130178541018c4538ec84354bf75f8e8bd9c83c70e9",
+  "backend/application/privacy.py": "6b0ef81f6f38e4885028f183c275178965a64a8471c12e9a6e6a6e5f7e41fa6c",
+  "backend/application/safety.py": "b6e0b0f5f6fe300d9643b1e1b9e2b85edea9d778c9d82616f7955f585a697827",
+  "backend/application/explanation.py": "a70e02256c22bfb532e571ac2a9e7095e92db8fad916a089b27457b13f9aa40c",
+  "backend/normalization.py": "3e88f947428c6135c918d66849c0d843c26bf6d97dcf3e218ea5f1c855947cd9",
+  "backend/normalization_provider.py": "a2b4bbc68c83371ba41f7796b72ee186d5964cadcda6124167c39ecec956c182",
+  "backend/normalization_validation.py": "858a8272d7ee97b2d14489d672b865b21cad2892bed711f8aa59e535262ae003"
+}

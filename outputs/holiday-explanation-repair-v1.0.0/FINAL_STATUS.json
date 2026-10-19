@@ -1,0 +1,22 @@
+{
+  "software_repair_completed": true,
+  "backend_tests": 174,
+  "frontend_tests": 20,
+  "concern_regressions": 8,
+  "package_tests": {
+    "classifier": 65,
+    "retrieval": 47,
+    "verifier": 37
+  },
+  "lint_build_passed": true,
+  "displayed_metric_comparisons": 261,
+  "local_development_evaluation": "outputs/local-pipeline-evaluation-v1.5.0",
+  "final_website_result": "provider_http_503",
+  "final_explanation_calls": 2,
+  "final_live_happy_path_confirmed": false,
+  "full_ai_replay_after_repair_completed": false,
+  "source_wording_holds": 1,
+  "independent_legal_review_added": false,
+  "new_independent_human_questions": 0,
+  "deployment_allowed": false
+}

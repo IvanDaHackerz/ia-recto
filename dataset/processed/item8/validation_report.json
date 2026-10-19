@@ -1,0 +1,30 @@
+{
+  "item": 8,
+  "validated_at": "2026-09-30T07:07:46.908956+00:00",
+  "status": "passed",
+  "counts": {
+    "candidate_documents": 182,
+    "parquet_rows": 182,
+    "review_queue_rows": 182,
+    "domains": {
+      "consumer": 7,
+      "labor": 163,
+      "mixed": 12
+    },
+    "priorities": {
+      "medium": 4,
+      "boundary_review": 125,
+      "low": 53
+    }
+  },
+  "checks": {
+    "unique_ids": true,
+    "discovery_only_gate": true,
+    "answer_eligible_false_gate": true,
+    "official_verification_gate": true,
+    "jurisprudence_excluded": true,
+    "constitution_excluded": true
+  },
+  "warnings": [],
+  "errors": []
+}

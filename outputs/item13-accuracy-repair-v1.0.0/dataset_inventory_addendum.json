@@ -1,0 +1,10 @@
+{
+  "new_classifier_regression_methods": 4,
+  "new_evaluator_freeze_tests": 3,
+  "new_independent_human_questions": 0,
+  "new_legal_authorities": 0,
+  "new_retrieval_regression_methods": 4,
+  "new_system_cases": 0,
+  "new_training_questions": 0,
+  "reused_frozen_system_cases": 291
+}

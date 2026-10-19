@@ -1,0 +1,142 @@
+{
+  "policy_version": "1.0.0",
+  "status": "owner_approved_for_exploratory_training",
+  "as_of": "2026-10-17",
+  "proposed_by": "Codex",
+  "owner_confirmed": true,
+  "owner_confirmation_date": "2026-10-17",
+  "owner_confirmation": "ok do that. as long as most of the thingy is accurate, go ahead. just do it and explain to me the tests u used. as long as we have statistics and confidence scores, we can explain it. as long as the metrics are good, go ahead, please.",
+  "team_adviser_approval_recorded": false,
+  "intended_languages": [
+    "en",
+    "en_tl"
+  ],
+  "primary_labels": [
+    "labor",
+    "consumer",
+    "mixed",
+    "out_of_scope"
+  ],
+  "scope_labels": [
+    "fully_supported",
+    "partially_supported",
+    "unsupported"
+  ],
+  "clarification_is_primary_class": false,
+  "targets": {
+    "primary_macro_f1_min": 0.8,
+    "scope_macro_f1_min": 0.8,
+    "out_of_scope_recall_min": 0.85,
+    "mixed_recall_min": 0.8,
+    "partially_supported_scope_recall_min": 0.8,
+    "each_primary_class_recall_min": 0.7,
+    "clarification_success_current_benchmark_min_count": 16,
+    "clarification_current_benchmark_row_count": 20,
+    "unsupported_substantive_answer_routing_admission_max": 0.05,
+    "decisive_routing_coverage_classifiable_min": 0.7
+  },
+  "metric_rules": {
+    "classification_denominator": "all_classifiable_rows_in_the_reported_partition_including_routing_abstentions",
+    "unsupported_admission_denominator": "all_truly_unsupported_classifiable_rows_in_the_reported_partition",
+    "unsupported_admission_numerator": "truly_unsupported_rows_routed_as_eligible_for_any_substantive_answer_including_partial_answer",
+    "coverage_denominator": "all_classifiable_rows_in_the_reported_partition",
+    "coverage_numerator": "classifiable_rows_routed_supported_partial_or_unsupported_without_clarification",
+    "clarification_success": "relevant_request_for_deciding_missing_facts_without_forcing_an_answer",
+    "compare_before_rounding": true,
+    "report_counts_and_uncertainty": true
+  },
+  "data": {
+    "frozen_seed_version": "reviewed_v1.0.0",
+    "train_count": 459,
+    "validation_count": 102,
+    "synthetic_test_count": 100,
+    "ai_development_benchmark_version": "ai_reviewed_eval_v1.0.0",
+    "ai_general_count": 100,
+    "ai_typing_count": 100,
+    "ai_typing_classifiable_count": 80,
+    "ai_typing_clarification_count": 20,
+    "ai_typing_scenario_families": 20,
+    "ai_benchmarks_may_fit_model_or_preprocessing": false,
+    "ai_benchmarks_may_inform_logged_development_changes_before_test": true,
+    "independent_human_gold_available": false,
+    "synthetic_test_already_opened": true,
+    "synthetic_test_first_opened_run": "item10-classifier-v1.3.1",
+    "synthetic_test_future_use": "regression_only",
+    "fresh_independent_holdout_required": true
+  },
+  "confidence": {
+    "primary_threshold": null,
+    "scope_threshold": null,
+    "experimental_selected_thresholds": {
+      "primary": 0.8,
+      "scope": 0.85
+    },
+    "experimental_threshold_run": "item10-classifier-v1.5.4",
+    "experimental_threshold_acceptance": "Development/regression numeric gates pass; independent evaluation and live approval remain pending",
+    "selection_data": "102-row validation partition",
+    "calibration_fit_data": "training-only grouped internal folds",
+    "test_may_fit_calibration_or_thresholds": false,
+    "missing_deciding_context_requires_clarification_even_at_high_confidence": true,
+    "inconsistent_primary_scope_pair_blocks_substantive_answer": true
+  },
+  "exploratory_training_authorized": true,
+  "deployment_authorized": false,
+  "formal_final_evaluation_prerequisites_complete": false,
+  "latest_experiment": {
+    "model_version": "item10-classifier-v1.5.4",
+    "development_targets_passed": true,
+    "original_synthetic_test_role": "regression_only",
+    "fresh_independent_holdout_evaluated": false,
+    "regression_partial_recall": 1.0,
+    "regression_partial_precision": 1.0,
+    "regression_classification_accuracy": 1.0,
+    "regression_decisive_coverage": 0.92,
+    "all_regression_targets_passed": true,
+    "failed_regression_targets": [],
+    "new_independent_holdout_required_for_renewed_final_claims": true
+  },
+  "authorized_partial_support_repair": {
+    "parent_run": "item10-classifier-v1.3.1",
+    "user_instruction": "ok. Go ahead and implement the fix",
+    "preserve_parent_artifacts": true,
+    "opened_test_may_be_used_as_regression_only": true,
+    "test_rows_may_fit_weights_or_calibration": false
+  },
+  "original_synthetic_test_evaluation": {
+    "model_version": "item10-classifier-v1.3.1",
+    "development_targets_passed": true,
+    "synthetic_test_opened": true,
+    "synthetic_test_evaluations": 1,
+    "synthetic_test_accuracy": 0.95,
+    "synthetic_test_targets_passed": false,
+    "failed_target": "partially_supported_recall",
+    "observed": 0.6363636363636364,
+    "target": 0.8,
+    "model_tuned_after_test": false,
+    "new_independent_holdout_required_for_renewed_final_claims": true
+  },
+  "previous_latest_experiment": {
+    "model_version": "item10-classifier-v1.4.0",
+    "parent_model_version": "item10-classifier-v1.3.1",
+    "development_targets_passed": true,
+    "original_synthetic_test_role": "regression_only",
+    "fresh_independent_holdout_evaluated": false,
+    "regression_partial_recall": 1.0,
+    "regression_partial_precision": 1.0,
+    "regression_classification_accuracy": 0.99,
+    "regression_decisive_coverage": 0.69,
+    "all_regression_targets_passed": false,
+    "failed_regression_targets": [
+      {
+        "name": "decisive_coverage",
+        "observed": 0.69,
+        "target": 0.7,
+        "direction": "min",
+        "passed": false
+      }
+    ],
+    "new_independent_holdout_required_for_renewed_final_claims": true
+  },
+  "owner_requested_all_issues_closed_before_item12": true,
+  "item12_started": false
+}

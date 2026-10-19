@@ -1,0 +1,25 @@
+{
+  "version": "joined-concern-repair-v1.0.0",
+  "issue": "joined_predicate_led_complaints",
+  "status": "fixed_and_live_on_local_api",
+  "classifier": "outputs/item10-classifier-v1.5.11",
+  "retrieval": "outputs/item11-retrieval-v1.2.7",
+  "verifier": "outputs/item12-verifier-v1.0.6",
+  "software_checks": {
+    "classifier": 65,
+    "retrieval": 42,
+    "verifier": 37,
+    "backend": 106,
+    "distinct_total": 250,
+    "passed": true
+  },
+  "development_replay_inputs": 424,
+  "development_replay_changed_decisions": 0,
+  "new_llm_calls": 0,
+  "new_training_data": 0,
+  "trained_state_changed": false,
+  "answer_generation_allowed": false,
+  "deployment_allowed": false,
+  "independent_human_evaluation_completed": false,
+  "full_conditional_pipeline_reevaluated": false
+}

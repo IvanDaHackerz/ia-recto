@@ -1,0 +1,38 @@
+{
+  "local_baseline": "outputs/local-pipeline-evaluation-v1.1.0",
+  "local_baseline_observations_sha256": "55be6e5c632c8806e02c30a67e716d13eaf3152b78c950897bad73a6924091e4",
+  "role": "predeclared export ceiling from earlier local gate; all inputs still replayed with question-only inference",
+  "calls": [
+    {
+      "case_id": "SYS_05_2__noisy",
+      "question_sha256": "4e74a7f93a937ad5cfd7dc9f09e14f84318394d2e01b8c052ddfdf8f23db3f80",
+      "variation": "noisy",
+      "reason": "compressed_or_corrupted_wording"
+    },
+    {
+      "case_id": "TYPE_086__noisy",
+      "question_sha256": "c485021e3b9add6672c98cd52fd27096fd85c257245a550846c8010348a18554",
+      "variation": "noisy",
+      "reason": "compressed_or_corrupted_wording"
+    },
+    {
+      "case_id": "TYPE_096__noisy",
+      "question_sha256": "7c898d570531445e7e15743207cb693f72c24acb4ab3a5eb3fab9d9c87b94345",
+      "variation": "noisy",
+      "reason": "compressed_or_corrupted_wording"
+    },
+    {
+      "case_id": "EVAL_090__noisy",
+      "question_sha256": "fec207d6edfb5b8b851b0af1754a0efeac67c972f5ce3a730f40e047e92a3b06",
+      "variation": "noisy",
+      "reason": "compressed_or_corrupted_wording"
+    },
+    {
+      "case_id": "EVAL_100__noisy",
+      "question_sha256": "1cc5bef19640e45fea71f713704fd85543a78793695432b09722eec0f52e29e8",
+      "variation": "noisy",
+      "reason": "compressed_or_corrupted_wording"
+    }
+  ],
+  "maximum_llm_requests": 5
+}

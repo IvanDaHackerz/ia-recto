@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "primary": "labor",
+  "scope": "fully_supported",
+  "route": "retrieve_supported_evidence",
+  "references": 5,
+  "providerCalls": 0,
+  "saved": false,
+  "runtimeSignature": "59c53dea1b037300a577e8b4b8186d54854448cbbe1d08cc024f9a7cf1f453c4"
+}

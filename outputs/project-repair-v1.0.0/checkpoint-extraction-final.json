@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "archive": "outputs/releases/recto-local-repair-v1.0.1.zip",
+  "tested_new_root": "C:\\IA\\.local\\release-validation-v1.0.1",
+  "uses_existing_pinned_python_dependencies": true,
+  "model_and_source_files_from_archive": true,
+  "provider_calls": 0,
+  "return_code": 0
+}

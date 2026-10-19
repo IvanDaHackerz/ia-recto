@@ -1,0 +1,42 @@
+test_all_outputs_keep_live_flags_off (test_verifier.VerifierTests.test_all_outputs_keep_live_flags_off) ... ok
+test_bm25_verification_works_with_network_and_semantics_disabled (test_verifier.VerifierTests.test_bm25_verification_works_with_network_and_semantics_disabled) ... ok
+test_candidate_domain_and_eligibility_are_rechecked (test_verifier.VerifierTests.test_candidate_domain_and_eligibility_are_rechecked) ... ok
+test_changed_file_is_detected_even_with_preserved_timestamp (test_verifier.VerifierTests.test_changed_file_is_detected_even_with_preserved_timestamp) ... ok
+test_claim_review_expiration_is_checked_separately (test_verifier.VerifierTests.test_claim_review_expiration_is_checked_separately) ... ok
+test_classifier_checksum_failure_precedes_deserialization (test_verifier.VerifierTests.test_classifier_checksum_failure_precedes_deserialization) ... ok
+test_cli_runs_outside_repository_and_rejects_fixture_reviews (test_verifier.VerifierTests.test_cli_runs_outside_repository_and_rejects_fixture_reviews) ... ok
+test_default_current_guidance_never_treats_recent_dates_as_approval (test_verifier.VerifierTests.test_default_current_guidance_never_treats_recent_dates_as_approval) ... ok
+test_default_date_updates_and_expired_reviews_stop_passing (test_verifier.VerifierTests.test_default_date_updates_and_expired_reviews_stop_passing) ... ok
+test_deleted_file_stops_subsequent_requests (test_verifier.VerifierTests.test_deleted_file_stops_subsequent_requests) ... ok
+test_development_controls_and_adversarial_cases (test_verifier.VerifierTests.test_development_controls_and_adversarial_cases) ... ok
+test_duplicate_keys_and_nonfinite_json_are_rejected (test_verifier.VerifierTests.test_duplicate_keys_and_nonfinite_json_are_rejected) ... ok
+test_duplicate_review_ids_are_rejected (test_verifier.VerifierTests.test_duplicate_review_ids_are_rejected) ... ok
+test_exact_quote_keeps_provisos_and_locators (test_verifier.VerifierTests.test_exact_quote_keeps_provisos_and_locators) ... ok
+test_explicit_historical_date_remains_reproducible (test_verifier.VerifierTests.test_explicit_historical_date_remains_reproducible) ... ok
+test_false_approval_findings_are_rejected_by_contract (test_verifier.VerifierTests.test_false_approval_findings_are_rejected_by_contract) ... ok
+test_finite_json_numbers_remain_valid (test_verifier.VerifierTests.test_finite_json_numbers_remain_valid) ... ok
+test_forged_candidate_metadata_is_detected (test_verifier.VerifierTests.test_forged_candidate_metadata_is_detected) ... ok
+test_future_recorded_source_date_is_blocked (test_verifier.VerifierTests.test_future_recorded_source_date_is_blocked) ... ok
+test_invalid_input_types_fail_closed (test_verifier.VerifierTests.test_invalid_input_types_fail_closed) ... ok
+test_invalid_review_dates_are_rejected (test_verifier.VerifierTests.test_invalid_review_dates_are_rejected) ... ok
+test_known_missing_modifier_blocks_current_guidance (test_verifier.VerifierTests.test_known_missing_modifier_blocks_current_guidance) ... ok
+test_mutated_review_store_stops_subsequent_requests (test_verifier.VerifierTests.test_mutated_review_store_stops_subsequent_requests) ... ok
+test_no_review_file_was_fabricated (test_verifier.VerifierTests.test_no_review_file_was_fabricated) ... ok
+test_normal_runtime_refuses_software_reviews (test_verifier.VerifierTests.test_normal_runtime_refuses_software_reviews) ... ok
+test_one_failed_claim_withholds_its_whole_component (test_verifier.VerifierTests.test_one_failed_claim_withholds_its_whole_component) ... ok
+test_output_contracts_and_confidence_separation (test_verifier.VerifierTests.test_output_contracts_and_confidence_separation) ... ok
+test_ranking_score_is_not_a_permission_signal (test_verifier.VerifierTests.test_ranking_score_is_not_a_permission_signal) ... ok
+test_real_classifier_routes_are_preserved (test_verifier.VerifierTests.test_real_classifier_routes_are_preserved) ... ok
+test_related_authority_policy_requires_implementing_rules (test_verifier.VerifierTests.test_related_authority_policy_requires_implementing_rules) ... ok
+test_request_rechecks_source_index_runtime_and_model_hashes (test_verifier.VerifierTests.test_request_rechecks_source_index_runtime_and_model_hashes) ... ok
+test_retrieval_source_hash_failure_stops_constructor (test_verifier.VerifierTests.test_retrieval_source_hash_failure_stops_constructor) ... ok
+test_reviews_cannot_be_unscoped (test_verifier.VerifierTests.test_reviews_cannot_be_unscoped) ... ok
+test_software_review_gates_are_operable_but_explicitly_simulated (test_verifier.VerifierTests.test_software_review_gates_are_operable_but_explicitly_simulated) ... ok
+test_source_helper_rejects_unknown_modes_and_sources (test_verifier.VerifierTests.test_source_helper_rejects_unknown_modes_and_sources) ... ok
+test_supported_and_excluded_concerns_stay_separate (test_verifier.VerifierTests.test_supported_and_excluded_concerns_stay_separate) ... ok
+test_termination_irr_requires_later_order (test_verifier.VerifierTests.test_termination_irr_requires_later_order) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 41.953s
+
+OK

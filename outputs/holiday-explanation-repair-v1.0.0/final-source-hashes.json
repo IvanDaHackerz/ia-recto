@@ -1,0 +1,13 @@
+{
+  "CURRENT_ARTIFACTS.json": "b536350ae1a6d380588ccddea79c3d0ce9da0631fa2de083feff81a648dfeec8",
+  "dataset/pipelines/item10/clause_classifier.py": "016d093f97fa25f475a47fa7f3b824ec37e86449da21cfd92a4c742301d561de",
+  "dataset/pipelines/item11/retrieval.py": "69a8df3220dd7a84928b2db5d1f79b72767f82b0e05511d139f67fcf71c2c039",
+  "backend/application/development_explanation.py": "888dad29154ff21a0cf4f6cc49ec95117dcf8a67558c09ed6a42e93a1e5a81e4",
+  "backend/application/grounding.py": "7cb2629d0a68d3f821b5df15527136a4a5e35879d693be65f961df8c0af5f466",
+  "backend/application/controls.py": "402f94609126fe83610c65f477378231baff65e5522be6c13a7810f31d2909dc",
+  "backend/application/evidence.py": "f37d73b438ccbe7d5a8d3ad048ccc448da776a89a5ca5fe53dc9e282b6483b77",
+  "backend/application/source_issues.py": "2d1f0cf54feb5d3bf8e73c4f76943553e23094077d4fe18457cfe5fd6f8ea606",
+  "backend/evaluate_application.py": "7226656f246570b11f29a5a9b66085316c575155f293c484d7db9200fe9e7e54",
+  "UI/UX/app/src/components/LiveResult.tsx": "b36c8e93933e1a6532f0063e58925d6d7a4b6b6a2a558acf08ee72db56ab8c28",
+  "UI/UX/app/src/data/api.ts": "86897f9293f6f82b93195cd0d950ff4868127bb186dc2e91318b0cfe8f042a8c"
+}

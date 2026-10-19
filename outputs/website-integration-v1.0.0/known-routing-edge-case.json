@@ -1,0 +1,24 @@
+{
+  "origin": "new_synthetic_integration_diagnostic",
+  "independent_human_gold": false,
+  "scored_in_frozen_424_run": false,
+  "joined_question": "Private employee ako. Hindi binayaran ang overtime ko at ayaw ibalik ng landlord ang rental deposit.",
+  "expected": {
+    "topic": "mixed",
+    "scope": "partially_supported",
+    "route": "retrieve_supported_components"
+  },
+  "actual": {
+    "topic": "out_of_scope",
+    "scope": "unsupported",
+    "route": "refer_out_of_scope"
+  },
+  "separate_sentences_question": "Private employee ako. Hindi binayaran ang overtime ko. Ayaw ibalik ng landlord ang rental deposit.",
+  "separate_sentences_actual": {
+    "topic": "mixed",
+    "scope": "partially_supported",
+    "route": "retrieve_supported_components"
+  },
+  "status": "open_model_segmentation_limitation",
+  "mitigation": "UI asks for separate sentences for different concerns. No classifier weights, preprocessing, package binding or frozen report was changed to hide this failure."
+}

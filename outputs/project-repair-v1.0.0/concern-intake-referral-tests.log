@@ -1,0 +1,21 @@
+test_actual_general_requests_remain_excluded (test_concern_repairs.ConcernRepairTests.test_actual_general_requests_remain_excluded) ... ok
+test_actual_joined_concerns_remain_partial (test_concern_repairs.ConcernRepairTests.test_actual_joined_concerns_remain_partial) ... ok
+test_historical_fact_does_not_inflate_current_concern (test_concern_repairs.ConcernRepairTests.test_historical_fact_does_not_inflate_current_concern) ... ok
+test_incidental_general_words_do_not_override_real_complaints (test_concern_repairs.ConcernRepairTests.test_incidental_general_words_do_not_override_real_complaints) ... ok
+test_negated_category_is_not_an_excluded_concern (test_concern_repairs.ConcernRepairTests.test_negated_category_is_not_an_excluded_concern) ... ok
+test_quoted_demonstration_is_not_personal_harm (test_concern_repairs.ConcernRepairTests.test_quoted_demonstration_is_not_personal_harm) ... ok
+test_ai_writing_cannot_be_accepted_as_independent_human_writing (test_independent_gold.GoldTests.test_ai_writing_cannot_be_accepted_as_independent_human_writing) ... ok
+test_blank_form_is_not_valid_gold (test_independent_gold.GoldTests.test_blank_form_is_not_valid_gold) ... ok
+test_existing_question_overlap_is_rejected_despite_claimed_human_origin (test_independent_gold.GoldTests.test_existing_question_overlap_is_rejected_despite_claimed_human_origin) ... ok
+test_inspected_derivative_and_tuning_rows_are_rejected (test_independent_gold.GoldTests.test_inspected_derivative_and_tuning_rows_are_rejected) ... ok
+test_missing_annotation_and_invalid_pair_are_rejected (test_independent_gold.GoldTests.test_missing_annotation_and_invalid_pair_are_rejected) ... ok
+test_all_original_referral_ids_are_retained (test_referral_refresh.ContactTests.test_all_original_referral_ids_are_retained) ... ok
+test_emergency_hotline_qualification_and_no_deployment (test_referral_refresh.ContactTests.test_emergency_hotline_qualification_and_no_deployment) ... ok
+test_housing_agency_feedback_email_is_not_exposed_as_case_filing (test_referral_refresh.ContactTests.test_housing_agency_feedback_email_is_not_exposed_as_case_filing) ... ok
+test_masked_email_does_not_become_verified_email (test_referral_refresh.ContactTests.test_masked_email_does_not_become_verified_email) ... ok
+test_portal_and_phone_have_field_specific_evidence (test_referral_refresh.ContactTests.test_portal_and_phone_have_field_specific_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.536s
+
+OK

@@ -1,0 +1,924 @@
+{
+  "development": [
+    "EVAL_001",
+    "EVAL_002",
+    "EVAL_003",
+    "EVAL_004",
+    "EVAL_005",
+    "EVAL_006",
+    "EVAL_007",
+    "EVAL_008",
+    "EVAL_009",
+    "EVAL_010",
+    "EVAL_011",
+    "EVAL_012",
+    "EVAL_013",
+    "EVAL_014",
+    "EVAL_015",
+    "EVAL_016",
+    "EVAL_017",
+    "EVAL_018",
+    "EVAL_019",
+    "EVAL_020",
+    "EVAL_021",
+    "EVAL_022",
+    "EVAL_023",
+    "EVAL_024",
+    "EVAL_025",
+    "EVAL_026",
+    "EVAL_027",
+    "EVAL_028",
+    "EVAL_029",
+    "EVAL_030",
+    "EVAL_031",
+    "EVAL_032",
+    "EVAL_033",
+    "EVAL_034",
+    "EVAL_035",
+    "EVAL_036",
+    "EVAL_037",
+    "EVAL_038",
+    "EVAL_039",
+    "EVAL_040",
+    "EVAL_041",
+    "EVAL_042",
+    "EVAL_043",
+    "EVAL_044",
+    "EVAL_045",
+    "EVAL_046",
+    "EVAL_047",
+    "EVAL_048",
+    "EVAL_049",
+    "EVAL_050",
+    "EVAL_051",
+    "EVAL_052",
+    "EVAL_053",
+    "EVAL_054",
+    "EVAL_055",
+    "EVAL_056",
+    "EVAL_057",
+    "EVAL_058",
+    "EVAL_059",
+    "EVAL_060",
+    "EVAL_061",
+    "EVAL_062",
+    "EVAL_063",
+    "EVAL_064",
+    "EVAL_065",
+    "EVAL_066",
+    "EVAL_067",
+    "EVAL_068",
+    "EVAL_069",
+    "EVAL_070",
+    "EVAL_071",
+    "EVAL_072",
+    "EVAL_073",
+    "EVAL_074",
+    "EVAL_075",
+    "EVAL_076",
+    "EVAL_077",
+    "EVAL_078",
+    "EVAL_079",
+    "EVAL_080",
+    "EVAL_081",
+    "EVAL_082",
+    "EVAL_083",
+    "EVAL_084",
+    "EVAL_085",
+    "EVAL_086",
+    "EVAL_087",
+    "EVAL_088",
+    "EVAL_089",
+    "EVAL_090",
+    "EVAL_091",
+    "EVAL_092",
+    "EVAL_093",
+    "EVAL_094",
+    "EVAL_095",
+    "EVAL_096",
+    "EVAL_097",
+    "EVAL_098",
+    "EVAL_099",
+    "EVAL_100",
+    "TYPE_001",
+    "TYPE_002",
+    "TYPE_003",
+    "TYPE_004",
+    "TYPE_005",
+    "TYPE_006",
+    "TYPE_007",
+    "TYPE_008",
+    "TYPE_009",
+    "TYPE_010",
+    "TYPE_011",
+    "TYPE_012",
+    "TYPE_013",
+    "TYPE_014",
+    "TYPE_015",
+    "TYPE_016",
+    "TYPE_017",
+    "TYPE_018",
+    "TYPE_019",
+    "TYPE_020",
+    "TYPE_021",
+    "TYPE_022",
+    "TYPE_023",
+    "TYPE_024",
+    "TYPE_025",
+    "TYPE_026",
+    "TYPE_027",
+    "TYPE_028",
+    "TYPE_029",
+    "TYPE_030",
+    "TYPE_031",
+    "TYPE_032",
+    "TYPE_033",
+    "TYPE_034",
+    "TYPE_035",
+    "TYPE_036",
+    "TYPE_037",
+    "TYPE_038",
+    "TYPE_039",
+    "TYPE_040",
+    "TYPE_041",
+    "TYPE_042",
+    "TYPE_043",
+    "TYPE_044",
+    "TYPE_045",
+    "TYPE_046",
+    "TYPE_047",
+    "TYPE_048",
+    "TYPE_049",
+    "TYPE_050",
+    "TYPE_051",
+    "TYPE_052",
+    "TYPE_053",
+    "TYPE_054",
+    "TYPE_055",
+    "TYPE_056",
+    "TYPE_057",
+    "TYPE_058",
+    "TYPE_059",
+    "TYPE_060",
+    "TYPE_061",
+    "TYPE_062",
+    "TYPE_063",
+    "TYPE_064",
+    "TYPE_065",
+    "TYPE_066",
+    "TYPE_067",
+    "TYPE_068",
+    "TYPE_069",
+    "TYPE_070",
+    "TYPE_071",
+    "TYPE_072",
+    "TYPE_073",
+    "TYPE_074",
+    "TYPE_075",
+    "TYPE_076",
+    "TYPE_077",
+    "TYPE_078",
+    "TYPE_079",
+    "TYPE_080",
+    "TYPE_081",
+    "TYPE_082",
+    "TYPE_083",
+    "TYPE_084",
+    "TYPE_085",
+    "TYPE_086",
+    "TYPE_087",
+    "TYPE_088",
+    "TYPE_089",
+    "TYPE_090",
+    "TYPE_091",
+    "TYPE_092",
+    "TYPE_093",
+    "TYPE_094",
+    "TYPE_095",
+    "TYPE_096",
+    "TYPE_097",
+    "TYPE_098",
+    "TYPE_099",
+    "TYPE_100",
+    "IR_01_en",
+    "IR_01_en_tl",
+    "IR_02_en",
+    "IR_02_en_tl",
+    "IR_03_en",
+    "IR_03_en_tl",
+    "IR_04_en",
+    "IR_04_en_tl",
+    "IR_05_en",
+    "IR_05_en_tl",
+    "IR_06_en",
+    "IR_06_en_tl",
+    "IR_07_en",
+    "IR_07_en_tl",
+    "IR_08_en",
+    "IR_08_en_tl",
+    "IR_09_en",
+    "IR_09_en_tl",
+    "IR_10_en",
+    "IR_10_en_tl",
+    "IR_11_en",
+    "IR_11_en_tl",
+    "IR_12_en",
+    "IR_12_en_tl",
+    "IR_13_en",
+    "IR_13_en_tl",
+    "IR_14_en",
+    "IR_14_en_tl",
+    "IR_15_en",
+    "IR_15_en_tl",
+    "IR_16_en",
+    "IR_16_en_tl",
+    "IR_17_en",
+    "IR_17_en_tl",
+    "IR_18_en",
+    "IR_18_en_tl",
+    "IR_19_en",
+    "IR_19_en_tl",
+    "IR_20_en",
+    "IR_20_en_tl",
+    "IR_21_en",
+    "IR_21_en_tl",
+    "IR_22_en",
+    "IR_22_en_tl",
+    "IR_23_en",
+    "IR_23_en_tl",
+    "IR_24_en",
+    "IR_24_en_tl",
+    "IR_25_en",
+    "IR_25_en_tl",
+    "IR_26_en",
+    "IR_26_en_tl",
+    "IR_27_en",
+    "IR_27_en_tl",
+    "IR_28_en",
+    "IR_28_en_tl",
+    "IR_NEG_01",
+    "IR_NEG_02",
+    "IR_NEG_03",
+    "IR_NEG_04",
+    "IR_NEG_05",
+    "IR_NEG_06",
+    "IR_NEG_07",
+    "IR_NEG_08",
+    "IR_NEG_09",
+    "IR_NEG_10",
+    "IR_NEG_11",
+    "SYS_01_1",
+    "SYS_01_2",
+    "SYS_01_3",
+    "SYS_02_1",
+    "SYS_02_2",
+    "SYS_02_3",
+    "SYS_03_1",
+    "SYS_03_2",
+    "SYS_03_3",
+    "SYS_04_1",
+    "SYS_04_2",
+    "SYS_04_3",
+    "SYS_05_1",
+    "SYS_05_2",
+    "SYS_05_3",
+    "SYS_06_1",
+    "SYS_06_2",
+    "SYS_06_3",
+    "SYS_07_1",
+    "SYS_07_2",
+    "SYS_07_3",
+    "SYS_08_1",
+    "SYS_08_2",
+    "SYS_08_3"
+  ],
+  "families": {
+    "general:EVAL_F001": [
+      "EVAL_001"
+    ],
+    "general:EVAL_F002": [
+      "EVAL_002"
+    ],
+    "general:EVAL_F003": [
+      "EVAL_003"
+    ],
+    "general:EVAL_F004": [
+      "EVAL_004"
+    ],
+    "general:EVAL_F005": [
+      "EVAL_005"
+    ],
+    "general:EVAL_F006": [
+      "EVAL_006"
+    ],
+    "general:EVAL_F007": [
+      "EVAL_007"
+    ],
+    "general:EVAL_F008": [
+      "EVAL_008"
+    ],
+    "general:EVAL_F009": [
+      "EVAL_009"
+    ],
+    "general:EVAL_F010": [
+      "EVAL_010"
+    ],
+    "general:EVAL_F011": [
+      "EVAL_011"
+    ],
+    "general:EVAL_F012": [
+      "EVAL_012"
+    ],
+    "general:EVAL_F013": [
+      "EVAL_013"
+    ],
+    "general:EVAL_F014": [
+      "EVAL_014"
+    ],
+    "general:EVAL_F015": [
+      "EVAL_015"
+    ],
+    "general:EVAL_F016": [
+      "EVAL_016"
+    ],
+    "general:EVAL_F017": [
+      "EVAL_017"
+    ],
+    "general:EVAL_F018": [
+      "EVAL_018"
+    ],
+    "general:EVAL_F019": [
+      "EVAL_019"
+    ],
+    "general:EVAL_F020": [
+      "EVAL_020"
+    ],
+    "general:EVAL_F021": [
+      "EVAL_021"
+    ],
+    "general:EVAL_F022": [
+      "EVAL_022"
+    ],
+    "general:EVAL_F023": [
+      "EVAL_023"
+    ],
+    "general:EVAL_F024": [
+      "EVAL_024"
+    ],
+    "general:EVAL_F025": [
+      "EVAL_025"
+    ],
+    "general:EVAL_F026": [
+      "EVAL_026"
+    ],
+    "general:EVAL_F027": [
+      "EVAL_027"
+    ],
+    "general:EVAL_F028": [
+      "EVAL_028"
+    ],
+    "general:EVAL_F029": [
+      "EVAL_029"
+    ],
+    "general:EVAL_F030": [
+      "EVAL_030"
+    ],
+    "general:EVAL_F031": [
+      "EVAL_031"
+    ],
+    "general:EVAL_F032": [
+      "EVAL_032"
+    ],
+    "general:EVAL_F033": [
+      "EVAL_033"
+    ],
+    "general:EVAL_F034": [
+      "EVAL_034"
+    ],
+    "general:EVAL_F035": [
+      "EVAL_035"
+    ],
+    "general:EVAL_F036": [
+      "EVAL_036"
+    ],
+    "general:EVAL_F037": [
+      "EVAL_037"
+    ],
+    "general:EVAL_F038": [
+      "EVAL_038"
+    ],
+    "general:EVAL_F039": [
+      "EVAL_039"
+    ],
+    "general:EVAL_F040": [
+      "EVAL_040"
+    ],
+    "general:EVAL_F041": [
+      "EVAL_041"
+    ],
+    "general:EVAL_F042": [
+      "EVAL_042"
+    ],
+    "general:EVAL_F043": [
+      "EVAL_043"
+    ],
+    "general:EVAL_F044": [
+      "EVAL_044"
+    ],
+    "general:EVAL_F045": [
+      "EVAL_045"
+    ],
+    "general:EVAL_F046": [
+      "EVAL_046"
+    ],
+    "general:EVAL_F047": [
+      "EVAL_047"
+    ],
+    "general:EVAL_F048": [
+      "EVAL_048"
+    ],
+    "general:EVAL_F049": [
+      "EVAL_049"
+    ],
+    "general:EVAL_F050": [
+      "EVAL_050"
+    ],
+    "general:EVAL_F051": [
+      "EVAL_051"
+    ],
+    "general:EVAL_F052": [
+      "EVAL_052"
+    ],
+    "general:EVAL_F053": [
+      "EVAL_053"
+    ],
+    "general:EVAL_F054": [
+      "EVAL_054"
+    ],
+    "general:EVAL_F055": [
+      "EVAL_055"
+    ],
+    "general:EVAL_F056": [
+      "EVAL_056"
+    ],
+    "general:EVAL_F057": [
+      "EVAL_057"
+    ],
+    "general:EVAL_F058": [
+      "EVAL_058"
+    ],
+    "general:EVAL_F059": [
+      "EVAL_059"
+    ],
+    "general:EVAL_F060": [
+      "EVAL_060"
+    ],
+    "general:EVAL_F061": [
+      "EVAL_061"
+    ],
+    "general:EVAL_F062": [
+      "EVAL_062"
+    ],
+    "general:EVAL_F063": [
+      "EVAL_063"
+    ],
+    "general:EVAL_F064": [
+      "EVAL_064"
+    ],
+    "general:EVAL_F065": [
+      "EVAL_065"
+    ],
+    "general:EVAL_F066": [
+      "EVAL_066"
+    ],
+    "general:EVAL_F067": [
+      "EVAL_067"
+    ],
+    "general:EVAL_F068": [
+      "EVAL_068"
+    ],
+    "general:EVAL_F069": [
+      "EVAL_069"
+    ],
+    "general:EVAL_F070": [
+      "EVAL_070"
+    ],
+    "general:EVAL_F071": [
+      "EVAL_071"
+    ],
+    "general:EVAL_F072": [
+      "EVAL_072"
+    ],
+    "general:EVAL_F073": [
+      "EVAL_073"
+    ],
+    "general:EVAL_F074": [
+      "EVAL_074"
+    ],
+    "general:EVAL_F075": [
+      "EVAL_075"
+    ],
+    "general:EVAL_F076": [
+      "EVAL_076"
+    ],
+    "general:EVAL_F077": [
+      "EVAL_077"
+    ],
+    "general:EVAL_F078": [
+      "EVAL_078"
+    ],
+    "general:EVAL_F079": [
+      "EVAL_079"
+    ],
+    "general:EVAL_F080": [
+      "EVAL_080"
+    ],
+    "general:EVAL_F081": [
+      "EVAL_081"
+    ],
+    "general:EVAL_F082": [
+      "EVAL_082"
+    ],
+    "general:EVAL_F083": [
+      "EVAL_083"
+    ],
+    "general:EVAL_F084": [
+      "EVAL_084"
+    ],
+    "general:EVAL_F085": [
+      "EVAL_085"
+    ],
+    "general:EVAL_F086": [
+      "EVAL_086"
+    ],
+    "general:EVAL_F087": [
+      "EVAL_087"
+    ],
+    "general:EVAL_F088": [
+      "EVAL_088"
+    ],
+    "general:EVAL_F089": [
+      "EVAL_089"
+    ],
+    "general:EVAL_F090": [
+      "EVAL_090"
+    ],
+    "general:EVAL_F091": [
+      "EVAL_091"
+    ],
+    "general:EVAL_F092": [
+      "EVAL_092"
+    ],
+    "general:EVAL_F093": [
+      "EVAL_093"
+    ],
+    "general:EVAL_F094": [
+      "EVAL_094"
+    ],
+    "general:EVAL_F095": [
+      "EVAL_095"
+    ],
+    "general:EVAL_F096": [
+      "EVAL_096"
+    ],
+    "general:EVAL_F097": [
+      "EVAL_097"
+    ],
+    "general:EVAL_F098": [
+      "EVAL_098"
+    ],
+    "general:EVAL_F099": [
+      "EVAL_099"
+    ],
+    "general:EVAL_F100": [
+      "EVAL_100"
+    ],
+    "retrieval:IR_01": [
+      "IR_01_en",
+      "IR_01_en_tl"
+    ],
+    "retrieval:IR_02": [
+      "IR_02_en",
+      "IR_02_en_tl"
+    ],
+    "retrieval:IR_03": [
+      "IR_03_en",
+      "IR_03_en_tl"
+    ],
+    "retrieval:IR_04": [
+      "IR_04_en",
+      "IR_04_en_tl"
+    ],
+    "retrieval:IR_05": [
+      "IR_05_en",
+      "IR_05_en_tl"
+    ],
+    "retrieval:IR_06": [
+      "IR_06_en",
+      "IR_06_en_tl"
+    ],
+    "retrieval:IR_07": [
+      "IR_07_en",
+      "IR_07_en_tl"
+    ],
+    "retrieval:IR_08": [
+      "IR_08_en",
+      "IR_08_en_tl"
+    ],
+    "retrieval:IR_09": [
+      "IR_09_en",
+      "IR_09_en_tl"
+    ],
+    "retrieval:IR_10": [
+      "IR_10_en",
+      "IR_10_en_tl"
+    ],
+    "retrieval:IR_11": [
+      "IR_11_en",
+      "IR_11_en_tl"
+    ],
+    "retrieval:IR_12": [
+      "IR_12_en",
+      "IR_12_en_tl"
+    ],
+    "retrieval:IR_13": [
+      "IR_13_en",
+      "IR_13_en_tl"
+    ],
+    "retrieval:IR_14": [
+      "IR_14_en",
+      "IR_14_en_tl"
+    ],
+    "retrieval:IR_15": [
+      "IR_15_en",
+      "IR_15_en_tl"
+    ],
+    "retrieval:IR_16": [
+      "IR_16_en",
+      "IR_16_en_tl"
+    ],
+    "retrieval:IR_17": [
+      "IR_17_en",
+      "IR_17_en_tl"
+    ],
+    "retrieval:IR_18": [
+      "IR_18_en",
+      "IR_18_en_tl"
+    ],
+    "retrieval:IR_19": [
+      "IR_19_en",
+      "IR_19_en_tl"
+    ],
+    "retrieval:IR_20": [
+      "IR_20_en",
+      "IR_20_en_tl"
+    ],
+    "retrieval:IR_21": [
+      "IR_21_en",
+      "IR_21_en_tl"
+    ],
+    "retrieval:IR_22": [
+      "IR_22_en",
+      "IR_22_en_tl"
+    ],
+    "retrieval:IR_23": [
+      "IR_23_en",
+      "IR_23_en_tl"
+    ],
+    "retrieval:IR_24": [
+      "IR_24_en",
+      "IR_24_en_tl"
+    ],
+    "retrieval:IR_25": [
+      "IR_25_en",
+      "IR_25_en_tl"
+    ],
+    "retrieval:IR_26": [
+      "IR_26_en",
+      "IR_26_en_tl"
+    ],
+    "retrieval:IR_27": [
+      "IR_27_en",
+      "IR_27_en_tl"
+    ],
+    "retrieval:IR_28": [
+      "IR_28_en",
+      "IR_28_en_tl"
+    ],
+    "retrieval:IR_NEG_01": [
+      "IR_NEG_01"
+    ],
+    "retrieval:IR_NEG_02": [
+      "IR_NEG_02"
+    ],
+    "retrieval:IR_NEG_03": [
+      "IR_NEG_03"
+    ],
+    "retrieval:IR_NEG_04": [
+      "IR_NEG_04"
+    ],
+    "retrieval:IR_NEG_05": [
+      "IR_NEG_05"
+    ],
+    "retrieval:IR_NEG_06": [
+      "IR_NEG_06"
+    ],
+    "retrieval:IR_NEG_07": [
+      "IR_NEG_07"
+    ],
+    "retrieval:IR_NEG_08": [
+      "IR_NEG_08"
+    ],
+    "retrieval:IR_NEG_09": [
+      "IR_NEG_09"
+    ],
+    "retrieval:IR_NEG_10": [
+      "IR_NEG_10"
+    ],
+    "retrieval:IR_NEG_11": [
+      "IR_NEG_11"
+    ],
+    "system:SYS_01": [
+      "SYS_01_1",
+      "SYS_01_2",
+      "SYS_01_3"
+    ],
+    "system:SYS_02": [
+      "SYS_02_1",
+      "SYS_02_2",
+      "SYS_02_3"
+    ],
+    "system:SYS_03": [
+      "SYS_03_1",
+      "SYS_03_2",
+      "SYS_03_3"
+    ],
+    "system:SYS_04": [
+      "SYS_04_1",
+      "SYS_04_2",
+      "SYS_04_3"
+    ],
+    "system:SYS_05": [
+      "SYS_05_1",
+      "SYS_05_2",
+      "SYS_05_3"
+    ],
+    "system:SYS_06": [
+      "SYS_06_1",
+      "SYS_06_2",
+      "SYS_06_3"
+    ],
+    "system:SYS_07": [
+      "SYS_07_1",
+      "SYS_07_2",
+      "SYS_07_3"
+    ],
+    "system:SYS_08": [
+      "SYS_08_1",
+      "SYS_08_2",
+      "SYS_08_3"
+    ],
+    "typing:TYPE_G01": [
+      "TYPE_001",
+      "TYPE_002",
+      "TYPE_003",
+      "TYPE_004",
+      "TYPE_005"
+    ],
+    "typing:TYPE_G02": [
+      "TYPE_006",
+      "TYPE_007",
+      "TYPE_008",
+      "TYPE_009",
+      "TYPE_010"
+    ],
+    "typing:TYPE_G03": [
+      "TYPE_011",
+      "TYPE_012",
+      "TYPE_013",
+      "TYPE_014",
+      "TYPE_015"
+    ],
+    "typing:TYPE_G04": [
+      "TYPE_016",
+      "TYPE_017",
+      "TYPE_018",
+      "TYPE_019",
+      "TYPE_020"
+    ],
+    "typing:TYPE_G05": [
+      "TYPE_021",
+      "TYPE_022",
+      "TYPE_023",
+      "TYPE_024",
+      "TYPE_025"
+    ],
+    "typing:TYPE_G06": [
+      "TYPE_026",
+      "TYPE_027",
+      "TYPE_028",
+      "TYPE_029",
+      "TYPE_030"
+    ],
+    "typing:TYPE_G07": [
+      "TYPE_031",
+      "TYPE_032",
+      "TYPE_033",
+      "TYPE_034",
+      "TYPE_035"
+    ],
+    "typing:TYPE_G08": [
+      "TYPE_036",
+      "TYPE_037",
+      "TYPE_038",
+      "TYPE_039",
+      "TYPE_040"
+    ],
+    "typing:TYPE_G09": [
+      "TYPE_041",
+      "TYPE_042",
+      "TYPE_043",
+      "TYPE_044",
+      "TYPE_045"
+    ],
+    "typing:TYPE_G10": [
+      "TYPE_046",
+      "TYPE_047",
+      "TYPE_048",
+      "TYPE_049",
+      "TYPE_050"
+    ],
+    "typing:TYPE_G11": [
+      "TYPE_051",
+      "TYPE_052",
+      "TYPE_053",
+      "TYPE_054",
+      "TYPE_055"
+    ],
+    "typing:TYPE_G12": [
+      "TYPE_056",
+      "TYPE_057",
+      "TYPE_058",
+      "TYPE_059",
+      "TYPE_060"
+    ],
+    "typing:TYPE_G13": [
+      "TYPE_061",
+      "TYPE_062",
+      "TYPE_063",
+      "TYPE_064",
+      "TYPE_065"
+    ],
+    "typing:TYPE_G14": [
+      "TYPE_066",
+      "TYPE_067",
+      "TYPE_068",
+      "TYPE_069",
+      "TYPE_070"
+    ],
+    "typing:TYPE_G15": [
+      "TYPE_071",
+      "TYPE_072",
+      "TYPE_073",
+      "TYPE_074",
+      "TYPE_075"
+    ],
+    "typing:TYPE_G16": [
+      "TYPE_076",
+      "TYPE_077",
+      "TYPE_078",
+      "TYPE_079",
+      "TYPE_080"
+    ],
+    "typing:TYPE_G17": [
+      "TYPE_081",
+      "TYPE_082",
+      "TYPE_083",
+      "TYPE_084",
+      "TYPE_085"
+    ],
+    "typing:TYPE_G18": [
+      "TYPE_086",
+      "TYPE_087",
+      "TYPE_088",
+      "TYPE_089",
+      "TYPE_090"
+    ],
+    "typing:TYPE_G19": [
+      "TYPE_091",
+      "TYPE_092",
+      "TYPE_093",
+      "TYPE_094",
+      "TYPE_095"
+    ],
+    "typing:TYPE_G20": [
+      "TYPE_096",
+      "TYPE_097",
+      "TYPE_098",
+      "TYPE_099",
+      "TYPE_100"
+    ]
+  },
+  "independent_final": [],
+  "note": "Previously inspected material and new AI cases remain development. No random relabeling as an untouched test."
+}

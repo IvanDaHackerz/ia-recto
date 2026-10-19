@@ -1,0 +1,198 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://recto-co.local/schemas/legal_provision.schema.json",
+  "title": "Recto & Co. Legal Provision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "cleaning_version",
+    "provision_id",
+    "document_id",
+    "parent_provision_id",
+    "sequence_number",
+    "provision_level",
+    "locator_label",
+    "locator_normalized",
+    "former_locator_labels",
+    "heading",
+    "hierarchy",
+    "citation_display",
+    "verbatim_text",
+    "normalized_text",
+    "search_text",
+    "footnotes",
+    "source_locator",
+    "domains",
+    "scope_status",
+    "supported_topics",
+    "excluded_topics",
+    "exclusion_reason",
+    "responsible_agencies",
+    "provision_answer_eligible",
+    "answer_use_mode",
+    "legal_status",
+    "status_family",
+    "status_as_of",
+    "relationship_ids",
+    "extraction_method",
+    "ocr_used",
+    "ocr_confidence",
+    "rotation_degrees_clockwise",
+    "quality_flags",
+    "manual_repairs",
+    "review_status",
+    "reviewed_at"
+  ],
+  "properties": {
+    "contract_version": {"type": "string", "const": "1.0.0"},
+    "cleaning_version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "provision_id": {"type": "string", "pattern": "^[A-Z0-9_]+__[a-z0-9_]+(?:__[a-z0-9_]+)*$"},
+    "document_id": {"type": "string", "pattern": "^[A-Z0-9_]+$"},
+    "parent_provision_id": {"type": ["string", "null"]},
+    "sequence_number": {"type": "integer", "minimum": 1},
+    "provision_level": {
+      "type": "string",
+      "enum": [
+        "article",
+        "section",
+        "rule",
+        "regulation",
+        "subsection",
+        "paragraph",
+        "clause",
+        "defined_term",
+        "annex_item",
+        "other"
+      ]
+    },
+    "locator_label": {"type": "string", "minLength": 1},
+    "locator_normalized": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "former_locator_labels": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "heading": {"type": ["string", "null"]},
+    "hierarchy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["book", "title", "chapter", "part", "rule"],
+      "properties": {
+        "book": {"type": ["string", "null"]},
+        "title": {"type": ["string", "null"]},
+        "chapter": {"type": ["string", "null"]},
+        "part": {"type": ["string", "null"]},
+        "rule": {"type": ["string", "null"]}
+      }
+    },
+    "citation_display": {"type": "string", "minLength": 1},
+    "verbatim_text": {"type": "string", "minLength": 1},
+    "normalized_text": {"type": "string", "minLength": 1},
+    "search_text": {"type": "string", "minLength": 1},
+    "footnotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["marker", "text"],
+        "properties": {
+          "marker": {"type": "string", "minLength": 1},
+          "text": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "source_locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pdf_page_start",
+        "pdf_page_end",
+        "printed_page_start",
+        "printed_page_end",
+        "html_anchor",
+        "source_region",
+        "source_char_start",
+        "source_char_end"
+      ],
+      "properties": {
+        "pdf_page_start": {"type": ["integer", "null"], "minimum": 1},
+        "pdf_page_end": {"type": ["integer", "null"], "minimum": 1},
+        "printed_page_start": {"type": ["string", "null"]},
+        "printed_page_end": {"type": ["string", "null"]},
+        "html_anchor": {"type": ["string", "null"]},
+        "source_region": {"type": ["string", "null"]},
+        "source_char_start": {"type": ["integer", "null"], "minimum": 0},
+        "source_char_end": {"type": ["integer", "null"], "minimum": 0}
+      }
+    },
+    "domains": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "enum": ["labor", "consumer", "general"]}
+    },
+    "scope_status": {"type": "string", "enum": ["supported", "excluded", "partial", "review_required"]},
+    "supported_topics": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "excluded_topics": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "exclusion_reason": {"type": ["string", "null"]},
+    "responsible_agencies": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "provision_answer_eligible": {"type": "boolean"},
+    "answer_use_mode": {
+      "type": "string",
+      "enum": [
+        "default_answer",
+        "historical_only",
+        "time_bound_only",
+        "corroboration_only",
+        "explanatory_only",
+        "blocked_pending_verification",
+        "scope_excluded",
+        "manual_review_required"
+      ]
+    },
+    "legal_status": {"type": "string", "minLength": 1},
+    "status_family": {
+      "type": "string",
+      "enum": ["current", "current_with_conditions", "historical", "time_bound", "explanatory", "verification_pending"]
+    },
+    "status_as_of": {"type": "string", "format": "date"},
+    "effective_from": {"type": ["string", "null"], "pattern": "^[0-9]{4}(-[0-9]{2}-[0-9]{2})?$"},
+    "effective_to": {"type": ["string", "null"], "pattern": "^[0-9]{4}(-[0-9]{2}-[0-9]{2})?$"},
+    "relationship_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^LSR_[0-9]{3}$"}},
+    "extraction_method": {
+      "type": "string",
+      "enum": [
+        "html_structural",
+        "pdf_text",
+        "pdf_text_with_visual_verification",
+        "ocr",
+        "ocr_with_manual_verification",
+        "manual_transcription_from_scan_for_contract_sample"
+      ]
+    },
+    "ocr_used": {"type": "boolean"},
+    "ocr_confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "rotation_degrees_clockwise": {"type": "integer", "enum": [0, 90, 180, 270]},
+    "quality_flags": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "manual_repairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "extracted_value", "corrected_value", "reason"],
+        "properties": {
+          "field": {"type": "string"},
+          "extracted_value": {"type": "string"},
+          "corrected_value": {"type": "string"},
+          "reason": {"type": "string"}
+        }
+      }
+    },
+    "review_status": {
+      "type": "string",
+      "enum": ["unreviewed", "machine_validated", "human_review_required", "sample_verified", "verified"]
+    },
+    "reviewed_at": {"type": ["string", "null"], "format": "date"}
+  }
+}

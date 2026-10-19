@@ -1,0 +1,494 @@
+{
+  "role": "Automated public URL and literal-contact audit, not legal or human approval",
+  "original_metadata_modified": false,
+  "sources": [
+    {
+      "kind": "legal_source",
+      "id": "LAB_CODE_2022",
+      "url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+      "checked_at": "2026-10-17T10:10:06.805566+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "PD_442_1974",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/26/25306",
+      "checked_at": "2026-10-17T10:10:06.807604+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "PD_851_1975",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/26/17290",
+      "checked_at": "2026-10-17T10:10:06.809654+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "MO_28_1986",
+      "url": "https://issuances-library.senate.gov.ph/executive-issuance/memorandum-order-no-28-s-1986",
+      "checked_at": "2026-10-17T10:10:06.810799+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_6727_1989",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/6255",
+      "checked_at": "2026-10-17T10:10:06.810799+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_10151_2011",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/37482",
+      "checked_at": "2026-10-17T10:10:06.811955+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_10396_2013",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/53640",
+      "checked_at": "2026-10-17T10:10:07.062454+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_7394_1992",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+      "checked_at": "2026-10-17T10:10:07.062454+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_10909_2016",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/70322",
+      "checked_at": "2026-10-17T10:10:07.063733+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "RA_11967_2023",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/96902",
+      "checked_at": "2026-10-17T10:10:07.063733+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "LAB_IRR_1989",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+      "checked_at": "2026-10-17T10:10:07.063733+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_DO_147_15",
+      "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+      "checked_at": "2026-10-17T10:10:07.063733+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_DO_249_25",
+      "url": "https://bwc.dole.gov.ph/issuances/department-orders/",
+      "checked_at": "2026-10-17T10:10:07.066744+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_LA_06_20",
+      "url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+      "checked_at": "2026-10-17T10:10:07.066744+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_LA_16_25",
+      "url": "https://bwc.dole.gov.ph/issuances/labor-advisories/",
+      "checked_at": "2026-10-17T10:10:07.066744+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DOLE_BWC_HANDBOOK_2024",
+      "url": "https://bwc.dole.gov.ph/handbooks-manuals/",
+      "checked_at": "2026-10-17T10:10:07.066744+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DTI_DAO_02_1993",
+      "url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+      "checked_at": "2026-10-17T10:10:07.066744+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DTI_DAO_16_03",
+      "url": "https://www.dti.gov.ph/dti-news-archived/dti-region-11-news-archived/dti-dti-issues-irr-on-no-shortchanging-act-2",
+      "checked_at": "2026-10-17T10:10:07.067747+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DTI_DAO_20_02",
+      "url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+      "checked_at": "2026-10-17T10:10:07.069753+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "legal_source",
+      "id": "DTI_JAO_24_03",
+      "url": "https://ecommerce.dti.gov.ph/implementing-rules-and-regulations/",
+      "checked_at": "2026-10-17T10:10:07.069753+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_DOLE_ARMS",
+      "url": "https://arms.dole.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "1349",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.070759+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_DTI_CARE",
+      "url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/",
+      "contacts": {
+        "email": "consumercare@dti.gov.ph",
+        "phone": "1-DTI (1-384)",
+        "office_address": "DTI Fair Trade Enforcement Bureau, 361 Sen. Gil J. Puyat Ave., Makati City"
+      },
+      "checked_at": "2026-10-17T10:10:07.070759+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_PAO",
+      "url": "https://pao.gov.ph/contact-us/",
+      "contacts": {
+        "email": "pao_executive@yahoo.com",
+        "phone": "(02) 8929-9436 local 106/107",
+        "office_address": "DOJ Agencies Building, NIA Road corner East Avenue, Diliman, Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:07.070759+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_DMW",
+      "url": "https://dmw.gov.ph/contact-us",
+      "contacts": {
+        "email": "info@dmw.gov.ph",
+        "phone": "1348",
+        "office_address": "Blas F. Ople Building, Ortigas Avenue corner EDSA, Mandaluyong City"
+      },
+      "checked_at": "2026-10-17T10:10:07.070759+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_MARINA_STCW",
+      "url": "https://stcw.marina.gov.ph/contact-us/",
+      "contacts": {
+        "email": "stcw_cert@marina.gov.ph",
+        "phone": "(02) 8240-9950",
+        "office_address": "MARINA Building, Bonifacio Drive corner 20th Street, Port Area, Manila"
+      },
+      "checked_at": "2026-10-17T10:10:07.072765+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_CSC_CCB",
+      "url": "https://csc.gov.ph/programs/ccb",
+      "contacts": {
+        "email": "email@contactcenterngbayan.gov.ph",
+        "phone": "(02) 8932-0111; SMS 0908-881-6565",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.073766+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_ECC",
+      "url": "https://ecc.gov.ph/directory/",
+      "contacts": {
+        "email": "info@ecc.gov.ph",
+        "phone": "(02) 8899-4251 local 239",
+        "office_address": "ECC Building, 355 Sen. Gil J. Puyat Ave., Makati City"
+      },
+      "checked_at": "2026-10-17T10:10:07.073766+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_OSHC",
+      "url": "https://oshc.dole.gov.ph/contact-us-2/",
+      "contacts": {
+        "email": "oed@oshc.dole.gov.ph",
+        "phone": "(02) 8929-6036; (02) 8929-6030",
+        "office_address": "North Avenue corner Sen. Miriam P. Defensor-Santiago Avenue, Diliman, Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:07.073766+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_SSS",
+      "url": "https://www.sss.gov.ph/contact-us/",
+      "contacts": {
+        "email": "usssaptayo@sss.gov.ph",
+        "phone": "1455",
+        "office_address": "SSS Main Building, East Avenue, Diliman, Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:07.077780+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_NWPC",
+      "url": "https://nwpc.dole.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.078785+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_BSP_CAM",
+      "url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870",
+      "contacts": {
+        "email": "consumeraffairs@bsp.gov.ph",
+        "phone": "(02) 5306-2584",
+        "office_address": "BSP Complex, A. Mabini Street, Malate, Manila"
+      },
+      "checked_at": "2026-10-17T10:10:07.079787+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_SEC_IMESSAGE",
+      "url": "https://www.sec.gov.ph/lending-companies-and-financing-companies/complaints/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.079787+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_INSURANCE_COMMISSION",
+      "url": "https://www.bsp.gov.ph/Pages/InclusiveFinance/PYMContacts.aspx",
+      "contacts": {
+        "email": "publicassistance@insurance.gov.ph",
+        "phone": "(02) 8523-8461 local 103 or 127",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.079787+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_NPC",
+      "url": "https://privacy.gov.ph/contactus/",
+      "contacts": {
+        "email": "complaints@privacy.gov.ph",
+        "phone": "(02) 5322-1322 local 114 or 115",
+        "office_address": "25th-27th Floors, The Upper Class Tower, Quezon Ave. corner Scout Reyes St., Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:07.080790+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_NTC",
+      "url": "https://www.ntc.gov.ph/wp-content/uploads/2025/CITIZENS_CHARTER/7-FEEDBACK-03282025.pdf",
+      "contacts": {
+        "email": "administrative@ntc.gov.ph",
+        "phone": "(02) 8924-4028; (02) 8924-4046",
+        "office_address": "Sen. Miriam P. Defensor-Santiago Ave., East Triangle, Diliman, Quezon City"
+      },
+      "checked_at": "2026-10-17T10:10:07.080790+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_HSAC_DHSUD",
+      "url": "https://hsac.gov.ph/wp-content/uploads/Citizens-Charter-2021_ver5.3.pdf",
+      "contacts": {
+        "email": "complaint@hsac.gov.ph",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.081793+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_LTFRB",
+      "url": "https://ltfrb.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.082796+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_ERC",
+      "url": "https://www.erc.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.082796+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    },
+    {
+      "kind": "referral",
+      "id": "REF_PNP_ACG",
+      "url": "https://acg.pnp.gov.ph/",
+      "contacts": {
+        "email": "",
+        "phone": "",
+        "office_address": ""
+      },
+      "checked_at": "2026-10-17T10:10:07.082796+00:00",
+      "legal_currentness_certified": false,
+      "contact_details_verified": false,
+      "status": "access_failed_requires_official_alternative",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+    }
+  ],
+  "accessible": 0,
+  "total": 39,
+  "all_legal_status_dates_remain_unchanged": true
+}

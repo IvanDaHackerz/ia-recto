@@ -1,0 +1,140 @@
+{
+  "checks": {
+    "ABO_item10_reviewer_2.xlsx:all_rows_ready_and_consistent": true,
+    "ABO_item10_reviewer_2.xlsx:cleaned_fields_match_adjudication": true,
+    "ABO_item10_reviewer_2.xlsx:native_tables_dropdowns_panes_preserved": true,
+    "ABO_item10_reviewer_2.xlsx:original_unchanged": true,
+    "ABO_item10_reviewer_2.xlsx:ready_counts_recalculate": true,
+    "ABO_item10_reviewer_2.xlsx:sheet_order_preserved": true,
+    "ABO_item10_reviewer_2.xlsx:source_reference_and_progress_formulas_preserved": true,
+    "CANAYNAY_item10_reviewer_4.xlsx:all_rows_ready_and_consistent": true,
+    "CANAYNAY_item10_reviewer_4.xlsx:cleaned_fields_match_adjudication": true,
+    "CANAYNAY_item10_reviewer_4.xlsx:native_tables_dropdowns_panes_preserved": true,
+    "CANAYNAY_item10_reviewer_4.xlsx:original_unchanged": true,
+    "CANAYNAY_item10_reviewer_4.xlsx:ready_counts_recalculate": true,
+    "CANAYNAY_item10_reviewer_4.xlsx:sheet_order_preserved": true,
+    "CANAYNAY_item10_reviewer_4.xlsx:source_reference_and_progress_formulas_preserved": true,
+    "EMBOLTORIO_item10_reviewer_5.xlsx:all_rows_ready_and_consistent": true,
+    "EMBOLTORIO_item10_reviewer_5.xlsx:cleaned_fields_match_adjudication": true,
+    "EMBOLTORIO_item10_reviewer_5.xlsx:native_tables_dropdowns_panes_preserved": true,
+    "EMBOLTORIO_item10_reviewer_5.xlsx:original_unchanged": true,
+    "EMBOLTORIO_item10_reviewer_5.xlsx:ready_counts_recalculate": true,
+    "EMBOLTORIO_item10_reviewer_5.xlsx:sheet_order_preserved": true,
+    "EMBOLTORIO_item10_reviewer_5.xlsx:source_reference_and_progress_formulas_preserved": true,
+    "MACARAIG_item10_reviewer_1.xlsx:all_rows_ready_and_consistent": true,
+    "MACARAIG_item10_reviewer_1.xlsx:cleaned_fields_match_adjudication": true,
+    "MACARAIG_item10_reviewer_1.xlsx:native_tables_dropdowns_panes_preserved": true,
+    "MACARAIG_item10_reviewer_1.xlsx:original_unchanged": true,
+    "MACARAIG_item10_reviewer_1.xlsx:ready_counts_recalculate": true,
+    "MACARAIG_item10_reviewer_1.xlsx:sheet_order_preserved": true,
+    "MACARAIG_item10_reviewer_1.xlsx:source_reference_and_progress_formulas_preserved": true,
+    "MONTANO_item10_reviewer_3.xlsx:all_rows_ready_and_consistent": true,
+    "MONTANO_item10_reviewer_3.xlsx:cleaned_fields_match_adjudication": true,
+    "MONTANO_item10_reviewer_3.xlsx:native_tables_dropdowns_panes_preserved": true,
+    "MONTANO_item10_reviewer_3.xlsx:original_unchanged": true,
+    "MONTANO_item10_reviewer_3.xlsx:ready_counts_recalculate": true,
+    "MONTANO_item10_reviewer_3.xlsx:sheet_order_preserved": true,
+    "MONTANO_item10_reviewer_3.xlsx:source_reference_and_progress_formulas_preserved": true,
+    "accepted_have_approved_outcome": true,
+    "ai_cleanup_disclosed": true,
+    "all_audit_findings_resolved_with_provenance": true,
+    "all_human_rejections_retained": true,
+    "all_labels_scopes_languages_in_each_split": true,
+    "all_topics_represented": true,
+    "classifier_questions_csv_jsonl_agree": true,
+    "cleanup_reference_sources_unchanged": true,
+    "complete_unique_question_ids": true,
+    "data_rebuild_is_deterministic": true,
+    "excluded_never_in_model_split": true,
+    "excluded_questions_csv_jsonl_agree": true,
+    "included_excluded_reconcile": true,
+    "known_and_context_appropriate_seafarer_referrals": true,
+    "labels_match_supported_excluded_topics": true,
+    "languages_valid": true,
+    "no_exact_normalized_duplicates": true,
+    "nonempty_text_and_reviewers": true,
+    "original_scenario_groups_stay_in_one_split": true,
+    "routing_matches_scope": true,
+    "seed_unchanged": true,
+    "source_provenance_preserved": true,
+    "training_gate_remains_explicit": true,
+    "underlying_scenarios_stay_in_one_split": true
+  },
+  "counts": {
+    "changed_rows": 67,
+    "excluded": 11,
+    "included": 661,
+    "labels": {
+      "consumer": 174,
+      "labor": 160,
+      "mixed": 159,
+      "out_of_scope": 168
+    },
+    "languages": {
+      "en": 373,
+      "en_tl": 288
+    },
+    "leakage_groups": 210,
+    "reviewed": 672,
+    "scopes": {
+      "fully_supported": 418,
+      "partially_supported": 75,
+      "unsupported": 168
+    },
+    "splits": {
+      "test": 100,
+      "train": 459,
+      "validation": 102
+    }
+  },
+  "errors": [],
+  "status": "passed",
+  "training_ready": false,
+  "warnings": [
+    "One human reviewer per seed row; owner-authorized AI cleanup is disclosed, not a second independent human annotation.",
+    "Synthetic partitions still share generator style; new split grouping removes full-scenario overlap but does not prove real-world generalization.",
+    "Inherited agency contact details retain their Item 9 verification dates; this cleanup is a routing review, not a contact-directory freshness certification."
+  ],
+  "workbooks": [
+    {
+      "field_errors": [],
+      "file": "ABO_item10_reviewer_2.xlsx",
+      "native_differences": [],
+      "ready": 135,
+      "rows": 135,
+      "unexpected_cell_changes": []
+    },
+    {
+      "field_errors": [],
+      "file": "CANAYNAY_item10_reviewer_4.xlsx",
+      "native_differences": [],
+      "ready": 134,
+      "rows": 134,
+      "unexpected_cell_changes": []
+    },
+    {
+      "field_errors": [],
+      "file": "EMBOLTORIO_item10_reviewer_5.xlsx",
+      "native_differences": [],
+      "ready": 134,
+      "rows": 134,
+      "unexpected_cell_changes": []
+    },
+    {
+      "field_errors": [],
+      "file": "MACARAIG_item10_reviewer_1.xlsx",
+      "native_differences": [],
+      "ready": 135,
+      "rows": 135,
+      "unexpected_cell_changes": []
+    },
+    {
+      "field_errors": [],
+      "file": "MONTANO_item10_reviewer_3.xlsx",
+      "native_differences": [],
+      "ready": 134,
+      "rows": 134,
+      "unexpected_cell_changes": []
+    }
+  ]
+}

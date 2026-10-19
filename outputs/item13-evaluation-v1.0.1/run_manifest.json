@@ -1,0 +1,48 @@
+{
+  "answer_generation_allowed": false,
+  "as_of": "2026-10-17",
+  "case_count": 291,
+  "classifier": "outputs/item10-classifier-v1.5.5",
+  "deployment_allowed": false,
+  "formal_item13_acceptance_completed": false,
+  "independent_human_evaluation": false,
+  "live_llm_calls": 0,
+  "new_model_fitting": false,
+  "owner_authorization": "Item 13 build and focused repair authorized by project owner",
+  "parent_evaluation": "outputs/item13-evaluation-v1.0.0",
+  "protocol_freeze_sha256": "656d581f84a8e51c15819c85f0e984f7b8af87031a178b0227f23c4fd2146171",
+  "python": "3.12.14",
+  "retrieval": "outputs/item11-retrieval-v1.2.4",
+  "runtime_source_sha256": {
+    "README.md": "bb6a717cf3241f1172c6cd35976d38b8c209a9fbf71217495bdf505075998ba8",
+    "answer_evaluation.py": "d7d3fa888d88213be5fd8281fa10d8ee6cac04c8fde37f2d6d36d5973f64099a",
+    "build_evaluation.py": "48b8895bd29463897a02c914683c428052eaede73cc37defcbc3ca58990c8469",
+    "check_independent_intake.py": "01fbe3982c6e92f32a17e2d6842c8151e6078664d180e237333777d1736fafad",
+    "create_cases.py": "b84886001610a5a49b7670b6815ea5e5f20a8a2098accfe78c0e979eb8c8bc12",
+    "evaluation_common.py": "cf32e0fa193619f7522f21af249d51cf3f8c8f660ecb7700a81dbe51ff2f6009",
+    "evaluation_metrics.py": "cbde683c6ce5d60bac0d2a7d3e7c727ad288549f43346570324b95a02833edcf",
+    "finalize_accuracy_repair.py": "5bce578941e179ca7bca01e899c6caf19bdb20ef86224803578bc6a93f6d5fab",
+    "protocol.json": "db0726c6e907cc44299105a826ce6c1dcca1d9d195ce7d7084c73c06cfd98c04",
+    "repack_classifier.py": "77e6036ca96bb8793a4d9d2ef8e78c95716394eda03136c692f652a98875e135",
+    "runner.py": "bc3755fac9144f7ec3a2f84bf512136a187b48514eadcd6e82ff546365b8ec25",
+    "test_evaluation.py": "3d6a1eaaf60914a7c358c7779cbee3a61ec50b67ba6521d4637bddbee12e43ae"
+  },
+  "screening_gates_passed": true,
+  "source_sha256": {
+    "dataset/pipelines/item10/evaluation_policy.json": "0676e9c0600f5d428076363f289d501acad4b717f9dcd456029875796d505ee0",
+    "dataset/pipelines/item13/create_cases.py": "b84886001610a5a49b7670b6815ea5e5f20a8a2098accfe78c0e979eb8c8bc12",
+    "dataset/processed/item10/ai_reviewed_eval_v1.0.0/evaluation_questions.jsonl": "fe780075acdf799fbe8bce47b4dd1e86998a154e2babc47cc65682b696249dc3",
+    "dataset/processed/item10/ai_reviewed_eval_v1.0.0/typing_questions.jsonl": "fc5a27cd983b0d6d7b9c70de24bf744d98f66d214f987673c646749a261c98a7",
+    "outputs/item11-retrieval-v1.2.3/benchmark_queries.jsonl": "3a354b2204065df29a035e4c1c48c3cd9d96cb1f4cf3f5aafd971ac665be9de6"
+  },
+  "status": "offline_development_evaluation_completed",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "independent_legal_validation": false,
+    "passed": true,
+    "tests_run": 34
+  },
+  "verifier": "outputs/item12-verifier-v1.0.2",
+  "version": "item13-evaluation-v1.0.1"
+}

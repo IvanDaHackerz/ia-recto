@@ -1,0 +1,136 @@
+--- parent/scope_constraints.py
++++ dataset/pipelines/item10/scope_constraints.py
+@@ -5,18 +5,27 @@
+ """
+ from __future__ import annotations
+ import re
++import unicodedata
++
++def scope_text(text):
++    """Small declared spelling aliases for rule matching; retain original input."""
++    t=unicodedata.normalize('NFKC',text).casefold()
++    aliases={'goverment':'government','governmnt':'government','salry':'salary',
++        'salries':'salaries','employe':'employee','employr':'employer',
++        'servce':'service','delayd':'delayed'}
++    return re.sub(r'\b(?:'+ '|'.join(aliases) +r')\b',lambda m:aliases[m.group()],t)
+ 
+ EXCLUDED=[
+  ('labor.seafarers',r'\bseaf[a-z]*r\b'),
+  ('labor.ofw',r'\bofw\b|\boverseas\s+(?:employ\w*|recruit\w*|work\w*|job|contract)|\b(?:employ\w*|recruit\w*|work\w*)\s+(?:abroad|overseas)|\brecruitment\s+agency\b.{0,60}\bdeployment\b'),
+- ('labor.government_employment',r'\b(?:government|govt|municipal|civil.service)\s+(?:employ\w*|work\w*|job)|\b(?:employ\w*|work\w*)\s+(?:by|for|at|in)\s+(?:a |the )?(?:government|municipal)|\bpublic\s+office\b.{0,60}\bcivil.service\b'),
++ ('labor.government_employment',r'\b(?:government|govt|municipal)\s+(?:employ\w*|work\w*|job)|\b(?:employ\w*|work\w*)\s+(?:by|for|at|in)\s+(?:a |the )?(?:government|municipal)|\bempleyad[oa]\b.{0,45}\b(?:municipal|government|govt)\b|\bcivil\s+service\b'),
+  ('labor.kasambahay',r'\bkasambahay\b|\b(?:household|domestic)\s+(?:employ\w*|work\w*)'),
+- ('labor.union_cba',r'\bcba\b|\bcollective.bargain\w*|\bunion\s+(?:election|representation|officer|dues|bargain\w*)'),
++ ('labor.union_cba',r'\bcba\b|\bcollective.bargain\w*|\bbargaining\s+unit\b|\bunion\b.{0,65}\brepresentation\b|\bunion\s+(?:election|representation|officer|dues|bargain\w*)'),
+  ('labor.workers_compensation',r'\bdisability\b|\b(?:workers?|employees?).?\s+compensation\b|\b(?:workplace|work.related)\s+(?:injury|illness)\b.{0,65}\b(?:ec|compensation|benefits?)\b'),
+  ('labor.occupational_safety',r'\b(?:osh|osha)\b|\boccupational\s+safety\b|\b(?:factory|workplace)\b.{0,45}\b(?:ventilation|chemical|compliance|safety.standard)|\bemployees?\b.{0,50}\bdangerous\s+chemicals?\b'),
+  ('labor.retirement_pension',r'\bpension\b|\b(?:sss|gsis)\b|\bretirement\s+(?:pay|benefit|comput\w*)'),
+  ('labor.pending_case',r'\bpending\b.{0,40}\b(?:case|nlrc|proceeding|court)|\b(?:case|proceeding)\b.{0,25}\bpending\b|\bnlrc\b.{0,40}\b(?:hearing|arguments?)\b'),
+- ('labor.case_outcome_prediction',r'\b(?:will|can)\s+i\s+win\b|\bi\x27ll\s+win\b|\b(?:predict|chance\w*|odds|whether|sure)\b.{0,45}\b(?:win|success)'),
++ ('labor.case_outcome_prediction',r'\b(?:will|can)\s+i\s+win\b|\bi\x27ll\s+win\b|\b(?:predict|chance\w*|odds|whether|sure)\b.{0,45}\b(?:win|success)|\bpredict\b.{0,50}\b(?:result|outcome|decision|appeal|case)\b|\b(?:sigurad\w*|masasabi|malaman)\b.{0,55}\b(?:mananalo|panalo)\b|\b(?:mananalo|panalo)\b.{0,45}\b(?:kaso|case|appeal)\b'),
+  ('consumer.banking_credit',r'\bcredit.card\b|\b(?:loan|lending|banking)\b|\b(?:bank|bnko)\w*\b.{0,50}\b(?:fee|charge|frozen|freeze|account|interest|deduct\w*)'),
+  ('consumer.insurance',r'\binsur\w*\b'),
+  ('consumer.investments',r'\b(?:invest|invests|invested|investing|investments?|investors?|mag-invest|nag-invest|maginvest|naginvest)\b|\bsecurit(?:y|ies)\s+(?:broker|trading|account|complaint)'),
+@@ -34,10 +43,10 @@
+ LABOR=re.compile(r'\b(?:wage\w*|salar\w*|sahod|sweldo|pay\w*|paid|unpaid|unpayed|overtime|thirteenth|13th|holiday|rest.?day|break|shift|briefing|waiting.time|notice|probation\w*|redundan\w*|terminat\w*|dismiss\w*|resign\w*|fired|coe|contract|job.terms|final.pay)\b',re.I)
+ PRIVATE=re.compile(r'\b(?:private|pribado)\b',re.I)
+ RETAIL=re.compile(r'\b(?:retail\w*|seller|store|shop\w*|groc\w*|appliance|kettle|ketle|blender|rice.cooker|keyboard|folding.table|extension.cord|consumer.product|household.product|laundry|sukli|cashier|repair.service|online.platform)\b',re.I)
+-CONSUMER_ISSUE=re.compile(r'\b(?:warr?ant\w*|warant\w*|refund|repair|replac\w*|defect\w*|faulty|unsafe|buy|bought|purchase|sold|order|deliver\w*|sira|binili|nabili|sukli|paid|service|clothes|bayad|magbayad|charge\w*|fee|quote|price|advert\w*|demonstrat\w*|recalled|complaint|reklamo|transaction|coins|change|candy)\b',re.I)
++CONSUMER_ISSUE=re.compile(r'\b(?:warr?ant\w*|warant\w*|refund|repair|replac\w*|defect\w*|faulty|unsafe|buy|bought|purchase|sold|order|deliver\w*|sira|binili|nabili|sukli|paid|service|clothes|bayad|magbayad|charge\w*|fee|quote|price|advert\w*|demonstrat\w*|recalled|complaint|reklamo|transaction|coins|change|candy)\b|\bayaw\s+(?:umandar|gumana)\b',re.I)
+ 
+ def constraint(text):
+-    t=text.lower()
++    t=scope_text(text)
+     for topic,pattern in PATTERNS:
+         match=pattern.search(t)
+         if match:
+@@ -48,6 +57,13 @@
+     if MINIMUM.search(t) and AMOUNT.search(t):return ('excluded','labor.regional_minimum_wage_amounts')
+     if re.search(r'\bsena\b',t):return ('labor','explicit_sena_procedure_context')
+     if PRIVATE.search(t) and (LABOR.search(t) or re.search(r'\buniform\s+fee\b',t)) and re.search(r'\b(?:employ\w*|company|job|trabaho|workers?|workplace)\b',t):return ('labor','explicit_private_employment_context')
++    # Work duties/schedules plus a private workplace establish employment;
++    # the word "private shop" by itself still does not establish it.
++    private_workplace=PRIVATE.search(t) and re.search(r'\b(?:office|warehouse|restaurant|shop)\b',t)
++    work_duty=re.search(r'\b(?:meal\s+break|briefing|after\s+shift)\b',t) and re.search(r'\b(?:duty|required|require\w*|shift|trabaho|work\w*)\b',t)
++    own_rest_day=re.search(r'\brest\s+day\b.{0,12}\b(?:ko|namin|my|our)\b|\b(?:my|our)\b.{0,15}\brest\s+day\b',t)
++    changed_rest_day=own_rest_day and re.search(r'\b(?:pinalitan|changed|assigned|scheduled|shifted)\b',t)
++    if private_workplace and (work_duty or changed_rest_day) and not re.search(r'\b(?:customer|diner|buyer)\b',t):return ('labor','explicit_private_workplace_duty')
+     if RETAIL.search(t) and CONSUMER_ISSUE.search(t):return ('consumer','explicit_ordinary_retail_context')
+     # Service-quality defects belong to the ordinary consumer framework after
+     # regulated-service exclusions above. A generic provider alone is insufficient.
+--- parent/clause_classifier.py
++++ dataset/pipelines/item10/clause_classifier.py
+@@ -26,6 +26,7 @@
+ 
+ ISSUE_INTENT=re.compile(r'\b(?:complaint|reklamo|problema|dispute)\b|\b(?:my|another|separate|second|a|have|may)\s+(?:concern|problem|issue)\b',re.I)
+ BACKGROUND_INTRO=re.compile(r"^(?:i\s+(?:am|work|am employed)\b|i'm\b|(?:seaf[a-z]*r|ofw|kasambahay)\s+ako\b|(?:private|government|municipal)\b.*\b(?:employee|employe|worker)\b)",re.I)
++FOLLOW_UP_REFERENCE=re.compile(r'^(?:how\s+(?:do|can|should)\s+(?:i|we)\s+(?:raise|dispute|challenge|resolve|handle|report)\s+(?:(?:each|both|these|those)\s+(?:disputes?|issues?|concerns?)|it|this|that|(?:this|that|the)\s+(?:dispute|issue|denial|decision))|can\s+you\s+explain\s+(?:the\s+)?(?:exclusion|denial|decision)(?:\s+and\s+how\s+to\s+(?:dispute|challenge|appeal)\s+it)?)(?:\s+please)?$',re.I)
+ 
+ def segment_question(text,propagate_context=True):
+     """Retain an account of every fragment, including background and unresolved issues.
+@@ -34,7 +35,7 @@
+     a wage/product keyword. An excluded-topic complaint is a concern in its own
+     right. Background never becomes a second concern by itself.
+     """
+-    from scope_constraints import RETAIL,CONSUMER_ISSUE,LABOR,constraint
++    from scope_constraints import RETAIL,CONSUMER_ISSUE,LABOR,constraint,scope_text
+     t=clean(text);parts=[re.sub(r'^also\s*,?\s*','',p.strip(' ,.:;?!')) for p in SEGMENT.split(t)]
+     parts=[p for p in parts if p]
+     anchored=re.compile(r'\b(?:company|redundan\w*|bus|passenger|cord|table|unsafe|faulty|overseas|retailer|sukli|pinost|posted|public|exact|minimun|minimum)\b')
+@@ -47,7 +48,7 @@
+         rule=constraint(p)
+         anchored_fact=bool(cues or anchored.search(p) or rule or LABOR.search(p) or CONSUMER_ISSUE.search(p))
+         context_only=(BACKGROUND_INTRO.search(p) and CONTEXT.search(p) and not ISSUE_INTENT.search(p)
+-            and not LABOR.search(p) and not CONSUMER_ISSUE.search(p)
++            and not LABOR.search(scope_text(p)) and not CONSUMER_ISSUE.search(p)
+             and not re.search(r'\b(?:question|promotion|required|changed|denied|refuse\w*)\b',p)
+             and (rule is None or rule[1] in {'labor.ofw','labor.seafarers','labor.government_employment','labor.kasambahay'}))
+         if context_only:
+@@ -57,6 +58,11 @@
+         # cues distinguish fragments; they are not a whitelist of legal topics.
+         generic_only=re.fullmatch(r'(?:hello(?: there)?|hi|hey|thanks|thank you|(?:can|could) you help(?: me| us)?(?: please)?|what (?:can|should) i do(?: next| now)?|what happens next)',p)
+         if len(parts)==1 and len(p.split())>=3 and not ISSUE_INTENT.search(p) and not generic_only:anchored_fact=True
++        # An anaphoric request about existing concerns is a follow-up. New
++        # explicit topics still have cues/rules and remain independent concerns.
++        if kept and not anchored_fact and FOLLOW_UP_REFERENCE.search(p):
++            fragment['role']='follow_up';fragment['component_index']=len(kept)-1
++            kept[-1]+='. '+p;continue
+         if not anchored_fact and ISSUE_INTENT.search(p):
+             fragment['role']='unresolved_concern';unresolved.append(fragment['fragment_id'])
+         elif not anchored_fact:
+--- parent/classifier_runtime.py
++++ dataset/pipelines/item10/classifier_runtime.py
+@@ -47,7 +47,8 @@
+         probs=np.clip(probs,0,1);return probs/probs.sum(axis=1,keepdims=True)
+ 
+ def missing_context(text:str):
+-    t=normalize(text).lower()
++    from scope_constraints import scope_text
++    t=scope_text(normalize(text))
+     provider_known=PROVIDER_CONTEXT.search(t) or re.search(r'\b(?:transport\s+operator|recruitment\s+agency|cashier)\b',t)
+     product_known=re.search(r'\b(?:product|item)\b',t) and re.search(r'\b(?:bought|purchased|binili\w*|nabili\w*|quality|defect\w*)\b',t)
+     if not t:return ('empty_input','What labor or consumer concern would you like help with?')
+@@ -61,6 +62,15 @@
+     if re.search(r'\b(charg[a-z]*|chrge|singil|singgil)\b',t) and not provider_known:
+         return ('charge_context_missing','What were you charged for, and who charged you?')
+     return None
++
++def uncertainty_question(prediction):
++    """Ask for confirmation of existing concerns rather than repeat known facts."""
++    components=prediction.get('component_evidence',[])
++    if len(components)>1:
++        return 'Please confirm each separate concern and which employer, seller, or service is responsible for each one.'
++    if components and components[0].get('constraint'):
++        return 'Please confirm the kind of employment, transaction, or service involved and the specific help you want.'
++    return 'Could you describe the specific concern and the kind of employer, seller, or service involved?'
+ 
+ def route(text,primary,scope,primary_confidence,scope_confidence,thresholds):
+     result={'routing_action':'clarify','substantive_answer_admitted':False,'clarification_question':None,'reason':None,'referral_ids':[]}
+@@ -89,6 +99,7 @@
+     if not p.get('has_reliable_component_evidence',True):
+         result.update(routing_action='clarify',substantive_answer_admitted=False,reason='no_reliable_component_evidence',clarification_question='Could you describe the specific employment or consumer concern and who is involved?')
+         return result
++    if result['reason']=='low_confidence':result['clarification_question']=uncertainty_question(p)
+     if result['reason']!='mixed_components_not_resolved' or not p.get('component_routing_enabled',False):return result
+     components=p.get('component_evidence',[])
+     reliable=[c for c in components if c['atomic_evidence_strength']>=.5]

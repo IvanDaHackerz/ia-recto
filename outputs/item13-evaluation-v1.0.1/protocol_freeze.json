@@ -1,0 +1,23 @@
+{
+  "case_manifest_sha256": "49994b98e2e778aeea78371e9a824df59b76fdff8581003e5aeb7ac9e9ac50b1",
+  "cases_sha256": "925414e457b3507fd7a05e77ac9fb22998bf0bf320d3c42b1f1183f881106760",
+  "frozen_at_utc": "2026-10-17T11:52:22.355588+00:00",
+  "no_predictions_observed_by_this_run": true,
+  "protocol_sha256": "66d65f96a354ec976327cd30b62a9fcbe0964bc7c3cd158aa8d32a1de26f6107",
+  "runtime_source_sha256": {
+    "README.md": "bb6a717cf3241f1172c6cd35976d38b8c209a9fbf71217495bdf505075998ba8",
+    "answer_evaluation.py": "d7d3fa888d88213be5fd8281fa10d8ee6cac04c8fde37f2d6d36d5973f64099a",
+    "build_evaluation.py": "48b8895bd29463897a02c914683c428052eaede73cc37defcbc3ca58990c8469",
+    "check_independent_intake.py": "01fbe3982c6e92f32a17e2d6842c8151e6078664d180e237333777d1736fafad",
+    "create_cases.py": "b84886001610a5a49b7670b6815ea5e5f20a8a2098accfe78c0e979eb8c8bc12",
+    "evaluation_common.py": "cf32e0fa193619f7522f21af249d51cf3f8c8f660ecb7700a81dbe51ff2f6009",
+    "evaluation_metrics.py": "cbde683c6ce5d60bac0d2a7d3e7c727ad288549f43346570324b95a02833edcf",
+    "finalize_accuracy_repair.py": "5bce578941e179ca7bca01e899c6caf19bdb20ef86224803578bc6a93f6d5fab",
+    "protocol.json": "db0726c6e907cc44299105a826ce6c1dcca1d9d195ce7d7084c73c06cfd98c04",
+    "repack_classifier.py": "77e6036ca96bb8793a4d9d2ef8e78c95716394eda03136c692f652a98875e135",
+    "runner.py": "bc3755fac9144f7ec3a2f84bf512136a187b48514eadcd6e82ff546365b8ec25",
+    "test_evaluation.py": "3d6a1eaaf60914a7c358c7779cbee3a61ec50b67ba6521d4637bddbee12e43ae"
+  },
+  "split_membership_sha256": "cdcb79c08b556941bfd53a2234b996f36616a54ca5531e42d3c4c32f3af46e70",
+  "status": "prepared_before_inference"
+}

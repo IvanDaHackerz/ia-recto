@@ -1,0 +1,16 @@
+{
+  "classifier_candidates": {
+    "v1.5.0": "Rejected: regulated medical service boundary test failed",
+    "v1.5.1": "Superseded: passed 44 tests; 46/56 actual classifier-to-retrieval hits",
+    "v1.5.2": "Rejected: private-sector workers/uniform fee constraints failed tests",
+    "v1.5.3": "Superseded during referral versioning; not accepted",
+    "v1.5.4": "Current: all 49 tests and regression gates pass"
+  },
+  "retrieval_candidates": [
+    "v1.2.0",
+    "v1.2.1",
+    "v1.2.2"
+  ],
+  "current_retrieval": "v1.2.3",
+  "all_scores_development_only": true
+}

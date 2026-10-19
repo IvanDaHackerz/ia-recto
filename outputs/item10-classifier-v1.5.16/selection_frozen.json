@@ -1,0 +1,11 @@
+{
+  "selected_candidate": "lexical_C100",
+  "selection_data": "Parent configuration, trained weights, calibration and validation-selected thresholds inherited unchanged.",
+  "model_sha256": "57d1217feb365af53d3ec0da4a18f955fcd24f6142863bcc6ac11b3c49908b6f",
+  "thresholds": {
+    "primary": 0.8,
+    "scope": 0.85
+  },
+  "new_selection_or_fitting": false,
+  "fresh_independent_holdout_evaluated": false
+}

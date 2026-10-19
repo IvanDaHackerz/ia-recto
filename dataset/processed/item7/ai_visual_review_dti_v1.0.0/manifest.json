@@ -1,0 +1,11 @@
+{
+  "status": "AI page-image comparison complete; required independent review remains pending",
+  "provisions": 29,
+  "pages_compared": 11,
+  "changed_provisions": 11,
+  "parent_candidate_sha256": "37a220e148eb2f1e69dd742876a737f64ee5428bc15a0cc39996401e762ff200",
+  "original_canonical_modified": false,
+  "human_reviews_completed": 0,
+  "default_index_modified": false,
+  "answer_generation_allowed": false
+}

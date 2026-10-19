@@ -1,0 +1,7 @@
+{
+  "previewReady": true,
+  "classifier": "outputs/item10-classifier-v1.5.15",
+  "retrieval": "outputs/item11-retrieval-v1.3.1",
+  "verifier": "item12-verifier-v1.0.9",
+  "signatureMatches": true
+}

@@ -1,0 +1,8 @@
+{
+  "queue_sha256": "e7522c442c3fd57e3c3393606257d012c000d1427c25982a05338d798d9b5a96",
+  "review_sha256": "bb269d79c9a2292a1864dcf449661a91597c8fe4b143d015e672cfed99490b4a",
+  "review_count": 34,
+  "review_method": "Codex inspected all source/typed/accepted wording pairs, before opening this run performance metrics; exact reference reconstructions and all non-exact differences recorded.",
+  "independent_human_review": false,
+  "limitations": "Same AI task that authored the runner; may miss semantic changes. Not independent final gold or legal review."
+}

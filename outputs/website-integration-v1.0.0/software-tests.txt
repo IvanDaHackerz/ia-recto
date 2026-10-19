@@ -1,0 +1,23 @@
+test_all_preflight_gates_skip_provider (backend.application.test_application.ExplanationTests.test_all_preflight_gates_skip_provider) ... ok
+test_failed_postflight_never_leaks_raw_draft (backend.application.test_application.ExplanationTests.test_failed_postflight_never_leaks_raw_draft) ... ok
+test_only_postflight_claims_returned_when_every_permission_passes (backend.application.test_application.ExplanationTests.test_only_postflight_claims_returned_when_every_permission_passes) ... ok
+test_provider_failure_is_withheld (backend.application.test_application.ExplanationTests.test_provider_failure_is_withheld) ... ok
+test_transport_caps_input_before_any_provider_request (backend.application.test_application.ExplanationTests.test_transport_caps_input_before_any_provider_request) ... ok
+test_transport_refuses_redirects_and_incomplete_provider_output (backend.application.test_application.ExplanationTests.test_transport_refuses_redirects_and_incomplete_provider_output) ... ok
+test_transport_sends_only_eligible_sources_and_has_no_retries (backend.application.test_application.ExplanationTests.test_transport_sends_only_eligible_sources_and_has_no_retries) ... ok
+test_errors_do_not_echo_payloads_or_credentials (backend.application.test_application.HTTPTests.test_errors_do_not_echo_payloads_or_credentials) ... ok
+test_get_routes_and_no_store (backend.application.test_application.HTTPTests.test_get_routes_and_no_store) ... ok
+test_host_origin_paths_and_methods (backend.application.test_application.HTTPTests.test_host_origin_paths_and_methods) ... ok
+test_invalid_json_content_and_unknown_client_review_fields (backend.application.test_application.HTTPTests.test_invalid_json_content_and_unknown_client_review_fields) ... ok
+test_real_json_post_and_exact_origin (backend.application.test_application.HTTPTests.test_real_json_post_and_exact_origin) ... ok
+test_actual_frozen_denominators_and_deferrals (backend.application.test_application.PerformanceTests.test_actual_frozen_denominators_and_deferrals) ... ok
+test_checksum_failure_is_not_silently_replaced_with_fixtures (backend.application.test_application.PerformanceTests.test_checksum_failure_is_not_silently_replaced_with_fixtures) ... ok
+test_input_and_busy_boundaries (backend.application.test_application.RuntimeTests.test_input_and_busy_boundaries) ... ok
+test_real_routing_paths_and_local_noisy_features (backend.application.test_application.RuntimeTests.test_real_routing_paths_and_local_noisy_features) ... ok
+test_supported_question_uses_real_classifier_and_complete_sources (backend.application.test_application.RuntimeTests.test_supported_question_uses_real_classifier_and_complete_sources) ... ok
+test_uncertain_provider_output_is_withheld (backend.application.test_application.RuntimeTests.test_uncertain_provider_output_is_withheld) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 9.173s
+
+OK

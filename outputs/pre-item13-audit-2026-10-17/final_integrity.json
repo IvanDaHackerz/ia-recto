@@ -1,0 +1,32 @@
+{
+  "current_verifier_packet": {
+    "checked": 27,
+    "mismatches": [],
+    "passed": true
+  },
+  "current_verifier_runtime": {
+    "checked": 9,
+    "mismatches": [],
+    "passed": true
+  },
+  "preserved_parent_artifacts": {
+    "checked": 101,
+    "mismatches": [],
+    "passed": true
+  },
+  "legal_source_files": {
+    "checked": 32,
+    "mismatches": [],
+    "passed": true
+  },
+  "frozen_reviewed_seed": {
+    "checked": 10,
+    "mismatches": [],
+    "passed": true
+  },
+  "cleaned_human_review_workbooks": {
+    "checked": 5,
+    "mismatches": [],
+    "passed": true
+  }
+}

@@ -1,0 +1,611 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>REPUBLIC ACT NO. 6727 - AN ACT TO RATIONALIZE WAGE POLICY DETERMINATION BY ESTABLISHING THE MECHANISM AND PROPER STANDARDS THEREFOR, AMENDING FOR THE PURPOSE ARTICLE 99 OF AND INCORPORATING ARTICLES 120, 121, 122, 123, 124, 126 AND 127 INTO, PRESIDENTIAL DECREE NO. 442, AS AMENDED, OTHERWISE KNOWN AS THE LABOR CODE OF THE PHILIPPINES, FIXING NEW WAGE RATES, PROVIDING WAGE INCENTIVES FOR INDUSTRIAL DISPERSAL TO THE COUNTRYSIDE, AND FOR OTHER PURPOSES - Supreme Court E-Library</title>
+    <link rel="stylesheet" href="https://elibrary.judiciary.gov.ph/assets/css/style.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed/" />
+    <link rel="pingback" href="xmlrpc.php" />
+    <link rel="shortcut icon" href="https://elibrary.judiciary.gov.ph/assets/images/favicon.ico"/>
+    <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/js/superfish.min.js"></script>
+    <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/js/supersubs.js"></script>
+    <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/js/cookies.js"></script>
+    <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/js/fontResizer.js"></script>
+    <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/js/theme.js"></script>
+    <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/js/section_menu.js"></script>
+
+    <!-- START DataTable -->
+
+        <!-- START LOAD SCRIPTS -->
+        
+        <!-- ✅ load jQuery ✅ -->
+        <!-- <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/js/jquery-3.7.1.min.js"></script> -->
+        <link rel="stylesheet" href="https://elibrary.judiciary.gov.ph/assets/DataTables/datatables.css" type="text/css" media="screen" />
+        <!-- ✅ load DataTables ✅ -->
+        <script type="text/javascript" src="https://elibrary.judiciary.gov.ph/assets/DataTables/datatables.js"></script>
+
+        <!-- END LOAD SCRIPTS -->
+    
+        <!-- START RA -->
+        <script>
+            jQuery( function ($) {
+                $('#ra').DataTable({
+                    // Options go here
+                    "processing": true,
+                    //"stateSave": true,
+                    "serverSide": true,
+                    "order":[],
+                    "pagingType": "full_numbers",
+                    "ajax": {
+                        url: "https://elibrary.judiciary.gov.ph/republic_acts/fetch_ra",
+                        type: "POST",
+                        data:{  'csrf_test_name' : '52cad077d8dc60f25ed950fc52a0eaf4' },
+                    },
+                    "columnDefs":[{
+                        "targets":[0, 2],
+                        "orderable":false,
+                        /*'targets': [2,],    // this will invoke the below function on all cells
+                        'createdCell': function(td, cellData, rowData, row, col) {
+                            // this will give each cell an ID
+                            $(td).attr('id', 'cms_default_document_title');
+                        },*/
+                    },],
+                });
+            });
+        </script>
+        <!-- END RA -->
+
+             <!-- START PHILREP -->
+        <script>
+            jQuery( function ($) {
+                $('#volumes').DataTable({
+                    "pagingType": "full_numbers",
+                    "order":[[0], "desc"],
+                    "columnDefs":[
+                        {
+							//Targets column 2 (Files column) and prevents from being
+							//orderable
+                            "targets":[2],
+                            "orderable":false,
+                        },
+                        {
+                            // Target column 1 and tells DataTables to order column 1
+							//using data from Column0
+                            "targets": [1],
+                            "orderData": [0],
+                        },
+						
+						{
+							//Hides column 0 and prevents it from being searchable.
+							target: [0],
+							visible: false,
+							searchable: false,
+						},
+                    ],
+                });
+            });
+        </script>
+
+        <!-- START CASE INDEX -->
+        <script>
+            jQuery( function ($) {
+                $('#caseindex').DataTable({
+                    "pagingType": "full_numbers",
+                    "order":[],
+                    "columnDefs":[{
+                        "targets":[0,1],
+                        "orderable":false,
+                    },],
+                });
+            });
+        </script>
+        <!-- END CASEINDEX -->
+
+        <!-- START LAWYERS LIST -->
+        <script>
+            jQuery( function ($) {
+                $('#lawlist').DataTable({
+                    // INITIALIZATION OPTIONS GO HERE.
+                    "processing": true,
+                    //"stateSave": true,
+                    "serverSide": true,
+                    // ORDERING IS ENABLED BUT THERE IS NO DEFAULT ORDER.
+                    "order":[],
+                    "pagingType": "full_numbers",
+                    "ajax": {
+                        url: "https://elibrary.judiciary.gov.ph/lawyers_list/fetch_lawlist",
+                        type: "POST",
+                        data:{  'csrf_test_name' : '52cad077d8dc60f25ed950fc52a0eaf4' },
+                    },
+                    "columnDefs":[{
+                        // "targets" ARE THE TABLE COLUMNS THAT ARE TO BE INITIALIZED.
+                        // STARTING WITH 0 AS THE FIRST COLUMN. HERE, TARGETED COLUMNS ARE
+                        // 2, 3, 4.
+                        "targets":[2, 3, 4],
+                        // TARGETED COLUMNS ARE NOT ORDERABLE.
+                        "orderable":false,
+                        /*'targets': [2,],    // this will invoke the below function on all cells
+                        'createdCell': function(td, cellData, rowData, row, col) {
+                            // this will give each cell an ID
+                            $(td).attr('id', 'cms_default_document_title');
+                        },*/
+                    },],
+                });
+            });
+        </script>
+        <!-- END LAWYERS LIST -->
+
+        <!-- START DataTables STYLES -->
+    
+        <!-- START REPUBLIC ACTS STYLES-->
+        <style>
+            table#ra {
+                font-family: calibri, candara, segoe, segoe ui, optima, arial;
+                font-size: 1.25em;
+                font-weight: bold;
+            }
+            td#cms_default_document_title {
+                text-align: justify;
+            }
+        
+            td#cms_default_document_title:after {
+                content: "";
+                display: inline-block;
+                width: 100%;
+            }
+        </style>
+        <!-- END REPUBLIC ACTS START STYLES -->
+
+        <!-- START PHILREP STYLES -->
+        <style>
+            table#volumes {
+                font-family: calibri, candara, segoe, segoe ui, optima, arial;
+                font-size: 1.25em;
+                font-weight: bold;
+            }
+        </style>
+        <!-- END PHILREP STYLES -->
+
+        <!-- START CASEINDEX STYLES -->
+        <style>
+            table#caseindex {
+                font-family: calibri, candara, segoe, segoe ui, optima, arial;
+                font-size: 1.25em;
+                font-weight: bold;
+            }
+        </style>
+        <!-- END CASEINDEX STYLES -->
+
+        <!-- START LAWYERS LIST STYLES -->
+        <style>
+            table#lawlist {
+                font-family: calibri, candara, segoe, segoe ui, optima, arial;
+                font-size: 1.2em;
+            }
+            
+        </style>
+        <!-- END LAWYERS LIST STYLES -->
+
+        <!-- END DataTables STYLES -->
+    
+    <!-- END DataTable -->
+
+    <link rel="stylesheet" href="https://elibrary.judiciary.gov.ph/assets/css/mystyle.css" type="text/css" media="screen" />
+
+    
+    
+    <!-- remove 04.29.19 for console search-->
+    <!-- <meta name='robots' content='noindex,nofollow' /> -->
+
+    <link rel='stylesheet' id='wp_sidebarlogin_css_styles-css'  href='https://elibrary.judiciary.gov.ph/assets/css/style_login.css?ver=3.3.1' type='text/css' media='all' />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://elibrary.judiciary.gov.ph/assets/css/all.css">
+    <!-- jquery confirm -->
+    <link rel="stylesheet" href="https://elibrary.judiciary.gov.ph/assets/css/jquery-confirm.min.css">
+    <!-- jconfirm modal custom theme -->
+    <style>
+        .jconfirm.jconfirm-custom .jconfirm-bg{
+            background-color: rgba(13,0,45,0.95);
+        }
+        .jconfirm.jconfirm-custom .jconfirm-box{
+            color: #ccc;
+            text-align: center;
+            background-color: transparent;
+        }
+
+        /* Exclamation animation start */
+        .jconfirm.jconfirm-custom.jconfirm-open .jconfirm-box .jconfirm-title-c .jconfirm-icon-c {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+        }
+        .jconfirm.jconfirm-custom .jconfirm-box div.jconfirm-title-c .jconfirm-icon-c {
+            -webkit-transition: -webkit-transform .5s;
+            transition: -webkit-transform .5s;
+            transition: transform .5s;
+            transition: transform .5s,-webkit-transform .5s;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+            display: block;
+            margin-right: 0;
+            margin-left: 0;
+            margin-bottom: 10px;
+            font-size: 69px;
+            color: #ccc;
+        }
+        /* Exclamation animation end */
+
+        .jconfirm.jconfirm-custom .jconfirm-box .jconfirm-buttons button{
+            font-size: 16px;
+            border-radius: 2px;
+            background: rgb(13,0,45);
+            text-shadow: none;
+            border: none;
+            color: #ccc;
+            padding: 10px;
+            min-width: 100px;
+        }
+        .jconfirm.jconfirm-custom .jconfirm-box .jconfirm-buttons button:hover{
+            background: #ccc;
+            color: rgb(13,0,45);
+        }
+        .jconfirm.jconfirm-custom .jconfirm-box .jconfirm-title-c{
+            font-family: Tahoma, Verdana, serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .jconfirm.jconfirm-custom .jconfirm-box .jconfirm-content{
+            font-family: Tahoma, Verdana, serif;
+            text-align: justify;
+            font-size: 18px;
+        }
+        /* Targets content list item */
+        .jconfirm.jconfirm-custom .jconfirm-box .jconfirm-content li{
+            margin: 20px;
+        }
+        .jconfirm.jconfirm-my-theme .jconfirm-box .jconfirm-content-pane{
+        }
+    </style>
+
+<!-- FOR DTSEARCH -->
+<!-- START -->
+    <META NAME="AddedReference" CONTENT="InsertedForFormBuilder" HREF="https://elibrary.judiciary.gov.ph/assets/searchform/dtSearch_help.html">
+    <META NAME="AddedReference" CONTENT="InsertedForFormBuilder" HREF="https://elibrary.judiciary.gov.ph/assets/searchform/dtSearch_pdfhelp.pdf">
+    <META NAME="AddedReference" CONTENT="InsertedForFormBuilder" HREF="https://elibrary.judiciary.gov.ph/assets/searchform/dtSearch_WebSearchForm.css">
+    <META NAME="AddedReference" CONTENT="InsertedForFormBuilder" HREF="https://elibrary.judiciary.gov.ph/assets/searchform/dtSearch_SearchResults.css">
+    <META NAME="AddedReference" CONTENT="InsertedForFormBuilder" HREF="https://elibrary.judiciary.gov.ph/assets/searchform/dtSearch_Utilities.js">
+    <META NAME="AddedReference" CONTENT="InsertedForFormBuilder" HREF="https://elibrary.judiciary.gov.ph/assets/searchform/dtSearch_SearchResults.js">
+    <META NAME="AddedReference" CONTENT="InsertedForFormBuilder" HREF="https://elibrary.judiciary.gov.ph/assets/searchform/dtSearch_WebSearchForm.js">
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://elibrary.judiciary.gov.ph/searchforms/custom.css"> -->
+
+    <style type='text/css'>
+        body{
+            /*background-image:url(searchforms/images/bg-blue.jpg);*/
+            /*background-size: 100% auto;*/
+            background-position:center top;
+            background-color: #193C74;
+            background-repeat:no-repeat;
+            background-position:fixed;
+            /*font-family: "Trebuchet MS";*/
+            font-size:10px;
+            /*color:#FFFFFF;*/
+            margin:0px 0px 0px 0px;
+        }
+        .forms{
+            font-size:10px;
+            border:1px solid #000000;
+        }
+        #cont_left{
+            width: 250px;
+            height: 400px;
+            background-color: #fff;
+            margin-left: 3%;
+            margin-top: 12%;
+            position: relative;
+        }
+        #cont_main{
+            width: 900px;
+            height: 400px;
+            background-color: #fff;
+            top:153px;
+            left: 300px;
+            position: absolute;
+        }
+        table{
+            position: relative;
+            top: 3px;
+        }
+        #copyright{
+            position: fixed;
+            bottom:-1%;
+            right: 1%;
+            z-index: -10;
+        }
+        #bared{
+            position: fixed;
+            bottom:0px;
+            right: 0px;
+            z-index: -9;
+            background-color: #000;
+            width: 2000px;
+            height: 20px;
+            padding-bottom: 2px;
+            padding-right: 2px;
+        }
+        iframe{
+            display:block;
+        }
+        /*change font size from 60px to 40px*/
+        div#blog-line h1 a {font-family: Georgia, serif; font-size:40px;  color:#fff;} 
+
+        /*change font size from 40px to 14px, letter spacing from -2px to 1px*/
+        div#blog-line h1 {font:14px Arial, serif; padding:20px 0; margin:0; color:#fff; letter-spacing:1px;}
+    </style>
+    <script>
+        // this deletes the cookie when called
+        function Delete_Cookie( name, path, domain ) {
+        if ( Get_Cookie( name ) ) document.cookie = name + "=" +
+        ( ( path ) ? ";path=" + path : "") +
+        ( ( domain ) ? ";domain=" + domain : "" ) +
+        ";expires=Thu, 01-Jan-1970 00:00:01 GMT";
+        }
+    </script>
+<!-- FOR DTSEARCH -->
+<!-- END -->
+<script>
+
+</script>
+
+</head>
+<!-- <body onLoad="Delete_Cookie( name, path, domain )"> -->
+<body>
+
+<div id="outline">
+<div id="blog-line">
+    <!-- blog title and tag line -->
+    <h1><a href="https://elibrary.judiciary.gov.ph/">Supreme Court E-Library</a> <br /> Information At Your Fingertips</h1> 
+</div>
+
+<!-- page navigation -->
+<div id="nav" class="clearfix">
+    <ul class="sf-menu">
+        <!--Comment out to remove Home in the header
+        <li class="page_item "><a href="http://10.10.100.51">Home</a></li>-->
+        <li class="page_item page-item-11 current_page_item"><a href="https://elibrary.judiciary.gov.ph/">HOME</a></li>
+        <!-- <li class=""><a href="https://elibrary.judiciary.gov.ph/assets/images/memorabilia/2023 Bar Passers.pdf">2023 Bar Passers</a></li> -->
+        <!-- <li class="page_item page-item-92"><a href="https://elibrary.judiciary.gov.ph/secquestion/secquestion_main">REGISTER HERE</a></li> -->
+        <li class="page_item page-item-202"><a href="https://elibrary.judiciary.gov.ph/philippinereports">PHILIPPINE REPORTS E-BOOKS</a>
+        <li class="page_item page-item-202"><a href="https://elibrary.judiciary.gov.ph/republic_acts">REPUBLIC ACTS</a>
+        <li class="page_item page-item-202"><a href="https://elibrary.judiciary.gov.ph/supremecourtjustices/chiefjusticelist/">CHIEF JUSTICES</a> 
+   <!-- <li class="page_item page-item-202"><a href="https://elibrary.judiciary.gov.ph/supremecourtjustices/scjmain">JUDICIARY MEMORABILIA HALL</a> -->
+            <ul class="children">
+				 <!--<li class="page_item page-item-202"><a href="https://elibrary.judiciary.gov.ph/supremecourtjustices/incumbentjusticelist/">Incumbent Justices</a></li>-->
+				 <!--<li class="page_item page-item-202"><a href="https://elibrary.judiciary.gov.ph/supremecourtjustices/chiefjusticelist/">Chief Justices</a></li>-->
+                <!-- <li class="page_item page-item-202"><a href="https://elibrary.judiciary.gov.ph/supremecourtjustices/associatejusticelist">Associate Justices</a></li> -->
+            </ul> 
+        </li>
+        <li class="page_item page-item-94"><a href="https://elibrary.judiciary.gov.ph/advisory/newsandadvisories/">NEWS & ADVISORIES</a></li>
+        <!--<li class="page_item page-item-544"><a href="links/">Links</a></li>-->
+        <li class="page_item page-item-546"><a href="https://elibrary.judiciary.gov.ph/sitemap/sitemap_main">SITE MAP</a></li>
+        <!--<li class="page_item page-item-548"><a href="feedback/">Feedback</a></li>-->
+        <li class="page_item page-item-84"><a href="https://elibrary.judiciary.gov.ph/aboutus/aboutus_main">ABOUT US</a>
+            <ul class='children'>
+                <li class="page_item page-item-86"><a href="https://elibrary.judiciary.gov.ph/aboutus/scelibrary">The Supreme Court E-Library</a></li>
+            <!-- <li class="page_item page-item-88"><a href="https://elibrary.judiciary.gov.ph/aboutus/elib_history">History of the E-Library</a></li> -->
+                <li class="page_item page-item-90"><a href="https://elibrary.judiciary.gov.ph/aboutus/elibrary_team">The E-Library Development Team</a></li>
+            </ul>
+        </li>
+        <!-- <li class="page_item page-item-548"><a href="https://elibrary.judiciary.gov.ph/contactus/contactus_main">CONTACT US</a></li> -->
+         
+    </ul>
+    <ul id="mail_rss">
+    <!--<li><a href="feed/">RSS</a></li>-->
+    </ul>           
+    <!-- ending header template -->
+</div>
+
+<div id="content" class="clearfix">
+<div id="right">
+<!-- FOR Toggle posts-->
+<p id="toggle-all"><a href="#" id="toggle" class="hide-all">Toggle posts</a></p>
+<!-- For FONT-SIZE changer  -->
+<p id="font-resize">
+<a id="default" href="#">A </a><a id="larger" href="#">A+ </a><a id="largest" href="#">A++</a>
+</p>
+<!-- widget -->
+
+<!---02/28/2022--->
+<!-- Search button only appears when not in the search page. -->
+<div id="wp_sidebarlogin-3" class="widget">
+    <p>
+        <!-- <STRONG>TO START</STRONG> click <STRONG>E-Library Search</STRONG>. -->
+        <center>
+            <b>CLICK THE IMAGE TO SEARCH</b>
+            <a href="https://elibrary.judiciary.gov.ph/search" target="_self">
+                <img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia/search_button.png"  alt="Elibrary Search"  title="E-Library Search" />
+            </a>
+        </center>
+  </p>
+</div>
+
+<!-- For Advisory
+<div id="container_faq">
+
+    <table border='0'>
+    <tr valign='center'>
+        <td>ADVISORY:</td>
+    </tr>
+    <tr valign='center'>
+        <td><div align='justify'>The Supreme Court E-Library will undergo a system
+		maintenance on March 28-31, 2024 and will be inaccessible during this period.<br><br>
+		Thank you for your understanding!<br><br></div></td>
+		
+    </tr>   
+</table>
+</div>
+<br>
+-->
+
+
+<div id="container_faq">
+    <center>
+        <!--[<A HREF="https://elibrary.judiciary.gov.ph/secquestion/secquestion_main"><b>REGISTER</b></A>]  | [<A HREF="https://elibrary.judiciary.gov.ph/aboutus/faq"><b>FAQs</b></A>]
+        <b>CONTACT US</b><br>
+        <STRONG>(02)8524-2706</STRONG>-->
+    </center>
+    <table border='0'>
+    <tr valign='center'>
+        <td>CONTACT:</td>
+    </tr>
+    <tr valign='center'>
+        <td>Supreme Court of the Philippines <br>
+		    Library Services,<br> 
+			Padre Faura, Ermita, Manila, Philippines 1000</td>
+    </tr>
+    <tr valign='center'>
+        <td>(632) 8524-2706</td>
+    </tr>
+    <tr valign='center'>
+        <td>libraryservices.sc@judiciary.gov.ph<br></td>
+    </tr>
+</table>
+</div>
+
+<br>
+<div id="container_seal">
+
+<center><a href="https://npcregistration.privacy.gov.ph/certificate/organizationRegistration/64a7c5e47c2074390ec3ccb5" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia/CORSeal.jpg"/></a></center>
+   
+</div>
+
+<div class="widget_quick">
+    
+<img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/header.png"/></a>
+    
+<a href="http://sc.judiciary.gov.ph/" title="Supreme Court of the Philippines" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/sc.png"  alt="Supreme Court of the Philippines"  title="Supreme Court of the Philippines" /></a>
+
+<a href="http://ca.judiciary.gov.ph/" title="Cour of Appeals" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/ca.png"  alt="Cour of Appeals"  title="Cour of Appeals" /></a>
+
+<a href="http://sb.judiciary.gov.ph/" title="Sandiganbayan" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/sb.png"  alt="Sandiganbayan"  title="Sandiganbayan" /></a>
+
+<a href="http://cta.judiciary.gov.ph/" title="Court of Tax Appeals" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/cta.png"  alt="Court of Tax Appeals"  title="Court of Tax Appeals" /></a></li>
+
+<a href="http://jbc.judiciary.gov.ph/" title="Judicial and Bar Council" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/jbc.png"  alt="Judicial and Bar Council"  title="Judicial and Bar Council" /></a>
+
+<a href="http://oca.judiciary.gov.ph/" title="Office of the Court Administrator" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/oca.png"  alt="Office of the Court Administrator"  title="Office of the Court Administrator" /></a>
+
+<a href="http://philja.judiciary.gov.ph/" title="Philippine Judicial Academy" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/philja.png"  alt="Philippine Judicial Academy"  title="Philippine Judicial Academy" /></a>
+
+<!--
+<a href="http://pmc.judiciary.gov.ph/" title="Philippine Meditation Center" target="_blank"><img src="https://elibrary.judiciary.gov.ph/assets/images/memorabilia
+/quick_links/pmc.png"  alt="Philippine Meditation Center"  title="Philippine Meditation Center" /></a>
+-->
+
+</div>
+
+<div id="linkcat-5" class="widget"><h4>Foreign Supreme Courts</h4>
+    <ul class='xoxo blogroll'>
+<li><a href="http://www.scourt.go.kr" target="_blank">Korea, South</a></li>
+<li><a href="http://www.kehakiman.gov.my/jugdment/fc/latest.shtml" target="_blank">Malaysia</a></li>
+<li><a href="http://www.supcourt.gov.sg/" target="_blank">Singapore</a></li>
+<li><a href="http://www.supremecourtus.gov/" target="_blank">United States of America</a></li>
+
+    </ul>
+</div>
+</div>
+<div id="left">
+<div class="single_content">
+<br>    
+<div align='right'><img src='https://elibrary.judiciary.gov.ph/assets/images/printer.png'>&nbsp;&nbsp;<a href='https://elibrary.judiciary.gov.ph/thebookshelf/showdocsfriendly/2/6255' target='_blank'>View printer friendly version</a></div>
+<br>
+   
+				S. No. 1084 H. No. 23227 / 85 OG No. 25, 3956-1 (June 19, 1989) ; Globe 6/15/89 ; Impl. Rules 7/14/89 ; Star 7/13/89
+				<BR><BR>
+				<CENTER>				
+				<H2 style='background-color:#cccccc;padding-top:10px;padding-bottom:10px;'>
+				[ REPUBLIC ACT NO. 6727, June 09, 1989 ]</H2>
+				<H3>AN ACT TO RATIONALIZE WAGE POLICY DETERMINATION BY ESTABLISHING THE MECHANISM AND PROPER STANDARDS THEREFOR, AMENDING FOR THE PURPOSE ARTICLE 99 OF AND INCORPORATING ARTICLES 120, 121, 122, 123, 124, 126 AND 127 INTO, PRESIDENTIAL DECREE NO. 442, AS AMENDED, OTHERWISE KNOWN AS THE LABOR CODE OF THE PHILIPPINES, FIXING NEW WAGE RATES, PROVIDING WAGE INCENTIVES FOR INDUSTRIAL DISPERSAL TO THE COUNTRYSIDE, AND FOR OTHER PURPOSES</H3>
+				</CENTER>
+				<BR><BR><div align="justify"><span style="font-style: italic;">Be it enacted by the Senate and House of Representatives of the Philippines in Congress assembled:</span><br><br>SECTION 1. This Act shall be: known as the "Wage Rationalization Act."<br><br>SEC. 2. It is hereby declared the policy of the State to rationalize the fixing of minimum wages and to promote productivity-improvement and gain-sharing measures to ensure a decent standard of living for the workers and their families; to guarantee the rights of labor to its just share in the fruits of production; to enhance employment generation in the countryside through industry dispersal; and to allow business and industry reasonable returns on investment, expansion and growth.<br><br>The State shall promote collective bargaining as the primary mode of setting wages and other terms and conditions of employment; and, whenever necessary, the minimum wage rates shall be adjusted in a fair and equitable manner, considering existing regional disparities in the cost of living and other socio-economic factors and the national economic and social development plans.<br><br>SEC. 3. In line with the declared policy under this Act, Article 99 of Presidential Decree No. 442, as amended, is hereby amended and Articles 120, 121, 122, 123, 124, 126 and 127 are hereby incorporated into Presidential Decree No. 442, as amended, to read as follows:<br><br><div style="margin-left: 40px;">"ART. 99. <span style="font-style: italic;">Regional Minimum Wages. </span><span style="font-style: italic;">—</span> The minimum wage rates for agricultural and non-agricultural employees and workers in each and every region of the country shall be those prescribed by the Regional Tripartite Wages and Productivity Boards."<br><br>"ART. 120. <span style="font-style: italic;">Creation of the National Wages and Productivity Commission. </span><span style="font-style: italic;">—</span> There is hereby created a National Wages and Productivity Commission, hereinafter referred to as the Commission, which shall be attached to the Department of Labor and Employment (DOLE) for policy and program coordination."<br></div><br><div style="margin-left: 40px;">"ART. 121. <span style="font-style: italic;">Powers and Functions of the Commission.</span><span style="font-style: italic;"> — </span>The Commission, shall have the following powers and functions:<br></div><br><div style="margin-left: 80px;">"(a) To act as the national consultative and advisory body to the President of the Philippines and Congress on matters relating to wages, incomes and productivity;<br><br>"(b) To formulate policies and guidelines on wages, incomes and productivity improvement at the enterprise, industry and national levels;<br><br>"(c) To prescribe rules and guidelines for the determination of appropriate minimum wage and productivity measures at the regional, provincial or industry levels;<br><br>"(d) To review regional wage levels set by the Regional Tripartite Wastes and Productivity Boards .to determine if these are in accordance with prescribed guidelines and national development plans;<br><br>"(e) To undertake studies, researches and surveys necessary for the attainment of its functions and objectives, and to collect and compile data and periodically disseminate information on wages and productivity and other related information, including, but not limited to, employment, cost-of-living, labor costs, investments and returns;<br><br>"(f) To review plans and programs of the Regional Tripartite Wages and Productivity Boards to determine whether these, are consistent with national development plans;<br><br>"(g) To exercise technical and administrative supervision over the Regional Tripartite Wages and Productivity Boards;<br><br>"(h) To call, from time to time, a national tripartite conference of representatives of government, workers and employers for the consideration of measures to promote wage rationalization and productivity; and<br><br>"(i) To exercise such powers and functions as may be necessary to implement this Act.<br></div><br><div style="margin-left: 40px;">"The Commission shall be composed of the Secretary of Labor and Employment as <span style="font-style: italic;">ex-officio</span> chairman, the Director-General of the National Economic and Development Authority (NEDA) as <span style="font-style: italic;">ex-officio</span> vice-chairman, and two (2) members each from workers and employer sectors who shall be appointed by the President of the Philippines upon recommendation of the Secretary of Labor and Employment to be made on the basis of the list of nominees submitted by the workers and employers sectors, respectively, and who shall serve for a term of five (5) years. The Executive Director of the Commission Secretariat shall also be a member of the Commission.<br><br>"The Commission shall be assisted by a SECretariat to be headed by an Executive Director and two (2) Deputy Directors, who shall be appointed by the President of the Philippine, upon recommendation of the SECretary of Labor and Employment.<br><br>"The Executive Director shall have the same rank, salary, benefit, and other emoluments as that of a Department Assistant Secretary, while the Deputy Directors shall have the same rank, salary, benefits and other emoluments as that of a Bureau Director. The members of the Commission representing labor and management shall have the same rank, emoluments, allowances and other benefit as those prescribed by law for labor and management representatives in the Employees Compensation Commission."<br><br>"ART. 122. <span style="font-style: italic;">Creation of Regional Tripartite Wages and Productivity Boards. </span><span style="font-style: italic;">—</span> There is hereby created Regional Tripartite Wages and Productivity<span style="font-style: italic;"> </span>Boards, hereinafter referred to as Regional Boards, in all regions, including autonomous regions as may be established by law. The Commission shall determine the offices/headquarters of the respective Regional Boards.<br><br>"Regional Boards shall have the following powers and functions in their respective territorial jurisdiction:<br></div><br><div style="margin-left: 80px;">"(a) To develop plans, programs and projects relative to wages, incomes and productivity improvement for their respective regions;<br><br>"(b) To determine and fix minimum wage rates applicable in their region, provinces, or industries therein and to issue the corresponding wage orders, subject to guidelines issued, by the Commission;<br><br>"(c) To undertake studies, researches, and surveys necessary for the attainment of their functions, objectives and programs, and to collect and compile data on wages, incomes, productivity and other related information and periodically disseminate the same;<br><br>"(d) To coordinate with the other Regions Boards as may be necessary to attain the policy and intention of this Code;<br><br>"(e) To receive, process and act on applications for exemption from prescribed wage rates as maybe provided by law or any Wage Order; and<br><br>"(f) To exercise such other powers and functions as may be necessary to carry out their mandate under this Code.<br></div><br><div style="margin-left: 40px;">"Implementation of the plans, programs and projects of the Regional Boards referred to in the second paragraph, letter (a) of this Article, shall be through the respective regional offices of the Department of Labor and Employment within their territorial jurisdiction; <span style="font-style: italic;">Provided, however,</span> That the Regional Boards shall have technical supervision over the regional office of the Department of Labor end Employment with respect to the implementation said plans, programs and projects.<br><br>"Each Regional Board shall be composed of the Regional Director of the Department of Labor and Employment as chairman, the Regional Directors of the National Economic and Development Authority and Department of Trade and Industry as vice-chairmen and two (2) members each from workers and employers sectors who shall be appointed by the President of the Philippines, upon recommendation of the Secretary of Labor and Employment, to be made on the basis of the list of nominees submitted by the workers and employers sector respectively, and who shall serve for a term of five (5) years.<br></div><br><div style="margin-left: 40px;">"Each Regional Board to be headed by its chairman shall be assisted by a Secretariat."<br></div><br><div style="margin-left: 40px;">"ART. 123. <span style="font-style: italic;">Wage Order. </span><span style="font-style: italic;">—</span> Whenever conditions in the region so warrant, the Regional Board shall investigate and study all pertinent facts, and based on the standards and criteria herein prescribed, shall proceed to determine whether a Wage Order should be issued. Any such Wage Order shall take effect after fifteen (15) days from its complete publication in at least one (1) newspaper of general circulation in the region.<br><br>"In the performance of its wage-determining functions, the Regional Board shall conduct public hearings/consultations, giving notices to employees' and employers' groups, provincial, city and municipal officials and other interested parties.<br><br>"Any party aggrieved by the Wage Order issued by the Regional Board may appeal such order to the Commission within ten (10) calendar days from the publication of such order. It shall be mandatory for the Commission to decide such appeal within sixty (60) calendar days from the filing thereof.<br></div><br><div style="margin-left: 40px;">"The filing of the appeal does not operate to stay order unless the person appealing such order shall file with the Commission an undertaking with a surety or sureties satisfactory to the Commission for the payment to the employees affected by the order of the corresponding increase, in the event such order is affirmed."<br><br>"ART. 124. <span style="font-style: italic;">Standards/Criteria for Minimum Wage Fixing.</span><span style="font-style: italic;"> — </span>The regional minimum wages to be established by the Regional Board shall be as nearly adequate us is economically feasible to maintain the minimum standards of living necessary for the health, efficiency and general well-being of the employees within the framework of the national economic and social development program. In the determination of such regional minimum wages, the Regional Board shall, among other relevant factors, consider the following:<br></div><br><div style="margin-left: 80px;">"(a) The demand for living wages;<br><br>"(b) Wage adjustment vis-a-vis the consumer price index;<br><br>"(c) The cost of living and changes or increases therein;<br><br>"(d) The needs, of workers and their families;<br><br>"(e) The need to induce industries to invest in the countryside;<br><br>"(f) Improvements in standards of living;<br><br>"(g) The prevailing wage levels;<br><br>"(h) Fair return, of the capital invested and capacity to pay of employers;<br><br>"(i) Effects on employment generation and family income; and<br><br>"(j) The equitably distribution of income and wealth along the imperatives of economic and social development,<br></div><br><div style="margin-left: 40px;">"The wages prescribed in accordance with the provisions of this Title shall be the standard prevailing minimum wages in every region. These wages shall include wages varying with industries, provinces or localities if in the judgment of the Regional Board conditions make such local differentiation proper and necessary to effectuate the purpose of this Title.<br><br>"Any person, company, corporation, partnership or any other entity engaged in business shall file and register annually with the appropriate Regional Board, Commission and the National Statistics Office an itemized listing of their labor component, specifying the names of their workers and employees below the managerial level, including learners, apprentices and disabled/handicapped workers who were hired under the terms prescribed in the employment contracts, and their corresponding salaries and wages.<br><br>"Where the application of any prescribed wage increase by virtue of a law or Wage Order issued by any Regional Board results in distortions of the wage structure within an establishment, the employer and the union shall negotiate to correct the distortions. Any dispute arising from wage distortions shall be resolved through the grievance procedure under their collective bargaining agreement and, if it remains unresolved, through voluntary arbitration. Unless otherwise agreed by the parties in writing, such dispute shall be decided by the voluntary arbitrator or panel of voluntary arbitrators within ten (10) calendar day from the time said dispute was referred to voluntary arbitration.<br></div><br><div style="margin-left: 40px;">"In cases where there are no collective agreements or recognized labor unions, the employers and workers shall endeavor to correct such distortions. Any dispute arising therefrom shall be settled through the National Conciliation and Mediation Board and if. It remains unresolved after ten (10) calendar days of conciliation, shall be referred to the appropriate branch of the National Labor Relations Commission (NLRC). It shall be mandatory for the NLRC to conduct continuous hearings and decide the dispute within twenty (20) calendar days from the time said dispute is submitted for compulsory arbitration.<br><br>"The pendency of a dispute arising from a wage distortion shall not in any way delay the applicability of any increase in prescribed wage rates pursuant to the provisions of law or Wage Order.<br><br>"As, used herein, a wage distortion shall mean a situation where an increase in prescribed wage rates results in the elimination or severe contraction of intentional quantitative differences in wage or salary rates between and among employee groups in an establishment as to effectively obliterate the distinctions embodied in such wage structure based on skills, length of service, or other logical bases of differentiation.<br><br>"All workers paid by result, including those who are paid on piecework, <span style="font-style: italic;">takay,</span> <span style="font-style: italic;">pakyaw</span> or task basis, shall receive not less than the prescribed wage rates per eight (8) hours work a day, or a proportion thereof for working less than eight (8) hours.<br><br>"All recognized learnership and apprenticeship agreements shall be considered automatically modified insofar as their wage clauses are concerned to reflect the prescribed wage rates."<br></div><br><div style="margin-left: 40px;">"ART. 126. <span style="font-style: italic;">Prohibition Against Injunction. </span><span style="font-style: italic;">—</span><span style="font-style: italic;"> </span>No preliminary or permanent injunction or temporary restraining order may be issued by any court, tribunal or other entity against any proceedings before the Commission or the Regional Boards."<br><br>"ART. 127. <span style="font-style: italic;">Non-Diminution of Benefits. </span><span style="font-style: italic;">—</span> No Wage Order issued by any Regional Board shall provide for wage rates lower than the statutory minimum wage rates prescribed by Congress."<br></div><br>SEC. 4. (a) Upon the effectivity of this Act, the statutory minimum wage rates of all workers and employees in the private sector, whether agricultural or non-agricultural, shall be increased by twenty-five pesos (P 25.00) per day, except that workers and employees in plantation agricultural enterprises outside of the National Capital Region (NCR) with an annual gross sales of less than five million pesos (P 5,000,000.00) in the preceding year shall be paid an increase of twenty pesos (P 20.00), and except further that workers and employees of cottage/handicraft industries, non-plantation agricultural enterprises, retail/service establishments regularly employing not more than ten (10) workers, and business enterprises with capitalization of not more than five hundred thousand pesos (P 500,000.00) and employing not more than twenty (20) employees, which are located or operating outside the NCR, shall be paid only an increase of fifteen pesos (P 15.00): <span style="font-style: italic;">Provided,</span> That those already receiving above the minimum wage rates up to one hundred pesos (P 100.00) shall also receive an increase of twenty-five pesos (P 25.00) per day, except that the workers and employees mentioned in the first exception clause of this Section shall also be paid only an increase of twenty pesos (P 20.00), and except further that those employees, enumerated in the second exception clause of this Section shall also be paid an increase of fifteen pesos (P 15.00): <span style="font-style: italic;">Provided, further, </span>That the appropriate Regional Board is hereby authorized to grant additional increases to the workers and employee mentioned in the exception clauses of this Section if, on the basis of its determination pursuant to Article 124 of the Labor Code such increases are necessary.<br><br>(b) The increase of twenty-five pesos (P 20.00) prescribed under this Section shall apply to all workers and employees entitled to the same in private, educational institutions as soon as they have increased or are granted authority to increase their tuition fees during school year 1989-1990. Otherwise, such increase shall be so applicable not later than the opening of the next school year beginning 1990.<br><br>(c) Exempted from the provisions of this Act are household or domestic helpers and persons employed in the personal service of another, including family drivers.<br><br>Retail/service establishments regularly employing not more than ten (10) workers may be exempted from the applicability of this Act upon application with and as determined by the appropriate Regional Board in accordance with the applicable rules and regulations, issued by the Commission, Whenever an application for exemption has been duly filed with the appropriate Regional Board, action on any complaint for alleged non-compliance with this Act shall be deferred pending resolution of the application for exemption by the appropriate Regional Board.<br><br>In the event that applications for exemptions are not granted, employees shall receive the appropriate compensation due them as provided for by this Act plus interest of one percent (1%) per month retroactive to the effectivity of this Act.<br><br>(d) If, expressly provided for and agreed upon in the collective bargaining agreements, all increases in the daily basic wage rates granted by the employers three (3) months before the effectivity of the Act shall be credited as compliance with the increases in the wage rates prescribed herein, provided that, where such increases are less than the prescribed increases in the wage rates under this Act, the employer shall pay the difference. Such increases shall not include anniversary wage increases, merit wage increases and those resulting: from the regularization or promotion of employees.<br><br>Where the application of the increases in the wage rates under this Section results in distortions as defined under existing laws in the wage structure within an establishment and gives rise to a dispute therein, such dispute shall first be settled voluntarily between the parties and in the event of a deadlock, the same shall be finally resolved through compulsory arbitration by the regional arbitration branch of the National Labor Relations Commission (NLRC) having jurisdiction over the workplace.<br><br>It shall be mandatory for the NLRC to conduct continuous hearings and decide any dispute arising under this Section within twenty (20) calendar days from the time said dispute is formally submitted to it for arbitration. The pendency of a dispute arising from a wage distortion shall not in any way delay the applicability of the increases in the wage rates prescribe under this Section.<br><br>SEC. 5. Within a period of four (4) years from the effectivity of this Act and without prejudice to collective bargaining negotiations or agreements or other employment contracts between employers and workers, new business enterprises that may be established outside the NCR and export processing zones whose, operation, or investments need initial assistance as may be determined by the Department of Labor and Employment fn consultation with the Department of Trade and Industry or the Department of Agriculture, as the case may be, shall be exempt from the application of this Act for not more than three (3) years from the start of their operations: <span style="font-style: italic;">Provided,</span> That such new business enterprises established in Region III (Central Luzon) and Region IV (Southern Tagalog) shall be exempt from such increases only for two (2) years from the start of their operations, except those established in the Provinces of Palawan, Oriental Mindoro, Occidental Mindoro, Marinduque, Romblon, Quezon and Aurora, which shall enjoy such exemption for not more than three (3) years from the start of their operations.<br><br>SEC. 6. In the case of contracts for construction projects and for security, janitorial and similar services, the prescribed increases in the wage rates of the workers shall be borne by the principals or clients of the construction/service contractors and the contract shall be deemed amended accordingly. In the event, however, that the principal or client fails to pay the prescribed wage rates, the construction/service contractor shall be jointly and severally liable with his principal or client.<br><br>SEC. 7. Upon written petition of the majority of the employees or workers concerned, all private establishments, companies, businesses; and other entities with twenty five (25) or more employees and located within one (1) kilometer radius to a commercial, savings or rural bank shall pay the wages and other benefits of their employees through any of said banks and within the period for payment of wages fixed by Presidential Decree No. 442, as amended, otherwise known as the Labor Code of the Philippines.<br><br>SEC. 8. Whenever applicable and upon request of a concerned worker or union, the bank shall issue a certification of the record of payment of wages of 'a particular worker or workers for a particular payroll period.<br><br>SEC. 9. The Department of Labor and Employment shall conduct inspections as often as possible within its manpower constraint of the payroll and other financial records kept by the company or business to determine whether the workers are paid the prescribed wage rates and other benefits granted by law or any Wage Order. In unionized companies, the Department of Labor and Employment inspectors shall always be accompanied by the president or any responsible officer of the recognized bargaining unit or of any interested union in the conduct of the inspection. In non-unionized companies, establishments or businesses, the inspection shall be carried out in the presence of a worker representing the worker in the said company. The worker representative shall have the right to submit his own findings to the Department of Labor and Employment and to testify on the same if he cannot concur with the findings of the labor inspector.<br><br>SEC. 10. The funds necessary to carry out the provisions of this Act shall be taken from the Compensation and Organizational Adjustment Fund, the Contingent Fund, and other savings under Republic Act No. 6688, otherwise known as the General Appropriations Act of 1989, or from any unappropriated funds of the National Treasury: <span style="font-style: italic;">Provided,</span> That the funding requirements necessary to implement this Act shall be included in the annual General Appropriations Act for the succeeding years.<br><br>SEC. 11. The National Wages Council created under Executive Order No. 614 and the National Productivity Commission created under Executive Order No. 615 are hereby abolished. All properties, records, equipment, buildings, facilities, and other assets, liabilities and appropriations of and belonging to the above mentioned offices, as well as other matters, pending therein, shall be transferred to the Commission. All personnel of the above abolished offices shall continue to function in a holdover capacity and shall be preferentially considered for appointments to or placement in the Commission.<br><br>Any official or employee separated from the service a result of the abolition of offices pursuant to this Act shall be entitled to appropriate separation pay and retirement and other benefits accruing to them under existing laws. In lieu thereof, at the option of the employee, he shall be preferentially considered for employment in the government or in any of its subdivisions, instrumentalities, or agencies, including government-owned or controlled corporations and their subsidiaries.<br><br>SEC. 12. Any person, corporation, trust, firm, partnership, association or entity which refuses or fails to pay any of the prescribed increases or adjustments in the wage rates made in accordance with this Act shall be punished by a fine not exceeding twenty-five thousand pesos (P 25.000.00) and/or imprisonment of not less than one (1) year nor more than two (2) years: <span style="font-style: italic;">Provided,</span> That any person convicted under this Act shall not be entitled to the benefits provided for under the Probation Law.<br><br>If the violation is committed by a corporation, trust or firm, partnership, association or any other entity, the penalty of imprisonment shall be imposed upon the entity's responsible officers, including but not limited to, the president, vice president, chief executive officer, general manager, managing director or partner.<br><br>SEC. 13. The Secretary of Labor and Employment shall promulgate the necessary rules and regulations to implement the provisions of this Act.<br><br>SEC. 14. All laws, orders, issuances, rules and regulations or parts; thereof inconsistent with the provisions of this Act are hereby repealed, amended or modified accordingly. If any provision or part of this Act, or the application thereof to any person or circumstance, is held invalid or unconstitutional, the remainder of this Act or the application of such provision or part thereof to other persons or circumstances shall not be affected thereby.<br><br>Nothing in this Act shall be construed to reduce any existing wage rates, allowances and benefits of any form under existing laws, decrees, issuances, executive orders, and/or under any contract or agreement between the workers and employers.<br><br>SEC. 15. This Act shall take effect fifteen (15) days after its complete publication in the Official Gazette or in at least two (2) national newspapers of general circulation, whichever comes earlier.<br><br>Approved,<br><br><table align="center" border="0" cellpadding="3" cellspacing="1" width="100%"><tbody><tr bgcolor="#ffffff" valign="top"><td style="text-align: center;" width="48%"><b> (Sgd.) JOVITO R. SALONGA</b></td><td style="text-align: center;" width="52%"><b>(Sgd.) RAMON V. MITRA</b></td></tr><tr bgcolor="#ffffff" valign="top"><td style="text-align: center;"> <i>President of the Senate</i><i> </i></td><td style="text-align: center;"><i>Speaker of the House <br>
+of Representatives</i></td></tr></tbody></table><br>This Act which is a consolidation of Senate Bill No. 1084 and House Bill No. 23227 was finally passed by both the Senate and the House of Representatives on June 5, 1989.<br><br><table align="center" border="0" cellpadding="3" cellspacing="1" width="100%"><tbody><tr bgcolor="#ffffff" valign="top"><td style="text-align: center;" width="48%"><b>(Sgd.) EDWIN P. ACOBA</b><b> <br></b></td><td style="text-align: center;" width="52%"><b>(Sgd.) QUIRINO D. ABAD SANTOS, JR.</b></td></tr><tr bgcolor="#ffffff" valign="top"><td style="text-align: center;"> <i>Secretary of the Senate</i><i></i></td><td style="text-align: center;"><i>Secretary General House of <br>
+Representatives</i></td></tr></tbody></table><br>Approved: June 9, 1989<br><br><div style="text-align: center;"><span style="font-weight: bold;">(Sgd.) CORAZON C. AQUINO</span><br><span style="font-style: italic;">President of the Philippines</span></div></div>
+				  
+
+
+  
+</div>
+</div>
+</div>
+<!-- footer template -->
+<div id="appendix" class="clearfix">
+<div class="app_widget">
+<!-- sidebar_bottom_left -->
+</div>
+
+<!-- Comment out to remove Find Widget in sidebar bottom left-->
+<!--
+<div class="widget">
+<h4>Find it!</h4>
+-->
+
+<div id="credits"><center>&copy; Supreme Court E-Library 2019<br />
+This website was designed and developed, and is maintained, by the E-Library Technical Staff in collaboration with the Management Information Systems Office.</center></div>
+</div>
+
+</div>
+
+<!-- <script src="https://elibrary.judiciary.gov.ph/assets/js/jquery-3.3.1.js"></script> -->
+<!-- <script src="https://elibrary.judiciary.gov.ph/assets/js/jquery-confirm.min.js"></script> -->
+
+<!-- <script>
+var jq = jQuery.noConflict();
+    // Checks if first time to visit the site and displays a popup if it is.
+    if(sessionStorage.getItem('firstVisit')){
+        sessionStorage.setItem('firstVisit','1');
+    }else{
+        sessionStorage.setItem('firstVisit','0');
+    }
+    jq(document).ready(function(){
+        if(sessionStorage.getItem('firstVisit') === "0")
+        {
+            jq.alert({
+                icon: 'fas fa-exclamation-triangle',
+                title: 'NOTICE',
+                animation: 'scale',
+                closeAnimation: 'zoom',
+                animationBounce: 2.5,
+                animationSpeed: 500,
+                buttons:{
+                    gotIt: {
+                        text: '<b>Click Here!</b>',
+                    }
+                },
+                boxWidth: '40%',
+                useBootstrap: false,
+                content: ''+
+                '<ol>'+
+                '<li><i>(05-02-2019)</i> Registration for a new E-library account is currently unavailable. However, existing accounts may still be used and accessed. We apologize for any inconvenience.</li>'+						
+                '</ol>',
+                theme: 'custom',
+            });
+        }
+    });
+</script>-->
+
+</body>
+</html>

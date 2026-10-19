@@ -1,0 +1,16 @@
+{
+  "role": "reused_AI_development_classifier_only_replay",
+  "independent_human_gold": false,
+  "inputs": 424,
+  "llm_calls": 0,
+  "score": {
+    "labeled": 414,
+    "primary_correct": 413,
+    "scope_correct": 413,
+    "routes_correct": 417
+  },
+  "changed_predictions": [],
+  "new_regressions": [],
+  "compared_with": "saved baseline observations in normalization-evaluation-v2.0.0",
+  "full_normalized_pipeline_reevaluated": false
+}

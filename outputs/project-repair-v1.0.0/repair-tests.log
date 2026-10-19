@@ -1,0 +1,33 @@
+test_full_citation_labels_distinguish_ambiguous_provisions (backend.application.test_repairs.ApplicationRepairTests.test_full_citation_labels_distinguish_ambiguous_provisions) ... ok
+test_health_and_another_question_work_while_generation_waits (backend.application.test_repairs.ApplicationRepairTests.test_health_and_another_question_work_while_generation_waits) ... ok
+test_live_referral_fields_and_missing_sources_are_explained (backend.application.test_repairs.ApplicationRepairTests.test_live_referral_fields_and_missing_sources_are_explained) ... ok
+test_local_only_skips_both_providers_but_keeps_classification (backend.application.test_repairs.ApplicationRepairTests.test_local_only_skips_both_providers_but_keeps_classification) ... ok
+test_unsupported_judgment_withholds_the_entire_draft (backend.application.test_repairs.ApplicationRepairTests.test_unsupported_judgment_withholds_the_entire_draft) ... ok
+test_cancel_tombstone_prevents_a_racing_export (backend.application.test_repairs.ControlTests.test_cancel_tombstone_prevents_a_racing_export) ... ok
+test_cancellation_closes_an_active_connection (backend.application.test_repairs.ControlTests.test_cancellation_closes_an_active_connection) ... ok
+test_daily_request_cap_and_estimated_cost_settlement (backend.application.test_repairs.ControlTests.test_daily_request_cap_and_estimated_cost_settlement) ... ok
+test_idempotence_is_scoped_and_conflicts_are_rejected (backend.application.test_repairs.ControlTests.test_idempotence_is_scoped_and_conflicts_are_rejected) ... ok
+test_transport_rejects_other_hosts_before_any_connection (backend.application.test_repairs.ControlTests.test_transport_rejects_other_hosts_before_any_connection) ... ok
+test_unknown_pricing_and_repeated_failures_stop_new_exports (backend.application.test_repairs.ControlTests.test_unknown_pricing_and_repeated_failures_stop_new_exports) ... ok
+test_judge_must_cover_each_claim_once_with_all_checks (backend.application.test_repairs.GroundingTests.test_judge_must_cover_each_claim_once_with_all_checks) ... ok
+test_known_unentailed_and_excluded_claims_fail_before_a_judge (backend.application.test_repairs.GroundingTests.test_known_unentailed_and_excluded_claims_fail_before_a_judge) ... ok
+test_malformed_judge_cannot_approve_itself (backend.application.test_repairs.GroundingTests.test_malformed_judge_cannot_approve_itself) ... ok
+test_malformed_provider_envelopes_and_redirects_are_safe (backend.application.test_repairs.GroundingTests.test_malformed_provider_envelopes_and_redirects_are_safe) ... ok
+test_written_numeric_facts_match_literal_quantities (backend.application.test_repairs.GroundingTests.test_written_numeric_facts_match_literal_quantities) ... ok
+test_append_does_not_allow_another_owner_to_claim_a_thread (backend.application.test_repairs.HistoryTests.test_append_does_not_allow_another_owner_to_claim_a_thread) ... ok
+test_delete_is_scoped_and_cap_is_enforced (backend.application.test_repairs.HistoryTests.test_delete_is_scoped_and_cap_is_enforced) ... ok
+test_expiry_and_corrupt_data_are_not_returned (backend.application.test_repairs.HistoryTests.test_expiry_and_corrupt_data_are_not_returned) ... ok
+test_native_windows_storage_does_not_contain_plain_question (backend.application.test_repairs.HistoryTests.test_native_windows_storage_does_not_contain_plain_question) ... ok
+test_owner_isolation_and_saved_state_round_trip (backend.application.test_repairs.HistoryTests.test_owner_isolation_and_saved_state_round_trip) ... ok
+test_address_does_not_consume_following_concern (backend.application.test_repairs.PrivacyTests.test_address_does_not_consume_following_concern) ... ok
+test_credential_patterns_do_not_leave_the_local_redactor (backend.application.test_repairs.PrivacyTests.test_credential_patterns_do_not_leave_the_local_redactor) ... ok
+test_identifiers_are_removed_and_legal_facts_remain (backend.application.test_repairs.PrivacyTests.test_identifiers_are_removed_and_legal_facts_remain) ... ok
+test_no_redaction_is_claimed_for_unrecognized_identifiers (backend.application.test_repairs.PrivacyTests.test_no_redaction_is_claimed_for_unrecognized_identifiers) ... ok
+test_history_quotes_and_negation_do_not_raise_current_notice (backend.application.test_repairs.SafetyTests.test_history_quotes_and_negation_do_not_raise_current_notice) ... ok
+test_present_and_filipino_harm_variants (backend.application.test_repairs.SafetyTests.test_present_and_filipino_harm_variants) ... ok
+test_present_threat_is_not_hidden_by_a_historical_sentence (backend.application.test_repairs.SafetyTests.test_present_threat_is_not_hidden_by_a_historical_sentence) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 6.659s
+
+OK

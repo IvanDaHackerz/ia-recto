@@ -1,0 +1,16 @@
+{
+  "backend-tests.log": "5eb9a8e49e15ab72b79cc49efbda5ad97a15f43092ab551d4f1eb07ccd8bb11c",
+  "comparison_audit.json": "9a167b054aa898739aea3bd365cef1f40060c24f3cd19613c82d3c27e9f40f96",
+  "current_artifacts_snapshot.json": "521031ffdee52ad987daa8bbe501da7bccfc6a4a740045b15c8d9d56862d9af1",
+  "evaluator-final-tests.log": "92a21b964151e5c998ad6011d927917bf579e7c23d8f2df99ee4ff5661ae0d2c",
+  "EXPLANATION_HANDOFF.md": "7702ac9cb6b45e9c9b41e800d56f862b8ebed2dcea3d28f06f7ccf97c94e73a5",
+  "explanation_readiness.json": "074f64666ab0fdcb36f1c01692118e7e676b9b7d4b75f9bcdc32548c571334d4",
+  "human_collection_status.json": "826150db516322c77a2ea0f2cd38285dfdd4636642c8d933cf9548eb75a9acd9",
+  "HUMAN_TEST.md": "5e77870f5558495daa774aa54bad86b2c437383d7a62abf3091a8f8f2486b23c",
+  "live-run.log": "2cd9528716a6d752bdac248986560a0a8874fbbeb2c484c653bfd764ddb8c645",
+  "normalization_status_snapshot.json": "11b2543d403dd3d713a3834bbd719e0db64eee25464959d4a85bb4c6fc738da5",
+  "previous_current_artifacts.json": "fcb415e8f40185da7a7809ba94802bdba4c1be161dd7ec11daa53e1884f22787",
+  "previous_normalization_status.json": "9b7152f0a59ad744a2d9cdab2f8e090d8b48086ceac73a73f6cdf6973ba63c23",
+  "REPORT.md": "aa8759a48c3b62fa9482a3a87289ca7a528077d70bd73a11c044f2b40552ef22",
+  "wording-software-tests.log": "54749ff0a2b045c57ee677523d3ce89fefa9e4bc73f558ad81e5444218c6e0cd"
+}

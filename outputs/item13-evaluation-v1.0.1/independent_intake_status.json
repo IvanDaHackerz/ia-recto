@@ -1,0 +1,3619 @@
+{
+  "deployment_allowed": false,
+  "errors": [
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_001"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_002"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_003"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_004"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_005"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_006"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_007"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_008"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_009"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_010"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_011"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_012"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_013"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_014"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_015"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_016"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_017"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_018"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_019"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_020"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_021"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_022"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_023"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_024"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_025"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_026"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_027"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_028"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_029"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_030"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_031"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_032"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_033"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_034"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_035"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_036"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_037"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_038"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_039"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_040"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_041"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_042"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_043"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_044"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_045"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_046"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_047"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_048"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_049"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_050"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_051"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_052"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_053"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_054"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_055"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_056"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_057"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_058"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_059"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_060"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_061"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_062"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_063"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_064"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_065"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_066"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_067"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_068"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_069"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_070"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_071"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_072"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_073"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_074"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_075"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_076"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_077"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_078"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_079"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_080"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_081"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_082"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_083"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_084"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_085"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_086"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_087"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_088"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_089"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_090"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_091"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_092"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_093"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_094"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_095"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_096"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_097"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_098"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_099"
+    },
+    {
+      "issue": "Question has not been supplied",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "Independent human authorship is not attested",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "AI writing must not be labeled independent human writing",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "Author and annotator IDs are required",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "Actual writing and annotation dates are required",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "Previously used tuning data cannot become a fresh holdout",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "Scenario family is required",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "Unsupported/missing evaluated language",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "Missing or inconsistent human labels",
+      "question_id": "HG_100"
+    },
+    {
+      "issue": "All four primary classes must be represented"
+    },
+    {
+      "issue": "All three scope classes must be represented"
+    }
+  ],
+  "final_evaluation_executed": false,
+  "human_provenance_is_self_attestation_not_machine_proof": true,
+  "input_sha256": "b7783c3f7691f373e97ed0ed23fe35edbb6586c25ca312abfdc52721ff6878c9",
+  "locks_or_opens_test": false,
+  "near_duplicate_and_label_quality_review_still_required": true,
+  "passed": false,
+  "rows": 100,
+  "source_support_review_and_final_protocol_still_required": true
+}

@@ -1,0 +1,9 @@
+{
+  "role": "blank_working_intake_status_at_handoff",
+  "slots": 100,
+  "completed_questions": 0,
+  "independent_human_questions": 0,
+  "initial_template_sha256": "b7783c3f7691f373e97ed0ed23fe35edbb6586c25ca312abfdc52721ff6878c9",
+  "mutable_working_file": "human_intake.jsonl",
+  "independent_evaluation_executed": false
+}

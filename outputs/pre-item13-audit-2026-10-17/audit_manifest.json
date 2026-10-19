@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-10-17",
+  "current_artifacts": {
+    "classifier": "outputs/item10-classifier-v1.5.4",
+    "retrieval": "outputs/item11-retrieval-v1.2.3",
+    "repair_packet": "outputs/pre-item12-repair-2026-10-17",
+    "development_only": true,
+    "all_project_issues_closed": false,
+    "item12_started": true,
+    "verifier": "outputs/item12-verifier-v1.0.1",
+    "item12_status": "offline_implementation_tested",
+    "item12_offline_implementation_completed": true,
+    "current_guidance_allowed": false,
+    "pre_item13_audit": "outputs/pre-item13-audit-2026-10-17",
+    "item13_started": false,
+    "item13_offline_evaluation_ready": true,
+    "item13_full_generated_answer_evaluation_ready": false,
+    "deployment_allowed": false,
+    "answer_generation_allowed": false,
+    "source_contact_followup": "outputs/source-contact-followup-v1.0.0",
+    "referral_refresh": "dataset/processed/item10/referral_refresh_v1.0.0"
+  },
+  "current_artifacts_sha256": "e3334a0abce5130cc46cf372bdaa30f9ead1c3176699c35d9ea9303771f976e7",
+  "documentation_sha256": {
+    "README.md": "fea224cb6bd5bb534eb9ff5681cdfc8e5a3e229d09ae88155d70f75c2b57bc36",
+    "dataset/DATASET_INVENTORY.md": "4fd8ad4719c738904a2f32f50cace6be0bcd77388753c0d6d04b3f2fa94640c4"
+  },
+  "verifier_manifest_sha256": "cfd87723aa9bb5fb2ee67add58d14a022c2fb3f56ee8b9e7b6c6abec93b96984",
+  "ready_for_offline_item13": true,
+  "ready_for_full_generated_answer_evaluation": false,
+  "new_independent_gold_questions": 0,
+  "live_llm_calls": 0,
+  "deployment_allowed": false
+}

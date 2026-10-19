@@ -1,0 +1,37 @@
+# Machine-specific dependencies and private state
+.venv*/
+venv/
+.local/
+__pycache__/
+*.py[cod]
+node_modules/
+.env
+.env.*
+!.env.example
+!.env.sample
+*.dpapi
+*.sqlite3*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Public encoder: setup-project.ps1 downloads and verifies it
+models/embedding_backbone/
+models/hf_home/
+
+# Bulk discovery inputs are unnecessary for running the trained application
+/dataset/consolidated.parquet
+/dataset/juris.parquet
+/dataset/markdown/
+
+# Local scratch, archives and agent tooling
+/tmp/
+/outputs/releases/
+/.agents/
+/.codex/
+/.idea/
+.DS_Store
+
+# Keep versioned output packages and their integrity-pinned .log files.
+# Stage the curated list described in GITHUB_SHARING.md, not the entire folder.

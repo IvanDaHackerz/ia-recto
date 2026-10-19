@@ -1,0 +1,9 @@
+{
+  "backend_normalizer_and_api": 87,
+  "classifier": 60,
+  "retrieval": 42,
+  "verifier": 37,
+  "total_distinct_checks": 226,
+  "passed": true,
+  "network_scope_of_software_checks": "Temporary localhost HTTP only; LLM replies mocked."
+}

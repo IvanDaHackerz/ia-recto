@@ -1,0 +1,23 @@
+{
+  "audit_manifest.json": "ea1d2621b898704ea2a1d345fc7310e43deb165baaa7a4ad0cf155a88db6989d",
+  "check_existing_integration.py": "68ad5d738fd7488fdcfc7195f62948b2b3784888403922e9ca418d71179a69b5",
+  "current_issue_ledger.json": "1b5138d227d1da997fc68679577124bf67099d1eeee10275eca46033930b0df4",
+  "final_integrity.json": "9e546b3f17854032574ee6b11f0a3b725d7c2efc1b1c3013a5dc35c9f5f48224",
+  "foundation_checks.json": "571835df2e7b52b09fa7894e00bf1d6d148c0be863b409c0908b7d5be1bca62d",
+  "independent_intake_check.json": "b7aa606e7d2d3320a7f2e3d5c65d06ae1ec8fcaf82b7d8ffaf81d7ec242580c0",
+  "integration_results.json": "052622a4d43f6a4d433a8bea348a179fb9f7d3c1ef75e57f9923726116ebac63",
+  "integration_summary.json": "6a69e3b2720f9bdc7a3b0e044c96fc17fa50e575a3cc60341bbda269d680620b",
+  "ITEM12_CHANGES.patch": "8a2091aa3d9332f516f13bc9c8e803e3ebb2d8210dfd73544e466df2d8b5418c",
+  "ITEM13_EXPLAINED.md": "ddc06dc64d7514c3643c8aa1fcbc49f8d4403824bf1c64afda3a01fd5b53560e",
+  "item7_validation.json": "32d467802f6df9a54a17fa6d45a76c4ea662a52c6676d2687829771f71362a84",
+  "item7_validation.log": "02a16e713f0ae32403ce32c608b8182c0290859d8726d5faa1de2bfff44bd243",
+  "item8_validation.json": "646815e7642e976280b4de4de5da3ee193f8301048cc6f8b9ac860b7275ff4bc",
+  "item8_validation.log": "646815e7642e976280b4de4de5da3ee193f8301048cc6f8b9ac860b7275ff4bc",
+  "item9_validation.json": "c26a50ea22dd47c3c8d1faa15625e6cbc59da00778dfcd71b4edd47df9b6feb1",
+  "item9_validation.log": "c26a50ea22dd47c3c8d1faa15625e6cbc59da00778dfcd71b4edd47df9b6feb1",
+  "PRE_ITEM13_AUDIT.md": "3b5438d8558e6b1ed59fb793fa3a0f2455cabca094ee6381212f54db8682095b",
+  "readiness.json": "1e852add3f873de8f4842d8226b261dc47b1a37a96863b218e4682a4615eb9dd",
+  "run_foundation_checks.py": "6e46909133cf552eaa7e4b9a1f79e118aa86929c50ade7f02a5df0bd23e2c37f",
+  "session_checks.json": "7618ee4bf9640fa573d6d438f8fc969af05098ac08979f66b83f1ae61b2b56a6",
+  "write_audit.py": "4718b9a9efb51fd0511b1758c303966a3054428b070bccb96f175fe3c42cf4c9"
+}

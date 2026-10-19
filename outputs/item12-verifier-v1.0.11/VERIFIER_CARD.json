@@ -1,0 +1,12 @@
+{
+  "version": "item12-verifier-v1.0.11",
+  "role": "Dependency rebind for classifier preintegration implementation",
+  "current_guidance_real_reviews": 0,
+  "new_legal_sources": 0,
+  "source_currentness_refreshed": false,
+  "automated_paraphrase_entailment_model": false,
+  "formal_evaluation_completed": false,
+  "answer_generation_allowed": false,
+  "display_allowed": false,
+  "deployment_allowed": false
+}

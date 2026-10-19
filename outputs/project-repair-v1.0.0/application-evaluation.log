@@ -1,0 +1,25 @@
+Completed 25 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 50 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 75 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 100 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 125 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 150 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 175 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 200 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 225 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 250 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 275 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 300 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 8, 'estimated_usd': 0.01110225, 'input_tokens': 6165, 'output_tokens': 1524, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 325 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 32, 'estimated_usd': 0.03406065, 'input_tokens': 49396, 'output_tokens': 9728, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 350 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 68, 'estimated_usd': 0.0485976, 'input_tokens': 109781, 'output_tokens': 20299, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 375 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 101, 'estimated_usd': 0.060620999999999994, 'input_tokens': 155608, 'output_tokens': 27334, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 400 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 134, 'estimated_usd': 0.0664992, 'input_tokens': 209059, 'output_tokens': 37528, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Completed 425 / 436 ; usage: {'day_utc': '2026-10-19', 'provider_requests': 171, 'estimated_usd': 0.0881766, 'input_tokens': 264959, 'output_tokens': 50540, 'maximum_calls': 1308, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+# Complete application development replay
+
+436 frozen AI inputs; 436 returned packets; 25 generated responses passed exact citation and same-model automated support checks.
+
+Provider usage: 182 attempts; $0.084449 estimated at configured rates. No automatic retries.
+
+These results do not establish independent human accuracy, legal entailment, source currentness or deployment readiness. Withheld and failed cases remain in the report. See metrics.json and observations.jsonl.
+

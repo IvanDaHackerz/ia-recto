@@ -1,0 +1,312 @@
+{
+  "after": "outputs/item13-evaluation-v1.0.1",
+  "all_development_screens_met": true,
+  "answer_generation_allowed": false,
+  "before": "outputs/item13-evaluation-v1.0.0",
+  "case_sha256": "925414e457b3507fd7a05e77ac9fb22998bf0bf320d3c42b1f1183f881106760",
+  "cases_unchanged": true,
+  "deployment_allowed": false,
+  "fixed_case_ids": [
+    "SYS_01_1",
+    "SYS_02_1",
+    "SYS_02_2",
+    "SYS_02_3",
+    "SYS_03_2",
+    "SYS_06_1",
+    "SYS_06_2",
+    "SYS_06_3"
+  ],
+  "live_llm_calls": 0,
+  "metrics": {
+    "current_guidance_candidate_coverage": {
+      "after": {
+        "denominator": 291.0,
+        "families": 167,
+        "family_cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 0.0,
+        "value": 0.0
+      },
+      "before": {
+        "denominator": 291.0,
+        "families": 167,
+        "family_cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 0.0,
+        "value": 0.0
+      }
+    },
+    "decisive_coverage": {
+      "after": {
+        "denominator": 268.0,
+        "families": 162,
+        "family_cluster_bootstrap_95": [
+          0.9325842696629213,
+          0.982078853046595
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 257.0,
+        "value": 0.9589552238805971
+      },
+      "before": {
+        "denominator": 268.0,
+        "families": 162,
+        "family_cluster_bootstrap_95": [
+          0.9325842696629213,
+          0.982078853046595
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 257.0,
+        "value": 0.9589552238805971
+      }
+    },
+    "explicit_concern_match": {
+      "after": {
+        "denominator": 39.0,
+        "families": 7,
+        "family_cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 39.0,
+        "value": 1.0
+      },
+      "before": {
+        "denominator": 39.0,
+        "families": 7,
+        "family_cluster_bootstrap_95": [
+          0.6388888888888888,
+          0.9444444444444444
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 31.0,
+        "value": 0.7948717948717948
+      }
+    },
+    "known_relevant_hit_at_5": {
+      "after": {
+        "denominator": 56.0,
+        "families": 28,
+        "family_cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 56.0,
+        "value": 1.0
+      },
+      "before": {
+        "denominator": 56.0,
+        "families": 28,
+        "family_cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 56.0,
+        "value": 1.0
+      }
+    },
+    "known_relevant_mrr_at_5": {
+      "after": {
+        "denominator": 56.0,
+        "families": 28,
+        "family_cluster_bootstrap_95": [
+          0.8514880952380953,
+          0.9910714285714286
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 52.28333333333334,
+        "value": 0.9336309523809525
+      },
+      "before": {
+        "denominator": 56.0,
+        "families": 28,
+        "family_cluster_bootstrap_95": [
+          0.8514880952380953,
+          0.9910714285714286
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 52.28333333333334,
+        "value": 0.9336309523809525
+      }
+    },
+    "negative_candidate_leakage": {
+      "after": {
+        "denominator": 11.0,
+        "families": 11,
+        "family_cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 0.0,
+        "value": 0.0
+      },
+      "before": {
+        "denominator": 11.0,
+        "families": 11,
+        "family_cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 0.0,
+        "value": 0.0
+      }
+    },
+    "partial_support_recall": {
+      "after": {
+        "denominator": 32.0,
+        "families": 18,
+        "family_cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 32.0,
+        "value": 1.0
+      },
+      "before": {
+        "denominator": 32.0,
+        "families": 18,
+        "family_cluster_bootstrap_95": [
+          0.8958059210526316,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 31.0,
+        "value": 0.96875
+      }
+    },
+    "primary_accuracy": {
+      "after": {
+        "denominator": 268.0,
+        "families": 162,
+        "family_cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 268.0,
+        "value": 1.0
+      },
+      "before": {
+        "denominator": 268.0,
+        "families": 162,
+        "family_cluster_bootstrap_95": [
+          0.9877538474406156,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 267.0,
+        "value": 0.996268656716418
+      }
+    },
+    "quote_integrity": {
+      "after": {
+        "denominator": 288.0,
+        "families": 115,
+        "family_cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 288.0,
+        "value": 1.0
+      },
+      "before": {
+        "denominator": 289.0,
+        "families": 115,
+        "family_cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 289.0,
+        "value": 1.0
+      }
+    },
+    "route_match": {
+      "after": {
+        "denominator": 291.0,
+        "families": 167,
+        "family_cluster_bootstrap_95": [
+          0.9369077313267027,
+          0.9834983498349835
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 280.0,
+        "value": 0.9621993127147767
+      },
+      "before": {
+        "denominator": 291.0,
+        "families": 167,
+        "family_cluster_bootstrap_95": [
+          0.9315068493150684,
+          0.9813735825403156
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 279.0,
+        "value": 0.9587628865979382
+      }
+    },
+    "scope_accuracy": {
+      "after": {
+        "denominator": 268.0,
+        "families": 162,
+        "family_cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; constant outcomes give a degenerate interval and cannot rule out unseen failures.",
+        "numerator": 268.0,
+        "value": 1.0
+      },
+      "before": {
+        "denominator": 268.0,
+        "families": 162,
+        "family_cluster_bootstrap_95": [
+          0.9877538474406156,
+          1.0
+        ],
+        "interval_note": "Descriptive grouped development interval; does not measure AI bias or establish independence.",
+        "numerator": 267.0,
+        "value": 0.996268656716418
+      }
+    }
+  },
+  "new_finding_case_ids": [],
+  "new_independent_human_questions": 0,
+  "new_training_questions": 0,
+  "remaining_case_ids": [
+    "EVAL_054",
+    "EVAL_056",
+    "EVAL_062",
+    "EVAL_067",
+    "EVAL_079",
+    "EVAL_084",
+    "EVAL_094",
+    "EVAL_100",
+    "TYPE_044",
+    "TYPE_062",
+    "TYPE_064"
+  ],
+  "role": "Inspected AI development repair; no fresh independent performance claim",
+  "targets_unchanged": true,
+  "tests": {
+    "classifier": 53,
+    "evaluator": 34,
+    "retrieval": 42,
+    "verifier": 37
+  },
+  "weights_features_calibration_thresholds_unchanged": true,
+  "worsened_case_ids": []
+}

@@ -1,0 +1,21 @@
+{
+  "classifier_tests.log": "7a7adb63473f3e9d8d079036a3dad6908df2ce0cfb5d769cfe3f18f06dd9094e",
+  "parent_scope_regression_results.json": "193fc54d06454ae2857444457b7d6630311d0a05a81e7c65fce82632620c0645",
+  "preservation_audit.json": "6a7405729ec5c73cffcd91ba40b7dd61a6151e9bc184fed6d0b10c50c810ae7d",
+  "retrieval_tests.log": "5d050ae67b72bc7b0039e994081419f5134f4e458d3e34ca4f837aa648f0df75",
+  "run_manifest.json": "3f37fa2a8222b6d2381c66e5e41f37cf33b25770b4bda575932c6c1a89f1347d",
+  "software_tests.json": "de4ec392d84ec3f3caa1565e19a0d396d9bcdab05abb60149b81d55a5de3ffd0",
+  "source_snapshot/build_packet.py": "b40c76ee295f2af16c8df973c8376ce7b442824594a418a97b6bd4e48744b81f",
+  "source_snapshot/contracts.py": "3bd46e2e82d9eeb9371a2d8f8c36145cad4faf836257f5d40b21e406c9f7ad1e",
+  "source_snapshot/development_cases.py": "4d11d02e243d81c7e47d2a2ad287f675a20d2f36855baab17441412cd82cf7db",
+  "source_snapshot/evaluate_verifier.py": "5182da7296922a86fb12203102ec9718ebb1dc8591527a9a76ff5bf7a7d02d79",
+  "source_snapshot/policy.json": "8e433ea89284c5ad85f066b6e9459370c186c6f701442b9e8131782b00eb45b8",
+  "source_snapshot/README.md": "1ffa48c704fbd60a83c8d74870f15cb1101385a8667b4fe6b86f326e121ebdb0",
+  "source_snapshot/rebind_implementation.py": "efbac5f6944fc4bd57c4ec42783bfd79a78d86d09999dde14274ce412e20d790",
+  "source_snapshot/test_verifier.py": "5094ef6db0136c967326fb2aa0ff51accc3c12a0f4769d6178c0547a89877c3b",
+  "source_snapshot/trusted_reviews.json": "7fe3f6364590737abcebbf53151860724baf0748b38c73365901ec96bac5757d",
+  "source_snapshot/verification.py": "c569d30dfaebfb020f8691e46a1a7d68738338dd4be3f9a2d345abbd35b2cf0b",
+  "VERIFICATION_REPORT.md": "4ddcc6b44f0e8fb181f7b520ad6bf6175b0440261c08ffff0f411f2b12e910f1",
+  "VERIFIER_CARD.json": "5d7f66af88ccaf031d8ce84c70f5c68df6b79cf6f1049ca40ef9ef1a1bf10c39",
+  "verifier_tests.log": "8d402dbb4856c62e240330c7c618e8b110841551787e035482998815357cf0a4"
+}

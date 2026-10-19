@@ -1,0 +1,65 @@
+{
+  "prepared_at_utc": "2026-10-19T11:13:38.954381+00:00",
+  "role": "recorded_local_readiness_snapshot_not_current_law_review",
+  "observations_source": "outputs/local-pipeline-evaluation-v1.1.0/observations.jsonl",
+  "observations_sha256": "55be6e5c632c8806e02c30a67e716d13eaf3152b78c950897bad73a6924091e4",
+  "trusted_reviews_sha256": "7fe3f6364590737abcebbf53151860724baf0748b38c73365901ec96bac5757d",
+  "trusted_review_counts": {
+    "source_reviews": 0,
+    "claim_reviews": 0
+  },
+  "component_evidence_gate_reason_counts": {
+    "scoped_currentness_review_missing": 471,
+    "related_authority_unavailable:MO_28_1986": 8
+  },
+  "candidate_occurrences_by_document": [
+    {
+      "document_id": "LAB_IRR_1989",
+      "candidate_occurrences": 1000
+    },
+    {
+      "document_id": "RA_7394_1992",
+      "candidate_occurrences": 621
+    },
+    {
+      "document_id": "LAB_CODE_2022",
+      "candidate_occurrences": 202
+    },
+    {
+      "document_id": "RA_11967_2023",
+      "candidate_occurrences": 142
+    },
+    {
+      "document_id": "DTI_JAO_24_03",
+      "candidate_occurrences": 108
+    },
+    {
+      "document_id": "RA_10909_2016",
+      "candidate_occurrences": 94
+    },
+    {
+      "document_id": "DTI_DAO_16_03",
+      "candidate_occurrences": 71
+    },
+    {
+      "document_id": "RA_6727_1989",
+      "candidate_occurrences": 48
+    },
+    {
+      "document_id": "DOLE_DO_249_25",
+      "candidate_occurrences": 25
+    },
+    {
+      "document_id": "DOLE_DO_147_15",
+      "candidate_occurrences": 10
+    },
+    {
+      "document_id": "PD_851_1975",
+      "candidate_occurrences": 10
+    }
+  ],
+  "answer_generation_allowed": false,
+  "display_allowed": false,
+  "deployment_allowed": false,
+  "note": "Counts prioritize review effort on reused development inputs; they are not independent legal relevance, completeness or currentness judgments."
+}
