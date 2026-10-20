@@ -251,6 +251,8 @@ Examples are ruled rows with serif question text and a quiet topic line. Hover/f
 
 ### Citation and quotation reading
 
+Local fallback responses use the same readable explanation measure with a distinct local-response disclosure. A complete short recorded provision or one complete paragraph appears as a serif block quotation, with its source action above and completeness/currentness metadata below. General employment scope uses a flat ruled paragraph, followed by a single targeted follow-up section; wrapping employment-type buttons fill the composer without submitting. Retain the 44px controls, keyboard focus and responsive wrapping. These additions do not introduce a new color, shadow or card system.
+
 Generated explanations reveal by word with a Show full answer control. Screen readers receive the full paragraph immediately; a reduced-motion preference or hidden document completes the reveal. Citation controls stay available and select the response, concern and matching chunk. Mobile source navigation restores focus to the invoking control when returning.
 
 Exact quote spans are highlighted inside the complete stored provision, using the caution wash and reading ink. The Library's arrival spotlight is a separate, temporary navigation cue (1600ms), with a static wash under reduced motion. Neither cue changes the recorded check status. Keep source dates, use restrictions and full legal text visible within the existing reading pattern.

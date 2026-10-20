@@ -115,5 +115,10 @@
     "provider_incomplete_output"
   ],
   "holiday_explanation_latest_browser_check": "outputs/holiday-explanation-repair-v1.0.0/browser-final-check.txt",
-  "holiday_explanation_final_live_status": "provider_http_503_live_acceptance_pending"
+  "holiday_explanation_final_live_status": "provider_http_503_live_acceptance_pending",
+  "application_response_policy": "conversational-guidance-v1.0.0",
+  "conversational_guidance_repair": "outputs/conversational-guidance-v1.0.0",
+  "conversational_guidance_independent_human_evaluation_completed": false,
+  "conversational_guidance_legal_answer_accuracy_measured": false,
+  "conversational_guidance_model_weights_or_thresholds_changed": false
 }

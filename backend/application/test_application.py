@@ -41,7 +41,7 @@ class RuntimeTests(unittest.TestCase):
             ("Private employee ako. Hindi binayaran ang overtime ko. Ayaw ibalik ng landlord ang rental deposit.", "mixed", "retrieve_supported_components"),
             ("Private employee ako. Hindi binayaran ang overtime ko at ayaw ibalik ng landlord ang rental deposit.", "mixed", "retrieve_supported_components"),
             ("Government employee ako. Hindi binayaran overtime ko.", "out_of_scope", "refer_out_of_scope"),
-            ("Late ang salary ko.", None, "clarify"),
+            ("Late ang salary ko.", "labor", "retrieve_supported_evidence"),
         ]
         for question, label, route in queries:
             with self.subTest(question=question):
@@ -49,6 +49,9 @@ class RuntimeTests(unittest.TestCase):
                 self.assertEqual(p["result"]["routing"]["routing_action"], route)
                 if label:
                     self.assertEqual(p["result"]["routing"]["predicted_primary"], label)
+                if question == "Late ang salary ko.":
+                    self.assertEqual(p['guidance_context']['original_routing']['routing_action'], 'clarify')
+                    self.assertTrue(p['guidance_context']['classification_is_conditional'])
                 self.assertEqual(p["normalization"]["llm_calls"], 0)
                 self.assertEqual(p["explanation"]["claims"], [])
                 if route in {"clarify", "refer_out_of_scope"}:

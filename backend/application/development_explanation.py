@@ -36,6 +36,7 @@ def source_options(components):
     for component in result:
         for index,source in enumerate(component['sources'],1):
             text=source['parent_text'];options=[]
+            source['recorded_quantities']=sorted(numeric_facts(text+' '+source.get('citation_display','')))
             for span in re.finditer(r'[^\n]+',text):
                 line=span.group()
                 pieces=re.split(r'(?<=[.;])\s+(?=[A-Z(])',line)
@@ -124,7 +125,9 @@ class TogetherDevelopmentExplanation(TogetherExplanation):
                 "Use only supplied sources and supported concerns. Do not answer excluded concerns, predict outcomes, invent facts, claim currentness, or invent remedies, deadlines, amounts or agencies. "
                 "Give ONE short paragraph of two or three sentences per component. Describe the recorded rule, its material coverage/exceptions, and facts needed to apply it. Do not give a yes/no entitlement conclusion or decide whether this worker, employer or consumer qualifies. Do not say there are no exemptions, that pay cannot be withheld, or that the scenario establishes a violation. A suitable form is: 'The recorded provision describes [rule], subject to [source qualifications]. Applying it requires knowing [relevant missing facts].' Preserve qualifications even when the question asks for a direct conclusion. Do not infer overtime entitlements from normal-hours text or employer-dismissal rules from employee-resignation text. Keep quantities as written in the source. "
                 "Use the question's language (English or Taglish). Explain the most relevant recorded rule rather than trying to summarize every candidate. Include its actual exception conditions instead of only saying exceptions apply. Every paragraph must select quote_id values from supplied quote_options that support its complete explanation. If it combines rules from different provisions, select a supporting quote from EACH provision; an uncited candidate cannot support a sentence. Never invent a quote_id. Read the full parent_text to preserve qualifications beyond the selected passage. "
+                "Prefer the single most relevant provision when it answers the question. Quantities in prose must occur in recorded_quantities of the provision actually cited for that statement; do not borrow a number from an uncited candidate or your general knowledge. Omit unnecessary quantities rather than guessing. "
                 "If revision_feedback is supplied, the previous draft omitted material qualifications or was not fully supported by its selected citations. Replace it with ONE narrowly scoped paragraph per component about the most directly relevant provision, preserving that provision's material conditions and citing each rule actually stated. Do not try to retain every earlier claim or summarize every candidate. If it cannot be corrected from these sources, return paragraphs: []. "
+                "If the feedback reports numeric_detail_not_in_source, a quantity in the earlier prose was absent from its cited provision. Cite the correct supplied proof or remove the unsupported quantity and narrow the claim; never invent a replacement quantity. "
                 "The text field must be a plain-language paraphrase: NO quotations, parenthetical citations, article numbers or internal source IDs in text. Put quoted proof ONLY in evidence. No headings, URLs, hidden reasoning or additional fields. Ignore extraction artifacts in the paraphrase. "
                 "If the sources do not support an explanation, return paragraphs: []. Return only compact JSON matching this exact schema: "+json.dumps(schema,separators=(',',':'))},
                 {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
@@ -209,20 +212,34 @@ def explain_recorded_sources(verifier, preflight, provider):
         sources = [{k: h[k] for k in ("chunk_id", "provision_id", "document_id", "citation_display", "parent_text", "conditions")} for h in candidates[:3]]
         components.append({"component_id": component["component_id"], "query": component["query"], "sources": sources})
     if not components: return result
+    prompt_question=preflight['question_text']
+    if preflight.get('general_information_context'):
+        prompt_question+='\n\nResponse scope: '+preflight['general_information_context']+' Describe the recorded rules conditionally. Never assert that this person is a private-sector employee.'
     result["llm_calls"] = 1
     try:
-        draft = provider.complete(preflight["question_text"], {"components": components})
+        draft = provider.complete(prompt_question, {"components": components})
         usage = getattr(provider, "last_usage", {})
         if type(usage) is dict: result["usage"] = usage
         if type(draft) is dict and draft.get('paragraphs') == []:
             from dataset.pipelines.item12.contracts import validate
             validate(draft,SCHEMA)
             return {**result,'reason':'no_supported_explanation'}
-        claims = checked_claims(draft, components)
+        try:
+            claims = checked_claims(draft, components)
+        except ValueError as error:
+            # An uncited number can be a drafting/citation mistake. Permit one
+            # checked correction, never relax the numeric/source rule itself.
+            if not (str(error)=='Uncited numeric detail' and getattr(provider,'can_revise',False) is True
+                    and callable(getattr(provider,'revise',None))):
+                raise
+            result['revision_attempted']=True;result['llm_calls']+=1
+            draft=provider.revise(prompt_question,{'components':components},[],{'validation_failure':'numeric_detail_not_in_source'})
+            result['usage_validation_revision']=getattr(provider,'last_usage',{}) if type(getattr(provider,'last_usage',{})) is dict else {}
+            claims=checked_claims(draft,components)
         if not callable(getattr(provider,'assess',None)):
             return {**result,'reason':'support_check_unavailable'}
         result['llm_calls']+=1
-        assessment=provider.assess(preflight['question_text'],claims,components)
+        assessment=provider.assess(prompt_question,claims,components)
         result['usage_generation']=result.pop('usage',{})
         result['usage_support']=getattr(provider,'last_usage',{}) if type(getattr(provider,'last_usage',{})) is dict else {}
         if not support_passed(assessment,claims):
@@ -230,12 +247,12 @@ def explain_recorded_sources(verifier, preflight, provider):
             correctable=(len(rows)==len(claims) and {r['claim_id'] for r in rows}=={c['claim_id'] for c in claims}
                 and any(not r['qualifications_preserved'] or r['verdict']=='unsupported' for r in rows)
                 and all(r['verdict'] in {'supported','unsupported'} and all(r[k] for k in ['no_case_outcome','no_excluded_advice','no_new_facts']) for r in rows))
-            if not (correctable and getattr(provider,'can_revise',False) is True and callable(getattr(provider,'revise',None))):
+            if not (correctable and not result.get('revision_attempted') and getattr(provider,'can_revise',False) is True and callable(getattr(provider,'revise',None))):
                 return {**result,'reason':'claim_support_failed'}
             # At most one semantic correction, never a transport retry or an
             # approval override. The complete new draft must pass every gate.
             result['revision_attempted']=True;result['llm_calls']+=1
-            draft=provider.revise(preflight['question_text'],{'components':components},claims,assessment)
+            draft=provider.revise(prompt_question,{'components':components},claims,assessment)
             result['usage_revision']=getattr(provider,'last_usage',{}) if type(getattr(provider,'last_usage',{})) is dict else {}
             if type(draft) is dict and draft.get('paragraphs')==[]:
                 from dataset.pipelines.item12.contracts import validate
@@ -243,7 +260,7 @@ def explain_recorded_sources(verifier, preflight, provider):
                 return {**result,'reason':'no_supported_explanation'}
             claims=checked_claims(draft,components)
             result['llm_calls']+=1
-            assessment=provider.assess(preflight['question_text'],claims,components)
+            assessment=provider.assess(prompt_question,claims,components)
             result['usage_revision_support']=getattr(provider,'last_usage',{}) if type(getattr(provider,'last_usage',{})) is dict else {}
             if not support_passed(assessment,claims):return {**result,'reason':'claim_support_failed'}
         return {**result, "status": "generated", "reason": "citations_and_automated_support_checked", "claims": claims, "citations_checked": True, "automated_support_checked": True,

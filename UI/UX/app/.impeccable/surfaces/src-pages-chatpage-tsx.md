@@ -17,6 +17,8 @@ OWN-WORLD: Existing navy masthead, pale paper, fine rules, serif headings and sa
 
 STORY: Ask a complete question; understand routing or an explicitly unreviewed development explanation; inspect exact supporting text; choose whether to use external AI or save the response. Saved responses carry their date and are never presented as newly checked.
 
+The 20 October conversational repair adds a response for every completed analysis. Broad labor questions can show explicitly conditional private-sector general information and an employment-type follow-up. Quick choices fill the complete question for deliberate resubmission. Local recorded-source responses remain readable when AI is off, unavailable or fails validation; they are not labelled AI-generated. Preserve the original classification under diagnostics and keep scope assumptions beside the response.
+
 FIRST VIEWPORT: Persistent masthead and development notice, readable response beside a desktop source pane, and a pinned question composer. The phone uses explicit Sources and Back to chat controls. AI/saving options are named beneath the composer. History begins with live saved records and keeps archived examples in a separate disclosure.
 
 FORM: Precise code-led extension of the existing application. No new visual world or raster assets; seed: none (precise existing-world extension).

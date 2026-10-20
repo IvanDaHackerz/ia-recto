@@ -1,0 +1,928 @@
+{
+  "synthetic_development_cases": 15,
+  "nonempty_local_responses": 15,
+  "conditional_general_information_cases": 5,
+  "search_vocabulary_recoveries": 1,
+  "provider_calls": 0,
+  "independent_human_test": false,
+  "classifier_accuracy_or_legal_accuracy_measured": false,
+  "cases": [
+    {
+      "case_id": "synthetic_01",
+      "question": "Late ang salary ko.",
+      "baseline_routing": {
+        "routing_action": "clarify",
+        "reason": "employment_category_missing",
+        "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.8007392718052726,
+        "scope_confidence": 0.8007392718052726
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": {
+        "mode": "conditional_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "original_routing": {
+          "routing_action": "clarify",
+          "reason": "employment_category_missing",
+          "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+          "predicted_primary": "out_of_scope",
+          "predicted_scope": "unsupported",
+          "primary_confidence": 0.8007392718052726,
+          "scope_confidence": 0.8007392718052726
+        },
+        "retrieval_question_text": "Private employee ako. Late ang salary ko.",
+        "classification_is_conditional": true
+      },
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. Late ang salary ko."
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. Late ang salary ko."
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. Late ang salary ko."
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. Late ang salary ko."
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. Late ang salary ko."
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII",
+            "quote": "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_02",
+      "question": "Hindi binayaran ang overtime ko.",
+      "baseline_routing": {
+        "routing_action": "clarify",
+        "reason": "low_confidence",
+        "clarification_question": "Could you describe what happened and what help you need? This project covers selected employment and consumer concerns.",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.7936183823387863,
+        "scope_confidence": 0.8951967869065001
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": {
+        "mode": "conditional_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "original_routing": {
+          "routing_action": "clarify",
+          "reason": "low_confidence",
+          "clarification_question": "Could you describe what happened and what help you need? This project covers selected employment and consumer concerns.",
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.7936183823387863,
+          "scope_confidence": 0.8951967869065001
+        },
+        "retrieval_question_text": "Private employee ako. Hindi binayaran ang overtime ko.",
+        "classification_is_conditional": true
+      },
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. Hindi binayaran ang overtime ko."
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. Hindi binayaran ang overtime ko."
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. Hindi binayaran ang overtime ko."
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. Hindi binayaran ang overtime ko."
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. Hindi binayaran ang overtime ko."
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_IRR_1989__rule_v_private_employment_agencies__section_18__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 18 — BOOK ONE, RULE V",
+            "quote": "SECTION 18. Submission of employment contracts. — (a) Every private employment agency shall submit to the Bureau, for evaluation and approval, the master employment contract to be used for its recruits and the service/recruitment agreement which shall be written in English and in the language of the country of work whenever necessary.\n\n(b) All applicants for passport or travel of recruited workers shall be properly endorsed by the Bureau.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_03",
+      "question": "My employer has not paid my wages. What can I do?",
+      "baseline_routing": {
+        "routing_action": "clarify",
+        "reason": "employment_category_missing",
+        "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": {
+        "mode": "conditional_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "original_routing": {
+          "routing_action": "clarify",
+          "reason": "employment_category_missing",
+          "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.870028282133089,
+          "scope_confidence": 0.9348670261969897
+        },
+        "retrieval_question_text": "Private employee ako. My employer has not paid my wages. What can I do?",
+        "classification_is_conditional": true
+      },
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. My employer has not paid my wages. What can I do?"
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. My employer has not paid my wages. What can I do?"
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. My employer has not paid my wages. What can I do?"
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. My employer has not paid my wages. What can I do?"
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. My employer has not paid my wages. What can I do?"
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_IRR_1989__article_280__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, ARTICLE 280",
+            "quote": "ARTICLE 280. Regular and casual employment. — The provisions of written agreement to the contrary notwithstanding and regardless of the oral agreements of the parties, an employment shall be deemed to be regular where the employee has been engaged to perform activities which are usually necessary or desirable in the usual business or trade of the employer except where the employment has been fixed for a specific project or undertaking, the completion or termination of which has been determined at the time of the engagement of the employee or where the work or service to be performed is seasonal in nature and the employment is for the duration of the season.\n\nAn employment shall be deemed to be casual if it is not covered by the preceding paragraph: Provided, That any employee who has rendered at least one year of service, where the position no longer exists at the time of reinstatement for reasons not attributable to the fault of the employer, the employee shall be entitled to separation pay equivalent to at least one-month salary or to one-month salary for every year of service, whichever is higher, a fraction of at least six months being considered as one whole year. (Articles 278 to 280 and then Section 5, these are what appeared in the official version)",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_04",
+      "question": "What are the holiday pay rules?",
+      "baseline_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8659172132794177,
+        "scope_confidence": 0.9327326550539329
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8659172132794177,
+        "scope_confidence": 0.9327326550539329
+      },
+      "guidance_context": {
+        "mode": "general_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "classification_is_conditional": false,
+        "original_routing": {
+          "routing_action": "retrieve_supported_evidence",
+          "reason": "supported_candidate_requires_evidence",
+          "clarification_question": null,
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8659172132794177,
+          "scope_confidence": 0.9327326550539329
+        }
+      },
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. What are the holiday pay rules?"
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. What are the holiday pay rules?"
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. What are the holiday pay rules?"
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. What are the holiday pay rules?"
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. What are the holiday pay rules?"
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_6__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV",
+            "quote": "SECTION 6. Absences. — (a) All covered employees shall be entitled to the benefit provided herein when they are on leave of absence with pay. Employees who are on leave of absence without pay on the day immediately preceding a regular holiday may not be paid the required holiday pay if he has not worked on such regular holiday.\n\n(b) Employees shall grant the same percentage of the holiday pay as the benefit granted by competent authority in the form of employee's compensation or social security payment, whichever is higher, if they are not reporting for work while on such benefits.\n\n(c) Where the day immediately preceding the holiday is a non-working day in the establishment or the scheduled rest day of the employee, he shall not be deemed to be on leave of absence on that day, in which case he shall be entitled to the holiday pay if he worked on the day immediately preceding the non- working day or rest day.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_05",
+      "question": "An employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. Is the worker entitled to holiday pay?",
+      "baseline_routing": {
+        "routing_action": "clarify",
+        "reason": "employment_category_missing",
+        "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8613959270557834,
+        "scope_confidence": 0.9303853086122388
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": {
+        "mode": "conditional_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "original_routing": {
+          "routing_action": "clarify",
+          "reason": "employment_category_missing",
+          "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8613959270557834,
+          "scope_confidence": 0.9303853086122388
+        },
+        "retrieval_question_text": "Private employee ako. An employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. Is the worker entitled to holiday pay?",
+        "classification_is_conditional": true
+      },
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. An employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. Is the worker entitled to holiday pay?"
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. An employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. Is the worker entitled to holiday pay?"
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. An employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. Is the worker entitled to holiday pay?"
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. An employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. Is the worker entitled to holiday pay?"
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. An employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. Is the worker entitled to holiday pay?"
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "ART. 94. Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage\nduring regular holidays, except in retail and service establishments regularly employing less\nthan ten (10) workers;\n(b) The employer may require an employee to work on any holiday but such employee\nshall be paid a compensation equivalent to twice his regular rate; and\n\n(c) As used in this Article, \"holiday\" includes: New Year’s Day, Maundy Thursday, Good\nFriday, the ninth of April, the first of May, the twelfth of June, the fourth of July, the thirtieth\nof November, the twenty-fifth and thirtieth of December and the day designated by law for\nholding a general election.79",
+            "complete_provision": true
+          },
+          {
+            "component_id": "concern_002",
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_6__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV",
+            "quote": "SECTION 6. Absences. — (a) All covered employees shall be entitled to the benefit provided herein when they are on leave of absence with pay. Employees who are on leave of absence without pay on the day immediately preceding a regular holiday may not be paid the required holiday pay if he has not worked on such regular holiday.\n\n(b) Employees shall grant the same percentage of the holiday pay as the benefit granted by competent authority in the form of employee's compensation or social security payment, whichever is higher, if they are not reporting for work while on such benefits.\n\n(c) Where the day immediately preceding the holiday is a non-working day in the establishment or the scheduled rest day of the employee, he shall not be deemed to be on leave of absence on that day, in which case he shall be entitled to the holiday pay if he worked on the day immediately preceding the non- working day or rest day.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 10
+    },
+    {
+      "case_id": "synthetic_06",
+      "question": "Private employee ako. What are normal working hours?",
+      "baseline_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8289835567988771,
+        "scope_confidence": 0.9135575613239313
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8289835567988771,
+        "scope_confidence": 0.9135575613239313
+      },
+      "guidance_context": null,
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": null,
+        "follow_up_options": [],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+            "citation_display": "PD 442, as amended and renumbered, ART. 83",
+            "quote": "ART. 83. Normal Hours of Work. – The normal hours of work of any employee shall not\nexceed eight (8) hours a day.\nHealth personnel in cities and municipalities with a population of at least one million\n(1,000,000) or in hospitals and clinics with a bed capacity of at least one hundred (100) shall\nhold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time\nfor meals, except where the exigencies of the service require that such personnel work for six\n(6) days or forty-eight (48) hours, in which case, they shall be entitled to an additional\ncompensation of at least thirty percent (30%) of their regular wage for work on the sixth day.\nFor purposes of this Article, \"health personnel\" shall include resident physicians, nurses,\nnutritionists, dieticians, pharmacists, social workers, laboratory technicians, paramedical\ntechnicians, psychologists, midwives, attendants and all other hospital or clinic personnel.72",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_07",
+      "question": "I was fired without notice. What can I do?",
+      "baseline_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8669140987595668,
+        "scope_confidence": 0.9332502147634626
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8669140987595668,
+        "scope_confidence": 0.9332502147634626
+      },
+      "guidance_context": {
+        "mode": "general_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "classification_is_conditional": false,
+        "original_routing": {
+          "routing_action": "retrieve_supported_evidence",
+          "reason": "supported_candidate_requires_evidence",
+          "clarification_question": null,
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8669140987595668,
+          "scope_confidence": 0.9332502147634626
+        }
+      },
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. I was fired without notice. What can I do?"
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. I was fired without notice. What can I do?"
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. I was fired without notice. What can I do?"
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. I was fired without notice. What can I do?"
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. I was fired without notice. What can I do?"
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_CODE_2022__art_300__chunk_0001",
+            "citation_display": "PD 442, as amended and renumbered, ART. 300",
+            "quote": "ART. 300. [285] Termination by Employee. – (a) An employee may terminate without just\ncause the employee-employer relationship by serving a written notice on the employer at least\none (1) month in advance. The employer upon whom no such notice was served may hold the\nemployee liable for damages.\n(b) An employee may put an end to the relationship without serving any notice on the\nemployer for any of the following just causes:\n1. Serious insult by the employer or his representative on the honor and person of the\nemployee;\n\n2. Inhuman and unbearable treatment accorded the employee by the employer or his\nrepresentative;\n3. Commission of a crime or offense by the employer or his representative against the\nperson of the employee or any of the immediate members of his family; and\n4. Other causes analogous to any of the foregoing.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_08",
+      "question": "Sira yung binili kong phone at ayaw palitan ng shop.",
+      "baseline_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": null,
+      "search_help": {
+        "query": "defective yung bought kong phone at refuses replace ng shop.",
+        "reason": "equivalent_consumer_search_terms",
+        "changes_user_facts": false
+      },
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": null,
+        "follow_up_options": [],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "RA_7394_1992__art_11__chunk_0001",
+            "citation_display": "Republic Act No. 7394, ART. 11",
+            "quote": "ART. 11. Amendment and Revocation of Declaration of the Injurious Unsafe or Dangerous Character of a Consumer Product. - Any interested person may petition the appropriate department to commence a proceeding for the issuance of an amendment or revocation of a consumer product safety or an order declaring a consumer product injurious, dangerous and unsafe.\n\nIn case the department, upon petition by an interested party or its own initiative and after due notice and hearing, determines a consumer product to be substandard or materially defective, it shall so notify the manufacturer, distributor or seller thereof of such finding and order such manufacturer, distributor or seller to:\ngive notice to the public of the defect or failure to comply with the product safety standards; and\n\ngive notice to each distributor or retailer of such product.\nThe department shall also direct the manufacturer, distributor or seller of such product to extend any or all of the following remedies to the injured person:\nto bring such product into conformity with the requirements of the applicable consumer product standards or to repair the defect in order to conform with the same;\n\nto replace the product with a like or equivalent product which complies with the applicable consumer product standards which does not contain the defect;\n\nto refund the purchase price of the product less a reasonable allowance for use; and\n\nto pay the consumer reasonable damages as may be determined by the department.\nThe manufacturer, distributor or seller shall not charge a consumer who avails himself of the remedy as provided above of any expense and cost that may be incurred.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_09",
+      "question": "The defective phone I bought from a shop has a warranty but the store refuses repair.",
+      "baseline_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": null,
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": null,
+        "follow_up_options": [],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+            "citation_display": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III",
+            "quote": "ART. 68. Additional Provisions on Warranties. - In addition to the Civil Code provisions on sale with warranties, the following provisions shall govern the sale of consumer products with warranty:",
+            "complete_provision": false
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_10",
+      "question": "Government employee ako. Hindi binayaran ang overtime ko.",
+      "baseline_routing": {
+        "routing_action": "refer_out_of_scope",
+        "reason": "recognized_excluded_concern",
+        "clarification_question": null,
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.870028282133089
+      },
+      "current_routing": {
+        "routing_action": "refer_out_of_scope",
+        "reason": "recognized_excluded_concern",
+        "clarification_question": null,
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.870028282133089
+      },
+      "guidance_context": null,
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "referral",
+        "heading": "Where this concern fits",
+        "paragraphs": [
+          "This concern falls outside this project’s selected private-sector labor and ordinary consumer topics. The classifier is identifying a scope limit; it is not deciding whether you have legal rights or a valid complaint.",
+          "Any assistance contacts listed below are recorded directory entries. Check with the agency about whether it handles your concern."
+        ],
+        "follow_up": null,
+        "follow_up_options": [],
+        "quotes": [],
+        "ai_generated": false
+      },
+      "source_count": 0
+    },
+    {
+      "case_id": "synthetic_11",
+      "question": "My bank charged a hidden fee.",
+      "baseline_routing": {
+        "routing_action": "refer_out_of_scope",
+        "reason": "recognized_excluded_concern",
+        "clarification_question": null,
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.870028282133089
+      },
+      "current_routing": {
+        "routing_action": "refer_out_of_scope",
+        "reason": "recognized_excluded_concern",
+        "clarification_question": null,
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.870028282133089
+      },
+      "guidance_context": null,
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "referral",
+        "heading": "Where this concern fits",
+        "paragraphs": [
+          "This concern falls outside this project’s selected private-sector labor and ordinary consumer topics. The classifier is identifying a scope limit; it is not deciding whether you have legal rights or a valid complaint.",
+          "Any assistance contacts listed below are recorded directory entries. Check with the agency about whether it handles your concern."
+        ],
+        "follow_up": null,
+        "follow_up_options": [],
+        "quotes": [],
+        "ai_generated": false
+      },
+      "source_count": 0
+    },
+    {
+      "case_id": "synthetic_12",
+      "question": "I was about to get my pay, but I got stabbed in the street.",
+      "baseline_routing": {
+        "routing_action": "refer_out_of_scope",
+        "reason": "recognized_excluded_concern",
+        "clarification_question": null,
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.870028282133089
+      },
+      "current_routing": {
+        "routing_action": "refer_out_of_scope",
+        "reason": "recognized_excluded_concern",
+        "clarification_question": null,
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.870028282133089
+      },
+      "guidance_context": null,
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "safety",
+        "heading": "Your immediate safety comes first",
+        "paragraphs": [
+          "The immediate safety concern takes priority. Follow the emergency information shown here; this project cannot assess an injury or investigate an assault."
+        ],
+        "follow_up": null,
+        "follow_up_options": [],
+        "quotes": [],
+        "ai_generated": false
+      },
+      "source_count": 0
+    },
+    {
+      "case_id": "synthetic_13",
+      "question": "My employer has not paid wages and my landlord kept my deposit.",
+      "baseline_routing": {
+        "routing_action": "clarify",
+        "reason": "employment_category_missing",
+        "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+        "predicted_primary": "mixed",
+        "predicted_scope": "partially_supported",
+        "primary_confidence": 0.8575598618670175,
+        "scope_confidence": 0.8534452784643082
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_components",
+        "reason": "separate_supported_components_require_evidence",
+        "clarification_question": null,
+        "predicted_primary": "mixed",
+        "predicted_scope": "partially_supported",
+        "primary_confidence": 0.8784745625701571,
+        "scope_confidence": 0.874251422351623
+      },
+      "guidance_context": {
+        "mode": "conditional_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "original_routing": {
+          "routing_action": "clarify",
+          "reason": "employment_category_missing",
+          "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+          "predicted_primary": "mixed",
+          "predicted_scope": "partially_supported",
+          "primary_confidence": 0.8575598618670175,
+          "scope_confidence": 0.8534452784643082
+        },
+        "retrieval_question_text": "Private employee ako. My employer has not paid wages and my landlord kept my deposit.",
+        "classification_is_conditional": true
+      },
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. My employer has not paid wages and my landlord kept my deposit."
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. My employer has not paid wages and my landlord kept my deposit."
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. My employer has not paid wages and my landlord kept my deposit."
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. My employer has not paid wages and my landlord kept my deposit."
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. My employer has not paid wages and my landlord kept my deposit."
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII",
+            "quote": "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_14",
+      "question": "Private employee ako. What are the holiday pay rules and exceptions?",
+      "baseline_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "current_routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": null,
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "AI is off for this question. This response uses local analysis and recorded sources."
+        ],
+        "follow_up": null,
+        "follow_up_options": [],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_IRR_1989__rule_iv_holidays_with_pay__section_6__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE IV",
+            "quote": "SECTION 6. Absences. — (a) All covered employees shall be entitled to the benefit provided herein when they are on leave of absence with pay. Employees who are on leave of absence without pay on the day immediately preceding a regular holiday may not be paid the required holiday pay if he has not worked on such regular holiday.\n\n(b) Employees shall grant the same percentage of the holiday pay as the benefit granted by competent authority in the form of employee's compensation or social security payment, whichever is higher, if they are not reporting for work while on such benefits.\n\n(c) Where the day immediately preceding the holiday is a non-working day in the establishment or the scheduled rest day of the employee, he shall not be deemed to be on leave of absence on that day, in which case he shall be entitled to the holiday pay if he worked on the day immediately preceding the non- working day or rest day.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "source_count": 5
+    },
+    {
+      "case_id": "synthetic_15",
+      "question": "Hello",
+      "baseline_routing": {
+        "routing_action": "clarify",
+        "reason": "too_little_context",
+        "clarification_question": "What happened, and who was involved in the transaction or employment relationship?",
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.3116223420656632,
+        "scope_confidence": 0.3116223420656632
+      },
+      "current_routing": {
+        "routing_action": "clarify",
+        "reason": "too_little_context",
+        "clarification_question": "What happened, and who was involved in the transaction or employment relationship?",
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.3116223420656632,
+        "scope_confidence": 0.3116223420656632
+      },
+      "guidance_context": null,
+      "search_help": null,
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "clarification",
+        "heading": "Let’s work out the concern",
+        "paragraphs": [
+          "I need one more detail to choose the right sources. This project covers selected Philippine private-sector employment and ordinary consumer-purchase concerns."
+        ],
+        "follow_up": "What happened, and who was involved in the transaction or employment relationship?",
+        "follow_up_options": [],
+        "quotes": [],
+        "ai_generated": false
+      },
+      "source_count": 0
+    }
+  ]
+}

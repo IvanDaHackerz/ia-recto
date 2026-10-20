@@ -2,6 +2,8 @@
 
 Sharing with the group: [GitHub upload and clone/run instructions](GITHUB_SHARING.md).
 
+20 October conversational repair: broad labor questions can receive explicitly conditional private-sector general information while asking the employment-type follow-up. Completed analyses always include a readable local response when AI is off, unavailable or fails checks. Original classifier predictions remain inspectable; learned model weights and thresholds were not changed. A narrow search-wording repair recovers some supported Taglish consumer queries. [Implementation and validation](outputs/conversational-guidance-v1.0.0/REPORT.md).
+
 Current local runtime (20 October 2026): **classifier v1.5.16, retrieval v1.3.3 and verifier v1.0.11**. `CURRENT_ARTIFACTS.json` is the binding record. Run `start-website.ps1` from the VS Code terminal and use its printed URL; occupied ports are skipped. [Local setup and API](backend/application/README.md).
 
 The website now runs real classification/retrieval, optional Together wording interpretation and recorded-source explanations with exact citation checks and a separate same-model support check. Development explanations are explicitly unreviewed for legal interpretation/currentness. Source approvals and deployment permissions remain closed. AI can be switched off for local-only use. History is opt-in, encrypted for the Windows user, isolated by browser session, retained for 30 days, and supports opening/export/deletion.

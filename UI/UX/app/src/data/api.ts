@@ -15,6 +15,11 @@ export type Concern = {
 export type ChatResult = {
   schema_version: string; request_id: string; total_query_ms: number; original_question_text: string;
   clarification_follow_up: { question: string } | null;
+  guidance_context?: { mode: string; note: string; follow_up: string; classification_is_conditional: boolean; original_routing: Routing };
+  search_help?: { query: string; reason: string; changes_user_facts: false };
+  response?: { version: string; kind: string; heading: string; paragraphs: string[]; ai_generated: boolean;
+    follow_up: string | null; follow_up_options: { label: string; question_text: string }[];
+    quotes: { component_id: string; chunk_id: string; citation_display: string; quote: string; complete_provision: boolean }[] };
   safety_notice?: { kind: string; heading: string; text: string; source_url: string; emergency_number: string } | null;
   privacy?: { redacted: boolean; categories: Record<string, number>; external_ai_enabled: boolean; guaranteed_complete: false; note: string };
   history?: { saved: boolean; conversation_id?: string; turn_id?: string; error?: string; retention_days?: number };
@@ -56,7 +61,17 @@ export async function cancelQuery(requestId: string) {
 export function isChatResult(value: unknown): value is ChatResult {
   if (!value || typeof value !== "object") return false;
   const p = value as ChatResult;
+  const responseValid = p.response === undefined || !!p.response && typeof p.response.heading === "string"
+    && typeof p.response.ai_generated === "boolean" && Array.isArray(p.response.paragraphs) && p.response.paragraphs.every(text => typeof text === "string")
+    && (p.response.follow_up === null || typeof p.response.follow_up === "string")
+    && Array.isArray(p.response.follow_up_options) && p.response.follow_up_options.every(option => typeof option.label === "string" && typeof option.question_text === "string")
+    && Array.isArray(p.response.quotes) && p.response.quotes.every(quote => typeof quote.quote === "string" && typeof quote.citation_display === "string"
+      && p.result?.components?.some(component => component.component_id === quote.component_id && component.candidates.some(hit => hit.chunk_id === quote.chunk_id && hit.parent_text.includes(quote.quote))));
+  const contextValid = p.guidance_context === undefined || !!p.guidance_context && typeof p.guidance_context.note === "string"
+    && typeof p.guidance_context.classification_is_conditional === "boolean" && !!p.guidance_context.original_routing
+    && typeof p.guidance_context.original_routing.predicted_primary === "string" && typeof p.guidance_context.original_routing.reason === "string";
   return p.schema_version === "1.0" && typeof p.original_question_text === "string" && typeof p.request_id === "string"
+    && responseValid && contextValid
     && !!p.explanation && Array.isArray(p.explanation.claims) && typeof p.explanation.reason === "string"
     && p.explanation.claims.every(c => typeof c.text === "string" && Array.isArray(c.citations) && c.citations.every(q => typeof q.quote === "string" && typeof q.chunk_id === "string"))
     && (p.result === null || !!p.result?.routing && Array.isArray(p.result.components) && Array.isArray(p.result.excluded_components)

@@ -20,6 +20,7 @@ from .identity import identity
 from .controls import RequestRegistry,RequestContext,UsageLedger,CancellableTransport
 from .history import HistoryStore,session_key
 from .evidence import citation_labels,decorate
+from .conversation import prepare_general_information,response_for
 
 class ApplicationService:
     def __init__(self,verifier=None,normalizer=None,explanation_provider=None,development_provider=None,*,history_store=None,ledger=None,use_controls=False):
@@ -106,6 +107,8 @@ class ApplicationService:
             packet['original_question_text']=effective if 'credential' in privacy['categories'] else question
             packet['privacy']={k:v for k,v in privacy.items() if k!='text'}|{'external_ai_enabled':use_ai}
             packet['safety_notice']=notice
+            if not notice and packet.get('result'):
+                prepare_general_information(packet,packet['result']['question_text'],self._inspect)
             packet['explanation']={'status':'withheld','reason':'local_only','llm_calls':0,'claims':[]}
             if notice:packet['explanation']['reason']='safety_assistance_first'
             elif use_ai:
@@ -125,6 +128,7 @@ class ApplicationService:
             if self.use_controls and isinstance(self.development_provider,TogetherDevelopmentExplanation):packet['explanation']['llm_calls']=sum(c['stage'] in {'explanation_generation','explanation_support','reviewed_explanation'} for c in ctx.calls)
             if self.use_controls and isinstance(self.normalizer.provider,TogetherProvider) and packet.get('normalization'):packet['normalization']['llm_calls']=sum(c['stage']=='normalization' for c in ctx.calls)
             packet['history']={'saved':False};decorate(packet,self.verifier,self._labels)
+            packet['response']=response_for(packet,self.verifier,packet['result']['question_text'] if packet.get('result') else effective)
             if payload.get('save_history'):
                 if self.history_store is None:packet['history']['error']='Encrypted local history is unavailable.'
                 else:

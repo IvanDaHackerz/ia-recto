@@ -1,0 +1,198 @@
+{
+  "synthetic_only": true,
+  "independent_human_test": false,
+  "explanations_enabled": true,
+  "cases": [
+    {
+      "synthetic_question": "Private employee ako. What are normal working hours?",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8289835567988771,
+        "scope_confidence": 0.9135575613239313
+      },
+      "guidance_context": null,
+      "explanation": {
+        "status": "generated",
+        "reason": "citations_and_automated_support_checked",
+        "llm_calls": 2,
+        "claims": [
+          {
+            "claim_id": "development_1",
+            "component_id": "concern_001",
+            "text": "The recorded provision sets the normal hours of work for any employee at a maximum of eight hours per day, unless the employee is classified as health personnel working in large cities or hospitals with specified bed capacity, in which case a regular eight‑hour day for five days a week applies and a sixth day may be required with additional pay. Applying this rule requires knowing whether the private employee falls under the health‑personnel definition and the size of the city or facility where they work.",
+            "citations": [
+              {
+                "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+                "provision_id": "LAB_CODE_2022__art_83",
+                "document_id": "LAB_CODE_2022",
+                "citation_display": "PD 442, as amended and renumbered, ART. 83",
+                "quote": "Normal Hours of Work. – The normal hours of work of any employee shall not",
+                "start": 9,
+                "end": 83,
+                "citation_label": "PD 442, as amended and renumbered, ART. 83"
+              },
+              {
+                "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+                "provision_id": "LAB_CODE_2022__art_83",
+                "document_id": "LAB_CODE_2022",
+                "citation_display": "PD 442, as amended and renumbered, ART. 83",
+                "quote": "exceed eight (8) hours a day.",
+                "start": 84,
+                "end": 113,
+                "citation_label": "PD 442, as amended and renumbered, ART. 83"
+              },
+              {
+                "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+                "provision_id": "LAB_CODE_2022__art_83",
+                "document_id": "LAB_CODE_2022",
+                "citation_display": "PD 442, as amended and renumbered, ART. 83",
+                "quote": "hold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time",
+                "start": 298,
+                "end": 394,
+                "citation_label": "PD 442, as amended and renumbered, ART. 83"
+              }
+            ]
+          }
+        ],
+        "mode": "development_recorded_sources",
+        "citations_checked": true,
+        "legal_support_verified": false,
+        "currentness_reviewed": false,
+        "automated_support_checked": true,
+        "support_check_independent": false,
+        "usage_generation": {
+          "prompt_tokens": 1972,
+          "completion_tokens": 283,
+          "total_tokens": 2255
+        },
+        "usage_support": {
+          "prompt_tokens": 1360,
+          "completion_tokens": 151,
+          "total_tokens": 1511
+        },
+        "provider": "together",
+        "model": "openai/gpt-oss-120b"
+      },
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "ai_explanation",
+        "heading": "AI explanation",
+        "paragraphs": [],
+        "follow_up": null,
+        "follow_up_options": [],
+        "quotes": [],
+        "ai_generated": true
+      },
+      "network_requests": [
+        {
+          "stage": "explanation_generation",
+          "model": "openai/gpt-oss-120b"
+        },
+        {
+          "stage": "explanation_support",
+          "model": "openai/gpt-oss-120b"
+        }
+      ],
+      "total_query_ms": 6581.682000000001
+    },
+    {
+      "synthetic_question": "My employer has not paid my wages. What wage-payment rules apply?",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": {
+        "mode": "conditional_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "original_routing": {
+          "routing_action": "clarify",
+          "reason": "employment_category_missing",
+          "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.870028282133089,
+          "scope_confidence": 0.9348670261969897
+        },
+        "retrieval_question_text": "Private employee ako. My employer has not paid my wages. What wage-payment rules apply?",
+        "classification_is_conditional": true
+      },
+      "explanation": {
+        "status": "withheld",
+        "reason": "citation_validation_failed",
+        "llm_calls": 1,
+        "claims": [],
+        "mode": "development_recorded_sources",
+        "citations_checked": false,
+        "legal_support_verified": false,
+        "currentness_reviewed": false,
+        "automated_support_checked": false,
+        "support_check_independent": false,
+        "usage": {
+          "prompt_tokens": 2556,
+          "completion_tokens": 434,
+          "total_tokens": 2990
+        },
+        "validation_failure": "numeric_detail_not_in_source"
+      },
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "The AI draft did not clear the source checks, so I’m showing the recorded material instead of treating that draft as reliable."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. My employer has not paid my wages. What wage-payment rules apply?"
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. My employer has not paid my wages. What wage-payment rules apply?"
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. My employer has not paid my wages. What wage-payment rules apply?"
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. My employer has not paid my wages. What wage-payment rules apply?"
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. My employer has not paid my wages. What wage-payment rules apply?"
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII",
+            "quote": "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "network_requests": [
+        {
+          "stage": "explanation_generation",
+          "model": "openai/gpt-oss-120b"
+        }
+      ],
+      "total_query_ms": 6693.3769999996
+    }
+  ]
+}

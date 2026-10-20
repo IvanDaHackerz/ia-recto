@@ -1,0 +1,112 @@
+{
+  "synthetic_only": true,
+  "independent_human_test": false,
+  "explanations_enabled": true,
+  "cases": [
+    {
+      "synthetic_question": "My employer has not paid my wages. What wage-payment rules apply?",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.870028282133089,
+        "scope_confidence": 0.9348670261969897
+      },
+      "guidance_context": {
+        "mode": "conditional_private_employment",
+        "note": "The labor sources below concern private-sector employment. Your employment type has not been confirmed, so this is general information, not a finding that these rules apply to your job.",
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "original_routing": {
+          "routing_action": "clarify",
+          "reason": "employment_category_missing",
+          "clarification_question": "Is this private-sector, government, household, overseas, or seafarer employment?",
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.870028282133089,
+          "scope_confidence": 0.9348670261969897
+        },
+        "retrieval_question_text": "Private employee ako. My employer has not paid my wages. What wage-payment rules apply?",
+        "classification_is_conditional": true
+      },
+      "explanation": {
+        "status": "withheld",
+        "reason": "citation_validation_failed",
+        "llm_calls": 2,
+        "claims": [],
+        "mode": "development_recorded_sources",
+        "citations_checked": false,
+        "legal_support_verified": false,
+        "currentness_reviewed": false,
+        "automated_support_checked": false,
+        "support_check_independent": false,
+        "usage": {
+          "prompt_tokens": 2600,
+          "completion_tokens": 452,
+          "total_tokens": 3052
+        },
+        "revision_attempted": true,
+        "usage_validation_revision": {
+          "prompt_tokens": 2626,
+          "completion_tokens": 389,
+          "total_tokens": 3015
+        },
+        "validation_failure": "numeric_detail_not_in_source"
+      },
+      "response": {
+        "version": "conversational-guidance-v1.0.0",
+        "kind": "recorded_sources",
+        "heading": "What I found",
+        "paragraphs": [
+          "I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.",
+          "The AI draft did not clear the source checks, so I’m showing the recorded material instead of treating that draft as reliable."
+        ],
+        "follow_up": "Is your employment with a private company, government, a household, an overseas employer, or as a seafarer?",
+        "follow_up_options": [
+          {
+            "label": "Private company",
+            "question_text": "Private employee ako. My employer has not paid my wages. What wage-payment rules apply?"
+          },
+          {
+            "label": "Government",
+            "question_text": "Government employee ako. My employer has not paid my wages. What wage-payment rules apply?"
+          },
+          {
+            "label": "Household",
+            "question_text": "Kasambahay ako. My employer has not paid my wages. What wage-payment rules apply?"
+          },
+          {
+            "label": "Overseas / OFW",
+            "question_text": "OFW ako. My employer has not paid my wages. What wage-payment rules apply?"
+          },
+          {
+            "label": "Seafarer",
+            "question_text": "Seafarer ako. My employer has not paid my wages. What wage-payment rules apply?"
+          }
+        ],
+        "quotes": [
+          {
+            "component_id": "concern_001",
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII",
+            "quote": "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.",
+            "complete_provision": true
+          }
+        ],
+        "ai_generated": false
+      },
+      "network_requests": [
+        {
+          "stage": "explanation_generation",
+          "model": "openai/gpt-oss-120b"
+        },
+        {
+          "stage": "explanation_generation",
+          "model": "openai/gpt-oss-120b"
+        }
+      ],
+      "total_query_ms": 9948.235100000602
+    }
+  ]
+}

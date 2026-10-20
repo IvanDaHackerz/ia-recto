@@ -1,0 +1,42 @@
+{
+  "mobile": {
+    "focusedControl": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII",
+    "followUpOptions": [
+      {
+        "height": 45,
+        "label": "Private company"
+      },
+      {
+        "height": 45,
+        "label": "Government"
+      },
+      {
+        "height": 45,
+        "label": "Household"
+      },
+      {
+        "height": 45,
+        "label": "Overseas / OFW"
+      },
+      {
+        "height": 45,
+        "label": "Seafarer"
+      }
+    ],
+    "height": 844,
+    "overflow": false,
+    "width": 390
+  },
+  "desktop": {
+    "heading": "What I found",
+    "height": 800,
+    "overflow": false,
+    "sourceHighlights": 1,
+    "width": 1200
+  },
+  "syntheticQuestion": "Late ang salary ko.",
+  "providerCallsDuringBrowserCheck": 0,
+  "sourceNavigationWorked": true,
+  "followUpFilledFullQuestion": true,
+  "aiPreferenceRestored": true
+}

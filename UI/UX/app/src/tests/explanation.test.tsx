@@ -8,6 +8,45 @@ import { packet, reference } from "./fixtures";
 import { mediaPreference } from "./setup";
 
 describe("validated explanation presentation", () => {
+  it("shows a useful local explanation with exact source text when AI fails", () => {
+    const fallback = structuredClone(packet);
+    fallback.explanation = { status: "withheld", reason: "provider_unavailable", failure_code: "provider_http_503", llm_calls: 1, claims: [] };
+    fallback.response = { version: "test", kind: "recorded_sources", heading: "What I found", ai_generated: false,
+      paragraphs: ["I found recorded source text related to your question.", "The AI service could not complete its response."], follow_up: null, follow_up_options: [],
+      quotes: [{ component_id: "c1", chunk_id: "h1", citation_display: "Fictional section", quote: reference.hit.parent_text, complete_provision: true }] };
+    const open = vi.fn();
+    render(<MemoryRouter><LiveResult packet={fallback} edit={() => {}} onReference={open} /></MemoryRouter>);
+    expect(screen.getByRole("region", { name: "Response" })).toHaveTextContent("What I found");
+    expect(screen.getByText(reference.hit.parent_text)).toBeInTheDocument();
+    expect(screen.getByText(/No live AI explanation was used/)).toBeInTheDocument();
+    expect(screen.queryByText("Explanation withheld.")).not.toBeInTheDocument();
+    expect(screen.queryByRole("region", { name: "AI explanation" })).not.toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Fictional section" }));
+    expect(open.mock.calls[0][0]).toBe("h1");
+    expect(open.mock.calls[0][2]).toBe("c1");
+  });
+  it("discloses conditional scope and offers a follow-up without submitting a new request", () => {
+    const conditional = structuredClone(packet);
+    conditional.guidance_context = { mode: "conditional_private_employment", note: "Your employment type has not been confirmed.", follow_up: "Which employment type applies?", classification_is_conditional: true, original_routing: { ...packet.result!.routing, routing_action: "clarify", reason: "employment_category_missing" } };
+    conditional.response = { version: "test", kind: "ai_explanation", heading: "AI explanation", paragraphs: [], ai_generated: true,
+      follow_up: "Which employment type applies?", follow_up_options: [{ label: "Private company", question_text: "Private employee ako. Late ang salary ko." }], quotes: [] };
+    const follow = vi.fn();
+    render(<MemoryRouter><LiveResult packet={conditional} edit={() => {}} onReference={() => {}} onFollowUp={follow} /></MemoryRouter>);
+    expect(screen.getByText(/Your employment type has not been confirmed/)).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Private company" }));
+    expect(follow).toHaveBeenCalledExactlyOnceWith("Private employee ako. Late ang salary ko.");
+    expect(screen.getByText(/then press Ask/)).toBeInTheDocument();
+  });
+  it("keeps rejected draft content hidden when a local response is available", () => {
+    const rejected = structuredClone(packet);
+    rejected.explanation = { status: "withheld", reason: "claim_support_failed", llm_calls: 2, claims: [] };
+    rejected.response = { version: "test", kind: "source_limit", heading: "What I found", ai_generated: false,
+      paragraphs: ["The available records are insufficient for a supported explanation."], quotes: [], follow_up: null, follow_up_options: [] };
+    render(<MemoryRouter><LiveResult packet={rejected} edit={() => {}} onReference={() => {}} /></MemoryRouter>);
+    expect(screen.getByRole("region", { name: "Response" })).toBeInTheDocument();
+    expect(screen.queryByText(packet.explanation.claims[0].text)).not.toBeInTheDocument();
+    expect(screen.queryByRole("region", { name: "AI explanation" })).not.toBeInTheDocument();
+  });
   it("reveals words, exposes complete accessible text, and never rewinds after skip", () => {
     let next = 0; const frames = new Map<number, FrameRequestCallback>();
     vi.stubGlobal("requestAnimationFrame", (cb: FrameRequestCallback) => { frames.set(++next, cb); return next; });

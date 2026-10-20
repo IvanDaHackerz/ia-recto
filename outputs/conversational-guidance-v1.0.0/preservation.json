@@ -1,0 +1,16 @@
+{
+  "pinned_paths_checked": [
+    "backend/classifier",
+    "dataset/pipelines/item10",
+    "dataset/pipelines/item11",
+    "dataset/pipelines/item12",
+    "models",
+    "outputs/item10-classifier-v1.5.16",
+    "outputs/item11-retrieval-v1.3.3",
+    "outputs/item12-verifier-v1.0.11"
+  ],
+  "changed_tracked_pinned_files": [],
+  "model_weights_or_thresholds_changed": false,
+  "independent_legal_reviews_added": false,
+  "canonical_sources_changed": false
+}

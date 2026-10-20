@@ -65,6 +65,20 @@ storage if the group needs those later; they are unnecessary for running the app
 
 ## Groupmate: clone and run on Windows
 
+For an existing clone with Python dependencies already installed, stop the website,
+update, install any frontend lockfile changes and restart from the project root:
+
+```powershell
+git pull --ff-only
+npm.cmd --prefix UI/UX/app ci
+.\start-website.ps1
+```
+
+Use the URL the launcher prints. The launcher now includes saved provider
+configuration and AI feature settings in its reuse check; it will not reuse an
+API process that was started before key setup. Previously configured keys remain
+local and do not need to be committed or re-entered after a pull.
+
 Install Git, **Python 3.12** with the `py` launcher, and **Node.js 24** with npm.
 Open PowerShell in the desired parent directory and run:
 
