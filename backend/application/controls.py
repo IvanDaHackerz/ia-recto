@@ -115,11 +115,11 @@ class CancellableTransport:
         rid=self.ledger.reserve(stage,model,len(request.data),body.get('max_tokens',body.get('max_output_tokens',3072)))
         connection=http.client.HTTPSConnection(parsed.hostname,timeout=min(8,timeout,max(.1,ctx.deadline-time.monotonic())))
         with ctx.lock:ctx.connections.append(connection)
-        outcome='unavailable';usage={}
+        outcome='unavailable';usage={};attempt=None;started=time.perf_counter()
         try:
             ctx.check();connection.connect();ctx.check()
             connection.sock.settimeout(min(timeout,max(.1,ctx.deadline-time.monotonic())))
-            ctx.calls.append({'stage':stage,'model':model})
+            attempt={'stage':stage,'model':model};ctx.calls.append(attempt)
             connection.request('POST',parsed.path,body=request.data,headers=dict(request.header_items()))
             response=connection.getresponse()
             if response.status!=200:
@@ -136,6 +136,7 @@ class CancellableTransport:
         except (OSError,ValueError,http.client.HTTPException):
             outcome='canceled' if ctx.canceled.is_set() else 'unavailable';raise ProviderStopped('request_canceled' if ctx.canceled.is_set() else 'provider_unavailable') from None
         finally:
+            if attempt is not None:attempt['elapsed_ms']=round((time.perf_counter()-started)*1000,1)
             connection.close()
             with ctx.lock:
                 if connection in ctx.connections:ctx.connections.remove(connection)

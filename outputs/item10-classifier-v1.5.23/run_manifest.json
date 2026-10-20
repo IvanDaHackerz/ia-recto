@@ -1,0 +1,61 @@
+{
+  "model_version": "item10-classifier-v1.5.23",
+  "status": "implementation_software_checked_performance_evaluation_pending",
+  "selected_candidate": "lexical_C100",
+  "as_of": "2026-10-19",
+  "training_parent_rows": 459,
+  "additional_training_rows": {
+    "atomic_derivatives": 571,
+    "taxonomy_definitions": 42,
+    "unique_atoms_with_glossary": 222
+  },
+  "source_hashes": {
+    "dataset\\processed\\item10\\reviewed_v1.0.0\\classifier_questions.jsonl": "c6592be4d3fcc5a1491d3c005148c97473b95d29dbbea51a46881560e150cd87",
+    "dataset\\processed\\item10\\ai_reviewed_eval_v1.0.0\\evaluation_questions.jsonl": "fe780075acdf799fbe8bce47b4dd1e86998a154e2babc47cc65682b696249dc3",
+    "dataset\\processed\\item10\\ai_reviewed_eval_v1.0.0\\typing_questions.jsonl": "fc5a27cd983b0d6d7b9c70de24bf744d98f66d214f987673c646749a261c98a7"
+  },
+  "model_sha256": "f722e4cbae8a1d691bbf36bd3b8b48df5f1e041b093369004c24adf75ed40ee5",
+  "runtime_script_sha256": "4b7279c4605a1185c66ac13c28401762d5272891298bec3d3fcc69d1256246a5",
+  "encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "encoder_manifest_sha256": "a53f046acc0792a8ff9d13fee07d11d1bd5d9fb6527c629884195732d57be976",
+  "selected_feature_kind": "lexical",
+  "encoder_used_by_selected_model": false,
+  "synthetic_test_opened": false,
+  "deployment_allowed": false,
+  "formal_human_gold_available": false,
+  "confidence_method": "Three-fold group-disjoint calibration, shared atomic facts purged per fold, temperature joint-state calibration. Chosen labels use explicit component union; confidence is posterior mass assigned to that chosen label, not necessarily maximum probability.",
+  "experiment_design_informed_prior_development_errors": true,
+  "elapsed_seconds": 8.744022607803345,
+  "repair_lineage": {
+    "parent_run": "C:\\IA\\outputs\\item10-classifier-v1.3.1",
+    "parent_model_sha256": "172dd232727ae4ed40e737ef591a58f079582ef45b4d62000135cb7f2f336837",
+    "parent_original_holdout_metrics_sha256": "352e72474c91980796b70b1c26f6624e11dd68a07508c28ff978171b2fe0d390",
+    "original_synthetic_test_previously_opened": true,
+    "original_synthetic_test_role": "regression_only",
+    "fix_informed_by_opened_holdout_errors": true,
+    "candidate_configuration_inherited": true,
+    "fresh_independent_holdout_required": true
+  },
+  "original_synthetic_test_previously_opened": true,
+  "fresh_independent_holdout_required": true,
+  "original_synthetic_test_regression_evaluated": false,
+  "fresh_independent_holdout_evaluated": false,
+  "parent_classifier": "outputs/item10-classifier-v1.5.16",
+  "new_model_fitting": true,
+  "performance_evaluation_deferred": true,
+  "displayed_metrics_deferred": true,
+  "user_terminal_testing_deferred": true,
+  "formal_acceptance_completed": false,
+  "website_integration_completed": false,
+  "llm_integration_completed": false,
+  "software_tests": {
+    "tests_run": 69,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "counterfactual_development_regressions": 19,
+    "accuracy_acceptance_is_separate": true
+  },
+  "calibration_refit_on_original_training_folds": true
+}

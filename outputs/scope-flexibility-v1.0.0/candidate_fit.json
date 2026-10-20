@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "lexical",
+    "training_parent_count": 459,
+    "new_diagnostic_rows_fitted": 0,
+    "thresholds": {
+      "primary": 0.8,
+      "scope": 0.85
+    },
+    "validation_primary_accuracy": 1.0,
+    "validation_scope_accuracy": 1.0,
+    "validation_primary_macro_f1": 1.0,
+    "elapsed_seconds": 2.2041613000001234
+  },
+  {
+    "kind": "hybrid",
+    "training_parent_count": 459,
+    "new_diagnostic_rows_fitted": 0,
+    "thresholds": {
+      "primary": 0.8,
+      "scope": 0.85
+    },
+    "validation_primary_accuracy": 0.9607843137254902,
+    "validation_scope_accuracy": 1.0,
+    "validation_primary_macro_f1": 0.9615384615384616,
+    "elapsed_seconds": 10.4538962000006
+  }
+]

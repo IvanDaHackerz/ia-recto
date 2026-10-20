@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item10\build_preintegration.py", line 134, in <module>
+    build(args.parent,args.output,args.recalibrate_training_folds)
+  File "C:\IA\dataset\pipelines\item10\build_preintegration.py", line 54, in build
+    raise ValueError('Inherited learned state changed')
+ValueError: Inherited learned state changed

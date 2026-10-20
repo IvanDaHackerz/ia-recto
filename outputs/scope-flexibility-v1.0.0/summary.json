@@ -1,0 +1,103 @@
+{
+  "classifier": "outputs/item10-classifier-v1.5.23",
+  "retrieval": "outputs/item11-retrieval-v1.3.7",
+  "verifier": "outputs/item12-verifier-v1.0.15",
+  "new_synthetic_forms": 233,
+  "taxonomy_fields": 42,
+  "independent_human_questions": 0,
+  "external_ai_calls": 0,
+  "development_before": {
+    "route_matches": 82,
+    "total": 102,
+    "label_matches": 76,
+    "label_total": 84
+  },
+  "development_after": {
+    "route_matches": 102,
+    "total": 102,
+    "label_matches": 84,
+    "label_total": 84
+  },
+  "contrast_development": {
+    "passed": 51,
+    "total": 51
+  },
+  "first_reserved_before_further_repair": {
+    "passed": 47,
+    "total": 50,
+    "role_now": "opened development"
+  },
+  "opened_reserve_regression": {
+    "passed": 50,
+    "total": 50
+  },
+  "second_unused_wording_check": {
+    "passed": 30,
+    "total": 30,
+    "used_for_tuning": false
+  },
+  "raw_latency": {
+    "before": {
+      "model": "outputs/item10-classifier-v1.5.16",
+      "calls": 120,
+      "median_ms": 20.879600000625942,
+      "p95_ms": 24.86039999894274,
+      "minimum_ms": 16.67769999949087,
+      "maximum_ms": 47.98599999958242,
+      "cold_start_excluded": true,
+      "profiling_disabled": true,
+      "network_calls": 0
+    },
+    "after": {
+      "model": "outputs/item10-classifier-v1.5.23",
+      "calls": 120,
+      "median_ms": 12.554850000924489,
+      "p95_ms": 16.183199999431963,
+      "minimum_ms": 9.418499999810592,
+      "maximum_ms": 41.4995999999519,
+      "cold_start_excluded": true,
+      "profiling_disabled": true,
+      "network_calls": 0
+    },
+    "median_reduction_percent": 39.8702561325499
+  },
+  "source_context": {
+    "samples": 12,
+    "before_characters": 93690,
+    "after_characters": 84325,
+    "reduction_percent": 9.995730600917922,
+    "all_complete_sources_retained": true
+  },
+  "historical_reused_inputs": 436,
+  "historical_topic_accuracy": {
+    "numerator": 425,
+    "denominator": 425,
+    "value": 1.0
+  },
+  "historical_scope_accuracy": {
+    "numerator": 425,
+    "denominator": 425,
+    "value": 1.0
+  },
+  "historical_route_match": {
+    "numerator": 428,
+    "denominator": 436,
+    "value": 0.981651376146789
+  },
+  "historical_primary_macro_f1": 1.0,
+  "historical_scope_macro_f1": 1.0,
+  "historical_local_latency_ms": {
+    "median": 154.18870000030438,
+    "p95": 187.1257250004419
+  },
+  "historical_route_mismatches": {
+    "intended_policy_changes": 4,
+    "excluded_concern_clarification_deferrals": 4
+  },
+  "remaining_limits": [
+    "No independent human gold or legal-answer correctness measurement.",
+    "Four historical excluded-topic questions still clarify instead of referring immediately.",
+    "The existing final-pay/COE authority gap remains; missing sources cannot supply a grounded explanation.",
+    "No live LLM output or provider-latency evaluation in this repair."
+  ]
+}

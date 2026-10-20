@@ -1,0 +1,18 @@
+{
+  "bm25_k1": 1.2,
+  "bm25_b": 0.75,
+  "rrf_k": 60,
+  "rrf_candidate_depth": 50,
+  "default_method": "bm25",
+  "methods": [
+    "bm25",
+    "semantic",
+    "hybrid"
+  ],
+  "semantic_pooling": "max over token-bounded document/query windows",
+  "semantic_max_tokens": 128,
+  "semantic_overlap_tokens": 20,
+  "returned_unit": "unique provision, retaining best chunk and full eligible parent text",
+  "score_is_confidence": false,
+  "minimum_score_claim": "No answer-sufficiency threshold is claimed; Item 12 evidence verification remains required"
+}

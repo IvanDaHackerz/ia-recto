@@ -14,7 +14,7 @@ from dataclasses import dataclass, field
 from backend.classifier.contracts import validate_request
 from backend.normalization_validation import validate_rewrite, FUNCTION_WORDS, FACT_WORDS
 
-VERSION = "conditional-normalization-v3.0.0"
+VERSION = "conditional-normalization-v3.0.1"
 TOKEN = re.compile(r"[^\W_]+(?:['’][^\W_]+)*", re.UNICODE)
 # Readability hints only: no candidate replacements or edit whitelist.
 SHORTHAND_HINTS = set("""prng gn2 gnto d2 aq q kmi kme kau nmn kc ksi bkt bkit
@@ -91,6 +91,13 @@ def assess_text(question, routing=None):
     needed = len(spans) >= 2 or strong
     reason = "compressed_or_corrupted_wording" if needed else "local_path"
     if not needed and routing and routing["routing_action"] == "clarify" and routing["reason"] in FALLBACK_REASONS:
+        # A clear specialized-scope question can need context rather than a
+        # wording rewrite. A small vocabulary is not proof of misspelling.
+        # This never changes its classification/route. Observed corruption
+        # still takes the normal conditional-provider path above.
+        if not spans and re.search(r'\b(?:seafarer|ofw|kasambahay|pension|insurance|telecommunications|investment|privacy)\b',question,re.I):
+            return {'needed':False,'reason':'recognized_scope_context_needed','trigger_spans':[],
+                    'mode':'whole_question_interpretation'}
         candidates = [m.group().casefold() for m in tokens if len(m.group()) >= 3 and m.group().islower()]
         unfamiliar = [w for w in candidates if w not in FAMILIAR]
         if len(unfamiliar) >= 2 and len(unfamiliar) / max(1, len(candidates)) >= .3:

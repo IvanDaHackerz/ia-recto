@@ -6,6 +6,8 @@ The implementation repairs were informed by inspected development cases. A 424-i
 
 ## Python interface
 
+Version v1.5.23 repairs scope/segmentation and general-information routing, retains the original atomic classifier weights and thresholds, and refreshes calibration on the original training folds. The [233-question synthetic diagnostic record](../../outputs/scope-flexibility-v1.0.0/REPORT.md) distinguishes inspected repair cases from a separate unused-wording check. Employment type is an applicability follow-up, not an automatic wage-topic rejection. Ambiguous transactions and unresolved concerns still clarify.
+
 `ClassifierService.classify({"question_text": "Original wording", "request_id": "optional-id"})` is the integration entry point. The optional ID contains at most 64 letters/digits/dots/colons/underscores/hyphens. Other input fields are rejected. User input cannot choose models, files, labels, thresholds, approvals or permissions.
 
 `config.json` pins the trusted model manifest, runtime/source hashes, exact dependencies and inherited thresholds. The model loads once. Every call checks integrity again; changed files require an explicit rebuild/restart. The original source datasets and learned weights are preserved. Do not load client-supplied pickle/joblib files.

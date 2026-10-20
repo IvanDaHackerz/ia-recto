@@ -1,0 +1,13 @@
+.F..........
+======================================================================
+FAIL: test_compact_prompt_preserves_full_sources_and_exact_proof (backend.application.test_development_explanation.CitationTests.test_compact_prompt_preserves_full_sources_and_exact_proof)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 80, in test_compact_prompt_preserves_full_sources_and_exact_proof
+    self.assertLess(len(json.dumps(compact)),len(json.dumps(expanded)))
+AssertionError: 3209 not less than 2909
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.019s
+
+FAILED (failures=1)

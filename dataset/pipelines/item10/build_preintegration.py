@@ -14,7 +14,7 @@ from train_classifier import ROOT, sources, readrows, save, jsonl, sha
 HERE = Path(__file__).resolve().parent
 
 
-def build(parent, output):
+def build(parent, output, recalibrate_training_folds=False):
     parent, output = parent.resolve(), output.resolve()
     if output.exists():
         raise ValueError('Use a new version directory')
@@ -32,6 +32,26 @@ def build(parent, output):
         shutil.copyfile(path, output / path.name)
     old = joblib.load(parent / 'classifier.joblib')
     bundle = joblib.load(parent / 'classifier.joblib')
+    if recalibrate_training_folds:
+        import numpy as np
+        from sklearn.base import clone
+        from clause_classifier import state_of
+        from logical_clause_model import LogicalClauseEngine,LogicalClauseHead
+        parts,_,_,_=sources()
+        joint=clone(bundle['primary_model'].engine.joint_model)
+        joint.fit([r['question_text'] for r in parts['train']],[state_of(r) for r in parts['train']])
+        original=bundle['primary_model'].engine.atomic;refit=joint.calibrated_classifiers_[0].estimator.atomic
+        np.testing.assert_array_equal(original.model.coef_,refit.model.coef_)
+        np.testing.assert_array_equal(original.model.intercept_,refit.model.intercept_)
+        if original.lexical is not None:
+            for (_,a),(_,b) in zip(original.lexical.transformer_list,refit.lexical.transformer_list):
+                assert a.vocabulary_==b.vocabulary_
+                np.testing.assert_array_equal(a.idf_,b.idf_)
+        # Preserve the exact original fitted atomic object; only training-fold
+        # probability calibration is refreshed after feature/routing repairs.
+        joint.calibrated_classifiers_[0].estimator.atomic=original
+        engine=LogicalClauseEngine(joint,original)
+        bundle.update(primary_model=LogicalClauseHead('primary',engine),scope_model=LogicalClauseHead('scope',engine))
     bundle['model_version'] = output.name
     joblib.dump(bundle, output / 'classifier.joblib')
     bundle = joblib.load(output / 'classifier.joblib')
@@ -41,25 +61,28 @@ def build(parent, output):
         'calibration': joblib.hash(a.joint_model)==joblib.hash(b.joint_model),
         'thresholds': old['thresholds']==bundle['thresholds'],
         'training_membership': old['train_question_ids']==bundle['train_question_ids'] and old['train_group_ids']==bundle['train_group_ids']}
-    if not all(equal.values()):
+    if not all(v for k,v in equal.items() if not (recalibrate_training_folds and k=='calibration')):
         raise ValueError('Inherited learned state changed')
     manifest = json.loads((parent / 'run_manifest.json').read_text())
     for key in ['all_development_targets_met', 'regression_targets_passed', 'focused_repair']:
         manifest.pop(key, None)
     manifest.update(model_version=output.name, as_of='2026-10-19', status='implementation_checks_pending',
         model_sha256=sha(output / 'classifier.joblib'), runtime_script_sha256=sha(HERE / 'classifier_runtime.py'),
-        parent_classifier=parent.relative_to(ROOT).as_posix(), new_model_fitting=False,
+        parent_classifier=parent.relative_to(ROOT).as_posix(), new_model_fitting=recalibrate_training_folds,
+        calibration_refit_on_original_training_folds=recalibrate_training_folds,
         performance_evaluation_deferred=True, displayed_metrics_deferred=True, user_terminal_testing_deferred=True,
         original_synthetic_test_regression_evaluated=False, fresh_independent_holdout_evaluated=False,
         formal_acceptance_completed=False, website_integration_completed=False, llm_integration_completed=False)
     save(output / 'run_manifest.json', manifest)
     save(output / 'selection_frozen.json', {'selected_candidate': manifest['selected_candidate'],
-        'selection_data': 'Parent configuration, trained weights, calibration and validation-selected thresholds inherited unchanged.',
+        'selection_data': 'Parent configuration, atomic weights and thresholds inherited; probability calibration refitted on original training folds.' if recalibrate_training_folds else 'Parent configuration, trained weights, calibration and validation-selected thresholds inherited unchanged.',
         'model_sha256': manifest['model_sha256'], 'thresholds': bundle['thresholds'],
-        'new_selection_or_fitting': False, 'fresh_independent_holdout_evaluated': False})
+        'new_selection_or_fitting': recalibrate_training_folds, 'fresh_independent_holdout_evaluated': False})
     save(output / 'implementation_lineage.json', {'parent': parent.relative_to(ROOT).as_posix(),
         'parent_checksums_sha256': sha(parent / 'artifact_checksums.json'), 'unchanged_learned_state': equal,
-        'repair_informed_by_inspected_development_cases': True, 'new_training_questions': 0})
+        'repair_informed_by_inspected_development_cases': True, 'new_training_questions': 0,
+        'calibration_refit_on_original_training_folds':recalibrate_training_folds,
+        'diagnostic_or_reserved_questions_fitted':False})
     parts, general, typing, audit = sources()
     assert audit['source_sha256']==manifest['source_hashes']
     # Replay data supports persistence/software assertions only. No new accuracy,
@@ -117,5 +140,6 @@ if __name__ == '__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--parent',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--recalibrate-training-folds',action='store_true')
     args=parser.parse_args()
-    build(args.parent,args.output)
+    build(args.parent,args.output,args.recalibrate_training_folds)

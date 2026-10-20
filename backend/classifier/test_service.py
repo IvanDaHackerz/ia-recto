@@ -97,7 +97,7 @@ class ServiceTests(unittest.TestCase):
             self.assertNotIn('email',r);self.assertNotIn('phone',r)
 
     def test_vague_and_empty_inputs_clarify_without_retrieval(self):
-        for text in ['', '  ', 'My employer has not paid my salary.', 'They refuse to refund my payment.']:
+        for text in ['', '  ', 'They refuse to refund my payment.']:
             with self.subTest(text=text):
                 result=self.prediction(text)
                 self.assertEqual(result['routing']['action'],'clarify')

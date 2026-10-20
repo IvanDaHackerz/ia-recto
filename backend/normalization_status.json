@@ -1,5 +1,5 @@
 {
-  "version": "conditional-normalization-v3.0.0",
+  "version": "conditional-normalization-v3.0.1",
   "role": "local_development_website_and_terminal_integration",
   "implementation_completed": true,
   "provider_adapters": [
@@ -12,7 +12,7 @@
   "credential_storage": "Windows-user DPAPI encrypted; ignored .local directory; no plaintext key",
   "live_provider_test_completed": true,
   "live_provider_test_date": "2026-10-19",
-  "software_checks_passed": 43,
+  "software_checks_passed": 35,
   "provider_replies_in_tests": "unit tests use synthetic/mocked HTTP; separate live Together smoke checks completed",
   "local_pipeline_smoke_checks": "clear_bypass_clarification_bypass_live_together_normalization_to_real_retrieval_unconfigured_stop",
   "last_live_pipeline_smoke": {
@@ -285,5 +285,11 @@
     "provider_attempts": 459,
     "estimated_cost_usd": 0.4522386,
     "independent_legal_accuracy": null
-  }
+  },
+  "latest_gate_repair": "Clear specialized-scope context can bypass dictionary-only fallback; observed corruption still triggers conditional interpretation.",
+  "latest_gate_repair_report": "outputs/scope-flexibility-v1.0.0",
+  "latest_gate_repair_live_provider_test_completed": false,
+  "historical_live_provider_test_version": "conditional-normalization-v3.0.0",
+  "historical_software_checks_passed": 43,
+  "latest_backend_suite_tests_passed": 187
 }

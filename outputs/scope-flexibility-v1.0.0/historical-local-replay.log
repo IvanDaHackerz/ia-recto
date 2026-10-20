@@ -1,0 +1,18 @@
+Checked 50/436 inputs; network/LLM calls 0
+Checked 100/436 inputs; network/LLM calls 0
+Checked 150/436 inputs; network/LLM calls 0
+Checked 200/436 inputs; network/LLM calls 0
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\IA\backend\evaluate_local_pipeline.py", line 187, in <module>
+    else: execute(args.cases, args.output)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_local_pipeline.py", line 135, in execute
+    pre = verifier.preflight(question, mode="recorded_excerpt")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item12\verification.py", line 222, in preflight
+    self._begin_request()
+  File "C:\IA\dataset\pipelines\item12\verification.py", line 93, in _begin_request
+    raise ValueError('Artifact changed since verifier construction; reload/rebuild: ' + path.as_posix())
+ValueError: Artifact changed since verifier construction; reload/rebuild: C:/IA/dataset/pipelines/item10/scope_constraints.py

@@ -1,0 +1,11 @@
+{
+  "model": "outputs/item10-classifier-v1.5.16",
+  "calls": 120,
+  "median_ms": 20.879600000625942,
+  "p95_ms": 24.86039999894274,
+  "minimum_ms": 16.67769999949087,
+  "maximum_ms": 47.98599999958242,
+  "cold_start_excluded": true,
+  "profiling_disabled": true,
+  "network_calls": 0
+}

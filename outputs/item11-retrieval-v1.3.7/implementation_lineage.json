@@ -1,0 +1,6 @@
+{
+  "parent": "outputs/item11-retrieval-v1.3.3",
+  "source_records_unchanged": true,
+  "classifier_rebind": "outputs/item10-classifier-v1.5.23",
+  "independent_evaluation": false
+}

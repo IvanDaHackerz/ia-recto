@@ -7,7 +7,7 @@ import numpy as np
 
 VALID_PAIRS={('labor','fully_supported'),('consumer','fully_supported'),('mixed','fully_supported'),('mixed','partially_supported'),('out_of_scope','unsupported')}
 EMPLOYMENT_CONTEXT=re.compile(r'\b(private|pribado|government|govt|municipal|civil.service|kasambahay|household|ofw|overseas|seafarer|seafrer|seaf[a-z]*r|domestic.worker)\b')
-PROVIDER_CONTEXT=re.compile(r'\b(store|shop|retail[a-z]*|seller|merchant|online|bank[a-z]*|bnko|insurance|insurer|airline|telecom|telco|mobile|utility|water|electricity|laundry|grocery|groc[a-z]*|appliance|apliance|repair|furniture|blender|fan|kettle|chair|rice.cooker|credit.card)\b')
+PROVIDER_CONTEXT=re.compile(r'\b(store|shop|retail[a-z]*|seller|merchant|online|bank[a-z]*|bnko|insurance|insurer|airline|telecom|telco|mobile|utility|water|electricity|laundry|grocery|groc[a-z]*|supermarket|checkout|mall|tindahan|appliance|apliance|repair|furniture|blender|fan|kettle|chair|rice.cooker|credit.card)\b')
 CONTRACT_CONTEXT=re.compile(r'\b(employ[a-z]*|private|company|job|work|trabaho|government|municipal|seafarer|ofw|overseas|recruit[a-z]*|store|shop|retail[a-z]*|seller|lease|landlord|tenant|condo[a-z]*|developer|insurance|insurer|bank|subscription|phone|internet|service)\b')
 
 def normalize(text:str)->str:
@@ -47,16 +47,25 @@ class ComponentSignalClassifier:
         probs=np.clip(probs,0,1);return probs/probs.sum(axis=1,keepdims=True)
 
 def missing_context(text:str):
-    from scope_constraints import scope_text
+    from scope_constraints import scope_text,employment_issue
     t=scope_text(normalize(text))
     provider_known=PROVIDER_CONTEXT.search(t) or re.search(r'\b(?:transport\s+operator|recruitment\s+agency|cashier)\b',t)
     product_known=re.search(r'\b(?:product|item)\b',t) and re.search(r'\b(?:bought|purchased|binili\w*|nabili\w*|quality|defect\w*)\b',t)
     if not t:return ('empty_input','What labor or consumer concern would you like help with?')
     if len(re.findall(r'\w+',t))<3:return ('too_little_context','What happened, and who was involved in the transaction or employment relationship?')
-    if re.search(r'\b(salary|salry|salaries|salries|wages|sahod|sweldo|employer|employr)\b',t) and not EMPLOYMENT_CONTEXT.search(t):
-        return ('employment_category_missing','Is this private-sector, government, household, overseas, or seafarer employment?')
+    from typing_repair import VOCABULARY
+    from typing_vocabulary import PRESERVED_WORDS
+    if not set(re.findall(r'\w+',t)) & (VOCABULARY | PRESERVED_WORDS):
+        return ('unrecognized_wording','Could you rephrase what happened and who was involved?')
+    if re.fullmatch(r'(?:the|my|our|a)?\s*service\s+is\s+(?:bad|poor|terrible)[.!? ]*(?:what\s+should\s+i\s+do[? ]*)?',t):
+        return ('service_context_missing','What service was this, who provided it, and what went wrong?')
+    # Employment category affects applicability, not recognition of a wage
+    # question. The application discloses its private-sector source scope and
+    # asks the category as a follow-up rather than blocking general information.
     if re.search(r'refund|irefund|money back|payment back|ibalik.{0,30}(bayad|binayad)|(bayad|binayad|binyad).{0,35}(ibalik|ibalk)',t) and not (provider_known or product_known):
         return ('refund_transaction_missing','Who owes the refund, and what purchase or service was it for?')
+    if re.search(r'\b(?:payment|bayad|money)\b',t) and not (provider_known or product_known or employment_issue(t) or re.search(r'\b(?:consumer|employer|boss|amo|company|contract|work|trabaho|employee|purchase)\b',t)):
+        return ('payment_context_missing','What was the payment for, and who was supposed to pay or receive it?')
     if re.search(r'\b(contract|contrct|kontrata)\b',t) and not CONTRACT_CONTEXT.search(t):
         return ('contract_relationship_missing','What kind of contract ended, and who were the parties?')
     if re.search(r'\b(charg[a-z]*|chrge|singil|singgil)\b',t) and not provider_known:
@@ -122,12 +131,20 @@ def route_prediction(prediction,thresholds):
 
 def predict_records(bundle,rows):
     texts=[r['question_text'] for r in rows]
-    p=bundle['primary_model'].predict_proba(texts);s=bundle['scope_model'].predict_proba(texts)
-    pclasses=list(bundle['primary_model'].classes_);sclasses=list(bundle['scope_model'].classes_)
-    primary_labels=bundle['primary_model'].predict(texts) if hasattr(bundle['primary_model'],'predict') else np.array(pclasses)[p.argmax(axis=1)]
-    scope_labels=bundle['scope_model'].predict(texts) if hasattr(bundle['scope_model'],'predict') else np.array(sclasses)[s.argmax(axis=1)]
     engine=getattr(bundle['primary_model'],'engine',None)
-    decisions=engine.decisions(texts) if engine is not None and hasattr(engine,'decisions') else None
+    shared=(engine is not None and getattr(bundle['scope_model'],'engine',None) is engine
+        and hasattr(bundle['primary_model'],'probabilities_from_states') and hasattr(bundle['scope_model'],'probabilities_from_states'))
+    if shared:
+        states=engine.state_probabilities(texts)
+        p=bundle['primary_model'].probabilities_from_states(states);s=bundle['scope_model'].probabilities_from_states(states)
+        decisions=engine.decisions(texts)
+        primary_labels=np.array([d[0] for d in decisions]);scope_labels=np.array([d[1] for d in decisions])
+    else:
+        p=bundle['primary_model'].predict_proba(texts);s=bundle['scope_model'].predict_proba(texts)
+        primary_labels=bundle['primary_model'].predict(texts) if hasattr(bundle['primary_model'],'predict') else np.array(bundle['primary_model'].classes_)[p.argmax(axis=1)]
+        scope_labels=bundle['scope_model'].predict(texts) if hasattr(bundle['scope_model'],'predict') else np.array(bundle['scope_model'].classes_)[s.argmax(axis=1)]
+        decisions=engine.decisions(texts) if engine is not None and hasattr(engine,'decisions') else None
+    pclasses=list(bundle['primary_model'].classes_);sclasses=list(bundle['scope_model'].classes_)
     results=[]
     for i,(row,text) in enumerate(zip(rows,texts)):
         primary=primary_labels[i];scope=scope_labels[i];pi=pclasses.index(primary);si=sclasses.index(scope)

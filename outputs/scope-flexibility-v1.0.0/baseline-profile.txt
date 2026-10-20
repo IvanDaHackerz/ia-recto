@@ -1,0 +1,38 @@
+         642029 function calls (641869 primitive calls) in 0.839 seconds
+
+   Ordered by: cumulative time
+   List reduced from 481 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       20    0.001    0.000    0.841    0.042 C:\IA\dataset\pipelines\item10\classifier_runtime.py:123(predict_records)
+      100    0.004    0.000    0.622    0.006 C:\IA\dataset\pipelines\item10\clause_classifier.py:223(question_features)
+      120    0.004    0.000    0.537    0.004 C:\IA\dataset\pipelines\item10\clause_classifier.py:218(probabilities)
+      120    0.001    0.000    0.463    0.004 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\_set_output.py:325(wrapped)
+      120    0.002    0.000    0.461    0.004 C:\IA\.venv-item10\Lib\site-packages\sklearn\pipeline.py:2054(transform)
+      120    0.001    0.000    0.395    0.003 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\parallel.py:54(__call__)
+      120    0.001    0.000    0.394    0.003 C:\IA\.venv-item10\Lib\site-packages\joblib\parallel.py:1995(__call__)
+      480    0.002    0.000    0.388    0.001 C:\IA\.venv-item10\Lib\site-packages\joblib\parallel.py:1914(_get_sequential_output)
+      240    0.012    0.000    0.375    0.002 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\parallel.py:140(__call__)
+       60    0.001    0.000    0.374    0.006 C:\IA\dataset\pipelines\item10\logical_clause_model.py:57(decisions)
+      240    0.001    0.000    0.342    0.001 C:\IA\.venv-item10\Lib\site-packages\sklearn\pipeline.py:1524(_transform_one)
+      240    0.001    0.000    0.340    0.001 C:\IA\.venv-item10\Lib\site-packages\sklearn\feature_extraction\text.py:2116(transform)
+       40    0.003    0.000    0.318    0.008 C:\IA\dataset\pipelines\item10\logical_clause_model.py:91(predict_proba)
+       40    0.000    0.000    0.315    0.008 C:\IA\dataset\pipelines\item10\logical_clause_model.py:56(state_probabilities)
+       40    0.001    0.000    0.315    0.008 C:\IA\.venv-item10\Lib\site-packages\sklearn\calibration.py:511(predict_proba)
+       40    0.001    0.000    0.307    0.008 C:\IA\.venv-item10\Lib\site-packages\sklearn\calibration.py:783(predict_proba)
+       40    0.000    0.000    0.282    0.007 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\_response.py:117(_get_response_values)
+       40    0.005    0.000    0.259    0.006 C:\IA\dataset\pipelines\item10\logical_clause_model.py:44(decision_function)
+       40    0.000    0.000    0.250    0.006 C:\IA\dataset\pipelines\item10\logical_clause_model.py:90(predict)
+       40    0.000    0.000    0.250    0.006 C:\IA\dataset\pipelines\item10\logical_clause_model.py:42(signals)
+      240    0.008    0.000    0.238    0.001 C:\IA\.venv-item10\Lib\site-packages\sklearn\feature_extraction\text.py:1698(transform)
+      720    0.010    0.000    0.171    0.000 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\validation.py:733(check_array)
+      562    0.023    0.000    0.167    0.000 C:\IA\dataset\pipelines\item10\scope_constraints.py:74(constraint)
+      140    0.009    0.000    0.164    0.001 C:\IA\dataset\pipelines\item10\clause_classifier.py:74(segment_question)
+      360    0.003    0.000    0.132    0.000 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\validation.py:2932(validate_data)
+      240    0.005    0.000    0.132    0.001 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\_param_validation.py:187(wrapper)
+       20    0.001    0.000    0.118    0.006 C:\IA\dataset\pipelines\item10\logical_clause_model.py:70(component_evidence)
+      800    0.001    0.000    0.105    0.000 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\validation.py:44(_nw_into_df_or_series)
+      240    0.002    0.000    0.092    0.000 C:\IA\.venv-item10\Lib\site-packages\sklearn\feature_extraction\text.py:1409(transform)
+      240    0.017    0.000    0.088    0.000 C:\IA\.venv-item10\Lib\site-packages\sklearn\feature_extraction\text.py:1257(_count_vocab)
+
+

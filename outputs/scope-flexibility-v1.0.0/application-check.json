@@ -1,0 +1,2838 @@
+{
+  "provenance": "Synthetic inspected development checks, application layer; no provider/LLM evaluation",
+  "count": 153,
+  "passed": 153,
+  "network_calls": 0,
+  "median_ms_profiled": 175.6030999986251,
+  "p95_ms_profiled": 219.0309999987221,
+  "payload_measurements": [
+    {
+      "case_id": "labor.wages_payment.1",
+      "source_characters": 9362,
+      "compact_source_characters": 7812,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.wages_payment.2",
+      "source_characters": 2868,
+      "compact_source_characters": 2818,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.hours_of_work.1",
+      "source_characters": 17160,
+      "compact_source_characters": 16059,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.hours_of_work.2",
+      "source_characters": 7492,
+      "compact_source_characters": 7149,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.rest_days.1",
+      "source_characters": 10524,
+      "compact_source_characters": 8784,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.rest_days.2",
+      "source_characters": 4278,
+      "compact_source_characters": 3611,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.overtime_pay.1",
+      "source_characters": 10545,
+      "compact_source_characters": 9271,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.overtime_pay.2",
+      "source_characters": 2796,
+      "compact_source_characters": 2385,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.holiday_premium_pay.1",
+      "source_characters": 7070,
+      "compact_source_characters": 5911,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.holiday_premium_pay.2",
+      "source_characters": 5793,
+      "compact_source_characters": 4985,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.thirteenth_month_pay.1",
+      "source_characters": 12117,
+      "compact_source_characters": 11855,
+      "full_sources_preserved": true
+    },
+    {
+      "case_id": "labor.thirteenth_month_pay.2",
+      "source_characters": 3685,
+      "compact_source_characters": 3685,
+      "full_sources_preserved": true
+    }
+  ],
+  "records": [
+    {
+      "case_id": "labor.wages_payment.1",
+      "question_text": "Two paydays have passed and my company still owes me my salary. Where do I start?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 271.1224000013317
+    },
+    {
+      "case_id": "labor.wages_payment.2",
+      "question_text": "Boss di pa nagbibigay ng sweldo namin, may pwede ba gawin?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 180.11449999903562
+    },
+    {
+      "case_id": "labor.hours_of_work.1",
+      "question_text": "The company requires us to arrive early and wait for instructions. Does that time count as work?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 199.86149999931513
+    },
+    {
+      "case_id": "labor.hours_of_work.2",
+      "question_text": "Required kami mag stay sa office kahit tapos na shift, working time ba yun?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 175.21769999984826
+    },
+    {
+      "case_id": "labor.rest_days.1",
+      "question_text": "I work at a restaurant and have not had a day off for three weeks. What rest rules apply?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 192.5363999998808
+    },
+    {
+      "case_id": "labor.rest_days.2",
+      "question_text": "May karapatan ba kami sa weekly day off sa trabaho?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 179.26570000054198
+    },
+    {
+      "case_id": "labor.overtime_pay.1",
+      "question_text": "I work ten hours a day in a warehouse but only get the usual daily pay. What are overtime rules?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 200.0728999992134
+    },
+    {
+      "case_id": "labor.overtime_pay.2",
+      "question_text": "Lampas 8 oras kami sa trabaho pero walang dagdag bayad, ano rules?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 182.54300000080548
+    },
+    {
+      "case_id": "labor.holiday_premium_pay.1",
+      "question_text": "The office closed on Christmas and our manager deducted a day of pay. What holiday rules apply?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 185.03659999987576
+    },
+    {
+      "case_id": "labor.holiday_premium_pay.2",
+      "question_text": "Pumasok kami nung regular holiday, may premium ba dapat?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 174.17439999917406
+    },
+    {
+      "case_id": "labor.thirteenth_month_pay.1",
+      "question_text": "I resigned after working for seven months. Can you explain thirteenth month pay?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 192.5768999990396
+    },
+    {
+      "case_id": "labor.thirteenth_month_pay.2",
+      "question_text": "Wala raw 13th month kasi probationary lang ako, tama ba yun?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 185.36759999915375
+    },
+    {
+      "case_id": "labor.employment_contracts.1",
+      "question_text": "My company keeps renewing a five month contract. What does regular employment generally mean?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 195.46050000099058
+    },
+    {
+      "case_id": "labor.employment_contracts.2",
+      "question_text": "Project based daw ako pero araw araw pareho trabaho ko sa kumpanya, ano ibig sabihin nun?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 187.85449999995762
+    },
+    {
+      "case_id": "labor.termination_due_process.1",
+      "question_text": "My boss fired me by text without a notice or a chance to respond. What process is usually required?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 196.1606999993819
+    },
+    {
+      "case_id": "labor.termination_due_process.2",
+      "question_text": "Tinanggal ako sa trabaho bigla walang written notice, ano dapat proseso?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 176.51669999941078
+    },
+    {
+      "case_id": "labor.final_pay_coe.1",
+      "question_text": "I left my company last month and HR is withholding my final pay and certificate of employment.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 0,
+      "response_kind": "source_limit",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 171.18680000021413
+    },
+    {
+      "case_id": "labor.final_pay_coe.2",
+      "question_text": "Ayaw ibigay ng HR yung COE ko kahit resigned na, anong pwede gawin?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 0,
+      "response_kind": "source_limit",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 180.99489999985963
+    },
+    {
+      "case_id": "labor.complaint_referral.1",
+      "question_text": "Where do I begin a labor complaint for unpaid wages at my company?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 234.85900000014226
+    },
+    {
+      "case_id": "labor.complaint_referral.2",
+      "question_text": "Paano mag request ng SEnA assistance para sa problema sa trabaho?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 219.0309999987221
+    },
+    {
+      "case_id": "consumer.general_framework.1",
+      "question_text": "What is the Consumer Act of the Philippines intended to protect?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 211.90709999973478
+    },
+    {
+      "case_id": "consumer.general_framework.2",
+      "question_text": "Ano ba sakop ng Consumer Act para sa ordinaryong mamimili?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 201.35259999915434
+    },
+    {
+      "case_id": "consumer.defective_products.1",
+      "question_text": "The new headphones I bought stopped working the next morning. What consumer rules cover that?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 229.06289999991714
+    },
+    {
+      "case_id": "consumer.defective_products.2",
+      "question_text": "Yung bagong electric fan ko ayaw umandar, kakabili ko lang sa mall.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 1,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 370.1278000007733
+    },
+    {
+      "case_id": "consumer.warranties.1",
+      "question_text": "The store says the written warranty on my laptop is no longer their problem. Can they ignore it?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 212.1276999987458
+    },
+    {
+      "case_id": "consumer.warranties.2",
+      "question_text": "May warranty pa ref namin pero ayaw ayusin ng tindahan.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 198.91429999916
+    },
+    {
+      "case_id": "consumer.repair_replace_refund.1",
+      "question_text": "The same faulty appliance has been repaired twice by the shop. Can I ask about replacement or a refund?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 239.75830000017595
+    },
+    {
+      "case_id": "consumer.repair_replace_refund.2",
+      "question_text": "Sira agad binili kong charger, ayaw ibalik ng seller yung bayad.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 190.2979000005871
+    },
+    {
+      "case_id": "consumer.deceptive_unfair_sales.1",
+      "question_text": "A salesperson hid an extra required fee until after I paid for the appliance. What protections apply?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 216.72559999933583
+    },
+    {
+      "case_id": "consumer.deceptive_unfair_sales.2",
+      "question_text": "Sabi ng shop brand new yung phone pero refurbished pala.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 205.27510000101756
+    },
+    {
+      "case_id": "consumer.misleading_advertising.1",
+      "question_text": "The advertised storage capacity of a tablet does not match the product the shop delivered.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 187.40679999973509
+    },
+    {
+      "case_id": "consumer.misleading_advertising.2",
+      "question_text": "Iba yung nasa ads ng vacuum kumpara sa dumating na item, saan sakop yan?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 1,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 198.50120000046445
+    },
+    {
+      "case_id": "consumer.price_tags.1",
+      "question_text": "The supermarket checkout charged a higher amount than the shelf label. What displayed-price rules apply?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 205.0758000004862
+    },
+    {
+      "case_id": "consumer.price_tags.2",
+      "question_text": "Candy binigay ng cashier imbes na tamang sukli, pwede ba yun?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 172.66709999967134
+    },
+    {
+      "case_id": "consumer.product_safety.1",
+      "question_text": "A newly purchased extension cord sparks during normal use. What product safety rules are relevant?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 200.45980000031705
+    },
+    {
+      "case_id": "consumer.product_safety.2",
+      "question_text": "Delikado yung laruan na binili namin, may matutulis na parte.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 2,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 336.23869999973977
+    },
+    {
+      "case_id": "consumer.service_complaints.1",
+      "question_text": "The laundry service damaged my clothes and refuses to discuss the problem. What consumer rules cover services?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 193.34059999891906
+    },
+    {
+      "case_id": "consumer.service_complaints.2",
+      "question_text": "Nagbayad ako sa repair shop pero di nila inayos yung electric fan.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 174.50760000065202
+    },
+    {
+      "case_id": "consumer.online_transactions.1",
+      "question_text": "An online business keeps delaying my paid order and will not refund it. It still responds to messages.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 187.3224000009941
+    },
+    {
+      "case_id": "consumer.online_transactions.2",
+      "question_text": "Maling kulay at size pinadala ng online shop, ayaw palitan.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 175.6755999995221
+    },
+    {
+      "case_id": "consumer.complaint_referral.1",
+      "question_text": "How do I submit a consumer complaint to DTI against a shop?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 187.11679999978514
+    },
+    {
+      "case_id": "consumer.complaint_referral.2",
+      "question_text": "San pwede magreklamo sa DTI tungkol sa sirang appliance?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 174.85640000086278
+    },
+    {
+      "case_id": "labor.regional_minimum_wage_amounts.1",
+      "question_text": "How many pesos is the minimum wage in Cebu today?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 175.42469999898458
+    },
+    {
+      "case_id": "labor.regional_minimum_wage_amounts.2",
+      "question_text": "Magkano na minimum wage sa NCR ngayon?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 171.32240000137244
+    },
+    {
+      "case_id": "labor.ofw.1",
+      "question_text": "I work in Dubai and my overseas employer has not paid me for a month.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 170.555400000012
+    },
+    {
+      "case_id": "labor.ofw.2",
+      "question_text": "OFW ako sa Qatar, di sinunod ng employer kontrata namin.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 165.35150000163412
+    },
+    {
+      "case_id": "labor.seafarers.1",
+      "question_text": "I am a seafarer and need help with a shipboard employment contract.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 164.4773999996687
+    },
+    {
+      "case_id": "labor.seafarers.2",
+      "question_text": "Seaman ako, paano yung disability claim ko?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 170.1983000002656
+    },
+    {
+      "case_id": "labor.government_employment.1",
+      "question_text": "I am employed by the city hall and my overtime was not paid.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 164.36109999995097
+    },
+    {
+      "case_id": "labor.government_employment.2",
+      "question_text": "Government employee ako, binawasan sahod namin.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 164.70479999952659
+    },
+    {
+      "case_id": "labor.kasambahay.1",
+      "question_text": "I work as a live-in housemaid. What employment benefits should my household employer give?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 175.6030999986251
+    },
+    {
+      "case_id": "labor.kasambahay.2",
+      "question_text": "Kasambahay ako, walang day off na binibigay amo ko.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 175.73079999965557
+    },
+    {
+      "case_id": "labor.union_cba.1",
+      "question_text": "Our union wants to challenge the result of a representation election.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 173.6798000001727
+    },
+    {
+      "case_id": "labor.union_cba.2",
+      "question_text": "Paano makipag collective bargaining yung union namin?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 167.9063000010501
+    },
+    {
+      "case_id": "labor.workers_compensation.1",
+      "question_text": "Calculate the disability compensation for an injury I suffered at work.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 168.39050000089628
+    },
+    {
+      "case_id": "labor.workers_compensation.2",
+      "question_text": "Naaksidente ako sa trabaho, magkano employees compensation benefit ko?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 168.8573000010365
+    },
+    {
+      "case_id": "labor.occupational_safety.1",
+      "question_text": "Does our factory ventilation system meet occupational safety compliance requirements?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 171.25140000098327
+    },
+    {
+      "case_id": "labor.occupational_safety.2",
+      "question_text": "Ano required OSH permits at safety officer compliance ng factory?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 162.80019999976503
+    },
+    {
+      "case_id": "labor.retirement_pension.1",
+      "question_text": "How much SSS pension will I get when I retire?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 167.53020000032848
+    },
+    {
+      "case_id": "labor.retirement_pension.2",
+      "question_text": "Pa compute retirement pay ko base sa service years.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 162.67949999928533
+    },
+    {
+      "case_id": "labor.pending_case.1",
+      "question_text": "My dismissal case is pending at the NLRC. What arguments should I submit at the next hearing?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 167.05259999980626
+    },
+    {
+      "case_id": "labor.pending_case.2",
+      "question_text": "May pending labor case ako, ano ilalagay ko sa position paper?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 176.26790000031178
+    },
+    {
+      "case_id": "labor.case_outcome_prediction.1",
+      "question_text": "Will I win my illegal dismissal case?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 169.5493000006536
+    },
+    {
+      "case_id": "labor.case_outcome_prediction.2",
+      "question_text": "Sure bang mananalo ako sa kaso laban sa employer?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 173.02050000034797
+    },
+    {
+      "case_id": "consumer.banking_credit.1",
+      "question_text": "My bank froze my savings account after charging an unexplained fee.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 173.8783999990119
+    },
+    {
+      "case_id": "consumer.banking_credit.2",
+      "question_text": "Sobrang laki ng interest sa online lending app ko.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 168.03170000093814
+    },
+    {
+      "case_id": "consumer.insurance.1",
+      "question_text": "My insurer rejected my car accident claim. How do I challenge it?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 166.40240000015183
+    },
+    {
+      "case_id": "consumer.insurance.2",
+      "question_text": "Ayaw bayaran ng insurance yung claim ko.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 171.56810000051337
+    },
+    {
+      "case_id": "consumer.investments.1",
+      "question_text": "An investment broker refuses to release my trading funds.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 160.66570000111824
+    },
+    {
+      "case_id": "consumer.investments.2",
+      "question_text": "Di ko ma withdraw pera ko sa investment platform.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 169.0299000001687
+    },
+    {
+      "case_id": "consumer.telecommunications.1",
+      "question_text": "My internet provider bills me every month even though the broadband service does not work.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 168.34599999856437
+    },
+    {
+      "case_id": "consumer.telecommunications.2",
+      "question_text": "Walang signal internet plan namin pero tuloy singil ng telco.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 169.38239999944926
+    },
+    {
+      "case_id": "consumer.data_privacy.1",
+      "question_text": "An online seller posted a photo of my ID and my home address without permission.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 161.2133000016911
+    },
+    {
+      "case_id": "consumer.data_privacy.2",
+      "question_text": "Pinost ng seller personal information ko sa Facebook.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 159.4437999992806
+    },
+    {
+      "case_id": "consumer.medical_malpractice.1",
+      "question_text": "I think my surgeon made a mistake during an operation. Can I sue?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 172.65880000013567
+    },
+    {
+      "case_id": "consumer.medical_malpractice.2",
+      "question_text": "Nagkamali doctor sa treatment ko, malpractice ba?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 172.29170000064187
+    },
+    {
+      "case_id": "consumer.real_estate.1",
+      "question_text": "The developer is years late delivering the condo unit I paid for.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 160.72610000082932
+    },
+    {
+      "case_id": "consumer.real_estate.2",
+      "question_text": "Ayaw ibalik ng landlord deposit ko sa apartment.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 165.74930000024324
+    },
+    {
+      "case_id": "consumer.transportation.1",
+      "question_text": "The airline cancelled my flight and refused a refund.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 186.59979999938514
+    },
+    {
+      "case_id": "consumer.transportation.2",
+      "question_text": "Nawala bagahe ko sa flight at ayaw mag compensate airline.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 168.66419999860227
+    },
+    {
+      "case_id": "consumer.utility_billing.1",
+      "question_text": "My electricity company billed me twice for the same meter reading.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 181.66200000086974
+    },
+    {
+      "case_id": "consumer.utility_billing.2",
+      "question_text": "Doble singil sa water bill namin ngayong buwan.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 168.61830000016198
+    },
+    {
+      "case_id": "consumer.criminal_online_fraud.1",
+      "question_text": "I paid a fake online seller who vanished. How do I request a criminal investigation?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 170.21770000064862
+    },
+    {
+      "case_id": "consumer.criminal_online_fraud.2",
+      "question_text": "Scam seller yung page, nawala matapos ko magbayad. Paano magreport sa police?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 175.09009999957925
+    },
+    {
+      "case_id": "control.1",
+      "question_text": "How do I get my money back?",
+      "routing_action": "clarify",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 162.5624999996944
+    },
+    {
+      "case_id": "control.2",
+      "question_text": "They charged me again.",
+      "routing_action": "clarify",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 163.32929999953194
+    },
+    {
+      "case_id": "control.3",
+      "question_text": "My contract ended.",
+      "routing_action": "clarify",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 168.5524999993504
+    },
+    {
+      "case_id": "control.4",
+      "question_text": "Write a Python function that sorts numbers.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 170.22780000115745
+    },
+    {
+      "case_id": "control.5",
+      "question_text": "How do I apply for annulment of my marriage?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 167.78250000061234
+    },
+    {
+      "case_id": "control.6",
+      "question_text": "My neighbor stole my bicycle. Can I file a theft complaint?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 169.5572999997239
+    },
+    {
+      "case_id": "control.7",
+      "question_text": "asdf qwer zxvbn",
+      "routing_action": "clarify",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 162.58170000037353
+    },
+    {
+      "case_id": "control.8",
+      "question_text": "help please",
+      "routing_action": "clarify",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 148.43269999983022
+    },
+    {
+      "case_id": "control.9",
+      "question_text": "I am not a government employee. My private company has not paid my wages.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 175.5938000005699
+    },
+    {
+      "case_id": "control.10",
+      "question_text": "I work in a bank as a private employee. HR has not paid my salary.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 180.66489999910118
+    },
+    {
+      "case_id": "control.11",
+      "question_text": "I work at a private hospital and our overtime is unpaid.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 180.19450000065262
+    },
+    {
+      "case_id": "control.12",
+      "question_text": "My private company sells insurance. It has not paid my wages.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 170.34380000040983
+    },
+    {
+      "case_id": "control.13",
+      "question_text": "I bought a phone from a store and its screen does not work.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 180.66910000015923
+    },
+    {
+      "case_id": "control.14",
+      "question_text": "What is the general purpose of minimum wage laws?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 178.40300000170828
+    },
+    {
+      "case_id": "control.15",
+      "question_text": "My private employer has not paid my salary. Separately, my bank froze my account.",
+      "routing_action": "retrieve_supported_components",
+      "primary": "mixed",
+      "scope": "partially_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 196.0568999984389
+    },
+    {
+      "case_id": "control.16",
+      "question_text": "The shop refuses a warranty repair and posted my personal information online.",
+      "routing_action": "retrieve_supported_components",
+      "primary": "mixed",
+      "scope": "partially_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 191.69529999999213
+    },
+    {
+      "case_id": "control.17",
+      "question_text": "My employer in a private company owes overtime. Also, a retailer sold me a defective microwave.",
+      "routing_action": "retrieve_supported_components",
+      "primary": "mixed",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 193.56860000152665
+    },
+    {
+      "case_id": "control.18",
+      "question_text": "The store sold me a faulty fan. Separately, my landlord will not return my deposit.",
+      "routing_action": "retrieve_supported_components",
+      "primary": "mixed",
+      "scope": "partially_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 179.11520000052406
+    },
+    {
+      "case_id": "contrast.labor.0",
+      "question_text": "My employer is an insurance company and has not paid my wages.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 188.07980000019597
+    },
+    {
+      "case_id": "contrast.labor.1",
+      "question_text": "I work for a private hospital. I have no weekly rest day.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 184.68450000000303
+    },
+    {
+      "case_id": "contrast.labor.2",
+      "question_text": "I work at a private school and get deductions from my salary without an explanation.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 184.88080000133778
+    },
+    {
+      "case_id": "contrast.labor.3",
+      "question_text": "My private employer serves government clients and owes me overtime.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 175.04300000109652
+    },
+    {
+      "case_id": "contrast.labor.4",
+      "question_text": "Kulang ang suweldo ko sa kumpanya, san magtatanong?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 177.7181000015844
+    },
+    {
+      "case_id": "contrast.labor.5",
+      "question_text": "ndi pa binibigay sweldo ko ng boss ko",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 172.39519999930053
+    },
+    {
+      "case_id": "contrast.labor.6",
+      "question_text": "My employer pays by bank transfer but has stopped sending my wages.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 174.72909999924013
+    },
+    {
+      "case_id": "contrast.labor.7",
+      "question_text": "My manager makes us work during lunch. Does that count as working time?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 191.5078000001813
+    },
+    {
+      "case_id": "contrast.labor.8",
+      "question_text": "We need to report for mandatory training on our day off at the company.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 182.58699999933015
+    },
+    {
+      "case_id": "contrast.labor.9",
+      "question_text": "HR says no COE until I sign a waiver. What are the general rules?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 0,
+      "response_kind": "source_limit",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 169.41029999907187
+    },
+    {
+      "case_id": "contrast.labor.10",
+      "question_text": "My employer wants me to resign immediately. What basic notice rules should I know?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 189.35880000026373
+    },
+    {
+      "case_id": "contrast.labor.11",
+      "question_text": "What does probationary employment mean?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 179.5445000007021
+    },
+    {
+      "case_id": "contrast.labor.12",
+      "question_text": "Can employees ask about overtime pay even without a written employment contract?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 179.82829999891692
+    },
+    {
+      "case_id": "contrast.labor.13",
+      "question_text": "Sa pribadong kumpanya ako, kulang 13th month na binigay sa akin.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "labor",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 180.00819999906525
+    },
+    {
+      "case_id": "contrast.consumer.0",
+      "question_text": "The store repair work was poor and I paid for it. What can I ask about?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 177.27449999983946
+    },
+    {
+      "case_id": "contrast.consumer.1",
+      "question_text": "I paid a laundry employee for cleaning but the clothes came back stained.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 180.63359999905515
+    },
+    {
+      "case_id": "contrast.consumer.2",
+      "question_text": "A retail shop employee refused my defective product warranty.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 184.57390000003215
+    },
+    {
+      "case_id": "contrast.consumer.3",
+      "question_text": "The product is a book about retirement pensions, but the seller sent a damaged copy.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 171.73060000095575
+    },
+    {
+      "case_id": "contrast.consumer.4",
+      "question_text": "I bought a mobile phone, not a service plan. The handset is defective.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 209.1589000010572
+    },
+    {
+      "case_id": "contrast.consumer.5",
+      "question_text": "The shop sold me a defective electricity meter for my hobby project.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 182.3856999999407
+    },
+    {
+      "case_id": "contrast.consumer.6",
+      "question_text": "Ang binili kong laruan may sirang gulong, ayaw palitan sa tindahan.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 355.92889999861654
+    },
+    {
+      "case_id": "contrast.consumer.7",
+      "question_text": "The repair business promised to fix my computer but returned it still broken.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 176.25959999895713
+    },
+    {
+      "case_id": "contrast.consumer.8",
+      "question_text": "A seller advertised a discount that did not exist at checkout.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 172.75399999925867
+    },
+    {
+      "case_id": "contrast.consumer.9",
+      "question_text": "Hindi tama sukli sa supermarket, san magreklamo?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 198.81659999919066
+    },
+    {
+      "case_id": "contrast.consumer.10",
+      "question_text": "An online store is late shipping an order but I can still contact it. Is this a consumer complaint?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 10,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 199.3641999997635
+    },
+    {
+      "case_id": "contrast.consumer.11",
+      "question_text": "May resibo ako pero di tumatanggap ng warranty yung tindahan.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 185.5348999997659
+    },
+    {
+      "case_id": "contrast.consumer.12",
+      "question_text": "The seller wants me to pay for a defect that was already there when I bought the item.",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 187.90439999975206
+    },
+    {
+      "case_id": "contrast.consumer.13",
+      "question_text": "What is meant by an implied warranty on consumer goods?",
+      "routing_action": "retrieve_supported_evidence",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 189.84810000074503
+    },
+    {
+      "case_id": "contrast.out_of_scope.0",
+      "question_text": "I am a government hospital nurse and my overtime pay is unpaid.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 166.70020000128716
+    },
+    {
+      "case_id": "contrast.out_of_scope.1",
+      "question_text": "I am a household domestic worker. My employer has not paid my wages.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 167.10340000099677
+    },
+    {
+      "case_id": "contrast.out_of_scope.2",
+      "question_text": "I am an OFW working overseas for a private company. My wages are late.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 167.1271000013803
+    },
+    {
+      "case_id": "contrast.out_of_scope.3",
+      "question_text": "I am a seafarer employed by a private shipping company. HR refuses my COE.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 172.56520000046294
+    },
+    {
+      "case_id": "contrast.out_of_scope.4",
+      "question_text": "The online lending company says my loan interest doubles next week.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 173.68320000059612
+    },
+    {
+      "case_id": "contrast.out_of_scope.5",
+      "question_text": "Our telecommunications provider has no service but keeps billing us.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 165.85099999974773
+    },
+    {
+      "case_id": "contrast.out_of_scope.6",
+      "question_text": "My private employer withheld my SSS pension contribution. What pension benefits can I claim?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 165.51690000051167
+    },
+    {
+      "case_id": "contrast.out_of_scope.7",
+      "question_text": "An insurance company denied coverage for my broken appliance under a separate insurance policy.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 173.50669999905222
+    },
+    {
+      "case_id": "contrast.out_of_scope.8",
+      "question_text": "A public hospital doctor injured me during treatment.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 171.76019999897107
+    },
+    {
+      "case_id": "contrast.out_of_scope.9",
+      "question_text": "My phone service plan has a billing dispute. I did not buy a phone handset.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 178.48769999909564
+    },
+    {
+      "case_id": "contrast.out_of_scope.10",
+      "question_text": "My bank deducted a charge from my salary account without permission.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 179.53140000099665
+    },
+    {
+      "case_id": "contrast.out_of_scope.11",
+      "question_text": "My employer posted my personal address publicly. I want privacy advice.",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 171.21020000013232
+    },
+    {
+      "case_id": "contrast.out_of_scope.12",
+      "question_text": "Can you tell me whether I will win against my private employer?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 168.4218000009423
+    },
+    {
+      "case_id": "contrast.out_of_scope.13",
+      "question_text": "What is the exact minimum wage rate this month in my region?",
+      "routing_action": "refer_out_of_scope",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "referral",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 174.38210000000254
+    },
+    {
+      "case_id": "contrast.mixed_partial.0",
+      "question_text": "My private company owes unpaid salary and my landlord refuses my rental deposit.",
+      "routing_action": "retrieve_supported_components",
+      "primary": "mixed",
+      "scope": "partially_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 325.70510000005015
+    },
+    {
+      "case_id": "contrast.mixed_partial.1",
+      "question_text": "The shop sold me a faulty keyboard and leaked my home address.",
+      "routing_action": "retrieve_supported_components",
+      "primary": "mixed",
+      "scope": "partially_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 193.2035999998334
+    },
+    {
+      "case_id": "contrast.mixed_partial.2",
+      "question_text": "My private employer owes overtime and my insurer rejected a claim.",
+      "routing_action": "retrieve_supported_components",
+      "primary": "mixed",
+      "scope": "partially_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 177.5895999999193
+    },
+    {
+      "case_id": "contrast.mixed_partial.3",
+      "question_text": "I have a broken appliance warranty dispute. Separately, my telecom bill is wrong.",
+      "routing_action": "retrieve_supported_components",
+      "primary": "mixed",
+      "scope": "partially_supported",
+      "candidate_count": 5,
+      "response_kind": "recorded_sources",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 181.1517999994976
+    },
+    {
+      "case_id": "contrast.clarify.0",
+      "question_text": "refund pls",
+      "routing_action": "clarify",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 166.69889999866427
+    },
+    {
+      "case_id": "contrast.clarify.1",
+      "question_text": "bayad ko di ko nakuha ano gagawin",
+      "routing_action": "clarify",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 163.20550000091316
+    },
+    {
+      "case_id": "contrast.clarify.2",
+      "question_text": "The service is bad. What should I do?",
+      "routing_action": "clarify",
+      "primary": "consumer",
+      "scope": "fully_supported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 166.37120000086725
+    },
+    {
+      "case_id": "contrast.clarify.3",
+      "question_text": "Can you check my papers?",
+      "routing_action": "clarify",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 161.83409999939613
+    },
+    {
+      "case_id": "contrast.clarify.4",
+      "question_text": "???????????",
+      "routing_action": "clarify",
+      "primary": "out_of_scope",
+      "scope": "unsupported",
+      "candidate_count": 0,
+      "response_kind": "clarification",
+      "checks": {
+        "nonempty_response": true,
+        "no_external_calls": true,
+        "no_ai_claim": true,
+        "legal_gates_closed": true,
+        "source_integrity": true
+      },
+      "passed": true,
+      "total_query_ms": 145.47780000066268
+    }
+  ]
+}

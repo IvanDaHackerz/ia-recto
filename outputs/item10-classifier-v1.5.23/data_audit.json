@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "train": 459,
+  "validation": 102,
+  "synthetic_test": 100,
+  "ai_development": 200,
+  "frozen_and_ai_source_file_hashes_passed": true,
+  "leakage_groups_crossing_partitions": 0,
+  "train_exact_matches_to_heldout": 0,
+  "features": "question_text only",
+  "semantic_independence_asserted": false,
+  "source_sha256": {
+    "dataset\\processed\\item10\\reviewed_v1.0.0\\classifier_questions.jsonl": "c6592be4d3fcc5a1491d3c005148c97473b95d29dbbea51a46881560e150cd87",
+    "dataset\\processed\\item10\\ai_reviewed_eval_v1.0.0\\evaluation_questions.jsonl": "fe780075acdf799fbe8bce47b4dd1e86998a154e2babc47cc65682b696249dc3",
+    "dataset\\processed\\item10\\ai_reviewed_eval_v1.0.0\\typing_questions.jsonl": "fc5a27cd983b0d6d7b9c70de24bf744d98f66d214f987673c646749a261c98a7"
+  },
+  "experiment": "logical_clause_union",
+  "raw_derived_atoms": 571,
+  "unique_training_atoms_with_glossary": 222,
+  "taxonomy_definition_rows": 42,
+  "taxonomy_sha256": "2f97e84279c0d4e971efb7b083aaf106d2e2fa3962dedcb8a188334c3e22d84d",
+  "derived_atom_status": "AI-derived from human-reviewed training parents; extraction not independently human reviewed",
+  "heldout_questions_fitted": false,
+  "external_backbone": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "backbone_finetuned": false,
+  "benchmark_design_informed_prior_development_errors": true,
+  "repair_lineage": {
+    "parent_run": "C:\\IA\\outputs\\item10-classifier-v1.3.1",
+    "parent_model_sha256": "172dd232727ae4ed40e737ef591a58f079582ef45b4d62000135cb7f2f336837",
+    "parent_original_holdout_metrics_sha256": "352e72474c91980796b70b1c26f6624e11dd68a07508c28ff978171b2fe0d390",
+    "original_synthetic_test_previously_opened": true,
+    "original_synthetic_test_role": "regression_only",
+    "fix_informed_by_opened_holdout_errors": true,
+    "candidate_configuration_inherited": true,
+    "fresh_independent_holdout_required": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "development.jsonl": {
+      "sha256": "d8647a03c855917a8cc20fadae0283fb1befebc64041080c492a1d7af773ca2d",
+      "count": 102
+    },
+    "reserved.jsonl": {
+      "sha256": "2cd822b5591d600225ed89bae2164d72ba553458e4ad67065776b1a5390345b4",
+      "count": 50
+    }
+  },
+  "topic_count": 42,
+  "provenance": "Synthetic diagnostics authored before baseline; distinct reserved scenarios per topic. Not independent human evaluation.",
+  "reserved_policy": "Do not run or inspect reserved predictions before final implementation freeze. Do not tune on final failures."
+}

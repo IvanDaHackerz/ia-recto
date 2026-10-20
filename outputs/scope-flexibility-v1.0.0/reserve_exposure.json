@@ -1,0 +1,11 @@
+{
+  "first_reserved_run": "reserved-final.json",
+  "first_route_matches": 47,
+  "first_count": 50,
+  "first_reserved_cases_used_for_further_repair": true,
+  "first_cases_role_after_opening": "inspected development regressions",
+  "second_unused_wording_check": "second-reserve-results.json",
+  "second_count": 30,
+  "second_used_for_tuning": false,
+  "independent_human_questions": 0
+}

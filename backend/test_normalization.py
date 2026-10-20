@@ -306,6 +306,12 @@ class GateTests(unittest.TestCase):
                       {"routing_action": "refer_out_of_scope", "reason": "recognized_excluded_concern"}]:
             self.assertFalse(assess_text(unknown, route)["needed"])
         self.assertFalse(assess_text("My employer has not paid my salary", no_evidence)["needed"])
+    def test_clear_specialized_scope_does_not_pay_for_vocabulary_fallback(self):
+        route={'routing_action':'clarify','reason':'no_identified_concern'}
+        clear='Seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. Paano ko ipapa-correct ang maritime record?'
+        self.assertFalse(assess_text(clear,route)['needed'])
+        noisy='Seafarer aq hnd tugma record nmn sa cmpny'
+        self.assertTrue(assess_text(noisy,route)['needed'])
 
 
 class ProviderTests(unittest.TestCase):

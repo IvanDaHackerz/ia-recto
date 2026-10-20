@@ -89,7 +89,10 @@ class LogicalClauseHead:
         self.head=head;self.engine=engine;self.classes_=np.array(['labor','consumer','mixed','out_of_scope'] if head=='primary' else ['fully_supported','partially_supported','unsupported'])
     def predict(self,texts):return np.array([d[0 if self.head=='primary' else 1] for d in self.engine.decisions(texts)])
     def predict_proba(self,texts):
-        p=self.engine.state_probabilities(texts);out=np.zeros((len(texts),len(self.classes_)))
+        return self.probabilities_from_states(self.engine.state_probabilities(texts))
+    def probabilities_from_states(self,p):
+        """Project both heads from one joint inference, without changing values."""
+        out=np.zeros((len(p),len(self.classes_)))
         for i,state in enumerate(self.engine.joint_model.classes_):
             l,c,e=map(int,state);primary='out_of_scope' if not(l or c) else 'mixed' if e or(l and c) else 'labor' if l else 'consumer';scope='unsupported' if not(l or c) else 'partially_supported' if e else 'fully_supported'
             out[:,list(self.classes_).index(primary if self.head=='primary' else scope)]+=p[:,i]

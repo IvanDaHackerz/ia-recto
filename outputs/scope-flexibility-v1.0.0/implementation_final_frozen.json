@@ -1,0 +1,18 @@
+{
+  "classifier": "outputs/item10-classifier-v1.5.23",
+  "model_sha256": "f722e4cbae8a1d691bbf36bd3b8b48df5f1e041b093369004c24adf75ed40ee5",
+  "classifier_artifact_checksums_sha256": "a106d9e61a62c638a43b0229b158aad6932f66b9c6eb9fd52ba233f69b7ae7a9",
+  "runtime_files_sha256": {
+    "dataset/pipelines/item10/classifier_runtime.py": "4b7279c4605a1185c66ac13c28401762d5272891298bec3d3fcc69d1256246a5",
+    "dataset/pipelines/item10/clause_classifier.py": "69aad1ae9e71630a5899afffaa361b225c9f1fc14e9697b8e5facc518b1d4c83",
+    "dataset/pipelines/item10/logical_clause_model.py": "f22ff24abced69256c1eac85bb4244c5be986df3256297d966097b8e528ede8f",
+    "dataset/pipelines/item10/scope_constraints.py": "99e72132e43c5b2074edf73330df7ea84eaeb1f6453a037dab0afb4187e42cd1",
+    "dataset/pipelines/item10/typing_repair.py": "591a6aefe77c61631f2194e94bdcf3f685bc8e02df148a66a5637d6428ff8714",
+    "dataset/pipelines/item10/typing_vocabulary.py": "9b899f8370e1f6a3f901d38360594588f758ef4020793d9b76d53edcfa744da4",
+    "dataset/pipelines/item10/semantic_encoder.py": "94e84233e41955bcd3906c3736c9568e9c911b0a81582a0e4bec315babd40080",
+    "dataset/pipelines/item10/referral_routing.py": "387d6def6005287156dead6461f3ce334bbd39b29ebdda5202191fa09580b241"
+  },
+  "new_diagnostic_questions_fitted": 0,
+  "reserved_predictions_previously_opened": false,
+  "final_policy": "Reserved results are reported as observed; do not tune on these results. They are synthetic and share authorship, not independent human gold."
+}

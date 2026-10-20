@@ -68,7 +68,13 @@ class EvaluationTests(unittest.TestCase):
             # The plan follows the current routing gate, not an older package's
             # trigger count. Every permitted export must still be frozen.
             self.assertEqual(protocol["maximum_llm_requests"], len(plan["calls"]))
-            self.assertLessEqual(protocol["maximum_llm_requests"], 5)
+            # One planned request per frozen noisy input. The old count of
+            # five belonged to an earlier classifier/calibration version.
+            self.assertEqual(len({c['case_id'] for c in plan['calls']}),len(plan['calls']))
+            self.assertLessEqual(protocol['maximum_llm_requests'],sum(c['variation']=='noisy' for c in cases))
+            by_id={c['case_id']:c for c in cases}
+            for call in plan['calls']:
+                self.assertEqual(call['question_sha256'],__import__('hashlib').sha256(by_id[call['case_id']]['question_text'].encode()).hexdigest())
             self.assertTrue(all(c["variation"] == "noisy" for c in plan["calls"]))
             verify_freeze(output)
             (output / "trigger_plan.json").write_text("{}")

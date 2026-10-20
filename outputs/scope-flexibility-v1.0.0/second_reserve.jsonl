@@ -1,0 +1,30 @@
+{"case_id": "second.labor.0", "expected_primary": "labor", "expected_routes": ["retrieve_supported_evidence"], "question_text": "Our employer skipped this payroll entirely. What general wage payment rules can we read?"}
+{"case_id": "second.labor.1", "expected_primary": "labor", "expected_routes": ["retrieve_supported_evidence"], "question_text": "My private office requires staff to remain available through their lunch break. Does that count toward work time?"}
+{"case_id": "second.labor.2", "expected_primary": "labor", "expected_routes": ["retrieve_supported_evidence"], "question_text": "Do employees normally get a weekly rest period when the business is open every day?"}
+{"case_id": "second.labor.3", "expected_primary": "labor", "expected_routes": ["retrieve_supported_evidence"], "question_text": "Our company requires overtime on ordinary workdays. What additional pay rules should we inspect?"}
+{"case_id": "second.labor.4", "expected_primary": "labor", "expected_routes": ["retrieve_supported_evidence"], "question_text": "What are the general rules for a private employee who works on a regular holiday?"}
+{"case_id": "second.labor.5", "expected_primary": "labor", "expected_routes": ["retrieve_supported_evidence"], "question_text": "After leaving my job midyear, I want to understand proportionate thirteenth month pay."}
+{"case_id": "second.labor.6", "expected_primary": "labor", "expected_routes": ["retrieve_supported_evidence"], "question_text": "HR calls our contracts probationary. What does this employment status generally mean?"}
+{"case_id": "second.labor.7", "expected_primary": "labor", "expected_routes": ["retrieve_supported_evidence"], "question_text": "My company sent a dismissal notice without letting me respond to allegations. What procedure applies?"}
+{"case_id": "second.consumer.0", "expected_primary": "consumer", "expected_routes": ["retrieve_supported_evidence"], "question_text": "A newly purchased toaster from a shop is faulty. What protections might apply?"}
+{"case_id": "second.consumer.1", "expected_primary": "consumer", "expected_routes": ["retrieve_supported_evidence"], "question_text": "The shop promised to cover a repair under warranty and now refuses to honor it."}
+{"case_id": "second.consumer.2", "expected_primary": "consumer", "expected_routes": ["retrieve_supported_evidence"], "question_text": "The appliance merchant has tried repairs repeatedly. What rules cover a request for a replacement?"}
+{"case_id": "second.consumer.3", "expected_primary": "consumer", "expected_routes": ["retrieve_supported_evidence"], "question_text": "A retailer sold an old laptop as brand new. What counts as a deceptive sale?"}
+{"case_id": "second.consumer.4", "expected_primary": "consumer", "expected_routes": ["retrieve_supported_evidence"], "question_text": "A seller advertised a feature that its rice cooker does not actually have."}
+{"case_id": "second.consumer.5", "expected_primary": "consumer", "expected_routes": ["retrieve_supported_evidence"], "question_text": "The cashier gave me candy rather than the remaining change from my purchase."}
+{"case_id": "second.consumer.6", "expected_primary": "consumer", "expected_routes": ["retrieve_supported_evidence"], "question_text": "A household product from a retailer has exposed sharp metal edges. What general product safety protections apply?"}
+{"case_id": "second.consumer.7", "expected_primary": "consumer", "expected_routes": ["retrieve_supported_evidence"], "question_text": "An online merchant sent a different model and is refusing to accept a return."}
+{"case_id": "second.out_of_scope.0", "expected_primary": "out_of_scope", "expected_routes": ["refer_out_of_scope"], "question_text": "I am employed by a municipal office and want to dispute a salary deduction."}
+{"case_id": "second.out_of_scope.1", "expected_primary": "out_of_scope", "expected_routes": ["refer_out_of_scope"], "question_text": "My overseas employment agency changed the job I was promised."}
+{"case_id": "second.out_of_scope.2", "expected_primary": "out_of_scope", "expected_routes": ["refer_out_of_scope"], "question_text": "My bank froze a transfer and charged me a transaction fee."}
+{"case_id": "second.out_of_scope.3", "expected_primary": "out_of_scope", "expected_routes": ["refer_out_of_scope"], "question_text": "The insurer says damage is excluded from my insurance policy."}
+{"case_id": "second.out_of_scope.4", "expected_primary": "out_of_scope", "expected_routes": ["refer_out_of_scope"], "question_text": "A telecommunications company disconnected our service but kept billing us."}
+{"case_id": "second.out_of_scope.5", "expected_primary": "out_of_scope", "expected_routes": ["refer_out_of_scope"], "question_text": "My electricity utility disputes the reading on our bill."}
+{"case_id": "second.clarify.0", "expected_primary": null, "expected_routes": ["clarify"], "question_text": "I want my money back but do not know what to do."}
+{"case_id": "second.clarify.1", "expected_primary": null, "expected_routes": ["clarify"], "question_text": "Can you help with this contract?"}
+{"case_id": "second.clarify.2", "expected_primary": null, "expected_routes": ["clarify"], "question_text": "Someone charged extra. What now?"}
+{"case_id": "second.clarify.3", "expected_primary": null, "expected_routes": ["clarify"], "question_text": "qzxw zzpp pqqr"}
+{"case_id": "second.outside_safe.0", "expected_primary": null, "expected_routes": ["clarify", "refer_out_of_scope"], "question_text": "Please help me bake bread for my family."}
+{"case_id": "second.outside_safe.1", "expected_primary": null, "expected_routes": ["clarify", "refer_out_of_scope"], "question_text": "We are separating and need advice on custody of our children."}
+{"case_id": "second.outside_safe.2", "expected_primary": null, "expected_routes": ["clarify", "refer_out_of_scope"], "question_text": "What JavaScript code would reverse an array?"}
+{"case_id": "second.outside_safe.3", "expected_primary": null, "expected_routes": ["clarify", "refer_out_of_scope"], "question_text": "How do inheritance and probate work after a parent dies?"}

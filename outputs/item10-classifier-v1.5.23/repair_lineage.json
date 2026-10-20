@@ -1,0 +1,10 @@
+{
+  "parent_run": "C:\\IA\\outputs\\item10-classifier-v1.3.1",
+  "parent_model_sha256": "172dd232727ae4ed40e737ef591a58f079582ef45b4d62000135cb7f2f336837",
+  "parent_original_holdout_metrics_sha256": "352e72474c91980796b70b1c26f6624e11dd68a07508c28ff978171b2fe0d390",
+  "original_synthetic_test_previously_opened": true,
+  "original_synthetic_test_role": "regression_only",
+  "fix_informed_by_opened_holdout_errors": true,
+  "candidate_configuration_inherited": true,
+  "fresh_independent_holdout_required": true
+}

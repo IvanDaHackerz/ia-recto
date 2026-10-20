@@ -229,6 +229,18 @@ class ControlTests(unittest.TestCase):
                     with self.assertRaises(ProviderStopped) as caught:transport(Request('https://api.together.ai/v1/chat/completions',data=body),20)
                     self.assertEqual(caught.exception.safe_code,expected)
                     response.read.assert_not_called()
+    def test_provider_timings_identify_stage_without_question_or_credentials(self):
+        context=RequestContext('owner','timing-test');ledger=Mock()
+        body=json.dumps({'model':'openai/gpt-oss-120b','max_tokens':100,
+                         'response_format':{'json_schema':{'name':'explanation_support'}}}).encode()
+        with patch('http.client.HTTPSConnection') as connection:
+            response=connection.return_value.getresponse.return_value
+            response.status=200;response.read.return_value=b'{"usage":{}}'
+            CancellableTransport(context,ledger,'explanation_generation')(Request('https://api.together.ai/v1/chat/completions',data=body),20)
+        self.assertEqual(len(context.calls),1)
+        self.assertEqual(set(context.calls[0]),{'stage','model','elapsed_ms'})
+        self.assertEqual(context.calls[0]['stage'],'explanation_support')
+        self.assertGreaterEqual(context.calls[0]['elapsed_ms'],0)
 
 class ApplicationRepairTests(unittest.TestCase):
     @classmethod

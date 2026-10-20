@@ -28,8 +28,8 @@ class ConversationTests(unittest.TestCase):
                 packet = self.ask(question)
                 self.assertEqual(packet['original_question_text'], question)
                 context = packet['guidance_context']
-                self.assertTrue(context['classification_is_conditional'])
-                self.assertEqual(context['original_routing']['routing_action'], 'clarify')
+                self.assertFalse(context['classification_is_conditional'])
+                self.assertEqual(context['original_routing']['routing_action'], 'retrieve_supported_evidence')
                 self.assertIn('not been confirmed', context['note'])
                 self.assertTrue(packet['response']['paragraphs'])
                 self.assertEqual(len(packet['response']['follow_up_options']), 5)
@@ -49,7 +49,7 @@ class ConversationTests(unittest.TestCase):
 
     def test_mixed_concerns_keep_the_excluded_part(self):
         packet = self.ask('My employer has not paid wages and my landlord kept my deposit.')
-        self.assertTrue(packet['guidance_context']['classification_is_conditional'])
+        self.assertFalse(packet['guidance_context']['classification_is_conditional'])
         self.assertEqual(packet['result']['routing']['predicted_scope'], 'partially_supported')
         self.assertTrue(packet['result']['excluded_components'])
         self.assertTrue(all(c['allowed_domain'] == 'labor' for c in packet['result']['components']))

@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "website": "http://127.0.0.1:5174/",
+  "classifier": "outputs/item10-classifier-v1.5.23",
+  "retrieval": "outputs/item11-retrieval-v1.3.7",
+  "verifier": "item12-verifier-v1.0.15",
+  "development_explanations_configured": true,
+  "external_provider_requests_added": 0,
+  "cases": [
+    {
+      "question_text": "Late ang salary ko.",
+      "route": "retrieve_supported_evidence",
+      "source_count": 5,
+      "response_kind": "recorded_sources",
+      "llm_calls": 0,
+      "network_requests": [],
+      "nonempty_response": true,
+      "local_latency_ms": 137.36550000066927
+    },
+    {
+      "question_text": "Government employee ako. Hindi binayaran ang overtime ko.",
+      "route": "refer_out_of_scope",
+      "source_count": 0,
+      "response_kind": "referral",
+      "llm_calls": 0,
+      "network_requests": [],
+      "nonempty_response": true,
+      "local_latency_ms": 112.32329999984358
+    },
+    {
+      "question_text": "Sira yung binili kong phone at ayaw palitan ng shop.",
+      "route": "retrieve_supported_evidence",
+      "source_count": 8,
+      "response_kind": "recorded_sources",
+      "llm_calls": 0,
+      "network_requests": [],
+      "nonempty_response": true,
+      "local_latency_ms": 233.6236999999528
+    },
+    {
+      "question_text": "My private company owes overtime. Separately my bank froze my account.",
+      "route": "retrieve_supported_components",
+      "source_count": 5,
+      "response_kind": "recorded_sources",
+      "llm_calls": 0,
+      "network_requests": [],
+      "nonempty_response": true,
+      "local_latency_ms": 110.30360000040673
+    },
+    {
+      "question_text": "How do I cook sinigang for four people?",
+      "route": "refer_out_of_scope",
+      "source_count": 0,
+      "response_kind": "referral",
+      "llm_calls": 0,
+      "network_requests": [],
+      "nonempty_response": true,
+      "local_latency_ms": 108.90830000062124
+    },
+    {
+      "question_text": "qzxw zzpp pqqr",
+      "route": "clarify",
+      "source_count": 0,
+      "response_kind": "clarification",
+      "llm_calls": 0,
+      "network_requests": [],
+      "nonempty_response": true,
+      "local_latency_ms": 102.12150000006659
+    }
+  ]
+}

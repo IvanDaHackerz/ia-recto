@@ -1,0 +1,33 @@
+         5443977 function calls (5365694 primitive calls) in 28.897 seconds
+
+   Ordered by: cumulative time
+   List reduced from 925 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      153    0.009    0.000   28.459    0.186 C:\IA\backend\application\service.py:82(chat)
+      156    0.001    0.000   28.123    0.180 C:\IA\backend\application\service.py:69(_inspect)
+      156    0.003    0.000   28.121    0.180 C:\IA\backend\terminal_test.py:43(inspect_question)
+      156    0.007    0.000   28.101    0.180 C:\IA\dataset\pipelines\item12\verification.py:217(preflight)
+      156    0.103    0.001   22.897    0.147 C:\IA\dataset\pipelines\item12\verification.py:89(_begin_request)
+    19188    0.768    0.000   17.592    0.001 C:\IA\dataset\pipelines\item11\common.py:23(sha)
+    19188    0.107    0.000   11.199    0.001 C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1015(read_bytes)
+    19453    0.041    0.000    6.031    0.000 C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:1005(open)
+    19454    4.986    0.000    5.990    0.000 {built-in method _io.open}
+    77368    5.346    0.000    5.346    0.000 {built-in method _hashlib.openssl_sha256}
+    19188    0.077    0.000    5.194    0.000 C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:886(is_file)
+    19189    0.034    0.000    5.105    0.000 C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py:835(stat)
+    19211    5.017    0.000    5.075    0.000 {built-in method nt.stat}
+    19190    4.529    0.000    4.529    0.000 {method 'read' of '_io.BufferedReader' objects}
+      156    0.004    0.000    4.459    0.029 C:\IA\dataset\pipelines\item11\retrieval.py:168(retrieve_question)
+      156    0.011    0.000    4.169    0.027 C:\IA\dataset\pipelines\item10\classifier_runtime.py:132(predict_records)
+      462    0.019    0.000    2.429    0.005 C:\IA\dataset\pipelines\item10\clause_classifier.py:230(probabilities)
+      312    0.014    0.000    2.377    0.008 C:\IA\dataset\pipelines\item10\clause_classifier.py:235(question_features)
+      462    0.006    0.000    2.073    0.004 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\_set_output.py:325(wrapped)
+      462    0.009    0.000    2.061    0.004 C:\IA\.venv-item10\Lib\site-packages\sklearn\pipeline.py:2054(transform)
+      462    0.003    0.000    1.767    0.004 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\parallel.py:54(__call__)
+      462    0.007    0.000    1.762    0.004 C:\IA\.venv-item10\Lib\site-packages\joblib\parallel.py:1995(__call__)
+     1848    0.010    0.000    1.736    0.001 C:\IA\.venv-item10\Lib\site-packages\joblib\parallel.py:1914(_get_sequential_output)
+      924    0.053    0.000    1.676    0.002 C:\IA\.venv-item10\Lib\site-packages\sklearn\utils\parallel.py:140(__call__)
+      156    0.001    0.000    1.599    0.010 C:\IA\dataset\pipelines\item10\logical_clause_model.py:56(state_probabilities)
+
+

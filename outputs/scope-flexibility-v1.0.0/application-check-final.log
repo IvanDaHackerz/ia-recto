@@ -1,0 +1,8 @@
+{
+  "provenance": "Synthetic inspected development checks, application layer; no provider/LLM evaluation",
+  "count": 153,
+  "passed": 153,
+  "network_calls": 0,
+  "median_ms_profiled": 175.6030999986251,
+  "p95_ms_profiled": 219.0309999987221
+}

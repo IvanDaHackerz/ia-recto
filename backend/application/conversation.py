@@ -65,7 +65,9 @@ def prepare_general_information(packet, question, inspect):
             if (candidate and candidate['routing']['routing_action'] == 'retrieve_supported_evidence'
                     and candidate['routing']['predicted_primary'] == 'consumer'
                     and candidate['routing']['predicted_scope'] == result['routing']['predicted_scope']
-                    and not candidate['excluded_components'] and len(candidate['components']) == len(result['components'])
+                    # Equivalent aliases may expose multiple consumer predicates.
+                    # Domain, coverage and exclusion checks still all apply.
+                    and not candidate['excluded_components']
                     and all(c['allowed_domain'] == 'consumer' for c in candidate['components'])
                     and any(c['candidates'] for c in candidate['components'])):
                 candidate['question_text'] = question

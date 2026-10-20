@@ -28,7 +28,7 @@ def clean(text):
 ISSUE_INTENT=re.compile(r'\b(?:complaint|reklamo|problema|dispute)\b|\b(?:my|another|separate|second|a|have|may)\s+(?:concern|problem|issue)\b',re.I)
 BACKGROUND_INTRO=re.compile(r"^(?:i\s+(?:am|work|am employed)\b|i'm\b|(?:seaf[a-z]*r|ofw|kasambahay)\s+ako\b|(?:private|government|municipal)\b.*\b(?:employee|employe|worker)\b)",re.I)
 FOLLOW_UP_REFERENCE=re.compile(r'^(?:how\s+(?:do|can|should)\s+(?:i|we)\s+(?:raise|dispute|challenge|resolve|handle|report)\s+(?:(?:each|both|these|those)\s+(?:disputes?|issues?|concerns?)|it|this|that|(?:this|that|the)\s+(?:dispute|issue|denial|decision))|can\s+you\s+explain\s+(?:the\s+)?(?:exclusion|denial|decision)(?:\s+and\s+how\s+to\s+(?:dispute|challenge|appeal)\s+it)?)(?:\s+please)?$',re.I)
-JOINED_COMPLAINT=re.compile(r"\s+(?:at|and|pero|but)\s+(?=(?:ayaw|hindi|di|wala(?:ng)?|refuse\w*|won't|will\s+not|doesn't|does\s+not|didn't|did\s+not|cannot|can't)\b)",re.I)
+JOINED_COMPLAINT=re.compile(r"\s+(?:at|and|pero|but)\s+(?=(?:ayaw|hindi|di|wala(?:ng)?|refuse\w*|posted|published|leaked|exposed|pinost|inilabas|won't|will\s+not|doesn't|does\s+not|didn't|did\s+not|cannot|can't)\b)",re.I)
 PAY_BACKGROUND=re.compile(r'^(?:i|we)\s+(?:(?:was|were|am|are)\s+)?(?:about\s+to|going\s+to|on\s+my\s+way\s+to)\s+(?:get|collect|receive)\s+(?:my|our)\s+(?:pay|salary|wages)\s*$',re.I)
 TRAVEL_BACKGROUND=re.compile(r'^(?:i|we)\s+(?:(?:was|were|am|are)\s+)?(?:walking\s+to|on\s+(?:my|our)\s+way\s+to)\s+(?:work|the\s+(?:office|store|shop))$',re.I)
 
@@ -78,7 +78,7 @@ def segment_question(text,propagate_context=True):
     a wage/product keyword. An excluded-topic complaint is a concern in its own
     right. Background never becomes a second concern by itself.
     """
-    from scope_constraints import RETAIL,CONSUMER_ISSUE,LABOR,constraint,scope_text,literal_concern_text,negated_scope_statement,historical_background
+    from scope_constraints import RETAIL,CONSUMER_ISSUE,LABOR,constraint,scope_text,literal_concern_text,negated_scope_statement,historical_background,employment_background
     t=clean(literal_concern_text(text));parts=[re.sub(r'^also\s*,?\s*','',p.strip(' ,.:;?!'))
         for explicit in SEGMENT.split(t) for p in split_joined_complaints(explicit)]
     parts=[piece for p in parts if p for piece in re.split(r',?\s+(?:but|pero)\s+(?=(?:i|my|we|our|ako)\b)',p,flags=re.I)]
@@ -88,8 +88,14 @@ def segment_question(text,propagate_context=True):
         if not p:continue
         fragment={'fragment_id':len(fragments),'text':p,'role':None,'component_index':None}
         fragments.append(fragment)
-        if PAY_BACKGROUND.fullmatch(p) or TRAVEL_BACKGROUND.fullmatch(p) or negated_scope_statement(p) or (len(parts)>1 and historical_background(p)):
+        # A payment detail using only "it/this/that" belongs to its existing
+        # transaction; it does not assert a second employment concern.
+        if kept and re.fullmatch(r'(?:i|we)\s+(?:already\s+)?(?:paid|have\s+paid|made\s+(?:a|the)\s+payment)\s+(?:for\s+)?(?:it|this|that)',p):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        if PAY_BACKGROUND.fullmatch(p) or TRAVEL_BACKGROUND.fullmatch(p) or negated_scope_statement(p) or (len(parts)>1 and (historical_background(p) or employment_background(p))):
             fragment['role']='background';continue
+        if re.fullmatch(r'(?:\w+\s+){0,3}(?:paydays?|days?|weeks?|months?)\s+have\s+(?:passed|elapsed)',p):
+            fragment['role']='preface';pending.append(fragment);continue
         cues=[m.group(0) for m in LEGAL_CUES.finditer(p) if m.group(0) not in {'claim','case'}]
         rule=constraint(p)
         anchored_fact=bool(cues or anchored.search(p) or rule or LABOR.search(p) or CONSUMER_ISSUE.search(p))
@@ -129,10 +135,16 @@ def segment_question(text,propagate_context=True):
         for f in pending:f['component_index']=len(kept)-1
     parts=kept
     if propagate_context:
-        contexts=set(CONTEXT.findall(t))
+        contexts={m.group() for m in CONTEXT.finditer(t)
+            if not re.search(r'\b(?:not|hindi|never)\s+(?:(?:a|an|the|ako|sa)\s+){0,2}$',t[max(0,m.start()-24):m.start()])}
+        # Actor introductions can name a public employer without the literal
+        # word "government". Carry that category only to employment concerns.
+        if re.search(r'\b(?:employ\w*|work\w*)\b.{0,35}\bcity\s+hall\b',t):contexts.add('government')
         context_alias={'pribado':'private','govt':'government','municipal':'government','household':'kasambahay','overseas':'ofw'}
         contexts={('seafarer' if c.startswith('seaf') else context_alias.get(c,c)) for c in contexts}
         if 'seafarer' in contexts:contexts.discard('ofw')
+        # Private ownership does not cancel an explicitly specialized job.
+        if contexts & {'ofw','seafarer','government','kasambahay'}:contexts.discard('private')
         # Propagate only one unambiguous employment category, and only into employment clauses.
         if len(contexts)==1:
             context=next(iter(contexts));parts=[context+' employment: '+p if (EMPLOYMENT_CUES.search(p) or LABOR.search(p)) and not CONTEXT.search(p) and not NON_EMPLOYMENT.search(p) else p for p in parts]

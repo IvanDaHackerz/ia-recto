@@ -1,0 +1,21 @@
+{
+  "classifier_tests.log": "f71a4d951cddf77cde74d10c2d52478df38e06c952aa6d6b06393682458a468d",
+  "parent_scope_regression_results.json": "193fc54d06454ae2857444457b7d6630311d0a05a81e7c65fce82632620c0645",
+  "preservation_audit.json": "201f3ed80d124f79878c9f9848b9f9d735650999c4eda849529186c71bf36dbe",
+  "retrieval_tests.log": "3ee4388928e6d94dde0e1060792a84b24aea76ef082e1c7fe4c178805ce98c3d",
+  "run_manifest.json": "4c1ce68d4cd4331f0610f7199c2495a9dcde48bda4c7057a19b34bdcfbd26ae2",
+  "software_tests.json": "709bc1d3ad148552c2ebd1ae3bd73cdceaa3bf8b9aff583a446586048bee62a1",
+  "source_snapshot/build_packet.py": "b40c76ee295f2af16c8df973c8376ce7b442824594a418a97b6bd4e48744b81f",
+  "source_snapshot/contracts.py": "3bd46e2e82d9eeb9371a2d8f8c36145cad4faf836257f5d40b21e406c9f7ad1e",
+  "source_snapshot/development_cases.py": "2df06551ebbd1abcaec677417aeed574fa3aa9ca3955b821ee8904eb4d39c42c",
+  "source_snapshot/evaluate_verifier.py": "5182da7296922a86fb12203102ec9718ebb1dc8591527a9a76ff5bf7a7d02d79",
+  "source_snapshot/policy.json": "8d40e7c9cc288370694c3b84d31ab8aef2b07b9f13935040c11ba043685f13c6",
+  "source_snapshot/README.md": "1ffa48c704fbd60a83c8d74870f15cb1101385a8667b4fe6b86f326e121ebdb0",
+  "source_snapshot/rebind_implementation.py": "efbac5f6944fc4bd57c4ec42783bfd79a78d86d09999dde14274ce412e20d790",
+  "source_snapshot/test_verifier.py": "5094ef6db0136c967326fb2aa0ff51accc3c12a0f4769d6178c0547a89877c3b",
+  "source_snapshot/trusted_reviews.json": "7fe3f6364590737abcebbf53151860724baf0748b38c73365901ec96bac5757d",
+  "source_snapshot/verification.py": "c569d30dfaebfb020f8691e46a1a7d68738338dd4be3f9a2d345abbd35b2cf0b",
+  "VERIFICATION_REPORT.md": "c1a8fd94649fe4a2e8cdc15ffa2f0d53bcedd9b676543b67012318ea74119ef6",
+  "VERIFIER_CARD.json": "64f1845c102fc8306d291dbd3858ed0523ea307dcb170711070ac6c470428298",
+  "verifier_tests.log": "970d42ec47e747d48719ed5cc6cda69ad39e9076080b7cd23777fe968a649dcd"
+}

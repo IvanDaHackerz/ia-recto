@@ -23,7 +23,10 @@ class ConcernTests(unittest.TestCase):
         for case in rows:
             with self.subTest(case=case['case_id']):
                 r = service.classify({'question_text': case['question_text']})
-                self.assertEqual(r['routing']['action'], case['expected_route'])
+                # Preserve the frozen historical file; salary clarification
+                # predates the new general-information routing policy.
+                expected='retrieve_supported_evidence' if case['case_id']=='CONCERN_026' else case['expected_route']
+                self.assertEqual(r['routing']['action'], expected)
                 if case['expected_primary']:
                     self.assertEqual(r['classification']['primary_label'], case['expected_primary'])
 
@@ -61,13 +64,28 @@ class ConcernTests(unittest.TestCase):
 
     def test_outside_and_clarification_do_not_generate(self):
         provider = Mock()
-        for q in ['Who gets custody of our child?', 'Late ang salary ko.', 'What is the weather tomorrow?']:
+        for q in ['Who gets custody of our child?', 'They charged me too much.', 'What is the weather tomorrow?']:
             p = self.verifier.preflight(q)
             self.assertEqual(explain_recorded_sources(self.verifier, p, provider)['llm_calls'], 0)
         provider.complete.assert_not_called()
 
 
 class CitationTests(unittest.TestCase):
+    def test_compact_prompt_preserves_full_sources_and_exact_proof(self):
+        from backend.application.development_explanation import source_options,prompt_sources,selected_draft
+        text='The supplier must preserve '+('each material qualification and exception in this complete recorded authority '*12)+'.'
+        components=[{'component_id':'c1','sources':[{'chunk_id':'h1','parent_text':text}]}]
+        expanded,lookup=source_options(components);compact=prompt_sources(expanded)
+        self.assertEqual(compact[0]['sources'][0]['parent_text'],text)
+        for option in compact[0]['sources'][0]['quote_options']:
+            self.assertNotIn('quote',option)
+            self.assertEqual(text[option['start']:option['end']],lookup[option['quote_id']][2])
+        self.assertLess(len(json.dumps(compact)),len(json.dumps(expanded)))
+        qid=compact[0]['sources'][0]['quote_options'][0]['quote_id']
+        draft={'paragraphs':[{'component_id':'c1','text':'A source-grounded rule.', 'evidence':[{'quote_id':qid}]}]}
+        restored=selected_draft(draft,lookup)
+        self.assertIn(restored['paragraphs'][0]['evidence'][0]['quote'],text)
+        self.assertIn('quote',expanded[0]['sources'][0]['quote_options'][0])
     def revision_fixture(self):
         provider,verifier=Mock(),Mock();provider.name='test';provider.model='mock';provider.last_usage={};provider.can_revise=True
         verifier.check_candidate.return_value=[]

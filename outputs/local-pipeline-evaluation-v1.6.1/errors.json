@@ -1,0 +1,1047 @@
+[
+  {
+    "case_id": "SYS_05_2__clear",
+    "question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+    "expected": {
+      "case_id": "SYS_05_2",
+      "concerns": [],
+      "expected_clarification_reason": "employment_category_missing",
+      "expected_domains": [],
+      "expected_excluded": false,
+      "expected_primary": null,
+      "expected_route": "clarify",
+      "expected_scope": null,
+      "family_id": "system:SYS_05",
+      "language": "en_tl",
+      "origin": "ai_authored",
+      "question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/pipelines/item13/create_cases.py",
+      "source_record_id": "SYS_05_2",
+      "suite": "system",
+      "topic_ids": [],
+      "variation": "taglish"
+    },
+    "packet": {
+      "original_question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+      "normalization": null,
+      "total_query_ms": 155.49359999931767,
+      "inspection_only": true,
+      "result": {
+        "question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+        "routing": {
+          "routing_action": "retrieve_supported_components",
+          "reason": "separate_supported_components_require_evidence",
+          "clarification_question": null,
+          "predicted_primary": "mixed",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8876788390247004,
+          "scope_confidence": 0.992638089310561
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "late ang salary ko",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 13.770070792784956,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "d4f5ad3be0228cd23e2f6ccb65354326557fc0e69cbd0405e7eac7a1111bfa9b"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_2",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_2__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 7.822035609286346,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 2",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "a114ab44870c09d772cf61b3ab75375fa63633db33fe3af6838fb05756c9cdbe"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_vi_apprenticeship_training_and_employment_of_special_workers__section_20",
+                "chunk_id": "LAB_IRR_1989__rule_vi_apprenticeship_training_and_employment_of_special_workers__section_20__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 6.283608147431844,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 20",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "3ef13326bf20d080892ada91c7d7b0cc21ea55ee6c22f0d4654eeb361983c2a6"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6",
+                "chunk_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 6.000768034331291,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "8eb09a08cb56f301f01a4b023f9b28fb8d59d97c6f19331534de27406233eab6"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_4",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_4__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 5.848267147594768,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "2254f25ec0cd9ed5d4d13bba4f9b7564724110da2e8ae655b6e2cbbbd92d41ca"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          },
+          {
+            "component_id": "concern_002",
+            "query": "ayaw din ng shop magbigay ng product refund",
+            "allowed_domain": "consumer",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "RA_7394_1992__art_18",
+                "chunk_id": "RA_7394_1992__art_18__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 8.027310682408466,
+                "citation_display": "Republic Act No. 7394, ART. 18",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "e5e7a64e5c53c6d84399517bbb630b1119683e8e9c648b8f4f04d814128ba659"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_101",
+                "chunk_id": "RA_7394_1992__art_101__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 8.006369651707084,
+                "citation_display": "Republic Act No. 7394, ART. 101",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "cd8d9fefaee28755fdd728427911f075c1612d5eb9f8bb10aff6a934b555b402"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_11",
+                "chunk_id": "RA_7394_1992__art_11__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 7.716639224321787,
+                "citation_display": "Republic Act No. 7394, ART. 11",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "b83ab0c4ade7aab499b31ca78c9366a134bb9075257e2efe91d57c2a99847cac"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_100",
+                "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 6.768686507422878,
+                "citation_display": "Republic Act No. 7394, ART. 100",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "4df2cde6c821926c6e4ed03ff9be7d58cfa686a057cca64e730ddcb94b9a9d40"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_68",
+                "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+                "document_id": "RA_7394_1992",
+                "score": 6.6423474432057885,
+                "citation_display": "Republic Act No. 7394, ART. 68",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": false,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": null,
+      "scope_correct": null,
+      "route": "retrieve_supported_components",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 10,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 10,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 2,
+      "recorded_excerpt_claims_passed": 2,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 303.6175999986881,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "SYS_05_2__noisy",
+    "question_text": "Late ang salary ko. Ayw din ng shop mgbgay ng product rfnd.",
+    "expected": {
+      "case_id": "SYS_05_2",
+      "concerns": [],
+      "expected_clarification_reason": "employment_category_missing",
+      "expected_domains": [],
+      "expected_excluded": false,
+      "expected_primary": null,
+      "expected_route": "clarify",
+      "expected_scope": null,
+      "family_id": "system:SYS_05",
+      "language": "en_tl",
+      "origin": "ai_authored",
+      "question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/pipelines/item13/create_cases.py",
+      "source_record_id": "SYS_05_2",
+      "suite": "system",
+      "topic_ids": [],
+      "variation": "taglish"
+    },
+    "packet": {
+      "original_question_text": "Late ang salary ko. Ayw din ng shop mgbgay ng product rfnd.",
+      "normalization": null,
+      "total_query_ms": 146.72590000009222,
+      "inspection_only": true,
+      "result": {
+        "question_text": "Late ang salary ko. Ayw din ng shop mgbgay ng product rfnd.",
+        "routing": {
+          "routing_action": "retrieve_supported_components",
+          "reason": "separate_supported_components_require_evidence",
+          "clarification_question": null,
+          "predicted_primary": "mixed",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8876788390247004,
+          "scope_confidence": 0.992638089310561
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "late ang salary ko",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 13.770070792784956,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "d4f5ad3be0228cd23e2f6ccb65354326557fc0e69cbd0405e7eac7a1111bfa9b"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_2",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_2__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 7.822035609286346,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 2",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "a114ab44870c09d772cf61b3ab75375fa63633db33fe3af6838fb05756c9cdbe"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_vi_apprenticeship_training_and_employment_of_special_workers__section_20",
+                "chunk_id": "LAB_IRR_1989__rule_vi_apprenticeship_training_and_employment_of_special_workers__section_20__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 6.283608147431844,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 20",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "3ef13326bf20d080892ada91c7d7b0cc21ea55ee6c22f0d4654eeb361983c2a6"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6",
+                "chunk_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 6.000768034331291,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "8eb09a08cb56f301f01a4b023f9b28fb8d59d97c6f19331534de27406233eab6"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_4",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_4__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 5.848267147594768,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "2254f25ec0cd9ed5d4d13bba4f9b7564724110da2e8ae655b6e2cbbbd92d41ca"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          },
+          {
+            "component_id": "concern_002",
+            "query": "ayw din ng shop mgbgay ng product refund",
+            "allowed_domain": "consumer",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "RA_7394_1992__art_18",
+                "chunk_id": "RA_7394_1992__art_18__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 8.027310682408466,
+                "citation_display": "Republic Act No. 7394, ART. 18",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "e5e7a64e5c53c6d84399517bbb630b1119683e8e9c648b8f4f04d814128ba659"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_101",
+                "chunk_id": "RA_7394_1992__art_101__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 8.006369651707084,
+                "citation_display": "Republic Act No. 7394, ART. 101",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "cd8d9fefaee28755fdd728427911f075c1612d5eb9f8bb10aff6a934b555b402"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_11",
+                "chunk_id": "RA_7394_1992__art_11__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 7.716639224321787,
+                "citation_display": "Republic Act No. 7394, ART. 11",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "b83ab0c4ade7aab499b31ca78c9366a134bb9075257e2efe91d57c2a99847cac"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_100",
+                "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 6.768686507422878,
+                "citation_display": "Republic Act No. 7394, ART. 100",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "4df2cde6c821926c6e4ed03ff9be7d58cfa686a057cca64e730ddcb94b9a9d40"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_68",
+                "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+                "document_id": "RA_7394_1992",
+                "score": 6.6423474432057885,
+                "citation_display": "Republic Act No. 7394, ART. 68",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": false,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": null,
+      "scope_correct": null,
+      "route": "retrieve_supported_components",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 10,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 10,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 2,
+      "recorded_excerpt_claims_passed": 2,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 301.14510000021255,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "TYPE_081__clear",
+    "question_text": "My employer has not paid me. Can you help?",
+    "expected": {
+      "case_id": "TYPE_081",
+      "concerns": [],
+      "expected_clarification_reason": "employment_category_missing",
+      "expected_domains": [],
+      "expected_excluded": false,
+      "expected_primary": null,
+      "expected_route": "clarify",
+      "expected_scope": null,
+      "family_id": "typing:TYPE_G17",
+      "language": "en",
+      "origin": "ai_authored",
+      "question_text": "My employer has not paid me. Can you help?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/typing_questions.jsonl",
+      "source_record_id": "TYPE_081",
+      "suite": "typing",
+      "topic_ids": [],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "My employer has not paid me. Can you help?",
+      "normalization": null,
+      "total_query_ms": 172.37790000035602,
+      "inspection_only": true,
+      "result": {
+        "question_text": "My employer has not paid me. Can you help?",
+        "routing": {
+          "routing_action": "retrieve_supported_evidence",
+          "reason": "supported_candidate_requires_evidence",
+          "clarification_question": null,
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.880543996407511,
+          "scope_confidence": 0.940158464167631
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "my employer has not paid me. can you help",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "LAB_IRR_1989__article_280",
+                "chunk_id": "LAB_IRR_1989__article_280__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 7.451989183776874,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, ARTICLE 280",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "1a7d15b20534899d56cae2ba10621772542979db56f4644f4910d627718def58"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_118",
+                "chunk_id": "LAB_CODE_2022__art_118__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.960319190157214,
+                "citation_display": "PD 442, as amended and renumbered, ART. 118",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "8a5b5e05f8f49f220534b19fbf84434980b855d93fe33f9ebf082c42085797f5"
+              },
+              {
+                "provision_id": "PD_851_1975__sec_2",
+                "chunk_id": "PD_851_1975__sec_2__chunk_0001",
+                "document_id": "PD_851_1975",
+                "score": 6.811082830215335,
+                "citation_display": "Presidential Decree No. 851, SEC. 2",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "cc1032aeb56b940d70639de1b63e961d87de8906a5d35baa6ed6d743423de07b"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_xvi_general_provisions__section_8",
+                "chunk_id": "LAB_IRR_1989__rule_xvi_general_provisions__section_8__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 6.6597263147661225,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 8",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "fa8b6f9172874e2712fe3de377dc885ac99161662fc65780a1bad59fca106592"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_131",
+                "chunk_id": "LAB_CODE_2022__art_131__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.65219236656398,
+                "citation_display": "PD 442, as amended and renumbered, ART. 131",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "02ebfe7abcc76c9ef1bbf47b8f4e513a0cbc2a9976609dc4535228c6629b9435"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "related_authority_unavailable:MO_28_1986",
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": false,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": null,
+      "scope_correct": null,
+      "route": "retrieve_supported_evidence",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 5,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 1,
+      "recorded_excerpt_claims_passed": 1,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 352.22090000024764,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "TYPE_081__noisy",
+    "question_text": "My empluyer has not paid me. Can you help?",
+    "expected": {
+      "case_id": "TYPE_081",
+      "concerns": [],
+      "expected_clarification_reason": "employment_category_missing",
+      "expected_domains": [],
+      "expected_excluded": false,
+      "expected_primary": null,
+      "expected_route": "clarify",
+      "expected_scope": null,
+      "family_id": "typing:TYPE_G17",
+      "language": "en",
+      "origin": "ai_authored",
+      "question_text": "My employer has not paid me. Can you help?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/typing_questions.jsonl",
+      "source_record_id": "TYPE_081",
+      "suite": "typing",
+      "topic_ids": [],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "My empluyer has not paid me. Can you help?",
+      "normalization": null,
+      "total_query_ms": 143.73469999918598,
+      "inspection_only": true,
+      "result": {
+        "question_text": "My empluyer has not paid me. Can you help?",
+        "routing": {
+          "routing_action": "retrieve_supported_evidence",
+          "reason": "supported_candidate_requires_evidence",
+          "clarification_question": null,
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.880543996407511,
+          "scope_confidence": 0.940158464167631
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "my employer has not paid me. can you help",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "LAB_IRR_1989__article_280",
+                "chunk_id": "LAB_IRR_1989__article_280__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 7.451989183776874,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, ARTICLE 280",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "1a7d15b20534899d56cae2ba10621772542979db56f4644f4910d627718def58"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_118",
+                "chunk_id": "LAB_CODE_2022__art_118__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.960319190157214,
+                "citation_display": "PD 442, as amended and renumbered, ART. 118",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "8a5b5e05f8f49f220534b19fbf84434980b855d93fe33f9ebf082c42085797f5"
+              },
+              {
+                "provision_id": "PD_851_1975__sec_2",
+                "chunk_id": "PD_851_1975__sec_2__chunk_0001",
+                "document_id": "PD_851_1975",
+                "score": 6.811082830215335,
+                "citation_display": "Presidential Decree No. 851, SEC. 2",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "cc1032aeb56b940d70639de1b63e961d87de8906a5d35baa6ed6d743423de07b"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_xvi_general_provisions__section_8",
+                "chunk_id": "LAB_IRR_1989__rule_xvi_general_provisions__section_8__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 6.6597263147661225,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 8",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "fa8b6f9172874e2712fe3de377dc885ac99161662fc65780a1bad59fca106592"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_131",
+                "chunk_id": "LAB_CODE_2022__art_131__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.65219236656398,
+                "citation_display": "PD 442, as amended and renumbered, ART. 131",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "02ebfe7abcc76c9ef1bbf47b8f4e513a0cbc2a9976609dc4535228c6629b9435"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "related_authority_unavailable:MO_28_1986",
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": false,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": null,
+      "scope_correct": null,
+      "route": "retrieve_supported_evidence",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 5,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 1,
+      "recorded_excerpt_claims_passed": 1,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 287.0631999994657,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "EVAL_081__noisy",
+    "question_text": "An investment adviser got me to put money in a funnnd, but now I can't withhhdraw it. How do I raiseee a securittties complaint?",
+    "expected": {
+      "case_id": "EVAL_081",
+      "concerns": [],
+      "expected_clarification_reason": null,
+      "expected_domains": [],
+      "expected_excluded": true,
+      "expected_primary": "out_of_scope",
+      "expected_route": "refer_out_of_scope",
+      "expected_scope": "unsupported",
+      "family_id": "general:EVAL_F081",
+      "language": "en",
+      "origin": "ai_authored",
+      "question_text": "An investment adviser got me to put money in a fund, but now I can't withdraw it. How do I raise a securities complaint?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/evaluation_questions.jsonl",
+      "source_record_id": "EVAL_081",
+      "suite": "general",
+      "topic_ids": [
+        "consumer.investments"
+      ],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "An investment adviser got me to put money in a funnnd, but now I can't withhhdraw it. How do I raiseee a securittties complaint?",
+      "normalization": null,
+      "total_query_ms": 184.05750000056287,
+      "inspection_only": true,
+      "result": {
+        "question_text": "An investment adviser got me to put money in a funnnd, but now I can't withhhdraw it. How do I raiseee a securittties complaint?",
+        "routing": {
+          "routing_action": "clarify",
+          "reason": "payment_context_missing",
+          "clarification_question": "What was the payment for, and who was supposed to pay or receive it?",
+          "predicted_primary": "out_of_scope",
+          "predicted_scope": "unsupported",
+          "primary_confidence": 0.880543996407511,
+          "scope_confidence": 0.880543996407511
+        },
+        "decision": "clarify",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": []
+      }
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 0,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 0,
+      "recorded_excerpt_claims_passed": 0,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 140.32980000047246,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "EVAL_082__clear",
+    "question_text": "Seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. Paano ko ipapa-correct ang maritime record?",
+    "expected": {
+      "case_id": "EVAL_082",
+      "concerns": [],
+      "expected_clarification_reason": null,
+      "expected_domains": [],
+      "expected_excluded": true,
+      "expected_primary": "out_of_scope",
+      "expected_route": "refer_out_of_scope",
+      "expected_scope": "unsupported",
+      "family_id": "general:EVAL_F082",
+      "language": "en_tl",
+      "origin": "ai_authored",
+      "question_text": "Seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. Paano ko ipapa-correct ang maritime record?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/evaluation_questions.jsonl",
+      "source_record_id": "EVAL_082",
+      "suite": "general",
+      "topic_ids": [
+        "labor.seafarers"
+      ],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "Seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. Paano ko ipapa-correct ang maritime record?",
+      "normalization": null,
+      "total_query_ms": 130.4784000003565,
+      "inspection_only": true,
+      "result": {
+        "question_text": "Seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. Paano ko ipapa-correct ang maritime record?",
+        "routing": {
+          "routing_action": "clarify",
+          "reason": "no_identified_concern",
+          "clarification_question": "What happened, and what would you like help with? If there are separate concerns, describe each one.",
+          "predicted_primary": "out_of_scope",
+          "predicted_scope": "unsupported",
+          "primary_confidence": 0.31338615472254355,
+          "scope_confidence": 0.31338615472254355
+        },
+        "decision": "clarify",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": []
+      }
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 0,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 0,
+      "recorded_excerpt_claims_passed": 0,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 137.4799000004714,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "EVAL_082__noisy",
+    "question_text": "Sfarer ako at hindi tgma ang sea-service record na ibinigay ng shipping cmpny. Pno ko ipapa-crrct ang maritime record?",
+    "expected": {
+      "case_id": "EVAL_082",
+      "concerns": [],
+      "expected_clarification_reason": null,
+      "expected_domains": [],
+      "expected_excluded": true,
+      "expected_primary": "out_of_scope",
+      "expected_route": "refer_out_of_scope",
+      "expected_scope": "unsupported",
+      "family_id": "general:EVAL_F082",
+      "language": "en_tl",
+      "origin": "ai_authored",
+      "question_text": "Seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. Paano ko ipapa-correct ang maritime record?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/evaluation_questions.jsonl",
+      "source_record_id": "EVAL_082",
+      "suite": "general",
+      "topic_ids": [
+        "labor.seafarers"
+      ],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "Sfarer ako at hindi tgma ang sea-service record na ibinigay ng shipping cmpny. Pno ko ipapa-crrct ang maritime record?",
+      "normalization": null,
+      "total_query_ms": 139.199400000507,
+      "inspection_only": true,
+      "result": {
+        "question_text": "Sfarer ako at hindi tgma ang sea-service record na ibinigay ng shipping cmpny. Pno ko ipapa-crrct ang maritime record?",
+        "routing": {
+          "routing_action": "clarify",
+          "reason": "no_identified_concern",
+          "clarification_question": "What happened, and what would you like help with? If there are separate concerns, describe each one.",
+          "predicted_primary": "out_of_scope",
+          "predicted_scope": "unsupported",
+          "primary_confidence": 0.31338615472254355,
+          "scope_confidence": 0.31338615472254355
+        },
+        "decision": "clarify",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": []
+      }
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 0,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 0,
+      "recorded_excerpt_claims_passed": 0,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 135.38300000072923,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "EVAL_100__noisy",
+    "question_text": "Mncipal employee ako at gusto kong malaman kung mnnalo ang administrative appeal ko. Pwde mo bang i-prdct ang rslt?",
+    "expected": {
+      "case_id": "EVAL_100",
+      "concerns": [],
+      "expected_clarification_reason": null,
+      "expected_domains": [],
+      "expected_excluded": true,
+      "expected_primary": "out_of_scope",
+      "expected_route": "refer_out_of_scope",
+      "expected_scope": "unsupported",
+      "family_id": "general:EVAL_F100",
+      "language": "en_tl",
+      "origin": "ai_authored",
+      "question_text": "Municipal employee ako at gusto kong malaman kung mananalo ang administrative appeal ko. Puwede mo bang i-predict ang result?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/evaluation_questions.jsonl",
+      "source_record_id": "EVAL_100",
+      "suite": "general",
+      "topic_ids": [
+        "labor.government_employment",
+        "labor.case_outcome_prediction"
+      ],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "Mncipal employee ako at gusto kong malaman kung mnnalo ang administrative appeal ko. Pwde mo bang i-prdct ang rslt?",
+      "normalization": null,
+      "total_query_ms": 126.74019999940356,
+      "inspection_only": true,
+      "result": {
+        "question_text": "Mncipal employee ako at gusto kong malaman kung mnnalo ang administrative appeal ko. Pwde mo bang i-prdct ang rslt?",
+        "routing": {
+          "routing_action": "clarify",
+          "reason": "no_identified_concern",
+          "clarification_question": "What happened, and what would you like help with? If there are separate concerns, describe each one.",
+          "predicted_primary": "out_of_scope",
+          "predicted_scope": "unsupported",
+          "primary_confidence": 0.31338615472254355,
+          "scope_confidence": 0.31338615472254355
+        },
+        "decision": "clarify",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": []
+      }
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 0,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 0,
+      "recorded_excerpt_claims_passed": 0,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 143.860100000893,
+      "unreviewed_explanation_withheld": true
+    }
+  }
+]

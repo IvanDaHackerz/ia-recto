@@ -50,8 +50,8 @@ class RuntimeTests(unittest.TestCase):
                 if label:
                     self.assertEqual(p["result"]["routing"]["predicted_primary"], label)
                 if question == "Late ang salary ko.":
-                    self.assertEqual(p['guidance_context']['original_routing']['routing_action'], 'clarify')
-                    self.assertTrue(p['guidance_context']['classification_is_conditional'])
+                    self.assertEqual(p['guidance_context']['original_routing']['routing_action'], 'retrieve_supported_evidence')
+                    self.assertFalse(p['guidance_context']['classification_is_conditional'])
                 self.assertEqual(p["normalization"]["llm_calls"], 0)
                 self.assertEqual(p["explanation"]["claims"], [])
                 if route in {"clarify", "refer_out_of_scope"}:

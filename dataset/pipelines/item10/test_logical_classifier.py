@@ -131,10 +131,31 @@ class LogicalTests(unittest.TestCase):
         t=self.general[0]['question_text'];a=predict_records(self.b,[{'question_text':t,'primary_label':'labor'}])[0];b=predict_records(self.b,[{'question_text':t,'primary_label':'out_of_scope','supported_topic_ids':['fake']}])[0]
         self.assertEqual(a['primary_probabilities'],b['primary_probabilities']);self.assertEqual(a['scope_probabilities'],b['scope_probabilities'])
     def test_missing_context_precedes_model_uncertainty(self):
-        cases=[('My employer has not paid my salary.','employment_category_missing'),('They refuse to refund my payment.','refund_transaction_missing'),('They ended my contract.','contract_relationship_missing'),('They charged me too much.','charge_context_missing')]
+        cases=[('They refuse to refund my payment.','refund_transaction_missing'),('They ended my contract.','contract_relationship_missing'),('They charged me too much.','charge_context_missing')]
         for t,reason in cases:
             p={'question_text':t,'predicted_primary':'out_of_scope','predicted_scope':'unsupported','primary_confidence':.999,'scope_confidence':.999,'has_reliable_component_evidence':False}
             r=route_prediction(p,{'primary':0.,'scope':0.});self.assertEqual(r['reason'],reason);self.assertFalse(r['substantive_answer_admitted'])
+    def test_employment_category_is_a_follow_up_not_a_topic_gate(self):
+        self.assertIsNone(missing_context('My employer has not paid my salary.'))
+        self.assertEqual(self.prediction('My employer has not paid my salary.')['routing_action'],'retrieve_supported_evidence')
+        self.assertEqual(self.prediction('My salary is late.')['routing_action'],'retrieve_supported_evidence')
+    def test_phone_purchase_and_service_plan_are_contrastive(self):
+        cases=[('I bought a mobile phone, not a service plan. The handset is defective.','consumer'),
+               ('My phone service plan has a billing dispute. I did not buy a phone handset.','out_of_scope')]
+        for text,label in cases:
+            with self.subTest(text=text):self.assertEqual(self.prediction(text)['predicted_primary'],label)
+    def test_unrelated_questions_and_unanchored_payment_are_not_admitted(self):
+        for text in ['What are the requirements for child custody after separation?', 'How do I cook sinigang for four people?']:
+            with self.subTest(text=text):self.assertEqual(self.prediction(text)['routing_action'],'refer_out_of_scope')
+        self.assertEqual(self.prediction('I need to complain about a payment.')['routing_action'],'clarify')
+    def test_shared_inference_matches_separate_head_predictions(self):
+        texts=[r['question_text'] for r in self.general[:20]]
+        records=predict_records(self.b,[{'question_text':t} for t in texts])
+        for head in ('primary','scope'):
+            model=self.b[head+'_model'];probs=model.predict_proba(texts);labels=model.predict(texts)
+            for row,v,label in zip(records,probs,labels):
+                self.assertEqual(row['predicted_'+head],label)
+                np.testing.assert_array_equal(list(row[head+'_probabilities'].values()),v)
     def test_invalid_label_pairs_cannot_admit(self):
         r=route('A retail store sold a defective fan.','consumer','unsupported',1.,1.,{'primary':0.,'scope':0.});self.assertEqual(r['reason'],'inconsistent_primary_scope');self.assertFalse(r['substantive_answer_admitted'])
     def test_confidence_thresholds_cannot_be_bypassed(self):
