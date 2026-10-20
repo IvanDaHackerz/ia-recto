@@ -53,6 +53,14 @@ def collect_paths(include_model=False):
 def github_list(output):
     """Check an explicit upload list; never stage, commit, or contact GitHub."""
     paths=sorted(collect_paths())
+    nested=set()
+    for path in paths:
+        for parent in path.parents:
+            if parent==ROOT:break
+            if (parent/'.git').exists():nested.add(parent.relative_to(ROOT).as_posix())
+    if nested:
+        raise ValueError('Nested Git repositories would prevent a complete project upload: '
+            +', '.join(sorted(nested))+'. Preserve their Git metadata outside the source tree before staging.')
     names=[p.relative_to(ROOT).as_posix() for p in paths]
     oversized=[name for p,name in zip(paths,names) if p.stat().st_size>100*1024*1024]
     if oversized:raise ValueError('Files exceed GitHub regular-Git limit: '+', '.join(oversized))
@@ -73,6 +81,32 @@ def github_list(output):
     print(json.dumps({'upload_list':str(output),'files':len(paths),
         'total_mib':round(meta['total_bytes']/1024**2,2),
         'largest_file_mib':round(meta['largest_file_bytes']/1024**2,2),
+        'git_index_changed':False,'uploaded':False}))
+def github_check(output):
+    """Verify every selected file is present in Git with its exact current bytes."""
+    manifest=json.loads(output.with_suffix('.json').read_text(encoding='utf-8'))
+    result=subprocess.run(['git','ls-files','--stage','-z'],cwd=ROOT,capture_output=True,check=True)
+    entries={}
+    for row in result.stdout.decode('utf-8').split('\0'):
+        if row:
+            metadata,name=row.split('\t',1)
+            mode,oid,stage=metadata.split()
+            if stage=='0':entries[name]=(mode,oid)
+    algorithm=subprocess.run(['git','rev-parse','--show-object-format'],cwd=ROOT,
+        capture_output=True,text=True,check=True).stdout.strip()
+    failures=[]
+    for name,expected in manifest['files'].items():
+        data=(ROOT/name).read_bytes()
+        blob=hashlib.new(algorithm,b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
+        if hashlib.sha256(data).hexdigest()!=expected:
+            failures.append('Changed since list generation: '+name)
+        elif name not in entries:
+            failures.append('Missing from Git index: '+name)
+        elif entries[name][0] not in {'100644','100755'} or entries[name][1]!=blob:
+            failures.append('Git bytes differ from selected file: '+name)
+    if failures:raise ValueError('\n'.join(failures))
+    print(json.dumps({'git_files_byte_verified':len(manifest['files']),
+        'ui_app_files':sum(name.startswith('UI/UX/app/') for name in manifest['files']),
         'git_index_changed':False,'uploaded':False}))
 def create(output,include_model=False):
     if output.exists():raise ValueError('Checkpoint already exists; choose a new path')
@@ -96,7 +130,8 @@ def verify(output):
             if hashlib.sha256(archive.read(name)).hexdigest()!=expected:raise ValueError('Checkpoint integrity failure: '+name)
     print(json.dumps({'archive':str(output),'files_verified':len(manifest['files']),'bytes':output.stat().st_size,'private_state_included':False}))
 if __name__=='__main__':
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('action',choices=['create','verify','github-list']);parser.add_argument('path',type=Path);parser.add_argument('--include-model',action='store_true');args=parser.parse_args()
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('action',choices=['create','verify','github-list','github-check']);parser.add_argument('path',type=Path);parser.add_argument('--include-model',action='store_true');args=parser.parse_args()
     if args.action=='create':create(args.path.resolve(),args.include_model)
     elif args.action=='github-list':github_list(args.path.resolve())
+    elif args.action=='github-check':github_check(args.path.resolve())
     else:verify(args.path.resolve())

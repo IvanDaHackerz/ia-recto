@@ -12,8 +12,12 @@ ignore logs: some versioned output logs are required by integrity manifests.
 
 ## Owner: publish from C:\IA
 
-At preparation time, Git is already initialized on `main`, with no commits or
-remote. Generate a fresh upload list in the VS Code PowerShell terminal:
+The main repository is initialized on `main` and linked to the group's GitHub
+repository. The UI is tracked as ordinary files in this same repository. Its
+previous nested Git history is preserved locally under
+`.local/github-share/ui-app-git-backup-20261020` and is not uploaded.
+
+Generate a fresh upload list in the VS Code PowerShell terminal:
 
 ```powershell
 cd C:\IA
@@ -29,6 +33,7 @@ Stage **only** that list, review it, then commit:
 
 ```powershell
 git --literal-pathspecs add --pathspec-from-file=.local/github-share/files.txt
+.\.venv-item10\Scripts\python.exe -m scripts.release_snapshot github-check .local/github-share/files.txt
 git diff --cached --stat
 git diff --cached --name-only
 git commit -m "Add runnable Recto development checkpoint"

@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T22:53:52+08:00",
+  "title": "Design System: Recto & Co. Legal",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Reading Ink",
+        "canonical": "#1a1a17",
+        "tonalRamp": [
+          "oklch(15.00% 0.00573 106.87)",
+          "oklch(26.43% 0.00573 106.87)",
+          "oklch(37.86% 0.00573 106.87)",
+          "oklch(49.29% 0.00573 106.87)",
+          "oklch(60.71% 0.00573 106.87)",
+          "oklch(72.14% 0.00573 106.87)",
+          "oklch(83.57% 0.00573 106.87)",
+          "oklch(95.00% 0.00573 106.87)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Quiet Ink",
+        "canonical": "#50534b",
+        "tonalRamp": [
+          "oklch(15.00% 0.01340 123.75)",
+          "oklch(26.43% 0.01340 123.75)",
+          "oklch(37.86% 0.01340 123.75)",
+          "oklch(49.29% 0.01340 123.75)",
+          "oklch(60.71% 0.01340 123.75)",
+          "oklch(72.14% 0.01340 123.75)",
+          "oklch(83.57% 0.01340 123.75)",
+          "oklch(95.00% 0.01340 123.75)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#f6f7f4",
+        "tonalRamp": [
+          "oklch(15.00% 0.00409 121.56)",
+          "oklch(26.43% 0.00409 121.56)",
+          "oklch(37.86% 0.00409 121.56)",
+          "oklch(49.29% 0.00409 121.56)",
+          "oklch(60.71% 0.00409 121.56)",
+          "oklch(72.14% 0.00409 121.56)",
+          "oklch(83.57% 0.00409 121.56)",
+          "oklch(95.00% 0.00409 121.56)"
+        ]
+      },
+      "paper-raised": {
+        "role": "neutral",
+        "displayName": "Raised Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Fine Rule",
+        "canonical": "#dcded6",
+        "tonalRamp": [
+          "oklch(15.00% 0.01097 118.04)",
+          "oklch(26.43% 0.01097 118.04)",
+          "oklch(37.86% 0.01097 118.04)",
+          "oklch(49.29% 0.01097 118.04)",
+          "oklch(60.71% 0.01097 118.04)",
+          "oklch(72.14% 0.01097 118.04)",
+          "oklch(83.57% 0.01097 118.04)",
+          "oklch(95.00% 0.01097 118.04)"
+        ]
+      },
+      "border-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "#909586",
+        "tonalRamp": [
+          "oklch(15.00% 0.02244 122.04)",
+          "oklch(26.43% 0.02244 122.04)",
+          "oklch(37.86% 0.02244 122.04)",
+          "oklch(49.29% 0.02244 122.04)",
+          "oklch(60.71% 0.02244 122.04)",
+          "oklch(72.14% 0.02244 122.04)",
+          "oklch(83.57% 0.02244 122.04)",
+          "oklch(95.00% 0.02244 122.04)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Reference Navy",
+        "canonical": "#1e3350",
+        "tonalRamp": [
+          "oklch(15.00% 0.05879 256.71)",
+          "oklch(26.43% 0.05879 256.71)",
+          "oklch(37.86% 0.05879 256.71)",
+          "oklch(49.29% 0.05879 256.71)",
+          "oklch(60.71% 0.05879 256.71)",
+          "oklch(72.14% 0.05879 256.71)",
+          "oklch(83.57% 0.05879 256.71)",
+          "oklch(95.00% 0.05879 256.71)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Deep Reference Navy",
+        "canonical": "#16263d",
+        "tonalRamp": [
+          "oklch(15.00% 0.04841 257.47)",
+          "oklch(26.43% 0.04841 257.47)",
+          "oklch(37.86% 0.04841 257.47)",
+          "oklch(49.29% 0.04841 257.47)",
+          "oklch(60.71% 0.04841 257.47)",
+          "oklch(72.14% 0.04841 257.47)",
+          "oklch(83.57% 0.04841 257.47)",
+          "oklch(95.00% 0.04841 257.47)"
+        ]
+      },
+      "primary-wash": {
+        "role": "primary",
+        "displayName": "Reference Wash",
+        "canonical": "#e7ecf1",
+        "tonalRamp": [
+          "oklch(15.00% 0.00863 247.92)",
+          "oklch(26.43% 0.00863 247.92)",
+          "oklch(37.86% 0.00863 247.92)",
+          "oklch(49.29% 0.00863 247.92)",
+          "oklch(60.71% 0.00863 247.92)",
+          "oklch(72.14% 0.00863 247.92)",
+          "oklch(83.57% 0.00863 247.92)",
+          "oklch(95.00% 0.00863 247.92)"
+        ]
+      },
+      "verified": {
+        "role": "secondary",
+        "displayName": "Recorded Amber",
+        "canonical": "#755816",
+        "tonalRamp": [
+          "oklch(15.00% 0.08844 83.37)",
+          "oklch(26.43% 0.08844 83.37)",
+          "oklch(37.86% 0.08844 83.37)",
+          "oklch(49.29% 0.08844 83.37)",
+          "oklch(60.71% 0.08844 83.37)",
+          "oklch(72.14% 0.08844 83.37)",
+          "oklch(83.57% 0.08844 83.37)",
+          "oklch(95.00% 0.08844 83.37)"
+        ]
+      },
+      "verified-wash": {
+        "role": "secondary",
+        "displayName": "Recorded Amber Wash",
+        "canonical": "#f3ead2",
+        "tonalRamp": [
+          "oklch(15.00% 0.03314 89.85)",
+          "oklch(26.43% 0.03314 89.85)",
+          "oklch(37.86% 0.03314 89.85)",
+          "oklch(49.29% 0.03314 89.85)",
+          "oklch(60.71% 0.03314 89.85)",
+          "oklch(72.14% 0.03314 89.85)",
+          "oklch(83.57% 0.03314 89.85)",
+          "oklch(95.00% 0.03314 89.85)"
+        ]
+      },
+      "caution": {
+        "role": "secondary",
+        "displayName": "Caution Amber",
+        "canonical": "#854d0e",
+        "tonalRamp": [
+          "oklch(15.00% 0.10337 61.91)",
+          "oklch(26.43% 0.10337 61.91)",
+          "oklch(37.86% 0.10337 61.91)",
+          "oklch(49.29% 0.10337 61.91)",
+          "oklch(60.71% 0.10337 61.91)",
+          "oklch(72.14% 0.10337 61.91)",
+          "oklch(83.57% 0.10337 61.91)",
+          "oklch(95.00% 0.10337 61.91)"
+        ]
+      },
+      "caution-wash": {
+        "role": "secondary",
+        "displayName": "Caution Wash",
+        "canonical": "#f6e9d7",
+        "tonalRamp": [
+          "oklch(15.00% 0.02776 76.21)",
+          "oklch(26.43% 0.02776 76.21)",
+          "oklch(37.86% 0.02776 76.21)",
+          "oklch(49.29% 0.02776 76.21)",
+          "oklch(60.71% 0.02776 76.21)",
+          "oklch(72.14% 0.02776 76.21)",
+          "oklch(83.57% 0.02776 76.21)",
+          "oklch(95.00% 0.02776 76.21)"
+        ]
+      },
+      "redirect": {
+        "role": "tertiary",
+        "displayName": "Referral Teal",
+        "canonical": "#345f5c",
+        "tonalRamp": [
+          "oklch(15.00% 0.04833 189.81)",
+          "oklch(26.43% 0.04833 189.81)",
+          "oklch(37.86% 0.04833 189.81)",
+          "oklch(49.29% 0.04833 189.81)",
+          "oklch(60.71% 0.04833 189.81)",
+          "oklch(72.14% 0.04833 189.81)",
+          "oklch(83.57% 0.04833 189.81)",
+          "oklch(95.00% 0.04833 189.81)"
+        ]
+      },
+      "redirect-wash": {
+        "role": "tertiary",
+        "displayName": "Referral Wash",
+        "canonical": "#e6eeed",
+        "tonalRamp": [
+          "oklch(15.00% 0.00863 188.11)",
+          "oklch(26.43% 0.00863 188.11)",
+          "oklch(37.86% 0.00863 188.11)",
+          "oklch(49.29% 0.00863 188.11)",
+          "oklch(60.71% 0.00863 188.11)",
+          "oklch(72.14% 0.00863 188.11)",
+          "oklch(83.57% 0.00863 188.11)",
+          "oklch(95.00% 0.00863 188.11)"
+        ]
+      },
+      "masthead": {
+        "role": "primary",
+        "displayName": "Masthead Navy",
+        "canonical": "#1e3350",
+        "tonalRamp": [
+          "oklch(15.00% 0.05879 256.71)",
+          "oklch(26.43% 0.05879 256.71)",
+          "oklch(37.86% 0.05879 256.71)",
+          "oklch(49.29% 0.05879 256.71)",
+          "oklch(60.71% 0.05879 256.71)",
+          "oklch(72.14% 0.05879 256.71)",
+          "oklch(83.57% 0.05879 256.71)",
+          "oklch(95.00% 0.05879 256.71)"
+        ]
+      },
+      "masthead-ink": {
+        "role": "primary",
+        "displayName": "Masthead Paper",
+        "canonical": "#f6f7f4",
+        "tonalRamp": [
+          "oklch(15.00% 0.00409 121.56)",
+          "oklch(26.43% 0.00409 121.56)",
+          "oklch(37.86% 0.00409 121.56)",
+          "oklch(49.29% 0.00409 121.56)",
+          "oklch(60.71% 0.00409 121.56)",
+          "oklch(72.14% 0.00409 121.56)",
+          "oklch(83.57% 0.00409 121.56)",
+          "oklch(95.00% 0.00409 121.56)"
+        ]
+      },
+      "masthead-muted": {
+        "role": "primary",
+        "displayName": "Muted Masthead Blue",
+        "canonical": "#ccd6e1",
+        "tonalRamp": [
+          "oklch(15.00% 0.01869 250.61)",
+          "oklch(26.43% 0.01869 250.61)",
+          "oklch(37.86% 0.01869 250.61)",
+          "oklch(49.29% 0.01869 250.61)",
+          "oklch(60.71% 0.01869 250.61)",
+          "oklch(72.14% 0.01869 250.61)",
+          "oklch(83.57% 0.01869 250.61)",
+          "oklch(95.00% 0.01869 250.61)"
+        ]
+      },
+      "masthead-hover": {
+        "role": "primary",
+        "displayName": "Masthead Hover Navy",
+        "canonical": "#2b4361",
+        "tonalRamp": [
+          "oklch(15.00% 0.05980 254.57)",
+          "oklch(26.43% 0.05980 254.57)",
+          "oklch(37.86% 0.05980 254.57)",
+          "oklch(49.29% 0.05980 254.57)",
+          "oklch(60.71% 0.05980 254.57)",
+          "oklch(72.14% 0.05980 254.57)",
+          "oklch(83.57% 0.05980 254.57)",
+          "oklch(95.00% 0.05980 254.57)"
+        ]
+      },
+      "masthead-rule": {
+        "role": "primary",
+        "displayName": "Masthead Rule",
+        "canonical": "#536781",
+        "tonalRamp": [
+          "oklch(15.00% 0.04812 255.16)",
+          "oklch(26.43% 0.04812 255.16)",
+          "oklch(37.86% 0.04812 255.16)",
+          "oklch(49.29% 0.04812 255.16)",
+          "oklch(60.71% 0.04812 255.16)",
+          "oklch(72.14% 0.04812 255.16)",
+          "oklch(83.57% 0.04812 255.16)",
+          "oklch(95.00% 0.04812 255.16)"
+        ]
+      },
+      "active-rule": {
+        "role": "primary",
+        "displayName": "Active Gold",
+        "canonical": "#d8bc72",
+        "tonalRamp": [
+          "oklch(15.00% 0.09878 89.39)",
+          "oklch(26.43% 0.09878 89.39)",
+          "oklch(37.86% 0.09878 89.39)",
+          "oklch(49.29% 0.09878 89.39)",
+          "oklch(60.71% 0.09878 89.39)",
+          "oklch(72.14% 0.09878 89.39)",
+          "oklch(83.57% 0.09878 89.39)",
+          "oklch(95.00% 0.09878 89.39)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Base page heading, with observed route and narrow-screen variants."
+      },
+      "title": {
+        "displayName": "Section Title",
+        "purpose": "Base serif section heading."
+      },
+      "question": {
+        "displayName": "Question",
+        "purpose": "The active workspace question."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default interface and explanatory text."
+      },
+      "legal-text": {
+        "displayName": "Legal Text",
+        "purpose": "Complete stored provision reading in the Library; source pane has its documented smaller variant."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Primary and secondary button text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field and composer labels."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Default supporting detail, with observed component-specific sizes."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "motion-feedback",
+        "value": "160ms",
+        "purpose": "Existing color and background state transitions."
+      },
+      {
+        "name": "motion-continuity",
+        "value": "260ms",
+        "purpose": "Existing navigation rule, example icon and source-chevron continuity."
+      },
+      {
+        "name": "ease-precise",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Existing continuity easing."
+      },
+      {
+        "name": "disclosure-focus",
+        "value": "180ms ease-out",
+        "purpose": "Existing disclosure opacity cue; disabled for reduced motion."
+      },
+      {
+        "name": "evidence-spotlight",
+        "value": "1600ms cubic-bezier(.16, 1, .3, 1) 1",
+        "purpose": "Existing Library citation-arrival cue; static wash for reduced motion."
+      },
+      {
+        "name": "explanation-reveal",
+        "value": "Math.min(5000, Math.max(1, totalWords * 30)) ms",
+        "purpose": "GeneratedExplanation's observed word-reveal duration; skippable and immediate for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "report-narrow",
+        "value": "480px"
+      },
+      {
+        "name": "workspace-compact",
+        "value": "540px"
+      },
+      {
+        "name": "report-case-stack",
+        "value": "640px"
+      },
+      {
+        "name": "report-stack",
+        "value": "780px"
+      },
+      {
+        "name": "library-columns",
+        "value": "900px"
+      },
+      {
+        "name": "workspace-source-view",
+        "value": "1000px"
+      },
+      {
+        "name": "report-tighten",
+        "value": "1050px"
+      },
+      {
+        "name": "masthead-expanded",
+        "value": "1120px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main action, using the existing navy control treatment.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Ask question</button>",
+      "css": ".ds-button-primary { min-height: 44px; padding: .6rem 1.2rem; border: 1px solid var(--color-primary, #1e3350); border-radius: 4px; font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .9rem; font-weight: 600; line-height: 1.5; cursor: pointer; transition: background-color var(--motion-feedback, 160ms), color var(--motion-feedback, 160ms), transform 100ms; } .ds-button-primary:disabled { cursor: not-allowed; opacity: .55; } .ds-button-primary:active:not(:disabled) { transform: translateY(1px); } .ds-button-primary:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; } @media (prefers-reduced-motion: reduce) { .ds-button-primary { transition: background-color 100ms, color 100ms; } .ds-button-primary:active:not(:disabled) { transform: none; } } .ds-button-primary { background: var(--color-primary, #1e3350); color: var(--color-paper-raised, #ffffff); } .ds-button-primary:hover:not(:disabled) { background: var(--color-primary-hover, #16263d); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A paper-ground action with a navy outline and pale hover.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">Keep questions</button>",
+      "css": ".ds-button-secondary { min-height: 44px; padding: .6rem 1.2rem; border: 1px solid var(--color-primary, #1e3350); border-radius: 4px; font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .9rem; font-weight: 600; line-height: 1.5; cursor: pointer; transition: background-color var(--motion-feedback, 160ms), color var(--motion-feedback, 160ms), transform 100ms; } .ds-button-secondary:disabled { cursor: not-allowed; opacity: .55; } .ds-button-secondary:active:not(:disabled) { transform: translateY(1px); } .ds-button-secondary:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; } @media (prefers-reduced-motion: reduce) { .ds-button-secondary { transition: background-color 100ms, color 100ms; } .ds-button-secondary:active:not(:disabled) { transform: none; } } .ds-button-secondary { background: var(--color-paper-raised, #ffffff); color: var(--color-primary, #1e3350); } .ds-button-secondary:hover { background: var(--color-primary-wash, #e7ecf1); }"
+    },
+    {
+      "name": "Text Action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "An underlined source, export or disclosure action with a practical touch target.",
+      "html": "<button class=\"ds-text-action\" type=\"button\">Show full answer</button>",
+      "css": ".ds-text-action { display: inline-flex; align-items: center; min-height: 44px; padding: .45rem 0; color: var(--color-primary, #1e3350); background: transparent; border: 0; font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .78rem; line-height: 1.6; text-align: left; text-decoration: underline; text-underline-offset: .2em; cursor: pointer; } .ds-text-action:hover { text-decoration-thickness: 2px; } .ds-text-action:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; }"
+    },
+    {
+      "name": "Workspace Question Field",
+      "kind": "input",
+      "refersTo": "question-input",
+      "description": "The pinned composer field, shown without its surrounding pane.",
+      "html": "<label class=\"ds-question-label\" for=\"ds-question-input\">Your question</label><textarea id=\"ds-question-input\" class=\"ds-question-input\" rows=\"2\" placeholder=\"Describe the complete concern\"></textarea>",
+      "css": ".ds-question-label { display: block; margin-bottom: .4rem; color: var(--color-ink, #1a1a17); font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .85rem; font-weight: 600; line-height: 1.6; } .ds-question-input { display: block; width: 100%; max-width: 100%; min-height: 3.6rem; max-height: 20dvh; resize: none; border: 1px solid var(--color-border-strong, #909586); border-radius: 4px; padding: .6rem .8rem; background: var(--color-paper-raised, #ffffff); color: var(--color-ink, #1a1a17); font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .9rem; line-height: 1.55; caret-color: var(--color-primary, #1e3350); transition: border-color var(--motion-feedback, 160ms), background-color var(--motion-feedback, 160ms); } .ds-question-input::placeholder { color: var(--color-ink-soft, #50534b); opacity: 1; } .ds-question-input:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; }"
+    },
+    {
+      "name": "Masthead Navigation",
+      "kind": "nav",
+      "refersTo": "masthead-navigation",
+      "description": "Navy chrome with readable active state and the observed gold rule.",
+      "html": "<nav class=\"ds-masthead-nav\" aria-label=\"Preview primary\"><a class=\"ds-nav-link\" href=\"#ds-ask\" aria-current=\"page\">Ask</a><a class=\"ds-nav-link\" href=\"#ds-history\">History</a><a class=\"ds-nav-link\" href=\"#ds-library\">Library</a></nav>",
+      "css": ".ds-masthead-nav { display: flex; flex-wrap: wrap; gap: .2rem; background: var(--color-masthead, #1e3350); border-bottom: 1px solid var(--color-masthead-rule, #536781); } .ds-nav-link { display: flex; position: relative; align-items: center; min-height: 44px; padding: .65rem .8rem; border: 0; color: var(--color-masthead-muted, #ccd6e1); font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .86rem; line-height: 1.6; text-decoration: none; transition: color var(--motion-feedback, 160ms), background-color var(--motion-feedback, 160ms); } .ds-nav-link::after { content: \"\"; position: absolute; height: 2px; background: var(--color-active-rule, #d8bc72); inset: auto .8rem .3rem; transform: scaleX(0); transform-origin: left; transition: transform var(--motion-continuity, 260ms) var(--ease-precise, cubic-bezier(.16, 1, .3, 1)); } .ds-nav-link:hover, .ds-nav-link[aria-current=\"page\"] { background: var(--color-masthead-hover, #2b4361); color: var(--color-masthead-ink, #f6f7f4); } .ds-nav-link[aria-current=\"page\"] { font-weight: 600; } .ds-nav-link[aria-current=\"page\"]::after, .ds-nav-link:focus-visible::after { transform: scaleX(1); } .ds-nav-link:focus-visible { outline: 3px solid var(--color-active-rule, #d8bc72); outline-offset: 4px; } @media (prefers-reduced-motion: reduce) { .ds-nav-link::after { transition: background-color 100ms, color 100ms; } }"
+    },
+    {
+      "name": "Reference Chip",
+      "kind": "chip",
+      "refersTo": "reference-chip",
+      "description": "A numbered source action attached to a response, with no verification claim.",
+      "html": "<button class=\"ds-reference-chip\" type=\"button\"><span class=\"ds-reference-number\">1</span>Open source reference</button>",
+      "css": ".ds-reference-chip { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; padding: .4rem .65rem .4rem .4rem; border: 1px solid var(--color-border-strong, #909586); border-radius: 6px; color: var(--color-primary, #1e3350); background: var(--color-paper-raised, #ffffff); font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .78rem; line-height: 1.6; text-align: left; cursor: pointer; } .ds-reference-chip:hover { background: var(--color-primary-wash, #e7ecf1); } .ds-reference-number { display: inline-flex; align-items: center; justify-content: center; width: 1.6rem; height: 1.6rem; flex-shrink: 0; border-radius: 4px; color: var(--color-primary, #1e3350); background: var(--color-primary-wash, #e7ecf1); font-size: .76rem; font-weight: 600; font-variant-numeric: tabular-nums; } .ds-reference-chip:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; }"
+    },
+    {
+      "name": "Source Block",
+      "kind": "card",
+      "refersTo": "source-block",
+      "description": "The expanded source treatment; preview copy identifies UI roles rather than quoting law.",
+      "html": "<section class=\"ds-source-block\" data-expanded=\"true\" tabindex=\"0\"><button class=\"ds-source-toggle\" type=\"button\" aria-expanded=\"true\"><span class=\"ds-source-number\">1</span><span><span class=\"ds-source-title\">Recorded source</span><span class=\"ds-source-meta\">Source title and provision locator</span></span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button><p class=\"ds-source-status\">Recorded source · current applicability unreviewed</p><div class=\"ds-source-content\"><h3 class=\"ds-source-heading\">Complete stored provision</h3><p class=\"ds-source-text\">The complete stored legal text remains inspectable. <mark class=\"ds-source-mark\">Cited passages use this highlight.</mark></p></div></section>",
+      "css": ".ds-source-block { border: 1px solid var(--color-primary, #1e3350); border-radius: 12px; background: var(--color-paper-raised, #ffffff); color: var(--color-ink, #1a1a17); overflow: clip; font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); line-height: 1.6; } .ds-source-block:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 3px; } .ds-source-toggle { display: grid; grid-template-columns: auto minmax(0,1fr) auto; gap: .65rem; width: 100%; min-height: 44px; align-items: start; text-align: left; padding: 1rem; background: transparent; color: var(--color-ink, #1a1a17); border: 0; font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: 1rem; cursor: pointer; } .ds-source-toggle:hover { background: var(--color-paper, #f6f7f4); } .ds-source-toggle:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: -4px; } .ds-source-toggle > svg { margin-top: .2rem; transform: rotate(180deg); transition: transform var(--motion-continuity, 260ms) var(--ease-precise, cubic-bezier(.16, 1, .3, 1)); } .ds-source-number { display: inline-flex; align-items: center; justify-content: center; width: 1.6rem; height: 1.6rem; border-radius: 4px; color: var(--color-primary, #1e3350); background: var(--color-primary-wash, #e7ecf1); font-size: .76rem; font-weight: 600; } .ds-source-title { display: block; font-size: .92rem; font-weight: 600; color: var(--color-primary, #1e3350); } .ds-source-meta { display: block; margin-top: .3rem; font-size: .74rem; color: var(--color-ink-soft, #50534b); overflow-wrap: anywhere; } .ds-source-status { margin: 0; padding: 0 1rem 1rem; font-size: .7rem; color: var(--color-caution, #854d0e); } .ds-source-content { margin-inline: 1rem; padding-block: .8rem; border-top: 1px solid var(--color-border, #dcded6); } .ds-source-heading { margin: 1rem 0 0; font-size: .85rem; font-weight: 600; line-height: 1.45; } .ds-source-text { margin: 1.4rem 0 1rem; max-width: 70ch; white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--font-serif, \"Literata\", ui-serif, Georgia, serif); font-size: .85rem; line-height: 1.85; } .ds-source-mark { background: var(--color-caution-wash, #f6e9d7); color: var(--color-ink, #1a1a17); padding-block: .12em; } @media (prefers-reduced-motion: reduce) { .ds-source-toggle > svg { transition: none; } }"
+    },
+    {
+      "name": "Example Question Row",
+      "kind": "custom",
+      "refersTo": "example-question",
+      "description": "A ruled, serif query starter with the observed directional SVG and restrained feedback.",
+      "html": "<button class=\"ds-example-question\" type=\"button\"><span class=\"ds-example-copy\"><span class=\"ds-example-text\">What can I do about unpaid wages?</span><span class=\"ds-example-topic\">Labor</span></span><span class=\"ds-example-action\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></span></button>",
+      "css": ".ds-example-question { width: 100%; display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 1rem; align-items: center; min-height: 78px; padding: .85rem .7rem; border: 0; border-bottom: 1px solid var(--color-border, #dcded6); background: transparent; color: var(--color-ink, #1a1a17); text-align: left; cursor: pointer; transition: background-color var(--motion-feedback, 160ms), color var(--motion-feedback, 160ms); } .ds-example-copy { min-width: 0; } .ds-example-text { display: block; font-family: var(--font-serif, \"Literata\", ui-serif, Georgia, serif); font-size: .98rem; line-height: 1.6; } .ds-example-topic { display: block; margin-top: .35rem; color: var(--color-ink-soft, #50534b); font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .73rem; line-height: 1.6; } .ds-example-action { display: inline-flex; align-items: center; color: var(--color-primary, #1e3350); transition: transform var(--motion-continuity, 260ms) var(--ease-precise, cubic-bezier(.16, 1, .3, 1)); } .ds-example-question:hover, .ds-example-question:focus-visible { background: var(--color-primary-wash, #e7ecf1); color: var(--color-primary, #1e3350); } .ds-example-question:hover .ds-example-action, .ds-example-question:focus-visible .ds-example-action { transform: translateX(4px); } .ds-example-question:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; } @media (prefers-reduced-motion: reduce) { .ds-example-action { transition: background-color 100ms, color 100ms; } .ds-example-question:hover .ds-example-action, .ds-example-question:focus-visible .ds-example-action { transform: none; } }"
+    },
+    {
+      "name": "Report Segments",
+      "kind": "custom",
+      "refersTo": "metric-segment",
+      "description": "The existing paired report selector, showing selected and unselected states.",
+      "html": "<div class=\"ds-metric-segments\" role=\"group\" aria-label=\"Preview classification output\"><button class=\"ds-metric-segment\" type=\"button\" aria-pressed=\"true\">Topic</button><button class=\"ds-metric-segment\" type=\"button\" aria-pressed=\"false\">Coverage</button></div>",
+      "css": ".ds-metric-segments { display: inline-flex; flex-wrap: wrap; align-items: stretch; gap: .2rem; padding: .2rem; background: var(--color-primary-wash, #e7ecf1); border-radius: 5px; } .ds-metric-segment { min-height: 44px; border: 0; border-radius: 3px; padding: .55rem 1rem; font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: .8rem; font-weight: 500; line-height: 1.6; color: var(--color-primary, #1e3350); background: transparent; cursor: pointer; transition: background-color var(--motion-feedback, 160ms), color var(--motion-feedback, 160ms); } .ds-metric-segment:hover { background: var(--color-paper-raised, #ffffff); } .ds-metric-segment[aria-pressed=\"true\"] { color: var(--color-paper-raised, #ffffff); background: var(--color-primary, #1e3350); } .ds-metric-segment:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; } @media (prefers-reduced-motion: reduce) { .ds-metric-segment { transition: none; } }"
+    },
+    {
+      "name": "Saved Question Row",
+      "kind": "custom",
+      "refersTo": "history-row",
+      "description": "Flat history structure, with a readable title and explicit export/delete actions.",
+      "html": "<div class=\"ds-history-row\"><div><a class=\"ds-saved-title\" href=\"#ds-saved\">A saved question</a><p class=\"ds-history-meta\">1 saved response · recorded date</p></div><div class=\"ds-history-actions\"><button class=\"ds-history-action\" type=\"button\">Export JSON</button><button class=\"ds-history-action\" type=\"button\">Delete</button></div></div>",
+      "css": ".ds-history-row { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: .5rem 1.5rem; padding-block: 1.2rem; border-bottom: 1px solid var(--color-border, #dcded6); color: var(--color-ink, #1a1a17); font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); line-height: 1.6; } .ds-saved-title { font-family: var(--font-serif, \"Literata\", ui-serif, Georgia, serif); font-size: 1.15rem; line-height: 1.5; overflow-wrap: anywhere; color: var(--color-primary, #1e3350); text-underline-offset: .2em; } .ds-history-meta { margin: 0; font-size: .8rem; color: var(--color-ink-soft, #50534b); } .ds-history-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem 1rem; } .ds-history-action { display: inline-flex; align-items: center; min-height: 44px; padding: .45rem 0; color: var(--color-primary, #1e3350); background: transparent; border: 0; font-family: var(--font-sans, \"Public Sans\", ui-sans-serif, system-ui, sans-serif); font-size: 1rem; line-height: 1.6; text-decoration: underline; text-underline-offset: .2em; text-align: left; cursor: pointer; } .ds-history-action:hover { text-decoration-thickness: 2px; } .ds-history-action:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; } .ds-saved-title:focus-visible { outline: 3px solid var(--color-primary, #1e3350); outline-offset: 4px; } @media (max-width: 540px) { .ds-history-row { grid-template-columns: minmax(0,1fr); } .ds-history-actions { justify-content: flex-start; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Public Service Reference Desk",
+    "overview": "Recto uses the calm, text-respecting reference-desk character established in the incumbent design guide. A navy masthead frames pale paper, serif questions and legal material, and plain sans-serif controls. The identity belongs to an accessible Philippine labor and consumer information tool; it does not imply government affiliation or professional representation.\n\nThe built system favors readable passages, precise rules and explicit controls over decorative surfaces. Questions, explanations and complete stored provisions have different typographic roles. Evidence stays close to the relevant response; its selection and quoted-text highlight describe a reading relationship, never a new legal approval.",
+    "keyCharacteristics": [
+      "Navy chrome and pale paper, with restrained amber and teal status treatments.",
+      "Literata for headings, questions and quoted legal reading; Public Sans for controls and explanations.",
+      "Flat rows and fine rules, with bounded source accordions where evidence needs containment.",
+      "Deliberate state feedback, visible keyboard focus, and persistent reading preferences."
+    ],
+    "rules": [
+      {
+        "name": "The Evidence Meaning Rule",
+        "body": "Color marks selection, provenance or a disclosed check state. A highlighted passage or selected source never establishes legal currentness or independent approval.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Roles Rule",
+        "body": "Keep quoted legal text distinct from generated explanation and interface chrome; do not make every text surface inherit the serif reading style.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Use tonal ground and rules to distinguish regions; do not add a shadow to every list row or container.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do retain the navy/paper identity and the Literata/Public Sans reading roles.",
+      "Do use fine rules and spacing to structure history, reports and long-form reading.",
+      "Do preserve complete source text, named response context and visible limitations when adding evidence interactions.",
+      "Do keep keyboard focus, enlarged text, high contrast and reduced-motion behavior usable in every added state.",
+      "Do bind component previews to the existing CSS variables so reading preferences remain effective."
+    ],
+    "donts": [
+      "Don't turn citation selection, amber highlighting or the legacy verified token name into a claim of current legal approval.",
+      "Don't add decorative eyebrow labels, gradient lettering, hard offset shadows or a repeated identical-card layout.",
+      "Don't use ornamental load/scroll motion; motion should respond to a control or explain a state change.",
+      "Don't replace the full-width workspace with the superseded global maximum-width rule.",
+      "Don't present generated development checks, availability or estimated provider spending as independent legal-answer accuracy."
+    ]
+  }
+}
