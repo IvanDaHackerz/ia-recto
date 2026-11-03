@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-22T05:11:48.6519312Z",
+  "runtime_matches_current": true,
+  "runtime_signature": "f4b736d24fa6a7674ee88de7b55742640fd56d800e2042cf4323aad3db5509c5",
+  "classifier": "outputs/item10-classifier-v1.5.49",
+  "retrieval": "outputs/item11-retrieval-v1.3.40",
+  "verifier": "item12-verifier-v1.0.47",
+  "development_explanations_enabled": true,
+  "answer_generation_allowed": false
+}

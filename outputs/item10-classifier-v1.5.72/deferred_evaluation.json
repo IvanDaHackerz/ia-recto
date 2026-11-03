@@ -1,0 +1,10 @@
+{
+  "user_requested_deferral": true,
+  "formal_performance_evaluation_pending": true,
+  "metric_presentation_pending": true,
+  "interactive_terminal_testing_pending": true,
+  "independent_human_input_pending": true,
+  "new_accuracy_f1_or_calibration_report_produced": false,
+  "historical_evaluation": "outputs/item13-evaluation-v1.0.1",
+  "original_policy_snapshot_role": "Historical training/threshold policy; current implementation status is in run_manifest.json."
+}

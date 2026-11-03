@@ -1,0 +1,154 @@
+[
+  {
+    "text": "A private manufacturer withheld my overtime pay.",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "labor",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "A municipal employer withheld my overtime pay.",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "predicted_primary": "out_of_scope",
+    "predicted_scope": "unsupported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "The phone I bought from a retail shop broke and the seller refuses its warranty.",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "consumer",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "My mobile phone plan has a disputed service charge.",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "predicted_primary": "out_of_scope",
+    "predicted_scope": "unsupported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "An appliance store charged me for an electric fan repair that was never done.",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "consumer",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "My electricity provider charged me twice on my utility bill.",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "predicted_primary": "out_of_scope",
+    "predicted_scope": "unsupported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "How are minimum wage orders issued for private-sector workers?",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "labor",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "How much is the exact minimum wage in my region now?",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "predicted_primary": "out_of_scope",
+    "predicted_scope": "unsupported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "I am employed by a private company. Please calculate my SSS pension.",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "predicted_primary": "out_of_scope",
+    "predicted_scope": "unsupported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "DTI referred my consumer complaint to a government office.",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "consumer",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "I am not a government employee; my private employer delayed my salary.",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "labor",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "A shop did not deliver my paid order. I want a refund.",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "consumer",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "A store refuses my blender warranty. Separately it published my home address online.",
+    "expected_primary": "mixed",
+    "expected_scope": "partially_supported",
+    "predicted_primary": "mixed",
+    "predicted_scope": "partially_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "A fake online store disappeared with my money. I want a criminal investigation.",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "predicted_primary": "out_of_scope",
+    "predicted_scope": "unsupported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "I am an overseas seafarer. The employer withheld my wages.",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "predicted_primary": "out_of_scope",
+    "predicted_scope": "unsupported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "My private employer owes overtime pay. The retailer refuses to repair my defective toaster.",
+    "expected_primary": "mixed",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "mixed",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "My private employer owes wages. A bank also froze my savings account.",
+    "expected_primary": "mixed",
+    "expected_scope": "partially_supported",
+    "predicted_primary": "mixed",
+    "predicted_scope": "partially_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "My government employer denied my holiday pay.",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "predicted_primary": "out_of_scope",
+    "predicted_scope": "unsupported",
+    "origin": "AI-authored development regression, not independent gold"
+  },
+  {
+    "text": "A retail store sold me a private desk with a broken leg.",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "predicted_primary": "consumer",
+    "predicted_scope": "fully_supported",
+    "origin": "AI-authored development regression, not independent gold"
+  }
+]

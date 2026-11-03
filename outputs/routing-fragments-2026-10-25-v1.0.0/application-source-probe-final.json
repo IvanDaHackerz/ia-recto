@@ -1,0 +1,81 @@
+{
+  "role": "Direct source integration probe while the immutable verifier packet is built; not the public HTTP smoke test",
+  "cases": [
+    {
+      "question": "Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?",
+      "result": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132
+      },
+      "supported_components": 1,
+      "excluded_components": 0,
+      "llm_calls": 0
+    },
+    {
+      "question": "I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?",
+      "result": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132
+      },
+      "supported_components": 1,
+      "excluded_components": 0,
+      "llm_calls": 0
+    },
+    {
+      "question": "Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?",
+      "result": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132
+      },
+      "supported_components": 1,
+      "excluded_components": 0,
+      "llm_calls": 0
+    },
+    {
+      "question": "Five months lang ako sa company bago nagresign. May explanation ba kayo tungkol sa prorated 13th month?",
+      "result": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132
+      },
+      "supported_components": 1,
+      "excluded_components": 0,
+      "llm_calls": 0
+    },
+    {
+      "question": "A shop turned down my applianceee waaarranty claim. Separately, my home insurer deeenied a claaaim under my insurance policy. How do I raise each disputtte?",
+      "result": {
+        "routing_action": "retrieve_supported_components",
+        "reason": "separate_supported_components_require_evidence",
+        "clarification_question": null,
+        "predicted_primary": "mixed",
+        "predicted_scope": "partially_supported",
+        "primary_confidence": 0.8776939685175019,
+        "scope_confidence": 0.8734122921669212
+      },
+      "supported_components": 1,
+      "excluded_components": 1,
+      "llm_calls": 0
+    }
+  ],
+  "llm_calls": 0
+}

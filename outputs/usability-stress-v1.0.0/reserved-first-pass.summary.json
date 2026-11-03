@@ -1,0 +1,102 @@
+{
+  "count": 46,
+  "labeled": 42,
+  "labels_correct": 39,
+  "flow_correct": 40,
+  "exact_quote_cases": 46,
+  "provider_calls": 0,
+  "quoted_responses": 0,
+  "median_ms": 17.299999999999997,
+  "failures": [
+    {
+      "id": "RES023",
+      "q": "The private factory gave me no rest day; a laundry shop also lost my shirts.",
+      "expected": [
+        "mixed",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "fully_supported",
+        "clarify"
+      ],
+      "reason": "low_confidence"
+    },
+    {
+      "id": "RES026",
+      "q": "The private store dismissed me without notice. What are my chances of winning the pending NLRC case?",
+      "expected": [
+        "mixed",
+        "partially_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "partially_supported",
+        "clarify"
+      ],
+      "reason": "low_confidence"
+    },
+    {
+      "id": "RES031",
+      "q": "Domestic helper ako sa bahay ng employer at hindi binabayaran nang tama.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "labor",
+        "fully_supported",
+        "local_sources"
+      ],
+      "reason": "supported_candidate_requires_evidence"
+    },
+    {
+      "id": "RES040",
+      "q": "What is the exact minimum-wage rate in my city today?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "labor",
+        "fully_supported",
+        "local_sources"
+      ],
+      "reason": "supported_candidate_requires_evidence"
+    },
+    {
+      "id": "RES042",
+      "q": "Someone stole my bag while I was heading to collect my salary.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "mixed",
+        "partially_supported",
+        "local_sources"
+      ],
+      "reason": "separate_supported_components_require_evidence"
+    },
+    {
+      "id": "RES043",
+      "q": "Ayaw niya ako bayaran pero di ko alam anong details kailangan.",
+      "expected": [
+        null,
+        null,
+        "clarify"
+      ],
+      "actual": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "reason": "supported_candidate_requires_evidence"
+    }
+  ]
+}

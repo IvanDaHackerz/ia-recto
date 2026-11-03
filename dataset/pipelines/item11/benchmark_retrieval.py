@@ -59,7 +59,7 @@ def main():
         ('partial','A retail store refuses my blender warranty. I have a complaint about my seafarer deployment.'),
         ('mixed_full','My private employer owes overtime pay. A retail store refuses my blender warranty.'),
         ('excluded','I have a complaint about my seafarer deployment.'),
-        ('clarify','My employer has not paid my salary.'),
+        ('clarify','They charged me too much.'),
         ('evidence_gap','When should my private employer release my final pay and COE?'),
     ]
     integration=[]

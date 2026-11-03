@@ -1,0 +1,26 @@
+{
+  "targeted_recheck_ids": [
+    "AI26_001",
+    "AI26_005",
+    "AI26_014",
+    "AI26_019",
+    "AI26_022",
+    "AI26_023",
+    "AI26_024",
+    "AI26_025",
+    "AI26_026",
+    "AI26_027",
+    "AI26_031",
+    "AI26_033",
+    "AI26_047",
+    "AI26_054",
+    "AI26_059",
+    "AI26_062",
+    "AI26_069",
+    "AI26_073",
+    "AI26_077",
+    "AI26_090"
+  ],
+  "role": "Twenty posthoc repair diagnostics from reused synthetic cases; no fresh 100-question or independent evaluation",
+  "selection_reason": "Previously observed semantic failures, all four source-gap fields, mixed/partial and outside-scope controls"
+}

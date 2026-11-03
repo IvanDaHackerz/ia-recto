@@ -1,0 +1,45 @@
+[
+  {
+    "case_id": "EX_NEW_014",
+    "family_id": "EX_NEW_014",
+    "group": "C",
+    "topic": "price_tag",
+    "question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH5_029",
+    "family_id": "PH5_029",
+    "group": "L",
+    "topic": "rest_work",
+    "question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  }
+]

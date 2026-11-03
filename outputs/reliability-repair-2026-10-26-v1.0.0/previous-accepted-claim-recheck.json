@@ -1,0 +1,392 @@
+[
+  {
+    "case_id": "AI26_003",
+    "text": "For any employee covered by the labor rules, if the employer permits or requires work beyond eight (8) hours on a regular working day, the extra time is overtime and must be paid at the employee’s regular wage plus at least twenty‑five percent (25%) of that wage.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_004",
+    "text": "Para sa mga empleyadong sakop ng Labor Code, kung sa isang ordinaryong araw ng trabaho lumagpas ka ng walong (8) oras, dapat kang bayaran ng overtime. Ang overtime pay ay katumbas ng iyong regular na sahod plus hindi bababa sa 25% nito para sa bawat oras na sobra sa 8 oras, kahit na fixed monthly salary ang iyong kinikita.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_005",
+    "text": "Sa private printing company, ang batas ng Labor Code (Omnibus Rules) ay nagsasabing dapat bayaran ang sahod hindi bababa sa dalawang linggo o dalawang beses sa isang buwan, at ang pagitan ng mga payday hindi dapat lumagpas ng labing‑anim (16) na araw, maliban kung may force majeure o ibang pangyayari na wala sa kontrol ng employer. Kaya kung binabayaran lang kayo isang beses kada buwan at ang pagitan ay higit sa 16 araw, hindi ito tugma sa itinakdang minimum.",
+    "new_failure": "Source qualification omitted: payment_frequency_needs_once_every_not_a_minimum_two_week_wait"
+  },
+  {
+    "case_id": "AI26_006",
+    "text": "Ayon sa Omnibus Rules, dapat bayaran ang sahod hindi bababa sa isang beses kada dalawang linggo o dalawang beses sa isang buwan, at hindi lalagpas ng labing‑anim (16) na araw. Kung may force majeure o ibang pangyayari na wala sa kontrol ng employer, pwede itong maantala pero kailangang bayaran agad pag natapos na ang sitwasyon. Kaya kung lagi kayong pinapaabot hanggang susunod na buwan dahil wala pang koleksyon, hindi ito alinsunod sa itinakdang 16‑araw na limitasyon maliban kung talagang may force majeure.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_009",
+    "text": "Employers must prepare a payroll for each employee that individually shows the period being paid, the pay rate (whether per month, week, day or hour), the amount due for regular work, the amount due for overtime work, any deductions made, and the net amount actually paid.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_011",
+    "text": "The general rule is that every employer must give each employee a rest period of at least twenty‑four consecutive hours after six consecutive normal work days. This applies to all employers, whether for profit or not.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_012",
+    "text": "The rule says an employer must honor an employee’s request for a specific weekly rest day when the request is based on religious reasons, as long as the employee notifies the employer in writing at least seven days before the desired start date. However, if granting that religiously‑based rest day would inevitably cause serious prejudice or block the business’s operations and the employer cannot reasonably use other remedies, the employer may instead set the employee’s rest day of its own choosing for at least two days each month.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_014",
+    "text": "Ayon sa Art. 94 ng PD 442, lahat ng manggagawa ay dapat bayaran ng regular na arawang sahod kapag may regular holiday, pero hindi ito para sa mga retail at service establishments na may mas mababa sa sampung (10) empleyado; kung sakaling pinagawa sa holiday, dapat bayaran ng doble ang regular na rate. Kaya kung ang private warehouse mo ay hindi pasok sa exemption (hindi retail/service at hindi <10 workers), dapat pa rin kayong makatanggap ng regular daily wage kahit walang trabaho, at kung pinagawa kayo, doble ang bayad.",
+    "new_failure": "Source qualification omitted: negation_of_combined_holiday_exemption_is_not_two_required_negations"
+  },
+  {
+    "case_id": "AI26_015",
+    "text": "For employees covered by the Labor Code, any time you are late or work fewer hours on one day (undertime) cannot be cancelled out by overtime you do on another day; the employer must still pay the overtime rate for the extra hours worked, regardless of the lateness.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_016",
+    "text": "Sa ilalim ng Art. 88 ng PD 442, kung may undertime ka sa isang araw, hindi puwedeng i‑offset o i‑compensate ito gamit ang overtime na ginawa mo sa ibang araw; ang overtime ay dapat bayaran pa rin nang hiwalay. Kahit binigyan ka ng permiso na mag‑leave sa ibang araw, hindi ito excuse para hindi bayaran ng employer ang karagdagang overtime pay na nararapat ayon sa batas.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_017",
+    "text": "Sa probasyon, obligadong ipaalam ng employer sa empleyado ang mga pamantayan kung saan siya magiging regular. Ibig sabihin, dapat mong malaman agad sa simula kung ano ang inaasahan—halimbawa, performance metrics o skill requirements—para malaman mo kung pasado ka o hindi pag natapos ang probasyon. Hindi puwedeng ipagpaliban ang pagbigay ng standards hanggang sa huling araw ng probasyon.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_019",
+    "text": "Ang seasonal exception ay nagsasaad na kung ang trabaho ay “seasonal in nature,” itinuturing itong regular employment lamang para sa tagal ng season; ibig sabihin, ang employment ay nagtatapos kapag natapos na ang season kung kailan kailangan ang trabaho.",
+    "new_failure": "Source qualification omitted: seasonal_exception_does_not_automatically_assign_regular_status"
+  },
+  {
+    "case_id": "AI26_020",
+    "text": "Under the Labor Code, a worker cannot be dismissed unless there is a just or authorized cause and the employer follows due process; the law does not allow an immediate termination without giving the employee the chance to be heard. The just causes include serious misconduct, willful disobedience, gross neglect, fraud, or similar offenses, but any dismissal must still observe the required procedural safeguards.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_021",
+    "text": "For a permanent closure, the employer must serve a written notice on the workers and the Ministry of Labor and Employment at least one month before the intended date; the rule that allows closure only when it is not done to circumvent labor‑law provisions is a separate limitation and does not waive the notice requirement. If the closure is not caused by serious business losses or financial reverses, the workers are entitled to separation pay equal to either one month’s salary or at least one‑half month’s salary for each year of service, whichever is higher, and any service fraction of six months or more counts as a full year.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_022",
+    "text": "For a regular employee, the law says the employer may not fire the worker unless there is a just cause or a cause that the Labor Code specifically authorizes, and the dismissal must follow due‑process requirements. If the termination does not meet those conditions, the employee is considered unjustly dismissed and may seek reinstatement with full back‑wages and benefits.",
+    "new_failure": "Source qualification omitted: cause_procedure_and_unjust_dismissal_remedies_are_distinct_conditions"
+  },
+  {
+    "case_id": "AI26_028",
+    "text": "Wages must be paid in legal tender; using tokens, vouchers or any form that pretends to be money is absolutely prohibited, and an employer may not limit how an employee disposes of his wages or force him to shop at the company store.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_029",
+    "text": "Para sa mga covered na empleyado (hindi kabilang ang mga exempted sa Section 2), kung pinapasok ka sa scheduled rest day na hindi regular holiday, dapat kang bayaran ng premium pay na hindi bababa sa 30% ng regular na sahod mo, bukod sa ordinary daily rate. Ibig sabihin, may dagdag na 30% ng iyong regular na sweldo para sa araw na iyon.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_031",
+    "text": "Under Art. 68, a consumer can enforce warranty rights simply by presenting the warranty card or receipt to the immediate seller; no other documents are required. If the immediate seller is the manufacturer’s factory/showroom or a distributor, they must honor the warranty right away. When the seller is an ordinary retailer, the retailer must, at no cost to the buyer, forward the claim to the distributor, and is only subsidiarily liable for the warranty if both the manufacturer and distributor fail to comply.",
+    "new_failure": "Source qualification omitted: warranty_presentment_keeps_the_product_with_card_or_receipt"
+  },
+  {
+    "case_id": "AI26_032",
+    "text": "Kung may depekto ang produkto (hal., sira agad ang switch) at hindi ito naayos ng supplier sa loob ng tatlumpung (30) araw, may karapatan ang mamimili na pumili ng isa sa mga alternatibo: palitan ang produkto ng kapareho nitong nasa maayos na kondisyon; ibalik ang buong halagang binayaran na may monetary updating; o kaya’y ibawas ang presyo nang proporsyonal. Ang supplier ay mananagot sa nasabing depekto.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_032",
+    "text": "Para mag-claim ng warranty, kailangan mo lang ipakita ang warranty card o resibo at ang produkto sa mismong nagbenta. Walang ibang dokumentong pwedeng hingin. Kung retailer ang nagbenta, obligadong ipasa niya ang claim sa distributor nang walang bayad sa buyer, at kung parehong hindi tumugon ang manufacturer at distributor, subsidiarily liable ang retailer at dapat sagutin ang gastos para ma‑honor ang warranty.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_033",
+    "text": "Pwede mong i-claim ang warranty basta ipakita mo ang warranty card o resibo mismo sa retailer kung saan mo binili ang microwave; hindi na kailangan ng iba pang papeles. Ang retailer ay dapat ipasa ang claim mo sa distributor nang walang bayad sa'yo. Kung sakaling parehong hindi tumugon ang manufacturer at distributor, subsidiarily liable ang retailer at kailangang sagutin ang gastos para maayos o mapalit ang produkto.",
+    "new_failure": "Source qualification omitted: warranty_presentment_keeps_the_product_with_card_or_receipt"
+  },
+  {
+    "case_id": "AI26_034",
+    "text": "When a consumer product covered by an express warranty has a defect, the law allows the buyer to choose either a refund or a replacement, as long as the seller has been given a reasonable opportunity to repair it. The repair must be finished within thirty days unless factors beyond the seller’s control cause a delay. If the defect persists after those reasonable repair attempts, the consumer may elect the refund or replacement without charge.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_035",
+    "text": "Sa ilalim ng Art. 100 ng RA 7394, ang supplier ng consumer product ay mananagot kung may imperpeksiyon na nagiging hindi angkop o bumababa ang halaga ng produkto, tulad ng nawawalang locking pin ng folding chair. Kapag hindi naayos ang problema sa loob ng 30 araw, pwede mong piliin na palitan ang produkto ng kapareho nitong nasa maayos na kondisyon, ibalik ang bayad mo na may monetary updating, o humingi ng proportionate price reduction. Kung ang pag‑replace ng parte ay makakasira pa sa kalidad, pwede mo nang agad gamitin ang isa sa mga opsyon.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_036",
+    "text": "Under Republic Act No. 7394, a manufacturer, producer or importer is liable for any damage caused by a product that is defective—that is, when the product does not provide the safety a consumer reasonably expects based on its presentation, its intended use and hazards, and the time it was put into circulation. The liability disappears if the party can show it never placed the product on the market, the product had no defect, or the consumer or a third party was solely at fault. Moreover, the appropriate department may order the recall, prohibition or seizure of a product found to be injurious, unsafe or dangerous, and the ban remains until safety can be assured.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_037",
+    "text": "Under Republic Act No. 7394, Article 110, it is unlawful for anyone to spread an advertisement that is false, deceptive or misleading. An ad is considered false or misleading when it does not comply with the Act or when it misleads in a material way, such as by stating a power‑bank capacity that differs from the capacity shown on the packaging. In deciding if an ad is misleading, the law looks at the claims made and whether the ad fails to disclose material facts that a reasonable consumer would need to know.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_038",
+    "text": "Sa ilalim ng Consumer Act, bawal ang mag‑represent ng produkto na “new, original or unused” kung ito pala ay “deteriorated, altered, reconditioned, reclaimed or second‑hand.” Ibig sabihin, kung sinabing brand‑new ang phone pero ito ay refurbished, ito ay itinuturing na deceptive sale practice dahil nagbigay ng maling representasyon tungkol sa kalagayan ng produkto.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_039",
+    "text": "The Consumer Act prohibits a seller from using a deceptive practice that creates a false price advantage – that is, when a consumer is led to think the displayed total is the full price but the seller later adds a charge that was not disclosed. Such an act is deemed deceptive whether it occurs before, during, or after the transaction.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_040",
+    "text": "The law makes it illegal to sell any consumer product for a higher price than the amount shown on its price tag, label or any publicly displayed price indication, and the same price must apply to all buyers. If a product is too small or cannot realistically carry a tag, a price list placed at the nearest point where the items are displayed may be used instead of a tag.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_041",
+    "text": "Where a product is too small or impractical to have its own tag, the law allows a price list placed at the nearest point of display to serve as the required price indication, but the seller may not charge a price higher than the amount shown on that list; the price shown must be the final selling price for all buyers.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_042",
+    "text": "Under Republic Act No. 10909, Sec. 4, a business establishment is required to give the exact change to the consumer without waiting for the consumer to ask, and it is unlawful to shortchange a consumer or to provide change in any form other than the present currency.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_043",
+    "text": "Ayon sa No Shortchanging Act (RA 10909) Sec. 4(a), bawal sa anumang negosyo ang mag‑shortchange ng consumer kahit maliit lang ang halaga; hindi rin puwedeng hingin ng establisyemento na “wala kaming barya” o mag‑ask ng permiso para hindi ibigay ang eksaktong sukli (Sec. 4(b)). Kapag lumabag, dapat bayaran ng establisyemento ang kabuuang halagang hindi naibigay, ayon sa Department Administrative Order No. 16‑03 Section 2, bukod pa sa multa. Kaya kung kulang ka ng P4, may karapatan kang hingin ang buong P4 at maaaring ipataw ang parusa sa tindahan.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_044",
+    "text": "Under the Consumer Act, a service provider is responsible if the service has a quality flaw that makes it unsuitable or lowers its value, or if it differs from what was advertised. The consumer can choose to have the service redone at no extra charge, get a full refund with monetary updating, or receive a proportional price cut. The provider may also have a qualified third party redo the service, bearing all risk and cost. Services that are not fit for the reasonable purpose expected are considered improper.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_045",
+    "text": "Sa ilalim ng RA 7394 Art. 102, kung ang service provider (repair shop) nagbigay ng serbisyo na may depekto o hindi tugma sa inaasahan, liable siya. Bilang consumer, pwede kang pumili ng isa sa mga opsyon: ipagawa ulit ang repair nang walang dagdag na bayad, ibalik agad ang perang binayad (may monetary updating), o bawasan ang presyo nang proporsyonal. Kung gusto mong ipagawa sa ibang qualified na third party, pwede rin ‘yan pero sagot pa rin ng supplier ang gastos.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_046",
+    "text": "If the online merchant delivers a plastic box instead of the stainless pot, the consumer may demand repair, replacement, refund, or any other remedy allowed under the Consumer Act and RA 7394. When the consumer chooses replacement or refund, the merchant can ask for the original item back at no cost to the consumer, and must give a reasonable time to return it unless the parties agreed otherwise. If a refund has already been paid but the consumer cannot return the wrong item because of their fault, the consumer must immediately give back the refund amount, possibly reduced proportionally.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_047",
+    "text": "The law requires that a buyer who is dissatisfied with a product on a digital marketplace must first use the platform’s internal complaint system before taking the matter to court or any government agency, and the platform can consider the internal process finished only if the complaint is still not resolved after seven calendar days from when it was filed.",
+    "new_failure": "Source qualification omitted: unresolved_redress_deemed_exhausted_is_not_the_only_process_completion"
+  },
+  {
+    "case_id": "AI26_048",
+    "text": "If the backpack you got is not the one you ordered, you may seek repair, replacement, or a refund. When you opt for a replacement or a refund, the online seller can require you to return the original item, and you do not bear the cost of returning it, provided you do so within a reasonable period unless you and the seller have agreed on a different arrangement.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_049",
+    "text": "When a seller or manufacturer gives an express warranty, the law says the warranty must be set out in clear, understandable language, identify the warrantor, name the party receiving it, describe the covered products or parts, explain what the warrantor will do (and at whose expense) if a defect occurs, tell the consumer what they must do to claim it, and state the period within which the warrantor will act after notice.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_050",
+    "text": "Suppliers of consumer products are jointly liable for imperfections that make the product unfit or reduce its value. If the imperfection is not corrected within thirty (30) days – or within a period the parties may agree to, provided it is not less than seven (7) days nor more than one hundred and eighty (180) days – the consumer may, at his option, demand either a replacement of the same kind in perfect condition, an immediate refund of the amount paid with monetary updating, or a proportionate price reduction.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_050",
+    "text": "A consumer may file a petition or a letter‑complaint with the Department of Trade and Industry, which may then start an investigation. The consumer arbitration officer conducts a hearing, gives notice of date, time and place, and first tries to settle the dispute; if settlement fails, the officer proceeds to formally investigate, hear and decide the case. The complaint must be decided within fifteen (15) days from the end of the investigation.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_053",
+    "text": "Kung ang seller nag‑claim na ang gadget ay bagong‑bago (new, original o unused) pero meron pala itong repair marks, lumang account, o ibang senyales na ito ay na‑recondition o second‑hand, ito ay itinuturing na deceptive sale under RA 7394 Art. 50 because the seller misrepresented the product’s condition as new when it is actually altered or used.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_054",
+    "text": "Where a business establishment gives change in any form other than legal tender or asks the consumer’s permission to substitute cash with another item, the act is unlawful under the Consumer Act. If the establishment refuses to give the cash change owed, the Department of Trade and Industry Administrative Order requires it to pay the full amount of the shortchanged change to the complainant, in addition to any fine that may be imposed.",
+    "new_failure": "Source qualification omitted: authority_title_not_established_by_cited_source"
+  },
+  {
+    "case_id": "AI26_055",
+    "text": "A consumer can enforce a warranty simply by presenting the warranty card or receipt and the product to the immediate seller; the seller must honor the warranty on the spot if it is the manufacturer’s factory or showroom. If the immediate seller is a retailer that is not the distributor, the retailer must forward the claim to the distributor on the buyer’s behalf at no cost to the buyer.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_056",
+    "text": "Under Art. 100, if a supplier does not fix an imperfection within thirty days, the consumer can choose one of three remedies: a replacement of the same kind in perfect condition; an immediate refund of what was paid, updated for inflation and without prejudice to other damages; or a proportional reduction of the price. The parties may agree to shorten or extend the 30‑day period, but it cannot be less than seven or more than 180 days. The consumer may also use any of these remedies right away when fixing the defect would risk further damage.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_057",
+    "text": "Where a seller represents that a consumer product has characteristics it does not actually have—such as claiming a printer has wireless connectivity when the delivered model lacks that feature—the act is deemed a deceptive sales practice under the Consumer Act. The law prohibits false representation of a product’s performance, characteristics, or accessories, making the seller liable for the misrepresentation.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_058",
+    "text": "Sa ilalim ng RA 7394 Art. 81, bawal mag‑sell ng consumer product kung walang tamang price tag o label na nagpapakita ng presyo, at hindi puwedeng singilin ang mamimili ng mas mataas kaysa nakasaad doon. Dagdag pa ng Art. 83, hindi pinapayagan ang anumang pag-erase o pagbabago sa price tag, label, o marking. Kaya kung ang produkto ay naka‑display na may price tag pero ang resibo ay may ibang presyo, ang presyo sa tag ang dapat sundin; ang sinasabing “updated raw price” pero hindi pa napapalitan ang tag ay labag sa batas.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_059",
+    "text": "Under RA 7394 Art. 68, a consumer can enforce a warranty simply by presenting the warranty card or receipt to the immediate seller; no other paperwork is required. When the immediate seller is a retailer (i.e., not the distributor), the retailer must, at no cost to the buyer, forward the claim to the distributor on the consumer’s behalf. The retailer is only subsidiarily liable if both the manufacturer and the distributor fail to honor the warranty.",
+    "new_failure": "Source qualification omitted: warranty_presentment_keeps_the_product_with_card_or_receipt"
+  },
+  {
+    "case_id": "AI26_060",
+    "text": "When an online consumer gets the wrong shoe size, the law lets them seek repair, replacement, refund or other remedies. If they choose replacement or a refund, the merchant may require the original shoes to be sent back, but the consumer bears no cost and the return must be made within a reasonable period unless the parties have agreed otherwise.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_061",
+    "text": "Wages must be paid at least once every two weeks or twice a month, with intervals not exceeding sixteen (16) days, unless a force‑majeure event or circumstances beyond the employer’s control make such regularity impossible; in that case payment must be made immediately after the event or circumstance ends.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_061",
+    "text": "To enforce a warranty, the buyer only needs to present the warranty card or official receipt together with the product to the immediate seller; no other documents may be required. If the immediate seller is the manufacturer’s factory or showroom, it must honor the warranty right away. When the immediate seller is a retailer other than the distributor, the retailer must forward the claim to the distributor at no cost to the buyer and will shoulder the expenses if both the manufacturer and distributor fail to honor the warranty.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_062",
+    "text": "It is unlawful to sell a consumer product at a price higher than the price shown on a publicly displayed tag, label or price list, and if a product is too small or impractical to tag, a price list placed at the nearest point of display may be used instead.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_063",
+    "text": "Wages must be paid at least once every two weeks—or twice a month—so that the interval between payments does not exceed sixteen days, unless a force‑majeure event or circumstances beyond the employer’s control make such regularity impossible; in that case the employer must pay the wages immediately after the event ends.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_063",
+    "text": "When an online purchase is defective or the wrong item is delivered, the consumer may seek repair, replacement, or refund; if the consumer opts for replacement or refund, the merchant is entitled to have the original goods returned at no cost to the consumer within a reasonable period.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_065",
+    "text": "Ayon sa Omnibus Rules, dapat bigyan ng employer ang mga empleyado ng hindi bababa sa 24 na sunud-sunod na oras na pahinga pagkatapos ng anim na magkasunod na normal na araw ng trabaho. Ibig sabihin, kahit anong uri ng negosyo, kailangan may isang buong araw na walang trabaho kada linggo.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_065",
+    "text": "Sa ilalim ng RA 7394, Art. 97, ang sinumang gumagawa, nagpo‑produce, o nag‑import ng produkto ay mananagot sa pinsalang dulot ng depektibong produkto kahit walang pagkakamali, basta ang depekto ay mula sa disenyo, paggawa, pag‑assemble, o kulang na impormasyon tungkol sa paggamit at panganib nito.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_066",
+    "text": "Under the Labor Code, an employer cannot make up for overtime pay by giving the employee leave on another day; the extra compensation for overtime must still be paid even if the employee is granted leave. Also, any undertime worked on one day cannot be cancelled out by overtime worked on a different day.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_066",
+    "text": "The No Shortchanging Act requires a business to give the exact cash change to a consumer and makes it unlawful to give change in any form other than legal tender. Giving sweets instead of the cash amount owed is therefore a prohibited shortchange, and the establishment must pay the amount of change owed to the complainant.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_067",
+    "text": "For a private manufacturer to dismiss a worker, the law requires that dismissal be for a just or authorized cause and that the worker be given due process, which includes a reasonable chance to answer the allegations and be heard with a representative if desired.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_067",
+    "text": "A seller who represents a refurbished laptop as new commits a deceptive act under the Consumer Act because it falsely claims the product is new, original, or unused when it is actually reconditioned or second‑hand.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_068",
+    "text": "The law makes it illegal to publish an advertisement that is false, deceptive, or misleading. If a blender is marketed with a feature that it does not actually have, the ad is considered deceptive because it misleads consumers about a material aspect of the product.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_069",
+    "text": "When a private factory decides to shut down permanently, the employer may terminate employees, but must first give a written notice to the workers and the Department of Labor and Employment at least one (1) month before the intended closure date; a closure aimed at evading labor‑law provisions is not allowed. If the shutdown is not caused by serious business losses, the workers are entitled to separation pay of either one (1) month’s salary or at least half a month’s salary for each year of service, whichever is higher, with any fraction of six (6) months counted as a full year.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_069",
+    "text": "To enforce a warranty, the buyer only needs to present the warranty card or official receipt to the immediate seller; no other documents may be demanded. The retailer is only subsidiarily liable if both the manufacturer and the distributor fail to honor the warranty, in which case the retailer must cover the costs of repair or replacement. Any agreement that tries to deny the warranty because the item was bought at a discount is void, because all stipulations contrary to the warranty provisions of RA 7394 have no legal effect.",
+    "new_failure": "Source qualification omitted: warranty_presentment_keeps_the_product_with_card_or_receipt"
+  },
+  {
+    "case_id": "AI26_070",
+    "text": "Wages must be paid in legal tender; the use of vouchers, coupons or any token in place of money is absolutely prohibited, and an employer may not require employees to spend their wages at a particular store or otherwise limit how they use their pay.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_070",
+    "text": "A service provider is liable for any quality defect that makes the service improper or reduces its value; the consumer may demand the service be performed again at no extra cost, a full refund with monetary updating, or a proportional price reduction.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_071",
+    "text": "Under the Omnibus Rules, private employers must pay wages at least once every two weeks or twice a month, meaning the interval between payments cannot be longer than sixteen days, unless a force‑majeure event or circumstances beyond the employer’s control prevent regular payment, in which case the employer must pay immediately after the event ends.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_072",
+    "text": "For any employee covered by the Omnibus Rules, if they work more than eight (8) hours on an ordinary workday, they must receive overtime pay equal to their regular wage plus at least twenty‑five percent (25%) of that wage for the extra hours.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_073",
+    "text": "Where the employer is in a trade, occupation or business where making deductions for loss or damage to tools, materials, or equipment supplied by the employer is a recognized practice, the employer may deduct wages only if (a) the employee is clearly shown to be responsible for the loss or damage, (b) the employee is given a reasonable opportunity to show cause why the deduction should not be made, (c) the amount is fair, reasonable and does not exceed the actual loss, and (d) the deduction does not exceed 20 % of the employee’s weekly wages. Because the employer deducted without giving the employee a hearing, condition (b) was not satisfied, making the deduction unlawful.",
+    "new_failure": "Source qualification omitted: reported_absence_of_hearing_does_not_adjudicate_opportunity_or_deduction"
+  },
+  {
+    "case_id": "AI26_075",
+    "text": "For a consumer product, it is unlawful for a store to charge a checkout price that exceeds the price shown on the tag, label, or any publicly displayed price indication; the sale price must not be higher than the displayed price and must apply equally to all buyers. If the item is too small or its nature makes a tag impractical, a price list placed at the nearest point where the products are displayed may be used instead, but the checkout price still cannot exceed the price shown on that list.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_076",
+    "text": "If the rice cooker you received is defective and the problem is not caused by you, the law gives you the right to ask the online merchant for repair, replacement, refund or any other remedy under the Consumer Act. When you choose replacement or refund, the merchant may ask you to send back the original cooker at no cost to you, and must do so within a reasonable time unless you both agree on a different period. My explanation stops at these statutory consumer remedies; it does not cover any steps beyond the merchant’s return requirement or any other dispute‑resolution processes.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_078",
+    "text": "Under the Consumer Act, a seller’s act is deceptive when they represent a product as new, original or unused while it is actually reconditioned, altered, or second‑hand; selling a repaired phone as brand‑new falls squarely within that prohibited representation.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_079",
+    "text": "Wages must be paid at least once every two weeks or twice a month, and the payment must be in legal tender; an employer cannot withhold wages unless a force‑majeure event or other circumstance beyond its control stops regular payment, in which case payment is required immediately after the event ends.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_079",
+    "text": "It is unlawful for a business establishment to give insufficient change to a consumer, and if it does so, the establishment must pay the complainant the exact amount of change that was shortchanged, in addition to any fine imposed.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_080",
+    "text": "For any employee covered by the Omnibus Rules, if they are permitted or required to work more than eight (8) hours on an ordinary working day, the employer must pay overtime. The overtime pay equals the employee’s regular wage plus at least twenty‑five percent (25%) of that wage for the extra hours worked.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_080",
+    "text": "A consumer can enforce a warranty by presenting the warranty card or receipt and the product to the immediate seller, and no other documents are required. If the immediate seller is the manufacturer’s factory or showroom, the warranty must be honored right away; if it is a distributor, the distributor must also honor it immediately. When the seller is a retailer (not the distributor), the retailer must forward the claim to the distributor at no cost to the buyer.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_082",
+    "text": "If an online shop delivers broken headphones, the consumer may, under Republic Act No. 11967 Sec. 20, demand repair, replacement, or refund because the defect is not the consumer’s fault. When the consumer chooses replacement or refund, the merchant can ask for the return of the original headphones at no cost to the consumer, as long as the return is made within a reasonable period unless the parties agree otherwise. Moreover, Republic Act 7394 Art. 100 provides that if the seller does not correct the imperfection within thirty days, the consumer may at his option request a perfect replacement, a full reimbursement with monetary updating, or a proportionate price reduction.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_083",
+    "text": "Under the Omnibus Rules, a private employer may dismiss a worker only for a just or authorized cause and must follow due process; this means the worker must be given a written notice of the specific grounds for dismissal and a reasonable chance to answer the allegations and be heard, with a representative if desired, before the dismissal takes effect.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_084",
+    "text": "Under the Consumer Act, the shop that supplied the induction cooker is jointly liable for any quality defect that makes the product unfit for its intended use. If the defect is not fixed within thirty (30) days, the buyer may choose either a replacement of the same kind in perfect condition, a full refund with monetary updating, or a proportionate price reduction. The 30‑day period can be altered by agreement, but it may not be reduced below seven (7) days nor extended beyond one hundred and eighty (180) days.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_085",
+    "text": "If a private employer does not pay wages on schedule, the rule says wages must be paid at least every two weeks or twice a month, with intervals not exceeding 16 days, unless a force‑majeure event or other circumstances beyond the employer’s control prevent it; in such cases the employer must pay the wages immediately after the event ends.",
+    "new_failure": null
+  },
+  {
+    "case_id": "AI26_085",
+    "text": "When an online merchant delivers the wrong product, the consumer may demand repair, replacement, or refund; if the consumer chooses replacement or refund, the merchant is entitled to have the original (incorrect) goods returned at no cost to the consumer within a reasonable period, unless the parties have agreed otherwise.",
+    "new_failure": null
+  }
+]

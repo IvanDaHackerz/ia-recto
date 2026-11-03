@@ -1,0 +1,42 @@
+{
+  "count": 40,
+  "labeled": 36,
+  "labels_correct": 35,
+  "flow_correct": 39,
+  "exact_quote_cases": 40,
+  "provider_calls": 0,
+  "quoted_responses": 0,
+  "median_ms": 15.35,
+  "failures": [
+    {
+      "id": "FINAL023",
+      "q": "The store sold me a defective phone; the mobile network also charged an unauthorized data-plan fee.",
+      "expected": [
+        "mixed",
+        "partially_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "reason": "supported_candidate_requires_evidence"
+    },
+    {
+      "id": "FINAL040",
+      "q": "Can I ask about something that happened yesterday?",
+      "expected": [
+        null,
+        null,
+        "clarify"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "reason": "recognized_excluded_concern"
+    }
+  ]
+}

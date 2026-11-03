@@ -1,0 +1,10 @@
+{
+  "verifier": "item12-verifier-v1.0.30",
+  "explanations_enabled": true,
+  "classifier": "outputs/item10-classifier-v1.5.36",
+  "retrieval": "outputs/item11-retrieval-v1.3.23",
+  "normalizer_configured": true,
+  "project": "recto-local-ia",
+  "runtime_matches_current": true,
+  "status": "ready"
+}

@@ -8,6 +8,11 @@ from backend.evaluate_local_pipeline import prepare, execute, sha, family_interv
 
 
 class LocalEvaluationTests(unittest.TestCase):
+    def test_domain_coverage_is_a_set_not_an_ordered_label_list(self):
+        from backend.normalization_metrics import assess
+        case={'source_case':{'expected_primary':'mixed','expected_scope':'fully_supported','expected_route':'retrieve_supported_components','expected_domains':['labor','consumer'],'relevant_ids':[],'concerns':[],'retrieval_judgment':'unjudged'}}
+        packet={'result':{'routing':{'routing_action':'retrieve_supported_components','predicted_primary':'mixed','predicted_scope':'fully_supported'},'components':[{'allowed_domain':d,'candidates':[]} for d in ['consumer','labor']]}}
+        self.assertTrue(assess(case,packet)['domain_correct'])
     def test_prepare_freezes_existing_inputs_and_joined_regressions(self):
         with tempfile.TemporaryDirectory(prefix="local-eval-test-", dir=ROOT / "tmp") as folder:
             self.assertTrue(Path(folder).resolve().is_relative_to((ROOT / "tmp").resolve()))

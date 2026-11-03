@@ -1,0 +1,9 @@
+AI26_019 generated citations_and_automated_support_checked 16734 ms
+AI26_025 withheld citation_validation_failed 10140 ms
+AI26_026 generated citations_and_automated_support_checked 18484 ms
+AI26_031 generated citations_and_automated_support_checked 23296 ms
+AI26_047 generated citations_and_automated_support_checked 6688 ms
+AI26_069 partially_generated supported_parts_checked 44547 ms
+AI26_073 withheld citation_validation_failed 25672 ms
+AI26_077 withheld citation_validation_failed 12969 ms
+Summary: {"input_forms": 8, "pending": 0, "errors": {}, "explanation_status": {"generated": 4, "withheld": 3, "partially_generated": 1}, "non_generated_reasons": {"citation_validation_failed": 3}, "failure_codes": {}, "validation_failures": {"numeric_detail_not_in_source": 3}, "latency_ms": {"p50": 17609.00000000038, "p95": 37940.75000000102, "maximum": 44547.0000000023}, "usage": {"day_utc": "2026-10-26", "provider_requests": 61, "estimated_usd": 0.0620073, "input_tokens": 209936, "output_tokens": 37043, "maximum_calls": 80, "maximum_estimated_usd": 0.15, "billing_verified": false}}

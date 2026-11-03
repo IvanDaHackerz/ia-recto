@@ -10,6 +10,109 @@ from retrieval import LegalRetriever
 INDEX=None
 
 class RetrievalTests(unittest.TestCase):
+    def test_specific_issue_wins_over_incidental_wage_and_product_words(self):
+        checks=[
+            ('Our private employer offsets overtime against undertime on another day.','labor','LAB_CODE_2022__art_88'),
+            ('Our private office chooses a rest day that conflicts with a religious preference.','labor','LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4'),
+            ('A private contractor hired a worker for a project without defining its scope at engagement.','labor','LAB_CODE_2022__art_295'),
+            ('A grocery charges above its posted price label.','consumer','RA_7394_1992__art_81'),
+        ]
+        for query,domain,expected in checks:
+            with self.subTest(query=query):
+                hits=self.retriever.search(query,domain,'bm25',5)['hits']
+                self.assertIn(expected,{h['provision_id'] for h in hits})
+                self.assertFalse(any('deceased' in h['heading'].lower() or 'arbitration' in h['heading'].lower() for h in hits))
+
+    def test_procedural_question_does_not_reintroduce_an_overtime_facet(self):
+        hits=self.retriever.search('I have an overtime dispute with a private company. Can you explain the basic labor complaint and referral process without filing a case for me?','labor','bm25',3)['hits']
+        self.assertTrue(hits)
+        self.assertFalse(any(h['provision_id'] in {'LAB_CODE_2022__art_87','LAB_IRR_1989__rule_i_hours_of_work__section_8'} for h in hits))
+        self.assertTrue(any('conciliation' in h['heading'].lower() or 'conciliat' in h['provision_id'] for h in hits))
+    def test_deduction_hearing_is_not_a_dismissal_hearing(self):
+        hits=self.retriever.search('A private shop deducts breakages from my salary without hearing me.','labor','bm25',5)['hits']
+        self.assertIn('LAB_IRR_1989__rule_viii_payment_of_wages__section_14',{h['provision_id'] for h in hits})
+        self.assertFalse(any('termination_of_employment' in h['provision_id'] for h in hits))
+
+    def test_religious_rest_preference_is_not_only_a_generic_schedule(self):
+        hits=self.retriever.search('A private employer schedules my weekly rest day but I have a religious preference. What does the recorded scheduling rule require the employer to consider?','labor','bm25',3)['hits']
+        self.assertIn('LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4',{h['provision_id'] for h in hits})
+
+    def test_internal_platform_complaint_is_not_a_platform_development_deadline(self):
+        hits=self.retriever.search('For an ordinary online retail dispute, what platform complaint steps are recorded before the buyer escalates to a government office?','consumer','bm25',5)['hits']
+        self.assertTrue(hits)
+        self.assertTrue(any('internal redress' in h['heading'].lower().replace('lnternal','internal') for h in hits))
+        self.assertNotIn('RA_11967_2023__sec_17',{h['provision_id'] for h in hits})
+
+    def test_project_and_closure_queries_retrieve_their_actual_frameworks(self):
+        project=self.retriever.search('For a private construction employer, what needs to be identified when a worker is hired for a particular project?','labor','bm25',5)['hits']
+        self.assertIn('LAB_CODE_2022__art_295',{h['provision_id'] for h in project})
+        closure=self.retriever.search('My private employer says the business is closing and has sent a termination letter. What general authorized-cause framework should I inspect?','labor','bm25',5)['hits']
+        self.assertEqual(closure[0]['provision_id'],'LAB_CODE_2022__art_298')
+
+    def test_opportunity_to_answer_retrieves_procedure_instead_of_rest_or_disease(self):
+        hits=self.retriever.search('A private hotel dismissed a receptionist. The worker was given no chance to explain. What procedural safeguards can be described generally?','labor','bm25',5)['hits']
+        self.assertTrue(any('answer and hearing' in h['heading'].lower() or 'notice of dismissal' in h['heading'].lower() for h in hits))
+        self.assertNotIn('LAB_CODE_2022__art_299',{h['provision_id'] for h in hits})
+
+    def test_quality_and_cash_change_paraphrases_keep_relevant_regimes(self):
+        quality=self.retriever.search('A retail shop sold me a defective fan. No injury occurred.','consumer','bm25',5)['hits']
+        self.assertIn('RA_7394_1992__art_100',{h['provision_id'] for h in quality})
+        self.assertFalse(any(h['provision_id'] in {'RA_7394_1992__art_97','RA_7394_1992__art_99'} for h in quality))
+        change=self.retriever.search('After a cash purchase, the cashier gave sweets instead of the remaining coins.','consumer','bm25',5)['hits']
+        self.assertTrue(any('10909' in h['document_id'] for h in change))
+        order=self.retriever.search('Online retail purchase: distinguish a change of mind from delivery of a nonconforming item.','consumer','bm25',5)['hits']
+        self.assertFalse(any('10909' in h['document_id'] for h in order))
+
+    def test_short_change_and_price_tag_queries_keep_distinct_evidence(self):
+        hits=self.retriever.search('The grocery kept my change.','consumer','bm25',5)['hits']
+        self.assertTrue(hits)
+        self.assertTrue(any('10909' in h['document_id'] for h in hits))
+        self.assertFalse(any(h['provision_id'] in {'RA_7394_1992__art_81','RA_7394_1992__art_83'} for h in hits))
+        price=self.retriever.search('The store charged above the displayed price tag.','consumer','bm25',5)['hits']
+        self.assertIn('RA_7394_1992__art_81',{h['provision_id'] for h in price})
+        online=self.retriever.search('I want to change my online order because the retailer sent the wrong item.','consumer','bm25',5)['hits']
+        self.assertTrue(online)
+        self.assertFalse(any('10909' in h['document_id'] for h in online))
+
+    def test_required_meeting_time_cannot_be_answered_with_an_overtime_rate_alone(self):
+        from query_relevance import source_relevance,needs_worked_time_definition
+        query='Private company employee. The required meeting is off the clock. Does it count as working time?'
+        self.assertTrue(needs_worked_time_definition(query))
+        for heading in ['Normal Hours of Work','Overtime Work','Undertime Not Offset by Overtime','Time of payment','Regular and casual employment']:
+            with self.subTest(heading=heading):
+                self.assertEqual(source_relevance(query,'labor',{'heading':heading,'parent_text':'The normal workday and overtime premium are described here.'}),0)
+        self.assertFalse(needs_worked_time_definition('What is the ordinary overtime rate for two extra hours?'))
+
+    def test_functional_defects_and_service_quality_do_not_become_safety_findings(self):
+        quality=self.retriever.search('The retailer sold me a blender with a broken motor. What defect rules apply?','consumer','bm25',5)
+        self.assertIn('RA_7394_1992__art_100',{h['provision_id'] for h in quality['hits']})
+        self.assertNotIn('RA_7394_1992__art_97',{h['provision_id'] for h in quality['hits']})
+        safety=self.retriever.search('The extension cord from the retailer has exposed live wires and sparks. What product safety rules apply?','consumer','bm25',5)
+        self.assertIn('RA_7394_1992__art_97',{h['provision_id'] for h in safety['hits']})
+        service=self.retriever.search('The paid laundry service damaged my curtains. What service quality rules apply?','consumer','bm25',5)
+        self.assertIn('RA_7394_1992__art_102',{h['provision_id'] for h in service['hits']})
+        self.assertNotIn('RA_7394_1992__art_99',{h['provision_id'] for h in service['hits']})
+    def test_procedural_subtopics_are_not_dropped_by_the_broader_topic_filter(self):
+        cases=[('Private employee ako. Anong details ang dapat nasa payroll tungkol sa oras, overtime, at deductions?','labor','LAB_IRR_1989__rule_x_administration_and_enforcement__section_6'),
+               ('Sa SEnA conference, confidential ba ang usapan at pwede bang mag-video record ang participant?','labor','DOLE_DO_249_25__rule_v_conciliat_on_mediation_proceedings__section_4'),
+               ('Sa SEnA meeting, ano ang rule sa pagharap ng lawyer, agent, o representative?','labor','DOLE_DO_249_25__rule_v_conciliat_on_mediation_proceedings__section_2'),
+               ('Kailangan bang dumaan muna sa internal complaint process ng online platform bago sa government agency?','consumer','RA_11967_2023__sec_24')]
+        for query,domain,expected in cases:
+            with self.subTest(query=query):self.assertIn(expected,{h['provision_id'] for h in self.retriever.search(query,domain,top_k=5)['hits']})
+    def test_rule_coverage_is_carried_as_an_exact_source_restriction(self):
+        record=next(r for r in self.records if r['provision_id']=='LAB_IRR_1989__rule_i_a__section_5')
+        coverage=self.source['provisions']['LAB_IRR_1989__rule_i_a__section_1']['normalized_text']
+        self.assertIn(coverage,record['conditions'])
+        ordinary=self.retriever.search('My private company requires a briefing before clock-in. What is working time?','labor','bm25',10)
+        # Clean counted-time mappings have been recovered. Neither a hospital
+        # rule nor the normal-hours ceiling substitutes for this authority.
+        self.assertTrue(ordinary['hits'])
+        self.assertFalse(any(h['provision_id']=='LAB_CODE_2022__art_83' for h in ordinary['hits']))
+        self.assertFalse(any(h['provision_id'].startswith('LAB_IRR_1989__rule_i_a__') for h in ordinary['hits']))
+        normal=self.retriever.search('What are normal working hours at my private company?','labor','bm25',10)
+        self.assertTrue(any(h['provision_id']=='LAB_CODE_2022__art_83' for h in normal['hits']))
+        specific=self.retriever.search('My employer is a private hospital. My shift uses regular working hours.','labor','bm25',10)
+        self.assertTrue(any(h['provision_id'].startswith('LAB_IRR_1989__rule_i_a__') for h in specific['hits']))
     def test_single_holiday_scenario_retrieves_holiday_provisions(self):
         query='A private-sector employer refuses to pay a worker for Christmas Day because the office was closed and no work was performed. What holiday-pay rules and exceptions apply?'
         result=self.retriever.search(query,'labor','bm25',5)
@@ -108,7 +211,7 @@ class RetrievalTests(unittest.TestCase):
         self.assertEqual(json.loads((INDEX/'source_audit.json').read_text())['raw_source_sha256'],self.source['raw_source_sha256'])
     def test_rebuild_eligibility_exactly_reproduces_index_membership(self):
         included,excluded=curate(self.source);self.assertEqual({r['chunk_id'] for r in included},{r['chunk_id'] for r in self.records})
-        self.assertEqual(len(included)+len(excluded),2001);self.assertEqual(len(included),self.retriever.manifest['indexed_chunks'])
+        self.assertEqual(len(included)+len(excluded),len(self.source['chunks']));self.assertEqual(len(included),self.retriever.manifest['indexed_chunks'])
     def test_ineligible_historical_and_review_sources_are_absent(self):
         for r in self.records:
             c=self.original[r['chunk_id']];p=self.source['provisions'][r['provision_id']];d=self.source['documents'][r['document_id']]
@@ -178,9 +281,12 @@ class RetrievalTests(unittest.TestCase):
     def test_invalid_topic_filters_do_not_fall_back(self):
         for topics in [[],['consumer.banking_credit'],['labor.wages_payment'],['made_up_topic']]:
             with self.assertRaises(ValueError):self.retriever.search('warranty','consumer','bm25',5,topics)
-    def test_missing_final_pay_evidence_is_not_replaced_by_wages(self):
+    def test_final_pay_evidence_is_official_excerpt_not_unrelated_wages(self):
         r=self.retriever.search('When should my private employer release final pay and COE?','labor','bm25')
-        self.assertEqual(r['status'],'no_eligible_evidence');self.assertEqual(r['hits'],[])
+        self.assertTrue(r['hits'])
+        self.assertTrue(all('labor.final_pay_coe' in h['supported_topics'] for h in r['hits']))
+        self.assertIn('DOLE_FINAL_PAY_COE_NEWS_2026',{h['document_id'] for h in r['hits']})
+        self.assertNotIn('DOLE_LA_06_20',{h['document_id'] for h in r['hits']})
     def test_excluded_queries_return_no_candidates(self):
         for row in readrows(INDEX/'benchmark_queries.jsonl'):
             if row['expected_status']=='blocked_scope':
@@ -192,7 +298,9 @@ class RetrievalTests(unittest.TestCase):
             with self.assertRaises(ValueError):self.retriever.search('overtime',**kwargs)
     def test_scores_are_not_answer_permission(self):
         r=self.retriever.search('retail appliance warranty','consumer');self.assertFalse(r['answer_generation_allowed']);self.assertFalse(r['deployment_allowed'])
-        for h in r['hits']:self.assertFalse(h['answer_generation_allowed']);self.assertTrue(h['retrieval_candidate_only']);self.assertTrue(h['conditions']);self.assertEqual(h['status_as_of'],'2026-09-29')
+        for h in r['hits']:
+            self.assertFalse(h['answer_generation_allowed']);self.assertTrue(h['retrieval_candidate_only']);self.assertTrue(h['conditions'])
+            self.assertEqual(h['status_as_of'],self.source['documents'][h['document_id']]['status_as_of'])
     def test_tampered_index_is_rejected(self):
         original_sha=sha
         with patch('retrieval.sha',side_effect=lambda p:'tampered' if Path(p)==INDEX/'records.jsonl' else original_sha(p)):
@@ -215,7 +323,7 @@ class RetrievalTests(unittest.TestCase):
         self.assertEqual(len(cases['partial']['components']),1);self.assertEqual(cases['partial']['components'][0]['allowed_domain'],'consumer');self.assertNotIn('seaf',cases['partial']['components'][0]['query'])
         self.assertEqual({r['allowed_domain'] for r in cases['mixed_full']['components']},{'labor','consumer'})
         for name in ['excluded','clarify']:self.assertEqual(cases[name]['components'],[])
-        self.assertEqual(cases['evidence_gap']['components'][0]['status'],'no_eligible_evidence')
+        self.assertEqual(cases['evidence_gap']['components'][0]['status'],'candidates_found')
     def test_classifier_cli_works_without_preloaded_classifier_imports(self):
         import subprocess,sys
         integration=json.loads((INDEX/'classifier_integration_results.json').read_text())

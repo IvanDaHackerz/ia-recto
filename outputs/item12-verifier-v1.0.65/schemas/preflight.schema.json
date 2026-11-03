@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Item 12 preflight envelope",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "verifier_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "question_text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100000
+    },
+    "question_sha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "current_guidance",
+        "recorded_excerpt"
+      ]
+    },
+    "as_of": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 10
+    },
+    "classifier_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "index_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "policy_sha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "review_store_sha256": {
+      "type": "string",
+      "minLength": 64,
+      "maxLength": 64
+    },
+    "software_fixture_mode": {
+      "type": "boolean"
+    },
+    "answer_generation_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "deployment_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "display_allowed": {
+      "type": "boolean",
+      "const": false
+    },
+    "confidence_meaning": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100000
+    },
+    "routing": {
+      "type": "object"
+    },
+    "excluded_components": {
+      "type": "array"
+    },
+    "referral_ids": {
+      "type": "array"
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "decision": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "offline_drafting_allowed": {
+      "type": "boolean"
+    },
+    "all_supported_components_evidence_ready": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "schema_version",
+    "verifier_version",
+    "question_text",
+    "question_sha256",
+    "mode",
+    "as_of",
+    "classifier_version",
+    "index_version",
+    "policy_sha256",
+    "review_store_sha256",
+    "software_fixture_mode",
+    "answer_generation_allowed",
+    "deployment_allowed",
+    "display_allowed",
+    "confidence_meaning",
+    "routing",
+    "excluded_components",
+    "referral_ids",
+    "components",
+    "decision",
+    "offline_drafting_allowed",
+    "all_supported_components_evidence_ready"
+  ],
+  "additionalProperties": false
+}

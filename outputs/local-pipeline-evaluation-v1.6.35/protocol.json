@@ -1,0 +1,21 @@
+{
+  "version": "local-pipeline-evaluation-v1.6.35",
+  "prepared_at_utc": "2026-10-31T14:42:00.485257+00:00",
+  "classifier": "outputs/item10-classifier-v1.5.72",
+  "retrieval": "outputs/item11-retrieval-v1.3.59",
+  "verifier": "outputs/item12-verifier-v1.0.65",
+  "normalizer_version": "disabled_for_local_evaluation",
+  "model": "none (no LLM)",
+  "available_paths": [
+    "baseline"
+  ],
+  "evaluation_mode": "local_classifier_retrieval_verifier",
+  "pipeline_executions": 436,
+  "cases_sha256": "00b01b86cd008610792c4a6f22c6beb5fce3f073f223abe3422eff0bf4b57f09",
+  "evaluator_sha256": "347c67e666137955e9f3d3b7d724305ad30616b6abfe0059759e0cb5c09e8836",
+  "llm_calls": 0,
+  "independent_human_questions": 0,
+  "answer_generation_allowed": false,
+  "deployment_allowed": false,
+  "timing_note": "Classification, retrieval and current-guidance preflight; diagnostic excerpt postflight is timed separately."
+}

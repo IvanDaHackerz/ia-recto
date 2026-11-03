@@ -1,0 +1,1094 @@
+{
+  "schema_version": "1.0",
+  "prepared_on": "2026-10-26",
+  "purpose": "Owner-authorized source-gap audit and bounded development recovery",
+  "independent_human_or_legal_approval": false,
+  "raw_sha256": {
+    "dataset/canonical_sources/raw/labor/reliability_2026_10_26/dole_bwc_handbook_2024_nwpc.pdf": "30114de4a7862244c5f114c7e7ee47147fb1eed3ee6758109901016826e91674"
+  },
+  "documents": [
+    {
+      "contract_version": "1.0.0",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "domains": [
+        "labor"
+      ],
+      "citation": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook",
+      "title": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition",
+      "document_type": "agency_handbook",
+      "issuer": "Department of Labor and Employment",
+      "approval_or_edition_date": "2024",
+      "effectivity_date": null,
+      "jurisdiction": "Philippines",
+      "source_id": "DOLE_BWC_HANDBOOK",
+      "authority_level": "primary_official",
+      "permitted_use": "answer_and_citation",
+      "official_source_url": "https://nwpc.dole.gov.ph/wp-content/uploads/2024/11/Workers-Statutory-Monetary-Benefits-Handbook-2024-Edition.pdf",
+      "retrieval_url": "https://nwpc.dole.gov.ph/wp-content/uploads/2024/11/Workers-Statutory-Monetary-Benefits-Handbook-2024-Edition.pdf",
+      "raw_local_path": "dataset/canonical_sources/raw/labor/reliability_2026_10_26/dole_bwc_handbook_2024_nwpc.pdf",
+      "raw_file_format": "pdf",
+      "verification_status": "verified_official_pdf_text;81_pages;publisher_and_selected_pages_ai_visual_compared",
+      "document_answer_eligible_candidate": true,
+      "collection_role": "bounded_agency_framework_supplement",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "retrieval_use_policy": "framework_only",
+      "freshness_rule": "Recorded 2024 agency handbook only. Verify subsequent law/issuances and individual coverage before current guidance. No regional wage amounts, tax, pension, maternity or special-worker module is added. Original held OCR and MO 28 records remain held.",
+      "languages": [
+        "en"
+      ],
+      "version_label": "2024; selected pages checked by AI on 2026-10-26",
+      "notes": "Official NWPC mirror. Selected working-time/night-differential/thirteenth-month passages only. Text and images were compared by Codex, not an independent human or legal reviewer. No current-law certification.",
+      "processing_state": "validated"
+    }
+  ],
+  "provisions": [
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__hours_worked",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 1,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Hours worked, PDF pp. 17–17",
+      "locator_normalized": "hours_worked",
+      "former_locator_labels": [],
+      "heading": "Hours worked",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Hours worked",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Hours worked",
+      "verbatim_text": "1. Hours worked\nThe following shall be considered as compensable hours worked:\na. All time during which an employee is required to be on duty or to be\nat the employer's premises or to be at a prescribed work place; and\nb. All time during which an employee is suffered or permitted to work.",
+      "normalized_text": "1. Hours worked\nThe following shall be considered as compensable hours worked:\na. All time during which an employee is required to be on duty or to be\nat the employer's premises or to be at a prescribed work place; and\nb. All time during which an employee is suffered or permitted to work.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition hours worked 1. hours worked the following shall be considered as compensable hours worked: a. all time during which an employee is required to be on duty or to be at the employer's premises or to be at a prescribed work place; and b. all time during which an employee is suffered or permitted to work.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 17,
+        "pdf_page_end": 17,
+        "printed_page_start": "7",
+        "printed_page_end": "7",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__hours_principles",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 2,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Principles in determining hours worked, PDF pp. 18–18",
+      "locator_normalized": "hours_principles",
+      "former_locator_labels": [],
+      "heading": "Principles in determining hours worked",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Principles in determining hours worked",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Principles in determining hours worked",
+      "verbatim_text": "a. All hours are hours worked which the employee is required to give\nhis employer, regardless of whether or not such hours are spent in\nproductive labor or involve physical or mental exertion.\nb. An employee need not leave the premises of the work place in order\nthat his rest period shall not be counted, it being enough that he\nstops working, may rest completely and may leave his work place,\nto go elsewhere, whether within or outside the premises of his work\nplace.\nc. If the work performed was necessary, or it benefited the employer, or\nthe employee could not abandon his work at the end of his normal\nworking hours because he had no replacement, all time spent for\nsuch work shall be considered as hours worked, if the work was with\nthe knowledge of his employer or immediate supervisor.\nd. The time during which an employee is inactive by reason of\ninterruptions in his work beyond his control shall be considered\nworking time either if the imminence of the resumption of work\nrequires the employee's presence at the place of work or if the\ninterval is too brief to be utilized effectively and gainfully in the\nemployee's own interest.",
+      "normalized_text": "a. All hours are hours worked which the employee is required to give\nhis employer, regardless of whether or not such hours are spent in\nproductive labor or involve physical or mental exertion.\nb. An employee need not leave the premises of the work place in order\nthat his rest period shall not be counted, it being enough that he\nstops working, may rest completely and may leave his work place,\nto go elsewhere, whether within or outside the premises of his work\nplace.\nc. If the work performed was necessary, or it benefited the employer, or\nthe employee could not abandon his work at the end of his normal\nworking hours because he had no replacement, all time spent for\nsuch work shall be considered as hours worked, if the work was with\nthe knowledge of his employer or immediate supervisor.\nd. The time during which an employee is inactive by reason of\ninterruptions in his work beyond his control shall be considered\nworking time either if the imminence of the resumption of work\nrequires the employee's presence at the place of work or if the\ninterval is too brief to be utilized effectively and gainfully in the\nemployee's own interest.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition principles in determining hours worked a. all hours are hours worked which the employee is required to give his employer, regardless of whether or not such hours are spent in productive labor or involve physical or mental exertion. b. an employee need not leave the premises of the work place in order that his rest period shall not be counted, it being enough that he stops working, may rest completely and may leave his work place, to go elsewhere, whether within or outside the premises of his work place. c. if the work performed was necessary, or it benefited the employer, or the employee could not abandon his work at the end of his normal working hours because he had no replacement, all time spent for such work shall be considered as hours worked, if the work was with the knowledge of his employer or immediate supervisor. d. the time during which an employee is inactive by reason of interruptions in his work beyond his control shall be considered working time either if the imminence of the resumption of work requires the employee's presence at the place of work or if the interval is too brief to be utilized effectively and gainfully in the employee's own interest.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 18,
+        "pdf_page_end": 18,
+        "printed_page_start": "8",
+        "printed_page_end": "8",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__waiting_time",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 3,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Treatment on waiting time, PDF pp. 18–18",
+      "locator_normalized": "waiting_time",
+      "former_locator_labels": [],
+      "heading": "Treatment on waiting time",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Treatment on waiting time",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Treatment on waiting time",
+      "verbatim_text": "3. Treatment on waiting time\na. Waiting time spent by an employee shall be considered as working\ntime if waiting is an integral part of his work or the employee is\nrequired or engaged by the employer to wait.\nb. An employee who is required to remain on call in the employer's\npremises or so close thereto that he cannot use the time effectively\nand gainfully for his own purpose shall be considered as working\nwhile on call. An employee who is not required to leave wo rd at his\nhome or with company officials where he may be reached is not\nworking while on call.",
+      "normalized_text": "3. Treatment on waiting time\na. Waiting time spent by an employee shall be considered as working\ntime if waiting is an integral part of his work or the employee is\nrequired or engaged by the employer to wait.\nb. An employee who is required to remain on call in the employer's\npremises or so close thereto that he cannot use the time effectively\nand gainfully for his own purpose shall be considered as working\nwhile on call. An employee who is not required to leave wo rd at his\nhome or with company officials where he may be reached is not\nworking while on call.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition treatment on waiting time 3. treatment on waiting time a. waiting time spent by an employee shall be considered as working time if waiting is an integral part of his work or the employee is required or engaged by the employer to wait. b. an employee who is required to remain on call in the employer's premises or so close thereto that he cannot use the time effectively and gainfully for his own purpose shall be considered as working while on call. an employee who is not required to leave wo rd at his home or with company officials where he may be reached is not working while on call.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 18,
+        "pdf_page_end": 18,
+        "printed_page_start": "8",
+        "printed_page_end": "8",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__meetings_attendance",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 4,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Attendance at lectures, meetings and training, PDF pp. 18–18",
+      "locator_normalized": "meetings_attendance",
+      "former_locator_labels": [],
+      "heading": "Attendance at lectures, meetings and training",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Attendance at lectures, meetings and training",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Attendance at lectures, meetings and training",
+      "verbatim_text": "4. Attendance at lectures, meetings, training programs, and other similar\nactivities\nAttendance at lectures, meetings, training programs, and other similar\nactivities shall not be counted as working time if all of the following\nconditions are met:\na. Attendance is outside of the employee's regular working hours;\nb. Attendance is in fact voluntary; and\nc. The employee does not perform any productive work during such\nattendance.",
+      "normalized_text": "4. Attendance at lectures, meetings, training programs, and other similar\nactivities\nAttendance at lectures, meetings, training programs, and other similar\nactivities shall not be counted as working time if all of the following\nconditions are met:\na. Attendance is outside of the employee's regular working hours;\nb. Attendance is in fact voluntary; and\nc. The employee does not perform any productive work during such\nattendance.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition attendance at lectures, meetings and training 4. attendance at lectures, meetings, training programs, and other similar activities attendance at lectures, meetings, training programs, and other similar activities shall not be counted as working time if all of the following conditions are met: a. attendance is outside of the employee's regular working hours; b. attendance is in fact voluntary; and c. the employee does not perform any productive work during such attendance.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 18,
+        "pdf_page_end": 18,
+        "printed_page_start": "8",
+        "printed_page_end": "8",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__meal_rest_periods",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 5,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Meal and Rest Periods, PDF pp. 19–19",
+      "locator_normalized": "meal_rest_periods",
+      "former_locator_labels": [],
+      "heading": "Meal and Rest Periods",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Meal and Rest Periods",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Meal and Rest Periods",
+      "verbatim_text": "5. Meal and Rest Periods\nEvery employer shall give his employees, regardless of sex, not less than\none (1) hour time-off for regular meals, except in the following cases when a\nmeal period of not less than twenty (20) minutes may be given by the\nemployer provided that such shorter meal period is credited as compensable\nhours worked of the employee:\na. Where the work is non -manual work in nature or does not involve\nstrenuous physical exertion;\nb. Where the establishment regularly operates not less than sixteen\n(16) hours a day;\nc. In case of actual or impending emergencies or there is urgent work to\nbe performed on machineries, equipment or installations to avoid\nserious loss which the employer would otherwise suffer; and\nd. Where the work is necessary to prevent serious loss of perishable\ngoods.\nRest periods or coffee breaks running from five (5) to twenty (20) minutes\nshall be considered as compensable working time.",
+      "normalized_text": "5. Meal and Rest Periods\nEvery employer shall give his employees, regardless of sex, not less than\none (1) hour time-off for regular meals, except in the following cases when a\nmeal period of not less than twenty (20) minutes may be given by the\nemployer provided that such shorter meal period is credited as compensable\nhours worked of the employee:\na. Where the work is non -manual work in nature or does not involve\nstrenuous physical exertion;\nb. Where the establishment regularly operates not less than sixteen\n(16) hours a day;\nc. In case of actual or impending emergencies or there is urgent work to\nbe performed on machineries, equipment or installations to avoid\nserious loss which the employer would otherwise suffer; and\nd. Where the work is necessary to prevent serious loss of perishable\ngoods.\nRest periods or coffee breaks running from five (5) to twenty (20) minutes\nshall be considered as compensable working time.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition meal and rest periods 5. meal and rest periods every employer shall give his employees, regardless of sex, not less than one (1) hour time-off for regular meals, except in the following cases when a meal period of not less than twenty (20) minutes may be given by the employer provided that such shorter meal period is credited as compensable hours worked of the employee: a. where the work is non -manual work in nature or does not involve strenuous physical exertion; b. where the establishment regularly operates not less than sixteen (16) hours a day; c. in case of actual or impending emergencies or there is urgent work to be performed on machineries, equipment or installations to avoid serious loss which the employer would otherwise suffer; and d. where the work is necessary to prevent serious loss of perishable goods. rest periods or coffee breaks running from five (5) to twenty (20) minutes shall be considered as compensable working time.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 19,
+        "pdf_page_end": 19,
+        "printed_page_start": "9",
+        "printed_page_end": "9",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__night_differential",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 6,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Night Shift Differential: definition, coverage and rate, PDF pp. 35–36",
+      "locator_normalized": "night_differential",
+      "former_locator_labels": [],
+      "heading": "Night Shift Differential: definition, coverage and rate",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Night Shift Differential: definition, coverage and rate",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Night Shift Differential: definition, coverage and rate",
+      "verbatim_text": "5\nNIGHT SHIFT DIFFERENTIAL\n(Article 86)\nA. Definition\nNight Shift Differential (NSD) refers to the additional compensation of  10% of\nan employee’s regular wage for each hour of work performed between 10:00 p.m.\nand 6:00 a.m. of the following day.\nB. Coverage\nThis benefit applies to all employees except:\n1. Government employees, whether employed by the National Government\nor any of its political subdivisions, including those employed in\ngovernment-owned and/or controlled corporations with original charters\nor created under special laws;\n2. Those of retail and service establishments regularly employing not more\nthan five workers;\n3. Kasambahay and persons in the personal service of another;\n4. Managerial employees, if they meet all of the following conditions:\n4.1 Their primary duty is to manage the establishment in which they are\nemployed or of a department or subdivision thereof;\n4.2 They customarily and regularly direct the work of two or more\nemployees therein; and\n4.3 They have the authority to hire or fire other employees of lower rank; or\ntheir suggestions and recommendations as to hiring, firing, and\npromotion, or any other change of status of other employees are given\nparticular weight.\n5. Officers or members of a managerial staff, if they perform the following\nduties and responsibilities:\n5.1 Primarily perform work directly related to management policies of their\nemployer;\n5.2 Customarily and regularly exercise discretion and independent\njudgment;\n5.3 (a) Regularly and directly assist a proprietor or managerial employee in\nthe management of the establishment or subdivision thereof in which\nhe or she is employed; or (b) execute, under general supervision, work\nalong specialized or technical lines requiri ng special training,\nexperience, or knowledge; or (c) execute, under general supervision,\nspecial assignments and tasks; and\n5.4 Do not devote more than  20% of their hours worked in a workweek to\nactivities which are not directly and closely related to the performance\n\nof the work described in paragraphs 5.1, 5.2, and 5.3 above; and\n6. Field personnel and those whose time and performance are unsupervised\nby the employer.\nC. Night Shift Differential Rate\nThe minimum night shift differential varies according to the day the night shift\nwork is performed.  For work performed between 10:00  p.m. and 6:00 a.m.  the\nfollowing day , the employer shall pay the employee an additional 10% of the\ncorresponding hourly rate for the night shift work.",
+      "normalized_text": "5\nNIGHT SHIFT DIFFERENTIAL\n(Article 86)\nA. Definition\nNight Shift Differential (NSD) refers to the additional compensation of  10% of\nan employee’s regular wage for each hour of work performed between 10:00 p.m.\nand 6:00 a.m. of the following day.\nB. Coverage\nThis benefit applies to all employees except:\n1. Government employees, whether employed by the National Government\nor any of its political subdivisions, including those employed in\ngovernment-owned and/or controlled corporations with original charters\nor created under special laws;\n2. Those of retail and service establishments regularly employing not more\nthan five workers;\n3. Kasambahay and persons in the personal service of another;\n4. Managerial employees, if they meet all of the following conditions:\n4.1 Their primary duty is to manage the establishment in which they are\nemployed or of a department or subdivision thereof;\n4.2 They customarily and regularly direct the work of two or more\nemployees therein; and\n4.3 They have the authority to hire or fire other employees of lower rank; or\ntheir suggestions and recommendations as to hiring, firing, and\npromotion, or any other change of status of other employees are given\nparticular weight.\n5. Officers or members of a managerial staff, if they perform the following\nduties and responsibilities:\n5.1 Primarily perform work directly related to management policies of their\nemployer;\n5.2 Customarily and regularly exercise discretion and independent\njudgment;\n5.3 (a) Regularly and directly assist a proprietor or managerial employee in\nthe management of the establishment or subdivision thereof in which\nhe or she is employed; or (b) execute, under general supervision, work\nalong specialized or technical lines requiri ng special training,\nexperience, or knowledge; or (c) execute, under general supervision,\nspecial assignments and tasks; and\n5.4 Do not devote more than  20% of their hours worked in a workweek to\nactivities which are not directly and closely related to the performance\n\nof the work described in paragraphs 5.1, 5.2, and 5.3 above; and\n6. Field personnel and those whose time and performance are unsupervised\nby the employer.\nC. Night Shift Differential Rate\nThe minimum night shift differential varies according to the day the night shift\nwork is performed.  For work performed between 10:00  p.m. and 6:00 a.m.  the\nfollowing day , the employer shall pay the employee an additional 10% of the\ncorresponding hourly rate for the night shift work.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition night shift differential: definition, coverage and rate 5 night shift differential (article 86) a. definition night shift differential (nsd) refers to the additional compensation of 10% of an employee’s regular wage for each hour of work performed between 10:00 p.m. and 6:00 a.m. of the following day. b. coverage this benefit applies to all employees except: 1. government employees, whether employed by the national government or any of its political subdivisions, including those employed in government-owned and/or controlled corporations with original charters or created under special laws; 2. those of retail and service establishments regularly employing not more than five workers; 3. kasambahay and persons in the personal service of another; 4. managerial employees, if they meet all of the following conditions: 4.1 their primary duty is to manage the establishment in which they are employed or of a department or subdivision thereof; 4.2 they customarily and regularly direct the work of two or more employees therein; and 4.3 they have the authority to hire or fire other employees of lower rank; or their suggestions and recommendations as to hiring, firing, and promotion, or any other change of status of other employees are given particular weight. 5. officers or members of a managerial staff, if they perform the following duties and responsibilities: 5.1 primarily perform work directly related to management policies of their employer; 5.2 customarily and regularly exercise discretion and independent judgment; 5.3 (a) regularly and directly assist a proprietor or managerial employee in the management of the establishment or subdivision thereof in which he or she is employed; or (b) execute, under general supervision, work along specialized or technical lines requiri ng special training, experience, or knowledge; or (c) execute, under general supervision, special assignments and tasks; and 5.4 do not devote more than 20% of their hours worked in a workweek to activities which are not directly and closely related to the performance of the work described in paragraphs 5.1, 5.2, and 5.3 above; and 6. field personnel and those whose time and performance are unsupervised by the employer. c. night shift differential rate the minimum night shift differential varies according to the day the night shift work is performed. for work performed between 10:00 p.m. and 6:00 a.m. the following day , the employer shall pay the employee an additional 10% of the corresponding hourly rate for the night shift work.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 35,
+        "pdf_page_end": 36,
+        "printed_page_start": "25",
+        "printed_page_end": "26",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.wages_payment",
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_coverage",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 7,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Thirteenth-month pay: definition and coverage, PDF pp. 50–51",
+      "locator_normalized": "thirteenth_coverage",
+      "former_locator_labels": [],
+      "heading": "Thirteenth-month pay: definition and coverage",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Thirteenth-month pay: definition and coverage",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Thirteenth-month pay: definition and coverage",
+      "verbatim_text": "13\nTHIRTEENTH-MONTH PAYjj\n(Presidential Decree No. 851)\nA. Definition\nThirteenth-month pay refers to one-twelfth of the total basic salary earned by\nan employee within a calendar year.\nB. Coverage\nAll employers are required to pay their rank -and-file employees thirteenth -\nmonth pay, regardless of the nature of their employment and irrespective of the\nmethods by which their wages are paid, provided they worked for at least one (1)\nmonth during a calendar year.\nThe Labor Code, as amended, distinguishes a rank -and-file employee from a\nmanagerial employee.  A managerial employee is one who is vested with powers or\nprerogatives to lay down and execute management policies and/or to hire, transfer,\nsuspend, layoff, recall, discharge, assign, or discipline employees, or to effectively\nrecommend such managerial actions.  All employees not falling within this\ndefinition are considered rank -and-file employees. The above distinction shall be\nused as guide for the purpose of  determining who are rank -and-file employees\nentitled to the thirteenth-month pay.\nThe following employers are not covered by Presidential Decree No. 851:\n1. The government and any of its political subdivisions, including\ngovernment-owned and controlled corporations, except those\ncorporations operating essentially as private subsidiaries of the\ngovernment;\n2. Employers who are already paying their employees a thirteenth-month pay\nor more in a calendar year or its equivalent kk at the time of the issuance of\nPresidential Decree No. 851;\n3. Employers of household helpers ll and persons in the personal service of\nanother in relation to such workers; and\n4. Employers of those who are paid on purely commission, boundary, or task\nbasis, and those who are paid a fixed amount for performing specific work,\n\nirrespective of the time consumed in the performance thereof, except\nwhere the workers who are paid on piece -rate basis in which case the\nemployer shall grant them thirteenth-month pay to such workers.mm\n\n\nSource footnotes:\njj See Revised Guidelines on the Implementation of the 13th Month Pay Law. See also DOLE Labor Advisory\nNo. 18, Series of 2021 entitled Guidelines on the Payment of Thirteenth Month Pay. Issued on 25 October\n2021.\nkk The term \"its equivalent\" shall include Christmas bonus, midyear bonus, cash bonuses, and other\npayments amounting to not less than one-twelfth (1/12) of the basic salary but shall not include cash and\nstock dividends, cost of living allowance, and all other allowances regularly enjoyed by the employee, as\nwell as non-monetary benefits.\nll Under Section 25 of Republic Act No. 10361 or the “Batas Kasambahay”, a domestic worker is entitled\nto thirteenth-month pay as provided for by law.",
+      "normalized_text": "13\nTHIRTEENTH-MONTH PAYjj\n(Presidential Decree No. 851)\nA. Definition\nThirteenth-month pay refers to one-twelfth of the total basic salary earned by\nan employee within a calendar year.\nB. Coverage\nAll employers are required to pay their rank -and-file employees thirteenth -\nmonth pay, regardless of the nature of their employment and irrespective of the\nmethods by which their wages are paid, provided they worked for at least one (1)\nmonth during a calendar year.\nThe Labor Code, as amended, distinguishes a rank -and-file employee from a\nmanagerial employee.  A managerial employee is one who is vested with powers or\nprerogatives to lay down and execute management policies and/or to hire, transfer,\nsuspend, layoff, recall, discharge, assign, or discipline employees, or to effectively\nrecommend such managerial actions.  All employees not falling within this\ndefinition are considered rank -and-file employees. The above distinction shall be\nused as guide for the purpose of  determining who are rank -and-file employees\nentitled to the thirteenth-month pay.\nThe following employers are not covered by Presidential Decree No. 851:\n1. The government and any of its political subdivisions, including\ngovernment-owned and controlled corporations, except those\ncorporations operating essentially as private subsidiaries of the\ngovernment;\n2. Employers who are already paying their employees a thirteenth-month pay\nor more in a calendar year or its equivalent kk at the time of the issuance of\nPresidential Decree No. 851;\n3. Employers of household helpers ll and persons in the personal service of\nanother in relation to such workers; and\n4. Employers of those who are paid on purely commission, boundary, or task\nbasis, and those who are paid a fixed amount for performing specific work,\n\nirrespective of the time consumed in the performance thereof, except\nwhere the workers who are paid on piece -rate basis in which case the\nemployer shall grant them thirteenth-month pay to such workers.mm\n\n\nSource footnotes:\njj See Revised Guidelines on the Implementation of the 13th Month Pay Law. See also DOLE Labor Advisory\nNo. 18, Series of 2021 entitled Guidelines on the Payment of Thirteenth Month Pay. Issued on 25 October\n2021.\nkk The term \"its equivalent\" shall include Christmas bonus, midyear bonus, cash bonuses, and other\npayments amounting to not less than one-twelfth (1/12) of the basic salary but shall not include cash and\nstock dividends, cost of living allowance, and all other allowances regularly enjoyed by the employee, as\nwell as non-monetary benefits.\nll Under Section 25 of Republic Act No. 10361 or the “Batas Kasambahay”, a domestic worker is entitled\nto thirteenth-month pay as provided for by law.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition thirteenth-month pay: definition and coverage 13 thirteenth-month payjj (presidential decree no. 851) a. definition thirteenth-month pay refers to one-twelfth of the total basic salary earned by an employee within a calendar year. b. coverage all employers are required to pay their rank -and-file employees thirteenth - month pay, regardless of the nature of their employment and irrespective of the methods by which their wages are paid, provided they worked for at least one (1) month during a calendar year. the labor code, as amended, distinguishes a rank -and-file employee from a managerial employee. a managerial employee is one who is vested with powers or prerogatives to lay down and execute management policies and/or to hire, transfer, suspend, layoff, recall, discharge, assign, or discipline employees, or to effectively recommend such managerial actions. all employees not falling within this definition are considered rank -and-file employees. the above distinction shall be used as guide for the purpose of determining who are rank -and-file employees entitled to the thirteenth-month pay. the following employers are not covered by presidential decree no. 851: 1. the government and any of its political subdivisions, including government-owned and controlled corporations, except those corporations operating essentially as private subsidiaries of the government; 2. employers who are already paying their employees a thirteenth-month pay or more in a calendar year or its equivalent kk at the time of the issuance of presidential decree no. 851; 3. employers of household helpers ll and persons in the personal service of another in relation to such workers; and 4. employers of those who are paid on purely commission, boundary, or task basis, and those who are paid a fixed amount for performing specific work, irrespective of the time consumed in the performance thereof, except where the workers who are paid on piece -rate basis in which case the employer shall grant them thirteenth-month pay to such workers.mm source footnotes: jj see revised guidelines on the implementation of the 13th month pay law. see also dole labor advisory no. 18, series of 2021 entitled guidelines on the payment of thirteenth month pay. issued on 25 october 2021. kk the term \"its equivalent\" shall include christmas bonus, midyear bonus, cash bonuses, and other payments amounting to not less than one-twelfth (1/12) of the basic salary but shall not include cash and stock dividends, cost of living allowance, and all other allowances regularly enjoyed by the employee, as well as non-monetary benefits. ll under section 25 of republic act no. 10361 or the “batas kasambahay”, a domestic worker is entitled to thirteenth-month pay as provided for by law.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 50,
+        "pdf_page_end": 51,
+        "printed_page_start": "40",
+        "printed_page_end": "41",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.thirteenth_month_pay"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_amount",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 8,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Thirteenth-month pay: amount and basic salary, PDF pp. 51–51",
+      "locator_normalized": "thirteenth_amount",
+      "former_locator_labels": [],
+      "heading": "Thirteenth-month pay: amount and basic salary",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Thirteenth-month pay: amount and basic salary",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Thirteenth-month pay: amount and basic salary",
+      "verbatim_text": "C. Amount\nThe thirteenth-month pay shall not be less than one -twelfth (1/12) of the total\nbasic salary earned by an employee in a calendar year. The \"basic salary\" of an\nemployee for the purpose of computing the thirteenth-month pay shall include all\nremunerations o r earnings paid by his or her employer for services rendered. It\ndoes not include allowances and monetary benefits which are not considered or\nintegrated as part of the regular or basic salary, such as the cash equivalent of\nunused vacation and sick leave credits, overtime, premium, night shift differential\nand holiday pay, and cost of living allowance (COLA).  However, these salary -\nrelated benefits should be included as part of the basic salary in the computation\nof the thirteenth -month pay if these are tr eated as part of the basic salary of the\nemployees, through individual or collective agreement, company practice or\npolicy.",
+      "normalized_text": "C. Amount\nThe thirteenth-month pay shall not be less than one -twelfth (1/12) of the total\nbasic salary earned by an employee in a calendar year. The \"basic salary\" of an\nemployee for the purpose of computing the thirteenth-month pay shall include all\nremunerations o r earnings paid by his or her employer for services rendered. It\ndoes not include allowances and monetary benefits which are not considered or\nintegrated as part of the regular or basic salary, such as the cash equivalent of\nunused vacation and sick leave credits, overtime, premium, night shift differential\nand holiday pay, and cost of living allowance (COLA).  However, these salary -\nrelated benefits should be included as part of the basic salary in the computation\nof the thirteenth -month pay if these are tr eated as part of the basic salary of the\nemployees, through individual or collective agreement, company practice or\npolicy.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition thirteenth-month pay: amount and basic salary c. amount the thirteenth-month pay shall not be less than one -twelfth (1/12) of the total basic salary earned by an employee in a calendar year. the \"basic salary\" of an employee for the purpose of computing the thirteenth-month pay shall include all remunerations o r earnings paid by his or her employer for services rendered. it does not include allowances and monetary benefits which are not considered or integrated as part of the regular or basic salary, such as the cash equivalent of unused vacation and sick leave credits, overtime, premium, night shift differential and holiday pay, and cost of living allowance (cola). however, these salary - related benefits should be included as part of the basic salary in the computation of the thirteenth -month pay if these are tr eated as part of the basic salary of the employees, through individual or collective agreement, company practice or policy.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 51,
+        "pdf_page_end": 51,
+        "printed_page_start": "41",
+        "printed_page_end": "41",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.thirteenth_month_pay"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_timing",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 9,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Thirteenth-month pay: time of payment, PDF pp. 52–52",
+      "locator_normalized": "thirteenth_timing",
+      "former_locator_labels": [],
+      "heading": "Thirteenth-month pay: time of payment",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Thirteenth-month pay: time of payment",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Thirteenth-month pay: time of payment",
+      "verbatim_text": "E. Time of Payment\nE.\nThe thirteenth-month pay shall be paid not later than December 24 of every\nyear. An employer, however, may give to his or her employees one-half (1/2) of the\nthirteenth-month pay before the opening of the regular school year and the\nremaining half on or before December 24 of every year.  The frequency of payment\nof this monetary benefit may be the subject of an agreement between the employer\nand the recognized/collective bargaining agent of the employees.",
+      "normalized_text": "E. Time of Payment\nE.\nThe thirteenth-month pay shall be paid not later than December 24 of every\nyear. An employer, however, may give to his or her employees one-half (1/2) of the\nthirteenth-month pay before the opening of the regular school year and the\nremaining half on or before December 24 of every year.  The frequency of payment\nof this monetary benefit may be the subject of an agreement between the employer\nand the recognized/collective bargaining agent of the employees.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition thirteenth-month pay: time of payment e. time of payment e. the thirteenth-month pay shall be paid not later than december 24 of every year. an employer, however, may give to his or her employees one-half (1/2) of the thirteenth-month pay before the opening of the regular school year and the remaining half on or before december 24 of every year. the frequency of payment of this monetary benefit may be the subject of an agreement between the employer and the recognized/collective bargaining agent of the employees.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 52,
+        "pdf_page_end": 52,
+        "printed_page_start": "42",
+        "printed_page_end": "42",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.thirteenth_month_pay"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    },
+    {
+      "contract_version": "1.0.0",
+      "cleaning_version": "1.0.0",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_separation",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "parent_provision_id": null,
+      "sequence_number": 10,
+      "provision_level": "section",
+      "locator_label": "2024 Handbook, Thirteenth-month pay: resigned or separated employees, PDF pp. 52–53",
+      "locator_normalized": "thirteenth_separation",
+      "former_locator_labels": [],
+      "heading": "Thirteenth-month pay: resigned or separated employees",
+      "hierarchy": {
+        "book": null,
+        "title": "2024 Handbook",
+        "chapter": "Thirteenth-month pay: resigned or separated employees",
+        "part": null,
+        "rule": null
+      },
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Thirteenth-month pay: resigned or separated employees",
+      "verbatim_text": "G. Thirteenth-Month Pay of Resigned or Separated Employee\nAn employee who has resigned or whose services are terminated at any time\nbefore the time of payment of the thirteenth-month pay is entitled to this monetary\nbenefit in proportion to the length of time he or she has worked during the year,\nreckoned from the time he or she has started working during the calendar year up\nto the time of his or her resignation or termination from the service.  Thus, if he or\nshe worked only from January to September, his or her proportionate thirteenth -\nnn G.R. No. 92174 & G.R. No. 102552, 10 December 1993.\nmonth pay should be equal to one -twelfth (1/12) of his or her total basic salary\nearned during that period.",
+      "normalized_text": "G. Thirteenth-Month Pay of Resigned or Separated Employee\nAn employee who has resigned or whose services are terminated at any time\nbefore the time of payment of the thirteenth-month pay is entitled to this monetary\nbenefit in proportion to the length of time he or she has worked during the year,\nreckoned from the time he or she has started working during the calendar year up\nto the time of his or her resignation or termination from the service.  Thus, if he or\nshe worked only from January to September, his or her proportionate thirteenth -\nnn G.R. No. 92174 & G.R. No. 102552, 10 December 1993.\nmonth pay should be equal to one -twelfth (1/12) of his or her total basic salary\nearned during that period.",
+      "search_text": "dole-bwc handbook on workers’ statutory monetary benefits — 2024 edition thirteenth-month pay: resigned or separated employees g. thirteenth-month pay of resigned or separated employee an employee who has resigned or whose services are terminated at any time before the time of payment of the thirteenth-month pay is entitled to this monetary benefit in proportion to the length of time he or she has worked during the year, reckoned from the time he or she has started working during the calendar year up to the time of his or her resignation or termination from the service. thus, if he or she worked only from january to september, his or her proportionate thirteenth - nn g.r. no. 92174 & g.r. no. 102552, 10 december 1993. month pay should be equal to one -twelfth (1/12) of his or her total basic salary earned during that period.",
+      "footnotes": [],
+      "source_locator": {
+        "pdf_page_start": 52,
+        "pdf_page_end": 53,
+        "printed_page_start": "42",
+        "printed_page_end": "43",
+        "html_anchor": null,
+        "source_region": "Selected complete handbook subsection; PDF text and page image comparison",
+        "source_char_start": null,
+        "source_char_end": null
+      },
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.thirteenth_month_pay"
+      ],
+      "excluded_topics": [],
+      "exclusion_reason": null,
+      "responsible_agencies": [
+        "Department of Labor and Employment"
+      ],
+      "provision_answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "effective_from": null,
+      "effective_to": null,
+      "relationship_ids": [],
+      "extraction_method": "pdf_text",
+      "ocr_used": false,
+      "ocr_confidence": null,
+      "rotation_degrees_clockwise": 0,
+      "quality_flags": [],
+      "manual_repairs": [],
+      "review_status": "machine_validated",
+      "reviewed_at": null
+    }
+  ],
+  "chunks": [
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__hours_worked__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__hours_worked",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Hours worked",
+      "display_text": "1. Hours worked\nThe following shall be considered as compensable hours worked:\na. All time during which an employee is required to be on duty or to be\nat the employer's premises or to be at a prescribed work place; and\nb. All time during which an employee is suffered or permitted to work.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nHours worked\n1. Hours worked\nThe following shall be considered as compensable hours worked:\na. All time during which an employee is required to be on duty or to be\nat the employer's premises or to be at a prescribed work place; and\nb. All time during which an employee is suffered or permitted to work.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 289,
+      "character_count": 289,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Hours worked",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__hours_principles__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__hours_principles",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Principles in determining hours worked",
+      "display_text": "a. All hours are hours worked which the employee is required to give\nhis employer, regardless of whether or not such hours are spent in\nproductive labor or involve physical or mental exertion.\nb. An employee need not leave the premises of the work place in order\nthat his rest period shall not be counted, it being enough that he\nstops working, may rest completely and may leave his work place,\nto go elsewhere, whether within or outside the premises of his work\nplace.\nc. If the work performed was necessary, or it benefited the employer, or\nthe employee could not abandon his work at the end of his normal\nworking hours because he had no replacement, all time spent for\nsuch work shall be considered as hours worked, if the work was with\nthe knowledge of his employer or immediate supervisor.\nd. The time during which an employee is inactive by reason of\ninterruptions in his work beyond his control shall be considered\nworking time either if the imminence of the resumption of work\nrequires the employee's presence at the place of work or if the\ninterval is too brief to be utilized effectively and gainfully in the\nemployee's own interest.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nPrinciples in determining hours worked\na. All hours are hours worked which the employee is required to give\nhis employer, regardless of whether or not such hours are spent in\nproductive labor or involve physical or mental exertion.\nb. An employee need not leave the premises of the work place in order\nthat his rest period shall not be counted, it being enough that he\nstops working, may rest completely and may leave his work place,\nto go elsewhere, whether within or outside the premises of his work\nplace.\nc. If the work performed was necessary, or it benefited the employer, or\nthe employee could not abandon his work at the end of his normal\nworking hours because he had no replacement, all time spent for\nsuch work shall be considered as hours worked, if the work was with\nthe knowledge of his employer or immediate supervisor.\nd. The time during which an employee is inactive by reason of\ninterruptions in his work beyond his control shall be considered\nworking time either if the imminence of the resumption of work\nrequires the employee's presence at the place of work or if the\ninterval is too brief to be utilized effectively and gainfully in the\nemployee's own interest.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 1143,
+      "character_count": 1143,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Principles in determining hours worked",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__waiting_time__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__waiting_time",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Treatment on waiting time",
+      "display_text": "3. Treatment on waiting time\na. Waiting time spent by an employee shall be considered as working\ntime if waiting is an integral part of his work or the employee is\nrequired or engaged by the employer to wait.\nb. An employee who is required to remain on call in the employer's\npremises or so close thereto that he cannot use the time effectively\nand gainfully for his own purpose shall be considered as working\nwhile on call. An employee who is not required to leave wo rd at his\nhome or with company officials where he may be reached is not\nworking while on call.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nTreatment on waiting time\n3. Treatment on waiting time\na. Waiting time spent by an employee shall be considered as working\ntime if waiting is an integral part of his work or the employee is\nrequired or engaged by the employer to wait.\nb. An employee who is required to remain on call in the employer's\npremises or so close thereto that he cannot use the time effectively\nand gainfully for his own purpose shall be considered as working\nwhile on call. An employee who is not required to leave wo rd at his\nhome or with company officials where he may be reached is not\nworking while on call.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 563,
+      "character_count": 563,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Treatment on waiting time",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__meetings_attendance__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__meetings_attendance",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Attendance at lectures, meetings and training",
+      "display_text": "4. Attendance at lectures, meetings, training programs, and other similar\nactivities\nAttendance at lectures, meetings, training programs, and other similar\nactivities shall not be counted as working time if all of the following\nconditions are met:\na. Attendance is outside of the employee's regular working hours;\nb. Attendance is in fact voluntary; and\nc. The employee does not perform any productive work during such\nattendance.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nAttendance at lectures, meetings and training\n4. Attendance at lectures, meetings, training programs, and other similar\nactivities\nAttendance at lectures, meetings, training programs, and other similar\nactivities shall not be counted as working time if all of the following\nconditions are met:\na. Attendance is outside of the employee's regular working hours;\nb. Attendance is in fact voluntary; and\nc. The employee does not perform any productive work during such\nattendance.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 430,
+      "character_count": 430,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Attendance at lectures, meetings and training",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__meal_rest_periods__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__meal_rest_periods",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Meal and Rest Periods",
+      "display_text": "5. Meal and Rest Periods\nEvery employer shall give his employees, regardless of sex, not less than\none (1) hour time-off for regular meals, except in the following cases when a\nmeal period of not less than twenty (20) minutes may be given by the\nemployer provided that such shorter meal period is credited as compensable\nhours worked of the employee:\na. Where the work is non -manual work in nature or does not involve\nstrenuous physical exertion;\nb. Where the establishment regularly operates not less than sixteen\n(16) hours a day;\nc. In case of actual or impending emergencies or there is urgent work to\nbe performed on machineries, equipment or installations to avoid\nserious loss which the employer would otherwise suffer; and\nd. Where the work is necessary to prevent serious loss of perishable\ngoods.\nRest periods or coffee breaks running from five (5) to twenty (20) minutes\nshall be considered as compensable working time.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nMeal and Rest Periods\n5. Meal and Rest Periods\nEvery employer shall give his employees, regardless of sex, not less than\none (1) hour time-off for regular meals, except in the following cases when a\nmeal period of not less than twenty (20) minutes may be given by the\nemployer provided that such shorter meal period is credited as compensable\nhours worked of the employee:\na. Where the work is non -manual work in nature or does not involve\nstrenuous physical exertion;\nb. Where the establishment regularly operates not less than sixteen\n(16) hours a day;\nc. In case of actual or impending emergencies or there is urgent work to\nbe performed on machineries, equipment or installations to avoid\nserious loss which the employer would otherwise suffer; and\nd. Where the work is necessary to prevent serious loss of perishable\ngoods.\nRest periods or coffee breaks running from five (5) to twenty (20) minutes\nshall be considered as compensable working time.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 931,
+      "character_count": 931,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Meal and Rest Periods",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__night_differential__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__night_differential",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Night Shift Differential: definition, coverage and rate",
+      "display_text": "5\nNIGHT SHIFT DIFFERENTIAL\n(Article 86)\nA. Definition\nNight Shift Differential (NSD) refers to the additional compensation of  10% of\nan employee’s regular wage for each hour of work performed between 10:00 p.m.\nand 6:00 a.m. of the following day.\nB. Coverage\nThis benefit applies to all employees except:\n1. Government employees, whether employed by the National Government\nor any of its political subdivisions, including those employed in\ngovernment-owned and/or controlled corporations with original charters\nor created under special laws;\n2. Those of retail and service establishments regularly employing not more\nthan five workers;\n3. Kasambahay and persons in the personal service of another;\n4. Managerial employees, if they meet all of the following conditions:\n4.1 Their primary duty is to manage the establishment in which they are\nemployed or of a department or subdivision thereof;\n4.2 They customarily and regularly direct the work of two or more\nemployees therein; and\n4.3 They have the authority to hire or fire other employees of lower rank; or\ntheir suggestions and recommendations as to hiring, firing, and\npromotion, or any other change of status of other employees are given\nparticular weight.\n5. Officers or members of a managerial staff, if they perform the following\nduties and responsibilities:\n5.1 Primarily perform work directly related to management policies of their\nemployer;\n5.2 Customarily and regularly exercise discretion and independent\njudgment;\n5.3 (a) Regularly and directly assist a proprietor or managerial employee in\nthe management of the establishment or subdivision thereof in which\nhe or she is employed; or (b) execute, under general supervision, work\nalong specialized or technical lines requiri ng special training,\nexperience, or knowledge; or (c) execute, under general supervision,\nspecial assignments and tasks; and\n5.4 Do not devote more than  20% of their hours worked in a workweek to\nactivities which are not directly and closely related to the performance\n\nof the work described in paragraphs 5.1, 5.2, and 5.3 above; and\n6. Field personnel and those whose time and performance are unsupervised\nby the employer.\nC. Night Shift Differential Rate\nThe minimum night shift differential varies according to the day the night shift\nwork is performed.  For work performed between 10:00  p.m. and 6:00 a.m.  the\nfollowing day , the employer shall pay the employee an additional 10% of the\ncorresponding hourly rate for the night shift work.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nNight Shift Differential: definition, coverage and rate\n5\nNIGHT SHIFT DIFFERENTIAL\n(Article 86)\nA. Definition\nNight Shift Differential (NSD) refers to the additional compensation of  10% of\nan employee’s regular wage for each hour of work performed between 10:00 p.m.\nand 6:00 a.m. of the following day.\nB. Coverage\nThis benefit applies to all employees except:\n1. Government employees, whether employed by the National Government\nor any of its political subdivisions, including those employed in\ngovernment-owned and/or controlled corporations with original charters\nor created under special laws;\n2. Those of retail and service establishments regularly employing not more\nthan five workers;\n3. Kasambahay and persons in the personal service of another;\n4. Managerial employees, if they meet all of the following conditions:\n4.1 Their primary duty is to manage the establishment in which they are\nemployed or of a department or subdivision thereof;\n4.2 They customarily and regularly direct the work of two or more\nemployees therein; and\n4.3 They have the authority to hire or fire other employees of lower rank; or\ntheir suggestions and recommendations as to hiring, firing, and\npromotion, or any other change of status of other employees are given\nparticular weight.\n5. Officers or members of a managerial staff, if they perform the following\nduties and responsibilities:\n5.1 Primarily perform work directly related to management policies of their\nemployer;\n5.2 Customarily and regularly exercise discretion and independent\njudgment;\n5.3 (a) Regularly and directly assist a proprietor or managerial employee in\nthe management of the establishment or subdivision thereof in which\nhe or she is employed; or (b) execute, under general supervision, work\nalong specialized or technical lines requiri ng special training,\nexperience, or knowledge; or (c) execute, under general supervision,\nspecial assignments and tasks; and\n5.4 Do not devote more than  20% of their hours worked in a workweek to\nactivities which are not directly and closely related to the performance\n\nof the work described in paragraphs 5.1, 5.2, and 5.3 above; and\n6. Field personnel and those whose time and performance are unsupervised\nby the employer.\nC. Night Shift Differential Rate\nThe minimum night shift differential varies according to the day the night shift\nwork is performed.  For work performed between 10:00  p.m. and 6:00 a.m.  the\nfollowing day , the employer shall pay the employee an additional 10% of the\ncorresponding hourly rate for the night shift work.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 2488,
+      "character_count": 2488,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.wages_payment",
+        "labor.hours_of_work"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Night Shift Differential: definition, coverage and rate",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_coverage__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_coverage",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Thirteenth-month pay: definition and coverage",
+      "display_text": "13\nTHIRTEENTH-MONTH PAYjj\n(Presidential Decree No. 851)\nA. Definition\nThirteenth-month pay refers to one-twelfth of the total basic salary earned by\nan employee within a calendar year.\nB. Coverage\nAll employers are required to pay their rank -and-file employees thirteenth -\nmonth pay, regardless of the nature of their employment and irrespective of the\nmethods by which their wages are paid, provided they worked for at least one (1)\nmonth during a calendar year.\nThe Labor Code, as amended, distinguishes a rank -and-file employee from a\nmanagerial employee.  A managerial employee is one who is vested with powers or\nprerogatives to lay down and execute management policies and/or to hire, transfer,\nsuspend, layoff, recall, discharge, assign, or discipline employees, or to effectively\nrecommend such managerial actions.  All employees not falling within this\ndefinition are considered rank -and-file employees. The above distinction shall be\nused as guide for the purpose of  determining who are rank -and-file employees\nentitled to the thirteenth-month pay.\nThe following employers are not covered by Presidential Decree No. 851:\n1. The government and any of its political subdivisions, including\ngovernment-owned and controlled corporations, except those\ncorporations operating essentially as private subsidiaries of the\ngovernment;\n2. Employers who are already paying their employees a thirteenth-month pay\nor more in a calendar year or its equivalent kk at the time of the issuance of\nPresidential Decree No. 851;\n3. Employers of household helpers ll and persons in the personal service of\nanother in relation to such workers; and\n4. Employers of those who are paid on purely commission, boundary, or task\nbasis, and those who are paid a fixed amount for performing specific work,\n\nirrespective of the time consumed in the performance thereof, except\nwhere the workers who are paid on piece -rate basis in which case the\nemployer shall grant them thirteenth-month pay to such workers.mm\n\n\nSource footnotes:\njj See Revised Guidelines on the Implementation of the 13th Month Pay Law. See also DOLE Labor Advisory\nNo. 18, Series of 2021 entitled Guidelines on the Payment of Thirteenth Month Pay. Issued on 25 October\n2021.\nkk The term \"its equivalent\" shall include Christmas bonus, midyear bonus, cash bonuses, and other\npayments amounting to not less than one-twelfth (1/12) of the basic salary but shall not include cash and\nstock dividends, cost of living allowance, and all other allowances regularly enjoyed by the employee, as\nwell as non-monetary benefits.\nll Under Section 25 of Republic Act No. 10361 or the “Batas Kasambahay”, a domestic worker is entitled\nto thirteenth-month pay as provided for by law.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nThirteenth-month pay: definition and coverage\n13\nTHIRTEENTH-MONTH PAYjj\n(Presidential Decree No. 851)\nA. Definition\nThirteenth-month pay refers to one-twelfth of the total basic salary earned by\nan employee within a calendar year.\nB. Coverage\nAll employers are required to pay their rank -and-file employees thirteenth -\nmonth pay, regardless of the nature of their employment and irrespective of the\nmethods by which their wages are paid, provided they worked for at least one (1)\nmonth during a calendar year.\nThe Labor Code, as amended, distinguishes a rank -and-file employee from a\nmanagerial employee.  A managerial employee is one who is vested with powers or\nprerogatives to lay down and execute management policies and/or to hire, transfer,\nsuspend, layoff, recall, discharge, assign, or discipline employees, or to effectively\nrecommend such managerial actions.  All employees not falling within this\ndefinition are considered rank -and-file employees. The above distinction shall be\nused as guide for the purpose of  determining who are rank -and-file employees\nentitled to the thirteenth-month pay.\nThe following employers are not covered by Presidential Decree No. 851:\n1. The government and any of its political subdivisions, including\ngovernment-owned and controlled corporations, except those\ncorporations operating essentially as private subsidiaries of the\ngovernment;\n2. Employers who are already paying their employees a thirteenth-month pay\nor more in a calendar year or its equivalent kk at the time of the issuance of\nPresidential Decree No. 851;\n3. Employers of household helpers ll and persons in the personal service of\nanother in relation to such workers; and\n4. Employers of those who are paid on purely commission, boundary, or task\nbasis, and those who are paid a fixed amount for performing specific work,\n\nirrespective of the time consumed in the performance thereof, except\nwhere the workers who are paid on piece -rate basis in which case the\nemployer shall grant them thirteenth-month pay to such workers.mm\n\n\nSource footnotes:\njj See Revised Guidelines on the Implementation of the 13th Month Pay Law. See also DOLE Labor Advisory\nNo. 18, Series of 2021 entitled Guidelines on the Payment of Thirteenth Month Pay. Issued on 25 October\n2021.\nkk The term \"its equivalent\" shall include Christmas bonus, midyear bonus, cash bonuses, and other\npayments amounting to not less than one-twelfth (1/12) of the basic salary but shall not include cash and\nstock dividends, cost of living allowance, and all other allowances regularly enjoyed by the employee, as\nwell as non-monetary benefits.\nll Under Section 25 of Republic Act No. 10361 or the “Batas Kasambahay”, a domestic worker is entitled\nto thirteenth-month pay as provided for by law.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 2723,
+      "character_count": 2723,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.thirteenth_month_pay"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Thirteenth-month pay: definition and coverage",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_amount__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_amount",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Thirteenth-month pay: amount and basic salary",
+      "display_text": "C. Amount\nThe thirteenth-month pay shall not be less than one -twelfth (1/12) of the total\nbasic salary earned by an employee in a calendar year. The \"basic salary\" of an\nemployee for the purpose of computing the thirteenth-month pay shall include all\nremunerations o r earnings paid by his or her employer for services rendered. It\ndoes not include allowances and monetary benefits which are not considered or\nintegrated as part of the regular or basic salary, such as the cash equivalent of\nunused vacation and sick leave credits, overtime, premium, night shift differential\nand holiday pay, and cost of living allowance (COLA).  However, these salary -\nrelated benefits should be included as part of the basic salary in the computation\nof the thirteenth -month pay if these are tr eated as part of the basic salary of the\nemployees, through individual or collective agreement, company practice or\npolicy.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nThirteenth-month pay: amount and basic salary\nC. Amount\nThe thirteenth-month pay shall not be less than one -twelfth (1/12) of the total\nbasic salary earned by an employee in a calendar year. The \"basic salary\" of an\nemployee for the purpose of computing the thirteenth-month pay shall include all\nremunerations o r earnings paid by his or her employer for services rendered. It\ndoes not include allowances and monetary benefits which are not considered or\nintegrated as part of the regular or basic salary, such as the cash equivalent of\nunused vacation and sick leave credits, overtime, premium, night shift differential\nand holiday pay, and cost of living allowance (COLA).  However, these salary -\nrelated benefits should be included as part of the basic salary in the computation\nof the thirteenth -month pay if these are tr eated as part of the basic salary of the\nemployees, through individual or collective agreement, company practice or\npolicy.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 907,
+      "character_count": 907,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.thirteenth_month_pay"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Thirteenth-month pay: amount and basic salary",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_timing__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_timing",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Thirteenth-month pay: time of payment",
+      "display_text": "E. Time of Payment\nE.\nThe thirteenth-month pay shall be paid not later than December 24 of every\nyear. An employer, however, may give to his or her employees one-half (1/2) of the\nthirteenth-month pay before the opening of the regular school year and the\nremaining half on or before December 24 of every year.  The frequency of payment\nof this monetary benefit may be the subject of an agreement between the employer\nand the recognized/collective bargaining agent of the employees.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nThirteenth-month pay: time of payment\nE. Time of Payment\nE.\nThe thirteenth-month pay shall be paid not later than December 24 of every\nyear. An employer, however, may give to his or her employees one-half (1/2) of the\nthirteenth-month pay before the opening of the regular school year and the\nremaining half on or before December 24 of every year.  The frequency of payment\nof this monetary benefit may be the subject of an agreement between the employer\nand the recognized/collective bargaining agent of the employees.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 481,
+      "character_count": 481,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.thirteenth_month_pay"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Thirteenth-month pay: time of payment",
+      "quality_flags": []
+    },
+    {
+      "contract_version": "1.0.0",
+      "chunking_version": "1.0.0",
+      "chunk_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_separation__chunk_0001",
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "provision_id": "DOLE_BWC_HANDBOOK_2024__thirteenth_separation",
+      "chunk_sequence": 1,
+      "chunk_method": "whole_provision",
+      "subdivision_label": null,
+      "context_prefix": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition > Thirteenth-month pay: resigned or separated employees",
+      "display_text": "G. Thirteenth-Month Pay of Resigned or Separated Employee\nAn employee who has resigned or whose services are terminated at any time\nbefore the time of payment of the thirteenth-month pay is entitled to this monetary\nbenefit in proportion to the length of time he or she has worked during the year,\nreckoned from the time he or she has started working during the calendar year up\nto the time of his or her resignation or termination from the service.  Thus, if he or\nshe worked only from January to September, his or her proportionate thirteenth -\nnn G.R. No. 92174 & G.R. No. 102552, 10 December 1993.\nmonth pay should be equal to one -twelfth (1/12) of his or her total basic salary\nearned during that period.",
+      "retrieval_text": "DOLE-BWC Handbook on Workers’ Statutory Monetary Benefits — 2024 edition\nThirteenth-month pay: resigned or separated employees\nG. Thirteenth-Month Pay of Resigned or Separated Employee\nAn employee who has resigned or whose services are terminated at any time\nbefore the time of payment of the thirteenth-month pay is entitled to this monetary\nbenefit in proportion to the length of time he or she has worked during the year,\nreckoned from the time he or she has started working during the calendar year up\nto the time of his or her resignation or termination from the service.  Thus, if he or\nshe worked only from January to September, his or her proportionate thirteenth -\nnn G.R. No. 92174 & G.R. No. 102552, 10 December 1993.\nmonth pay should be equal to one -twelfth (1/12) of his or her total basic salary\nearned during that period.",
+      "normalized_char_start": 0,
+      "normalized_char_end": 710,
+      "character_count": 710,
+      "token_count": null,
+      "tokenizer_name": null,
+      "overlap_previous_tokens": 0,
+      "domains": [
+        "labor"
+      ],
+      "scope_status": "supported",
+      "supported_topics": [
+        "labor.thirteenth_month_pay"
+      ],
+      "excluded_topics": [],
+      "answer_eligible": true,
+      "answer_use_mode": "default_answer",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_family": "current_with_conditions",
+      "status_as_of": "2024-11-04",
+      "citation_display": "DOLE-BWC Workers’ Statutory Monetary Benefits, 2024 Handbook, Thirteenth-month pay: resigned or separated employees",
+      "quality_flags": []
+    }
+  ],
+  "canonical": [
+    {
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "local_path": "raw/labor/reliability_2026_10_26/dole_bwc_handbook_2024_nwpc.pdf",
+      "official_source_url": "https://nwpc.dole.gov.ph/wp-content/uploads/2024/11/Workers-Statutory-Monetary-Benefits-Handbook-2024-Edition.pdf",
+      "retrieval_url": "https://nwpc.dole.gov.ph/wp-content/uploads/2024/11/Workers-Statutory-Monetary-Benefits-Handbook-2024-Edition.pdf",
+      "verification_status": "verified_official_pdf_text;81_pages;publisher_and_selected_pages_ai_visual_compared",
+      "answer_eligible_candidate": "true"
+    }
+  ],
+  "legal_status": [
+    {
+      "document_id": "DOLE_BWC_HANDBOOK_2024",
+      "legal_status": "recorded_2024_agency_guidance_current_applicability_unreviewed",
+      "status_as_of": "2024-11-04",
+      "retrieval_use_policy": "framework_only",
+      "freshness_rule": "Recorded 2024 agency handbook only. Verify subsequent law/issuances and individual coverage before current guidance. No regional wage amounts, tax, pension, maternity or special-worker module is added. Original held OCR and MO 28 records remain held."
+    }
+  ],
+  "registry": [
+    {
+      "source_id": "DOLE_BWC_HANDBOOK",
+      "authority_level": "primary_official",
+      "permitted_use": "answer_and_citation",
+      "answer_eligible": "true",
+      "organization": "DOLE Bureau of Working Conditions; official NWPC mirror",
+      "verification_method": "Publisher attribution, official host, PDF hash, complete relevant page comparison; no independent legal-currentness approval."
+    }
+  ],
+  "scope_mapping_repairs": [
+    {
+      "provision_id": "LAB_CODE_2022__art_84",
+      "parent_text_sha256": "f171b8d8d1e6ab2abb5bb4d02b7fe6a950b47e74162cdd99fd848b85cf248a23",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "reason": "Clean machine-extracted basic working-time rule falls within the frozen hours-of-work topic; previous topic mapping missed this heading. No text, legal status or human-review state is changed."
+    },
+    {
+      "provision_id": "LAB_CODE_2022__art_85",
+      "parent_text_sha256": "089467bc24dcbc47d21133b1d6db15b227758b52eb677e2d6e735dcf7dd263cb",
+      "supported_topics": [
+        "labor.hours_of_work"
+      ],
+      "reason": "Clean machine-extracted basic working-time rule falls within the frozen hours-of-work topic; previous topic mapping missed this heading. No text, legal status or human-review state is changed."
+    }
+  ],
+  "visual_comparison": {
+    "reviewer": "Codex AI",
+    "pdf_pages": [
+      17,
+      18,
+      19,
+      35,
+      36,
+      50,
+      51,
+      52,
+      53
+    ],
+    "independent_human_review": false,
+    "notes": [
+      "Selected complete subsections; regional wage tables, commission-case discussion, tax, pension and special-worker modules omitted.",
+      "Thirteenth-month definition/coverage sentence restored across page break; page-40 footnotes retained after the completed coverage list.",
+      "Extracted line wrapping and spacing are preserved; no source sentence was paraphrased."
+    ]
+  },
+  "remaining_holds": [
+    "DOLE_LA_06_20 original scanned advisory still requires the original source-review sign-off.",
+    "Stored MO_28_1986 wording/copy remains non-answer-eligible. The separate official agency handbook is not a replacement official MO 28 copy.",
+    "Current-year or present-law applicability still requires scoped trusted legal review."
+  ]
+}

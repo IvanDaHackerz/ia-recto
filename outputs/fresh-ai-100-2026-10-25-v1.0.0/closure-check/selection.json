@@ -1,0 +1,8 @@
+{
+  "targeted_recheck_ids": [
+    "PH5_021"
+  ],
+  "selection_role": "Final posthoc qualification guard recheck, not fresh holdout",
+  "reason": "The 17-case check still omitted the serious-business-losses condition when describing closure separation pay. Add a fail-closed source check and verify the final response.",
+  "shared_budget_not_increased": true
+}

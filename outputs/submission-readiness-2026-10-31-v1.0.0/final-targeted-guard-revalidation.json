@@ -1,0 +1,63 @@
+{
+  "role": "Offline guard regression on saved intermediate AI outputs; not a new complete application replay or independent legal review",
+  "claims_tested": 6,
+  "newly_blocked_claims": [
+    {
+      "id": "RD31_014",
+      "claim_id": "development_1",
+      "text": "Kung ang gusto mong araw ng pahinga ay base sa relihiyon, dapat respetuhin ito ng employer. Kailangan mo itong isulat at ipaalam sa employer nang hindi bababa sa pitong (7) araw bago mo gustong mag‑effect ang napili mong araw. Pero, kung ang pagpili mo ay magdudulot ng seryosong problema sa operasyon at wala nang ibang paraan para ayusin ito, puwedeng baguhin ng employer ang araw ng pahinga para sa ilang pagkakataon sa isang buwan.",
+      "new_guard_failure": "source_held_for_interpretation_review"
+    },
+    {
+      "id": "RD31_038",
+      "claim_id": "development_1",
+      "text": "Sa ilalim ng Art. 101 ng Consumer Act, ang supplier ay may pananagutan kapag kulang ang laman ng sealed pack kumpara sa nakasaad sa label o resibo. Bilang consumer, pwede mong piliin ang isa sa mga remedyo: (a) dagdagan ang timbang o sukat na kulang; (b) palitan ang produkto ng kapareho nitong klase, tatak o modelo na walang kakulangan; o (c) ibalik agad ang bayad mo kasama ang monetary updating. Kung ang panukat na ginamit ng supplier ay hindi alinsunod sa opisyal na pamantayan, sila ang direktang mananagot.",
+      "new_guard_failure": "quantity_rule_compares_stated_container_label_or_ad_content_not_an_invented_receipt_trigger"
+    },
+    {
+      "id": "RD31_050",
+      "claim_id": "development_1",
+      "text": "Under the Consumer Act, only the actual manufacturer, producer or importer of a product is automatically liable for damages caused by a defect, regardless of fault, unless they can prove they never placed the product on the market, the product was not defective, or the consumer/third party was solely at fault. A seller or supplier is not held liable under this rule; their responsibility arises only if they engage in a deceptive act, such as falsely representing the maker or importer, which is prohibited as a deceptive practice.",
+      "new_guard_failure": "listed_product_damage_actors_do_not_establish_exclusive_seller_liability_for_deception"
+    }
+  ],
+  "all_checks": [
+    {
+      "id": "RD31_002",
+      "claim_id": "development_1",
+      "text": "For covered employees, wages must be paid at least once every two weeks or twice a month, meaning the interval between paydays cannot be longer than sixteen (16) days, unless a force‑majeure event or something beyond the employer’s control stops payment, in which case the employer must pay immediately after the event ends.",
+      "new_guard_failure": null
+    },
+    {
+      "id": "RD31_014",
+      "claim_id": "development_1",
+      "text": "Kung ang gusto mong araw ng pahinga ay base sa relihiyon, dapat respetuhin ito ng employer. Kailangan mo itong isulat at ipaalam sa employer nang hindi bababa sa pitong (7) araw bago mo gustong mag‑effect ang napili mong araw. Pero, kung ang pagpili mo ay magdudulot ng seryosong problema sa operasyon at wala nang ibang paraan para ayusin ito, puwedeng baguhin ng employer ang araw ng pahinga para sa ilang pagkakataon sa isang buwan.",
+      "new_guard_failure": "source_held_for_interpretation_review"
+    },
+    {
+      "id": "RD31_038",
+      "claim_id": "development_1",
+      "text": "Sa ilalim ng Art. 101 ng Consumer Act, ang supplier ay may pananagutan kapag kulang ang laman ng sealed pack kumpara sa nakasaad sa label o resibo. Bilang consumer, pwede mong piliin ang isa sa mga remedyo: (a) dagdagan ang timbang o sukat na kulang; (b) palitan ang produkto ng kapareho nitong klase, tatak o modelo na walang kakulangan; o (c) ibalik agad ang bayad mo kasama ang monetary updating. Kung ang panukat na ginamit ng supplier ay hindi alinsunod sa opisyal na pamantayan, sila ang direktang mananagot.",
+      "new_guard_failure": "quantity_rule_compares_stated_container_label_or_ad_content_not_an_invented_receipt_trigger"
+    },
+    {
+      "id": "RD31_050",
+      "claim_id": "development_1",
+      "text": "Under the Consumer Act, only the actual manufacturer, producer or importer of a product is automatically liable for damages caused by a defect, regardless of fault, unless they can prove they never placed the product on the market, the product was not defective, or the consumer/third party was solely at fault. A seller or supplier is not held liable under this rule; their responsibility arises only if they engage in a deceptive act, such as falsely representing the maker or importer, which is prohibited as a deceptive practice.",
+      "new_guard_failure": "listed_product_damage_actors_do_not_establish_exclusive_seller_liability_for_deception"
+    },
+    {
+      "id": "RD31_057",
+      "claim_id": "development_1",
+      "text": "A consumer must first use the digital platform’s internal redress mechanism before filing a complaint in court, with a government agency, or through alternative dispute resolution. That internal process is considered exhausted if the complaint is still unresolved after seven calendar days from the date it was filed.",
+      "new_guard_failure": null
+    },
+    {
+      "id": "RD31_058",
+      "claim_id": "development_1",
+      "text": "Under the Internet Transactions Act, the e‑retailer or online merchant is primarily liable for indemnifying the consumer in civil or administrative actions arising from the transaction. The e‑marketplace or digital platform is treated as the same liable party only when it is found to be the same entity as the merchant; otherwise the merchant’s primary liability remains separate from any platform liability.",
+      "new_guard_failure": null
+    }
+  ],
+  "provider_calls": 0
+}

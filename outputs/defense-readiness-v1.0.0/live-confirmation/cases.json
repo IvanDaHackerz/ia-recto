@@ -1,0 +1,138 @@
+[
+  {
+    "case_id": "DEF_002",
+    "question_text": "My private employer says the missing cash in our till will be divided equally among everyone on duty. What conditions apply to deductions?",
+    "topic": "wages",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_002",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_005",
+    "question_text": "Sa private company ako. Required yung meeting bago magbukas, pero off the clock daw yun. What rules cover time worked?",
+    "topic": "hours",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_005",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_013",
+    "question_text": "Private employee ako, seasonal daw yung work ko. How is seasonal work treated under the regular-employment rule?",
+    "topic": "status",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_013",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_028",
+    "question_text": "A retail shop says only the manufacturer handles the written warranty. What role does the retailer have when a customer brings a warranty claim?",
+    "topic": "warranty",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_028",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_AI_021",
+    "question_text": "Private employee ako with missing 13th month pay. Separately, the store charged above the price tag. Please distinguish both concerns.",
+    "expected_primary": "mixed",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "consumer",
+      "labor"
+    ],
+    "topic": "source_gap_mixed",
+    "group": "mixed",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_AI_021",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  }
+]

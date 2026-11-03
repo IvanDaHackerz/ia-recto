@@ -1,0 +1,275 @@
+{
+  "role": "AI-authored development retrieval benchmark, not independent human/legal evaluation",
+  "oracle_domain": true,
+  "positive_queries": 56,
+  "scenario_families": 28,
+  "methods": {
+    "bm25": {
+      "hit@1": 0.8571428571428571,
+      "recall@1": 0.8035714285714286,
+      "hit@3": 1.0,
+      "recall@3": 1.0,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "hit@10": 1.0,
+      "recall@10": 1.0,
+      "mrr@10": 0.9255952380952381,
+      "ndcg@10": 0.9449376477678608,
+      "queries": 56,
+      "scenario_families": 28,
+      "language": {
+        "en": {
+          "hit@1": 0.8571428571428571,
+          "recall@1": 0.8035714285714286,
+          "hit@3": 1.0,
+          "recall@3": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "hit@10": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.9226190476190476,
+          "ndcg@10": 0.9425996164540847
+        },
+        "en_tl": {
+          "hit@1": 0.8571428571428571,
+          "recall@1": 0.8035714285714286,
+          "hit@3": 1.0,
+          "recall@3": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "hit@10": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.9285714285714286,
+          "ndcg@10": 0.9472756790816368
+        }
+      },
+      "scenario_bootstrap_95": {
+        "hit@1": {
+          "lower": 0.7142857142857143,
+          "upper": 0.9642857142857143
+        },
+        "recall@1": {
+          "lower": 0.6607142857142857,
+          "upper": 0.9285714285714286
+        },
+        "hit@3": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "recall@3": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "hit@5": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "recall@5": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "hit@10": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "recall@10": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "mrr@10": {
+          "lower": 0.8541666666666666,
+          "upper": 0.9821428571428571
+        },
+        "ndcg@10": {
+          "lower": 0.8922133268494976,
+          "upper": 0.9868189197704093
+        }
+      },
+      "negative_controls": {
+        "passed": 10,
+        "total": 11
+      },
+      "mean_seconds_positive_including_initial_encoder_load": 0.04281712500012093
+    },
+    "semantic": {
+      "hit@1": 0.7321428571428571,
+      "recall@1": 0.6785714285714286,
+      "hit@3": 0.9107142857142857,
+      "recall@3": 0.9107142857142857,
+      "hit@5": 0.9821428571428571,
+      "recall@5": 0.9821428571428571,
+      "hit@10": 1.0,
+      "recall@10": 1.0,
+      "mrr@10": 0.8324404761904762,
+      "ndcg@10": 0.8712685628903449,
+      "queries": 56,
+      "scenario_families": 28,
+      "language": {
+        "en": {
+          "hit@1": 0.7142857142857143,
+          "recall@1": 0.6607142857142857,
+          "hit@3": 0.9642857142857143,
+          "recall@3": 0.9642857142857143,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "hit@10": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.8363095238095237,
+          "ndcg@10": 0.875180218395674
+        },
+        "en_tl": {
+          "hit@1": 0.75,
+          "recall@1": 0.6964285714285714,
+          "hit@3": 0.8571428571428571,
+          "recall@3": 0.8571428571428571,
+          "hit@5": 0.9642857142857143,
+          "recall@5": 0.9642857142857143,
+          "hit@10": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.8285714285714285,
+          "ndcg@10": 0.8673569073850161
+        }
+      },
+      "scenario_bootstrap_95": {
+        "hit@1": {
+          "lower": 0.5714285714285714,
+          "upper": 0.875
+        },
+        "recall@1": {
+          "lower": 0.5357142857142857,
+          "upper": 0.8214285714285714
+        },
+        "hit@3": {
+          "lower": 0.8214285714285714,
+          "upper": 0.9821428571428571
+        },
+        "recall@3": {
+          "lower": 0.8214285714285714,
+          "upper": 0.9821428571428571
+        },
+        "hit@5": {
+          "lower": 0.9464285714285714,
+          "upper": 1.0
+        },
+        "recall@5": {
+          "lower": 0.9464285714285714,
+          "upper": 1.0
+        },
+        "hit@10": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "recall@10": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "mrr@10": {
+          "lower": 0.7318303571428572,
+          "upper": 0.9226339285714285
+        },
+        "ndcg@10": {
+          "lower": 0.7956342778268669,
+          "upper": 0.9383885750771193
+        }
+      },
+      "negative_controls": {
+        "passed": 10,
+        "total": 11
+      },
+      "mean_seconds_positive_including_initial_encoder_load": 0.1852807035715419
+    },
+    "hybrid": {
+      "hit@1": 0.75,
+      "recall@1": 0.6964285714285714,
+      "hit@3": 0.9821428571428571,
+      "recall@3": 0.9821428571428571,
+      "hit@5": 1.0,
+      "recall@5": 1.0,
+      "hit@10": 1.0,
+      "recall@10": 1.0,
+      "mrr@10": 0.8556547619047619,
+      "ndcg@10": 0.8895992172310969,
+      "queries": 56,
+      "scenario_families": 28,
+      "language": {
+        "en": {
+          "hit@1": 0.75,
+          "recall@1": 0.6964285714285714,
+          "hit@3": 1.0,
+          "recall@3": 1.0,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "hit@10": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.863095238095238,
+          "ndcg@10": 0.8955131984644813
+        },
+        "en_tl": {
+          "hit@1": 0.75,
+          "recall@1": 0.6964285714285714,
+          "hit@3": 0.9642857142857143,
+          "recall@3": 0.9642857142857143,
+          "hit@5": 1.0,
+          "recall@5": 1.0,
+          "hit@10": 1.0,
+          "recall@10": 1.0,
+          "mrr@10": 0.8482142857142856,
+          "ndcg@10": 0.8836852359977126
+        }
+      },
+      "scenario_bootstrap_95": {
+        "hit@1": {
+          "lower": 0.5892857142857143,
+          "upper": 0.875
+        },
+        "recall@1": {
+          "lower": 0.5357142857142857,
+          "upper": 0.8392857142857143
+        },
+        "hit@3": {
+          "lower": 0.9464285714285714,
+          "upper": 1.0
+        },
+        "recall@3": {
+          "lower": 0.9464285714285714,
+          "upper": 1.0
+        },
+        "hit@5": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "recall@5": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "hit@10": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "recall@10": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "mrr@10": {
+          "lower": 0.7633928571428571,
+          "upper": 0.9330729166666665
+        },
+        "ndcg@10": {
+          "lower": 0.8214491358680731,
+          "upper": 0.9474302866390397
+        }
+      },
+      "negative_controls": {
+        "passed": 10,
+        "total": 11
+      },
+      "mean_seconds_positive_including_initial_encoder_load": 0.029691351785654012
+    }
+  },
+  "config_sha256": "e7dcaadb31676edc25e022fc2eda0a573331bc7aeb637a6fe3514a26d65c9245",
+  "queries_sha256": "3a354b2204065df29a035e4c1c48c3cd9d96cb1f4cf3f5aafd971ac665be9de6",
+  "default_method_fixed_before_benchmark": "bm25",
+  "method_selection_or_tuning_on_queries": true,
+  "relevance_labels_exhaustive": false,
+  "fresh_holdout": false
+}

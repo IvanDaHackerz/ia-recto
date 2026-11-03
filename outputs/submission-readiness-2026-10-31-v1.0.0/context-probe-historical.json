@@ -1,0 +1,3351 @@
+[
+  {
+    "id": "IR_01_en_tl__clear",
+    "issues": [],
+    "components": [
+      "private employee ako. ilang oras ang normal na workday bago maging excess hours"
+    ]
+  },
+  {
+    "id": "IR_01_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "private employee ako. ilng ors ang normal na workday bgo maging excess hours"
+    ]
+  },
+  {
+    "id": "IR_15_en_tl__clear",
+    "issues": [],
+    "components": [
+      "bumili ako ng appliance sa store. anong details ang dapat nasa written warranty tungkol sa coverage at repair"
+    ]
+  },
+  {
+    "id": "IR_15_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "bumile ako ng appliance sa store",
+      "retail transaction: anong details ang dapat nasa writtin warranty tungkol sa coverage at repair"
+    ]
+  },
+  {
+    "id": "SYS_01_2__clear",
+    "issues": [],
+    "components": [
+      "private employee ako, unpaid ang overtime",
+      "sa shop naman, mas mahal ang singil kaysa price tag"
+    ]
+  },
+  {
+    "id": "SYS_01_2__noisy",
+    "issues": [],
+    "components": [
+      "private employee ako, unpaid ang overtime",
+      "sa shop naman, mas maaahal ang singil kaysa price tag"
+    ]
+  },
+  {
+    "id": "SYS_02_2__clear",
+    "issues": [],
+    "components": [
+      "private employee ako, delayed ang sahod",
+      "hiwalay na concern ko ang seafarer deployment"
+    ]
+  },
+  {
+    "id": "SYS_02_2__noisy",
+    "issues": [],
+    "components": [
+      "private employee ako, delayed ang sahod",
+      "hiwalay na concern ko ang seafarer deployment"
+    ]
+  },
+  {
+    "id": "IR_NEG_01__clear",
+    "issues": [],
+    "components": [
+      "my government employer withheld my salary"
+    ]
+  },
+  {
+    "id": "IR_NEG_01__noisy",
+    "issues": [],
+    "components": [
+      "my government employer withheld my salary"
+    ]
+  },
+  {
+    "id": "SYS_05_2__clear",
+    "issues": [
+      "route"
+    ],
+    "components": [
+      "late ang salary ko",
+      "ayaw din ng shop magbigay ng product refund"
+    ]
+  },
+  {
+    "id": "SYS_05_2__noisy",
+    "issues": [
+      "route"
+    ],
+    "components": [
+      "late ang salary ko",
+      "ayw din ng shop mgbgay ng product refund"
+    ]
+  },
+  {
+    "id": "IR_02_en_tl__clear",
+    "issues": [],
+    "components": [
+      "sa private company, lampas eight hours ang trabaho ko",
+      "private employment: saan nakasaad yung dagdag na overtime pay"
+    ]
+  },
+  {
+    "id": "IR_02_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "sa private company, lampas eight hours ang trabaho ko",
+      "private employment: saan nakasaad yong dagdag na overtime pay"
+    ]
+  },
+  {
+    "id": "IR_16_en_tl__clear",
+    "issues": [],
+    "components": [
+      "repair shop gumamit ng piyesang hindi pasok sa manufacturer specs ng appliance. saan ang rule tungkol sa replacement parts"
+    ]
+  },
+  {
+    "id": "IR_16_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "repair shop gumamit ng piyesanggg hindi pasok sa manufacturer specs ng appliance. saan ang rule tungkol sa replacement parrrts"
+    ]
+  },
+  {
+    "id": "SYS_04_2__clear",
+    "issues": [],
+    "components": [
+      "private employee ako, kailan ang final pay at coe",
+      "sa store naman, mas mataas ang singil kaysa price tag"
+    ]
+  },
+  {
+    "id": "SYS_04_2__noisy",
+    "issues": [],
+    "components": [
+      "private employee ako, kailan ang final pay at coe",
+      "sa store naman, mas mataas ang singil kaysa price tag"
+    ]
+  },
+  {
+    "id": "SYS_03_2__clear",
+    "issues": [],
+    "components": [
+      "ayaw ng retail shop sa product warranty ko",
+      "hiwalay na issue, inilabas nila home address ko online"
+    ]
+  },
+  {
+    "id": "SYS_03_2__noisy",
+    "issues": [],
+    "components": [
+      "ayaw ng rtilshop sa product warranty ko",
+      "hiwalay na isse, inilabas nila home address ko online"
+    ]
+  },
+  {
+    "id": "IR_NEG_02__clear",
+    "issues": [],
+    "components": [
+      "what is the exact minimum wage in my city today"
+    ]
+  },
+  {
+    "id": "IR_NEG_02__noisy",
+    "issues": [],
+    "components": [
+      "what is the exact minimum wage in my city today"
+    ]
+  },
+  {
+    "id": "TYPE_081__clear",
+    "issues": [
+      "route"
+    ],
+    "components": [
+      "my employer has not paid me. can you help"
+    ]
+  },
+  {
+    "id": "TYPE_081__noisy",
+    "issues": [
+      "route"
+    ],
+    "components": [
+      "my employer has not paid me. can you help"
+    ]
+  },
+  {
+    "id": "IR_03_en_tl__clear",
+    "issues": [],
+    "components": [
+      "private worker ako. pwede bang ibawas ang undertime kahapon sa overtime ko today"
+    ]
+  },
+  {
+    "id": "IR_03_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "private worker ako. pwede bannng ibawas ang undertime kaaahapon sa overtime ko today"
+    ]
+  },
+  {
+    "id": "IR_17_en_tl__clear",
+    "issues": [],
+    "components": [
+      "palpak ang paid repair service sa bahay. saan ang provision tungkol sa redo, refund, o bawas presyo"
+    ]
+  },
+  {
+    "id": "IR_17_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "palpak ang paid repair service sabahay. saan ang provision tungkol sa redo, refund, o bawas presyo"
+    ]
+  },
+  {
+    "id": "EVAL_051__clear",
+    "issues": [],
+    "components": [
+      "my private employer left overtime off my payslip",
+      "a shop also charged more than the price tag on a school bag i bought. what can i do about each one"
+    ]
+  },
+  {
+    "id": "EVAL_051__noisy",
+    "issues": [],
+    "components": [
+      "my private employer lept overtttimeoff my payslip",
+      "a shop also charged more than the price tag on a schuol bag i bought. what can i do abouteach one"
+    ]
+  },
+  {
+    "id": "SYS_06_2__clear",
+    "issues": [],
+    "components": [
+      "private employer ko delayed ang sahod",
+      "hiwalay ang unpaid salary ng spouse ko na government employee"
+    ]
+  },
+  {
+    "id": "SYS_06_2__noisy",
+    "issues": [],
+    "components": [
+      "private employer ko delayed ang sahod",
+      "hiwalay ang unpaid salary ng spouse ko na government employee"
+    ]
+  },
+  {
+    "id": "IR_NEG_03__clear",
+    "issues": [],
+    "components": [
+      "ofw employment: my overseas employer changed my ofw contract"
+    ]
+  },
+  {
+    "id": "IR_NEG_03__noisy",
+    "issues": [],
+    "components": [
+      "ofw employment: my overseas employer changid my ofw contract"
+    ]
+  },
+  {
+    "id": "TYPE_086__clear",
+    "issues": [],
+    "components": [
+      "ayaw nila i-refund yung binayad ko. ano puwede kong gawin"
+    ]
+  },
+  {
+    "id": "TYPE_086__noisy",
+    "issues": [],
+    "components": [
+      "ayawww nila i-refund yung binnnayad ko. ano puwede kong gaaawin"
+    ]
+  },
+  {
+    "id": "IR_04_en_tl__clear",
+    "issues": [],
+    "components": [
+      "private job ito",
+      "private employment: kailan pwedeng compulsory overtime dahil may emergency o masisirang products"
+    ]
+  },
+  {
+    "id": "IR_04_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "private job ito",
+      "private employment: kailan pwedeng compulsory overtime dahil mayemergency omasisirang products"
+    ]
+  },
+  {
+    "id": "IR_18_en_tl__clear",
+    "issues": [],
+    "components": [
+      "sira pa rin ang biniling item kahit inayos na. anong provision sa replacement o refund para sa product quality problem"
+    ]
+  },
+  {
+    "id": "IR_18_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "sira pa rin ang biniling item kahet inayyyos na. anong prvsion sa replacement o refund para sa product quality problem"
+    ]
+  },
+  {
+    "id": "EVAL_052__clear",
+    "issues": [],
+    "components": [
+      "hindi pa nire-release ng former private employer ang final pay ko",
+      "may appliance store rin na ayaw ayusin ang defective mixer na binili ko. ano ang next steps sa bawat concern"
+    ]
+  },
+  {
+    "id": "EVAL_052__noisy",
+    "issues": [],
+    "components": [
+      "hindi pa nire-release ng former private employer ang final pay ko",
+      "may appliance store rin na ayaw ayusin ang defective mixer na binili ko. ano ang next steps sa bwt concern"
+    ]
+  },
+  {
+    "id": "EVAL_063__clear",
+    "issues": [],
+    "components": [
+      "there's something i don't understand in my final-pay breakdown from a private employer",
+      "i also want to know exactly how much my sss retirement pension will be"
+    ]
+  },
+  {
+    "id": "EVAL_063__noisy",
+    "issues": [],
+    "components": [
+      "there's something i don't understand in my final-pay breakdown prom a private employer",
+      "i alsu want to know exactly how much my sss retirement pension well be"
+    ]
+  },
+  {
+    "id": "IR_NEG_04__clear",
+    "issues": [],
+    "components": [
+      "i have a complaint about my seafarer deployment"
+    ]
+  },
+  {
+    "id": "IR_NEG_04__noisy",
+    "issues": [],
+    "components": [
+      "i have a complaint about my seafarer deployment"
+    ]
+  },
+  {
+    "id": "TYPE_091__clear",
+    "issues": [],
+    "components": [
+      "they ended my contract. what rights do i have"
+    ]
+  },
+  {
+    "id": "TYPE_091__noisy",
+    "issues": [],
+    "components": [
+      "they ended my contract. what rights doihave"
+    ]
+  },
+  {
+    "id": "IR_05_en_tl__clear",
+    "issues": [],
+    "components": [
+      "anim na sunod na araw sa private work",
+      "private employment: gaano kahaba ang weekly rest na nasa rules"
+    ]
+  },
+  {
+    "id": "IR_05_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "anm nasunod na araw sa private work",
+      "private employment: gaaaano khba ang weekly rest na nasa rules"
+    ]
+  },
+  {
+    "id": "IR_19_en_tl__clear",
+    "issues": [],
+    "components": [
+      "kulang ang actual laman ng household product kumpara sa net quantity sa label. saan ang remedies"
+    ]
+  },
+  {
+    "id": "IR_19_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "klng ang actl laman ng household prdct kmpra sa net quantity sa label. saan ang rmdies"
+    ]
+  },
+  {
+    "id": "EVAL_053__clear",
+    "issues": [],
+    "components": [
+      "how do i ask my old private employer for a coe",
+      "i also need to file a dti complaint about a repair shop. where do i start"
+    ]
+  },
+  {
+    "id": "EVAL_053__noisy",
+    "issues": [],
+    "components": [
+      "how do i ask my old private employer for a coe",
+      "i also need to file a dti complaint about a repair shop. whire do i start"
+    ]
+  },
+  {
+    "id": "EVAL_064__clear",
+    "issues": [],
+    "components": [
+      "hindi gumagana yung vacuum na binili ko sa appliance shop",
+      "may charge din sa bank account ko na hindi ko ginawa. ano gagawin ko sa bawat issue"
+    ]
+  },
+  {
+    "id": "EVAL_064__noisy",
+    "issues": [],
+    "components": [
+      "hindi guuumagana yung vacuum na binili i i ko sa appliance shop",
+      "may charge din sa bank account ko na hindi ko ginawa. ano gagggawin ko sa bawat issue"
+    ]
+  },
+  {
+    "id": "IR_NEG_05__clear",
+    "issues": [],
+    "components": [
+      "my bank charged an unauthorized credit card fee"
+    ]
+  },
+  {
+    "id": "IR_NEG_05__noisy",
+    "issues": [],
+    "components": [
+      "my bank charged an unauthorized credit card fee"
+    ]
+  },
+  {
+    "id": "TYPE_096__clear",
+    "issues": [],
+    "components": [
+      "sobra yung charge nila sa akin. saan ako puwedeng magreklamo"
+    ]
+  },
+  {
+    "id": "TYPE_096__noisy",
+    "issues": [],
+    "components": [
+      "sobra yngchargi nila sa akiiin. sn ako puwedengmagreklamo"
+    ]
+  },
+  {
+    "id": "IR_06_en_tl__clear",
+    "issues": [],
+    "components": [
+      "private employee ako. kailangan bang may advance written notice ng rest-day schedule"
+    ]
+  },
+  {
+    "id": "IR_06_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "private employee ako. kailangan bang may advance written notice ng rest-day schedule"
+    ]
+  },
+  {
+    "id": "IR_20_en_tl__clear",
+    "issues": [],
+    "components": [
+      "may damage dahil defective ang appliance. saan ang manufacturer liability at kulang na hazard information"
+    ]
+  },
+  {
+    "id": "IR_20_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "may damage dahil defective ang appliance. saan ang manufacturer liability at kulang na hazard information"
+    ]
+  },
+  {
+    "id": "EVAL_054__clear",
+    "issues": [],
+    "components": [
+      "sa private office, walang malinaw na meal break dahil may phone duty",
+      "sa personal purchase ko naman, iba ang warranty period sa sinabi ng retailer. puwede bang parehong ipaliwanag"
+    ]
+  },
+  {
+    "id": "EVAL_054__noisy",
+    "issues": [],
+    "components": [
+      "sa private office, walang malinaw na meal break dahil may phone duty",
+      "sa personal purchase ko naman, iba ang warranty period sa sinabi ng retailer. puwede bang parehong ipaliwanag"
+    ]
+  },
+  {
+    "id": "EVAL_065__clear",
+    "issues": [],
+    "components": [
+      "i'm asking about overtime pay at my private job",
+      "ofw employment: my sister has a pay problem under her overseas employment contract too. where do we each start"
+    ]
+  },
+  {
+    "id": "EVAL_065__noisy",
+    "issues": [],
+    "components": [
+      "i'm asking about overtime pay at my private job",
+      "ofw employment: my sister has a pay problem under her overseas employment contract too. where do weeach start"
+    ]
+  },
+  {
+    "id": "IR_NEG_06__clear",
+    "issues": [],
+    "components": [
+      "my insurance claim was denied"
+    ]
+  },
+  {
+    "id": "IR_NEG_06__noisy",
+    "issues": [],
+    "components": [
+      "my insurance claimwas denied"
+    ]
+  },
+  {
+    "id": "IR_07_en_tl__clear",
+    "issues": [],
+    "components": [
+      "sa private employer, saan ang general rule tungkol sa regular-holiday pay"
+    ]
+  },
+  {
+    "id": "IR_07_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "sa private employer, sn ang general rule tngkl sa regular-holiday pay"
+    ]
+  },
+  {
+    "id": "IR_21_en_tl__clear",
+    "issues": [],
+    "components": [
+      "retail transaction: unsafe ang household item",
+      "anong provision sa recall o pag-ban ng consumer product"
+    ]
+  },
+  {
+    "id": "IR_21_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "retail transaction: unsafe ang household item",
+      "anung provisiun sa ricall o pag-ban ng consumer product"
+    ]
+  },
+  {
+    "id": "EVAL_055__clear",
+    "issues": [],
+    "components": [
+      "my private-company thirteenth-month statement leaves out a month i worked",
+      "a furniture seller also added charges after i paid",
+      "retail transaction: what records do i need for each complaint"
+    ]
+  },
+  {
+    "id": "EVAL_055__noisy",
+    "issues": [],
+    "components": [
+      "my private-company thirteenth-month statemeeent leaves out a month i worked",
+      "a furniture seller also added charges after i paid",
+      "retail transaction: what records do i need for each complaint"
+    ]
+  },
+  {
+    "id": "EVAL_066__clear",
+    "issues": [],
+    "components": [
+      "may tanong ako sa regular-holiday pay sa private company ko",
+      "private employment: magkano rin mismo yung minimum wage sa city namin ngayon"
+    ]
+  },
+  {
+    "id": "EVAL_066__noisy",
+    "issues": [],
+    "components": [
+      "may tanong ako sa regular-holiday pay sa private company ko",
+      "private employment: magkano rin mismo yung minimum wage sa city namin ngayon"
+    ]
+  },
+  {
+    "id": "IR_NEG_07__clear",
+    "issues": [],
+    "components": [
+      "my mobile phone plan has an extra telecom service charge"
+    ]
+  },
+  {
+    "id": "IR_NEG_07__noisy",
+    "issues": [],
+    "components": [
+      "my mobile phne plan has anextra telecom service charge"
+    ]
+  },
+  {
+    "id": "IR_08_en_tl__clear",
+    "issues": [],
+    "components": [
+      "probationary ako sa private company. anong provision sa haba ng probation at standards na dapat sinabi sa umpisa"
+    ]
+  },
+  {
+    "id": "IR_08_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "probationary ako sa private company",
+      "private employment: anng provision sa haba ng probation at standards na dapat sinabi sa umpsa"
+    ]
+  },
+  {
+    "id": "IR_22_en_tl__clear",
+    "issues": [],
+    "components": [
+      "may mahalagang info na tinago sa advertisement ng store. saan ang rule sa misleading advertising"
+    ]
+  },
+  {
+    "id": "IR_22_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "may mahalagang inpo na tinago sa advertisement ng store. saan ang rule sa misleadeng advirtising"
+    ]
+  },
+  {
+    "id": "EVAL_056__clear",
+    "issues": [],
+    "components": [
+      "pinalitan yung weekly rest day ko sa private shop",
+      "may online store din na kulang ang pinadalang personal order ko. ano gagawin ko sa bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_056__noisy",
+    "issues": [],
+    "components": [
+      "pinalitan yung weeeekly rest day ko sa private shop",
+      "may online store din na kulang ang pinadalang personal order ko. ano gagawin ko sa bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_067__clear",
+    "issues": [],
+    "components": [
+      "a shop turned down my appliance warranty claim",
+      "my home insurer denied a claim under my insurance policy. how do i raise each dispute"
+    ]
+  },
+  {
+    "id": "EVAL_067__noisy",
+    "issues": [],
+    "components": [
+      "a shop turned down my appliance warranty claim",
+      "my home insurer denied a claim under my insurance policy. how do i raise eachdispute"
+    ]
+  },
+  {
+    "id": "IR_NEG_08__clear",
+    "issues": [],
+    "components": [
+      "the seller posted my id publicly without permission"
+    ]
+  },
+  {
+    "id": "IR_NEG_08__noisy",
+    "issues": [],
+    "components": [
+      "the seller posted my id poblicly without permission"
+    ]
+  },
+  {
+    "id": "IR_09_en_tl__clear",
+    "issues": [],
+    "components": [
+      "regular employee sa private firm",
+      "private employment: saan nakalagay ang security of tenure at causes ng termination"
+    ]
+  },
+  {
+    "id": "IR_09_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "regular employee sa private frm",
+      "private employment: saan nakalagay ang security of tenure at causes ng termination"
+    ]
+  },
+  {
+    "id": "IR_23_en_tl__clear",
+    "issues": [],
+    "components": [
+      "refurbished pala ang appliance pero sinabi ng seller brand new. anong provision sa deceptive sales"
+    ]
+  },
+  {
+    "id": "IR_23_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "refurbished pala ang appliance piro sinabi ng seller brand new. anong provesion sa decepteve sales"
+    ]
+  },
+  {
+    "id": "EVAL_057__clear",
+    "issues": [],
+    "components": [
+      "a private employer changed the job terms after i accepted",
+      "a laundry business also gave me someone else's clothes. what can i do about both problems"
+    ]
+  },
+  {
+    "id": "EVAL_057__noisy",
+    "issues": [],
+    "components": [
+      "a private employer changed the job terms after i accepted",
+      "a laundry businessss also gavvve me someone else's clothes. what can i do abouttt both problems"
+    ]
+  },
+  {
+    "id": "EVAL_068__clear",
+    "issues": [],
+    "components": [
+      "ano rules sa probation sa private employer ko",
+      "may concern din ako sa promotion ng kapatid kong municipal employee. saan kami magtatanong"
+    ]
+  },
+  {
+    "id": "EVAL_068__noisy",
+    "issues": [],
+    "components": [
+      "ano rules sa probation sa private employer ko",
+      "may concern din ako sa promotion ng kapatid kong municipal employee. saan kami magtatanong"
+    ]
+  },
+  {
+    "id": "IR_NEG_09__clear",
+    "issues": [],
+    "components": [
+      "the developer delayed turnover of my condominium"
+    ]
+  },
+  {
+    "id": "IR_NEG_09__noisy",
+    "issues": [],
+    "components": [
+      "the developer delayed turnover of mycondominiom"
+    ]
+  },
+  {
+    "id": "IR_10_en_tl__clear",
+    "issues": [],
+    "components": [
+      "private employee ako. gaano kadalas dapat ibigay ang sahod ayon sa wage-payment rules"
+    ]
+  },
+  {
+    "id": "IR_10_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "private employee ako. gaano kadalas dpt ibgy ang sahod ayon sa wage-payment rules"
+    ]
+  },
+  {
+    "id": "IR_24_en_tl__clear",
+    "issues": [],
+    "components": [
+      "mas mahal ang singil ng cashier kaysa sa price tag sa shelf. saan ang rule dito"
+    ]
+  },
+  {
+    "id": "IR_24_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "mas mahal ang singil ng cashier kaysa sa price tag sa shelf. saan ang rule deto"
+    ]
+  },
+  {
+    "id": "EVAL_058__clear",
+    "issues": [],
+    "components": [
+      "may notice to explain ako mula sa private employer. gusto kong maintindihan ang process",
+      "may unsafe extension cord din akong nabili para sa bahay. paano ko haharapin ang bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_058__noisy",
+    "issues": [],
+    "components": [
+      "may notice to explain ako mula sa private employer. gusto kong maintindihan ang process",
+      "may unsafe extension cord din akong nabili para sa bahay. paano ko haaaharapin ang bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_069__clear",
+    "issues": [],
+    "components": [
+      "please explain a private employee's basic termination-notice process",
+      "i have an nlrc hearing next week and want help choosing the arguments for it"
+    ]
+  },
+  {
+    "id": "EVAL_069__noisy",
+    "issues": [],
+    "components": [
+      "please explain a private employee's basic termination-notice process",
+      "i have an nlrc hearing next week and want help choosing the arguments for it"
+    ]
+  },
+  {
+    "id": "IR_NEG_10__clear",
+    "issues": [],
+    "components": [
+      "i want a criminal cyberfraud investigation of a fake store"
+    ]
+  },
+  {
+    "id": "IR_NEG_10__noisy",
+    "issues": [],
+    "components": [
+      "i wnt a criminal cyberfraod investigation ofafake store"
+    ]
+  },
+  {
+    "id": "IR_11_en_tl__clear",
+    "issues": [],
+    "components": [
+      "sa private job, vouchers ang ibinibigay imbes na pera bilang sahod. anong rule ang applicable"
+    ]
+  },
+  {
+    "id": "IR_11_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "sa private job, vouchers ang ibinibigay imbes na pra bilang sahod. anng rule ang applicable"
+    ]
+  },
+  {
+    "id": "IR_25_en_tl__clear",
+    "issues": [],
+    "components": [
+      "walang barya daw ang grocery kaya candy na lang ang sukli. saan ang exact-change rule"
+    ]
+  },
+  {
+    "id": "IR_25_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "walang barya daw ang grocery kaya candy na lang ang sukli",
+      "saan ang exact-changi rule"
+    ]
+  },
+  {
+    "id": "EVAL_059__clear",
+    "issues": [],
+    "components": [
+      "my private employer is late paying wages",
+      "a store misled me with its sale ad",
+      "private employment: how do i raise the wage issue with sena",
+      "the store issue with dti"
+    ]
+  },
+  {
+    "id": "EVAL_059__noisy",
+    "issues": [],
+    "components": [
+      "my private employer is laaate paying wages",
+      "a store misssled me with its sallle ad",
+      "private employment: how do i raise the wage issue with sena",
+      "the store issue with dti"
+    ]
+  },
+  {
+    "id": "EVAL_070__clear",
+    "issues": [],
+    "components": [
+      "may reklamo ako sa paid laundry service",
+      "may online seller din na nag-post ng id photo ko nang walang permiso. ano gagawin ko sa bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_070__noisy",
+    "issues": [],
+    "components": [
+      "may reklamo ako sa paid laundry service",
+      "may online seller din na nag-post ng id photo konang walang permiso. ano gagawin ko sabawat isa"
+    ]
+  },
+  {
+    "id": "SYS_07_2__clear",
+    "issues": [],
+    "components": [
+      "may credit card fee ang bank ko",
+      "hiwalay na issue, denied ang insurance claim ko"
+    ]
+  },
+  {
+    "id": "SYS_07_2__noisy",
+    "issues": [],
+    "components": [
+      "may credit cardfeeang bank ko",
+      "hiwalay na issue, dned ang insurance claim ko"
+    ]
+  },
+  {
+    "id": "IR_12_en_tl__clear",
+    "issues": [],
+    "components": [
+      "private employee ako. anong details ang dapat nasa payroll tungkol sa oras, overtime, at deductions"
+    ]
+  },
+  {
+    "id": "IR_12_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "private employee ako. anong details ang dapat nsa payroll tngkl sa oras, overtime, at deductions"
+    ]
+  },
+  {
+    "id": "IR_26_en_tl__clear",
+    "issues": [],
+    "components": [
+      "pwede bang mag-submit ng letter-complaint ang consumer para ma-investigate ang store transaction"
+    ]
+  },
+  {
+    "id": "IR_26_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "pwedi bang mag-submit ng letter-complaint ang consumer para ma-investigati ang store transaction"
+    ]
+  },
+  {
+    "id": "EVAL_060__clear",
+    "issues": [],
+    "components": [
+      "walang holiday premium sa payslip ko sa private grocery",
+      "nang bumili naman ako ng gamit sa ibang store, candy ang isinukli. ano ang relevant rules sa bawat issue"
+    ]
+  },
+  {
+    "id": "EVAL_060__noisy",
+    "issues": [],
+    "components": [
+      "walang holiday premium sa payslip ko sa private grocery",
+      "nang bumiiili naman ako ng gamit sa ibang store, candy ang isssinukli. ano ang relevant rules sa bawat issue"
+    ]
+  },
+  {
+    "id": "EVAL_071__clear",
+    "issues": [],
+    "components": [
+      "what are the rest-day rules for my private-sector job",
+      "i also want someone to assess whether our chemical-storage area meets technical workplace safety standards"
+    ]
+  },
+  {
+    "id": "EVAL_071__noisy",
+    "issues": [],
+    "components": [
+      "what are the rest-day rules for my private-sectorjob",
+      "i also want someone to assess whether our chemical-storage area meets technical workplace safety standards"
+    ]
+  },
+  {
+    "id": "EVAL_076__clear",
+    "issues": [],
+    "components": [
+      "government employment: gusto kong i-challenge ang bagong salary grade assignment",
+      "paano ang civil-service process dito"
+    ]
+  },
+  {
+    "id": "EVAL_076__noisy",
+    "issues": [],
+    "components": [
+      "government employment: gusto kong i-challenge ang bagong salary gradi assignmmment",
+      "pno angcivil-service process ditu"
+    ]
+  },
+  {
+    "id": "IR_13_en_tl__clear",
+    "issues": [],
+    "components": [
+      "sa sena conference, confidential ba ang usapan at pwede bang mag-video record ang participant"
+    ]
+  },
+  {
+    "id": "IR_13_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "sa sena cnfrence, confidential ba ang uspn at pwde bng mag-video record ang participant"
+    ]
+  },
+  {
+    "id": "IR_27_en_tl__clear",
+    "issues": [],
+    "components": [
+      "defective ang delivery ng online merchant. saan ang remedies at pagbabalik ng original goods nang walang gastos"
+    ]
+  },
+  {
+    "id": "IR_27_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "defective ang delivery ng online merchant. saan ang remidies at pagbabalek ng original guods nang walang gastos"
+    ]
+  },
+  {
+    "id": "EVAL_072__clear",
+    "issues": [],
+    "components": [
+      "lalapit sana ako sa sena dahil hindi pa bayad sahod ko sa private job",
+      "yung pinsan kong seafarer may problema rin sa onboard pay. saan naman siya lalapit"
+    ]
+  },
+  {
+    "id": "EVAL_072__noisy",
+    "issues": [],
+    "components": [
+      "lalapit sana ako sa sena dahil hindi pa bayad sahod ko sa private job",
+      "yung pinsan kong seafarer may problema rin sa onboard pay. saaaan naman siya lalapit"
+    ]
+  },
+  {
+    "id": "EVAL_077__clear",
+    "issues": [],
+    "components": [
+      "my bank froze my savings account after a disputed transfer. where can i complain, and how do i challenge it"
+    ]
+  },
+  {
+    "id": "EVAL_077__noisy",
+    "issues": [],
+    "components": [
+      "my bankfroze my savings account after a disputed transfer. where can i complain, andhow do i challenge it"
+    ]
+  },
+  {
+    "id": "IR_14_en_tl__clear",
+    "issues": [],
+    "components": [
+      "sa sena meeting, ano ang rule sa pagharap ng lawyer, agent, o representative"
+    ]
+  },
+  {
+    "id": "IR_14_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "sa sena meeting, ano angrle sa pagharap nglawyir, agent, o representativvve"
+    ]
+  },
+  {
+    "id": "IR_28_en_tl__clear",
+    "issues": [],
+    "components": [
+      "kailangan bang dumaan muna sa internal complaint process ng online platform bago sa government agency"
+    ]
+  },
+  {
+    "id": "IR_28_en_tl__noisy",
+    "issues": [],
+    "components": [
+      "kailangan bng dumaan mna sa internal complaint process ng online platform bgo sa government agency"
+    ]
+  },
+  {
+    "id": "EVAL_073__clear",
+    "issues": [],
+    "components": [
+      "how do i check my thirteenth-month pay at a private company",
+      "private employment: if i file a dismissal case, can you tell me for sure whether i'll win"
+    ]
+  },
+  {
+    "id": "EVAL_073__noisy",
+    "issues": [],
+    "components": [
+      "how do i check my thirteenth-munth pay at a private company",
+      "private employment: alsu, if i file a dismissal case, can you till me for sore whethir i'll win"
+    ]
+  },
+  {
+    "id": "EVAL_078__clear",
+    "issues": [],
+    "components": [
+      "ayaw itong kilalanin ng household employer. ano ang puwede kong i-claim"
+    ]
+  },
+  {
+    "id": "EVAL_078__noisy",
+    "issues": [],
+    "components": [
+      "ayaw itong kilalanin ng household employer. ano ang puwede kong i-claimmm"
+    ]
+  },
+  {
+    "id": "IR_NEG_11__clear",
+    "issues": [],
+    "components": [
+      "when should my private employer issue my coe and final pay"
+    ]
+  },
+  {
+    "id": "IR_NEG_11__noisy",
+    "issues": [],
+    "components": [
+      "when should my private employer issue my coe and final pay"
+    ]
+  },
+  {
+    "id": "EVAL_026__clear",
+    "issues": [],
+    "components": [
+      "bumili ako ng desk fan sa appliance store. pag-uwi, hindi gumagana ang lowest setting kahit bago at hindi pa nabubuksan ang casing. paano ko irereport ang defect"
+    ]
+  },
+  {
+    "id": "EVAL_026__noisy",
+    "issues": [],
+    "components": [
+      "bmli ako ngdeskfan sa appliance store",
+      "retail transaction: pag-uwi, hindi gumagana ang lowwwest sttng kahit bago at hindi pa nabubuksan ang casing",
+      "retail transaction: paanu ko irereport ang defect"
+    ]
+  },
+  {
+    "id": "EVAL_074__clear",
+    "issues": [],
+    "components": [
+      "mas mataas yung singil sa grocery kaysa sa price label",
+      "gusto ko ring ipa-compute yung employees' compensation disability benefit ng asawa ko. paano sa bawat concern"
+    ]
+  },
+  {
+    "id": "EVAL_074__noisy",
+    "issues": [],
+    "components": [
+      "mas mataas yung singil sa grocery kaysa sa price label",
+      "gusto ko rng ipa-compute yung employees' compensation disability benefit ng asawa ko. pno sa bawat concern"
+    ]
+  },
+  {
+    "id": "EVAL_079__clear",
+    "issues": [],
+    "components": [
+      "my insurer won't cover a hospital expense because it says the policy excludes it. can you explain the exclusion and how to dispute it"
+    ]
+  },
+  {
+    "id": "EVAL_079__noisy",
+    "issues": [],
+    "components": [
+      "my insurer won't covir a hospital expinse because it says the policy excludes it. can you explain the exclusion and how to dispute it"
+    ]
+  },
+  {
+    "id": "SYS_08_2__clear",
+    "issues": [],
+    "components": [
+      "private employee ako. kailan dapat ibigay ang final pay at coe"
+    ]
+  },
+  {
+    "id": "SYS_08_2__noisy",
+    "issues": [],
+    "components": [
+      "private employee ako. kailan dapattt ibiiigay ang final pay at coe"
+    ]
+  },
+  {
+    "id": "EVAL_027__clear",
+    "issues": [],
+    "components": [
+      "the appliance shop replaced my rice cooker, but the replacement has a cracked handle. do i have to accept it"
+    ]
+  },
+  {
+    "id": "EVAL_027__noisy",
+    "issues": [],
+    "components": [
+      "the appliance shopreplaced my rice cooker, but the replacement has a cracked handle. do i have to accept it"
+    ]
+  },
+  {
+    "id": "EVAL_080__clear",
+    "issues": [],
+    "components": [
+      "ofw employment: ofw ako at binago ng overseas employer ang accommodation arrangement sa contract ko. kanino ako dapat lumapit"
+    ]
+  },
+  {
+    "id": "EVAL_080__noisy",
+    "issues": [],
+    "components": [
+      "ofw employment: ofw ako at binago ng overseas employer ang accccommodation arrangement sa contract ko. kanino akodapat lmpit"
+    ]
+  },
+  {
+    "id": "EVAL_001__clear",
+    "issues": [],
+    "components": [
+      "i work at a private print shop. payday passed, but the owner says we only get paid once customers settle their bills. where can i ask for help"
+    ]
+  },
+  {
+    "id": "EVAL_001__noisy",
+    "issues": [],
+    "components": [
+      "i work at a private print shop. payday pssd, but the owner says we only get paid once cstmers settle their bills. whre can i ask for help"
+    ]
+  },
+  {
+    "id": "EVAL_028__clear",
+    "issues": [],
+    "components": [
+      "may warranty card ang blender ko, pero sabi ng retailer hindi raw applicable kapag sale price binili. ano ang dapat kong i-check sa warranty terms"
+    ]
+  },
+  {
+    "id": "EVAL_028__noisy",
+    "issues": [],
+    "components": [
+      "may warranty card ang blinder ko, pero sabi ng retailer hindi raw applicabli kapag sale price binili. ano ang dapat kong i-check sa warranty tirms"
+    ]
+  },
+  {
+    "id": "EVAL_081__clear",
+    "issues": [],
+    "components": [
+      "an investment adviser got me to put money in a fund, but now i can't withdraw it. how do i raise a securities complaint"
+    ]
+  },
+  {
+    "id": "EVAL_081__noisy",
+    "issues": [],
+    "components": [
+      "an investment adviser got me to put money in a funnnd, but now i can't withhhdraw it",
+      "how do i raise a securittties complaint"
+    ]
+  },
+  {
+    "id": "EVAL_002__clear",
+    "issues": [],
+    "components": [
+      "private employment: binabawas sa sahod namin yung kulang sa kaha, pero hindi sinasabi paano hinati yung amount. puwede ba yun"
+    ]
+  },
+  {
+    "id": "EVAL_002__noisy",
+    "issues": [],
+    "components": [
+      "private employment: binabawas sa sahod namin yung kulang sa kaha, pero hindi sinasabi paano hinati yung amount. puwede ba yun"
+    ]
+  },
+  {
+    "id": "EVAL_029__clear",
+    "issues": [],
+    "components": [
+      "the shop took my laptop for a warranty repair",
+      "now it wants me to pay for the repair without saying why the warranty won't cover it. what should i ask them"
+    ]
+  },
+  {
+    "id": "EVAL_029__noisy",
+    "issues": [],
+    "components": [
+      "the shop tuokmy laptop for a warranty repair",
+      "now it wnts me to pay for the repair without saying why the warranty won't cover it. what should i ask them"
+    ]
+  },
+  {
+    "id": "EVAL_082__clear",
+    "issues": [],
+    "components": [
+      "seafarer ako at hindi tugma ang sea-service record na ibinigay ng shipping company. paano ko ipapa-correct ang maritime record"
+    ]
+  },
+  {
+    "id": "EVAL_082__noisy",
+    "issues": [],
+    "components": [
+      "seafarer ako at hindi tgma ang sea-service record na ibinigay ng shipping company. pno ko ipapa-crrct ang maritime record"
+    ]
+  },
+  {
+    "id": "EVAL_003__clear",
+    "issues": [],
+    "components": [
+      "private employment: my payslip has a uniform deduction i never agreed to. can they take that from my salary"
+    ]
+  },
+  {
+    "id": "EVAL_003__noisy",
+    "issues": [],
+    "components": [
+      "private employment: my payslip has a uniporm deductiun i never agreed to. can thiy take that frum my salary"
+    ]
+  },
+  {
+    "id": "EVAL_030__clear",
+    "issues": [],
+    "components": [
+      "ilang beses ko nang binalik yung electric kettle sa authorized service center, pero pareho pa rin sira",
+      "retail transaction: ano options ko bukod sa isa pang repair"
+    ]
+  },
+  {
+    "id": "EVAL_030__noisy",
+    "issues": [],
+    "components": [
+      "ilang beseees ko nang binaliiik yung electric kettle sa auuuthorized service center, perrro pareho pa rin sira",
+      "retail transaction: ano options ko bukod sa isa panggg repair"
+    ]
+  },
+  {
+    "id": "EVAL_083__clear",
+    "issues": [],
+    "components": [
+      "telecom service: i cancelled my internet connection, but the provider keeps billing me",
+      "what telecom rules apply"
+    ]
+  },
+  {
+    "id": "EVAL_083__noisy",
+    "issues": [],
+    "components": [
+      "telecom service: i cancelled my internet connection, but theprovider keeps billing me",
+      "what telecom rulesapply"
+    ]
+  },
+  {
+    "id": "EVAL_004__clear",
+    "issues": [],
+    "components": [
+      "sa private warehouse, pinapaaga kami ng 30 minutes para sa required briefing pero sa official start lang ang time-in. kasama ba iyon sa working hours"
+    ]
+  },
+  {
+    "id": "EVAL_004__noisy",
+    "issues": [],
+    "components": [
+      "sa private warehouse, pinapaaga kmi ng 30 minutes para sa requiredbriefeng pero sa official starrrt lng ang time-in. kasama ba iyon sawurking hours"
+    ]
+  },
+  {
+    "id": "EVAL_031__clear",
+    "issues": [],
+    "components": [
+      "the store admits the chair it delivered was defective, but it's only offering a voucher",
+      "retail transaction: how is that different from a refund or replacement"
+    ]
+  },
+  {
+    "id": "EVAL_031__noisy",
+    "issues": [],
+    "components": [
+      "the store admts the chair it delivered was defective, but it's only offering a voucher",
+      "retail transaction: how is tht dffrent frm a refund or replacement"
+    ]
+  },
+  {
+    "id": "EVAL_084__clear",
+    "issues": [],
+    "components": [
+      "may disagreement ang union at management tungkol sa bargaining unit. gusto naming i-challenge ang representation. anong labor rules ang applicable"
+    ]
+  },
+  {
+    "id": "EVAL_084__noisy",
+    "issues": [],
+    "components": [
+      "may disagreement ang union at management tongkol sa bargaining unit. gusto naming i-challenge ang representation. anong labur rules ang applicable"
+    ]
+  },
+  {
+    "id": "EVAL_005__clear",
+    "issues": [],
+    "components": [
+      "private employment: even during lunch, i have to stay there and assist guests. does that count as a meal break"
+    ]
+  },
+  {
+    "id": "EVAL_005__noisy",
+    "issues": [],
+    "components": [
+      "private employment: eveeen during lunnnch, i have to stay there and assist guests. does that count as a meaaal break"
+    ]
+  },
+  {
+    "id": "EVAL_032__clear",
+    "issues": [],
+    "components": [
+      "retail transaction: advertised na solid wood ang cabinet, pero pag-deliver ay laminated board",
+      "business seller ang kausap ko",
+      "ano pong consumer issue ito"
+    ]
+  },
+  {
+    "id": "EVAL_032__noisy",
+    "issues": [],
+    "components": [
+      "retail transaction: advertised na solid wood angcabinet, pero pag-deliveray laminated board",
+      "business seller ang kausap ko",
+      "ano pong consumer issue ito"
+    ]
+  },
+  {
+    "id": "EVAL_006__clear",
+    "issues": [],
+    "components": [
+      "office staff ako sa private company",
+      "kailangan daw naka-online kami after shift para sumagot agad sa work messages",
+      "paano malalaman kung working time pa iyon"
+    ]
+  },
+  {
+    "id": "EVAL_006__noisy",
+    "issues": [],
+    "components": [
+      "offce staff akosa private company",
+      "kailangan daw naka-online kami after shift para sumagotagd sa work messages. paano malalaman kung workeng time pa iyon"
+    ]
+  },
+  {
+    "id": "EVAL_033__clear",
+    "issues": [],
+    "components": [
+      "a furniture shop advertised free delivery",
+      "after i paid, it added a delivery fee. what should i keep as proof when i complain"
+    ]
+  },
+  {
+    "id": "EVAL_033__noisy",
+    "issues": [],
+    "components": [
+      "a furniture shop advertised free delivery",
+      "retail transaction: aftr i pd, it addd a delivery fee. what should i keep as proof when i complain"
+    ]
+  },
+  {
+    "id": "EVAL_007__clear",
+    "issues": [],
+    "components": [
+      "my private employer has moved my day off three times this month. what are the rules about changing rest-day schedules"
+    ]
+  },
+  {
+    "id": "EVAL_007__noisy",
+    "issues": [],
+    "components": [
+      "my private employer has moved my day off three times thes month. what are the roles aboot changeng rest-day schedules"
+    ]
+  },
+  {
+    "id": "EVAL_034__clear",
+    "issues": [],
+    "components": [
+      "sa mall stall, sinabi ng salesperson na required ang extra accessory para gumana ang item, pero sabi ng manual optional lang. ano po ang general rules sa misleading sales explanation"
+    ]
+  },
+  {
+    "id": "EVAL_034__noisy",
+    "issues": [],
+    "components": [
+      "sa mall stall, sinabi ng saaalesperson na required ang extra accessory para gumana ang item, pero sabbbi ng manual optional lang. ano po ang general rules sa misleading saaales explanaaation"
+    ]
+  },
+  {
+    "id": "EVAL_008__clear",
+    "issues": [],
+    "components": [
+      "halos buong buwan na akong duty sa private bakery at wala pang full day na pahinga",
+      "may basic rest-day rule po ba kahit maliit ang shop"
+    ]
+  },
+  {
+    "id": "EVAL_008__noisy",
+    "issues": [],
+    "components": [
+      "halos buong buwan na akong duty sa private bakery at wala pang full day napahinga",
+      "may basic rest-day rule po ba kahitmaliit ang shop"
+    ]
+  },
+  {
+    "id": "EVAL_035__clear",
+    "issues": [],
+    "components": [
+      "i asked a retailer to demonstrate an appliance",
+      "retail transaction: now it says that means i agreed to buy it. can it insist on that"
+    ]
+  },
+  {
+    "id": "EVAL_035__noisy",
+    "issues": [],
+    "components": [
+      "i asked a retailer to demonstrate an appliance",
+      "retail transaction: nowit says that means i agrd to buy it. can it ensiston that"
+    ]
+  },
+  {
+    "id": "EVAL_009__clear",
+    "issues": [],
+    "components": [
+      "private employment: my time sheet shows eleven hours. i was paid for eight",
+      "private employment: how do i check the overtime"
+    ]
+  },
+  {
+    "id": "EVAL_009__noisy",
+    "issues": [],
+    "components": [
+      "private employment: my time sheet shws eleven hours. i was pd for eght. how do i check the overtime"
+    ]
+  },
+  {
+    "id": "EVAL_010__clear",
+    "issues": [],
+    "components": [
+      "private employment: approved ng supervisor yung extra shift ko",
+      "private employment: walang ot sa payslip kasi di raw nakita ng payroll yung approval email. ano ihahanda ko para ma-raise ito"
+    ]
+  },
+  {
+    "id": "EVAL_010__noisy",
+    "issues": [],
+    "components": [
+      "sa private company ako nagtatrabahu",
+      "private employment: approved ng supervisor yung extra shift ko",
+      "private employment: walang ot sa payslip kasi di raw nakita ng payroll yung approbal email. ano ehahanda ko para ma-raise ito"
+    ]
+  },
+  {
+    "id": "EVAL_011__clear",
+    "issues": [],
+    "components": [
+      "our private office closed for a regular holiday, but payroll marked it unpaid. should i still have been paid for that day"
+    ]
+  },
+  {
+    "id": "EVAL_011__noisy",
+    "issues": [],
+    "components": [
+      "our private office closed for a regular holiday, but payroll marked it unpaid. should i still have been paid for that day"
+    ]
+  },
+  {
+    "id": "EVAL_012__clear",
+    "issues": [],
+    "components": [
+      "nag-duty ako sa private convenience store noong regular holiday",
+      "private employment: pareho lang ang hourly pay sa ordinary day",
+      "private employment: paano ko po iche-check ang holiday premium"
+    ]
+  },
+  {
+    "id": "EVAL_012__noisy",
+    "issues": [],
+    "components": [
+      "nag-duty ako sa private convenience store noong regular holiday",
+      "private employment: pareho lang ang hourly pay sa ordinary day. paano ko po iche-checkang holidaypremium"
+    ]
+  },
+  {
+    "id": "EVAL_013__clear",
+    "issues": [],
+    "components": [
+      "i switched private employers halfway through the year",
+      "private employment: how does that affect my thirteenth-month pay from each one"
+    ]
+  },
+  {
+    "id": "EVAL_013__noisy",
+    "issues": [],
+    "components": [
+      "iswitched private emplyrs halfway thruugh the year",
+      "private employment: how doessstht affect my thirteenth-month pay from each one"
+    ]
+  },
+  {
+    "id": "EVAL_014__clear",
+    "issues": [],
+    "components": [
+      "may basic salary at sales commission ako sa private shop",
+      "private employment: kasama ba pareho sa computation ng 13th month"
+    ]
+  },
+  {
+    "id": "EVAL_014__noisy",
+    "issues": [],
+    "components": [
+      "may basic salary at sls cmmssion ako sa private shop",
+      "private employment: kasama ba pareho sa computation ng 13th mnth"
+    ]
+  },
+  {
+    "id": "EVAL_015__clear",
+    "issues": [],
+    "components": [
+      "my private employer says our year-end payment is an optional bonus. is that different from thirteenth-month pay"
+    ]
+  },
+  {
+    "id": "EVAL_015__noisy",
+    "issues": [],
+    "components": [
+      "my private employer says our yiar-end payment is an optiunal bonus. is that different from thirteenth-munth pay"
+    ]
+  },
+  {
+    "id": "EVAL_016__clear",
+    "issues": [],
+    "components": [
+      "probationary receptionist ako sa private clinic",
+      "private employment: patapos na probation ko nang sabihin nila yung performance standards. puwede bang ganun"
+    ]
+  },
+  {
+    "id": "EVAL_016__noisy",
+    "issues": [],
+    "components": [
+      "probationary receptionist ako sa private clinnnic",
+      "private employment: patapos na probation ko nang sabbbihin nila yung performance standards. puweddde bang gannnun"
+    ]
+  },
+  {
+    "id": "EVAL_017__clear",
+    "issues": [],
+    "components": [
+      "the offer i accepted from a private company listed one work location",
+      "private employment: on my first day, they gave me a contract with a different location. what should i check before signing"
+    ]
+  },
+  {
+    "id": "EVAL_017__noisy",
+    "issues": [],
+    "components": [
+      "the offer i accepted from a private companylisted one work location",
+      "private employment: on my firstday, they gave me a contract with a different location. what should i check before signing"
+    ]
+  },
+  {
+    "id": "EVAL_018__clear",
+    "issues": [],
+    "components": [
+      "private factory employee ako. pinapapirma kami ng resignation letter kahit gusto pa naming magtrabaho. ano puwede naming gawin"
+    ]
+  },
+  {
+    "id": "EVAL_018__noisy",
+    "issues": [],
+    "components": [
+      "private factory employee ako. pinapapirma kami ng resignation letter kahet gusto pa naming magtrabaho. ano pwde naming gawen"
+    ]
+  },
+  {
+    "id": "EVAL_019__clear",
+    "issues": [],
+    "components": [
+      "my private employer sent me a notice to explain, but it doesn't say what i'm accused of doing. what should that notice contain"
+    ]
+  },
+  {
+    "id": "EVAL_019__noisy",
+    "issues": [],
+    "components": [
+      "my private employer sent me a notice to explain, but it doesn't say wht i'm accused of dng",
+      "private employment: wht shld tht notice contain"
+    ]
+  },
+  {
+    "id": "EVAL_020__clear",
+    "issues": [],
+    "components": [
+      "nagsara yung branch ng private employer ko. sa chat lang sinabi na last day na namin bukas",
+      "private employment: ano dapat yung notice bago kami tanggalin"
+    ]
+  },
+  {
+    "id": "EVAL_020__noisy",
+    "issues": [],
+    "components": [
+      "nagsara yong branch ng private employer ko. sa chat lang sinabi na last day na namin bokas",
+      "private employment: ano dapat yong notice bago kami tanggalin"
+    ]
+  },
+  {
+    "id": "EVAL_021__clear",
+    "issues": [],
+    "components": [
+      "i've left a private company and finished clearance",
+      "private employment: there's an adjustment in my final pay that nobody has explained. what records can i ask for"
+    ]
+  },
+  {
+    "id": "EVAL_021__noisy",
+    "issues": [],
+    "components": [
+      "i've left a private company and finished clearanceee",
+      "private employment: there's an adjustment in my final pay that nobody has explaaained. what records can i ask for"
+    ]
+  },
+  {
+    "id": "EVAL_022__clear",
+    "issues": [],
+    "components": [
+      "private employment: kailangan ko ng coe para mag-apply",
+      "sabi ng dati kong private employer, bibigyan lang ako kung sa kanila ako babalik. puwede ba yun"
+    ]
+  },
+  {
+    "id": "EVAL_022__noisy",
+    "issues": [],
+    "components": [
+      "private employment: kailanganko ng coe para mag-apply",
+      "sabi ng dati kong private employer, bibigyan lang ako kung sa kanila akobabalik. puwede ba yun"
+    ]
+  },
+  {
+    "id": "EVAL_023__clear",
+    "issues": [],
+    "components": [
+      "my private employer still owes me wages. can i go to sena first, or do i need to pay someone to file a case"
+    ]
+  },
+  {
+    "id": "EVAL_023__noisy",
+    "issues": [],
+    "components": [
+      "my private employer still owes me wages",
+      "private employment: cani go to sena firssst, or do i nd to pay someone to file a casi"
+    ]
+  },
+  {
+    "id": "EVAL_024__clear",
+    "issues": [],
+    "components": [
+      "may screenshots ako ng work schedule pero wala na ang ibang payslip. puwede pa ba akong magtanong sa dole tungkol sa private employer ko, at anong records ang ihahanda"
+    ]
+  },
+  {
+    "id": "EVAL_024__noisy",
+    "issues": [],
+    "components": [
+      "private employment: may screenshots ako ng work schdle pero wala na ang ibang payslip",
+      "pwde pa ba akong magtanong sa dole tungkol sa private employer ko, at anong rcrds ang ihahanda"
+    ]
+  },
+  {
+    "id": "EVAL_025__clear",
+    "issues": [],
+    "components": [
+      "a private agency pays me. my salary hasn't arrived. who can help me figure out where to raise the complaint"
+    ]
+  },
+  {
+    "id": "EVAL_025__noisy",
+    "issues": [],
+    "components": [
+      "a private agency pays me. my salary hasn't arreved. who can help me figure out where to raise the complaint"
+    ]
+  },
+  {
+    "id": "EVAL_036__clear",
+    "issues": [],
+    "components": [
+      "may dalawang price sticker sa storage box at mas mahal ang siningil sa counter",
+      "ano pong proof ang useful kapag ni reklamo ko ang displayed price"
+    ]
+  },
+  {
+    "id": "EVAL_036__noisy",
+    "issues": [],
+    "components": [
+      "may dalawang price sticker sa storage box at mas mahal ang siningggil sa counnnter",
+      "ano pong proof ang useeeful kapag ni reklamo ko ang displllayed price"
+    ]
+  },
+  {
+    "id": "EVAL_037__clear",
+    "issues": [],
+    "components": [
+      "the cashier gave me candy instead of my remaining change and didn't ask first. is that allowed"
+    ]
+  },
+  {
+    "id": "EVAL_037__noisy",
+    "issues": [],
+    "components": [
+      "the cashier gave me candy instead of my remaining change and didn't ask first. is thatallowed"
+    ]
+  },
+  {
+    "id": "EVAL_038__clear",
+    "issues": [],
+    "components": [
+      "may sharp edge ang bagong folding table. may nasugatan nang daliri sa bahay. saan puwedeng mag-report ng possible unsafe household product"
+    ]
+  },
+  {
+    "id": "EVAL_038__noisy",
+    "issues": [],
+    "components": [
+      "may shrp edge ang bagong folding table. may nsgatan nang daliri sa bahay. saan puwedeng mag-report ng possible unsafe household product"
+    ]
+  },
+  {
+    "id": "EVAL_039__clear",
+    "issues": [],
+    "components": [
+      "a shop is still selling an extension cord that the manufacturer has recalled. where can i report it. what details should i include"
+    ]
+  },
+  {
+    "id": "EVAL_039__noisy",
+    "issues": [],
+    "components": [
+      "a shop is still selling an extension cord that the manufacturer has rclled. whre can i report it, and wht details shld i include"
+    ]
+  },
+  {
+    "id": "EVAL_040__clear",
+    "issues": [],
+    "components": [
+      "nagbayad ako sa laundry business para sa wash-and-fold, pero mali ang naibalik na bag at ayaw nilang i-check ang claim stub",
+      "retail transaction: ano ang basic complaint process"
+    ]
+  },
+  {
+    "id": "EVAL_040__noisy",
+    "issues": [],
+    "components": [
+      "nagbayad ako sa laundry buseness para sa wash-and-fold, piro mali ang naibalik na bag at ayaw nilang i-chick ang claim stub",
+      "retail transaction: ano ang basic complaint process"
+    ]
+  },
+  {
+    "id": "EVAL_041__clear",
+    "issues": [],
+    "components": [
+      "the repair shop returned my bicycle with the same problem",
+      "retail transaction: it also charged me for a part it admits it never installed. how do i complain"
+    ]
+  },
+  {
+    "id": "EVAL_041__noisy",
+    "issues": [],
+    "components": [
+      "the repair shop returned my bicycle with the same problem",
+      "retail transaction: it also charged me for a part it admits it never installlled. how do i complain"
+    ]
+  },
+  {
+    "id": "EVAL_042__clear",
+    "issues": [],
+    "components": [
+      "online appliance store yung seller",
+      "retail transaction: ibang model ang dumating, pero ayaw nang tanggapin yung complaint dahil na-click ko na yung received. ano puwede kong gawin"
+    ]
+  },
+  {
+    "id": "EVAL_042__noisy",
+    "issues": [],
+    "components": [
+      "online appliance store yung seller",
+      "retail transaction: ibang model ang dumating, pero ayaw nang tanggapin yung complaint dahil na-click ko nayung received. anopuwede kong gawin"
+    ]
+  },
+  {
+    "id": "EVAL_043__clear",
+    "issues": [],
+    "components": [
+      "an online store sent my order in two parcels. only one arrived, and it won't check what happened to the other. where can i complain"
+    ]
+  },
+  {
+    "id": "EVAL_043__noisy",
+    "issues": [],
+    "components": [
+      "an online store sent my order in two parcels. only one arrived, andit won't checkkk what happened to theother. whre can i cumplain"
+    ]
+  },
+  {
+    "id": "EVAL_044__clear",
+    "issues": [],
+    "components": [
+      "may business page ang seller ng office chair",
+      "retail transaction: pagkatapos kong magbayad, biglang ibang delivery fee ang hinihingi kahit may written quote. anong records ang itatabi ko"
+    ]
+  },
+  {
+    "id": "EVAL_044__noisy",
+    "issues": [],
+    "components": [
+      "may business pge ang seller ng office chair",
+      "retail transaction: pagkatapos kong magbayad, bglng ibang delivery fee ang hinihingi kht may written qte. anong records ang itatabi ko"
+    ]
+  },
+  {
+    "id": "EVAL_045__clear",
+    "issues": [],
+    "components": [
+      "i bought a second-hand washing machine from a registered appliance shop. does consumer protection still apply because it's used"
+    ]
+  },
+  {
+    "id": "EVAL_045__noisy",
+    "issues": [],
+    "components": [
+      "i bought a second-hand washing machine from a registered appliance shop. does consumer protectiun stell apply because it's usid"
+    ]
+  },
+  {
+    "id": "EVAL_046__clear",
+    "issues": [],
+    "components": [
+      "wala akong legal background. ano ang consumer act, at paano ko malalaman kung relevant ito sa ordinary purchase ko sa store"
+    ]
+  },
+  {
+    "id": "EVAL_046__noisy",
+    "issues": [],
+    "components": [
+      "wala akooong legal backgrrround. ano ang consumer act, at paano ko malalllaman kung relevant ito sa ordinaaary purchase ko sa store"
+    ]
+  },
+  {
+    "id": "EVAL_047__clear",
+    "issues": [],
+    "components": [
+      "i've emailed the retailer about a faulty keyboard, but it won't reply",
+      "retail transaction: what documents do i need for a dti complaint"
+    ]
+  },
+  {
+    "id": "EVAL_047__noisy",
+    "issues": [],
+    "components": [
+      "i've emailed the retailer about a faulty keyboard, but it won'treply",
+      "retail transaction: what documents do i need for a dti complaint"
+    ]
+  },
+  {
+    "id": "EVAL_048__clear",
+    "issues": [],
+    "components": [
+      "may ongoing usapan kami ng store pero gusto ko munang maintindihan kung paano ang dti mediation. kailangan bang lawyer agad para magtanong tungkol sa process"
+    ]
+  },
+  {
+    "id": "EVAL_048__noisy",
+    "issues": [],
+    "components": [
+      "mayongoing usapan kmi ng store peru gusto ko munannng maintindihankung paano ang dti mdation. kailangan bang lawyer agad para magtanong tungkol sa process"
+    ]
+  },
+  {
+    "id": "EVAL_049__clear",
+    "issues": [],
+    "components": [
+      "if dti sends my consumer complaint to another government office, what happens next"
+    ]
+  },
+  {
+    "id": "EVAL_049__noisy",
+    "issues": [],
+    "components": [
+      "if dti snds my consumer complaint to anthr government office, what happens nxt"
+    ]
+  },
+  {
+    "id": "EVAL_050__clear",
+    "issues": [],
+    "components": [
+      "yung handwritten receipt ko, walang hiwalay na amount para sa item at add-on",
+      "ayaw ipaliwanag ng store yung total. saan ko puwedeng i-raise yung concern"
+    ]
+  },
+  {
+    "id": "EVAL_050__noisy",
+    "issues": [],
+    "components": [
+      "yong handwretten receipt ko, walang hiwalay na amount para sa item at add-on",
+      "ayaw ipalewanag ng store yung total. saan ko puwedeng i-raise yung concern"
+    ]
+  },
+  {
+    "id": "EVAL_061__clear",
+    "issues": [],
+    "components": [
+      "my private employer deducted a uniform fee from my salary",
+      "an appliance shop also won't discuss replacing a faulty fan i bought",
+      "retail transaction: where do i start with each complaint"
+    ]
+  },
+  {
+    "id": "EVAL_061__noisy",
+    "issues": [],
+    "components": [
+      "my private employeeer deducted a uniform fee from my salary",
+      "an appliance shop also won't discuuuss replacinggg a faulty fan i bought",
+      "retail transaction: where do i start with each complaint"
+    ]
+  },
+  {
+    "id": "EVAL_062__clear",
+    "issues": [],
+    "components": [
+      "required yung briefing after shift sa private warehouse namin",
+      "may online store din na binago yung agreed delivery fee ng personal purchase ko. ano puwede kong gawin sa dalawang concern"
+    ]
+  },
+  {
+    "id": "EVAL_062__noisy",
+    "issues": [],
+    "components": [
+      "required yung briefing after shift sa private warehouse namin",
+      "may online store din na binago yung agreed delivery fee ng personal purchase ko. ano puwede kong gawin sa dalawang concern"
+    ]
+  },
+  {
+    "id": "EVAL_075__clear",
+    "issues": [],
+    "components": [
+      "i have a question about my home appliance warranty",
+      "my cousin is a kasambahay whose household employer won't give her a rest day. what can each of us do"
+    ]
+  },
+  {
+    "id": "EVAL_075__noisy",
+    "issues": [],
+    "components": [
+      "i have a question about my home appliance warranty",
+      "my cousin isa kasambahay whoseee household employer won't give her a rest day. what can iach of us do"
+    ]
+  },
+  {
+    "id": "EVAL_085__clear",
+    "issues": [],
+    "components": [
+      "i asked a website to delete my id document, but it kept it",
+      "is that a data-privacy violation"
+    ]
+  },
+  {
+    "id": "EVAL_085__noisy",
+    "issues": [],
+    "components": [
+      "i asked a website to delete my id document, but it kept it",
+      "is tht a data-privacy violation"
+    ]
+  },
+  {
+    "id": "EVAL_086__clear",
+    "issues": [],
+    "components": [
+      "na-deny ang employees' compensation claim ko para sa work-related illness. paano ko ia-appeal at magkano ang benefit"
+    ]
+  },
+  {
+    "id": "EVAL_086__noisy",
+    "issues": [],
+    "components": [
+      "na-deny ang employees' compensation claim ko para sa work-related illness. paanu ko ia-appeal at magkano ang benefit"
+    ]
+  },
+  {
+    "id": "EVAL_087__clear",
+    "issues": [],
+    "components": [
+      "i think my surgeon made a mistake during my operation. can you assess whether i have a medical-negligence claim"
+    ]
+  },
+  {
+    "id": "EVAL_087__noisy",
+    "issues": [],
+    "components": [
+      "i think my surgeon maddde a mistake during my opeeeration. can you assssess whether i have a medical-negligence claimmm"
+    ]
+  },
+  {
+    "id": "EVAL_088__clear",
+    "issues": [],
+    "components": [
+      "sa factory namin, gusto kong ipa-check kung compliant ang ventilation at chemical exposure limits",
+      "kaya ba ninyong gumawa ng technical osh assessment"
+    ]
+  },
+  {
+    "id": "EVAL_088__noisy",
+    "issues": [],
+    "components": [
+      "sa factory namin, gusto kong ipa-check kung compliant ang ventilation at chemical exposure limits",
+      "kayaba ninyong gumawa ng technical osh assessment"
+    ]
+  },
+  {
+    "id": "EVAL_089__clear",
+    "issues": [],
+    "components": [
+      "the developer changed my condo's layout after i signed the purchase agreement",
+      "what housing complaint options do i have"
+    ]
+  },
+  {
+    "id": "EVAL_089__noisy",
+    "issues": [],
+    "components": [
+      "the developerchanged my condo's lyut aftir i signed the purchase agreeeement",
+      "what housing complaint options doi habe"
+    ]
+  },
+  {
+    "id": "EVAL_090__clear",
+    "issues": [],
+    "components": [
+      "pakicompute po ang retirement pension ko gamit ang contribution history at retirement age ko",
+      "gusto ko ang exact monthly amount"
+    ]
+  },
+  {
+    "id": "EVAL_090__noisy",
+    "issues": [],
+    "components": [
+      "pakicompute po ang retirement pnson ko gmt ang contribution hstry at retirement age ko",
+      "gusto ko ang exact monthly amount"
+    ]
+  },
+  {
+    "id": "EVAL_091__clear",
+    "issues": [],
+    "components": [
+      "the airline changed my itinerary. i missed a connection. it's refusing compensation. what aviation rules apply"
+    ]
+  },
+  {
+    "id": "EVAL_091__noisy",
+    "issues": [],
+    "components": [
+      "the airline changed my itenerary. i messed a connecteon. it's refusing compensation. what aviation rules apply"
+    ]
+  },
+  {
+    "id": "EVAL_092__clear",
+    "issues": [],
+    "components": [
+      "may pending labor case na ako",
+      "may order ang tribunal. ano ang dapat kong isagot para mas malakas ang case ko"
+    ]
+  },
+  {
+    "id": "EVAL_092__noisy",
+    "issues": [],
+    "components": [
+      "may pending labooor case na ako",
+      "may order ang tribunal. ano ang dapaaat kong isagot para mas malakas ang case ko"
+    ]
+  },
+  {
+    "id": "EVAL_093__clear",
+    "issues": [],
+    "components": [
+      "my water provider added an adjustment for charges from years ago",
+      "utility billing: can you help me dispute its utility-billing calculation"
+    ]
+  },
+  {
+    "id": "EVAL_093__noisy",
+    "issues": [],
+    "components": [
+      "my water provider added an adjustment for charges from years ago",
+      "utility billing: can youhelp me dispute its utility-billing calculation"
+    ]
+  },
+  {
+    "id": "EVAL_094__clear",
+    "issues": [],
+    "components": [
+      "kung ibibigay ko ang chat screenshots, masasabi mo ba kung siguradong mananalo ako sa illegal-dismissal case"
+    ]
+  },
+  {
+    "id": "EVAL_094__noisy",
+    "issues": [],
+    "components": [
+      "kung ibibigay koang chtscreenshots, masasabe mo ba kung siguradong mananalo ako sa illegal-dismissal casi"
+    ]
+  },
+  {
+    "id": "EVAL_095__clear",
+    "issues": [],
+    "components": [
+      "i paid a fake store page and then the page disappeared. how do i report it for a criminal cyberfraud investigation"
+    ]
+  },
+  {
+    "id": "EVAL_095__noisy",
+    "issues": [],
+    "components": [
+      "i paid a fke store pge and then the page disappeared. how do i rprt it for a criminal cyberfraud investigation"
+    ]
+  },
+  {
+    "id": "EVAL_096__clear",
+    "issues": [],
+    "components": [
+      "magkano mismo ang minimum wage sa municipality namin ngayon, para sa industry at tranche ko",
+      "exact pesos sana"
+    ]
+  },
+  {
+    "id": "EVAL_096__noisy",
+    "issues": [],
+    "components": [
+      "magkano mismo ang minimum wage sa municipality namen ngayon, para sa endustry at tranchi ko",
+      "exact pesos sana"
+    ]
+  },
+  {
+    "id": "EVAL_097__clear",
+    "issues": [],
+    "components": [
+      "an online lender keeps contacting people in my phone list about my debt",
+      "what can i do about the collection calls and its use of my personal data"
+    ]
+  },
+  {
+    "id": "EVAL_097__noisy",
+    "issues": [],
+    "components": [
+      "an online lendeeer keeps contacting people in my phone liiist about my deeebt",
+      "what can i do abouttt the collection calls and its use of my personal data"
+    ]
+  },
+  {
+    "id": "EVAL_098__clear",
+    "issues": [],
+    "components": [
+      "may complaint ako sa doctor tungkol sa maling treatment",
+      "sa insurer na hindi nagbayad ng hospital bill. ano ang rights ko sa dalawang issue"
+    ]
+  },
+  {
+    "id": "EVAL_098__noisy",
+    "issues": [],
+    "components": [
+      "may complaint ako sa doctor tungkol sa maling treatment",
+      "sa insurer na hindi nagbayad ng hospital bill. ano ang rights kosa dalawang issue"
+    ]
+  },
+  {
+    "id": "EVAL_099__clear",
+    "issues": [],
+    "components": [
+      "my pension provider and investment broker disagree about fees on my retirement investment product. can you explain the financial contracts"
+    ]
+  },
+  {
+    "id": "EVAL_099__noisy",
+    "issues": [],
+    "components": [
+      "my pnson provider and investment brokerdesagree about fees onmy retirement investment product. can you explain the fnncial cuntracts"
+    ]
+  },
+  {
+    "id": "EVAL_100__clear",
+    "issues": [],
+    "components": [
+      "government employment: gusto kong malaman kung mananalo ang administrative appeal ko",
+      "puwede mo bang i-predict ang result"
+    ]
+  },
+  {
+    "id": "EVAL_100__noisy",
+    "issues": [],
+    "components": [
+      "government employment: gusto kong malaman kung mnnalo ang administrative appeal ko. pwde mo bang i-prdct ang result"
+    ]
+  },
+  {
+    "id": "TYPE_001__clear",
+    "issues": [],
+    "components": [
+      "private employment: my last two weekly salaries are unpaid. where can i ask for help"
+    ]
+  },
+  {
+    "id": "TYPE_001__noisy",
+    "issues": [],
+    "components": [
+      "private employment: my last two wiekly salaries are on paid. where can i ask for help"
+    ]
+  },
+  {
+    "id": "TYPE_006__clear",
+    "issues": [],
+    "components": [
+      "employee ako sa private bakery. sampung oras ang trabaho ko araw-araw pero walang extra pay. may overtime ba dapat"
+    ]
+  },
+  {
+    "id": "TYPE_006__noisy",
+    "issues": [],
+    "components": [
+      "employee ako sa private bakery. sampung oras ang trabaho ko araaaw-araw perrro walang extra pay. may overtime ba dapat"
+    ]
+  },
+  {
+    "id": "TYPE_011__clear",
+    "issues": [],
+    "components": [
+      "my private clinic employer dismissed me without a written notice. what procedure should an employer generally follow"
+    ]
+  },
+  {
+    "id": "TYPE_011__noisy",
+    "issues": [],
+    "components": [
+      "my private clinic employer dismissed me withouta written notice. what procedure should an employer generally follow"
+    ]
+  },
+  {
+    "id": "TYPE_016__clear",
+    "issues": [],
+    "components": [
+      "nag-resign ako bilang employee sa private hotel",
+      "private employment: humingi ako ng coe pero ayaw pa nilang ibigay. ano ang general rules"
+    ]
+  },
+  {
+    "id": "TYPE_016__noisy",
+    "issues": [],
+    "components": [
+      "nag-rsgn ako bilang employee sa private hotel. humingi ako ng coeperrro ayaw pa nlng ibigay. anoang general roles"
+    ]
+  },
+  {
+    "id": "TYPE_021__clear",
+    "issues": [],
+    "components": [
+      "the appliance store refuses to honor the written warranty on the blender i bought there. what can i do"
+    ]
+  },
+  {
+    "id": "TYPE_021__noisy",
+    "issues": [],
+    "components": [
+      "the appliance store refuses to honor the wrttn warranty on the blender i bought thre. what can i do"
+    ]
+  },
+  {
+    "id": "TYPE_026__clear",
+    "issues": [],
+    "components": [
+      "sa grocery, kulang ng limang piso ang sukli ko",
+      "sabi ng cashier wala silang barya kaya hindi na ibibigay. puwede ba iyon"
+    ]
+  },
+  {
+    "id": "TYPE_026__noisy",
+    "issues": [],
+    "components": [
+      "sa grocery, kolang ng lemang peso ang sukli ko",
+      "sabe ng cashier wala silang barya kaya hindi na ibibigay. puwede ba iyon"
+    ]
+  },
+  {
+    "id": "TYPE_031__clear",
+    "issues": [],
+    "components": [
+      "i paid an appliance repair shop to fix my electric fan, but it returned the fan without doing the repair. where can i complain"
+    ]
+  },
+  {
+    "id": "TYPE_031__noisy",
+    "issues": [],
+    "components": [
+      "i paid an appliance repair shop to fix my electric fan, but it returned the fan without doinnng the repair. where can i commmplain"
+    ]
+  },
+  {
+    "id": "TYPE_036__clear",
+    "issues": [],
+    "components": [
+      "nagbayad ako sa online furniture store pero hindi dumating ang upuan",
+      "sumasagot pa ang shop pero puro next week. ano ang options ko"
+    ]
+  },
+  {
+    "id": "TYPE_036__noisy",
+    "issues": [],
+    "components": [
+      "nagbayad ako sa online furniture store pero hindi dumating ang upuan",
+      "sumasagot pa ang shop peropuro next week. ano ang options ko"
+    ]
+  },
+  {
+    "id": "TYPE_041__clear",
+    "issues": [],
+    "components": [
+      "i work for a private restaurant and want to check my thirteenth-month pay",
+      "a store also sold me a kettle that won't turn on. what can i do about each"
+    ]
+  },
+  {
+    "id": "TYPE_041__noisy",
+    "issues": [],
+    "components": [
+      "i work for a private restaurant and want to check my thirteenth-monnnth pay",
+      "astre also sold me a kettle that won't turn on. what can ido about each"
+    ]
+  },
+  {
+    "id": "TYPE_046__clear",
+    "issues": [],
+    "components": [
+      "employee ako sa private salon. ano yung weekly rest-day rules",
+      "sa grocery naman, mas mataas ang singil kaysa shelf price. ano gagawin ko sa dalawang issue"
+    ]
+  },
+  {
+    "id": "TYPE_046__noisy",
+    "issues": [],
+    "components": [
+      "employee ako sa private sln. ano yung weekly rest-day rules",
+      "sa grocery naman, mas mtas ang singil kaysa shelf price. ano gagawin ko sa dalawang issue"
+    ]
+  },
+  {
+    "id": "TYPE_051__clear",
+    "issues": [],
+    "components": [
+      "i am a private factory employee with unpaid wages. where can i get help",
+      "private employment: what is the exact minimum wage in my town today"
+    ]
+  },
+  {
+    "id": "TYPE_051__noisy",
+    "issues": [],
+    "components": [
+      "i am a private factory employee with unpaid wages. wheri can i get help",
+      "private employment: what is the exact minimum wage in my town today"
+    ]
+  },
+  {
+    "id": "TYPE_056__clear",
+    "issues": [],
+    "components": [
+      "ayaw i-honor ng appliance store ang warranty ng rice cooker ko",
+      "pinost din nila ang id ko sa public page. ano ang rights ko sa dalawang issue"
+    ]
+  },
+  {
+    "id": "TYPE_056__noisy",
+    "issues": [],
+    "components": [
+      "ayaw i-honorrr ng appliance store ang warranty ng rice cooker ko",
+      "pinost din nila ang id ko sa public pageee. ano ang rights ko sa dalawang issue"
+    ]
+  },
+  {
+    "id": "TYPE_061__clear",
+    "issues": [],
+    "components": [
+      "government employment: my salary is delayed",
+      "what civil-service remedy applies to me"
+    ]
+  },
+  {
+    "id": "TYPE_061__noisy",
+    "issues": [],
+    "components": [
+      "government employment: my salary is delayed",
+      "what civil-service remedy applies tome"
+    ]
+  },
+  {
+    "id": "TYPE_066__clear",
+    "issues": [],
+    "components": [
+      "may interest charge sa credit card ko na dini-dispute ko sa bank",
+      "anong banking rules ang puwede kong gamitin"
+    ]
+  },
+  {
+    "id": "TYPE_066__noisy",
+    "issues": [],
+    "components": [
+      "may intrst charge sa credit card kona dini-dispppute ko sa bank",
+      "anong banking rules angpuwede kong gamitin"
+    ]
+  },
+  {
+    "id": "TYPE_071__clear",
+    "issues": [],
+    "components": [
+      "the company is withholding pay under my seafarer contract. what rules apply to my claim"
+    ]
+  },
+  {
+    "id": "TYPE_071__noisy",
+    "issues": [],
+    "components": [
+      "the company is withholding pay under my seafarer contract. what rules apply to my claim"
+    ]
+  },
+  {
+    "id": "TYPE_076__clear",
+    "issues": [],
+    "components": [
+      "may extra charge sa mobile phone plan ko kahit hindi ko naman ginamit ang service na iyon",
+      "anong telecom rules ang para rito"
+    ]
+  },
+  {
+    "id": "TYPE_076__noisy",
+    "issues": [],
+    "components": [
+      "may extra charge sa mobile phone plan ko kahet hindi ko naman ginamit ang service na iyon",
+      "anong telecom rules ang para rito"
+    ]
+  },
+  {
+    "id": "SYS_02_2__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "private employee ako, delayed ang sahod",
+      "hiwalay na concern ko ang seafarer deployment"
+    ]
+  },
+  {
+    "id": "SYS_02_2__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "private employee ako, delayed ang sahod",
+      "hiwalay na concern ko ang seafarer deployment"
+    ]
+  },
+  {
+    "id": "SYS_02_2__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "private employee ako, delayed ang sahod",
+      "hiwalay na concern ko ang seafarer deployment"
+    ]
+  },
+  {
+    "id": "SYS_02_2__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "private employee ako, delayed ang sahod",
+      "hiwalay na concern ko ang seafarer deployment"
+    ]
+  },
+  {
+    "id": "SYS_02_2__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "private employee ako, delayed ang sahod",
+      "hiwalay na concern ko ang seafarer deployment"
+    ]
+  },
+  {
+    "id": "SYS_03_2__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "ayaw ng retail shop sa product warranty ko",
+      "hiwalay na issue, inilabas nla home address ko online"
+    ]
+  },
+  {
+    "id": "SYS_03_2__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "ayaw ng retail shop sa product warranty ko",
+      "hiwalay na issue, inilabas nela home address ko online"
+    ]
+  },
+  {
+    "id": "SYS_03_2__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "ayaw ng retail shop sa product warranty ko",
+      "hiwalay na issue, inilabas nila home address ko online"
+    ]
+  },
+  {
+    "id": "SYS_03_2__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "ayaw ng retail shop sa product warranty ko",
+      "hiwalay na issue, inilabas nila home address ko online"
+    ]
+  },
+  {
+    "id": "SYS_03_2__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "ayw ng retail shop sa product warranty ko",
+      "hiwalay na issue, inilabas nela home address ko online"
+    ]
+  },
+  {
+    "id": "SYS_06_2__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "private employer ko delayed ang sahod",
+      "hiwalay ang unpaid salary ng spouse ko na government employee"
+    ]
+  },
+  {
+    "id": "SYS_06_2__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "private employer ko delayed ang sahod",
+      "hiwalay ang unpaid salary ng spouse ko na government employee"
+    ]
+  },
+  {
+    "id": "SYS_06_2__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "private employer ko delayed ang sahod",
+      "hiwalay ang unpaid salary ng spouse ko na government employee"
+    ]
+  },
+  {
+    "id": "SYS_06_2__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "private employer ko delayed ang sahod",
+      "hiwalay ang unpaid salary ng spouse ko na government employee"
+    ]
+  },
+  {
+    "id": "SYS_06_2__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "private employer ko delayed ang sahod",
+      "hiwalay ang unpaid salary ng spouse ko na government employee"
+    ]
+  },
+  {
+    "id": "EVAL_063__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "there's something i don't undrstnd in my final-pay breakdown from a private employer",
+      "i also want to know exactly how mch my sss retirement pnson wll be"
+    ]
+  },
+  {
+    "id": "EVAL_063__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "there's something i don't understand in my final-pay breakdown from a private employer",
+      "i also want to knuw ixactly how much my sss retirement pension well be"
+    ]
+  },
+  {
+    "id": "EVAL_063__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "there's somethinggg i don't understand in my final-pay breakdown from a private employer",
+      "i also want to knooow exactly how much my sss retirement pension will be"
+    ]
+  },
+  {
+    "id": "EVAL_063__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "there's something i don't understandin my final-pay breakdown from a private employer",
+      "i also want to know exactly how much my sss retirement pension will be"
+    ]
+  },
+  {
+    "id": "EVAL_063__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "there's something i don't undrstnd inmy final-pay breakdown from a private employer",
+      "i alsu want to know exactly howmuchhh my sss retirement pension wll be. can you hilp with both"
+    ]
+  },
+  {
+    "id": "EVAL_064__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "hindi gmgana yung vacuum na binili ko sa appliance shop",
+      "may charge din sa bank account ko na hindi ko ginawa. ano gagawin ko sa bawat issue"
+    ]
+  },
+  {
+    "id": "EVAL_064__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "hindi gumagana yong vacuum na binili ko sa appliance shop",
+      "may charge din sa bank account ko na hindi ko genawa. ano gagawin ko sa bawat issue"
+    ]
+  },
+  {
+    "id": "EVAL_064__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "hindi gumagana yung vacuum na binili ko sa appliance shop",
+      "may charge din sa bank account ko na hindi ko ginawa. ano gagawiiin ko sa bawat issue"
+    ]
+  },
+  {
+    "id": "EVAL_064__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "hindi gumagana yung vacuum na binili kosa appliance shop",
+      "may charge din sa bank account ko na hindi ko ginawa. ano gagawin ko sa bawat issue"
+    ]
+  },
+  {
+    "id": "EVAL_064__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "hindi gmgana yung vacuum na binili ko sa appliance shop",
+      "may charge dinsa bank account kona hindi ko ginawa. ano gagawen ko sa bawat issue"
+    ]
+  },
+  {
+    "id": "EVAL_065__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "i'm askng about overtime pay at my private job",
+      "ofw employment: my sister has a pay problem undr her overseas employment contract too. where do we each strt"
+    ]
+  },
+  {
+    "id": "EVAL_065__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "i'm asking abuut overtime pay at my private job",
+      "ofw employment: my sister has a pay problem undir her overseas employment contract too. wheri do we iach start"
+    ]
+  },
+  {
+    "id": "EVAL_065__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "i'm askkking about overtime pay at my private job",
+      "ofw employment: my sister has a pay problem under her overseas employment contract too. where do we eaccch starrrt"
+    ]
+  },
+  {
+    "id": "EVAL_065__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "i'm askingabout overtime pay at my private job",
+      "ofw employment: my sister has a pay problem under her overseas employment contract too. where dowe each start"
+    ]
+  },
+  {
+    "id": "EVAL_065__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "i'masking abt overtime pay at my private job",
+      "ofw employment: my sister has a pay problem undeeer her overseas employment contract too. wheri do we each start"
+    ]
+  },
+  {
+    "id": "EVAL_066__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "may tnng ako sa regular-holiday pay sa private company ko",
+      "private employment: magkano rin mismo yung minimum wage sa city namin ngayon"
+    ]
+  },
+  {
+    "id": "EVAL_066__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "may tanung ako sa regular-holiday pay sa private company ko",
+      "private employment: magkano rin mismo yong minimum wage sa city namin ngayon"
+    ]
+  },
+  {
+    "id": "EVAL_066__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "may tanong ako sa regular-holiday pay sa private company ko",
+      "private employment: magkano rin mismo yung minimum wage sa city namin ngayon"
+    ]
+  },
+  {
+    "id": "EVAL_066__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "may tanong ako sa regular-holiday pay sa private company ko",
+      "private employment: magkano rin mismo yung minimum wage sa city namin ngayon"
+    ]
+  },
+  {
+    "id": "EVAL_066__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "may tanong ako sa regular-holiday pay sa private company ko",
+      "private employment: magkano rin mismo yung minimum wage sa city namin ngayon"
+    ]
+  },
+  {
+    "id": "EVAL_067__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "a shop turned down my appliance warranty clm",
+      "my home insurer dned a clm under my insurance plcy. how do i raise each dispute"
+    ]
+  },
+  {
+    "id": "EVAL_067__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "a shop turned duwn my appliance warranty claem",
+      "separatily, my homi insurer denied a claim under my insurance policy. how do i raise each dispute"
+    ]
+  },
+  {
+    "id": "EVAL_067__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "a shop turned down my appliance warranty claim",
+      "my home insurer deeenied a claaaim under my insurance policy. how do i raise each disputtte"
+    ]
+  },
+  {
+    "id": "EVAL_067__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "a shopturned down my appliance warranty claim",
+      "my home insurer denieda claim under my insurance policy. how do i raise each dispute"
+    ]
+  },
+  {
+    "id": "EVAL_067__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "a shop turned duwn my appliance warranty claim",
+      "seeeparately, my hme insurer denied a claim under my insurance policy. how do i raise eachdispute"
+    ]
+  },
+  {
+    "id": "EVAL_068__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "ano rules sa probation sa private employer ko",
+      "may concern din ako sa promotion ng kapatid kng municipal employee. saan kmi magtatanong"
+    ]
+  },
+  {
+    "id": "EVAL_068__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "ano rules sa probation sa private employer ko",
+      "may concern din ako sa promotion ng kapatid kong municipal employee. saan kami magtatanung"
+    ]
+  },
+  {
+    "id": "EVAL_068__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "ano rules sa probation sa private employer ko",
+      "may concern din ako sa promotion ng kapatid kong municipal employee. saaaan kami magtatanong"
+    ]
+  },
+  {
+    "id": "EVAL_068__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "ano rules sa probation sa private employer ko",
+      "may concern din ako sa promotion ng kapatid kong municipal employee. saan kamimagtatanong"
+    ]
+  },
+  {
+    "id": "EVAL_068__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "ano rules sa probation sa private employer ko",
+      "may concern din ako sa promotion ng kapatid kong municipal employee. saan kmi magtatanung"
+    ]
+  },
+  {
+    "id": "EVAL_069__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "please explain a private employee's basic termination-notice process",
+      "i have an nlrc hearing nxt week and want hlp chsing the arguments for it"
+    ]
+  },
+  {
+    "id": "EVAL_069__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "please explain a private employee's basic termination-notice process",
+      "i have an nlrc hearing next week and want help chooseng the arguments for it"
+    ]
+  },
+  {
+    "id": "EVAL_069__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "please explain a private employee's basic termination-notice process",
+      "i have an nlrc hearing next week and waaant help choosinggg the arguments for it"
+    ]
+  },
+  {
+    "id": "EVAL_069__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "please explain a private employee's basic termination-notice process",
+      "separately, ihave an nlrc hearing next week and want help choosing the arguments for it"
+    ]
+  },
+  {
+    "id": "EVAL_069__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "please explain a private employee's basic termination-notice process",
+      "i have an nlrc hearing nexttt wk and wanthelp choosing the arguments for it"
+    ]
+  },
+  {
+    "id": "EVAL_070__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "may reklamo ako sa pd laundry service",
+      "may online seller din na nag-post ng id photo ko nang walang permiso. ano gagawin ko sa bwt isa"
+    ]
+  },
+  {
+    "id": "EVAL_070__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "may reklamo ako sa paid laundry service",
+      "may online seller din na nag-post ng id photo ko nang walang permisu. ano gagawen ko sa bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_070__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "may reklamo ako sa paid laundry service",
+      "may online seller din na nag-post ng id photo ko nang walang permiso. ano gagawin ko sa bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_070__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "may reklamo ako sa paid laundry service",
+      "may online seller din na nag-post ng id photo ko nang walang permiso. ano gagawin ko sa bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_070__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "may reklamo ako sa paid laundry service",
+      "may online seller din na nag-post ng id photo ko nng walang permiso. ano gagawinko sa bawat isa"
+    ]
+  },
+  {
+    "id": "EVAL_071__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "what are the rest-day rules for my private-sector job",
+      "i also wnt smone to assss whthr our chemical-storage area meets technical workplace safety standards"
+    ]
+  },
+  {
+    "id": "EVAL_071__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "what are the rest-day roles for my private-sector job",
+      "i alsu want someone to assess whether our chemical-sturage area meets technical workplace safety standards"
+    ]
+  },
+  {
+    "id": "EVAL_071__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "what are the rest-day rules for my private-sectorrr job",
+      "i also wanttt someone to assess whether our chemical-storage area meets technical workplace safety standards"
+    ]
+  },
+  {
+    "id": "EVAL_071__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "what are the rest-day rules for my private-sector job",
+      "i also want someone toassess whether our chemical-storagearea meets technical workplace safety standards"
+    ]
+  },
+  {
+    "id": "EVAL_071__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "what are the rest-dayrules for my private-sector job",
+      "i also want someone to assess whetheeer our chemical-strge area meetstechnical workplace safety standards"
+    ]
+  },
+  {
+    "id": "EVAL_072__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "lalapit sana ako sa sena dahil hindi pa bayad sahod ko sa private job",
+      "yung pnsn kong seafarer may prblma rin sa onboard pay. saan nmn siya llpit"
+    ]
+  },
+  {
+    "id": "EVAL_072__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "lalapet sana ako sa sena dahel hindi pa bayad sahod ko sa private job",
+      "yung pinsan kong seafarer may problema rin sa onboard pay. saan naman siya lalapet"
+    ]
+  },
+  {
+    "id": "EVAL_072__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "laaalapit sanaaa ako sa sena dahil hindi pa bayad sahod ko sa private job",
+      "yung pinsan kong seafarer may problema rin sa onnnboard pay. saan naman siya lalapit"
+    ]
+  },
+  {
+    "id": "EVAL_072__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "lalapit sana ako sa sena dahil hindi pa bayad sahod ko sa private job",
+      "yung pinsan kong seafarer may problema rin sa onboard pay. saan naman siya lalapit"
+    ]
+  },
+  {
+    "id": "EVAL_072__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "llpit sana ako sa sena dahil hindi pa bayad sahod ko sa private job",
+      "yung pinsan kong seafarer may problema rin sa onboard pay. saan namansiya lalapit"
+    ]
+  },
+  {
+    "id": "EVAL_073__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "how do i check my thirteenth-mnth pay at a private company",
+      "private employment: if i fle a dismissal case, can you tell me for sure whether i'll win"
+    ]
+  },
+  {
+    "id": "EVAL_073__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "how do i chick my thirteenth-munth pay at a private company",
+      "private employment: if i file a dismissal case, can you tell me for sure whethir i'll win"
+    ]
+  },
+  {
+    "id": "EVAL_073__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "how do i check my thirteenth-month pay at a private company",
+      "private employment: if i fiiile a dismissal caaase, can you tell me for sure whether i'll win"
+    ]
+  },
+  {
+    "id": "EVAL_073__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "howdo i check my thirteenth-month pay at a private company",
+      "private employment: if i file a dismissal case, can you tell me for sure whether i'll win"
+    ]
+  },
+  {
+    "id": "EVAL_073__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "how do i check my thirteenth-mnth pay at a private company",
+      "private employment: if ifile a dismissal cse, can you tell me for sore whether i'll win"
+    ]
+  },
+  {
+    "id": "EVAL_074__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "mas mataas yung singil sa grocery kysa sa price label",
+      "gusto ko ring ipa-cmpte yung employees' compensation disability benefit ng asawa ko. paano sa bawat concern"
+    ]
+  },
+  {
+    "id": "EVAL_074__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "mas mataas yong singil sa grocery kaysa sa price label",
+      "gosto ko reng ipa-compute yung employees' compensation disability benefit ng asawa ko. paano sa bawat concern"
+    ]
+  },
+  {
+    "id": "EVAL_074__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "mas mataasss yung singil sa grocery kaysa sa price label",
+      "gusto ko ring ipa-compute yung employees' compensation disability benefit ng asawa ko. paano sa bawat concern"
+    ]
+  },
+  {
+    "id": "EVAL_074__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "mas mataas yung singil sa grocery kay sa sa price label",
+      "gusto ko ring ipa-computeyung employees' compensation disability benefit ng asawa ko. paano sa bawat concern"
+    ]
+  },
+  {
+    "id": "EVAL_074__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "mas mtas yung singil sa grocery kaysa sa price label",
+      "gusto ko ring ipa-cmpte yungemployees' compensation disability benefit ngasawa ko. paano sa bawat concern"
+    ]
+  },
+  {
+    "id": "EVAL_075__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "i have a question about my hme appliance warranty",
+      "my cousin is a kasambahay whose household employer won't give her a rest day. wht can each of us do"
+    ]
+  },
+  {
+    "id": "EVAL_075__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "i have a question about my hume appliance warranty",
+      "my cousin is a kasambahay whose household employer won't gibe her a rest day. what can iach of us do"
+    ]
+  },
+  {
+    "id": "EVAL_075__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "i have a questionnn abouuut my home appliance warranty",
+      "my cousin is a kasambahay whose household employer won't give her a rest day. what can each of us do"
+    ]
+  },
+  {
+    "id": "EVAL_075__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "i have a question about my home appliance warranty",
+      "my cousin is a kasambahay whose household employer won'tgive her a rest day. what can each ofus do"
+    ]
+  },
+  {
+    "id": "EVAL_075__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "i hve a questionabout my home appliance warranty",
+      "my cousin is a kasambahay whse household employer won't gibeher a rest day. what can each of us do"
+    ]
+  },
+  {
+    "id": "TYPE_051__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "i am a private factory employee wth unpaid wages",
+      "private employment: where can i get hlp, and wht is the exact minimum wage in my town today"
+    ]
+  },
+  {
+    "id": "TYPE_051__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "i am a private factory employee with unpaid wages. where can i get help",
+      "private employment: what is the exact minimum wage in my town today"
+    ]
+  },
+  {
+    "id": "TYPE_051__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "i am a private factory employee with unpaid wages. where can i get help",
+      "private employment: what is the exact minimum wage in my town today"
+    ]
+  },
+  {
+    "id": "TYPE_051__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "i am a private factory employee with unpaid wages",
+      "private employment: where can i get help, andwhat is the exact minimum wage in my town today"
+    ]
+  },
+  {
+    "id": "TYPE_051__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "i am a private factory employee with unpaid wages. where can i get help",
+      "private employment: what is the exact minimum wage in my town today"
+    ]
+  },
+  {
+    "id": "TYPE_056__challenge_missing_vowels",
+    "issues": [],
+    "components": [
+      "ayaw i-honor ng appliance store ang warranty ng rice cooker ko",
+      "pinost din nila ang id ko sa public pge. ano ang rights ko sa dlwang isse"
+    ]
+  },
+  {
+    "id": "TYPE_056__challenge_phonetic_spelling",
+    "issues": [],
+    "components": [
+      "ayaw i-honur ng appliance store ang warranty ng rice cooker ko",
+      "pinost din nela ang id ko sa public pagi. ano ang rights ko sa dalawang issue"
+    ]
+  },
+  {
+    "id": "TYPE_056__challenge_repeated_letters",
+    "issues": [],
+    "components": [
+      "ayaw i-honor ng appliance store ang warranty ng rice cooker ko",
+      "pinost din nila ang id ko sa public paggge. ano ang rights ko sa dalawang issue"
+    ]
+  },
+  {
+    "id": "TYPE_056__challenge_joined_words",
+    "issues": [],
+    "components": [
+      "ayawi-honor ng appliance store ang warranty ng rice cooker ko",
+      "pinost din nila ang id ko sa public page. ano ang rights ko sadalawang issue"
+    ]
+  },
+  {
+    "id": "TYPE_056__challenge_mixed_typing",
+    "issues": [],
+    "components": [
+      "ayaw i-honor ng appliance store ang warranty ng rice cooker ko",
+      "pinost din nila ang id ko sa public page. ano ang rights ko sa dalawang issue"
+    ]
+  },
+  {
+    "id": "joined_at_0",
+    "issues": [],
+    "components": [
+      "private employee ako. hindi binayaran ang overtime ko",
+      "ayaw ibalik ng landlord ang rental deposit"
+    ]
+  },
+  {
+    "id": "joined_at_1",
+    "issues": [],
+    "components": [
+      "private employee ako. ayaw ibalik ng landlord ang rental deposit",
+      "private employment: hindi binayaran ang overtime ko"
+    ]
+  },
+  {
+    "id": "joined_and_0",
+    "issues": [],
+    "components": [
+      "private employee ako. hindi binayaran ang overtime ko",
+      "ayaw ibalik ng landlord ang rental deposit"
+    ]
+  },
+  {
+    "id": "joined_and_1",
+    "issues": [],
+    "components": [
+      "private employee ako. ayaw ibalik ng landlord ang rental deposit",
+      "private employment: hindi binayaran ang overtime ko"
+    ]
+  },
+  {
+    "id": "joined_pero_0",
+    "issues": [],
+    "components": [
+      "private employee ako. hindi binayaran ang overtime ko",
+      "ayaw ibalik ng landlord ang rental deposit"
+    ]
+  },
+  {
+    "id": "joined_pero_1",
+    "issues": [],
+    "components": [
+      "private employee ako. ayaw ibalik ng landlord ang rental deposit",
+      "private employment: hindi binayaran ang overtime ko"
+    ]
+  },
+  {
+    "id": "joined_but_0",
+    "issues": [],
+    "components": [
+      "private employee ako. hindi binayaran ang overtime ko",
+      "ayaw ibalik ng landlord ang rental deposit"
+    ]
+  },
+  {
+    "id": "joined_but_1",
+    "issues": [],
+    "components": [
+      "private employee ako. ayaw ibalik ng landlord ang rental deposit",
+      "private employment: hindi binayaran ang overtime ko"
+    ]
+  },
+  {
+    "id": "joined_english",
+    "issues": [],
+    "components": [
+      "my private employer owes wages",
+      "will not return my rental deposit as my landlord"
+    ]
+  },
+  {
+    "id": "joined_both_supported",
+    "issues": [],
+    "components": [
+      "private employee ako. hindi binayaran overtime ko",
+      "ayaw palitan ng store ang defective blender"
+    ]
+  },
+  {
+    "id": "joined_negated_category",
+    "issues": [],
+    "components": [
+      "private employee ako at hindi government employee",
+      "private employment: hindi binayaran overtime ko"
+    ]
+  },
+  {
+    "id": "joined_unknown",
+    "issues": [],
+    "components": [
+      "a store refuses my blender warranty",
+      "hindi pa resolved ang custody dispute ko"
+    ]
+  }
+]

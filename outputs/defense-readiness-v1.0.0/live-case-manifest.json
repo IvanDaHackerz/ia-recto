@@ -1,0 +1,7 @@
+{
+  "count": 21,
+  "cases_sha256": "a72c9c453e0407348d4f31628641e745929311fd1d0f4319a714064fc829c9e1",
+  "expectations_frozen_before_inference": true,
+  "selection": "Purposive discovery and mixed source-gap diagnostics; no confirmation-set questions",
+  "independent_human_gold": false
+}

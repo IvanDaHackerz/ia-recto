@@ -1,0 +1,46 @@
+{
+  "role": "Engineering source-condition reading, not independent professional legal review",
+  "complete_intermediate_AI_run": "repaired",
+  "reviewed_cases": "All returned claims for RD31_001 through RD31_085; the final 15 intended outside-scope cases returned no legal claims",
+  "complete_AI_replay_on_last_runtime": false,
+  "late_repairs": [
+    "Neutral work introductions and rest-break followups",
+    "Product-safety questions no longer borrow service-quality liability",
+    "Ambiguous religious scheduling pronoun",
+    "Warranty content versus entire-warranty invalidity",
+    "Price-reduction payment direction",
+    "Retailer both-upstream-failures condition",
+    "Missing certification proof versus a false representation",
+    "Redress exhaustion trigger versus only-if converse",
+    "Primary merchant liability versus exclusive platform liability",
+    "Return-of-goods and salary actor direction",
+    "Better-policy exception versus an invented deadline extension",
+    "Internal abbreviated quote labels",
+    "Procedural first and pronominal one versus actual quantities"
+  ],
+  "saved_intermediate_claims_rejected_by_new_source_guards": 20,
+  "saved_intermediate_claims_reviewed_by_guards": 88,
+  "false_positive_found_and_corrected": "A retailer's right of recourse against either upstream party must not be confused with the both-upstream-failures condition for subsidiary liability",
+  "quantity_wording_primary_check": {
+    "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+    "checked_on": "2026-10-31",
+    "finding": "The public official Article 101 wording also records the first option only as the proportionate price. Keep that ambiguity visible; do not rewrite it into a new payment by the consumer or an uncited refund formula.",
+    "new_currentness_or_legal_approval": false
+  },
+  "remaining_acceptance": [
+    "Complete final-runtime AI replay",
+    "Independent human questions",
+    "Professional source applicability and interpretation review",
+    "Owner presentation acceptance"
+  ],
+  "known_quality_limits": [
+    "Generation and automated semantic support use the same model",
+    "Pattern checks cover observed failure types and do not prove complete entailment",
+    "Generated text can still omit qualifications or overstate application to reported facts",
+    "Provider errors and source-check failures produce disclosed fallbacks"
+  ],
+  "final_offline_controls_after_last_AI_confirmation": [
+    "Ambiguous religious-rest IRR passage excluded from generation pending interpretation review; original remains inspectable",
+    "Quantity comparison must preserve inherent variations"
+  ]
+}

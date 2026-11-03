@@ -1,0 +1,74 @@
+Frozen 436 local development inputs
+Frozen 436 local development inputs
+Completed 10/200 inputs / 20 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 20/200 inputs / 40 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 30/200 inputs / 60 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 40/200 inputs / 80 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 50/200 inputs / 100 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 60/200 inputs / 120 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 70/200 inputs / 140 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 80/200 inputs / 160 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 90/200 inputs / 180 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 100/200 inputs / 200 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 110/200 inputs / 220 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 120/200 inputs / 240 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 130/200 inputs / 260 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 140/200 inputs / 280 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 150/200 inputs / 300 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 160/200 inputs / 320 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 170/200 inputs / 340 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 180/200 inputs / 360 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 190/200 inputs / 380 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 200/200 inputs / 400 pipeline executions; LLM requests 0; estimated cost $0.0000
+Inference complete. Review semantic_review_queue.jsonl before opening performance metrics.
+Finalized development comparison: C:\IA\outputs\normalization-eval-test-ssba721f\study\REPORT.md
+Completed 10/436 inputs / 20 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 20/436 inputs / 40 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 30/436 inputs / 60 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 40/436 inputs / 80 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 50/436 inputs / 100 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 60/436 inputs / 120 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 70/436 inputs / 140 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 80/436 inputs / 160 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 90/436 inputs / 180 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 100/436 inputs / 200 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 110/436 inputs / 220 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 120/436 inputs / 240 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 130/436 inputs / 260 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 140/436 inputs / 280 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 150/436 inputs / 300 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 160/436 inputs / 320 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 170/436 inputs / 340 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 180/436 inputs / 360 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 190/436 inputs / 380 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 200/436 inputs / 400 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 210/436 inputs / 420 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 220/436 inputs / 440 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 230/436 inputs / 460 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 240/436 inputs / 480 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 250/436 inputs / 500 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 260/436 inputs / 520 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 270/436 inputs / 540 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 280/436 inputs / 560 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 290/436 inputs / 580 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 300/436 inputs / 600 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 310/436 inputs / 620 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 320/436 inputs / 640 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 330/436 inputs / 660 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 340/436 inputs / 680 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 350/436 inputs / 700 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 360/436 inputs / 720 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 370/436 inputs / 740 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 380/436 inputs / 760 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 390/436 inputs / 780 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 400/436 inputs / 800 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 410/436 inputs / 820 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 420/436 inputs / 840 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 430/436 inputs / 860 pipeline executions; LLM requests 0; estimated cost $0.0000
+Inference complete. Review semantic_review_queue.jsonl before opening performance metrics.
+...................................................................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 211 tests in 31.355s
+
+OK
+Finalized development comparison: C:\IA\outputs\normalization-joined-test-dko2mj2y\study\REPORT.md

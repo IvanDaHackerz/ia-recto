@@ -1,0 +1,68 @@
+Frozen 436 local development inputs
+Frozen 436 local development inputs
+Completed 10/200 inputs / 20 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 20/200 inputs / 40 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 30/200 inputs / 60 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 40/200 inputs / 80 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 50/200 inputs / 100 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 60/200 inputs / 120 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 70/200 inputs / 140 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 80/200 inputs / 160 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 90/200 inputs / 180 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 100/200 inputs / 200 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 110/200 inputs / 220 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 120/200 inputs / 240 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 130/200 inputs / 260 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 140/200 inputs / 280 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 150/200 inputs / 300 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 160/200 inputs / 320 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 170/200 inputs / 340 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 180/200 inputs / 360 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 190/200 inputs / 380 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 200/200 inputs / 400 pipeline executions; LLM requests 0; estimated cost $0.0000
+Inference complete. Review semantic_review_queue.jsonl before opening performance metrics.
+.........................F..................................................................................................................................................................F....................................................E..E..........................
+======================================================================
+ERROR: test_current_local_replay_preserves_cases_judgments_and_export_plan (test_normalization_evaluation.EvaluationTests.test_current_local_replay_preserves_cases_judgments_and_export_plan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_normalization_evaluation.py", line 58, in test_current_local_replay_preserves_cases_judgments_and_export_plan
+    output = prepare(Path(folder) / "study", frozen_cases=source, baseline_report=baseline)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 94, in prepare
+    raise ValueError("Baseline stack/cases differ from current frozen comparison")
+ValueError: Baseline stack/cases differ from current frozen comparison
+
+======================================================================
+ERROR: test_joined_cases_without_reference_metadata_can_finalize (test_normalization_evaluation.EvaluationTests.test_joined_cases_without_reference_metadata_can_finalize)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_normalization_evaluation.py", line 95, in test_joined_cases_without_reference_metadata_can_finalize
+    output = prepare(Path(folder) / "study", frozen_cases=source,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 94, in prepare
+    raise ValueError("Baseline stack/cases differ from current frozen comparison")
+ValueError: Baseline stack/cases differ from current frozen comparison
+
+======================================================================
+FAIL: test_actual_frozen_denominators_and_deferrals (application.test_application.PerformanceTests.test_actual_frozen_denominators_and_deferrals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 182, in test_actual_frozen_denominators_and_deferrals
+    self.assertTrue(data["stack_matches_current"])
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_artifact_mutation_is_checked_on_every_call (classifier.test_service.ServiceTests.test_artifact_mutation_is_checked_on_every_call)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 142, in test_artifact_mutation_is_checked_on_every_call
+    with self.assertRaises(ArtifactError):self.prediction('A store refuses my warranty.')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ArtifactError not raised
+
+----------------------------------------------------------------------
+Ran 271 tests in 50.843s
+
+FAILED (failures=2, errors=2)
+Finalized development comparison: C:\IA\outputs\normalization-eval-test-j4u6xrbt\study\REPORT.md

@@ -1,0 +1,936 @@
+[
+  {
+    "case_id": "SYS_05_2__clear",
+    "question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+    "expected": {
+      "case_id": "SYS_05_2",
+      "concerns": [],
+      "expected_clarification_reason": "employment_category_missing",
+      "expected_domains": [],
+      "expected_excluded": false,
+      "expected_primary": null,
+      "expected_route": "clarify",
+      "expected_scope": null,
+      "family_id": "system:SYS_05",
+      "language": "en_tl",
+      "origin": "ai_authored",
+      "question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/pipelines/item13/create_cases.py",
+      "source_record_id": "SYS_05_2",
+      "suite": "system",
+      "topic_ids": [],
+      "variation": "taglish"
+    },
+    "packet": {
+      "original_question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+      "normalization": null,
+      "total_query_ms": 250.19800000154646,
+      "inspection_only": true,
+      "result": {
+        "question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+        "routing": {
+          "routing_action": "retrieve_supported_components",
+          "reason": "separate_supported_components_require_evidence",
+          "clarification_question": null,
+          "predicted_primary": "mixed",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8836190149408801,
+          "scope_confidence": 0.992047135631902
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "late ang salary ko",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 13.465858984347271,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "d4f5ad3be0228cd23e2f6ccb65354326557fc0e69cbd0405e7eac7a1111bfa9b"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_1",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_1__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 5.217203045745341,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 1",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "4870a440b71097bf7a13fd34a90444a5f449896ed10682e302b12ef5cc638ad1"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_105",
+                "chunk_id": "LAB_CODE_2022__art_105__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 5.103223175708734,
+                "citation_display": "PD 442, as amended and renumbered, ART. 105",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "a7a3877508ff01f359b1dde993f62ccf412af110b969b8bfc3e852a1eabe7f2b"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_vii_wages__section_19",
+                "chunk_id": "LAB_IRR_1989__rule_vii_wages__section_19__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 5.057415415978056,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 19",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "02513dad809100f7650d8b9cbed2980ba4b229baec3b89e1abcc97eb9064ee55"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_129",
+                "chunk_id": "LAB_CODE_2022__art_129__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 3.595774098263858,
+                "citation_display": "PD 442, as amended and renumbered, ART. 129",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "93fa114a3a1a65e376793c67677d881373d7076e35e4983a59b8fa6f15b2a2ef"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          },
+          {
+            "component_id": "concern_002",
+            "query": "ayaw din ng shop magbigay ng product refund",
+            "allowed_domain": "consumer",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "RA_7394_1992__art_100",
+                "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 17.421355213045057,
+                "citation_display": "Republic Act No. 7394, ART. 100",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "4df2cde6c821926c6e4ed03ff9be7d58cfa686a057cca64e730ddcb94b9a9d40"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_68",
+                "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+                "document_id": "RA_7394_1992",
+                "score": 14.263752347776514,
+                "citation_display": "Republic Act No. 7394, ART. 68",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_103",
+                "chunk_id": "RA_7394_1992__art_103__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 13.929376313399196,
+                "citation_display": "Republic Act No. 7394, ART. 103",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "172968e969ac18760a7df40529c25c1f79401330e0c4f1ff0364e91950549411"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_102",
+                "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 8.959720694084938,
+                "citation_display": "Republic Act No. 7394, ART. 102",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "1421bb64db7d9649da5f82297a8bf4bb47ef5b7a887d8c13904ca135707d01d2"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_128",
+                "chunk_id": "RA_7394_1992__art_128__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 6.263809701803351,
+                "citation_display": "Republic Act No. 7394, ART. 128",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "0415ca1070f3ac49044f953a20023f14d3c042b4e8ba8682ccdbcce0ea9153f1"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": false,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": null,
+      "scope_correct": null,
+      "route": "retrieve_supported_components",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 10,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 10,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 2,
+      "recorded_excerpt_claims_passed": 2,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 501.5642999969714,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "SYS_05_2__noisy",
+    "question_text": "Late ang salary ko. Ayw din ng shop mgbgay ng product rfnd.",
+    "expected": {
+      "case_id": "SYS_05_2",
+      "concerns": [],
+      "expected_clarification_reason": "employment_category_missing",
+      "expected_domains": [],
+      "expected_excluded": false,
+      "expected_primary": null,
+      "expected_route": "clarify",
+      "expected_scope": null,
+      "family_id": "system:SYS_05",
+      "language": "en_tl",
+      "origin": "ai_authored",
+      "question_text": "Late ang salary ko. Ayaw din ng shop magbigay ng product refund.",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/pipelines/item13/create_cases.py",
+      "source_record_id": "SYS_05_2",
+      "suite": "system",
+      "topic_ids": [],
+      "variation": "taglish"
+    },
+    "packet": {
+      "original_question_text": "Late ang salary ko. Ayw din ng shop mgbgay ng product rfnd.",
+      "normalization": null,
+      "total_query_ms": 236.69430000154534,
+      "inspection_only": true,
+      "result": {
+        "question_text": "Late ang salary ko. Ayw din ng shop mgbgay ng product rfnd.",
+        "routing": {
+          "routing_action": "retrieve_supported_components",
+          "reason": "separate_supported_components_require_evidence",
+          "clarification_question": null,
+          "predicted_primary": "mixed",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8836190149408801,
+          "scope_confidence": 0.992047135631902
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "late ang salary ko",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 13.465858984347271,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "d4f5ad3be0228cd23e2f6ccb65354326557fc0e69cbd0405e7eac7a1111bfa9b"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_1",
+                "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_1__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 5.217203045745341,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 1",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "4870a440b71097bf7a13fd34a90444a5f449896ed10682e302b12ef5cc638ad1"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_105",
+                "chunk_id": "LAB_CODE_2022__art_105__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 5.103223175708734,
+                "citation_display": "PD 442, as amended and renumbered, ART. 105",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "a7a3877508ff01f359b1dde993f62ccf412af110b969b8bfc3e852a1eabe7f2b"
+              },
+              {
+                "provision_id": "LAB_IRR_1989__rule_vii_wages__section_19",
+                "chunk_id": "LAB_IRR_1989__rule_vii_wages__section_19__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 5.057415415978056,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 19",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "02513dad809100f7650d8b9cbed2980ba4b229baec3b89e1abcc97eb9064ee55"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_129",
+                "chunk_id": "LAB_CODE_2022__art_129__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 3.595774098263858,
+                "citation_display": "PD 442, as amended and renumbered, ART. 129",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "93fa114a3a1a65e376793c67677d881373d7076e35e4983a59b8fa6f15b2a2ef"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          },
+          {
+            "component_id": "concern_002",
+            "query": "ayw din ng shop mgbgay ng product refund",
+            "allowed_domain": "consumer",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "RA_7394_1992__art_100",
+                "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 17.42135521304506,
+                "citation_display": "Republic Act No. 7394, ART. 100",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "4df2cde6c821926c6e4ed03ff9be7d58cfa686a057cca64e730ddcb94b9a9d40"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_68",
+                "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+                "document_id": "RA_7394_1992",
+                "score": 14.263752347776512,
+                "citation_display": "Republic Act No. 7394, ART. 68",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_103",
+                "chunk_id": "RA_7394_1992__art_103__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 13.929376313399196,
+                "citation_display": "Republic Act No. 7394, ART. 103",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "172968e969ac18760a7df40529c25c1f79401330e0c4f1ff0364e91950549411"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_102",
+                "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 8.959720694084938,
+                "citation_display": "Republic Act No. 7394, ART. 102",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "1421bb64db7d9649da5f82297a8bf4bb47ef5b7a887d8c13904ca135707d01d2"
+              },
+              {
+                "provision_id": "RA_7394_1992__art_128",
+                "chunk_id": "RA_7394_1992__art_128__chunk_0001",
+                "document_id": "RA_7394_1992",
+                "score": 6.263809701803351,
+                "citation_display": "Republic Act No. 7394, ART. 128",
+                "domains": [
+                  "consumer"
+                ],
+                "parent_text_sha256": "0415ca1070f3ac49044f953a20023f14d3c042b4e8ba8682ccdbcce0ea9153f1"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": false,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": null,
+      "scope_correct": null,
+      "route": "retrieve_supported_components",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 10,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 10,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 2,
+      "recorded_excerpt_claims_passed": 2,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 503.2033000024967,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "TYPE_081__clear",
+    "question_text": "My employer has not paid me. Can you help?",
+    "expected": {
+      "case_id": "TYPE_081",
+      "concerns": [],
+      "expected_clarification_reason": "employment_category_missing",
+      "expected_domains": [],
+      "expected_excluded": false,
+      "expected_primary": null,
+      "expected_route": "clarify",
+      "expected_scope": null,
+      "family_id": "typing:TYPE_G17",
+      "language": "en",
+      "origin": "ai_authored",
+      "question_text": "My employer has not paid me. Can you help?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/typing_questions.jsonl",
+      "source_record_id": "TYPE_081",
+      "suite": "typing",
+      "topic_ids": [],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "My employer has not paid me. Can you help?",
+      "normalization": null,
+      "total_query_ms": 393.488099998649,
+      "inspection_only": true,
+      "result": {
+        "question_text": "My employer has not paid me. Can you help?",
+        "routing": {
+          "routing_action": "retrieve_supported_evidence",
+          "reason": "supported_candidate_requires_evidence",
+          "clarification_question": null,
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8759212835492675,
+          "scope_confidence": 0.9378330752863913
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "my employer has not paid me. can you help",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "LAB_IRR_1989__article_280",
+                "chunk_id": "LAB_IRR_1989__article_280__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 7.381647304701887,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, ARTICLE 280",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "1a7d15b20534899d56cae2ba10621772542979db56f4644f4910d627718def58"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_118",
+                "chunk_id": "LAB_CODE_2022__art_118__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.905790166764957,
+                "citation_display": "PD 442, as amended and renumbered, ART. 118",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "8a5b5e05f8f49f220534b19fbf84434980b855d93fe33f9ebf082c42085797f5"
+              },
+              {
+                "provision_id": "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule",
+                "chunk_id": "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule__chunk_0001",
+                "document_id": "DOLE_FINAL_PAY_COE_NEWS_2026",
+                "score": 6.868244148606782,
+                "citation_display": "DOLE agency statement on final pay and COE (22 January 2026)",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "cbd1babd795478c5c173c1fd709537d3393c5cc44529623fa1f1c81bc66bddba"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_131",
+                "chunk_id": "LAB_CODE_2022__art_131__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.580004354004426,
+                "citation_display": "PD 442, as amended and renumbered, ART. 131",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "02ebfe7abcc76c9ef1bbf47b8f4e513a0cbc2a9976609dc4535228c6629b9435"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_105",
+                "chunk_id": "LAB_CODE_2022__art_105__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.395689195350782,
+                "citation_display": "PD 442, as amended and renumbered, ART. 105",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "a7a3877508ff01f359b1dde993f62ccf412af110b969b8bfc3e852a1eabe7f2b"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": false,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": null,
+      "scope_correct": null,
+      "route": "retrieve_supported_evidence",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 5,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 1,
+      "recorded_excerpt_claims_passed": 1,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 731.6369000000122,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "TYPE_081__noisy",
+    "question_text": "My empluyer has not paid me. Can you help?",
+    "expected": {
+      "case_id": "TYPE_081",
+      "concerns": [],
+      "expected_clarification_reason": "employment_category_missing",
+      "expected_domains": [],
+      "expected_excluded": false,
+      "expected_primary": null,
+      "expected_route": "clarify",
+      "expected_scope": null,
+      "family_id": "typing:TYPE_G17",
+      "language": "en",
+      "origin": "ai_authored",
+      "question_text": "My employer has not paid me. Can you help?",
+      "relevant_ids": [],
+      "retrieval_judgment": "unjudged",
+      "role": "development",
+      "source_path": "dataset/processed/item10/ai_reviewed_eval_v1.0.0/typing_questions.jsonl",
+      "source_record_id": "TYPE_081",
+      "suite": "typing",
+      "topic_ids": [],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "My empluyer has not paid me. Can you help?",
+      "normalization": null,
+      "total_query_ms": 384.7611999990477,
+      "inspection_only": true,
+      "result": {
+        "question_text": "My empluyer has not paid me. Can you help?",
+        "routing": {
+          "routing_action": "retrieve_supported_evidence",
+          "reason": "supported_candidate_requires_evidence",
+          "clarification_question": null,
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8759212835492675,
+          "scope_confidence": 0.9378330752863913
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "my employer has not paid me. can you help",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "LAB_IRR_1989__article_280",
+                "chunk_id": "LAB_IRR_1989__article_280__chunk_0001",
+                "document_id": "LAB_IRR_1989",
+                "score": 7.381647304701887,
+                "citation_display": "Omnibus Rules Implementing the Labor Code, ARTICLE 280",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "1a7d15b20534899d56cae2ba10621772542979db56f4644f4910d627718def58"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_118",
+                "chunk_id": "LAB_CODE_2022__art_118__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.905790166764957,
+                "citation_display": "PD 442, as amended and renumbered, ART. 118",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "8a5b5e05f8f49f220534b19fbf84434980b855d93fe33f9ebf082c42085797f5"
+              },
+              {
+                "provision_id": "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule",
+                "chunk_id": "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule__chunk_0001",
+                "document_id": "DOLE_FINAL_PAY_COE_NEWS_2026",
+                "score": 6.868244148606782,
+                "citation_display": "DOLE agency statement on final pay and COE (22 January 2026)",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "cbd1babd795478c5c173c1fd709537d3393c5cc44529623fa1f1c81bc66bddba"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_131",
+                "chunk_id": "LAB_CODE_2022__art_131__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.580004354004426,
+                "citation_display": "PD 442, as amended and renumbered, ART. 131",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "02ebfe7abcc76c9ef1bbf47b8f4e513a0cbc2a9976609dc4535228c6629b9435"
+              },
+              {
+                "provision_id": "LAB_CODE_2022__art_105",
+                "chunk_id": "LAB_CODE_2022__art_105__chunk_0001",
+                "document_id": "LAB_CODE_2022",
+                "score": 6.395689195350782,
+                "citation_display": "PD 442, as amended and renumbered, ART. 105",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "a7a3877508ff01f359b1dde993f62ccf412af110b969b8bfc3e852a1eabe7f2b"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": false,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": null,
+      "scope_correct": null,
+      "route": "retrieve_supported_evidence",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 5,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 1,
+      "recorded_excerpt_claims_passed": 1,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 875.4202000018267,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "IR_NEG_11__clear",
+    "question_text": "When should my private employer issue my COE and final pay?",
+    "expected": {
+      "case_id": "IR_NEG_11",
+      "concerns": [],
+      "expected_clarification_reason": null,
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "expected_primary": "labor",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_scope": "fully_supported",
+      "family_id": "retrieval:IR_NEG_11",
+      "language": "en",
+      "origin": "ai_authored",
+      "question_text": "When should my private employer issue my COE and final pay?",
+      "relevant_ids": [],
+      "retrieval_judgment": "no_candidates",
+      "role": "development",
+      "source_path": "outputs/item11-retrieval-v1.2.3/benchmark_queries.jsonl",
+      "source_record_id": "IR_NEG_11",
+      "suite": "retrieval",
+      "topic_ids": [
+        "labor.final_pay_coe"
+      ],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "When should my private employer issue my COE and final pay?",
+      "normalization": null,
+      "total_query_ms": 170.12249999970663,
+      "inspection_only": true,
+      "result": {
+        "question_text": "When should my private employer issue my COE and final pay?",
+        "routing": {
+          "routing_action": "retrieve_supported_evidence",
+          "reason": "supported_candidate_requires_evidence",
+          "clarification_question": null,
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8759212835492675,
+          "scope_confidence": 0.9378330752863913
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "when should my private employer issue my coe and final pay",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule",
+                "chunk_id": "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule__chunk_0001",
+                "document_id": "DOLE_FINAL_PAY_COE_NEWS_2026",
+                "score": 37.22718615450641,
+                "citation_display": "DOLE agency statement on final pay and COE (22 January 2026)",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "cbd1babd795478c5c173c1fd709537d3393c5cc44529623fa1f1c81bc66bddba"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": false,
+      "issues": [
+        "negative_candidate_leak"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 1,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 1,
+      "recorded_excerpt_claims_passed": 1,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 319.9888999988616,
+      "unreviewed_explanation_withheld": true
+    }
+  },
+  {
+    "case_id": "IR_NEG_11__noisy",
+    "question_text": "When should my private employerissue my COE and finalpay?",
+    "expected": {
+      "case_id": "IR_NEG_11",
+      "concerns": [],
+      "expected_clarification_reason": null,
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "expected_primary": "labor",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_scope": "fully_supported",
+      "family_id": "retrieval:IR_NEG_11",
+      "language": "en",
+      "origin": "ai_authored",
+      "question_text": "When should my private employer issue my COE and final pay?",
+      "relevant_ids": [],
+      "retrieval_judgment": "no_candidates",
+      "role": "development",
+      "source_path": "outputs/item11-retrieval-v1.2.3/benchmark_queries.jsonl",
+      "source_record_id": "IR_NEG_11",
+      "suite": "retrieval",
+      "topic_ids": [
+        "labor.final_pay_coe"
+      ],
+      "variation": "clear_wording"
+    },
+    "packet": {
+      "original_question_text": "When should my private employerissue my COE and finalpay?",
+      "normalization": null,
+      "total_query_ms": 170.11400000046706,
+      "inspection_only": true,
+      "result": {
+        "question_text": "When should my private employerissue my COE and finalpay?",
+        "routing": {
+          "routing_action": "retrieve_supported_evidence",
+          "reason": "supported_candidate_requires_evidence",
+          "clarification_question": null,
+          "predicted_primary": "labor",
+          "predicted_scope": "fully_supported",
+          "primary_confidence": 0.8759212835492675,
+          "scope_confidence": 0.9378330752863913
+        },
+        "decision": "insufficient_evidence",
+        "excluded_components": [],
+        "referral_ids": [],
+        "answer_generation_allowed": false,
+        "display_allowed": false,
+        "deployment_allowed": false,
+        "components": [
+          {
+            "component_id": "concern_001",
+            "query": "when should my private employer issue my coe and final pay",
+            "allowed_domain": "labor",
+            "retrieval_status": "candidates_found",
+            "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+            "candidates": [
+              {
+                "provision_id": "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule",
+                "chunk_id": "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule__chunk_0001",
+                "document_id": "DOLE_FINAL_PAY_COE_NEWS_2026",
+                "score": 37.22718615450641,
+                "citation_display": "DOLE agency statement on final pay and COE (22 January 2026)",
+                "domains": [
+                  "labor"
+                ],
+                "parent_text_sha256": "cbd1babd795478c5c173c1fd709537d3393c5cc44529623fa1f1c81bc66bddba"
+              }
+            ],
+            "evidence_gate_reasons": [
+              "scoped_currentness_review_missing"
+            ]
+          }
+        ]
+      }
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": false,
+      "issues": [
+        "negative_candidate_leak"
+      ]
+    },
+    "evidence": {
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 1,
+      "candidate_integrity_failures": 0,
+      "live_permissions_closed": true,
+      "recorded_excerpt_claims": 1,
+      "recorded_excerpt_claims_passed": 1,
+      "recorded_excerpt_legal_support_claimed": false,
+      "postflight_ms": 332.1438000020862,
+      "unreviewed_explanation_withheld": true
+    }
+  }
+]

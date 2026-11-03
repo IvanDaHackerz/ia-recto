@@ -1,0 +1,142 @@
+FFFFFFFFFFFFFFF
+======================================================================
+FAIL: test_actual_counts_ordinals_rates_and_dates_remain_checked (backend.application.test_reliability_repair.NumericMeaningTests.test_actual_counts_ordinals_rates_and_dates_remain_checked) (text='the one ordered on the second day')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 27, in test_actual_counts_ordinals_rates_and_dates_remain_checked
+    with self.subTest(text=text):self.assertEqual(numeric_facts(text),expected)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'1.0'
+
+======================================================================
+FAIL: test_procedural_first_and_anaphoric_one_are_not_quantities (backend.application.test_reliability_repair.NumericMeaningTests.test_procedural_first_and_anaphoric_one_are_not_quantities) (text='First, the mediator clarifies the issues.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 19, in test_procedural_first_and_anaphoric_one_are_not_quantities
+    with self.subTest(text=text):self.assertEqual(numeric_facts(text),set())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'1.0'
+
+======================================================================
+FAIL: test_procedural_first_and_anaphoric_one_are_not_quantities (backend.application.test_reliability_repair.NumericMeaningTests.test_procedural_first_and_anaphoric_one_are_not_quantities) (text='The mediator begins by first clarifying the issues.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 19, in test_procedural_first_and_anaphoric_one_are_not_quantities
+    with self.subTest(text=text):self.assertEqual(numeric_facts(text),set())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'1.0'
+
+======================================================================
+FAIL: test_procedural_first_and_anaphoric_one_are_not_quantities (backend.application.test_reliability_repair.NumericMeaningTests.test_procedural_first_and_anaphoric_one_are_not_quantities) (text='Begin by first validating each position.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 19, in test_procedural_first_and_anaphoric_one_are_not_quantities
+    with self.subTest(text=text):self.assertEqual(numeric_facts(text),set())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'1.0'
+
+======================================================================
+FAIL: test_procedural_first_and_anaphoric_one_are_not_quantities (backend.application.test_reliability_repair.NumericMeaningTests.test_procedural_first_and_anaphoric_one_are_not_quantities) (text='The appliance differs from the one ordered.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 19, in test_procedural_first_and_anaphoric_one_are_not_quantities
+    with self.subTest(text=text):self.assertEqual(numeric_facts(text),set())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'1.0'
+
+======================================================================
+FAIL: test_procedural_first_and_anaphoric_one_are_not_quantities (backend.application.test_reliability_repair.NumericMeaningTests.test_procedural_first_and_anaphoric_one_are_not_quantities) (text='Compare the one purchased with the one delivered.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 19, in test_procedural_first_and_anaphoric_one_are_not_quantities
+    with self.subTest(text=text):self.assertEqual(numeric_facts(text),set())
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Items in the first set but not the second:
+'1.0'
+
+======================================================================
+FAIL: test_due_process_requirement_is_not_an_automatic_remedy_finding (backend.application.test_reliability_repair.SourceConditionTests.test_due_process_requirement_is_not_an_automatic_remedy_finding)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 54, in test_due_process_requirement_is_not_an_automatic_remedy_finding
+    self.assertIsNotNone(source_qualification_failure('Dismissal needs cause and due process. If termination does not meet those conditions, the employee is unjustly dismissed and entitled to reinstatement and backwages.',source))
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_law_title_must_belong_to_the_cited_authority (backend.application.test_reliability_repair.SourceConditionTests.test_law_title_must_belong_to_the_cited_authority)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 79, in test_law_title_must_belong_to_the_cited_authority
+    with self.assertRaisesRegex(ValueError,'authority|title'):checked_claims(draft,components)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_negated_holiday_exception_does_not_require_both_negations (backend.application.test_reliability_repair.SourceConditionTests.test_negated_holiday_exception_does_not_require_both_negations) (text='The worker is covered only if the establishment is not retail or service and does not have fewer than 10 workers.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 49, in test_negated_holiday_exception_does_not_require_both_negations
+    with self.subTest(text=text):self.assertIsNotNone(source_qualification_failure(text,source))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_negated_holiday_exception_does_not_require_both_negations (backend.application.test_reliability_repair.SourceConditionTests.test_negated_holiday_exception_does_not_require_both_negations) (text='Covered kung hindi retail/service at hindi mas mababa sa 10 workers.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 49, in test_negated_holiday_exception_does_not_require_both_negations
+    with self.subTest(text=text):self.assertIsNotNone(source_qualification_failure(text,source))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_no_hearing_allegation_does_not_prove_the_actual_deduction_illegal (backend.application.test_reliability_repair.SourceConditionTests.test_no_hearing_allegation_does_not_prove_the_actual_deduction_illegal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 71, in test_no_hearing_allegation_does_not_prove_the_actual_deduction_illegal
+    self.assertIsNotNone(source_qualification_failure(bad,source))
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_presentment_keeps_the_product_with_the_card_or_receipt (backend.application.test_reliability_repair.SourceConditionTests.test_presentment_keeps_the_product_with_the_card_or_receipt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 64, in test_presentment_keeps_the_product_with_the_card_or_receipt
+    self.assertIsNotNone(source_qualification_failure('The buyer only needs to present the warranty card or receipt to the immediate seller.',source))
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_seasonal_exception_does_not_automatically_assign_regular_status (backend.application.test_reliability_repair.SourceConditionTests.test_seasonal_exception_does_not_automatically_assign_regular_status) (text='Seasonal work is regular employment only for the duration of the season.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 42, in test_seasonal_exception_does_not_automatically_assign_regular_status
+    with self.subTest(text=text):self.assertIsNotNone(source_qualification_failure(text,source))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_seasonal_exception_does_not_automatically_assign_regular_status (backend.application.test_reliability_repair.SourceConditionTests.test_seasonal_exception_does_not_automatically_assign_regular_status) (text='Ang seasonal work ay regular employment lamang para sa tagal ng season.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 42, in test_seasonal_exception_does_not_automatically_assign_regular_status
+    with self.subTest(text=text):self.assertIsNotNone(source_qualification_failure(text,source))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None
+
+======================================================================
+FAIL: test_unresolved_redress_is_exhaustion_not_the_only_completion (backend.application.test_reliability_repair.SourceConditionTests.test_unresolved_redress_is_exhaustion_not_the_only_completion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 59, in test_unresolved_redress_is_exhaustion_not_the_only_completion
+    self.assertIsNotNone(source_qualification_failure('The platform can consider the internal process finished only if the complaint remains unresolved after seven calendar days.',source))
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.081s
+
+FAILED (failures=15)

@@ -1,0 +1,109 @@
+[
+  {
+    "case_id": "EX_NEW_004",
+    "family_id": "EX_NEW_004",
+    "group": "L",
+    "topic": "deduction",
+    "question_text": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_014",
+    "family_id": "EX_NEW_014",
+    "group": "C",
+    "topic": "price_tag",
+    "question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_024",
+    "family_id": "EX_NEW_024",
+    "group": "P_C",
+    "topic": "partial",
+    "question_text": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH5_029",
+    "family_id": "PH5_029",
+    "group": "L",
+    "topic": "rest_work",
+    "question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  },
+  {
+    "case_id": "PH5_048",
+    "family_id": "PH5_048",
+    "group": "C",
+    "topic": "online_description",
+    "question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  }
+]

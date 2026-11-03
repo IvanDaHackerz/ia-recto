@@ -1,0 +1,33 @@
+{
+  "version": "item12-verifier-v1.0.29",
+  "parent_verifier": "outputs/item12-verifier-v1.0.28",
+  "classifier": "outputs/item10-classifier-v1.5.35",
+  "retrieval": "outputs/item11-retrieval-v1.3.22",
+  "retrieval_method": "bm25",
+  "top_k": 5,
+  "maximum_review_days": 30,
+  "required_related_documents": {
+    "PD_851_1975": [
+      "MO_28_1986"
+    ],
+    "RA_10396_2013": [
+      "DOLE_DO_249_25"
+    ],
+    "RA_10909_2016": [
+      "DTI_DAO_16_03"
+    ],
+    "RA_11967_2023": [
+      "DTI_JAO_24_03",
+      "RA_7394_1992"
+    ]
+  },
+  "notes": [
+    "This is a conservative minimum authority dependency list, not a complete legal applicability model.",
+    "Labor IRR termination provisions additionally require DOLE_DO_147_15.",
+    "Every current-guidance source still needs a scoped trusted review of all recorded freshness conditions and relationships.",
+    "Recorded excerpts verify text provenance only; they do not verify relevance, legal currentness or sufficient coverage.",
+    "Classifier probabilities and retrieval scores are not legal-answer confidence."
+  ],
+  "deployment_allowed": false,
+  "answer_generation_allowed": false
+}

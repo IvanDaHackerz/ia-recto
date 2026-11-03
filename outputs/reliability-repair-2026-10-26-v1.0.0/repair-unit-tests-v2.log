@@ -1,0 +1,19 @@
+test_a_new_employer_or_excluded_subject_is_not_absorbed (backend.application.test_reliability_repair.FragmentAndRelevanceTests.test_a_new_employer_or_excluded_subject_is_not_absorbed) ... ok
+test_meal_and_counted_time_do_not_match_bank_payment_or_normal_ceiling (backend.application.test_reliability_repair.FragmentAndRelevanceTests.test_meal_and_counted_time_do_not_match_bank_payment_or_normal_ceiling) ... ok
+test_new_source_view_keeps_scan_and_suspect_modifier_holds (backend.application.test_reliability_repair.FragmentAndRelevanceTests.test_new_source_view_keeps_scan_and_suspect_modifier_holds) ... ok
+test_same_scenario_meal_and_online_return_followups_stay_together (backend.application.test_reliability_repair.FragmentAndRelevanceTests.test_same_scenario_meal_and_online_return_followups_stay_together) ... ok
+test_scope_meta_is_removed_only_from_prompt_copy (backend.application.test_reliability_repair.FragmentAndRelevanceTests.test_scope_meta_is_removed_only_from_prompt_copy) ... ok
+test_actual_counts_ordinals_rates_and_dates_remain_checked (backend.application.test_reliability_repair.NumericMeaningTests.test_actual_counts_ordinals_rates_and_dates_remain_checked) ... ok
+test_procedural_first_and_anaphoric_one_are_not_quantities (backend.application.test_reliability_repair.NumericMeaningTests.test_procedural_first_and_anaphoric_one_are_not_quantities) ... ok
+test_due_process_requirement_is_not_an_automatic_remedy_finding (backend.application.test_reliability_repair.SourceConditionTests.test_due_process_requirement_is_not_an_automatic_remedy_finding) ... ok
+test_law_title_must_belong_to_the_cited_authority (backend.application.test_reliability_repair.SourceConditionTests.test_law_title_must_belong_to_the_cited_authority) ... ok
+test_negated_holiday_exception_does_not_require_both_negations (backend.application.test_reliability_repair.SourceConditionTests.test_negated_holiday_exception_does_not_require_both_negations) ... ok
+test_no_hearing_allegation_does_not_prove_the_actual_deduction_illegal (backend.application.test_reliability_repair.SourceConditionTests.test_no_hearing_allegation_does_not_prove_the_actual_deduction_illegal) ... ok
+test_presentment_keeps_the_product_with_the_card_or_receipt (backend.application.test_reliability_repair.SourceConditionTests.test_presentment_keeps_the_product_with_the_card_or_receipt) ... ok
+test_seasonal_exception_does_not_automatically_assign_regular_status (backend.application.test_reliability_repair.SourceConditionTests.test_seasonal_exception_does_not_automatically_assign_regular_status) ... ok
+test_unresolved_redress_is_exhaustion_not_the_only_completion (backend.application.test_reliability_repair.SourceConditionTests.test_unresolved_redress_is_exhaustion_not_the_only_completion) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 5.218s
+
+OK

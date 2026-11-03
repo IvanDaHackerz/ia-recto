@@ -1,0 +1,24 @@
+DEF_002 withheld claim_support_failed 30328 ms
+DEF_005 generated citations_and_automated_support_checked 25984 ms
+DEF_008 withheld provider_unavailable 20468 ms
+DEF_010 withheld provider_unavailable 30015 ms
+DEF_013 generated citations_and_automated_support_checked 24125 ms
+DEF_016 generated citations_and_automated_support_checked 20563 ms
+DEF_019 generated citations_and_automated_support_checked 14703 ms
+DEF_022 withheld related_authority_missing 407 ms
+DEF_025 withheld provider_unavailable 27969 ms
+DEF_028 generated citations_and_automated_support_checked 7219 ms
+Usage: {'day_utc': '2026-10-22', 'provider_requests': 20, 'estimated_usd': 0.03165705, 'input_tokens': 52849, 'output_tokens': 9113, 'maximum_calls': 120, 'maximum_estimated_usd': 0.1, 'billing_verified': False}
+DEF_032 withheld no_supported_explanation 2297 ms
+DEF_035 withheld claim_support_failed 9140 ms
+DEF_038 generated citations_and_automated_support_checked 4938 ms
+DEF_040 generated citations_and_automated_support_checked 18672 ms
+DEF_044 generated citations_and_automated_support_checked 4657 ms
+DEF_049 generated citations_and_automated_support_checked 16766 ms
+DEF_050 withheld provider_unavailable 24766 ms
+DEF_052 partially_generated supported_parts_checked 29844 ms
+DEF_064 withheld citation_validation_failed 7078 ms
+DEF_071 withheld supported_concern_required 281 ms
+Usage: {'day_utc': '2026-10-22', 'provider_requests': 40, 'estimated_usd': 0.0521448, 'input_tokens': 109022, 'output_tokens': 18912, 'maximum_calls': 120, 'maximum_estimated_usd': 0.1, 'billing_verified': False}
+DEF_AI_021 partially_generated supported_parts_checked 17422 ms
+Summary: {"input_forms": 21, "pending": 0, "errors": {}, "explanation_status": {"withheld": 10, "generated": 9, "partially_generated": 2}, "non_generated_reasons": {"claim_support_failed": 2, "provider_unavailable": 4, "related_authority_missing": 1, "no_supported_explanation": 1, "citation_validation_failed": 1, "supported_concern_required": 1}, "failure_codes": {"provider_unavailable": 4}, "validation_failures": {"source_qualification_missing": 1}, "latency_ms": {"p50": 17421.99999999866, "p95": 30014.999999999418, "maximum": 30328.00000000043}, "usage": {"day_utc": "2026-10-22", "provider_requests": 42, "estimated_usd": 0.0532194, "input_tokens": 112894, "output_tokens": 19735, "maximum_calls": 120, "maximum_estimated_usd": 0.1, "billing_verified": false}}

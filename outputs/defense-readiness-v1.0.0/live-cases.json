@@ -1,0 +1,572 @@
+[
+  {
+    "case_id": "DEF_002",
+    "question_text": "My private employer says the missing cash in our till will be divided equally among everyone on duty. What conditions apply to deductions?",
+    "topic": "wages",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_002",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_005",
+    "question_text": "Sa private company ako. Required yung meeting bago magbukas, pero off the clock daw yun. What rules cover time worked?",
+    "topic": "hours",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_005",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_008",
+    "question_text": "Private employee ako. Dalawang oras akong pinatapos ng inventory after my ordinary eight-hour shift. Anong overtime rule ang relevant?",
+    "topic": "overtime",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_008",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_010",
+    "question_text": "Private retail employee ako. Sarado ang shop sa regular holiday; no work happened. What holiday-pay rule and coverage exceptions should I check?",
+    "topic": "holiday",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_010",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_013",
+    "question_text": "Private employee ako, seasonal daw yung work ko. How is seasonal work treated under the regular-employment rule?",
+    "topic": "status",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_013",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_016",
+    "question_text": "Private worker ako. Pinauwi ako nang tuluyan after an accusation, without a written explanation of what I allegedly did. What notice safeguards are recorded?",
+    "topic": "dismissal",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_016",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_019",
+    "question_text": "Private employee ako with unpaid wages. What is the role of conciliation before a labor dispute reaches the proper office?",
+    "topic": "sena",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_019",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_022",
+    "question_text": "Private employee ako. May rule ba about 13th month pay?",
+    "topic": "thirteenth",
+    "group": "labor",
+    "split": "discovery",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_022",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_025",
+    "question_text": "I bought a new electric fan from a store. The motor never runs, but there was no injury or fire. Which product-quality remedy framework is relevant?",
+    "topic": "quality",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_025",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_028",
+    "question_text": "A retail shop says only the manufacturer handles the written warranty. What role does the retailer have when a customer brings a warranty claim?",
+    "topic": "warranty",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_028",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_032",
+    "question_text": "Can a buyer and supplier agree to change the usual correction period for a product imperfection? Please keep the limits in the source.",
+    "topic": "remedies",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_032",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_035",
+    "question_text": "The cashier kept the small change because they said they had no coins. It was a regular store purchase. What consumer rule applies?",
+    "topic": "price",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_035",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_038",
+    "question_text": "A furniture shop advertised solid wood but delivered particle board. Which general advertising rules apply, without assuming the allegation is proved?",
+    "topic": "ads",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_038",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_040",
+    "question_text": "I paid a laundry business for cleaning, but the clothes came back unclean. No one was injured. What service-quality rules are relevant?",
+    "topic": "service",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_040",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_044",
+    "question_text": "Online retail purchase ito. The merchant wants me to pay the shipping to return the wrong item. What does the recorded return rule say?",
+    "topic": "online",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_044",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_049",
+    "question_text": "Private employee ako; unpaid yung ordinary overtime ko. Separately, the grocery cashier kept my change. Please handle each concern.",
+    "topic": "two_supported",
+    "group": "mixed",
+    "split": "discovery",
+    "expected_primary": "mixed",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "consumer",
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_049",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_050",
+    "question_text": "My private employer deducts inventory losses from everyone. I also bought a defective kettle from a shop. Explain the two relevant frameworks separately.",
+    "topic": "two_supported",
+    "group": "mixed",
+    "split": "discovery",
+    "expected_primary": "mixed",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "consumer",
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_050",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_052",
+    "question_text": "Private employee ako with missing holiday pay. My online retailer also sent the wrong product. I want separate source-based information.",
+    "topic": "two_supported",
+    "group": "mixed",
+    "split": "discovery",
+    "expected_primary": "mixed",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "consumer",
+      "labor"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_052",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_064",
+    "question_text": "Government employee ako with an overtime complaint. Separately, I bought a defective rice cooker from a retail shop.",
+    "topic": "consumer_excluded",
+    "group": "partial",
+    "split": "discovery",
+    "expected_primary": "mixed",
+    "expected_scope": "partially_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_064",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_071",
+    "question_text": "I want to sue a doctor over a medical procedure. This is not an ordinary retail purchase.",
+    "topic": "medical",
+    "group": "outside",
+    "split": "discovery",
+    "expected_primary": "out_of_scope",
+    "expected_scope": "unsupported",
+    "expected_route": "refer_out_of_scope",
+    "expected_domains": [],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_071",
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "DEF_AI_021",
+    "question_text": "Private employee ako with missing 13th month pay. Separately, the store charged above the price tag. Please distinguish both concerns.",
+    "expected_primary": "mixed",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "consumer",
+      "labor"
+    ],
+    "topic": "source_gap_mixed",
+    "group": "mixed",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_AI_021",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\IA\outputs\website-field-repair-v1.0.0\bind_stack.py", line 47, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\IA\outputs\website-field-repair-v1.0.0\bind_stack.py", line 35, in main
+    try:run(['dataset/pipelines/item12/rebind_implementation.py','--output',str(verifier)],'verifier-build.log')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\outputs\website-field-repair-v1.0.0\bind_stack.py", line 10, in run
+    if r.returncode:raise RuntimeError('Inspect '+log)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inspect verifier-build.log

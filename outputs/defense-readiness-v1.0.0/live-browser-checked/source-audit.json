@@ -1,0 +1,134 @@
+{
+  "cases": 5,
+  "citations_checked": 10,
+  "exact_spans_passed": 10,
+  "identities_passed": 10,
+  "domain_and_hold_checks_passed": 10,
+  "checks": [
+    {
+      "case_id": "DEF_002",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_002",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_002",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_013",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_CODE_2022__art_295__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_013",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_CODE_2022__art_295__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_028",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_028",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_028",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_AI_021",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_AI_021",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    }
+  ],
+  "AI_reading_notes": [
+    {
+      "case_id": "DEF_002",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_005",
+      "AI_status": "withheld",
+      "reason": "source_context_unavailable",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_013",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_028",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_AI_021",
+      "AI_status": "partially_generated",
+      "reason": "supported_parts_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    }
+  ],
+  "meaning": "Exact-source integrity and AI engineering review are separate from semantic correctness and current-law/legal review.",
+  "independent_human_reviews": 0,
+  "legal_accuracy": null
+}

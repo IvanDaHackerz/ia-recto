@@ -1,0 +1,11 @@
+{
+  "targeted_recheck_ids": [
+    "DEMO_NEW_018",
+    "PH4_057",
+    "PH4_056",
+    "PH4_053",
+    "PH4_051",
+    "PH4_071"
+  ],
+  "reason": "Employment-status condition fixes and medium-reasoning verification of three provider-limit failures; inspected repair replay, not fresh validation"
+}

@@ -1,0 +1,34 @@
+Frozen paired variants: 552 ab61798700e01c7397f33579f1b7f422a7af3120a15809e83fbcfd59a9235325
+Completed 25/552
+Completed 50/552
+Completed 75/552
+Completed 100/552
+Completed 125/552
+Completed 150/552
+Completed 175/552
+Completed 200/552
+Completed 225/552
+Completed 250/552
+Completed 275/552
+Completed 300/552
+Completed 325/552
+Completed 350/552
+Completed 375/552
+Completed 400/552
+Completed 425/552
+Completed 450/552
+Completed 475/552
+Completed 500/552
+Completed 525/552
+Completed 550/552
+{
+  "count": 552,
+  "labeled": 516,
+  "labels_correct": 516,
+  "flow_correct": 552,
+  "exact_quote_cases": 552,
+  "provider_calls": 0,
+  "quoted_responses": 0,
+  "median_ms": 13.4,
+  "failures": []
+}

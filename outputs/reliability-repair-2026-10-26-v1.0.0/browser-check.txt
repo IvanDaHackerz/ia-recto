@@ -1,0 +1,84 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/".
+0 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/
+	1 container
+		2 link Description: Skip to main content, Value: 127.0.0.1:5173/#main
+		3 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		4 button (collapsed) Menu, Secondary Actions: Expand
+		5 text Development preview.
+		6 text Live classification, retrieval & AI explanations · source applicability remains under review.
+		7 container main
+			43 text Analysis ready. Open references to inspect any retrieved provisions.
+			8 container
+				9 heading Ask about your rights, Value: 1
+					10 text Ask about your rights
+				11 checkbox Sources (2), Value: 0
+				44 button New question
+			12 container Conversation
+				45 container Response 1
+					46 text Question 
+					47 text 1
+					48 heading Value: 2, A private assembly plant gives only twenty minutes for lunch while the machines keep running. What sources or limitations apply to a general meal-period question?
+						49 text A private assembly plant gives only twenty minutes for lunch while the machines keep running. What sources or limitations apply to a general meal-period question?
+					50 container AI explanation
+						51 heading AI explanation, Value: 3
+							52 text AI explanation
+						53 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.
+						54 text Employers must give employees at least one hour off for regular meals, but they may provide a meal break of no less than twenty minutes if the shorter break meets any of these conditions: the work is non‑manual or not physically strenuous; the establishment operates at least sixteen hours a day; there is an actual or impending emergency or urgent work on machinery to avoid serious loss; or the work is needed to prevent loss of perishable goods. When a twenty‑minute break is given under one of those cases, the time is counted as compensable work hours.
+						55 container Sources for paragraph 1
+							56 button Omnibus Rules Implementing the Labor Code, SECTION 7 — BOOK THREE, RULE I
+					57 button (collapsed) Where to ask for assistance, Secondary Actions: Expand
+						58 text Where to ask for assistance
+					68 container
+						69 button (expanded) How this question was checked, Secondary Actions: Collapse
+							70 text How this question was checked
+						71 definition list
+							72 container Topic
+								73 text Topic
+							74 container
+								75 text Labor  ·  86.9 % label confidence
+							76 container Topic coverage
+								77 text Topic coverage
+							78 container
+								79 text Within project topics  ·  93.4 % label confidence
+							80 container Wording check
+								81 text Wording check
+							82 container
+								83 text bypassed  ·  0  LLM calls
+							84 container Explanation
+								85 text Explanation
+							86 container
+								87 text citations and automated support checked  ·  2  LLM calls
+							88 container Response shown
+								89 text Response shown
+							90 text Checked AI explanation
+							91 container Support check
+								92 text Support check
+							93 text Automated check passed; independent legal review pending
+							94 container Analysis time
+								95 text Analysis time
+							96 container
+								97 text 8869  ms
+						98 text Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. 
+						99 link Description: View recorded evaluation metrics, Value: 127.0.0.1:5173/performance
+						100 text .
+					61 text Retrieved candidates
+					62 button 1 Omnibus Rules Implementing the Labor Code, SECTION 7 — BOOK THREE, RULE I
+						63 text 1
+						64 text Omnibus Rules Implementing the Labor Code, SECTION 7 — BOOK THREE, RULE I
+					65 button 2 PD 442, as amended and renumbered, ART. 85
+						66 text 2
+						67 text PD 442, as amended and renumbered, ART. 85
+			31 container
+				32 text Try another question
+				33 text entry area (settable) Try another question, ID: query
+				34 button (disabled) Ask
+				35 button (collapsed) AI & saving · AI on · Saving off, Secondary Actions: Expand
+					36 text AI & saving · 
+					37 text AI on
+					38 text  · 
+					39 text Saving off
+				40 container query-help
+					41 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. 
+					42 link Description: Scope & privacy, Value: 127.0.0.1:5173/about
+
+The focused UI element is 69 button (expanded) How this question was checked, Secondary Actions: Collapse

@@ -1,0 +1,81 @@
+======================================================================
+ERROR: test_citation_support_correction_still_requires_a_passed_new_assessment (backend.application.test_development_explanation.CitationTests.test_citation_support_correction_still_requires_a_passed_new_assessment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 129, in test_citation_support_correction_still_requires_a_passed_new_assessment
+    result=explain_recorded_sources(verifier,pre,provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\development_explanation.py", line 219, in explain_recorded_sources
+    from retrieval import source_relevance
+ModuleNotFoundError: No module named 'retrieval'
+
+======================================================================
+ERROR: test_empty_supported_output_is_a_distinct_safe_withholding_state (backend.application.test_development_explanation.CitationTests.test_empty_supported_output_is_a_distinct_safe_withholding_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 188, in test_empty_supported_output_is_a_distinct_safe_withholding_state
+    result=explain_recorded_sources(verifier,pre,provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\development_explanation.py", line 219, in explain_recorded_sources
+    from retrieval import source_relevance
+ModuleNotFoundError: No module named 'retrieval'
+
+======================================================================
+ERROR: test_qualification_revision_requires_a_new_complete_check (backend.application.test_development_explanation.CitationTests.test_qualification_revision_requires_a_new_complete_check)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 107, in test_qualification_revision_requires_a_new_complete_check
+    result=explain_recorded_sources(verifier,pre,provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\development_explanation.py", line 219, in explain_recorded_sources
+    from retrieval import source_relevance
+ModuleNotFoundError: No module named 'retrieval'
+
+======================================================================
+ERROR: test_related_authority_and_fixture_gates_skip_provider (backend.application.test_development_explanation.CitationTests.test_related_authority_and_fixture_gates_skip_provider)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 177, in test_related_authority_and_fixture_gates_skip_provider
+    self.assertEqual(explain_recorded_sources(verifier, p, provider)['reason'], 'related_authority_missing')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\development_explanation.py", line 219, in explain_recorded_sources
+    from retrieval import source_relevance
+ModuleNotFoundError: No module named 'retrieval'
+
+======================================================================
+ERROR: test_revised_invented_quote_is_rejected_before_a_second_assessment (backend.application.test_development_explanation.CitationTests.test_revised_invented_quote_is_rejected_before_a_second_assessment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 136, in test_revised_invented_quote_is_rejected_before_a_second_assessment
+    result=explain_recorded_sources(verifier,pre,provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\development_explanation.py", line 219, in explain_recorded_sources
+    from retrieval import source_relevance
+ModuleNotFoundError: No module named 'retrieval'
+
+======================================================================
+ERROR: test_revision_is_bounded_and_does_not_override_a_second_failed_check (backend.application.test_development_explanation.CitationTests.test_revision_is_bounded_and_does_not_override_a_second_failed_check)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 115, in test_revision_is_bounded_and_does_not_override_a_second_failed_check
+    result=explain_recorded_sources(verifier,pre,provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\development_explanation.py", line 219, in explain_recorded_sources
+    from retrieval import source_relevance
+ModuleNotFoundError: No module named 'retrieval'
+
+======================================================================
+ERROR: test_unsafe_mismatched_or_time_limited_checks_do_not_trigger_revision (backend.application.test_development_explanation.CitationTests.test_unsafe_mismatched_or_time_limited_checks_do_not_trigger_revision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 123, in test_unsafe_mismatched_or_time_limited_checks_do_not_trigger_revision
+    result=explain_recorded_sources(verifier,pre,provider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\development_explanation.py", line 219, in explain_recorded_sources
+    from retrieval import source_relevance
+ModuleNotFoundError: No module named 'retrieval'
+
+----------------------------------------------------------------------
+Ran 39 tests in 18.654s
+
+FAILED (errors=7)

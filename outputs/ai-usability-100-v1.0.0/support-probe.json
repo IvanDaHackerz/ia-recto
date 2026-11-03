@@ -1,0 +1,237 @@
+{
+  "results": [
+    {
+      "case_id": "AI100_034",
+      "all_claims_accepted": false,
+      "assessment": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "unsupported",
+            "qualifications_preserved": false,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          },
+          {
+            "claim_id": "development_2",
+            "verdict": "unsupported",
+            "qualifications_preserved": false,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      },
+      "feedback": {
+        "development_1": "Source defines regular employment and the exception for projects with a determined completion date, and that casual status applies when not covered; however it does not state that one should look at the written agreement for a project‑end date, so the recommendation is unsupported.",
+        "development_2": "Source supports the rule about project‑based regular employment requiring a determined completion date, but does not prescribe inspecting the contract for that date; the advice adds an unsupported element."
+      },
+      "role": "AI audit of inspected failures; not independent legal review"
+    },
+    {
+      "case_id": "AI100_054",
+      "all_claims_accepted": false,
+      "assessment": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          },
+          {
+            "claim_id": "development_2",
+            "verdict": "unsupported",
+            "qualifications_preserved": false,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      },
+      "feedback": {
+        "development_1": "All elements (maker/importer liability for defects, requirement to provide sufficient use/hazard info, fault‑independent liability, and exceptions for no market placement, no defect, or consumer fault) are directly stated in Art. 97 of RA 7394.",
+        "development_2": "Art. 97 imposes liability for insufficient or inadequate information on use and hazards, but it does not specify that such information must be supplied on packaging, label, or accompanying documents; that added requirement is not supported by the cited source."
+      },
+      "role": "AI audit of inspected failures; not independent legal review"
+    },
+    {
+      "case_id": "AI100_070",
+      "all_claims_accepted": true,
+      "assessment": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          },
+          {
+            "claim_id": "development_2",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      },
+      "feedback": {
+        "development_1": "Source Art.81 explicitly requires lumber sold to display a tag with price and the official wood name; absence of such tag makes the sale unlawful, matching the claim.",
+        "development_2": "Art.110 declares false, deceptive or misleading advertisements unlawful and defines them as non‑conforming or materially misleading, which covers a claim that a table is solid wood when it is laminated."
+      },
+      "role": "AI audit of inspected failures; not independent legal review"
+    },
+    {
+      "case_id": "AI100_081",
+      "all_claims_accepted": true,
+      "assessment": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          },
+          {
+            "claim_id": "development_2",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      },
+      "feedback": {
+        "development_1": "Art.102 expressly makes the supplier liable for quality imperfections that render services improper and gives the consumer the option of free re‑performance, immediate reimbursement with monetary updating, or a proportionate price reduction; it also defines improper services as inadequate for reasonably expected purposes, covering shrinkage.",
+        "development_2": "Art.50 states that deceptive acts by a seller occurring before, during or after a transaction are prohibited and lists misrepresenting a service’s standard or quality as a deceptive practice, matching the claim."
+      },
+      "role": "AI audit of inspected failures; not independent legal review"
+    },
+    {
+      "case_id": "AI100_085",
+      "all_claims_accepted": false,
+      "assessment": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "unsupported",
+            "qualifications_preserved": false,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      },
+      "feedback": {
+        "development_1": "The claim reverses the reimbursement direction: RA 11967 requires the consumer to reimburse the merchant if goods cannot be returned due to consumer fault, but the claim says the seller must return any amount paid."
+      },
+      "role": "AI audit of inspected failures; not independent legal review"
+    },
+    {
+      "case_id": "AI100_096",
+      "all_claims_accepted": false,
+      "assessment": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "insufficient_context",
+            "qualifications_preserved": false,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          },
+          {
+            "claim_id": "development_2",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      },
+      "feedback": {
+        "development_1": "The source adds a prerequisite that the deduction rule applies only where the employer's trade recognises such deductions; the claim omits this condition, overstating universal applicability.",
+        "development_2": "The cited provisions expressly state fault‑independent liability for manufacturers/importers and give the consumer the option of replacement or refund with monetary updating if the defect is not corrected within 30 days."
+      },
+      "role": "AI audit of inspected failures; not independent legal review"
+    },
+    {
+      "case_id": "AI100_097",
+      "all_claims_accepted": false,
+      "assessment": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "unsupported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          },
+          {
+            "claim_id": "development_2",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      },
+      "feedback": {
+        "development_1": "Source provides regular wage and double pay rules, but does not state that the double‑pay premium is excluded for retail/service establishments employing fewer than ten workers.",
+        "development_2": "All required warranty terms and the retailer's subsidiary liability are explicitly set out in ART. 68 of RA 7394."
+      },
+      "role": "AI audit of inspected failures; not independent legal review"
+    },
+    {
+      "case_id": "AI100_100",
+      "all_claims_accepted": false,
+      "assessment": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "unsupported",
+            "qualifications_preserved": false,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          },
+          {
+            "claim_id": "development_2",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      },
+      "feedback": {
+        "development_1": "The statement that the key fact needed is whether force‑majeure prevented payment is not found in the cited rule; the source only sets the payment schedule and the force‑majeure exception.",
+        "development_2": "All elements—strict liability regardless of fault, definition of defect based on safety expectations, and the listed defenses—are directly stated in Republic Act No. 7394, Art. 97."
+      },
+      "role": "AI audit of inspected failures; not independent legal review"
+    }
+  ],
+  "usage_cumulative": {
+    "day_utc": "2026-10-21",
+    "provider_requests": 183,
+    "estimated_usd": 0.12157635,
+    "input_tokens": 562549,
+    "output_tokens": 61990,
+    "maximum_calls": 500,
+    "maximum_estimated_usd": 0.5,
+    "billing_verified": false
+  }
+}

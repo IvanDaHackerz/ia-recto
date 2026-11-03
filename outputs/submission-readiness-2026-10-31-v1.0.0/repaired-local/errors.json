@@ -1,0 +1,915 @@
+[
+  {
+    "case": {
+      "case_id": "RD31_026",
+      "family_id": "RD31_026",
+      "group": "L",
+      "topic": "resignation_notice",
+      "language_style": "taglish",
+      "question_text": "Magreresign ako sa private events company. Walang emergency reason na binabanggit, gusto ko lang lumipat ng trabaho. Ano ang ordinary notice rule at ano ang general exceptions?",
+      "AI_authored": true,
+      "independent_human_gold": false,
+      "development_replay": false,
+      "source_case": {
+        "expected_primary": "labor",
+        "expected_scope": "fully_supported",
+        "expected_route": "retrieve_supported_evidence",
+        "expected_domains": [
+          "labor"
+        ],
+        "relevant_ids": [
+          "LAB_CODE_2022__art_300"
+        ],
+        "concerns": [],
+        "retrieval_judgment": "unjudged"
+      },
+      "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+    },
+    "baseline": {
+      "packet": {
+        "inspection_only": true,
+        "labeled_evaluation": false,
+        "original_question_text": "Magreresign ako sa private events company. Walang emergency reason na binabanggit, gusto ko lang lumipat ng trabaho. Ano ang ordinary notice rule at ano ang general exceptions?",
+        "normalization": null,
+        "clarification_follow_up": null,
+        "total_query_ms": 561.5646000005654,
+        "result": {
+          "schema_version": "1.0",
+          "verifier_version": "item12-verifier-v1.0.63",
+          "question_text": "Magreresign ako sa private events company. Walang emergency reason na binabanggit, gusto ko lang lumipat ng trabaho. Ano ang ordinary notice rule at ano ang general exceptions?",
+          "question_sha256": "cd1c284c6b4d7ac5447c7457307968e6fce882205d873052b4d6f3e0f39460ef",
+          "mode": "current_guidance",
+          "as_of": "2026-10-31",
+          "classifier_version": "item10-classifier-v1.5.69",
+          "index_version": "item11-retrieval-v1.3.56",
+          "policy_sha256": "03d7ea8a7a84ce0e0b32c22b40b68f0ba0ba44cc60ace28723571de8f233d9a6",
+          "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+          "software_fixture_mode": false,
+          "answer_generation_allowed": false,
+          "deployment_allowed": false,
+          "display_allowed": false,
+          "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.8759212835492675,
+            "scope_confidence": 0.9378330752863913
+          },
+          "excluded_components": [],
+          "referral_ids": [],
+          "components": [
+            {
+              "component_id": "concern_001",
+              "query": "magreresign ako sa private events company. walang emergency reason na binabanggit, gusto ko lang lumipat ng trabaho",
+              "allowed_domain": "labor",
+              "retrieval_status": "no_lexical_match",
+              "retrieval_reason": "no_matching_terms",
+              "candidates": [],
+              "evidence_gates": [],
+              "evidence_ready": false
+            },
+            {
+              "component_id": "concern_002",
+              "query": "private employment: ano ang ordinary notice rule at ano ang general exceptions",
+              "allowed_domain": "labor",
+              "retrieval_status": "candidates_found",
+              "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+              "candidates": [
+                {
+                  "chunk_id": "LAB_IRR_1989__rule_xiii_picketing_strikes_and_lockouts__section_3__chunk_0001",
+                  "provision_id": "LAB_IRR_1989__rule_xiii_picketing_strikes_and_lockouts__section_3",
+                  "document_id": "LAB_IRR_1989",
+                  "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+                  "heading": "Notice of strike or lockout",
+                  "display_text": "SECTION 3. Notice of strike or lockout. — In cases of bargaining deadlocks, a notice of strike or lockout shall be filed with the regional branch of the Board at least thirty (30) days before the intended date thereof, a copy of said notice having been served on the other party concerned. In cases of unfair labor practices, the period of notice shall be fifteen (15) days. However, in case of unfair labor practice involving the dismissal from employment of union officers duly elected in accordance with the union constitution and by-laws which may constitute union-busting where the existence of the union is threatened, the fifteen-day cooling-off period shall not apply and the union may take action immediately after the strike vote is conducted and the results thereof submitted to the Department of Labor and Employment.",
+                  "normalized_char_start": 0,
+                  "normalized_char_end": 829,
+                  "source_locator": {
+                    "pdf_page_start": null,
+                    "pdf_page_end": null,
+                    "printed_page_start": null,
+                    "printed_page_end": null,
+                    "html_anchor": null,
+                    "source_region": "main legal text",
+                    "source_char_start": 312248,
+                    "source_char_end": 313079
+                  },
+                  "former_locator_labels": [],
+                  "parent_provision_id": null,
+                  "parent_text": "SECTION 3. Notice of strike or lockout. — In cases of bargaining deadlocks, a notice of strike or lockout shall be filed with the regional branch of the Board at least thirty (30) days before the intended date thereof, a copy of said notice having been served on the other party concerned. In cases of unfair labor practices, the period of notice shall be fifteen (15) days. However, in case of unfair labor practice involving the dismissal from employment of union officers duly elected in accordance with the union constitution and by-laws which may constitute union-busting where the existence of the union is threatened, the fifteen-day cooling-off period shall not apply and the union may take action immediately after the strike vote is conducted and the results thereof submitted to the Department of Labor and Employment.",
+                  "document_title": "Omnibus Rules Implementing the Labor Code",
+                  "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+                  "domains": [
+                    "labor"
+                  ],
+                  "supported_topics": [
+                    "labor.termination_due_process"
+                  ],
+                  "legal_status": "in_force_as_amended_not_a_current_consolidation",
+                  "status_family": "current_with_conditions",
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                  "conditions": [
+                    "Before using a provision, check the manifest relationships and later topic-specific orders."
+                  ],
+                  "legal_relationships": [
+                    {
+                      "relationship_id": "LSR_008",
+                      "source_document_id": "LAB_IRR_1989",
+                      "target_document_id": "PD_442_1974",
+                      "target_citation_if_external": "",
+                      "relationship_type": "implements",
+                      "scope": "General Labor Code implementing rules",
+                      "effective_or_issue_date": "1989-05-27",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                      "confidence": "high",
+                      "note": "Later subject-specific amendments control."
+                    },
+                    {
+                      "relationship_id": "LSR_009",
+                      "source_document_id": "DOLE_DO_147_15",
+                      "target_document_id": "LAB_IRR_1989",
+                      "target_citation_if_external": "",
+                      "relationship_type": "amends",
+                      "scope": "Book VI termination rules",
+                      "effective_or_issue_date": "2015-09-07",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                      "confidence": "high",
+                      "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                    }
+                  ],
+                  "quality_flags": [
+                    "table_structure_present"
+                  ],
+                  "review_status": "machine_validated",
+                  "extraction_method": "html_structural",
+                  "score": 7.049753550079668,
+                  "bm25_score": 7.049753550079668,
+                  "semantic_similarity": null,
+                  "retrieval_candidate_only": true,
+                  "answer_generation_allowed": false,
+                  "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK FIVE, CHAPTER IV, RULE XIII"
+                },
+                {
+                  "chunk_id": "LAB_CODE_2022__art_34__chunk_0001",
+                  "provision_id": "LAB_CODE_2022__art_34",
+                  "document_id": "LAB_CODE_2022",
+                  "citation_display": "PD 442, as amended and renumbered, ART. 34",
+                  "heading": "Prohibited Practices",
+                  "display_text": "ART. 34. Prohibited Practices.34 – It shall be unlawful for any individual, entity, licensee,\nor holder of authority:\n(a) To charge or accept, directly or indirectly, any amount greater than that specified in\nthe schedule of allowable fees prescribed by the Secretary of Labor, or to make a worker pay\nany amount greater than that actually received by him as a loan or advance;\n\n(b) To furnish or publish any false notice or information or document in relation to\nrecruitment or employment;\n(c) To give any false notice, testimony, information or document or commit any act of\nmisrepresentation for the purpose of securing a license or authority under this Code;\n(d) To induce or attempt to induce a worker already employed to quit his employment\nin order to offer him to another unless the transfer is designed to liberate the worker from\noppressive terms and conditions of employment;\n(e) To influence or to attempt to influence any person or entity not to employ any\nworker who has not applied for employment through his agency;\n(f) To engage in the recruitment or placement of workers in jobs harmful to public\nhealth or morality or to the dignity of the Republic of the Philippines;\n(g) To obstruct or attempt to obstruct inspection by the Secretary of Labor or by his duly\nauthorized representatives;\n(h) To fail to file reports on the status of employment, placement vacancies, remittance\nof foreign exchange earnings, separation from jobs, departures and such other matters or\ninformation as may be required by the Secretary of Labor;\n(i) To substitute or alter employment contracts approved and verified by the\nDepartment of Labor from the time of actual signing thereof by the parties up to and including\nthe periods of expiration of the same without the approval of the Secretary of Labor;\n(j) To become an officer or member of the Board of any corporation engaged in travel\nagency or to be engaged directly or indirectly in the management of a travel agency; and\n(k) To withhold or deny travel documents from applicant workers before departure for\nmonetary or financial considerations other than those authorized under this Code and its\nimplementing rules and regulations.",
+                  "normalized_char_start": 0,
+                  "normalized_char_end": 2184,
+                  "source_locator": {
+                    "pdf_page_start": 24,
+                    "pdf_page_end": 25,
+                    "printed_page_start": "12",
+                    "printed_page_end": "13",
+                    "html_anchor": null,
+                    "source_region": "PDF page text",
+                    "source_char_start": null,
+                    "source_char_end": null
+                  },
+                  "former_locator_labels": [],
+                  "parent_provision_id": null,
+                  "parent_text": "ART. 34. Prohibited Practices.34 – It shall be unlawful for any individual, entity, licensee,\nor holder of authority:\n(a) To charge or accept, directly or indirectly, any amount greater than that specified in\nthe schedule of allowable fees prescribed by the Secretary of Labor, or to make a worker pay\nany amount greater than that actually received by him as a loan or advance;\n\n(b) To furnish or publish any false notice or information or document in relation to\nrecruitment or employment;\n(c) To give any false notice, testimony, information or document or commit any act of\nmisrepresentation for the purpose of securing a license or authority under this Code;\n(d) To induce or attempt to induce a worker already employed to quit his employment\nin order to offer him to another unless the transfer is designed to liberate the worker from\noppressive terms and conditions of employment;\n(e) To influence or to attempt to influence any person or entity not to employ any\nworker who has not applied for employment through his agency;\n(f) To engage in the recruitment or placement of workers in jobs harmful to public\nhealth or morality or to the dignity of the Republic of the Philippines;\n(g) To obstruct or attempt to obstruct inspection by the Secretary of Labor or by his duly\nauthorized representatives;\n(h) To fail to file reports on the status of employment, placement vacancies, remittance\nof foreign exchange earnings, separation from jobs, departures and such other matters or\ninformation as may be required by the Secretary of Labor;\n(i) To substitute or alter employment contracts approved and verified by the\nDepartment of Labor from the time of actual signing thereof by the parties up to and including\nthe periods of expiration of the same without the approval of the Secretary of Labor;\n(j) To become an officer or member of the Board of any corporation engaged in travel\nagency or to be engaged directly or indirectly in the management of a travel agency; and\n(k) To withhold or deny travel documents from applicant workers before departure for\nmonetary or financial considerations other than those authorized under this Code and its\nimplementing rules and regulations.",
+                  "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+                  "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+                  "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+                  "domains": [
+                    "labor"
+                  ],
+                  "supported_topics": [
+                    "labor.employment_contracts"
+                  ],
+                  "legal_status": "official_consolidation_through_2022",
+                  "status_family": "current_with_conditions",
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+                  "conditions": [
+                    "Check for post-2022 statutes and issuances before stating the present rule."
+                  ],
+                  "legal_relationships": [
+                    {
+                      "relationship_id": "LSR_001",
+                      "source_document_id": "LAB_CODE_2022",
+                      "target_document_id": "PD_442_1974",
+                      "target_citation_if_external": "",
+                      "relationship_type": "consolidates_as_amended_and_renumbered",
+                      "scope": "Labor Code text through the edition's cutoff",
+                      "effective_or_issue_date": "2022",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                      "confidence": "high",
+                      "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                    },
+                    {
+                      "relationship_id": "LSR_010",
+                      "source_document_id": "DOLE_LA_06_20",
+                      "target_document_id": "LAB_CODE_2022",
+                      "target_citation_if_external": "",
+                      "relationship_type": "provides_agency_guidance",
+                      "scope": "Final pay and certificate of employment timelines",
+                      "effective_or_issue_date": "2020-01-31",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                      "confidence": "medium_high",
+                      "note": "No official superseding advisory was located in this audit."
+                    }
+                  ],
+                  "quality_flags": [
+                    "footnotes_present"
+                  ],
+                  "review_status": "machine_validated",
+                  "extraction_method": "pdf_text",
+                  "score": 5.076795461849308,
+                  "bm25_score": 5.076795461849308,
+                  "semantic_similarity": null,
+                  "retrieval_candidate_only": true,
+                  "answer_generation_allowed": false,
+                  "citation_label": "PD 442, as amended and renumbered, ART. 34"
+                },
+                {
+                  "chunk_id": "LAB_CODE_2022__art_225__chunk_0003",
+                  "provision_id": "LAB_CODE_2022__art_225",
+                  "document_id": "LAB_CODE_2022",
+                  "citation_display": "PD 442, as amended and renumbered, ART. 225",
+                  "heading": "[218] Powers of the Commission",
+                  "display_text": "No such temporary restraining order or temporary injunction shall\nbe issued except on condition that complainant shall first file an undertaking with adequate\nsecurity in an amount to be fixed by the Commission sufficient to recompense those enjoined\nfor any loss, expense or damage caused by the improvident or erroneous issuance of such\norder or injunction, including all reasonable costs, together with a reasonable attorney’s fee,\nand expense of defense against the order or against the granting of any injunctive relief sought\nin the same proceeding and subsequently denied by the Commission.\nThe undertaking herein mentioned shall be understood to constitute an agreement\nentered into by the complainant and the surety upon which an order may be rendered in the\nsame suit or proceeding against said complainant and surety, upon a hearing to assess\ndamages, of which hearing, complainant and surety shall have reasonable notice, the said\ncomplainant and surety submitting themselves to the jurisdiction of the Commission for that\npurpose. But nothing herein contained shall deprive any party having a claim or cause of action\nunder or upon such undertaking from electing to pursue his ordinary remedy by suit at law or\nin equity: Provided, further, That the reception of evidence for the application of a writ of\ninjunction may be delegated by the Commission to any of its Labor Arbiters who shall conduct\nsuch hearings in such places as he may determine to be accessible to the parties and their\nwitnesses and shall submit thereafter his recommendation to the Commission.",
+                  "normalized_char_start": 5840,
+                  "normalized_char_end": 7417,
+                  "source_locator": {
+                    "pdf_page_start": 93,
+                    "pdf_page_end": 95,
+                    "printed_page_start": "81",
+                    "printed_page_end": "83",
+                    "html_anchor": null,
+                    "source_region": "PDF page text",
+                    "source_char_start": null,
+                    "source_char_end": null
+                  },
+                  "former_locator_labels": [
+                    "ART. 218"
+                  ],
+                  "parent_provision_id": null,
+                  "parent_text": "ART. 225. [218] Powers of the Commission.187 – The Commission shall have the power\nand authority:\n(a) To promulgate rules and regulations governing the hearing and disposition of cases\nbefore it and its regional branches, as well as those pertaining to its internal functions and\nsuch rules and regulations as may be necessary to carry out the purposes of this Code;\n(b) To administer oaths, summon the parties to a controversy, issue subpoenas requiring\nthe attendance and testimony of witnesses or the production of such books, papers, contracts,\nrecords, statement of accounts, agreements, and others as may be material to a just\ndetermination of the matter under investigation, and to testify in any investigation or hearing\nconducted in pursuance of this Code;\n(c) To conduct investigation for the determination of a question, matter or controversy\nwithin its jurisdiction, proceed to hear and determine the disputes in the absence of any party\nthereto who has been summoned or served with notice to appear, conduct its proceedings or\nany part thereof in public or in private, adjourn its hearings to any time and place, refer\ntechnical matters or accounts to an expert and to accept his report as evidence after hearing\nof the parties upon due notice, direct parties to be joined in or excluded from the proceedings,\ncorrect, amend, or waive any error, defect or irregularity whether in substance or in form, give\nall such directions as it may deem necessary or expedient in the determination of the dispute\nbefore it, and dismiss any matter or refrain from further hearing or from determining the\n\ndispute or part thereof, where it is trivial or where further proceedings by the Commission are\nnot necessary or desirable; and\n(d) To hold any person in contempt directly or indirectly and impose appropriate penalties\ntherefor in accordance with law.\nA person guilty of misbehavior in the presence of or so near the Chairman or any member\nof the Commission or any Labor Arbiter as to obstruct or interrupt the proceedings before the\nsame, including disrespect toward said officials, offensive personalities toward others, or\nrefusal to be sworn, or to answer as a witness or to subscribe an affidavit or deposition when\nlawfully required to do so, may be summarily adjudged in direct contempt by said officials and\npunished by fine not exceeding five hundred pesos (P500) or imprisonment not exceeding five\n(5) days, or both, if it be the Commission or a member thereof, or by a fine not exceeding one\nhundred pesos (P100) or imprisonment not exceeding one (1) day, or both, if it be a Labor\nArbiter.\nThe person adjudged in direct contempt by a Labor Arbiter may appeal to the Commission\nand the execution of the judgment shall be suspended pending the resolution of the appeal\nupon the filing by such person of a bond on condition that he will abide by and perform the\njudgment of the Commission should the appeal be decided against him. Judgment of the\nCommission on direct contempt is immediately executory and unappealable. Indirect\ncontempt shall be dealt with by the Commission or Labor Arbiter in the manner prescribed\nunder Rule 71 of the Revised Rules of Court; and\n(e) To enjoin or restrain any actual or threatened commission of any or all prohibited or\nunlawful acts or to require the performance of a particular act in any labor dispute which, if\nnot restrained or performed forthwith, may cause grave or irreparable damage to any party\nor render ineffectual any decision in favor of such party: Provided, That no temporary or\npermanent injunction in any case involving or growing out of a labor dispute as defined in this\nCode shall be issued except after hearing the testimony of witnesses, with opportunity for\ncross-examination, in support of the allegations of a complaint made under oath, and\ntestimony in opposition thereto, if offered, and only after a finding of fact by the Commission,\nto the effect:\n(1) That prohibited or unlawful acts have been threatened and will be committed unless\nrestrained, or have been committed and will be continued unless restrained, but no injunction\nor temporary restraining order shall be issued on account of any threat, prohibited or unlawful\nact, except against the person or persons, association or organization making the threat or\ncommitting the prohibited or unlawful act or actually authorizing or ratifying the same after\nactual knowledge thereof;\n(2) That substantial and irreparable injury to complainant’s property will follow;\n\n(3) That as to each item of relief to be granted, greater injury will be inflicted upon\ncomplainant by the denial of relief than will be inflicted upon defendants by the granting of\nrelief;\n(4) That complainant has no adequate remedy at law; and\n(5) That the public officers charged with the duty to protect complainant’s property are\nunable or unwilling to furnish adequate protection.\nSuch hearing shall be held after due and personal notice thereof has been served, in such\nmanner as the Commission shall direct, to all known persons against whom relief is sought,\nand also to the Chief Executive and other public officials of the province or city within which\nthe unlawful acts have been threatened or committed, charged with the duty to protect\ncomplainant’s property: Provided, however, That if a complainant shall also allege that, unless\na temporary restraining order shall be issued without notice, a substantial and irreparable\ninjury to complainant’s property will be unavoidable, such a temporary restraining order may\nbe issued upon testimony under oath, sufficient, if sustained, to justify the Commission in\nissuing a temporary injunction upon hearing after notice. Such a temporary restraining order\nshall be effective for no longer than twenty (20) days and shall become void at the expiration\nof said twenty (20) days. No such temporary restraining order or temporary injunction shall\nbe issued except on condition that complainant shall first file an undertaking with adequate\nsecurity in an amount to be fixed by the Commission sufficient to recompense those enjoined\nfor any loss, expense or damage caused by the improvident or erroneous issuance of such\norder or injunction, including all reasonable costs, together with a reasonable attorney’s fee,\nand expense of defense against the order or against the granting of any injunctive relief sought\nin the same proceeding and subsequently denied by the Commission.\nThe undertaking herein mentioned shall be understood to constitute an agreement\nentered into by the complainant and the surety upon which an order may be rendered in the\nsame suit or proceeding against said complainant and surety, upon a hearing to assess\ndamages, of which hearing, complainant and surety shall have reasonable notice, the said\ncomplainant and surety submitting themselves to the jurisdiction of the Commission for that\npurpose. But nothing herein contained shall deprive any party having a claim or cause of action\nunder or upon such undertaking from electing to pursue his ordinary remedy by suit at law or\nin equity: Provided, further, That the reception of evidence for the application of a writ of\ninjunction may be delegated by the Commission to any of its Labor Arbiters who shall conduct\nsuch hearings in such places as he may determine to be accessible to the parties and their\nwitnesses and shall submit thereafter his recommendation to the Commission.",
+                  "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+                  "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+                  "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+                  "domains": [
+                    "labor"
+                  ],
+                  "supported_topics": [
+                    "labor.complaint_referral",
+                    "labor.termination_due_process"
+                  ],
+                  "legal_status": "official_consolidation_through_2022",
+                  "status_family": "current_with_conditions",
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+                  "conditions": [
+                    "Check for post-2022 statutes and issuances before stating the present rule."
+                  ],
+                  "legal_relationships": [
+                    {
+                      "relationship_id": "LSR_001",
+                      "source_document_id": "LAB_CODE_2022",
+                      "target_document_id": "PD_442_1974",
+                      "target_citation_if_external": "",
+                      "relationship_type": "consolidates_as_amended_and_renumbered",
+                      "scope": "Labor Code text through the edition's cutoff",
+                      "effective_or_issue_date": "2022",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                      "confidence": "high",
+                      "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                    },
+                    {
+                      "relationship_id": "LSR_010",
+                      "source_document_id": "DOLE_LA_06_20",
+                      "target_document_id": "LAB_CODE_2022",
+                      "target_citation_if_external": "",
+                      "relationship_type": "provides_agency_guidance",
+                      "scope": "Final pay and certificate of employment timelines",
+                      "effective_or_issue_date": "2020-01-31",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                      "confidence": "medium_high",
+                      "note": "No official superseding advisory was located in this audit."
+                    }
+                  ],
+                  "quality_flags": [
+                    "footnotes_present"
+                  ],
+                  "review_status": "machine_validated",
+                  "extraction_method": "pdf_text",
+                  "score": 4.549536786419835,
+                  "bm25_score": 4.549536786419835,
+                  "semantic_similarity": null,
+                  "retrieval_candidate_only": true,
+                  "answer_generation_allowed": false,
+                  "citation_label": "PD 442, as amended and renumbered, ART. 225 — Book Five, Title II, Chapter II, PDF page 93"
+                },
+                {
+                  "chunk_id": "LAB_CODE_2022__art_157__chunk_0001",
+                  "provision_id": "LAB_CODE_2022__art_157",
+                  "document_id": "LAB_CODE_2022",
+                  "citation_display": "PD 442, as amended and renumbered, ART. 157",
+                  "heading": "Transfer",
+                  "display_text": "ART. 157. Transfer. – Night workers who are certified as unfit for night work, due to health\nreasons, shall be transferred, whenever practicable, to a similar job for which they are fit to\nwork.\nIf such transfer to a similar job is not practicable, these workers shall be granted the same\nbenefits as other workers who are unable to work, or to secure employment during such\nperiod.\nA night worker certified as temporarily unfit for night work shall be given the same\nprotection against dismissal or notice of dismissal as other workers who are prevented from\nworking for reasons of health.",
+                  "normalized_char_start": 0,
+                  "normalized_char_end": 590,
+                  "source_locator": {
+                    "pdf_page_start": 64,
+                    "pdf_page_end": 64,
+                    "printed_page_start": "52",
+                    "printed_page_end": "52",
+                    "html_anchor": null,
+                    "source_region": "PDF page text",
+                    "source_char_start": null,
+                    "source_char_end": null
+                  },
+                  "former_locator_labels": [],
+                  "parent_provision_id": null,
+                  "parent_text": "ART. 157. Transfer. – Night workers who are certified as unfit for night work, due to health\nreasons, shall be transferred, whenever practicable, to a similar job for which they are fit to\nwork.\nIf such transfer to a similar job is not practicable, these workers shall be granted the same\nbenefits as other workers who are unable to work, or to secure employment during such\nperiod.\nA night worker certified as temporarily unfit for night work shall be given the same\nprotection against dismissal or notice of dismissal as other workers who are prevented from\nworking for reasons of health.",
+                  "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+                  "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+                  "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+                  "domains": [
+                    "labor"
+                  ],
+                  "supported_topics": [
+                    "labor.termination_due_process"
+                  ],
+                  "legal_status": "official_consolidation_through_2022",
+                  "status_family": "current_with_conditions",
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+                  "conditions": [
+                    "Check for post-2022 statutes and issuances before stating the present rule."
+                  ],
+                  "legal_relationships": [
+                    {
+                      "relationship_id": "LSR_001",
+                      "source_document_id": "LAB_CODE_2022",
+                      "target_document_id": "PD_442_1974",
+                      "target_citation_if_external": "",
+                      "relationship_type": "consolidates_as_amended_and_renumbered",
+                      "scope": "Labor Code text through the edition's cutoff",
+                      "effective_or_issue_date": "2022",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                      "confidence": "high",
+                      "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                    },
+                    {
+                      "relationship_id": "LSR_010",
+                      "source_document_id": "DOLE_LA_06_20",
+                      "target_document_id": "LAB_CODE_2022",
+                      "target_citation_if_external": "",
+                      "relationship_type": "provides_agency_guidance",
+                      "scope": "Final pay and certificate of employment timelines",
+                      "effective_or_issue_date": "2020-01-31",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                      "confidence": "medium_high",
+                      "note": "No official superseding advisory was located in this audit."
+                    }
+                  ],
+                  "quality_flags": [],
+                  "review_status": "machine_validated",
+                  "extraction_method": "pdf_text",
+                  "score": 4.1291031778696,
+                  "bm25_score": 4.1291031778696,
+                  "semantic_similarity": null,
+                  "retrieval_candidate_only": true,
+                  "answer_generation_allowed": false,
+                  "citation_label": "PD 442, as amended and renumbered, ART. 157"
+                },
+                {
+                  "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+                  "provision_id": "LAB_CODE_2022__art_298",
+                  "document_id": "LAB_CODE_2022",
+                  "citation_display": "PD 442, as amended and renumbered, ART. 298",
+                  "heading": "[283] Closure of Establishment and Reduction of Personnel",
+                  "display_text": "ART. 298. [283] Closure of Establishment and Reduction of Personnel. – The employer\nmay also terminate the employment of any employee due to the installation of labor-saving\ndevices, redundancy, retrenchment to prevent losses or the closing or cessation of operation\nof the establishment or undertaking unless the closing is for the purpose of circumventing the\nprovisions of this Title, by serving a written notice on the workers and the Ministry of Labor\nand Employment at least one (1) month before the intended date thereof. In case of\ntermination due to the installation of labor-saving devices or redundancy, the worker affected\nthereby shall be entitled to a separation pay equivalent to at least his one (1) month pay or to\nat least one (1) month pay for every year of service, whichever is higher. In case of\nretrenchment to prevent losses and in cases of closures or cessation of operations of\nestablishment or undertaking not due to serious business losses or financial reverses, the\nseparation pay shall be equivalent to one (1) month pay or at least one-half (1/2) month pay\nfor every year of service, whichever is higher. A fraction of at least six (6) months shall be\nconsidered one (1) whole year.",
+                  "normalized_char_start": 0,
+                  "normalized_char_end": 1213,
+                  "source_locator": {
+                    "pdf_page_start": 129,
+                    "pdf_page_end": 129,
+                    "printed_page_start": "117",
+                    "printed_page_end": "117",
+                    "html_anchor": null,
+                    "source_region": "PDF page text",
+                    "source_char_start": null,
+                    "source_char_end": null
+                  },
+                  "former_locator_labels": [
+                    "ART. 283"
+                  ],
+                  "parent_provision_id": null,
+                  "parent_text": "ART. 298. [283] Closure of Establishment and Reduction of Personnel. – The employer\nmay also terminate the employment of any employee due to the installation of labor-saving\ndevices, redundancy, retrenchment to prevent losses or the closing or cessation of operation\nof the establishment or undertaking unless the closing is for the purpose of circumventing the\nprovisions of this Title, by serving a written notice on the workers and the Ministry of Labor\nand Employment at least one (1) month before the intended date thereof. In case of\ntermination due to the installation of labor-saving devices or redundancy, the worker affected\nthereby shall be entitled to a separation pay equivalent to at least his one (1) month pay or to\nat least one (1) month pay for every year of service, whichever is higher. In case of\nretrenchment to prevent losses and in cases of closures or cessation of operations of\nestablishment or undertaking not due to serious business losses or financial reverses, the\nseparation pay shall be equivalent to one (1) month pay or at least one-half (1/2) month pay\nfor every year of service, whichever is higher. A fraction of at least six (6) months shall be\nconsidered one (1) whole year.",
+                  "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+                  "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+                  "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+                  "domains": [
+                    "labor"
+                  ],
+                  "supported_topics": [
+                    "labor.termination_due_process"
+                  ],
+                  "legal_status": "official_consolidation_through_2022",
+                  "status_family": "current_with_conditions",
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+                  "conditions": [
+                    "Check for post-2022 statutes and issuances before stating the present rule."
+                  ],
+                  "legal_relationships": [
+                    {
+                      "relationship_id": "LSR_001",
+                      "source_document_id": "LAB_CODE_2022",
+                      "target_document_id": "PD_442_1974",
+                      "target_citation_if_external": "",
+                      "relationship_type": "consolidates_as_amended_and_renumbered",
+                      "scope": "Labor Code text through the edition's cutoff",
+                      "effective_or_issue_date": "2022",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                      "confidence": "high",
+                      "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                    },
+                    {
+                      "relationship_id": "LSR_010",
+                      "source_document_id": "DOLE_LA_06_20",
+                      "target_document_id": "LAB_CODE_2022",
+                      "target_citation_if_external": "",
+                      "relationship_type": "provides_agency_guidance",
+                      "scope": "Final pay and certificate of employment timelines",
+                      "effective_or_issue_date": "2020-01-31",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                      "confidence": "medium_high",
+                      "note": "No official superseding advisory was located in this audit."
+                    }
+                  ],
+                  "quality_flags": [],
+                  "review_status": "machine_validated",
+                  "extraction_method": "pdf_text",
+                  "score": 3.8177342273415835,
+                  "bm25_score": 3.8177342273415835,
+                  "semantic_similarity": null,
+                  "retrieval_candidate_only": true,
+                  "answer_generation_allowed": false,
+                  "citation_label": "PD 442, as amended and renumbered, ART. 298"
+                }
+              ],
+              "evidence_gates": [
+                {
+                  "chunk_id": "LAB_IRR_1989__rule_xiii_picketing_strikes_and_lockouts__section_3__chunk_0001",
+                  "passed": false,
+                  "reasons": [
+                    "scoped_currentness_review_missing"
+                  ],
+                  "source_review_ids": [],
+                  "required_related_documents": [],
+                  "unavailable_related_documents": [],
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                  "currentness_reviewed": false,
+                  "recorded_excerpt_only": false
+                },
+                {
+                  "chunk_id": "LAB_CODE_2022__art_34__chunk_0001",
+                  "passed": false,
+                  "reasons": [
+                    "scoped_currentness_review_missing"
+                  ],
+                  "source_review_ids": [],
+                  "required_related_documents": [],
+                  "unavailable_related_documents": [],
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+                  "currentness_reviewed": false,
+                  "recorded_excerpt_only": false
+                },
+                {
+                  "chunk_id": "LAB_CODE_2022__art_225__chunk_0003",
+                  "passed": false,
+                  "reasons": [
+                    "scoped_currentness_review_missing"
+                  ],
+                  "source_review_ids": [],
+                  "required_related_documents": [],
+                  "unavailable_related_documents": [],
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+                  "currentness_reviewed": false,
+                  "recorded_excerpt_only": false
+                },
+                {
+                  "chunk_id": "LAB_CODE_2022__art_157__chunk_0001",
+                  "passed": false,
+                  "reasons": [
+                    "scoped_currentness_review_missing"
+                  ],
+                  "source_review_ids": [],
+                  "required_related_documents": [],
+                  "unavailable_related_documents": [],
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+                  "currentness_reviewed": false,
+                  "recorded_excerpt_only": false
+                },
+                {
+                  "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+                  "passed": false,
+                  "reasons": [
+                    "scoped_currentness_review_missing"
+                  ],
+                  "source_review_ids": [],
+                  "required_related_documents": [],
+                  "unavailable_related_documents": [],
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+                  "currentness_reviewed": false,
+                  "recorded_excerpt_only": false
+                }
+              ],
+              "evidence_ready": false
+            }
+          ],
+          "offline_drafting_allowed": false,
+          "all_supported_components_evidence_ready": false,
+          "decision": "insufficient_evidence"
+        },
+        "privacy": {
+          "redacted": false,
+          "categories": {},
+          "guaranteed_complete": false,
+          "note": "Known identifiers are removed locally; avoid personal details. Names and indirect identifiers may still be missed.",
+          "external_ai_enabled": false
+        },
+        "safety_notice": null,
+        "explanation": {
+          "status": "withheld",
+          "reason": "local_only",
+          "llm_calls": 0,
+          "claims": []
+        },
+        "request_id": "eae2ab8010d94e61b392ce46fea6e6ed",
+        "schema_version": "1.0",
+        "network_requests": [],
+        "history": {
+          "saved": false
+        },
+        "referrals": [
+          {
+            "id": "REF_DOLE_ARMS",
+            "agency": "Department of Labor and Employment",
+            "service": "DOLE Assistance for Request Management System / SEnA",
+            "contact": {
+              "portal_url": "https://arms.dole.gov.ph/"
+            },
+            "checked_on": "2026-10-17",
+            "information_url": "https://arms.dole.gov.ph/",
+            "note": "Official portal describes filing and tracking RFAs; phone not reverified on this page.",
+            "complete": false,
+            "jurisdiction_certified": false
+          }
+        ],
+        "source_review_notices": [],
+        "response": {
+          "version": "conversational-guidance-v1.2.0",
+          "kind": "recorded_sources",
+          "heading": "Recorded source passages",
+          "paragraphs": [
+            "These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.",
+            "AI is off for this question. This response uses local analysis and recorded sources."
+          ],
+          "follow_up": null,
+          "follow_up_options": [],
+          "quotes": [
+            {
+              "component_id": "concern_002",
+              "chunk_id": "LAB_IRR_1989__rule_xiii_picketing_strikes_and_lockouts__section_3__chunk_0001",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK FIVE, CHAPTER IV, RULE XIII",
+              "quote": "SECTION 3. Notice of strike or lockout. — In cases of bargaining deadlocks, a notice of strike or lockout shall be filed with the regional branch of the Board at least thirty (30) days before the intended date thereof, a copy of said notice having been served on the other party concerned. In cases of unfair labor practices, the period of notice shall be fifteen (15) days. However, in case of unfair labor practice involving the dismissal from employment of union officers duly elected in accordance with the union constitution and by-laws which may constitute union-busting where the existence of the union is threatened, the fifteen-day cooling-off period shall not apply and the union may take action immediately after the strike vote is conducted and the results thereof submitted to the Department of Labor and Employment.",
+              "complete_provision": true
+            }
+          ],
+          "ai_generated": false
+        }
+      },
+      "assessment": {
+        "labeled": true,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_correct": true,
+        "scope_correct": true,
+        "route": "retrieve_supported_evidence",
+        "route_correct": true,
+        "domain_correct": true,
+        "retrieval": [
+          {
+            "domain": null,
+            "hit_at_1": false,
+            "hit_at_5": false,
+            "mrr_at_5": 0,
+            "known_relevant_recall_at_5": 0.0
+          }
+        ],
+        "candidate_count": 5,
+        "negative_control_correct": null,
+        "issues": [
+          "known_relevant_provision_missed"
+        ]
+      }
+    },
+    "elapsed_ms": 577.9999999977008
+  },
+  {
+    "case": {
+      "case_id": "RD31_042",
+      "family_id": "RD31_042",
+      "group": "C",
+      "topic": "false_certification",
+      "language_style": "taglish",
+      "question_text": "Sabi ng salesperson certified ang electric kettle pero ayaw nilang ipakita ang basehan ng certification claim. Ano ang general rule sa claims tungkol sa approval o certification, nang hindi muna sinasabing fake iyon?",
+      "AI_authored": true,
+      "independent_human_gold": false,
+      "development_replay": false,
+      "source_case": {
+        "expected_primary": "consumer",
+        "expected_scope": "fully_supported",
+        "expected_route": "retrieve_supported_evidence",
+        "expected_domains": [
+          "consumer"
+        ],
+        "relevant_ids": [
+          "RA_7394_1992__art_50"
+        ],
+        "concerns": [],
+        "retrieval_judgment": "unjudged"
+      },
+      "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+    },
+    "baseline": {
+      "packet": {
+        "inspection_only": true,
+        "labeled_evaluation": false,
+        "original_question_text": "Sabi ng salesperson certified ang electric kettle pero ayaw nilang ipakita ang basehan ng certification claim. Ano ang general rule sa claims tungkol sa approval o certification, nang hindi muna sinasabing fake iyon?",
+        "normalization": null,
+        "clarification_follow_up": null,
+        "total_query_ms": 363.7632999998459,
+        "result": {
+          "schema_version": "1.0",
+          "verifier_version": "item12-verifier-v1.0.63",
+          "question_text": "Sabi ng salesperson certified ang electric kettle pero ayaw nilang ipakita ang basehan ng certification claim. Ano ang general rule sa claims tungkol sa approval o certification, nang hindi muna sinasabing fake iyon?",
+          "question_sha256": "46b3b17dbcb210e59b412e8f0273b73fe88994bfb58ed6babe8bfb6c83c82dea",
+          "mode": "current_guidance",
+          "as_of": "2026-10-31",
+          "classifier_version": "item10-classifier-v1.5.69",
+          "index_version": "item11-retrieval-v1.3.56",
+          "policy_sha256": "03d7ea8a7a84ce0e0b32c22b40b68f0ba0ba44cc60ace28723571de8f233d9a6",
+          "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+          "software_fixture_mode": false,
+          "answer_generation_allowed": false,
+          "deployment_allowed": false,
+          "display_allowed": false,
+          "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.8759212835492677,
+            "scope_confidence": 0.9378330752863915
+          },
+          "excluded_components": [],
+          "referral_ids": [],
+          "components": [
+            {
+              "component_id": "concern_001",
+              "query": "sabi ng salesperson certified ang electric kettle pero ayaw nilang ipakita ang basehan ng certification claim. ano ang general rule sa claims tungkol sa approval o certification, nang hindi muna sinasabing fake iyon",
+              "allowed_domain": "consumer",
+              "retrieval_status": "candidates_found",
+              "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+              "candidates": [
+                {
+                  "chunk_id": "RA_7394_1992__art_129__chunk_0001",
+                  "provision_id": "RA_7394_1992__art_129",
+                  "document_id": "RA_7394_1992",
+                  "citation_display": "Republic Act No. 7394, ART. 129",
+                  "heading": "Certification of Accreditation",
+                  "display_text": "ART. 129. Certification of Accreditation. - Upon compliance with the requirements for accreditation, the department shall issue the corresponding certificate of accreditation. A separate certificate shall be required for each branch of an enterprise located in areas outside of the main office. However, with respect to repair and service centers of factory authorized representatives or franchised dealers, such centers may display a certified true copy of the certificate of accreditation of the parent company.",
+                  "normalized_char_start": 0,
+                  "normalized_char_end": 513,
+                  "source_locator": {
+                    "pdf_page_start": null,
+                    "pdf_page_end": null,
+                    "printed_page_start": null,
+                    "printed_page_end": null,
+                    "html_anchor": null,
+                    "source_region": "main legal text",
+                    "source_char_start": 153074,
+                    "source_char_end": 153589
+                  },
+                  "former_locator_labels": [],
+                  "parent_provision_id": null,
+                  "parent_text": "ART. 129. Certification of Accreditation. - Upon compliance with the requirements for accreditation, the department shall issue the corresponding certificate of accreditation. A separate certificate shall be required for each branch of an enterprise located in areas outside of the main office. However, with respect to repair and service centers of factory authorized representatives or franchised dealers, such centers may display a certified true copy of the certificate of accreditation of the parent company.",
+                  "document_title": "Consumer Act of the Philippines",
+                  "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+                  "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+                  "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+                  "domains": [
+                    "consumer"
+                  ],
+                  "supported_topics": [
+                    "consumer.repair_replace_refund"
+                  ],
+                  "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+                  "status_family": "current_with_conditions",
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+                  "conditions": [
+                    "Pair with the responsible agency's current topic-specific rule and later special law."
+                  ],
+                  "legal_relationships": [
+                    {
+                      "relationship_id": "LSR_013",
+                      "source_document_id": "DTI_DAO_02_1993",
+                      "target_document_id": "RA_7394_1992",
+                      "target_citation_if_external": "",
+                      "relationship_type": "implements",
+                      "scope": "General Consumer Act rules",
+                      "effective_or_issue_date": "1993",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                      "confidence": "high",
+                      "note": "Use subject to later topic-specific rules."
+                    },
+                    {
+                      "relationship_id": "LSR_015",
+                      "source_document_id": "DTI_DAO_20_02",
+                      "target_document_id": "RA_7394_1992",
+                      "target_citation_if_external": "",
+                      "relationship_type": "governs_complaint_procedure",
+                      "scope": "DTI consumer mediation and adjudication",
+                      "effective_or_issue_date": "2020",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                      "confidence": "high",
+                      "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                    },
+                    {
+                      "relationship_id": "LSR_018",
+                      "source_document_id": "RA_11967_2023",
+                      "target_document_id": "RA_7394_1992",
+                      "target_citation_if_external": "",
+                      "relationship_type": "operates_alongside",
+                      "scope": "Online consumer protection and DTI compliance",
+                      "effective_or_issue_date": "2023-12-05",
+                      "status_as_of": "2026-09-29",
+                      "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                      "confidence": "high",
+                      "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                    }
+                  ],
+                  "quality_flags": [
+                    "table_structure_present"
+                  ],
+                  "review_status": "machine_validated",
+                  "extraction_method": "html_structural",
+                  "score": 11.497090997954167,
+                  "bm25_score": 11.497090997954167,
+                  "semantic_similarity": null,
+                  "retrieval_candidate_only": true,
+                  "answer_generation_allowed": false,
+                  "citation_label": "Republic Act No. 7394, ART. 129"
+                }
+              ],
+              "evidence_gates": [
+                {
+                  "chunk_id": "RA_7394_1992__art_129__chunk_0001",
+                  "passed": false,
+                  "reasons": [
+                    "scoped_currentness_review_missing"
+                  ],
+                  "source_review_ids": [],
+                  "required_related_documents": [],
+                  "unavailable_related_documents": [],
+                  "status_as_of": "2026-09-29",
+                  "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+                  "currentness_reviewed": false,
+                  "recorded_excerpt_only": false
+                }
+              ],
+              "evidence_ready": false
+            }
+          ],
+          "offline_drafting_allowed": false,
+          "all_supported_components_evidence_ready": false,
+          "decision": "insufficient_evidence"
+        },
+        "privacy": {
+          "redacted": false,
+          "categories": {},
+          "guaranteed_complete": false,
+          "note": "Known identifiers are removed locally; avoid personal details. Names and indirect identifiers may still be missed.",
+          "external_ai_enabled": false
+        },
+        "safety_notice": null,
+        "explanation": {
+          "status": "withheld",
+          "reason": "local_only",
+          "llm_calls": 0,
+          "claims": []
+        },
+        "request_id": "b4be5bfeddfc4421b552accd4db938e1",
+        "schema_version": "1.0",
+        "network_requests": [],
+        "history": {
+          "saved": false
+        },
+        "referrals": [
+          {
+            "id": "REF_DTI_CARE",
+            "agency": "Department of Trade and Industry",
+            "service": "Consumer Complaints Assistance and Resolution System",
+            "contact": {
+              "portal_url": "https://consumercare.dti.gov.ph/",
+              "email": "consumercare@dti.gov.ph",
+              "phone": "(02) 7215 1165",
+              "office_address": "5th Floor, Trade and Industry Building, 361 Sen. Gil J. Puyat Ave., 1200 Makati City"
+            },
+            "checked_on": "2026-10-17",
+            "information_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/",
+            "note": "Phone is the FTEB general office number. Filing guidance on this page expressly addresses Metro Manila; regional offices may differ.",
+            "complete": true,
+            "jurisdiction_certified": false
+          }
+        ],
+        "source_review_notices": [],
+        "response": {
+          "version": "conversational-guidance-v1.2.0",
+          "kind": "recorded_sources",
+          "heading": "Recorded source passages",
+          "paragraphs": [
+            "These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.",
+            "AI is off for this question. This response uses local analysis and recorded sources."
+          ],
+          "follow_up": null,
+          "follow_up_options": [],
+          "quotes": [
+            {
+              "component_id": "concern_001",
+              "chunk_id": "RA_7394_1992__art_129__chunk_0001",
+              "citation_display": "Republic Act No. 7394, ART. 129",
+              "quote": "ART. 129. Certification of Accreditation. - Upon compliance with the requirements for accreditation, the department shall issue the corresponding certificate of accreditation. A separate certificate shall be required for each branch of an enterprise located in areas outside of the main office. However, with respect to repair and service centers of factory authorized representatives or franchised dealers, such centers may display a certified true copy of the certificate of accreditation of the parent company.",
+              "complete_provision": true
+            }
+          ],
+          "ai_generated": false
+        }
+      },
+      "assessment": {
+        "labeled": true,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_correct": true,
+        "scope_correct": true,
+        "route": "retrieve_supported_evidence",
+        "route_correct": true,
+        "domain_correct": true,
+        "retrieval": [
+          {
+            "domain": null,
+            "hit_at_1": false,
+            "hit_at_5": false,
+            "mrr_at_5": 0,
+            "known_relevant_recall_at_5": 0.0
+          }
+        ],
+        "candidate_count": 1,
+        "negative_control_correct": null,
+        "issues": [
+          "known_relevant_provision_missed"
+        ]
+      }
+    },
+    "elapsed_ms": 360.0000000005821
+  }
+]

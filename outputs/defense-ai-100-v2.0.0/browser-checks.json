@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-10-22T14:22:52.132Z",
+  "url": "http://127.0.0.1:5174/",
+  "ai_enabled": true,
+  "saving_enabled": false,
+  "runtime_signature_matches": true,
+  "console_errors_observed": 0,
+  "cases": [
+    {
+      "case_id": "PH2_079",
+      "passed": true,
+      "observed": "Government overtime referred outside selected scope; no AI legal explanation."
+    },
+    {
+      "case_id": "PH2_062",
+      "passed": true,
+      "observed": "Government allegation excluded; AI explained the defective cooker using Art. 100; citation opened its recorded source."
+    },
+    {
+      "case_id": "PH2_035",
+      "passed": true,
+      "observed": "Consumer route, Art. 81/83 candidates, generated price-display explanation with Art. 81 citation; two LLM calls, 6944 ms shown."
+    }
+  ],
+  "screenshot": "browser-handoff.png",
+  "limitations": "Three browser checks supplement the API-service tests; this is not an exhaustive UI or legal correctness audit."
+}

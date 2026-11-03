@@ -1,0 +1,22 @@
+{
+  "records_sha256": {
+    "outputs/item11-retrieval-v1.3.40": "0f1b36cf4f78b433b572a5a34f8375619e22b6522fcc9c0e1d231b1d6afc0857",
+    "outputs/item11-retrieval-v1.3.41": "0f1b36cf4f78b433b572a5a34f8375619e22b6522fcc9c0e1d231b1d6afc0857",
+    "outputs/item11-retrieval-v1.3.42": "0f1b36cf4f78b433b572a5a34f8375619e22b6522fcc9c0e1d231b1d6afc0857",
+    "outputs/item11-retrieval-v1.3.43": "0f1b36cf4f78b433b572a5a34f8375619e22b6522fcc9c0e1d231b1d6afc0857"
+  },
+  "all_canonical_records_byte_identical": true,
+  "learned_bundle_fields_preserved": {
+    "primary_model": true,
+    "scope_model": true,
+    "thresholds": true,
+    "seed": true,
+    "train_question_ids": true,
+    "train_group_ids": true,
+    "calibration_method": true
+  },
+  "bundle_file_bytes_identical": false,
+  "bundle_note": "Packaging version/configuration metadata changed; learned heads, thresholds, training membership and calibration method did not.",
+  "source_currentness_approved": false,
+  "legal_review_completed": false
+}

@@ -1,0 +1,23 @@
+...............................E...........
+======================================================================
+ERROR: setUpClass (backend.application.test_development_explanation.ConcernTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 17, in setUpClass
+    cls.verifier = load_runtime()
+                   ^^^^^^^^^^^^^^
+  File "C:\IA\backend\terminal_test.py", line 34, in load_runtime
+    verifier = EvidenceVerifier()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item12\verification.py", line 48, in __init__
+    self.retriever = LegalRetriever(ROOT / self.policy['retrieval'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item11\retrieval.py", line 35, in __init__
+    if sha(PIPELINE/name)!=h:raise ValueError('Retrieval runtime changed; rebuild the index: '+name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Retrieval runtime changed; rebuild the index: query_relevance.py
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.984s
+
+FAILED (errors=1)

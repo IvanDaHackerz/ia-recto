@@ -1,0 +1,186 @@
+[
+  {
+    "case": {
+      "id": "WEB01",
+      "q": "My private employer pays only half my earned salary and says the balance will come someday.",
+      "topic": "Labor",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Labor · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "206 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work."
+    ],
+    "text": "Question 1\nMy private employer pays only half my earned salary and says the balance will come someday.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\nSECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nLabor · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n206 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n2\nOmnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n3\nPD 442, as amended and renumbered, ART. 105\n4\nOmnibus Rules Implementing the Labor Code, SECTION 20 — BOOK THREE, CHAPTER IV, RULE IX\n5\nOmnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, CHAPTER IV, RULE VIII"
+  },
+  {
+    "case": {
+      "id": "WEB02",
+      "q": "The shop refuses warranty repair for a new blender whose motor failed after two days.",
+      "topic": "Consumer",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Consumer · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "159 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "Any other implied warranty shall endure not less than sixty (60) days nor more than one (1) year following the sale of new consumer products."
+    ],
+    "text": "Question 1\nThe shop refuses warranty repair for a new blender whose motor failed after two days.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\nAny other implied warranty shall endure not less than sixty (60) days nor more than one (1) year following the sale of new consumer products.\n\nRecorded excerpt. Open the reference for the complete provision and its exceptions. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nConsumer · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n159 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n2\nRepublic Act No. 7394, ART. 69\n3\nRepublic Act No. 7394, ART. 67\n4\nRepublic Act No. 7394, ART. 100\n5\nRepublic Act No. 7394, ART. 103"
+  },
+  {
+    "case": {
+      "id": "WEB03",
+      "q": "My private company keeps delaying salary. Separately, a retailer delivered a washing machine that leaks immediately.",
+      "topic": "Mixed topics",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Mixed · 88.7% label confidence",
+      "Topic coverage",
+      "Within project topics · 99.3% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "165 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.",
+      "ART. 100. Liability for Product and Service Imperfection. - The suppliers of durable or nondurable consumer products are jointly liable for imperfections in quality that render the products unfit or inadequate for consumption for which they are designed or decrease their value, and for those resulting from inconsistency with the information provided on the container, packaging, labels or publicity messages/advertisement, with due regard to the variations resulting from their nature, the consumer being able to demand replacement to the imperfect parts."
+    ],
+    "text": "Question 1\nMy private company keeps delaying salary. Separately, a retailer delivered a washing machine that leaks immediately.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\nSECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.\n\nComplete stored provision. Current applicability remains under review.\n\nRepublic Act No. 7394, ART. 100\nART. 100. Liability for Product and Service Imperfection. - The suppliers of durable or nondurable consumer products are jointly liable for imperfections in quality that render the products unfit or inadequate for consumption for which they are designed or decrease their value, and for those resulting from inconsistency with the information provided on the container, packaging, labels or publicity messages/advertisement, with due regard to the variations resulting from their nature, the consumer being able to demand replacement to the imperfect parts.\n\nRecorded excerpt. Open the reference for the complete provision and its exceptions. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nMixed · 88.7% label confidence\nTopic coverage\nWithin project topics · 99.3% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n165 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n2\nOmnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n3\nOmnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII\n4\nPD 442, as amended and renumbered, ART. 105\n5\nOmnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, CHAPTER IV, RULE VIII\n6\nRepublic Act No. 7394, ART. 100\n7\nRepublic Act No. 7394, ART. 97\n8\nRepublic Act No. 7394, ART. 99\n9\nRepublic Act No. 7394, ART. 102"
+  },
+  {
+    "case": {
+      "id": "WEB04",
+      "q": "A retailer refuses the warranty on my broken phone, and my mobile provider bills me for a cancelled plan.",
+      "topic": "Mixed topics",
+      "coverage": "Partly within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Mixed · 88.7% label confidence",
+      "Topic coverage",
+      "Partly within project topics · 88.4% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "154 ms"
+    ],
+    "headings": [
+      "Recorded source passages",
+      "Concerns outside coverage"
+    ],
+    "quotes": [
+      "state what the warrantor will do in the event of a defect, malfunction or failure to conform to the written warranty and at whose expense;"
+    ],
+    "text": "Question 1\nA retailer refuses the warranty on my broken phone, and my mobile provider bills me for a cancelled plan.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\nstate what the warrantor will do in the event of a defect, malfunction or failure to conform to the written warranty and at whose expense;\n\nRecorded excerpt. Open the reference for the complete provision and its exceptions. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nConcerns outside coverage\nmy mobile provider bills me for a cancelled plan\n\nThese parts were excluded from retrieval.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nMixed · 88.7% label confidence\nTopic coverage\nPartly within project topics · 88.4% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n154 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n2\nRepublic Act No. 7394, ART. 69\n3\nRepublic Act No. 7394, ART. 97\n4\nRepublic Act No. 7394, ART. 100\n5\nRepublic Act No. 7394, ART. 67"
+  },
+  {
+    "case": {
+      "id": "WEB05",
+      "q": "The bank charged an unauthorized monthly fee on my savings account.",
+      "topic": "Out of scope",
+      "coverage": "Outside project topics"
+    },
+    "fields": [
+      "Topic",
+      "Out of scope · 88.0% label confidence",
+      "Topic coverage",
+      "Outside project topics · 88.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "135 ms"
+    ],
+    "headings": [
+      "Where this concern fits"
+    ],
+    "quotes": [],
+    "text": "Question 1\nThe bank charged an unauthorized monthly fee on my savings account.\nWhere this concern fits\n\nThis concern falls outside this project’s selected private-sector labor and ordinary consumer topics. The classifier is identifying a scope limit; it is not deciding whether you have legal rights or a valid complaint.\n\nAny assistance contacts listed below are recorded directory entries. Check with the agency about whether it handles your concern.\n\nLocal response. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nOut of scope · 88.0% label confidence\nTopic coverage\nOutside project topics · 88.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n135 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics."
+  },
+  {
+    "case": {
+      "id": "WEB06",
+      "q": "They will not give it to me. Please help.",
+      "flow": "clarify"
+    },
+    "fields": [
+      "Tentative topic",
+      "Out of scope · 31.3% label confidence",
+      "Topic coverage",
+      "Outside project topics · 31.3% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "127 ms"
+    ],
+    "headings": [
+      "Let’s work out the concern",
+      "A detail that would help"
+    ],
+    "quotes": [],
+    "text": "Question 1\nThey will not give it to me. Please help.\nLet’s work out the concern\n\nI need one more detail to choose the right sources. This project covers selected Philippine private-sector employment and ordinary consumer-purchase concerns.\n\nLocal response. No live AI explanation was used.\n\nA detail that would help\n\nWhat happened, and what would you like help with? If there are separate concerns, describe each one.\n\nAdd this detail to my question\nHow this question was checked\nTentative topic\nOut of scope · 31.3% label confidence\nTopic coverage\nOutside project topics · 31.3% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n127 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics."
+  }
+]

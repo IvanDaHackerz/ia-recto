@@ -1,0 +1,11 @@
+{
+  "records_byte_identical_to_previous_stack": true,
+  "frozen_cases_unchanged": true,
+  "learned_state": {
+    "atomic_weights": true,
+    "feature_vocabulary": true,
+    "calibration": true,
+    "thresholds": true,
+    "training_membership": true
+  }
+}

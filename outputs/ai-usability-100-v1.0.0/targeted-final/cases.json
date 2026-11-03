@@ -1,0 +1,631 @@
+[
+  {
+    "case_id": "AI100_021",
+    "question_text": "Our private grocery stayed open on a regular holiday and payroll paid only the ordinary daily amount. What holiday-pay and premium rules are recorded?",
+    "family_id": "AI100_021",
+    "topic_id": "labor.holiday_premium_pay",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Our private grocery stayed open on a regular holiday and payroll paid only the ordinary daily amount. What holiday-pay and premium rules are recorded?",
+      "topic_ids": [
+        "labor.holiday_premium_pay"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_024",
+    "question_text": "The private hotel payroll treats every holiday exactly the same. What source information distinguishes regular-holiday pay from other holiday situations?",
+    "family_id": "AI100_024",
+    "topic_id": "labor.holiday_premium_pay",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "The private hotel payroll treats every holiday exactly the same. What source information distinguishes regular-holiday pay from other holiday situations?",
+      "topic_ids": [
+        "labor.holiday_premium_pay"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_034",
+    "question_text": "The private factory contract says project-based but never states when the project will finish. What employment-contract and status information can I inspect?",
+    "family_id": "AI100_034",
+    "topic_id": "labor.employment_contracts",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "The private factory contract says project-based but never states when the project will finish. What employment-contract and status information can I inspect?",
+      "topic_ids": [
+        "labor.employment_contracts"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_035",
+    "question_text": "Private retail employee ako. Paulit-ulit ang short employment contracts for the same daily duties. Explain the general status rules without deciding my case.",
+    "family_id": "AI100_035",
+    "topic_id": "labor.employment_contracts",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Private retail employee ako. Paulit-ulit ang short employment contracts for the same daily duties. Explain the general status rules without deciding my case.",
+      "topic_ids": [
+        "labor.employment_contracts"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_037",
+    "question_text": "Private factory employee ako. May accusation against me pero tinanggal agad bago ako nakapagpaliwanag. What recorded due-process rules can you describe?",
+    "family_id": "AI100_037",
+    "topic_id": "labor.termination_due_process",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Private factory employee ako. May accusation against me pero tinanggal agad bago ako nakapagpaliwanag. What recorded due-process rules can you describe?",
+      "topic_ids": [
+        "labor.termination_due_process"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_038",
+    "question_text": "The private company gave me a dismissal letter but never let me respond to the charges. Can you explain the general notice and opportunity-to-answer requirements?",
+    "family_id": "AI100_038",
+    "topic_id": "labor.termination_due_process",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "The private company gave me a dismissal letter but never let me respond to the charges. Can you explain the general notice and opportunity-to-answer requirements?",
+      "topic_ids": [
+        "labor.termination_due_process"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_040",
+    "question_text": "Private hotel worker ako. General information lang tungkol sa employer dismissal ang kailangan ko, including notice and procedure, hindi prediction ng case result.",
+    "family_id": "AI100_040",
+    "topic_id": "labor.termination_due_process",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Private hotel worker ako. General information lang tungkol sa employer dismissal ang kailangan ko, including notice and procedure, hindi prediction ng case result.",
+      "topic_ids": [
+        "labor.termination_due_process"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_047",
+    "question_text": "Private factory worker ako. Paano generally nagsisimula ang conciliation request sa SEnA for unpaid wages?",
+    "family_id": "AI100_047",
+    "topic_id": "labor.complaint_referral",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Private factory worker ako. Paano generally nagsisimula ang conciliation request sa SEnA for unpaid wages?",
+      "topic_ids": [
+        "labor.complaint_referral"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_048",
+    "question_text": "I have a private-employment wage dispute and want to know what happens at a SEnA conciliation meeting. Explain the recorded process.",
+    "family_id": "AI100_048",
+    "topic_id": "labor.complaint_referral",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "I have a private-employment wage dispute and want to know what happens at a SEnA conciliation meeting. Explain the recorded process.",
+      "topic_ids": [
+        "labor.complaint_referral"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_053",
+    "question_text": "The retailer sold me a new rechargeable lamp, but its charging socket is cracked inside the sealed box. What consumer defect rules can you explain?",
+    "family_id": "AI100_053",
+    "topic_id": "consumer.defective_products",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "The retailer sold me a new rechargeable lamp, but its charging socket is cracked inside the sealed box. What consumer defect rules can you explain?",
+      "topic_ids": [
+        "consumer.defective_products"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_054",
+    "question_text": "Bumili ako ng bagong rice cooker sa appliance shop. Sira pala yung switch at hindi gumagana. Anong consumer information ang relevant?",
+    "family_id": "AI100_054",
+    "topic_id": "consumer.defective_products",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Bumili ako ng bagong rice cooker sa appliance shop. Sira pala yung switch at hindi gumagana. Anong consumer information ang relevant?",
+      "topic_ids": [
+        "consumer.defective_products"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_055",
+    "question_text": "My newly purchased electric fan from a retailer stops working immediately. Can you explain what the stored product-defect provisions actually cover?",
+    "family_id": "AI100_055",
+    "topic_id": "consumer.defective_products",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "My newly purchased electric fan from a retailer stops working immediately. Can you explain what the stored product-defect provisions actually cover?",
+      "topic_ids": [
+        "consumer.defective_products"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_056",
+    "question_text": "Yung bagong blender galing sa retailer has a broken motor. Hindi ito insurance or repair-service issue; defective product ang concern ko. What rules can I inspect?",
+    "family_id": "AI100_056",
+    "topic_id": "consumer.defective_products",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Yung bagong blender galing sa retailer has a broken motor. Hindi ito insurance or repair-service issue; defective product ang concern ko. What rules can I inspect?",
+      "topic_ids": [
+        "consumer.defective_products"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_058",
+    "question_text": "May written warranty yung binili kong fan pero ayaw tanggapin ng shop ang warranty claim. What do the sources say about enforcing a warranty?",
+    "family_id": "AI100_058",
+    "topic_id": "consumer.warranties",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "May written warranty yung binili kong fan pero ayaw tanggapin ng shop ang warranty claim. What do the sources say about enforcing a warranty?",
+      "topic_ids": [
+        "consumer.warranties"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_062",
+    "question_text": "Sira yung bagong electric kettle from an appliance retailer at ayaw nilang palitan o i-refund. Explain the available consumer remedy provisions and their conditions.",
+    "family_id": "AI100_062",
+    "topic_id": "consumer.repair_replace_refund",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Sira yung bagong electric kettle from an appliance retailer at ayaw nilang palitan o i-refund. Explain the available consumer remedy provisions and their conditions.",
+      "topic_ids": [
+        "consumer.repair_replace_refund"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_064",
+    "question_text": "The retailer took my defective toaster back but refuses to discuss replacement or returning the purchase price. What general remedy information is supported by your records?",
+    "family_id": "AI100_064",
+    "topic_id": "consumer.repair_replace_refund",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "The retailer took my defective toaster back but refuses to discuss replacement or returning the purchase price. What general remedy information is supported by your records?",
+      "topic_ids": [
+        "consumer.repair_replace_refund"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_079",
+    "question_text": "A retailer sold a toy whose casing becomes dangerously hot during ordinary use. What general product-safety and defect information is supported by the sources?",
+    "family_id": "AI100_079",
+    "topic_id": "consumer.product_safety",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "A retailer sold a toy whose casing becomes dangerously hot during ordinary use. What general product-safety and defect information is supported by the sources?",
+      "topic_ids": [
+        "consumer.product_safety"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_085",
+    "question_text": "The online business seller delivered the wrong model of household fan and refuses replacement. What online consumer remedies are recorded?",
+    "family_id": "AI100_085",
+    "topic_id": "consumer.online_transactions",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "The online business seller delivered the wrong model of household fan and refuses replacement. What online consumer remedies are recorded?",
+      "topic_ids": [
+        "consumer.online_transactions"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_086",
+    "question_text": "Paid na yung desk ko sa online retailer pero paulit-ulit na delayed ang delivery at ayaw i-process ang refund. Explain the available online transaction rules.",
+    "family_id": "AI100_086",
+    "topic_id": "consumer.online_transactions",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Paid na yung desk ko sa online retailer pero paulit-ulit na delayed ang delivery at ayaw i-process ang refund. Explain the available online transaction rules.",
+      "topic_ids": [
+        "consumer.online_transactions"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_088",
+    "question_text": "The online marketplace tells me to complete its internal complaint process before contacting a government agency. What recorded online-consumer redress rules can you explain?",
+    "family_id": "AI100_088",
+    "topic_id": "consumer.online_transactions",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "The online marketplace tells me to complete its internal complaint process before contacting a government agency. What recorded online-consumer redress rules can you explain?",
+      "topic_ids": [
+        "consumer.online_transactions"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_089",
+    "question_text": "A retailer ignores my defective-appliance complaint even though I kept the receipt. What general information is available about beginning a DTI consumer complaint?",
+    "family_id": "AI100_089",
+    "topic_id": "consumer.complaint_referral",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "A retailer ignores my defective-appliance complaint even though I kept the receipt. What general information is available about beginning a DTI consumer complaint?",
+      "topic_ids": [
+        "consumer.complaint_referral"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_092",
+    "question_text": "Private factory job ko walang overtime pay. Yung online retailer ko naman wrong appliance model ang pinadala. Please handle the two concerns separately.",
+    "family_id": "AI100_092",
+    "topic_id": "mixed",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Private factory job ko walang overtime pay. Yung online retailer ko naman wrong appliance model ang pinadala. Please handle the two concerns separately.",
+      "topic_ids": [
+        "mixed"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_096",
+    "question_text": "Private company employee ako with unexplained wage deductions. May defective blender din akong binili sa retailer. What source information covers each concern?",
+    "family_id": "AI100_096",
+    "topic_id": "mixed",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "Private company employee ako with unexplained wage deductions. May defective blender din akong binili sa retailer. What source information covers each concern?",
+      "topic_ids": [
+        "mixed"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_098",
+    "question_text": "I want general SEnA process information for unpaid wages at my private job. Separately, an online seller refuses to replace a faulty kettle. What is supported for each?",
+    "family_id": "AI100_098",
+    "topic_id": "mixed",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "I want general SEnA process information for unpaid wages at my private job. Separately, an online seller refuses to replace a faulty kettle. What is supported for each?",
+      "topic_ids": [
+        "mixed"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_099",
+    "question_text": "The private company labels my ordinary office job project-based. Separately, a store advertisement misstates the features of a speaker. Explain the employment and consumer information separately.",
+    "family_id": "AI100_099",
+    "topic_id": "mixed",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "The private company labels my ordinary office job project-based. Separately, a store advertisement misstates the features of a speaker. Explain the employment and consumer information separately.",
+      "topic_ids": [
+        "mixed"
+      ]
+    }
+  },
+  {
+    "case_id": "AI100_100",
+    "question_text": "My private employer has delayed wages. Separately, a hardware retailer sold an extension cord with exposed live wiring. Please explain the recorded rules for each concern.",
+    "family_id": "AI100_100",
+    "topic_id": "mixed",
+    "known_source_gap": false,
+    "origin": "AI-authored fictional development question",
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "expected_excluded": false,
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged",
+      "question_text": "My private employer has delayed wages. Separately, a hardware retailer sold an extension cord with exposed live wiring. Please explain the recorded rules for each concern.",
+      "topic_ids": [
+        "mixed"
+      ]
+    }
+  }
+]

@@ -1,0 +1,1527 @@
+{
+  "method": "Last observation per frozen question: final-replay, then targeted-final, then project-definition-final; never select the best response.",
+  "role": "Posthoc cached/live development regression checkpoint; not a fresh full-100 provider run or independent acceptance test.",
+  "unique_questions": 100,
+  "missing_observations": 0,
+  "last_live_status_counts": {
+    "generated": 73,
+    "withheld": 27
+  },
+  "last_live_withheld_reasons": {
+    "source_context_unavailable": 11,
+    "claim_support_failed": 5,
+    "related_authority_missing": 5,
+    "citation_validation_failed": 5,
+    "no_supported_explanation": 1
+  },
+  "current_local_generated_pass": 73,
+  "current_local_generated_fail": 0,
+  "label_and_route_matches": {
+    "primary_correct": 100,
+    "scope_correct": 100,
+    "route_correct": 100,
+    "domain_correct": 100
+  },
+  "posthoc_source_gap_case_ids": [
+    "AI100_006",
+    "AI100_007",
+    "AI100_008",
+    "AI100_009",
+    "AI100_010",
+    "AI100_026",
+    "AI100_027",
+    "AI100_028",
+    "AI100_029",
+    "AI100_030",
+    "AI100_041",
+    "AI100_042",
+    "AI100_043",
+    "AI100_044",
+    "AI100_045",
+    "AI100_094"
+  ],
+  "AI_reading_flags_are_not_exhaustive_or_independent": true,
+  "new_provider_calls": 0,
+  "legal_accuracy": null,
+  "cases": [
+    {
+      "case_id": "AI100_001",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_002",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_003",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_004",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_005",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_006",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_007",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_008",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_009",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_010",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_011",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_012",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_013",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_014",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_015",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_016",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_017",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_018",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_019",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_020",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_021",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_022",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_023",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_024",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "claim_support_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_025",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_026",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "related_authority_missing",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_027",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "related_authority_missing",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_028",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "related_authority_missing",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_029",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "related_authority_missing",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_030",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "related_authority_missing",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_031",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_032",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_033",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_034",
+      "last_observation_phase": "project-definition-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "citation_validation_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_035",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "no_supported_explanation",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_036",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_037",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "citation_validation_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_038",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true,
+      "AI_engineering_reading_flag": "Dismissal notice summary needs closer checking for omitted procedural steps."
+    },
+    {
+      "case_id": "AI100_039",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_040",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "citation_validation_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_041",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_042",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_043",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_044",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_045",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_046",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_047",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_048",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true,
+      "AI_engineering_reading_flag": "Venue, filing, and mediation roles need closer separation."
+    },
+    {
+      "case_id": "AI100_049",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_050",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_051",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_052",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_053",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_054",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_055",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_056",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true,
+      "AI_engineering_reading_flag": "Remedy timing is incompletely qualified; a second safety paragraph drifts from the quality issue."
+    },
+    {
+      "case_id": "AI100_057",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_058",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "claim_support_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_059",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_060",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_061",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_062",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "citation_validation_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_063",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_064",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "claim_support_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_065",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_066",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_067",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_068",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_069",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_070",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_071",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_072",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_073",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_074",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_075",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_076",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_077",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_078",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_079",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true,
+      "AI_engineering_reading_flag": "Two components produce repetitive safety discussion; the defense qualification needs closer checking."
+    },
+    {
+      "case_id": "AI100_080",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_081",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_082",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_083",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_084",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_085",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true,
+      "AI_engineering_reading_flag": "Opening remedy statement can imply availability before the later correction-period condition."
+    },
+    {
+      "case_id": "AI100_086",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "claim_support_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_087",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_088",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_089",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true,
+      "AI_engineering_reading_flag": "Complaint logging and procedure detail need source-level scrutiny beyond citation identity."
+    },
+    {
+      "case_id": "AI100_090",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_091",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_092",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_093",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_094",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": true,
+      "last_live_status": "withheld",
+      "last_live_reason": "source_context_unavailable",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_095",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_096",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_097",
+      "last_observation_phase": "final-replay",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_098",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "citation_validation_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_099",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "withheld",
+      "last_live_reason": "claim_support_failed",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false
+    },
+    {
+      "case_id": "AI100_100",
+      "last_observation_phase": "targeted-final",
+      "source_gap_audit": false,
+      "last_live_status": "generated",
+      "last_live_reason": "citations_and_automated_support_checked",
+      "label_and_route_matches": {
+        "primary_correct": true,
+        "scope_correct": true,
+        "route_correct": true,
+        "domain_correct": true
+      },
+      "independent_legal_review": false,
+      "current_local_checks_pass": true
+    }
+  ]
+}

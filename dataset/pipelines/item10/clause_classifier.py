@@ -16,8 +16,8 @@ PREFIX=r'^(?:allowed po ba ito|i have two concerns|my question involves both iss
 FRONT=r'^(?:what are my rights if|what should i do if|saan po ako puwedeng lumapit if|saan po ako dapat lumapit if|can this service advise me if)\s+'
 SUFFIX=r'\s*(?:can you help with both|what rules apply|alin dito ang masasagot ninyo)\?\s*$'
 LEGAL_CUES=re.compile(r'\b(pay\w*|paid|deduct\w*|wage\w*|salar\w*|sahod|sweldo|employ\w*|trabaho|work\w*|private|government|municipal|holiday|rest|overtime|ot|13th|thirteenth|probation\w*|contract|kontrata|dismiss\w*|fir\w*|coe|seafar\w*|ofw|kasambahay|union|pension|retire\w*|osha?|safety|consumer|shop|store|retail\w*|seller|appliance|product|item|fan|kettle|blender|rice|vacuum|keyboard|chair|repair|refund|warr?ant\w*|warant\w*|defect\w*|gumagana|sira|binili|bili|order|deliver\w*|bill\w*|return\w*|price|singil|sukli|change|charge\w*|chrge|cashier|grocer\w*|online|laundry|bank\w*|credit|interest|insur\w*|claim|investment|fund|privacy|data|id|doctor|surgeon|medical|patient|treatment|hospital|condo\w*|developer|airline|flight|water|electric\w*|mobile|phone|internet|telecom|scam|fraud|criminal|police|case|tribunal|nlrc|sena|dole|dti|minimum|standards|ventilation|chemical)\b')
-SEGMENT=re.compile(r';\s*(?:and\s+)?|[\n]+|[.!?]+\s*|\s*\+\s*|\band\s+also\s+|\b(?:separately|tapos|kasabay nito|tsaka|saka)\b\s*[,.:]?\s*|\s+also\s+(?=(?:i|my|a|an|the|may|yung)\b)|,?\s+\b(?:and|while)\s+(?=(?:i|my|a|an|the|we|our|what\w*)\b)|\bat\s+(?=(?:gusto|may|sa|yung|ang|kailangan)\b)',re.I)
-EMPLOYMENT_CUES=re.compile(r'\b(pay|wage\w*|salary|salaries|sahod|sweldo|employ\w*|job|overtime|rest.day|thirteenth|13th|probation\w*|dismiss\w*|fired|coe)\b')
+SEGMENT=re.compile(r';\s*(?:and\s+)?|[\n]+|[.!?]+\s*|\s*\+\s*|\band\s+also\s+|\bseparately\b\s*[,.:]?\s*(?=(?:i|my|a|an|the|we|our)\b)|\b(?:tapos(?!\s+na\b)|kasabay nito|tsaka(?!\s+lang\b)|saka(?!\s+lang\b))\b\s*[,.:]?\s*|\s+also\s+(?=(?:i|my|a|an|the|may|yung)\b)|,?\s+\b(?:and|while)\s+(?=(?:i|my|a|an|the|we|our|what\w*|help\s+with|advice\s+about)\b)|\bat\s+(?=(?:gusto|may|sa|yung|ang|kailangan)\b)',re.I)
+EMPLOYMENT_CUES=re.compile(r'\b(pay|wage\w*|salary|salaries|sahod|sweldo|employ\w*|job|overtime|rest.day|thirteenth|13th|probation\w*|dismiss\w*|fired|tinanggal|due.process|coe|appeal\w*|administrative)\b')
 CONTEXT=re.compile(r'\b(private|pribado|government|govt|municipal|kasambahay|household|overseas|ofw|seaf[a-z]*r)\b')
 NON_EMPLOYMENT=re.compile(r'\b(bank|credit|insur\w*|store|shop|retail\w*|seller|online|appliance|product|refund|grocery|laundry|payment|repair|service|cashier|item|consumer)\b')
 
@@ -25,11 +25,10 @@ def clean(text):
     from typing_repair import matching_text
     t=matching_text(normalize(text)).lower();t=re.sub(FRONT,'',t);t=re.sub(PREFIX,'',t);return re.sub(SUFFIX,'',t).strip(' .?;')
 
-ISSUE_INTENT=re.compile(r'\b(?:complaint|reklamo|problema|dispute)\b|\b(?:my|another|separate|second|a|have|may)\s+(?:concern|problem|issue)\b',re.I)
-BACKGROUND_INTRO=re.compile(r"^(?:i\s+(?:am|work|am employed)\b|i'm\b|(?:seaf[a-z]*r|ofw|kasambahay)\s+ako\b|(?:private|government|municipal)\b.*\b(?:employee|employe|worker)\b)",re.I)
+ISSUE_INTENT=re.compile(r'\b(?:complaint|reklamo|problema|disput(?:e[ds]?|ing))\b|\b(?:my|another|separate|second|a|have|may)\s+(?:concern|problem|issue)\b',re.I)
 FOLLOW_UP_REFERENCE=re.compile(r'^(?:how\s+(?:do|can|should)\s+(?:i|we)\s+(?:raise|dispute|challenge|resolve|handle|report)\s+(?:(?:each|both|these|those)\s+(?:disputes?|issues?|concerns?)|it|this|that|(?:this|that|the)\s+(?:dispute|issue|denial|decision))|can\s+you\s+explain\s+(?:the\s+)?(?:exclusion|denial|decision)(?:\s+and\s+how\s+to\s+(?:dispute|challenge|appeal)\s+it)?)(?:\s+please)?$',re.I)
-JOINED_COMPLAINT=re.compile(r"\s+(?:at|and|pero|but)\s+(?=(?:ayaw|hindi|di|wala(?:ng)?|refuse\w*|posted|published|leaked|exposed|pinost|inilabas|won't|will\s+not|doesn't|does\s+not|didn't|did\s+not|cannot|can't)\b)",re.I)
-PAY_BACKGROUND=re.compile(r'^(?:i|we)\s+(?:(?:was|were|am|are)\s+)?(?:about\s+to|going\s+to|on\s+my\s+way\s+to)\s+(?:get|collect|receive)\s+(?:my|our)\s+(?:pay|salary|wages)\s*$',re.I)
+JOINED_COMPLAINT=re.compile(r"\s+(?:at|and|pero|but)\s+(?:(?:then|later|subsequently)\s+)?(?=(?:ayaw|hindi|di|wala(?:ng)?|refuse\w*|posted|published|leaked|exposed|pinost|inilabas|won't|will\s+not|doesn't|does\s+not|didn't|did\s+not|cannot|can't)\b)",re.I)
+PAY_BACKGROUND=re.compile(r'^(?:i|we)\s+(?:(?:was|were|am|are)\s+)?(?:about\s+to|going\s+to|heading\s+to|on\s+(?:my|our)\s+way\s+to)\s+(?:get|collect|receive)\s+(?:my|our)\s+(?:pay|salary|wages)\s*$',re.I)
 TRAVEL_BACKGROUND=re.compile(r'^(?:i|we)\s+(?:(?:was|were|am|are)\s+)?(?:walking\s+to|on\s+(?:my|our)\s+way\s+to)\s+(?:work|the\s+(?:office|store|shop))$',re.I)
 
 
@@ -39,6 +38,77 @@ def same_topic_rule_follow_up(previous, fragment):
     Preserve both sentences verbatim. A new topic, actor, employment category,
     or asserted fact cannot be absorbed by this question-only template.
     """
+    if re.match(r'^(?:hiwalay|bukod|ibang\s+(?:issue|concern)|separately|another\b|an?\s+(?:unrelated|separate)\b)',fragment):return False
+    from scope_constraints import constraint
+    previous_scope,follow_scope=constraint(previous),constraint(fragment)
+    if follow_scope and follow_scope[0]=='excluded' and (not previous_scope or previous_scope[1]!=follow_scope[1]):return False
+    # Lunch descriptions may acquire their explicit legal topic only in the
+    # next sentence. Keep that question with the workplace scenario without
+    # absorbing a separately asserted wage, retail or excluded concern.
+    if (re.search(r'\b(?:private|pribado|employer|employee|workplace|factory|plant)\b',previous)
+            and re.search(r'\b(?:lunch|meal[ -](?:period|break)|regular.meals)\b',previous)
+            and re.match(r'^(?:what|which|how|can\s+you|please\s+explain)\b',fragment)
+            and re.search(r'\b(?:meal[ -](?:period|break)|lunch)\b',fragment)
+            and not re.search(r'\b(?:another|separate|also|my|our|government|overseas|seafar\w*)\b',fragment)
+            and (follow_scope is None or follow_scope[0]=='labor')):return True
+    if re.fullmatch(r'who\s+can\s+help\s+(?:me|us)\s+(?:figure\s+out\s+)?where\s+to\s+raise\s+(?:the|this|that)\s+complaint',fragment):return True
+    from scope_constraints import RETAIL
+    if (previous_scope is None and RETAIL.search(previous) and follow_scope and follow_scope[0]=='consumer'
+            and re.match(r'^(?:where|saan)\b',fragment)
+            and re.search(r'\b(?:report|mag-report)\b',fragment)
+            and re.search(r'\b(?:product|item)\b',fragment)
+            and not re.search(r'\b(?:another|separate|also|my|our)\b',fragment)):return True
+    if (previous_scope and follow_scope==previous_scope and previous_scope[0]=='excluded'
+            and re.match(r'^(?:what|which|how|can\s+you)\b',fragment)
+            and not re.search(r'\b(?:separate|another|also|my|our)\b',fragment)):return True
+    if (previous_scope and follow_scope==previous_scope and previous_scope[0]=='excluded'
+            and re.match(r'^(?:my|our|the|this|that)\s+(?:dispute|complaint|question|concern)\s+(?:is|relates|concerns)\b',fragment)
+            and not re.search(r'\b(?:separate|another|also|second)\b',fragment)):return True
+    # A request for the rule or its limits is anaphoric when it introduces no
+    # new actor or topic. A named new issue remains an independent component.
+    if re.fullmatch(r'(?:please\s+)?(?:what|which|can\s+you\s+show|explain)\s+(?:the\s+)?(?:(?:applicable|recorded|general|basic|procedural|source|legal)\s+){0,3}(?:rules?|framework|safeguards|provisions?)(?:\s+(?:and\s+)?(?:limits|limitations|exceptions|requirements|conditions))?(?:\s+(?:can\s+be\s+described\s+generally|should\s+i\s+inspect|are\s+(?:relevant|recorded)|applies?\s+generally|without\s+deciding\s+whether\s+every\s+employee\s+is\s+covered))?',fragment):return True
+    # These requests point back to a described concern. A generic word such as
+    # 'complaint' must not manufacture a new Consumer concern on its own.
+    if re.fullmatch(r'(?:where\s+(?:does|would)\s+(?:this|that|the)\s+(?:dispute|complaint|concern|issue)\s+fit|can\s+you\s+(?:handle|help\s+with|explain|assess)\s+(?:this|that|the)\s+(?:dispute|complaint|concern|issue))',fragment):
+        return True
+    if re.fullmatch(r'which\s+parts\s+can\s+this\s+(?:project|system|service)\s+handle',fragment):
+        return True
+    if re.fullmatch(r'(?:what|which)\s+(?:(?:general|basic|consumer|service|pay)\s+){0,3}(?:rules|rights|protections|options)\s+(?:apply(?:\s+(?:here|to\s+(?:this|that)))?|cover\s+(?:it|this|that|the\s+staff\s+who\s+worked))|what\s+(?:kind|type)\s+of\s+(?:sales\s+)?practice\s+is\s+this|which\s+scope\s+does\s+that\s+fall\s+under',fragment):
+        return True
+    if (previous_scope and previous_scope[0]=='consumer'
+            and re.fullmatch(r'(?:what|which|ano|anong)\s+(?:ang\s+)?(?:(?:general|recorded|stored|available|consumer|source|basic)\s+){0,5}(?:information|rules?|provisions?)\s+(?:(?:is|are|ang)\s+)?(?:relevant|available|supported)',fragment)):
+        return True
+    from scope_constraints import employment_issue
+    if (employment_issue(previous) and re.match(r'^(?:ano|anong|what|which|can\s+you|could\s+you)\b',fragment)
+            and re.search(r'\b(?:sena|conciliation|labor.complaint|referral.process)\b',fragment)
+            and not re.search(r'\b(?:another|separate|also|government|overseas|seafar\w*)\b',fragment)):return True
+    if employment_issue(previous) and re.fullmatch(r'is\s+(?:the|that|this)\s+extra\s+(?:time|work)\s+paid\s+(?:differently|extra)',fragment):return True
+    if employment_issue(previous) and re.fullmatch(r'(?:do|does|should|would)\s+(?:those|these|that|this|the)\s+(?:minutes|hours|time|briefing|waiting\s+time)\s+(?:count|qualify)(?:\s+as)?\s+(?:paid\s+)?(?:working\s+time|work|hours\s+worked)',fragment):return True
+    if employment_issue(previous) and re.fullmatch(r'(?:should|would|could|can)\s+(?:i|we)\s+(?:still\s+)?(?:have\s+been\s+|be\s+)?(?:paid|compensated)\s+for\s+(?:that|this|the.same)\s+(?:day|time|work|shift|hours)',fragment):
+        return True
+    if employment_issue(previous) and re.fullmatch(r'where\s+can\s+(?:workers|employees|i|we)\s+(?:begin|start|ask\s+for\s+help)',fragment):return True
+    # Topic-bearing questions inherit only a topic already asserted in the
+    # scenario. New actors, categories, or separate concerns remain separate.
+    if (employment_issue(previous) and re.fullmatch(r'i\s+want\s+(?:the\s+)?general\s+employment\s+framework',fragment)):return True
+    if (previous_scope and previous_scope[0]=='consumer' and re.fullmatch(r'what\s+(?:recorded\s+)?consumer\s+framework\s+fits',fragment)):return True
+    themes=[r'\b(?:employment.status|employment.contract|contract|kontrata|project.contracts?|project.based|probation\w*|seasonal|casual|regulari[sz]\w*|regular.employ\w*)\b',
+            r'\b(?:working.time|working.hours|hours?.of.work|hours.worked|clock[ -](?:in|out)|briefings?|waiting|pinaghihintay|pinapahintay|idle.machine|meal.break|turnover.notes|inspect\w*|equipment.check)\b',
+            r'\b(?:warrant\w*|guarant\w*|retailer|distributor)\b',r'\b(?:refund|return\w*|replac\w*|repair|shipping)\b',
+            r'\b(?:sena|conciliation|mediat\w*|labor.dispute|unpaid.wages?)\b',
+            r'\b(?:product.imperfection|product.quality|product.remed\w*|(?:leg|hinge|part|component).{0,15}missing|missing.parts?|defect\w*|faulty|broken|cracked|sira|basag|not.working|hindi.{0,10}umiinit)\b',
+            r'\b(?:dismiss\w*|termination|authorized.cause|business.is.closing|removed.{0,40}(?:roster|schedule)|fired|tinanggal|due.process|opportunity.to.answer)\b',
+            r'\b(?:product.safety|unsafe|sharp.edge|overheat\w*|scorch\w*|exposed.(?:live.)?(?:wir(?:es?|ing)|metal)|extension.cord)\b',
+            r'\b(?:wages?|wage.payment|salary|salaries|paydays?|payroll|payment.schedule|sahod|sweldo)\b',
+            r'\b(?:deduct\w*|missing.cash|inventory.loss\w*|bawas|kaltas)\b',
+            r'\b(?:overtime|ot|extra.hours|after.shift|beyond.(?:eight|8).hours)\b',r'\b(?:holiday|christmas|pasko)\b',
+            r'\b(?:rest.days?|weekly.rest|day.off|pahinga|scheduling.rule)\b',r'\b(?:13th|thirteenth)\b',
+            r'\b(?:price.tag|price-tag|shelf.label|displayed.price|listed.price|price.list|charge.more|sukli|shortchang\w*|remaining.change|exact.change|no.coins|remaining.coins|my.change|sweets|candy)\b',
+            r'\b(?:service.quality|service.imperfection|consumer.service|repair.service|cleaning.service|paid.laundry|laundry)\b',
+            r'\b(?:advert\w*|ads?|misleading|deceptive.sales)\b',r'\b(?:online|internet.transaction|marketplace|change.of.mind|nonconforming.item)\b',
+            r'\b(?:brand.new|prior.use|refurbished|used.laptop|sales.representation|deceptive.sales)\b']
+    question=re.match(r'^(?:please\s+)?(?:what|which|how|is|are|does|do|can\s+you|could\s+you|explain|describe|distinguish|ano|anong|paano|saan|kasama\s+ba|counted\s+ba)\b',fragment)
+    specific_actor=re.search(r'\b(?:government|household|overseas|ofw|seafar\w*|another|separate|my\s+(?:employer|seller|landlord)|i\s+(?:bought|work|paid))\b',fragment)
+    if question and not specific_actor and any(re.search(p,previous) and re.search(p,fragment) for p in themes):return True
     match=re.fullmatch(r'(?:what|which)\s+([\w -]+?)\s+(?:rules?(?:\s+and\s+exceptions?)?|exceptions?)\s+apply(?:\s+(?:here|to\s+(?:this|that)))?',fragment)
     if not match:return False
     def concepts(text):
@@ -71,6 +141,81 @@ def split_joined_complaints(text):
             return [left,*split_joined_complaints(right)]
     return [text]
 
+def scenario_follow_up(previous, fragment):
+    """Keep an anaphoric request with its scenario, across ordinary paraphrases.
+
+    A new actor or excluded subject remains independent. This groups language;
+    it does not establish whether the scenario has a legally supported answer.
+    """
+    from scope_constraints import constraint,LABOR,CONSUMER_ISSUE,RETAIL
+    prior=constraint(previous);current=constraint(fragment)
+    # An anaphoric detail about the same excluded job keeps that category.
+    # A retail issue, another exclusion or a newly stated private job does not.
+    if prior and prior[0]=='excluded' and prior[1] in {'labor.government_employment','labor.ofw','labor.kasambahay','labor.seafarers'}:
+        if current and (current[0]=='consumer' or current[0]=='excluded' and current!=prior):return False
+        if re.search(r'\b(?:private|pribado)\b',fragment):return False
+        prior=('labor','same_excluded_employment_context')
+        if current:current=('labor','same_excluded_employment_context')
+    warranty_response=bool(re.search(r'\bwarrant\w*\b',previous)
+        and (current is None or current[0]=='consumer')
+        and re.search(r'\b(?:complain\w*|claim|reklamo|warrant\w*)\b',fragment)
+        and re.search(r'\b(?:retailer|seller|store|shop|supplier|distributor)\b',fragment)
+        and re.match(r'^(?:(?:the|my|our|this|that)\s+(?:retailer|seller|store|shop|supplier|distributor)|ayaw|hindi|di)\b',fragment))
+    if (not prior and re.search(r'\bwarrant\w*\s+card\b',previous)
+            and (current is None or current[0]=='consumer') and re.search(r'\b(?:retailer|seller|distributor|store|shop)\b',fragment)):
+        prior=('consumer','warranty_transaction_context')
+    if not prior and LABOR.search(previous) and not CONSUMER_ISSUE.search(previous):prior=('labor','local_issue_context')
+    if (not prior and re.search(r'\b(?:employees?|workers?|staff)\b',previous)
+            and re.search(r'\bwork\s+(?:every\s+day|daily|everyday)\b',previous)):
+        prior=('labor','described_daily_work_context')
+    if (not prior and RETAIL.search(previous)
+            and re.search(r'\b(?:sent|delivered|received)\b.{0,55}\b(?:wrong|different)\b',previous)):
+        prior=('consumer','described_delivery_mismatch')
+    if not prior or prior[0] not in {'labor','consumer'}:return False
+    if current and current[0]!=prior[0]:return False
+    # These are relations to an existing transaction, rather than a new topic
+    # inferred merely from an overlapping noun. Scope conflicts above still win.
+    transaction_response=prior[0]=='consumer' and re.match(r'^(?:the|that|same)\s+(?:seller|retailer|merchant|store|shop)\s+(?:says?|refus\w*|denie\w*|will\s+not|won\x27t|does\s+not|doesn\x27t)\b',fragment)
+    product_reference=prior[0]=='consumer' and re.match(r'^the\s+(?:delivered|replacement|advertised)\s+(?:model|unit|item|product)\b',fragment)
+    themes=[r'holiday|christmas',r'overtime|undertime|offset|(?:nine|ten|eleven|twelve|\d+)\s+(?:working\s+)?hours',r'rest.day|weekly.rest|religio',r'dismiss|terminat|notice|fired|stop.coming|workers?.{0,20}told|redundan|security.of.tenure',r'project|seasonal|harvest|regular|contract|probation|standards|employment.status',r'waiting|manatili|working.time|hours.work|meal.period|lunch',r'price|tag|label|shelf',r'product|toy|cover|defect|safety|broken|faulty|sparks|kettle|appliance|stopped.charging',r'\b(?:wage\w*|pay\w*|salary|sahod|sweldo)\b',r'laundry|service.quality|defective.services|repair.(?:shop|service)|cleaning|shrunken',r'change|sukli|coupon|cashier|coins',r'online|merchant|ordered|order|original.item|redress|complaint.mechanism',r'warrant|claim|receipt|distributor']
+    # A generic "pay" overlap must not merge a new overtime request into an
+    # existing holiday-pay concern. Match the wage-payment concept instead.
+    themes[8]=r'\b(?:wage\w*|paydays?|payroll|payslip|salary|sahod|sweldo|(?:pays?|paid).{0,30}(?:workers?|employees?|wages))\b'
+    themes[11]+=r'|marketplace|replacement|refund|return'
+    themes[7]+=r'|brand.new|refurbish\w*|used.as.new|features?|scanner|scan'
+    themes[12]+=r'|warranty.card'
+    themes[5]+=r'|paghihintay|maghintay|bawal.{0,20}umalis|machine.restart|makina'
+    themes[9]+=r'|repair.business|paid.{0,45}repair'
+    themes[3]+=r'|resign\w*|magreresign|nagresign'
+    themes[5]+=r'|coffee.break|short.rest.break'
+    themes[2]+=r'|work.every.day|work.everyday|work.daily'
+    requested={i for i,pattern in enumerate(themes) if re.search(pattern,fragment)}
+    established={i for i,pattern in enumerate(themes) if re.search(pattern,previous)}
+    if requested and not requested & established and not (warranty_response or transaction_response or product_reference):return False
+    if ISSUE_INTENT.search(fragment) and not requested and not warranty_response:return False
+    if re.search(r'\b(?:another|separate|separately|second|also|unrelated|bukod|hiwalay)\b|\bdifferent\s+(?:shop|store|seller|retailer|employer|company|worker|employee|concern|issue|purchase|transaction)\b',fragment):return False
+    if re.search(r'\b(?:my|our)\s+(?:other|new|second|another)\b',fragment):return False
+    request=re.match(r'^(?:what|which|how|why|when|where|is|are|does|do|can|could|may|must|should|allowed|explain|describe|ano|anong|anu|paano|puwede|pwede|kailan|tama\s+ba|counted\s+ba|if\s+i\s+(?:ask|choose|request))\b',fragment)
+    request=request or re.match(r'^(?:i|we)\s+(?:only\s+)?want\s+(?:general|basic|source[ -]grounded|recorded)\b',fragment)
+    if prior[0]=='labor' and re.match(r'^(?:no|walang)\s+(?:emergency|special)\s+(?:reason|cause)\b',fragment) and re.search(r'\b(?:resign\w*|magreresign)\b',previous):return True
+    reference=re.match(r'^(?:it|its|they|their|this|that|those|these|ngayong|ngayon|noong|nung|saka\s+lang|only\s+(?:near|at|when|later)|binalik\s+nila|sabi\s+new|gusto\s+nilang|sabi\s+nila|(?:wala|hindi|di)\s+(?:sila|silang|nila|niya|ito|iyan|iyon)|the\s+(?:same|staff|employees|workers|affected\s+workers?|(?:delivered|replacement|advertised)\s+(?:model|unit|item|product)))\b',fragment)
+    reference=reference or prior[0]=='labor' and re.match(r'^(?:management|the\s+owner|our\s+manager)\s+says?\b',fragment) and bool(requested & established)
+    operation=prior[0]=='consumer' and re.match(r'^(?:gumagana|umandar|ayaw\s+na)\b',fragment)
+    return bool(request or reference or warranty_response or transaction_response or product_reference or operation)
+
+
+def meta_follow_up_target(components, fragment):
+    """Attach a scope request to its named existing concern, never a new one."""
+    if components and re.fullmatch(r'(?:please\s+)?(?:explain|describe)\s+(?:the\s+)?(?:(?:relevant|general|basic|applicable)\s+)?(?:rules|frameworks|provisions)\s+without\s+(?:deciding|adjudicating|predicting)\s+(?:either|these|those|both|the|any)\s+(?:disputes?|outcomes?|cases?)',fragment):return len(components)-1
+    match=re.fullmatch(r'(?:please\s+)?(?:explain|describe)\s+(?:(?:the|each|both)\s+)?(purchase|consumer|employment|labor)\s+(?:issues?|concerns?|parts?)(?:\s+and\s+(?:(?:tell\s+me|explain|show\s+me)\s+)?where\s+(?:your|the\s+project\x27s|the\s+system\x27s)\s+scope\s+ends)?',fragment)
+    if not match:
+        match=re.fullmatch(r'i\s+am\s+asking\s+about\s+(?:the\s+|my\s+)?(product|purchase|transaction|job|employment),?\s+not\s+(?:the\s+|my\s+)?(?:product|purchase|transaction|job|employment)',fragment)
+    if not match:return None
+    from scope_constraints import constraint
+    domain='consumer' if match.group(1) in {'purchase','consumer','product','transaction'} else 'labor'
+    return next((i for i in reversed(range(len(components))) if (constraint(components[i]) or (None,))[0]==domain),None)
+
+
 def segment_question(text,propagate_context=True):
     """Retain an account of every fragment, including background and unresolved issues.
 
@@ -78,9 +223,16 @@ def segment_question(text,propagate_context=True):
     a wage/product keyword. An excluded-topic complaint is a concern in its own
     right. Background never becomes a second concern by itself.
     """
-    from scope_constraints import RETAIL,CONSUMER_ISSUE,LABOR,constraint,scope_text,literal_concern_text,negated_scope_statement,historical_background,employment_background
-    t=clean(literal_concern_text(text));parts=[re.sub(r'^also\s*,?\s*','',p.strip(' ,.:;?!'))
-        for explicit in SEGMENT.split(t) for p in split_joined_complaints(explicit)]
+    from scope_constraints import RETAIL,CONSUMER_ISSUE,LABOR,constraint,scope_text,literal_concern_text,negated_scope_statement,historical_background,employment_background,FOREIGN_WORKPLACE
+    t=clean(literal_concern_text(text))
+    # Coordinate subjects share a predicate; "seller and I disagree" is not
+    # two concerns. Restore the conjunction after structural splitting.
+    split_input=re.sub(r'\band\s+i\s+(?=(?:disagree|agree|dispute)\b)','and_i ',t)
+    split_input=re.sub(r',\s*(?=(?:a|an|the)\s+(?:separate|unrelated)\b)', '; ',split_input)
+    split_input=re.sub(r',?\s+and\s+separately\s+(?=(?:tell|explain|give|predict)\b)', '; ',split_input)
+    split_input=re.sub(r',?\s+(?:pero|but)\s+(?=hindi\s+(?:ito|iyan|iyon)\s+(?:government|govt|municipal)\s+employment\b)', '; ',split_input)
+    parts=[re.sub(r'^also\s*,?\s*','',p.strip(' ,.:;?!')).replace('and_i ','and i ')
+        for explicit in SEGMENT.split(split_input) for p in split_joined_complaints(explicit)]
     parts=[piece for p in parts if p for piece in re.split(r',?\s+(?:but|pero)\s+(?=(?:i|my|we|our|ako)\b)',p,flags=re.I)]
     anchored=re.compile(r'\b(?:company|redundan\w*|bus|passenger|cord|table|unsafe|faulty|overseas|retailer|sukli|pinost|posted|public|exact|minimun|minimum)\b')
     kept=[];fragments=[];pending=[];unresolved=[]
@@ -88,20 +240,131 @@ def segment_question(text,propagate_context=True):
         if not p:continue
         fragment={'fragment_id':len(fragments),'text':p,'role':None,'component_index':None}
         fragments.append(fragment)
+        from scope_constraints import employment_issue
+        if (len(parts)>1 and not employment_issue(p) and not ISSUE_INTENT.search(p)
+                and re.fullmatch(r'(?:a|the|our)\s+private\s+(?:[\w-]+\s+){0,4}(?:store|shop|factory|business|office)\s+(?:stays|is)\s+open\s+daily',p)
+                and fragments[-1]['fragment_id']+1<len(parts)
+                and re.search(r'\b(?:employees?|workers?|staff)\b',parts[fragment['fragment_id']+1])):
+            fragment['role']='preface';pending.append(fragment);continue
+        if (len(parts)>1 and not employment_issue(p) and not ISSUE_INTENT.search(p)
+                and not re.search(r'\b(?:unpaid|withheld|refus\w*|dismiss\w*|fired|deduct\w*|kinaltas|knaltas|walang|hindi)\b',p)
+                and (re.fullmatch(r'(?:sa\s+)?(?:private|pribado\s+ng|pribado)\s+[\w -]{1,70}\s+(?:ung|yung|ang)\s+(?:work|trabaho|job)\s+(?:ko|q|namin)',p)
+                     or re.fullmatch(r'(?:private|pribado\s+ng|pribado)\s+(?:[\w-]+\s+){0,5}(?:worker|employee|crew|operator|helper)\s+(?:ako|kami|aq|kmi)(?:\s+(?:sa|in|at)\s+[\w -]+)?',p)
+                     or re.fullmatch(r'(?:empleyad[oa]|worker|employee|crew|operator|helper)\s+(?:ako|kami|aq|kmi)\s+(?:ng|sa)\s+(?:isang\s+)?(?:private|pribado)\s+[\w -]{1,85}',p)
+                     or re.fullmatch(r'(?:i|we)\s+(?:label|pack|sew|sort|assemble|bottle|clean)\s+[\w -]{0,50}\b(?:for|at|in)\s+(?:a|an|the)\s+private\s+[\w -]{1,70}',p))):
+            fragment['role']='preface';pending.append(fragment);continue
+        if (len(parts)==1 and (employment_background(p) and constraint(p) is None
+                or re.fullmatch(r'probationary\s+ako\s+sa\s+(?:private|pribado)\s+(?:office|company|store|shop|factory)',p))):
+            fragment['role']='background';continue
+        if re.fullmatch(r'(?:they|someone)\s+(?:did\s+not|didn\x27t|never|failed\s+to)\s+(?:follow|meet)\s+(?:the\s+)?(?:standards|requirements|rules)',p):
+            fragment.update(role='unresolved_concern',component_index=len(kept));unresolved.append(fragment['fragment_id']);kept.append(p);continue
+        target=meta_follow_up_target(kept,p)
+        if target is not None:
+            fragment.update(role='follow_up',component_index=target);kept[target]+='. '+p;continue
+        schedule=(CONTEXT.search(p) and re.search(r'\b(?:\d+\s*(?:am|pm)|\d+\s+at\s+night|midnight\s+shift)\b',p)
+            and re.search(r'\b(?:pack|work\w*|nagwowork|duty|shift)\b',p)
+            and not re.search(r'\b(?:pay\w*|paid|unpaid|wage\w*|salary|sahod|sweldo|overtime|deduct\w*|complaint|reklamo)\b',p))
+        if len(parts)>1 and schedule:
+            fragment['role']='preface';pending.append(fragment);continue
+        # Meta requests refer to the already enumerated concerns. They must
+        # not create an empty extra consumer/labor component of their own.
+        if kept and re.fullmatch(r'(?:which\s+(?:recorded\s+)?consumer\s+concern\s+can\s+you\s+explain|labor\s+at\s+consumer\s+ba\s+pareho,?\s+at\s+ano\s+sources\s+nila)',p):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        if (kept and re.search(r'\b(?:oras|hours?|undertime)\b',kept[-1])
+                and re.match(r'^may\s+(?:overtime|undertime)\b',p)
+                and not re.search(r'\b(?:also|separate|another|government|overseas)\b',p)):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        # A negated alternative is not an additional positive concern. Retain
+        # it as part of an exclusive request about the preceding scenario.
+        if (kept and re.match(r'^i\s+(?:only\s+)?want\b',p) and re.search(r'\bnot\b',p)
+                and constraint(kept[-1]) and constraint(kept[-1])[0]=='excluded'
+                and not re.search(r'\b(?:also|separate|another)\b',p)):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        if len(parts)>1 and re.fullmatch(r'(?:a|the|my|our)\s+(?:private\s+)?(?:agency|company|employer)\s+pays?\s+(?:me|us)(?:\s+by\s+\w+)?',p):
+            fragment['role']='preface';pending.append(fragment);continue
+        # Merchant explanations and descriptions of the already introduced
+        # service retain that transaction, rather than losing online context.
+        if (kept and (constraint(kept[-1]) or ('',))[0]=='consumer'
+                and (not constraint(p) or constraint(p)[0]=='consumer')
+                and (re.match(r'^(?:the|that)\s+(?:merchant|seller|retailer|shop)\s+says\b',p)
+                     or re.match(r'^(?:hindi|di)\s+nila\s+(?:ginawa|tinapos|inayos)\b',p))
+                and not re.search(r'\b(?:another|separate|separately|also)\b',p)):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        # Reasons attributed to the same manager and procedural details about
+        # the same worker continue an employment scenario. Never absorb a new
+        # independent actor or an excluded complaint.
+        if (kept and employment_issue(kept[-1])
+                and (not constraint(p) or constraint(p)[0]=='labor')
+                and (re.match(r'^(?:the|our|my)\s+(?:manager|employer|boss|owner)\s+says\b',p)
+                     or re.match(r'^(?:the|that)\s+(?:worker|employee)\s+(?:was|is|had)\b',p))
+                and not re.search(r'\b(?:another|separate|separately|also|bank|insurance|privacy|criminal)\b',p)):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        # A prediction-only question refers to its preceding factual setup;
+        # the setup does not create a second, answerable information request.
+        if (kept and constraint(p) and constraint(p)[1]=='labor.case_outcome_prediction'
+                and re.match(r'^(?:can\s+you|will\s+i|predict|i\s+(?:only\s+)?want)\b',p)
+                and not re.search(r'\b(?:separate|also|and|explain|what|which|how|paano|ano)\b',kept[-1])):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        if kept and re.fullmatch(r'(?:i\s+want\s+separate\s+source[ -]based\s+information|(?:please\s+)?distinguish\s+the\s+concerns|(?:please\s+)?explain\s+the\s+(?:two|both)\s+(?:relevant\s+)?(?:frameworks|issues|concerns))(?:\s+separately)?',p):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        if len(parts)>1 and re.fullmatch(r'(?:online\s+)?retail\s+(?:purchase|transaction)\s+(?:ito|here)',p):
+            fragment['role']='preface';pending.append(fragment);continue
+        if (len(kept)>=2 and re.fullmatch(r'(?:please\s+)?explain\s+(?:the\s+)?(?:employment|labor)\s+and\s+consumer\s+(?:information|rules|frameworks)(?:\s+separately)?',p)
+                and {constraint(k)[0] for k in kept if constraint(k)} >= {'labor','consumer'}):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        if (len(parts)>1 and re.fullmatch(r'(?:bumibili\s+ako\s+ng|i\s+buy|we\s+buy)\s+(?:ordinary|household|consumer)\s+(?:goods|products|items)\s+from\s+(?:retailers|stores|shops)',p)):
+            fragment['role']='preface';pending.append(fragment);continue
+        # A contrast about pay for the same extra hours is one scenario. Keep
+        # independent actors and unrelated consumer/excluded concerns separate.
+        if (kept and employment_issue(kept[-1]) and re.search(r'\b(?:after.shift|extra.hours|overtime)\b',kept[-1])
+                and re.match(r'^(?:walang|no|without)\s+overtime\s+pay\b',p)
+                and not re.search(r'\b(?:another|separate|government|overseas)\b',p)):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        if (kept and employment_issue(kept[-1])
+                and re.match(r'^(?:my|our|the)\s+(?:payslip|payroll|pay.stub|timesheet)\b',p)
+                and not (constraint(p) and constraint(p)[0]=='excluded')):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        # A description of the item just bought retains the purchase relation.
+        # New actors/transactions and explicit exclusions remain separate.
+        if kept and re.search(r'\b(?:bought|purchased|bumili|binili|nabili|kakabili)\b',kept[-1]) and RETAIL.search(kept[-1]):
+            defect=re.search(r'\b(?:broken|cracked|faulty|defect\w*|sira|basag|not\s+working|hindi\s+gumagana|di\s+gumagana)\b',p)
+            reference=re.search(r'\b(?:it|its|the|yung|ang|unit|switch|screen|casing|item|product)\b',p)
+            new_actor=re.search(r'\b(?:another|separate|also|separately|my\s+(?:employer|bank|insurer)|bought|purchased|bumili|binili)\b',p)
+            rule=constraint(p)
+            if defect and reference and not new_actor and (not rule or rule[0]=='consumer'):
+                fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
         # A payment detail using only "it/this/that" belongs to its existing
         # transaction; it does not assert a second employment concern.
         if kept and re.fullmatch(r'(?:i|we)\s+(?:already\s+)?(?:paid|have\s+paid|made\s+(?:a|the)\s+payment)\s+(?:for\s+)?(?:it|this|that)',p):
+            fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
+        # Purchase anaphora describe the transaction just introduced, not a
+        # new transaction with a second scope. Preserve the asserted claim.
+        if kept and re.fullmatch(r'(?:i|we)\s+(?:bought|purchased|ordered)\s+(?:it|this|that)\s+(?:based\s+on|because\s+of)\s+(?:that|the|this)\s+(?:claim|promise|advertisement)',p):
             fragment.update(role='follow_up',component_index=len(kept)-1);kept[-1]+='. '+p;continue
         if PAY_BACKGROUND.fullmatch(p) or TRAVEL_BACKGROUND.fullmatch(p) or negated_scope_statement(p) or (len(parts)>1 and (historical_background(p) or employment_background(p))):
             fragment['role']='background';continue
         if re.fullmatch(r'(?:\w+\s+){0,3}(?:paydays?|days?|weeks?|months?)\s+have\s+(?:passed|elapsed)',p):
             fragment['role']='preface';pending.append(fragment);continue
+        if len(parts)>1 and re.fullmatch(r'(?:i|we)\s+used\s+(?:it|this|that)\s+at\s+(?:a|the)\s+(?:store|shop|retailer)',p):
+            fragment['role']='preface';pending.append(fragment);continue
+        # Work history without a disputed act is context for the later request,
+        # not an independent termination complaint merely because it says resign.
+        work_history=(re.match(r'^(?:(?:i|we)\s+(?:(?:have|had|was|were)\s+)?(?:resigned|worked)\b|(?:nagtrabaho|nagresign)\s+(?:ako|kami)\b)',p)
+            or re.search(r'\b(?:resigned|nagresign)\b',p) and re.search(r'\b(?:i|we|ako|kami)\b',p)
+                and re.search(r'\b(?:company|employer|job|trabaho|kumpanya)\b',p)
+                and not re.match(r'^(?:what|which|how|why|when|where|is|are|can|could|may|must|should|did|do|ano|paano|kailan)\b',p))
+        if work_history and not ISSUE_INTENT.search(p) and not re.search(r'\b(?:refus\w*|denied|withheld|unpaid|not.paid|without|fired|dismiss\w*|owe\w*|holiday|overtime|13th|thirteenth|final.pay|coe|warrant\w*)\b',p) and len(parts)>1:
+            fragment['role']='preface';pending.append(fragment);continue
         cues=[m.group(0) for m in LEGAL_CUES.finditer(p) if m.group(0) not in {'claim','case'}]
         rule=constraint(p)
-        anchored_fact=bool(cues or anchored.search(p) or rule or LABOR.search(p) or CONSUMER_ISSUE.search(p))
-        context_only=(BACKGROUND_INTRO.search(p) and CONTEXT.search(p) and not ISSUE_INTENT.search(p)
-            and not LABOR.search(scope_text(p)) and not CONSUMER_ISSUE.search(p)
-            and not re.search(r'\b(?:question|promotion|required|changed|denied|refuse\w*)\b',p)
+        if (rule is None and pending
+                and re.search(r'\b(?:waiting|paghihintay|maghintay|briefing|bawal.{0,20}umalis|night.differential|binabayaran|kinaltas)\b',p)):
+            contextual=constraint('. '.join(f['text'] for f in pending)+'. '+p)
+            if contextual and contextual[0]=='labor':rule=contextual
+        anchored_fact=bool(cues or anchored.search(p) or rule or LABOR.search(p) or CONSUMER_ISSUE.search(p)
+                           or CONTEXT.search(t) and re.search(r'\b(?:appeal\w*|administrative)\b',p))
+        explicit_new=bool(re.match(r'^(?:hiwalay|bukod|ibang\s+(?:issue|concern)|separately|another\b|an?\s+(?:unrelated|separate)\b)',p) and len(p.split())>=3)
+        context_only=(employment_background(p) and CONTEXT.search(p)
             and (rule is None or rule[1] in {'labor.ofw','labor.seafarers','labor.government_employment','labor.kasambahay'}))
         if context_only:
             fragment['role']='background';continue
@@ -112,10 +375,10 @@ def segment_question(text,propagate_context=True):
         if len(parts)==1 and len(p.split())>=3 and not ISSUE_INTENT.search(p) and not generic_only:anchored_fact=True
         # An anaphoric request about existing concerns is a follow-up. New
         # explicit topics still have cues/rules and remain independent concerns.
-        if kept and (not anchored_fact and FOLLOW_UP_REFERENCE.search(p) or same_topic_rule_follow_up(kept[-1],p)):
+        if kept and (not anchored_fact and FOLLOW_UP_REFERENCE.search(p) or same_topic_rule_follow_up(kept[-1],p) or scenario_follow_up(kept[-1],p)):
             fragment['role']='follow_up';fragment['component_index']=len(kept)-1
             kept[-1]+='. '+p;continue
-        if not anchored_fact and ISSUE_INTENT.search(p):
+        if not anchored_fact and (ISSUE_INTENT.search(p) or explicit_new):
             fragment['role']='unresolved_concern';unresolved.append(fragment['fragment_id'])
         elif not anchored_fact:
             fragment['role']='follow_up' if kept else 'preface'
@@ -135,19 +398,36 @@ def segment_question(text,propagate_context=True):
         for f in pending:f['component_index']=len(kept)-1
     parts=kept
     if propagate_context:
-        contexts={m.group() for m in CONTEXT.finditer(t)
-            if not re.search(r'\b(?:not|hindi|never)\s+(?:(?:a|an|the|ako|sa)\s+){0,2}$',t[max(0,m.start()-24):m.start()])}
+        context_text='. '.join(f['text'] for f in fragments if not negated_scope_statement(f['text']))
+        contexts={m.group() for m in CONTEXT.finditer(context_text)
+            if not re.search(r'\b(?:not|hindi|never)\s+(?:(?:a|an|the|ako|sa)\s+){0,2}$',context_text[max(0,m.start()-24):m.start()])}
         # Actor introductions can name a public employer without the literal
         # word "government". Carry that category only to employment concerns.
-        if re.search(r'\b(?:employ\w*|work\w*)\b.{0,35}\bcity\s+hall\b',t):contexts.add('government')
+        if re.search(r'\b(?:employ\w*|work\w*)\b.{0,35}\bcity\s+hall\b',context_text):contexts.add('government')
+        if re.search(r'\bpublic\s+(?:school\s+teacher|hospital\s+(?:nurse|employee|worker))\b',context_text):contexts.add('government')
+        if FOREIGN_WORKPLACE.search(context_text):contexts.add('ofw')
+        job_context=constraint(context_text)
+        if job_context and job_context[0]=='excluded':
+            if job_context[1]=='labor.government_employment':contexts.add('government')
+            if job_context[1]=='labor.kasambahay':contexts.add('kasambahay')
+            if job_context[1]=='labor.ofw':contexts.add('ofw')
+        if re.search(r'\blive[- ]in\s+(?:helper|maid|nanny|housekeeper)\b',t):contexts.add('kasambahay')
         context_alias={'pribado':'private','govt':'government','municipal':'government','household':'kasambahay','overseas':'ofw'}
         contexts={('seafarer' if c.startswith('seaf') else context_alias.get(c,c)) for c in contexts}
         if 'seafarer' in contexts:contexts.discard('ofw')
+        if 'ofw' in contexts and FOREIGN_WORKPLACE.search(t):contexts.discard('kasambahay')
         # Private ownership does not cancel an explicitly specialized job.
         if contexts & {'ofw','seafarer','government','kasambahay'}:contexts.discard('private')
         # Propagate only one unambiguous employment category, and only into employment clauses.
         if len(contexts)==1:
-            context=next(iter(contexts));parts=[context+' employment: '+p if (EMPLOYMENT_CUES.search(p) or LABOR.search(p)) and not CONTEXT.search(p) and not NON_EMPLOYMENT.search(p) else p for p in parts]
+            context=next(iter(contexts))
+            parts=[context+' employment: '+p
+                if (EMPLOYMENT_CUES.search(p) or LABOR.search(p))
+                and (not CONTEXT.search(p)
+                     or context=='ofw' and re.search(r'\boverseas\b',p)
+                     or context=='seafarer' and re.search(r'\boverseas\b',p)
+                        and not re.search(r'\b(?:private|pribado|government|govt|municipal|kasambahay|household)\b',p))
+                and not NON_EMPLOYMENT.search(p) else p for p in parts]
         if any(RETAIL.search(p) for p in parts):
             parts=['retail transaction: '+p if CONSUMER_ISSUE.search(p) and not LABOR.search(p) and not RETAIL.search(p) and constraint(p) is None else p for p in parts]
         regulated={'consumer.telecommunications':'telecom service','consumer.banking_credit':'bank account','consumer.insurance':'insurance service','consumer.utility_billing':'utility billing'}

@@ -27,7 +27,7 @@ def assess(case, packet):
     primary_ok = primary == expected["expected_primary"] if labeled else None
     scope_ok = scope == expected["expected_scope"] if labeled else None
     route_ok = action == expected["expected_route"]
-    domain_ok = domains == expected["expected_domains"]
+    domain_ok = domains == sorted(set(expected["expected_domains"]))
     relevant = []
     groups = []
     if expected["relevant_ids"]:

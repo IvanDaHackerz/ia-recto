@@ -1,0 +1,13 @@
+{
+  "targeted_recheck_ids": [
+    "AI26_019",
+    "AI26_025",
+    "AI26_026",
+    "AI26_031",
+    "AI26_047",
+    "AI26_069",
+    "AI26_073",
+    "AI26_077"
+  ],
+  "role": "Eight disclosed posthoc repair rechecks, original 20-case results retained"
+}

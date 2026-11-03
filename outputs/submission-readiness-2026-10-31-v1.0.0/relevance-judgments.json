@@ -1,0 +1,434 @@
+{
+  "RD31_001": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_viii_payment_of_wages__section_1"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Manner of wage payment",
+    "parent_text_sha256": "4870a440b71097bf7a13fd34a90444a5f449896ed10682e302b12ef5cc638ad1"
+  },
+  "RD31_002": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_viii_payment_of_wages__section_3"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Time of payment",
+    "parent_text_sha256": "d4f5ad3be0228cd23e2f6ccb65354326557fc0e69cbd0405e7eac7a1111bfa9b"
+  },
+  "RD31_003": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_viii_payment_of_wages__section_3"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Time of payment",
+    "parent_text_sha256": "d4f5ad3be0228cd23e2f6ccb65354326557fc0e69cbd0405e7eac7a1111bfa9b"
+  },
+  "RD31_004": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_viii_payment_of_wages__section_14"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Deduction for loss or damage",
+    "parent_text_sha256": "20be35a9c06f77f78d5eca31b939118fc3fdb06616c1fa6897025c01fd73f91f"
+  },
+  "RD31_005": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Payrolls",
+    "parent_text_sha256": "8eb09a08cb56f301f01a4b023f9b28fb8d59d97c6f19331534de27406233eab6"
+  },
+  "RD31_006": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_84"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Hours Worked",
+    "parent_text_sha256": "f171b8d8d1e6ab2abb5bb4d02b7fe6a950b47e74162cdd99fd848b85cf248a23"
+  },
+  "RD31_007": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_i_hours_of_work__section_5"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Waiting time",
+    "parent_text_sha256": "2a25bf9c4588fb82c45cfbb1abb08c45807ce9efc5a9d26580bb9310542b9a29"
+  },
+  "RD31_008": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_i_hours_of_work__section_7"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Meal and Rest Periods",
+    "parent_text_sha256": "0a6e9bd16678c5f88ee70f179f0bc286d8d57b7a48ad6ef75e7762372cebd7a2"
+  },
+  "RD31_009": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_i_hours_of_work__section_7"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Meal and Rest Periods",
+    "parent_text_sha256": "0a6e9bd16678c5f88ee70f179f0bc286d8d57b7a48ad6ef75e7762372cebd7a2"
+  },
+  "RD31_010": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_86"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Night-Shift Differential",
+    "parent_text_sha256": "274a19512b179d982a2574a83fc70a9151dfa165cb4add4e5bc2983d884f262e"
+  },
+  "RD31_011": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_87"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Overtime Work",
+    "parent_text_sha256": "c11625297223065aad76f1929488e25146d01007373986dc09bbf6c7d79ce8dd"
+  },
+  "RD31_012": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_88"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Undertime Not Offset by Overtime",
+    "parent_text_sha256": "934fb54f5c3c7bb078535bd33eba7f3f6ac9edadcfaee74793aee681d29c42b7"
+  },
+  "RD31_013": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Weekly rest day",
+    "parent_text_sha256": "7706608408b4bc44680d41d288a6678cb56e4032a3797f8cbc1b23043a4d5a0d"
+  },
+  "RD31_014": {
+    "relevant_ids": [
+      "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Preference of employee",
+    "parent_text_sha256": "d7896a283b0c5bfd86d8ecb5026f74b744470204ddd20dbf9bcaf1401f63090e"
+  },
+  "RD31_015": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_94"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Right to Holiday Pay",
+    "parent_text_sha256": "a9f164c155e3ad9718cccbf586f5b8fa6bd8861fe15f5fab50f6a30a44af60f1"
+  },
+  "RD31_016": {
+    "relevant_ids": [
+      "SC_110068_1993_STATUTORY_QUOTES__recorded_rule"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Thirteenth-month pay: quoted definition and rank-and-file payment rule",
+    "parent_text_sha256": "763ba035f01b8dc748c111c72429ecfcc1c482c7637d7bc8f9c3bad102f7cec4"
+  },
+  "RD31_018": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_295"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "[280] Regular and Casual Employment",
+    "parent_text_sha256": "d43047057ab6d517639f93b652000e091760a7446a2847e5693dc0ed779ccb81"
+  },
+  "RD31_019": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_295"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "[280] Regular and Casual Employment",
+    "parent_text_sha256": "d43047057ab6d517639f93b652000e091760a7446a2847e5693dc0ed779ccb81"
+  },
+  "RD31_020": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_295"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "[280] Regular and Casual Employment",
+    "parent_text_sha256": "d43047057ab6d517639f93b652000e091760a7446a2847e5693dc0ed779ccb81"
+  },
+  "RD31_021": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_296"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "[281] Probationary Employment",
+    "parent_text_sha256": "a019b64b6e131561ed88bc03c387c1dc4df8d88c44ce6f2fed2e633a1655cf22"
+  },
+  "RD31_022": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_296"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "[281] Probationary Employment",
+    "parent_text_sha256": "a019b64b6e131561ed88bc03c387c1dc4df8d88c44ce6f2fed2e633a1655cf22"
+  },
+  "RD31_024": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_294"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "[279] Security of Tenure",
+    "parent_text_sha256": "363b71a24605ec226ef91b877e681a6758b2242906f33d93544da0ab5ea54078"
+  },
+  "RD31_025": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_298"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "[283] Closure of Establishment and Reduction of Personnel",
+    "parent_text_sha256": "2b66dd0f5b00af9bdfd37dfdf8ef048a729c547aaf15339011c7f1a9a62ef075"
+  },
+  "RD31_026": {
+    "relevant_ids": [
+      "LAB_CODE_2022__art_300"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "[285] Termination by Employee",
+    "parent_text_sha256": "3fa8702ca1f0753d2a9f5a519b3e430210fcd4602b6ee2de7e36533437bd4f84"
+  },
+  "RD31_027": {
+    "relevant_ids": [
+      "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Final pay and certificate of employment timelines",
+    "parent_text_sha256": "cbd1babd795478c5c173c1fd709537d3393c5cc44529623fa1f1c81bc66bddba"
+  },
+  "RD31_028": {
+    "relevant_ids": [
+      "DOLE_FINAL_PAY_COE_NEWS_2026__recorded_rule"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Final pay and certificate of employment timelines",
+    "parent_text_sha256": "cbd1babd795478c5c173c1fd709537d3393c5cc44529623fa1f1c81bc66bddba"
+  },
+  "RD31_030": {
+    "relevant_ids": [
+      "DOLE_DO_249_25__rule_v_conciliat_on_mediation_proceedings__section_2"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Appearance of lawyers, agents, or representatives",
+    "parent_text_sha256": "c6454f15ffe12d0c228d88c5393f9374931dd1614780a41d95697262541704f8"
+  },
+  "RD31_031": {
+    "relevant_ids": [
+      "RA_7394_1992__art_68"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Additional Provisions on Warranties",
+    "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+  },
+  "RD31_032": {
+    "relevant_ids": [
+      "RA_7394_1992__art_68"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Additional Provisions on Warranties",
+    "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+  },
+  "RD31_033": {
+    "relevant_ids": [
+      "RA_7394_1992__art_68"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Additional Provisions on Warranties",
+    "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+  },
+  "RD31_034": {
+    "relevant_ids": [
+      "RA_7394_1992__art_68"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Additional Provisions on Warranties",
+    "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+  },
+  "RD31_035": {
+    "relevant_ids": [
+      "RA_7394_1992__art_68"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Additional Provisions on Warranties",
+    "parent_text_sha256": "4fca7a97920a3b01ba3b001279b8f57c44304383602ec7276bd824b1c9eaaa90"
+  },
+  "RD31_036": {
+    "relevant_ids": [
+      "RA_7394_1992__art_100"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Liability for Product and Service Imperfection",
+    "parent_text_sha256": "4df2cde6c821926c6e4ed03ff9be7d58cfa686a057cca64e730ddcb94b9a9d40"
+  },
+  "RD31_037": {
+    "relevant_ids": [
+      "RA_7394_1992__art_100"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Liability for Product and Service Imperfection",
+    "parent_text_sha256": "4df2cde6c821926c6e4ed03ff9be7d58cfa686a057cca64e730ddcb94b9a9d40"
+  },
+  "RD31_038": {
+    "relevant_ids": [
+      "RA_7394_1992__art_101"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Liability for Product Quantity Imperfection",
+    "parent_text_sha256": "cd8d9fefaee28755fdd728427911f075c1612d5eb9f8bb10aff6a934b555b402"
+  },
+  "RD31_039": {
+    "relevant_ids": [
+      "RA_7394_1992__art_103"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Repair Service Obligation",
+    "parent_text_sha256": "172968e969ac18760a7df40529c25c1f79401330e0c4f1ff0364e91950549411"
+  },
+  "RD31_040": {
+    "relevant_ids": [
+      "RA_7394_1992__art_71"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Guaranty of Service Firms",
+    "parent_text_sha256": "79f562ee2aef0a0d746717167b79f1a31a289a1d5adf1b4e186ef59c791a9cac"
+  },
+  "RD31_041": {
+    "relevant_ids": [
+      "RA_7394_1992__art_50"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Prohibition Against Deceptive Sales Acts or Practices",
+    "parent_text_sha256": "3d547b9180a73b6f6af4f99301d943aa1703460fc653f3b246342e790936aa4a"
+  },
+  "RD31_042": {
+    "relevant_ids": [
+      "RA_7394_1992__art_50"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Prohibition Against Deceptive Sales Acts or Practices",
+    "parent_text_sha256": "3d547b9180a73b6f6af4f99301d943aa1703460fc653f3b246342e790936aa4a"
+  },
+  "RD31_043": {
+    "relevant_ids": [
+      "RA_7394_1992__art_50"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Prohibition Against Deceptive Sales Acts or Practices",
+    "parent_text_sha256": "3d547b9180a73b6f6af4f99301d943aa1703460fc653f3b246342e790936aa4a"
+  },
+  "RD31_044": {
+    "relevant_ids": [
+      "RA_7394_1992__art_110"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "False, Deceptive or Misleading Advertisement",
+    "parent_text_sha256": "c854cf944e2a1a6308a4e01e76bd927a73c62c0e03cdbac4f3332b067093a336"
+  },
+  "RD31_045": {
+    "relevant_ids": [
+      "RA_7394_1992__art_111"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Price Comparisons",
+    "parent_text_sha256": "0e05d505fb6e9b69c657f68821813f9aa3226a1f17c8c0329c455a30c9d770bc"
+  },
+  "RD31_046": {
+    "relevant_ids": [
+      "RA_7394_1992__art_81"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Price Tag Requirement",
+    "parent_text_sha256": "f4286dfd234ab965163d55ce80637590e57ded6aca0e079eb912d3afcc4c1609"
+  },
+  "RD31_047": {
+    "relevant_ids": [
+      "RA_7394_1992__art_81"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Price Tag Requirement",
+    "parent_text_sha256": "f4286dfd234ab965163d55ce80637590e57ded6aca0e079eb912d3afcc4c1609"
+  },
+  "RD31_048": {
+    "relevant_ids": [
+      "RA_10909_2016__sec_4"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Regulated Acts",
+    "parent_text_sha256": "484ff7d84522245ee4e64df5b62e27fb06ee42f217d9882c035b1e9c471a6211"
+  },
+  "RD31_051": {
+    "relevant_ids": [
+      "RA_7394_1992__art_102"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Liability for Service Quality Imperfection",
+    "parent_text_sha256": "1421bb64db7d9649da5f82297a8bf4bb47ef5b7a887d8c13904ca135707d01d2"
+  },
+  "RD31_052": {
+    "relevant_ids": [
+      "RA_7394_1992__art_102"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Liability for Service Quality Imperfection",
+    "parent_text_sha256": "1421bb64db7d9649da5f82297a8bf4bb47ef5b7a887d8c13904ca135707d01d2"
+  },
+  "RD31_053": {
+    "relevant_ids": [
+      "RA_7394_1992__art_102"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Liability for Service Quality Imperfection",
+    "parent_text_sha256": "1421bb64db7d9649da5f82297a8bf4bb47ef5b7a887d8c13904ca135707d01d2"
+  },
+  "RD31_054": {
+    "relevant_ids": [
+      "RA_7394_1992__art_159"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Consumer Complaints",
+    "parent_text_sha256": "790477cb8ef23fad8ddcbfdcc29ea7fbc9f3c057bad0de720dff3ccbdaf77c32"
+  },
+  "RD31_055": {
+    "relevant_ids": [
+      "RA_11967_2023__sec_20"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Remedies of Online Consumers",
+    "parent_text_sha256": "5646ae1296dd7d6c321ea83097025dbdfdb905b9304c7d4ac6005f7e5c75bd5c"
+  },
+  "RD31_056": {
+    "relevant_ids": [
+      "RA_11967_2023__sec_20"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Remedies of Online Consumers",
+    "parent_text_sha256": "5646ae1296dd7d6c321ea83097025dbdfdb905b9304c7d4ac6005f7e5c75bd5c"
+  },
+  "RD31_057": {
+    "relevant_ids": [
+      "RA_11967_2023__sec_24"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Internal Redress Mechanism",
+    "parent_text_sha256": "e3b1f06d936b1914d70e8671005880aaf5200689988f547591557d2083a3f704"
+  },
+  "RD31_058": {
+    "relevant_ids": [
+      "RA_11967_2023__sec_25"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Primary Liability of E-retailers or Online Merchants",
+    "parent_text_sha256": "e63252a8fa9755073988c4a6532f4e1c2843febc8fc852c5618dd0b474c94d87"
+  },
+  "RD31_059": {
+    "relevant_ids": [
+      "RA_7394_1992__art_159"
+    ],
+    "judgment_role": "Pre-inference known-relevant source, non-exhaustive; not legal currentness approval",
+    "source_heading": "Consumer Complaints",
+    "parent_text_sha256": "790477cb8ef23fad8ddcbfdcc29ea7fbc9f3c057bad0de720dff3ccbdaf77c32"
+  }
+}

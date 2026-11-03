@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "DEV001",
+    "field": "wages",
+    "q": "Our bakery pays everyone ten days late every month. Where can workers ask about wage-payment rules?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV002",
+    "field": "wages",
+    "q": "Boss keeps saying next week when I ask for the salary I already earned.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV003",
+    "field": "wages",
+    "q": "Nagtatrabaho ako sa private warehouse, pero kulang yung sweldo ko nitong cutoff.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV004",
+    "field": "wages",
+    "q": "My payslip lists a deduction for broken cups even though I never agreed to it.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV005",
+    "field": "wages",
+    "q": "Cashier ako sa supermarket. May salary deduction kami pag kulang ang kaha.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV006",
+    "field": "wages",
+    "q": "The employer pays us with store vouchers instead of money.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV007",
+    "field": "wages",
+    "q": "The owner says tips from customers replace our basic wages at the restaurant.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV008",
+    "field": "wages",
+    "q": "A private clinic employs me as a receptionist. They keep delaying my salary.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV009",
+    "field": "hours",
+    "q": "Our private warehouse counts mandatory bag checks after the shift as unpaid time.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV010",
+    "field": "hours",
+    "q": "I have to stay at my desk through lunch to answer customer calls. Is that working time?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV011",
+    "field": "hours",
+    "q": "Eight hours ba kasama yung required opening meeting namin sa private store?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV012",
+    "field": "hours",
+    "q": "Pinapastay kami sa factory kahit walang ginagawa habang naghihintay ng delivery.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV013",
+    "field": "rest",
+    "q": "My employer schedules me for fourteen straight days without a day off.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV014",
+    "field": "rest",
+    "q": "Rest day ko Sunday pero pinapapasok ako ng restaurant manager. Ano basic rules?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV015",
+    "field": "rest",
+    "q": "Can a private employer move our weekly rest day every week?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV016",
+    "field": "overtime",
+    "q": "My supervisor makes me clock out after eight hours then finish packing orders without extra pay.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV017",
+    "field": "overtime",
+    "q": "Private company ako. Ten hours ang shift pero eight hours lang nasa payslip.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV018",
+    "field": "overtime",
+    "q": "We are told overtime is included in our salary even when we work extra hours.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV019",
+    "field": "overtime",
+    "q": "Nag OT ako sa shop ng dalawang oras pero regular rate lang binigay.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV020",
+    "field": "holiday",
+    "q": "The private factory made us work on a regular holiday without additional pay.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV021",
+    "field": "holiday",
+    "q": "Closed ang private office sa Christmas. May general holiday-pay rules ba kahit walang pasok?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV022",
+    "field": "holiday",
+    "q": "How do regular holidays differ from special nonworking days for a private employee's pay?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV023",
+    "field": "thirteenth",
+    "q": "My private employer calls the Christmas bonus our 13th-month pay. What distinction matters?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV024",
+    "field": "thirteenth",
+    "q": "Three months lang ako nagwork sa private cafe this year, may prorated 13th month ba?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV025",
+    "field": "thirteenth",
+    "q": "The employer says probationary staff don't get thirteenth-month pay.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV026",
+    "field": "contract",
+    "q": "Every five months the private company renews my contract for exactly the same work.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV027",
+    "field": "contract",
+    "q": "Project-based daw ako pero wala silang sinabing project sa contract ko.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV028",
+    "field": "contract",
+    "q": "My private employer calls me a freelancer, but sets my daily hours and supervises everything.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV029",
+    "field": "contract",
+    "q": "The company hired me on probation without explaining the standards for regular employment.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV030",
+    "field": "termination",
+    "q": "Private employer removed my access card and said I am fired, with no letter or hearing.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV031",
+    "field": "termination",
+    "q": "My manager says poor performance is enough to dismiss me immediately without notice.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV032",
+    "field": "termination",
+    "q": "The private company is closing one department and says everyone is redundant.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV033",
+    "field": "termination",
+    "q": "Pinapirma ako ng resignation letter pero hindi naman ako kusang nagresign sa private job ko.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV034",
+    "field": "final",
+    "q": "I left a private company and HR will not release my certificate of employment.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV035",
+    "field": "final",
+    "q": "Private employer ko ayaw ibigay final pay kahit tapos na clearance.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV036",
+    "field": "final",
+    "q": "Does resigning from a private job mean I lose wages that I already earned?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV037",
+    "field": "referral",
+    "q": "I need to know where a private-sector worker can raise an unpaid-salary complaint.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV038",
+    "field": "referral",
+    "q": "Saan lalapit ang employee ng private shop kapag walang sweldo at walang payslip?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV039",
+    "field": "boundary",
+    "q": "I work for a private telecom company. My question is about unpaid overtime, not my phone bill.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV040",
+    "field": "boundary",
+    "q": "I am an employee at a private hospital and they deducted my salary for being late.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV041",
+    "field": "defect",
+    "q": "Bought a desk lamp at a hardware store; it stopped switching on after one afternoon.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV042",
+    "field": "defect",
+    "q": "Yung bagong electric fan galing sa appliance shop amoy sunog agad nung sinaksak.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV043",
+    "field": "defect",
+    "q": "The shop sold me a supposedly new laptop with a cracked screen inside the sealed box.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV044",
+    "field": "defect",
+    "q": "The shoes I bought from a retailer have soles that came off on the first day.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV045",
+    "field": "warranty",
+    "q": "The appliance seller says my written one-year warranty ended after a month.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV046",
+    "field": "warranty",
+    "q": "May warranty card yung blender pero ayaw tanggapin ng shop kasi sale item daw.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV047",
+    "field": "warranty",
+    "q": "The seller requires the original box before accepting my faulty kettle under warranty.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV048",
+    "field": "warranty",
+    "q": "A shop says a manufacturing defect is my responsibility even though the product has a warranty.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV049",
+    "field": "remedy",
+    "q": "The seller has repaired my washing machine three times and it still leaks. What remedies can I read about?",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV050",
+    "field": "remedy",
+    "q": "No return no exchange daw kahit defective yung bagong binili kong toaster sa store.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV051",
+    "field": "remedy",
+    "q": "The store delivered the wrong size table and refuses a replacement.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV052",
+    "field": "remedy",
+    "q": "Nagbayad ako sa retailer para sa blue chair pero red ang pinadala at ayaw palitan.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV053",
+    "field": "sales",
+    "q": "The store added an installation fee only after I had already paid for the appliance.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV054",
+    "field": "sales",
+    "q": "A salesperson told me a secondhand phone was brand new and I bought it based on that claim.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV055",
+    "field": "sales",
+    "q": "The shop hid a nonoptional service fee until checkout.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV056",
+    "field": "sales",
+    "q": "Binenta nila yung display unit bilang bago, wala silang sinabi bago ako nagbayad.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV057",
+    "field": "advert",
+    "q": "An advertisement promised a genuine leather bag but the retailer sent plastic.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV058",
+    "field": "advert",
+    "q": "The electric fan advertised as silent makes a very loud grinding noise.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV059",
+    "field": "advert",
+    "q": "The online shop advertises a free accessory but charges for it after payment.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV060",
+    "field": "price",
+    "q": "The shelf says 199 but the cashier charges 249 for the same item.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV061",
+    "field": "price",
+    "q": "Sukli ko sa grocery ginawa nilang candy kahit hindi ako pumayag.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV062",
+    "field": "price",
+    "q": "A retail store displays no prices on any of its household goods.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV063",
+    "field": "price",
+    "q": "The price sticker on my kettle is lower than the amount on my receipt.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV064",
+    "field": "safety",
+    "q": "The plug on a brand-new lamp from a store sparks and melts during normal use.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV065",
+    "field": "safety",
+    "q": "A toy sold by a retailer has loose sharp metal parts that fall out.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV066",
+    "field": "safety",
+    "q": "May exposed wire yung bagong extension cord sa hardware. Unsafe consumer product ba ito?",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV067",
+    "field": "service",
+    "q": "I paid a furniture repair shop but they returned my chair with a broken leg.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV068",
+    "field": "service",
+    "q": "Nagbayad sa laundry shop pero nawala nila yung damit ko at ayaw ayusin ang reklamo.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV069",
+    "field": "service",
+    "q": "A paid shoe-cleaning service damaged my shoes instead of cleaning them.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV070",
+    "field": "online",
+    "q": "An online retailer accepted my payment two weeks ago but has not shipped my order or answered a refund request.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV071",
+    "field": "online",
+    "q": "Wrong item dumating galing sa registered online shop at ayaw nila ng replacement.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV072",
+    "field": "online",
+    "q": "The business seller on a marketplace keeps cancelling delivery dates for my paid order.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV073",
+    "field": "referral",
+    "q": "I have a receipt and photos of the damaged appliance. How do I raise a consumer complaint with DTI?",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV074",
+    "field": "referral",
+    "q": "Paano magreklamo tungkol sa repair shop na hindi tinapos yung binayaran kong trabaho?",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV075",
+    "field": "framework",
+    "q": "What is the Consumer Act of the Philippines generally intended to protect?",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV076",
+    "field": "framework",
+    "q": "Can you explain the scope of general consumer protection for household purchases?",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV077",
+    "field": "boundary",
+    "q": "My employer gave me a gift card. I used it at a store and the store sold me a broken fan.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV078",
+    "field": "boundary",
+    "q": "I bought a phone from a retailer for work, and it arrived with a broken camera.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV079",
+    "field": "boundary",
+    "q": "The shop manager refuses to honor the warranty on the appliance I purchased.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV080",
+    "field": "boundary",
+    "q": "The private company that sold me a refrigerator refuses a refund for a defective unit.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV081",
+    "field": "both",
+    "q": "Our private employer pays wages late. Separately, a retailer will not honor my laptop warranty.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV082",
+    "field": "both",
+    "q": "Private employee ako, walang OT pay. Yung binili kong fan sa store sira din agad.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV083",
+    "field": "both",
+    "q": "I was dismissed by my private employer without notice, and an online retailer delivered the wrong product.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV084",
+    "field": "both",
+    "q": "My employer keeps withholding salary and the grocery cashier keeps charging more than the displayed price.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV085",
+    "field": "both",
+    "q": "Two concerns: no weekly rest day at my private job; a paid repair shop damaged my bicycle.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV086",
+    "field": "both",
+    "q": "My private employer refuses my COE. A store also refuses to replace a defective kettle.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV087",
+    "field": "both",
+    "q": "Nagtrabaho sa regular holiday sa private shop pero walang premium. May misleading ad din yung retailer na pinagbilhan ko.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV088",
+    "field": "both",
+    "q": "The private company deducts from my salary without explanation, while a store refuses my product warranty.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV089",
+    "field": "both",
+    "q": "My private employer won't pay my 13th month. Also, the price at the grocery checkout is higher than the shelf tag.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV090",
+    "field": "both",
+    "q": "Our company requires unpaid work after clock-out; the online business I bought from refuses to deliver my order.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "DEV091",
+    "field": "partial",
+    "q": "My private employer owes wages, and my bank charged an unexplained account fee.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV092",
+    "field": "partial",
+    "q": "My private employer dismissed me without notice. Separately, can you predict whether I will win the case?",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV093",
+    "field": "partial",
+    "q": "Private company ako, hindi bayad OT ko. Gusto ko rin malaman exact minimum wage ngayon sa Cebu.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV094",
+    "field": "partial",
+    "q": "I need general wage-payment rules for my private job and help with my pending NLRC case.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV095",
+    "field": "partial",
+    "q": "I receive no rest day at my private job; my internet provider also billed me twice.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV096",
+    "field": "partial",
+    "q": "The private shop owes my final pay. Separately, my landlord keeps my rental deposit.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV097",
+    "field": "partial",
+    "q": "A retailer sold me a faulty kettle, and my mobile provider charged the wrong subscription fee.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV098",
+    "field": "partial",
+    "q": "My online shop order arrived broken. The same seller also posted my home address publicly without permission.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV099",
+    "field": "partial",
+    "q": "The shop refuses my written product warranty, and my insurer refuses my policy claim.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV100",
+    "field": "partial",
+    "q": "The grocery charged more than the price tag. Also, I need help with an airline refund.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV101",
+    "field": "partial",
+    "q": "Nagbayad sa laundry shop pero sira damit ko. Yung electric utility bill ko sobra rin.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV102",
+    "field": "partial",
+    "q": "The appliance seller refuses a refund, and I want to know the legal rules for my divorce.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "DEV103",
+    "field": "government",
+    "q": "I am employed at city hall and the municipality has not paid my salary.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV104",
+    "field": "government",
+    "q": "Public school teacher ako. May issue ako sa government salary deductions ko.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV105",
+    "field": "household",
+    "q": "Yaya ako ng bata sa bahay ng isang pamilya, walang day off na binibigay.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV106",
+    "field": "household",
+    "q": "I am a live-out domestic worker for a household and my employer withholds my pay.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV107",
+    "field": "overseas",
+    "q": "I work in Qatar and my employer has withheld my passport and wages.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV108",
+    "field": "overseas",
+    "q": "The overseas recruiter changed the contract for my job in Saudi Arabia.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV109",
+    "field": "sea",
+    "q": "I work aboard an international cargo ship and need help with my seafarer employment contract.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV110",
+    "field": "union",
+    "q": "How do we contest the result of our union representation election?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV111",
+    "field": "compensation",
+    "q": "I need a computation of disability benefits after a workplace injury.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV112",
+    "field": "osh",
+    "q": "Does the chemical ventilation in our factory comply with occupational safety standards?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV113",
+    "field": "pension",
+    "q": "Please calculate how much SSS pension I will get next year.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV114",
+    "field": "pending",
+    "q": "What evidence should I submit in my pending NLRC dismissal case?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV115",
+    "field": "prediction",
+    "q": "Can you tell me whether I will win my illegal dismissal case?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV116",
+    "field": "minimum",
+    "q": "Magkano eksaktong minimum wage ngayon sa NCR para sa retail employee?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV117",
+    "field": "bank",
+    "q": "My bank deducted an unauthorized fee from my savings account.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV118",
+    "field": "insurance",
+    "q": "My insurer denied the claim on my car insurance policy.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV119",
+    "field": "investment",
+    "q": "I invested in a securities fund but the platform will not let me withdraw.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV120",
+    "field": "telecom",
+    "q": "My broadband provider bills me for an internet plan I already cancelled.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV121",
+    "field": "privacy",
+    "q": "A seller published my ID photo online without my consent.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV122",
+    "field": "medical",
+    "q": "The surgeon operated on the wrong part of my body. Can I bring a malpractice complaint?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV123",
+    "field": "housing",
+    "q": "The condominium developer keeps delaying turnover of the unit I bought.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV124",
+    "field": "transport",
+    "q": "The airline cancelled my flight and refuses a refund.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV125",
+    "field": "utility",
+    "q": "My water provider charged three times the usual amount on the bill.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV126",
+    "field": "crime",
+    "q": "The fake online seller disappeared after receiving my payment. How do I ask police to investigate?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV127",
+    "field": "family",
+    "q": "My sibling and I disagree over inheritance of our parents' land.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV128",
+    "field": "general",
+    "q": "Can you help me solve this algebra homework problem?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV129",
+    "field": "general",
+    "q": "How do I cook chicken adobo for four people?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV130",
+    "field": "code",
+    "q": "Write a Python script to calculate the average of a list.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "DEV131",
+    "field": "vague",
+    "q": "They won't give it back. What can I do?",
+    "flow": "clarify"
+  },
+  {
+    "id": "DEV132",
+    "field": "vague",
+    "q": "May problema ako sa bayad.",
+    "flow": "clarify"
+  },
+  {
+    "id": "DEV133",
+    "field": "vague",
+    "q": "I signed something and now I regret it.",
+    "flow": "clarify"
+  },
+  {
+    "id": "DEV134",
+    "field": "vague",
+    "q": "The manager said no. Is that allowed?",
+    "flow": "clarify"
+  },
+  {
+    "id": "DEV135",
+    "field": "vague",
+    "q": "Hindi ko alam paano ito ayusin.",
+    "flow": "clarify"
+  },
+  {
+    "id": "DEV136",
+    "field": "vague",
+    "q": "Can you help me please?",
+    "flow": "clarify"
+  },
+  {
+    "id": "DEV137",
+    "field": "vague",
+    "q": "I paid but nothing happened.",
+    "flow": "clarify"
+  },
+  {
+    "id": "DEV138",
+    "field": "vague",
+    "q": "Ayaw nila ibigay yung kailangan ko.",
+    "flow": "clarify"
+  }
+]

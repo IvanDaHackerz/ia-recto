@@ -1,0 +1,25 @@
+............F.........F.
+======================================================================
+FAIL: test_negated_bank_fee_is_background_but_a_real_fee_remains_excluded (test_concern_repairs.ConcernRepairTests.test_negated_bank_fee_is_background_but_a_real_fee_remains_excluded)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item10\test_concern_repairs.py", line 49, in test_negated_bank_fee_is_background_but_a_real_fee_remains_excluded
+    self.check('My private employer has not paid my wages. My bank separately charged a transfer fee.','mixed','partially_supported')
+  File "C:\IA\dataset\pipelines\item10\test_concern_repairs.py", line 15, in check
+    self.assertNotEqual(p['routing_action'],'clarify')
+AssertionError: 'clarify' == 'clarify'
+
+======================================================================
+FAIL: test_three_explicit_scopes_use_scope_rules_without_faking_probabilities (test_concern_repairs.ConcernRepairTests.test_three_explicit_scopes_use_scope_rules_without_faking_probabilities)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item10\test_concern_repairs.py", line 64, in test_three_explicit_scopes_use_scope_rules_without_faking_probabilities
+    self.check('I have a private-sector dismissal concern, and a retailer refuses to receive my written warranty claim. Which parts can this project handle?','mixed')
+  File "C:\IA\dataset\pipelines\item10\test_concern_repairs.py", line 15, in check
+    self.assertNotEqual(p['routing_action'],'clarify')
+AssertionError: 'clarify' == 'clarify'
+
+----------------------------------------------------------------------
+Ran 24 tests in 4.597s
+
+FAILED (failures=2)

@@ -1,0 +1,2 @@
+DEF_028 generated citations_and_automated_support_checked 21000 ms
+Summary: {"input_forms": 1, "pending": 0, "errors": {}, "explanation_status": {"generated": 1}, "non_generated_reasons": {}, "failure_codes": {}, "validation_failures": {}, "latency_ms": {"p50": 21000.0, "p95": 21000.0, "maximum": 21000.0}, "usage": {"day_utc": "2026-10-22", "provider_requests": 64, "estimated_usd": 0.06920459999999999, "input_tokens": 180710, "output_tokens": 29423, "maximum_calls": 120, "maximum_estimated_usd": 0.1, "billing_verified": false}}

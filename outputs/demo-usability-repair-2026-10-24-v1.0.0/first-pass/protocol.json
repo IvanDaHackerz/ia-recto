@@ -1,0 +1,37 @@
+{
+  "classifier": "outputs/item10-classifier-v1.5.56",
+  "retrieval": "outputs/item11-retrieval-v1.3.47",
+  "verifier": "outputs/item12-verifier-v1.0.54",
+  "prepared_at_utc": "2026-10-24T07:03:58.842435+00:00",
+  "project_id": "recto-local-ia",
+  "application_version": "2.0.0",
+  "runtime_signature": "cc23c7e15024fad8e02355eb691e0cb326ed5c0537838829ccf0b74b1e00e2c3",
+  "cases_sha256": "a679b9fc8464893c3af82fe5494ceb1d291ca0da179ed2b91157e6c2f43b8785",
+  "evaluator_sha256": "3401b471e7bff6d60c48240355d0981085c2193cb9f563d735433617e064881b",
+  "input_forms": 46,
+  "maximum_provider_attempts": 200,
+  "estimated_cost_stop_usd": 0.35,
+  "selection_posthoc": false,
+  "parent_cases_sha256": "a679b9fc8464893c3af82fe5494ceb1d291ca0da179ed2b91157e6c2f43b8785",
+  "parallel_workers": 2,
+  "automatic_retries": 0,
+  "provider": "together",
+  "model": "openai/gpt-oss-120b",
+  "normalizer_model": "openai/gpt-oss-120b",
+  "configured_estimate_rates_per_million": {
+    "openai/gpt-oss-120b": [
+      0.15,
+      0.6
+    ],
+    "Qwen/Qwen3.5-9B": [
+      0.17,
+      0.25
+    ]
+  },
+  "role": "AI-authored synthetic development usability test",
+  "independent_human_questions": 0,
+  "legal_accuracy_measured": false,
+  "rejected_drafts": "Saved only in local diagnostic file; never displayed as approved answers",
+  "budget": "Shared cumulative evaluation ledger; 200 attempts and $0.35 total estimate cap. Prior runs remain preserved; website limits unchanged; not verified billing.",
+  "export": "Frozen fictional questions, accepted wording variants, precise conditional scope suffix, pinned corpus source text"
+}

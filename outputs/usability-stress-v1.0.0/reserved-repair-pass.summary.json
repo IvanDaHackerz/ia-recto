@@ -1,0 +1,27 @@
+{
+  "count": 46,
+  "labeled": 42,
+  "labels_correct": 42,
+  "flow_correct": 45,
+  "exact_quote_cases": 46,
+  "provider_calls": 0,
+  "quoted_responses": 0,
+  "median_ms": 18.799999999999997,
+  "failures": [
+    {
+      "id": "RES026",
+      "q": "The private store dismissed me without notice. What are my chances of winning the pending NLRC case?",
+      "expected": [
+        "mixed",
+        "partially_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "partially_supported",
+        "clarify"
+      ],
+      "reason": "low_confidence"
+    }
+  ]
+}

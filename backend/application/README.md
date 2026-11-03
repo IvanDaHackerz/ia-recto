@@ -33,7 +33,7 @@ Both generation and assessment prompts include the exact response schema, with I
 
 `source_issues.py` places the IRR holiday-pay Section 3 passage on an AI-inspected wording-discrepancy hold: the recorded text says worked holidays, while a government-hosted DOLE/BWC reference uses unworked holidays. It is excluded before generation and rejected again during citation validation. Original canonical text/index records remain unchanged and inspectable, with an explanation-use restriction shown in the UI. This hold is not an independent legal review or a currentness approval. [Focused repair report](../../outputs/holiday-explanation-repair-v1.0.0/REPORT.md).
 
-The same-model judge is not independent legal review. Development output flags keep `legal_support_verified:false` and `currentness_reviewed:false`. Trusted source/claim reviews, current-guidance display permission and deployment remain closed. Missing final-pay/MO28 evidence is surfaced with an official-record link; unverified text is not invented or promoted. Referrals display only field-confirmed directory values and do not certify jurisdiction.
+The same-model judge is not independent legal review. Development output flags keep `legal_support_verified:false` and `currentness_reviewed:false`. Trusted source/claim reviews, current-guidance display permission and deployment remain closed. Bounded official final-pay/COE and statutory thirteenth-month excerpts can be used in development; they do not release the held MO28 copy or make a handbook independent legal authority. Remaining evidence gaps are disclosed rather than filled from model knowledge. Referrals display only field-confirmed directory values and do not certify jurisdiction.
 
 ## Privacy, persistence and operating controls
 

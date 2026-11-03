@@ -1,0 +1,2227 @@
+[
+  {
+    "question_text": "I work for a private company. Can my employer require more than eight hours a day?",
+    "draft": {
+      "schema_version": "1.0",
+      "question_text": "I work for a private company. Can my employer require more than eight hours a day?",
+      "claims": [
+        {
+          "claim_id": "excerpt_concern_001",
+          "component_id": "concern_001",
+          "kind": "source_excerpt",
+          "text": "ART. 83. Normal Hours of Work. – The normal hours of work of any employee shall not\nexceed eight (8) hours a day.\nHealth personnel in cities and municipalities with a population of at least one million\n(1,000,000) or in hospitals and clinics with a bed capacity of at least one hundred (100) shall\nhold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time\nfor meals, except where the exigencies of the service require that such personnel work for six\n(6) days or forty-eight (48) hours, in which case, they shall be entitled to an additional\ncompensation of at least thirty percent (30%) of their regular wage for work on the sixth day.\nFor purposes of this Article, \"health personnel\" shall include resident physicians, nurses,\nnutritionists, dieticians, pharmacists, social workers, laboratory technicians, paramedical\ntechnicians, psychologists, midwives, attendants and all other hospital or clinic personnel.72",
+          "evidence": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_83",
+              "document_id": "LAB_CODE_2022",
+              "start": 0,
+              "end": 954,
+              "quote": "ART. 83. Normal Hours of Work. – The normal hours of work of any employee shall not\nexceed eight (8) hours a day.\nHealth personnel in cities and municipalities with a population of at least one million\n(1,000,000) or in hospitals and clinics with a bed capacity of at least one hundred (100) shall\nhold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time\nfor meals, except where the exigencies of the service require that such personnel work for six\n(6) days or forty-eight (48) hours, in which case, they shall be entitled to an additional\ncompensation of at least thirty percent (30%) of their regular wage for work on the sixth day.\nFor purposes of this Article, \"health personnel\" shall include resident physicians, nurses,\nnutritionists, dieticians, pharmacists, social workers, laboratory technicians, paramedical\ntechnicians, psychologists, midwives, attendants and all other hospital or clinic personnel.72"
+            }
+          ]
+        }
+      ]
+    },
+    "recorded_excerpt_verification": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "I work for a private company. Can my employer require more than eight hours a day?",
+      "question_sha256": "a9314c020020de4731c8bed3f9ca9917bd60a821eeb9bd64ef2b91fb4ea25ef6",
+      "mode": "recorded_excerpt",
+      "as_of": "2026-10-17",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8759212835492675,
+        "scope_confidence": 0.9378330752863913
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "claim_results": [
+        {
+          "claim_id": "excerpt_concern_001",
+          "component_id": "concern_001",
+          "passed": true,
+          "reasons": [],
+          "checks": {
+            "citation_identity": true,
+            "quote_match": true,
+            "source_gate": true,
+            "full_context": true,
+            "claim_support": true
+          },
+          "review_ids": [],
+          "citations": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_83",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 83",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "source_locator": {
+                "pdf_page_start": 39,
+                "pdf_page_end": 39,
+                "printed_page_start": "27",
+                "printed_page_end": "27",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "former_locator_labels": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ]
+            }
+          ],
+          "support_meaning": "Exact recorded text only"
+        }
+      ],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "private employment: can my employer require more than eight hours a day",
+          "allowed_domain": "labor",
+          "passed": true,
+          "reasons": [],
+          "withheld_as_unit": false
+        }
+      ],
+      "offline_preview_allowed": true,
+      "preview": [
+        {
+          "component_id": "concern_001",
+          "claim_id": "excerpt_concern_001",
+          "kind": "source_excerpt",
+          "text": "ART. 83. Normal Hours of Work. – The normal hours of work of any employee shall not\nexceed eight (8) hours a day.\nHealth personnel in cities and municipalities with a population of at least one million\n(1,000,000) or in hospitals and clinics with a bed capacity of at least one hundred (100) shall\nhold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time\nfor meals, except where the exigencies of the service require that such personnel work for six\n(6) days or forty-eight (48) hours, in which case, they shall be entitled to an additional\ncompensation of at least thirty percent (30%) of their regular wage for work on the sixth day.\nFor purposes of this Article, \"health personnel\" shall include resident physicians, nurses,\nnutritionists, dieticians, pharmacists, social workers, laboratory technicians, paramedical\ntechnicians, psychologists, midwives, attendants and all other hospital or clinic personnel.72",
+          "citations": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_83",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 83",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "source_locator": {
+                "pdf_page_start": 39,
+                "pdf_page_end": 39,
+                "printed_page_start": "27",
+                "printed_page_end": "27",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "former_locator_labels": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "legal_support_verified": false,
+      "legal_support_review_recorded": false,
+      "coverage": {
+        "supported_components": 1,
+        "components_with_preview": 1,
+        "excluded_components": 0,
+        "meaning": "Provenance coverage only; relevance and legal sufficiency unverified"
+      },
+      "decision": "recorded_excerpt_candidate",
+      "disclosures": [
+        "Offline development preview. Live answer generation, user display and deployment remain disabled.",
+        "Recorded status dates are not proof that the law is current today.",
+        "Exact stored excerpts only. Relevance, present applicability and completeness of an answer have not been verified."
+      ]
+    },
+    "current_guidance_preflight": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "I work for a private company. Can my employer require more than eight hours a day?",
+      "question_sha256": "a9314c020020de4731c8bed3f9ca9917bd60a821eeb9bd64ef2b91fb4ea25ef6",
+      "mode": "current_guidance",
+      "as_of": "2026-10-17",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8759212835492675,
+        "scope_confidence": 0.9378330752863913
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "private employment: can my employer require more than eight hours a day",
+          "allowed_domain": "labor",
+          "retrieval_status": "candidates_found",
+          "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+          "candidates": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_83",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 83",
+              "heading": "Normal Hours of Work",
+              "display_text": "ART. 83. Normal Hours of Work. – The normal hours of work of any employee shall not\nexceed eight (8) hours a day.\nHealth personnel in cities and municipalities with a population of at least one million\n(1,000,000) or in hospitals and clinics with a bed capacity of at least one hundred (100) shall\nhold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time\nfor meals, except where the exigencies of the service require that such personnel work for six\n(6) days or forty-eight (48) hours, in which case, they shall be entitled to an additional\ncompensation of at least thirty percent (30%) of their regular wage for work on the sixth day.\nFor purposes of this Article, \"health personnel\" shall include resident physicians, nurses,\nnutritionists, dieticians, pharmacists, social workers, laboratory technicians, paramedical\ntechnicians, psychologists, midwives, attendants and all other hospital or clinic personnel.72",
+              "normalized_char_start": 0,
+              "normalized_char_end": 954,
+              "source_locator": {
+                "pdf_page_start": 39,
+                "pdf_page_end": 39,
+                "printed_page_start": "27",
+                "printed_page_end": "27",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 83. Normal Hours of Work. – The normal hours of work of any employee shall not\nexceed eight (8) hours a day.\nHealth personnel in cities and municipalities with a population of at least one million\n(1,000,000) or in hospitals and clinics with a bed capacity of at least one hundred (100) shall\nhold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time\nfor meals, except where the exigencies of the service require that such personnel work for six\n(6) days or forty-eight (48) hours, in which case, they shall be entitled to an additional\ncompensation of at least thirty percent (30%) of their regular wage for work on the sixth day.\nFor purposes of this Article, \"health personnel\" shall include resident physicians, nurses,\nnutritionists, dieticians, pharmacists, social workers, laboratory technicians, paramedical\ntechnicians, psychologists, midwives, attendants and all other hospital or clinic personnel.72",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work",
+                "labor.wages_payment"
+              ],
+              "legal_status": "official_consolidation_through_2022",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "conditions": [
+                "Check for post-2022 statutes and issuances before stating the present rule."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ],
+              "quality_flags": [
+                "footnotes_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "pdf_text",
+              "score": 15.693856811264782,
+              "bm25_score": 15.693856811264782,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_87",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 87",
+              "heading": "Overtime Work",
+              "display_text": "ART. 87. Overtime Work. – Work may be performed beyond eight (8) hours a day\nprovided that the employee is paid for the overtime work, an additional compensation\nequivalent to his regular wage plus at least twenty-five percent (25%) thereof. Work\nperformed beyond eight hours on a holiday or rest day shall be paid an additional\ncompensation equivalent to the rate of the first eight hours on a holiday or rest day plus at\nleast thirty percent (30%) thereof.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 458,
+              "source_locator": {
+                "pdf_page_start": 40,
+                "pdf_page_end": 40,
+                "printed_page_start": "28",
+                "printed_page_end": "28",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 87. Overtime Work. – Work may be performed beyond eight (8) hours a day\nprovided that the employee is paid for the overtime work, an additional compensation\nequivalent to his regular wage plus at least twenty-five percent (25%) thereof. Work\nperformed beyond eight hours on a holiday or rest day shall be paid an additional\ncompensation equivalent to the rate of the first eight hours on a holiday or rest day plus at\nleast thirty percent (30%) thereof.",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work",
+                "labor.overtime_pay",
+                "labor.rest_days",
+                "labor.wages_payment"
+              ],
+              "legal_status": "official_consolidation_through_2022",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "conditions": [
+                "Check for post-2022 statutes and issuances before stating the present rule."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ],
+              "quality_flags": [],
+              "review_status": "machine_validated",
+              "extraction_method": "pdf_text",
+              "score": 13.877967135188872,
+              "bm25_score": 13.877967135188872,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_10__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_10",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 10",
+              "heading": "Compulsory overtime work",
+              "display_text": "SECTION 10. Compulsory overtime work. — In any of the following cases, an employer may require any of his employees to work beyond eight (8) hours a day, provided that the employee required to render overtime work is paid the additional compensation required by these regulations:\n\n(a) When the country is at war or when any other national or local emergency has been declared by Congress or the Chief Executive;\n\n(b) When overtime work is necessary to prevent loss of life or property, or in case of imminent danger to public safety due to actual or impending emergency in the locality caused by serious accident, fire, floods, typhoons, earthquake, epidemic or other disaster or calamities;\n\n(c) When there is urgent work to be performed on machines, installations, or equipment, in order to avoid serious loss or damage to the employer or some other causes of similar nature;\n\n(d) When the work is necessary to prevent loss or damage to perishable goods;\n\n(e) When the completion or continuation of work started before the 8th hour is necessary to prevent serious obstruction or prejudice to the business or operations of the employer; or\n\n(f) When overtime work is necessary to avail of favorable weather or environmental conditions where performance or quality of work is dependent thereon.\n\nIn cases not falling within any of these enumerated in this Section, no employee may be made to work beyond eight hours a day against his will.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 1440,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 138024,
+                "source_char_end": 139466
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SECTION 10. Compulsory overtime work. — In any of the following cases, an employer may require any of his employees to work beyond eight (8) hours a day, provided that the employee required to render overtime work is paid the additional compensation required by these regulations:\n\n(a) When the country is at war or when any other national or local emergency has been declared by Congress or the Chief Executive;\n\n(b) When overtime work is necessary to prevent loss of life or property, or in case of imminent danger to public safety due to actual or impending emergency in the locality caused by serious accident, fire, floods, typhoons, earthquake, epidemic or other disaster or calamities;\n\n(c) When there is urgent work to be performed on machines, installations, or equipment, in order to avoid serious loss or damage to the employer or some other causes of similar nature;\n\n(d) When the work is necessary to prevent loss or damage to perishable goods;\n\n(e) When the completion or continuation of work started before the 8th hour is necessary to prevent serious obstruction or prejudice to the business or operations of the employer; or\n\n(f) When overtime work is necessary to avail of favorable weather or environmental conditions where performance or quality of work is dependent thereon.\n\nIn cases not falling within any of these enumerated in this Section, no employee may be made to work beyond eight hours a day against his will.",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work",
+                "labor.overtime_pay"
+              ],
+              "legal_status": "in_force_as_amended_not_a_current_consolidation",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "conditions": [
+                "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                "SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 13.227585962309215,
+              "bm25_score": 13.227585962309215,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+              "heading": "Premium and overtime pay for holiday and rest day work",
+              "display_text": "SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 1127,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 136895,
+                "source_char_end": 138024
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.holiday_premium_pay",
+                "labor.hours_of_work",
+                "labor.overtime_pay",
+                "labor.rest_days",
+                "labor.wages_payment"
+              ],
+              "legal_status": "in_force_as_amended_not_a_current_consolidation",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "conditions": [
+                "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                "SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 11.889181804230883,
+              "bm25_score": 11.889181804230883,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_92__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_92",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 92",
+              "heading": "When Employer May Require Work on a Rest Day",
+              "display_text": "ART. 92. When Employer May Require Work on a Rest Day. – The employer may require\nhis employees to work on any day:\n(a) In case of actual or impending emergencies caused by serious accident, fire, flood,\ntyphoon, earthquake, epidemic or other disaster or calamity to prevent loss of life and\nproperty, or imminent danger to public safety;\n(b) In cases of urgent work to be performed on the machinery, equipment, or\ninstallation, to avoid serious loss which the employer would otherwise suffer;\n(c) In the event of abnormal pressure of work due to special circumstances, where the\nemployer cannot ordinarily be expected to resort to other measures;\n(d) To prevent loss or damage to perishable goods;\n(e) Where the nature of the work requires continuous operations and the stoppage of\nwork may result in irreparable injury or loss to the employer; and\n\n(f) Under other circumstances analogous or similar to the foregoing as determined by\nthe Secretary of Labor and Employment.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 974,
+              "source_locator": {
+                "pdf_page_start": 41,
+                "pdf_page_end": 42,
+                "printed_page_start": "29",
+                "printed_page_end": "30",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 92. When Employer May Require Work on a Rest Day. – The employer may require\nhis employees to work on any day:\n(a) In case of actual or impending emergencies caused by serious accident, fire, flood,\ntyphoon, earthquake, epidemic or other disaster or calamity to prevent loss of life and\nproperty, or imminent danger to public safety;\n(b) In cases of urgent work to be performed on the machinery, equipment, or\ninstallation, to avoid serious loss which the employer would otherwise suffer;\n(c) In the event of abnormal pressure of work due to special circumstances, where the\nemployer cannot ordinarily be expected to resort to other measures;\n(d) To prevent loss or damage to perishable goods;\n(e) Where the nature of the work requires continuous operations and the stoppage of\nwork may result in irreparable injury or loss to the employer; and\n\n(f) Under other circumstances analogous or similar to the foregoing as determined by\nthe Secretary of Labor and Employment.",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.rest_days"
+              ],
+              "legal_status": "official_consolidation_through_2022",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "conditions": [
+                "Check for post-2022 statutes and issuances before stating the present rule."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ],
+              "quality_flags": [],
+              "review_status": "machine_validated",
+              "extraction_method": "pdf_text",
+              "score": 11.79805564079704,
+              "bm25_score": 11.79805564079704,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            }
+          ],
+          "evidence_gates": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_10__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_92__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            }
+          ],
+          "evidence_ready": false
+        }
+      ],
+      "offline_drafting_allowed": false,
+      "all_supported_components_evidence_ready": false,
+      "decision": "insufficient_evidence"
+    }
+  },
+  {
+    "question_text": "The shop charged me more than the price tag.",
+    "draft": {
+      "schema_version": "1.0",
+      "question_text": "The shop charged me more than the price tag.",
+      "claims": [
+        {
+          "claim_id": "excerpt_concern_001",
+          "component_id": "concern_001",
+          "kind": "source_excerpt",
+          "text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+          "evidence": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "start": 0,
+              "end": 790,
+              "quote": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice."
+            }
+          ]
+        }
+      ]
+    },
+    "recorded_excerpt_verification": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "The shop charged me more than the price tag.",
+      "question_sha256": "3b5ddc6923cdbe48170e413e27003afdf27fed44d53c7f5d21e853fb5acd00d2",
+      "mode": "recorded_excerpt",
+      "as_of": "2026-10-17",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8759212835492677,
+        "scope_confidence": 0.9378330752863915
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "claim_results": [
+        {
+          "claim_id": "excerpt_concern_001",
+          "component_id": "concern_001",
+          "passed": true,
+          "reasons": [],
+          "checks": {
+            "citation_identity": true,
+            "quote_match": true,
+            "source_gate": true,
+            "full_context": true,
+            "claim_support": true
+          },
+          "review_ids": [],
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "document_title": "Consumer Act of the Philippines",
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 114291,
+                "source_char_end": 115083
+              },
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "former_locator_labels": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ]
+            }
+          ],
+          "support_meaning": "Exact recorded text only"
+        }
+      ],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "the shop charged me more than the price tag",
+          "allowed_domain": "consumer",
+          "passed": true,
+          "reasons": [],
+          "withheld_as_unit": false
+        }
+      ],
+      "offline_preview_allowed": true,
+      "preview": [
+        {
+          "component_id": "concern_001",
+          "claim_id": "excerpt_concern_001",
+          "kind": "source_excerpt",
+          "text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "document_title": "Consumer Act of the Philippines",
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 114291,
+                "source_char_end": 115083
+              },
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "former_locator_labels": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "legal_support_verified": false,
+      "legal_support_review_recorded": false,
+      "coverage": {
+        "supported_components": 1,
+        "components_with_preview": 1,
+        "excluded_components": 0,
+        "meaning": "Provenance coverage only; relevance and legal sufficiency unverified"
+      },
+      "decision": "recorded_excerpt_candidate",
+      "disclosures": [
+        "Offline development preview. Live answer generation, user display and deployment remain disabled.",
+        "Recorded status dates are not proof that the law is current today.",
+        "Exact stored excerpts only. Relevance, present applicability and completeness of an answer have not been verified."
+      ]
+    },
+    "current_guidance_preflight": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "The shop charged me more than the price tag.",
+      "question_sha256": "3b5ddc6923cdbe48170e413e27003afdf27fed44d53c7f5d21e853fb5acd00d2",
+      "mode": "current_guidance",
+      "as_of": "2026-10-17",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8759212835492677,
+        "scope_confidence": 0.9378330752863915
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "the shop charged me more than the price tag",
+          "allowed_domain": "consumer",
+          "retrieval_status": "candidates_found",
+          "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+          "candidates": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "heading": "Price Tag Requirement",
+              "display_text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 790,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 114291,
+                "source_char_end": 115083
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+              "document_title": "Consumer Act of the Philippines",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.price_tags"
+              ],
+              "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "conditions": [
+                "Pair with the responsible agency's current topic-specific rule and later special law."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 15.647040159319511,
+              "bm25_score": 15.647040159319511,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+              "provision_id": "RA_7394_1992__art_83",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 83",
+              "heading": "Regulations for Price Tag Placement",
+              "display_text": "ART. 83. Regulations for Price Tag Placement. - The concerned department shall prescribe rules and regulations for the visible placement of price tags for specific consumer products and services. There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 284,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 115258,
+                "source_char_end": 115544
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 83. Regulations for Price Tag Placement. - The concerned department shall prescribe rules and regulations for the visible placement of price tags for specific consumer products and services. There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+              "document_title": "Consumer Act of the Philippines",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.price_tags"
+              ],
+              "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "conditions": [
+                "Pair with the responsible agency's current topic-specific rule and later special law."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 13.796162084945607,
+              "bm25_score": 13.796162084945607,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            }
+          ],
+          "evidence_gates": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            }
+          ],
+          "evidence_ready": false
+        }
+      ],
+      "offline_drafting_allowed": false,
+      "all_supported_components_evidence_ready": false,
+      "decision": "insufficient_evidence"
+    }
+  },
+  {
+    "question_text": "I work for a private company and I was not paid overtime. A store charged me more than the price tag.",
+    "draft": {
+      "schema_version": "1.0",
+      "question_text": "I work for a private company and I was not paid overtime. A store charged me more than the price tag.",
+      "claims": [
+        {
+          "claim_id": "excerpt_concern_001",
+          "component_id": "concern_001",
+          "kind": "source_excerpt",
+          "text": "SECTION 8. Overtime pay. — Any employee covered by this Rule who is permitted or required to work beyond eight (8) hours on ordinary working days shall be paid an additional compensation for the overtime work in the amount equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+          "evidence": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8",
+              "document_id": "LAB_IRR_1989",
+              "start": 0,
+              "end": 302,
+              "quote": "SECTION 8. Overtime pay. — Any employee covered by this Rule who is permitted or required to work beyond eight (8) hours on ordinary working days shall be paid an additional compensation for the overtime work in the amount equivalent to his regular wage plus at least twenty-five percent (25%) thereof."
+            }
+          ]
+        },
+        {
+          "claim_id": "excerpt_concern_002",
+          "component_id": "concern_002",
+          "kind": "source_excerpt",
+          "text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+          "evidence": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "start": 0,
+              "end": 790,
+              "quote": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice."
+            }
+          ]
+        }
+      ]
+    },
+    "recorded_excerpt_verification": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "I work for a private company and I was not paid overtime. A store charged me more than the price tag.",
+      "question_sha256": "5b852f7a43f29eeb83086a8d6f43aa694da14ec50c8973ed6b34a2283f884303",
+      "mode": "recorded_excerpt",
+      "as_of": "2026-10-17",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_components",
+        "reason": "separate_supported_components_require_evidence",
+        "clarification_question": null,
+        "predicted_primary": "mixed",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8836190149408801,
+        "scope_confidence": 0.992047135631902
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "claim_results": [
+        {
+          "claim_id": "excerpt_concern_001",
+          "component_id": "concern_001",
+          "passed": true,
+          "reasons": [],
+          "checks": {
+            "citation_identity": true,
+            "quote_match": true,
+            "source_gate": true,
+            "full_context": true,
+            "claim_support": true
+          },
+          "review_ids": [],
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 8",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 136591,
+                "source_char_end": 136895
+              },
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "former_locator_labels": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ]
+            }
+          ],
+          "support_meaning": "Exact recorded text only"
+        },
+        {
+          "claim_id": "excerpt_concern_002",
+          "component_id": "concern_002",
+          "passed": true,
+          "reasons": [],
+          "checks": {
+            "citation_identity": true,
+            "quote_match": true,
+            "source_gate": true,
+            "full_context": true,
+            "claim_support": true
+          },
+          "review_ids": [],
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "document_title": "Consumer Act of the Philippines",
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 114291,
+                "source_char_end": 115083
+              },
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "former_locator_labels": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ]
+            }
+          ],
+          "support_meaning": "Exact recorded text only"
+        }
+      ],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "private employment: i was not paid overtime",
+          "allowed_domain": "labor",
+          "passed": true,
+          "reasons": [],
+          "withheld_as_unit": false
+        },
+        {
+          "component_id": "concern_002",
+          "query": "a store charged me more than the price tag",
+          "allowed_domain": "consumer",
+          "passed": true,
+          "reasons": [],
+          "withheld_as_unit": false
+        }
+      ],
+      "offline_preview_allowed": true,
+      "preview": [
+        {
+          "component_id": "concern_001",
+          "claim_id": "excerpt_concern_001",
+          "kind": "source_excerpt",
+          "text": "SECTION 8. Overtime pay. — Any employee covered by this Rule who is permitted or required to work beyond eight (8) hours on ordinary working days shall be paid an additional compensation for the overtime work in the amount equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 8",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 136591,
+                "source_char_end": 136895
+              },
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "former_locator_labels": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "component_id": "concern_002",
+          "claim_id": "excerpt_concern_002",
+          "kind": "source_excerpt",
+          "text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "document_title": "Consumer Act of the Philippines",
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 114291,
+                "source_char_end": 115083
+              },
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "former_locator_labels": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "legal_support_verified": false,
+      "legal_support_review_recorded": false,
+      "coverage": {
+        "supported_components": 2,
+        "components_with_preview": 2,
+        "excluded_components": 0,
+        "meaning": "Provenance coverage only; relevance and legal sufficiency unverified"
+      },
+      "decision": "recorded_excerpt_candidate",
+      "disclosures": [
+        "Offline development preview. Live answer generation, user display and deployment remain disabled.",
+        "Recorded status dates are not proof that the law is current today.",
+        "Exact stored excerpts only. Relevance, present applicability and completeness of an answer have not been verified."
+      ]
+    },
+    "current_guidance_preflight": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "I work for a private company and I was not paid overtime. A store charged me more than the price tag.",
+      "question_sha256": "5b852f7a43f29eeb83086a8d6f43aa694da14ec50c8973ed6b34a2283f884303",
+      "mode": "current_guidance",
+      "as_of": "2026-10-17",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_components",
+        "reason": "separate_supported_components_require_evidence",
+        "clarification_question": null,
+        "predicted_primary": "mixed",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8836190149408801,
+        "scope_confidence": 0.992047135631902
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "private employment: i was not paid overtime",
+          "allowed_domain": "labor",
+          "retrieval_status": "candidates_found",
+          "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+          "candidates": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 8",
+              "heading": "Overtime pay",
+              "display_text": "SECTION 8. Overtime pay. — Any employee covered by this Rule who is permitted or required to work beyond eight (8) hours on ordinary working days shall be paid an additional compensation for the overtime work in the amount equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 302,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 136591,
+                "source_char_end": 136895
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SECTION 8. Overtime pay. — Any employee covered by this Rule who is permitted or required to work beyond eight (8) hours on ordinary working days shall be paid an additional compensation for the overtime work in the amount equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work",
+                "labor.overtime_pay",
+                "labor.wages_payment"
+              ],
+              "legal_status": "in_force_as_amended_not_a_current_consolidation",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "conditions": [
+                "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                "SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 22.776400848749184,
+              "bm25_score": 22.776400848749184,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+              "heading": "Premium and overtime pay for holiday and rest day work",
+              "display_text": "SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 1127,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 136895,
+                "source_char_end": 138024
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.holiday_premium_pay",
+                "labor.hours_of_work",
+                "labor.overtime_pay",
+                "labor.rest_days",
+                "labor.wages_payment"
+              ],
+              "legal_status": "in_force_as_amended_not_a_current_consolidation",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "conditions": [
+                "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                "SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 19.488802297699856,
+              "bm25_score": 19.488802297699856,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_87",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 87",
+              "heading": "Overtime Work",
+              "display_text": "ART. 87. Overtime Work. – Work may be performed beyond eight (8) hours a day\nprovided that the employee is paid for the overtime work, an additional compensation\nequivalent to his regular wage plus at least twenty-five percent (25%) thereof. Work\nperformed beyond eight hours on a holiday or rest day shall be paid an additional\ncompensation equivalent to the rate of the first eight hours on a holiday or rest day plus at\nleast thirty percent (30%) thereof.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 458,
+              "source_locator": {
+                "pdf_page_start": 40,
+                "pdf_page_end": 40,
+                "printed_page_start": "28",
+                "printed_page_end": "28",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 87. Overtime Work. – Work may be performed beyond eight (8) hours a day\nprovided that the employee is paid for the overtime work, an additional compensation\nequivalent to his regular wage plus at least twenty-five percent (25%) thereof. Work\nperformed beyond eight hours on a holiday or rest day shall be paid an additional\ncompensation equivalent to the rate of the first eight hours on a holiday or rest day plus at\nleast thirty percent (30%) thereof.",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work",
+                "labor.overtime_pay",
+                "labor.rest_days",
+                "labor.wages_payment"
+              ],
+              "legal_status": "official_consolidation_through_2022",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "conditions": [
+                "Check for post-2022 statutes and issuances before stating the present rule."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ],
+              "quality_flags": [],
+              "review_status": "machine_validated",
+              "extraction_method": "pdf_text",
+              "score": 18.94513410127362,
+              "bm25_score": 18.94513410127362,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_88",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 88",
+              "heading": "Undertime Not Offset by Overtime",
+              "display_text": "ART. 88. Undertime Not Offset by Overtime.74 – Undertime work on any particular day\nshall not be offset by overtime work on any other day. Permission given to the employee to\ngo on leave on some other day of the week shall not exempt the employer from paying the\nadditional compensation required in this Chapter.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 312,
+              "source_locator": {
+                "pdf_page_start": 40,
+                "pdf_page_end": 40,
+                "printed_page_start": "28",
+                "printed_page_end": "28",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 88. Undertime Not Offset by Overtime.74 – Undertime work on any particular day\nshall not be offset by overtime work on any other day. Permission given to the employee to\ngo on leave on some other day of the week shall not exempt the employer from paying the\nadditional compensation required in this Chapter.",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.overtime_pay"
+              ],
+              "legal_status": "official_consolidation_through_2022",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "conditions": [
+                "Check for post-2022 statutes and issuances before stating the present rule."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ],
+              "quality_flags": [
+                "footnotes_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "pdf_text",
+              "score": 18.326160348848298,
+              "bm25_score": 18.326160348848298,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            }
+          ],
+          "evidence_gates": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            }
+          ],
+          "evidence_ready": false
+        },
+        {
+          "component_id": "concern_002",
+          "query": "a store charged me more than the price tag",
+          "allowed_domain": "consumer",
+          "retrieval_status": "candidates_found",
+          "retrieval_reason": "requires_freshness_evidence_and_citation_verification",
+          "candidates": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "heading": "Price Tag Requirement",
+              "display_text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 790,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 114291,
+                "source_char_end": 115083
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+              "document_title": "Consumer Act of the Philippines",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.price_tags"
+              ],
+              "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "conditions": [
+                "Pair with the responsible agency's current topic-specific rule and later special law."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 15.647040159319511,
+              "bm25_score": 15.647040159319511,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+              "provision_id": "RA_7394_1992__art_83",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 83",
+              "heading": "Regulations for Price Tag Placement",
+              "display_text": "ART. 83. Regulations for Price Tag Placement. - The concerned department shall prescribe rules and regulations for the visible placement of price tags for specific consumer products and services. There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 284,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 115258,
+                "source_char_end": 115544
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 83. Regulations for Price Tag Placement. - The concerned department shall prescribe rules and regulations for the visible placement of price tags for specific consumer products and services. There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+              "document_title": "Consumer Act of the Philippines",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+              "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+              "domains": [
+                "consumer"
+              ],
+              "supported_topics": [
+                "consumer.price_tags"
+              ],
+              "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "conditions": [
+                "Pair with the responsible agency's current topic-specific rule and later special law."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_013",
+                  "source_document_id": "DTI_DAO_02_1993",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Consumer Act rules",
+                  "effective_or_issue_date": "1993",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Use subject to later topic-specific rules."
+                },
+                {
+                  "relationship_id": "LSR_015",
+                  "source_document_id": "DTI_DAO_20_02",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "governs_complaint_procedure",
+                  "scope": "DTI consumer mediation and adjudication",
+                  "effective_or_issue_date": "2020",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+                  "confidence": "high",
+                  "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+                },
+                {
+                  "relationship_id": "LSR_018",
+                  "source_document_id": "RA_11967_2023",
+                  "target_document_id": "RA_7394_1992",
+                  "target_citation_if_external": "",
+                  "relationship_type": "operates_alongside",
+                  "scope": "Online consumer protection and DTI compliance",
+                  "effective_or_issue_date": "2023-12-05",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+                  "confidence": "high",
+                  "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 13.796162084945607,
+              "bm25_score": 13.796162084945607,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false
+            }
+          ],
+          "evidence_gates": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            }
+          ],
+          "evidence_ready": false
+        }
+      ],
+      "offline_drafting_allowed": false,
+      "all_supported_components_evidence_ready": false,
+      "decision": "insufficient_evidence"
+    }
+  }
+]

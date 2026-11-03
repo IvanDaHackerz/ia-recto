@@ -1,0 +1,35 @@
+{
+  "classifier": "outputs/item10-classifier-v1.5.44",
+  "retrieval": "outputs/item11-retrieval-v1.3.33",
+  "verifier": "outputs/item12-verifier-v1.0.40",
+  "prepared_at_utc": "2026-10-21T15:14:16.461273+00:00",
+  "project_id": "recto-local-ia",
+  "application_version": "2.0.0",
+  "runtime_signature": "6728b34159a0b9183e87184744363b2fec145fb88f7a81d12644ea618962e9a8",
+  "cases_sha256": "bcab548029507c3ec4f1f54246ff4931f99cb9cb118052f96bbcfa78414eae70",
+  "evaluator_sha256": "f7b1087baa713127ab155b867364c70380ea620d795ea27a682375ef7477b95f",
+  "input_forms": 100,
+  "maximum_provider_attempts": 750,
+  "estimated_cost_stop_usd": 0.5,
+  "parallel_workers": 2,
+  "automatic_retries": 0,
+  "provider": "together",
+  "model": "openai/gpt-oss-120b",
+  "normalizer_model": "openai/gpt-oss-120b",
+  "configured_estimate_rates_per_million": {
+    "openai/gpt-oss-120b": [
+      0.15,
+      0.6
+    ],
+    "Qwen/Qwen3.5-9B": [
+      0.17,
+      0.25
+    ]
+  },
+  "role": "AI-authored synthetic development usability test",
+  "independent_human_questions": 0,
+  "legal_accuracy_measured": false,
+  "rejected_drafts": "Saved only in local diagnostic file; never displayed as approved answers",
+  "budget": "Shared replay ledger seeded from first pass; final repair protocol extends the attempt ceiling to 750 while retaining the $0.50 total estimate cap; website limits unchanged; not verified billing",
+  "export": "Frozen fictional questions, accepted wording variants, precise conditional scope suffix, pinned corpus source text"
+}

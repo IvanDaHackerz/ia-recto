@@ -1,0 +1,4227 @@
+{
+  "selected_stack": {
+    "classifier": "outputs/item10-classifier-v1.5.61",
+    "retrieval": "outputs/item11-retrieval-v1.3.51",
+    "verifier": "outputs/item12-verifier-v1.0.58",
+    "local_pipeline_evaluation": "outputs/local-pipeline-evaluation-v1.6.29"
+  },
+  "fresh_manifest": {
+    "created_at_utc": "2026-10-25T08:28:28.948588+00:00",
+    "cases_sha256": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+    "input_forms": 100,
+    "group_counts": {
+      "L": 30,
+      "C": 30,
+      "M": 10,
+      "P_L": 6,
+      "P_C": 6,
+      "P_B": 3,
+      "O": 15
+    },
+    "earlier_input_rows_checked_for_exact_duplicates": 1760,
+    "exact_duplicates": 0,
+    "provenance": "Fresh AI-authored fictional development questions, authored before inference; not human gold.",
+    "sampling": "Purposive coverage, English/Taglish/noisy typing, not random population sampling.",
+    "prior_topic_overlap_expected": true,
+    "semantic_novelty_independently_validated": false
+  },
+  "live_runs": {
+    "first-pass": {
+      "protocol": {
+        "classifier": "outputs/item10-classifier-v1.5.58",
+        "retrieval": "outputs/item11-retrieval-v1.3.49",
+        "verifier": "outputs/item12-verifier-v1.0.56",
+        "prepared_at_utc": "2026-10-25T08:29:02.677231+00:00",
+        "project_id": "recto-local-ia",
+        "application_version": "2.0.0",
+        "runtime_signature": "86b95fb3ac92c3cf8040e85c7e80b062a9732d7f62a455cf8690dd00611612ff",
+        "cases_sha256": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+        "evaluator_sha256": "41c446ba4472f25f61e3c6e36a8845f21c717a361588fa7d34aa504f56c606a5",
+        "input_forms": 100,
+        "maximum_provider_attempts": 400,
+        "estimated_cost_stop_usd": 0.5,
+        "selection_posthoc": false,
+        "parent_cases_sha256": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+        "parallel_workers": 2,
+        "automatic_retries": 0,
+        "provider": "together",
+        "model": "openai/gpt-oss-120b",
+        "normalizer_model": "openai/gpt-oss-120b",
+        "configured_estimate_rates_per_million": {
+          "openai/gpt-oss-120b": [
+            0.15,
+            0.6
+          ],
+          "Qwen/Qwen3.5-9B": [
+            0.17,
+            0.25
+          ]
+        },
+        "role": "AI-authored synthetic development usability test",
+        "independent_human_questions": 0,
+        "legal_accuracy_measured": false,
+        "rejected_drafts": "Saved only in local diagnostic file; never displayed as approved answers",
+        "budget": "Shared cumulative evaluation ledger; 400 attempts and $0.50 total estimate cap. Prior runs remain preserved; website limits unchanged; not verified billing.",
+        "export": "Frozen fictional questions, accepted wording variants, precise conditional scope suffix, pinned corpus source text"
+      },
+      "metrics": {
+        "input_forms": 100,
+        "pending": 0,
+        "successful_packets": 100,
+        "errors": {},
+        "routing_and_retrieval": {
+          "inputs": 100,
+          "families": 100,
+          "primary": {
+            "accuracy": {
+              "numerator": 85,
+              "denominator": 100,
+              "value": 0.85
+            },
+            "macro_f1": 0.8471656680959007,
+            "per_class": {
+              "labor": {
+                "support": 30,
+                "predicted_count": 35,
+                "precision": 0.7714285714285715,
+                "recall": 0.9,
+                "f1": 0.8307692307692308
+              },
+              "consumer": {
+                "support": 30,
+                "predicted_count": 33,
+                "precision": 0.9090909090909091,
+                "recall": 1.0,
+                "f1": 0.9523809523809523
+              },
+              "mixed": {
+                "support": 25,
+                "predicted_count": 18,
+                "precision": 0.9444444444444444,
+                "recall": 0.68,
+                "f1": 0.7906976744186046
+              },
+              "out_of_scope": {
+                "support": 15,
+                "predicted_count": 12,
+                "precision": 0.9166666666666666,
+                "recall": 0.7333333333333333,
+                "f1": 0.8148148148148148
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  27,
+                  1,
+                  0,
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  30,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  6,
+                  1,
+                  17,
+                  0,
+                  1
+                ],
+                [
+                  2,
+                  1,
+                  1,
+                  11,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 2,
+            "confidence_calibration": {
+              "prediction_count": 98,
+              "ece": 0.018406111661567578,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 1,
+                  "mean_label_confidence": 0.3120568774119905,
+                  "observed_label_accuracy": 0.0
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 2,
+                  "mean_label_confidence": 0.583684124345718,
+                  "observed_label_accuracy": 0.5
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 2,
+                  "mean_label_confidence": 0.7545040029660981,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 92,
+                  "mean_label_confidence": 0.8720700820119743,
+                  "observed_label_accuracy": 0.8804347826086957
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 1,
+                  "mean_label_confidence": 0.9361706322359713,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 88,
+              "denominator": 100,
+              "value": 0.88
+            },
+            "macro_f1": 0.8287037037037037,
+            "per_class": {
+              "fully_supported": {
+                "support": 70,
+                "predicted_count": 74,
+                "precision": 0.9054054054054054,
+                "recall": 0.9571428571428572,
+                "f1": 0.9305555555555556
+              },
+              "partially_supported": {
+                "support": 15,
+                "predicted_count": 12,
+                "precision": 0.8333333333333334,
+                "recall": 0.6666666666666666,
+                "f1": 0.7407407407407407
+              },
+              "unsupported": {
+                "support": 15,
+                "predicted_count": 12,
+                "precision": 0.9166666666666666,
+                "recall": 0.7333333333333333,
+                "f1": 0.8148148148148148
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  67,
+                  1,
+                  1,
+                  1
+                ],
+                [
+                  4,
+                  10,
+                  0,
+                  1
+                ],
+                [
+                  3,
+                  1,
+                  11,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 2,
+            "confidence_calibration": {
+              "prediction_count": 98,
+              "ece": 0.07239040970753818,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 1,
+                  "mean_label_confidence": 0.3120568774119905,
+                  "observed_label_accuracy": 0.0
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 2,
+                  "mean_label_confidence": 0.5695968208261508,
+                  "observed_label_accuracy": 0.0
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 1,
+                  "mean_label_confidence": 0.6241137548239809,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 21,
+                  "mean_label_confidence": 0.8730450275596289,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 73,
+                  "mean_label_confidence": 0.9397406707650772,
+                  "observed_label_accuracy": 0.9041095890410958
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": 0.6666666666666666,
+          "out_of_scope_recall": 0.7333333333333333,
+          "route_match": {
+            "numerator": 81,
+            "denominator": 100,
+            "value": 0.81
+          },
+          "domain_match": {
+            "numerator": 83,
+            "denominator": 100,
+            "value": 0.83
+          },
+          "clarification_success": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "unsupported_admission": {
+            "numerator": 3,
+            "denominator": 15,
+            "value": 0.2
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "negative_candidate_leakage": {
+            "numerator": 2,
+            "denominator": 15,
+            "value": 0.13333333333333333
+          },
+          "latency_ms": {
+            "median": 6485.765399999991,
+            "p95": 18542.96625999983
+          },
+          "cases_with_issues": 21,
+          "issue_counts": {
+            "primary_label_mismatch_or_abstention": 15,
+            "supported_domain_coverage_mismatch": 17,
+            "routing_mismatch": 19,
+            "scope_label_mismatch_or_abstention": 12,
+            "negative_candidate_leak": 2
+          }
+        },
+        "classification_or_route_failure_ids": [
+          "PH5_013",
+          "PH5_014",
+          "PH5_019",
+          "PH5_022",
+          "PH5_025",
+          "PH5_063",
+          "PH5_065",
+          "PH5_067",
+          "PH5_068",
+          "PH5_070",
+          "PH5_072",
+          "PH5_074",
+          "PH5_076",
+          "PH5_079",
+          "PH5_083",
+          "PH5_084",
+          "PH5_085",
+          "PH5_087",
+          "PH5_096",
+          "PH5_097",
+          "PH5_100"
+        ],
+        "explanation_status": {
+          "withheld": 41,
+          "generated": 53,
+          "partially_generated": 6
+        },
+        "non_generated_reasons": {
+          "no_supported_explanation": 6,
+          "citation_validation_failed": 6,
+          "supported_concern_required": 20,
+          "source_context_unavailable": 3,
+          "related_authority_missing": 1,
+          "provider_unavailable": 1,
+          "claim_support_failed": 4
+        },
+        "failure_codes": {
+          "provider_incomplete_output": 1
+        },
+        "validation_failures": {
+          "incomplete_concerns": 1,
+          "numeric_detail_not_in_source": 3,
+          "source_qualification_missing": 2
+        },
+        "generated_paragraphs": 71,
+        "generated_without_automated_support": 0,
+        "normalizer_calls": 3,
+        "latency_ms": {
+          "p50": 6484.5000000000255,
+          "p95": 18540.65,
+          "maximum": 22452.999999999975
+        },
+        "usage": {
+          "day_utc": "2026-10-25",
+          "provider_requests": 176,
+          "estimated_usd": 0.1589049,
+          "input_tokens": 623890,
+          "output_tokens": 108869,
+          "maximum_calls": 400,
+          "maximum_estimated_usd": 0.5,
+          "billing_verified": false
+        },
+        "legal_accuracy_measured": false,
+        "independent_human_questions": 0,
+        "runtime_unchanged": true,
+        "limitations": [
+          "Synthetic development questions; not independent human gold.",
+          "Purposive diagnostics include scope boundaries; they are not a population-recall estimate.",
+          "Same-model support acceptance does not establish legal correctness.",
+          "Known-relevant source IDs were not pre-judged; candidate count is not retrieval accuracy."
+        ]
+      },
+      "audit": {
+        "inputs": 100,
+        "integrity": {
+          "candidate_checks": 350,
+          "candidate_failures": 0,
+          "fallback_checks": 23,
+          "fallback_failures": 0,
+          "claim_checks": 71,
+          "claim_gate_failures": 0,
+          "citation_checks": 151,
+          "citation_failures": 0
+        },
+        "routing_issue_ids": [
+          "PH5_013",
+          "PH5_014",
+          "PH5_019",
+          "PH5_022",
+          "PH5_025",
+          "PH5_063",
+          "PH5_065",
+          "PH5_067",
+          "PH5_068",
+          "PH5_070",
+          "PH5_072",
+          "PH5_074",
+          "PH5_076",
+          "PH5_079",
+          "PH5_083",
+          "PH5_084",
+          "PH5_085",
+          "PH5_087",
+          "PH5_096",
+          "PH5_097",
+          "PH5_100"
+        ],
+        "normalization_status": {
+          "bypassed": 97,
+          "clarify": 2,
+          "unchanged": 1
+        },
+        "normalization_failures": {
+          "ambiguous_short_content_replaced": 2
+        },
+        "role": "AI-authored synthetic development diagnostic",
+        "independent_human_questions": 0,
+        "legal_accuracy": null,
+        "frozen_files_intact": true,
+        "groups": {
+          "C": {
+            "n": 30,
+            "topic_correct": 30,
+            "scope_correct": 30,
+            "route_correct": 30,
+            "AI_status": {
+              "generated": 22,
+              "withheld": 5,
+              "partially_generated": 3
+            }
+          },
+          "L": {
+            "n": 30,
+            "topic_correct": 27,
+            "scope_correct": 28,
+            "route_correct": 26,
+            "AI_status": {
+              "withheld": 14,
+              "generated": 15,
+              "partially_generated": 1
+            }
+          },
+          "M": {
+            "n": 10,
+            "topic_correct": 7,
+            "scope_correct": 9,
+            "route_correct": 5,
+            "AI_status": {
+              "generated": 8,
+              "withheld": 2
+            }
+          },
+          "O": {
+            "n": 15,
+            "topic_correct": 11,
+            "scope_correct": 11,
+            "route_correct": 11,
+            "AI_status": {
+              "withheld": 15
+            }
+          },
+          "P_B": {
+            "n": 3,
+            "topic_correct": 2,
+            "scope_correct": 2,
+            "route_correct": 2,
+            "AI_status": {
+              "generated": 3
+            }
+          },
+          "P_C": {
+            "n": 6,
+            "topic_correct": 4,
+            "scope_correct": 4,
+            "route_correct": 4,
+            "AI_status": {
+              "partially_generated": 2,
+              "withheld": 3,
+              "generated": 1
+            }
+          },
+          "P_L": {
+            "n": 6,
+            "topic_correct": 4,
+            "scope_correct": 4,
+            "route_correct": 3,
+            "AI_status": {
+              "generated": 4,
+              "withheld": 2
+            }
+          }
+        }
+      }
+    },
+    "second-pass": {
+      "protocol": {
+        "classifier": "outputs/item10-classifier-v1.5.60",
+        "retrieval": "outputs/item11-retrieval-v1.3.50",
+        "verifier": "outputs/item12-verifier-v1.0.57",
+        "prepared_at_utc": "2026-10-25T08:54:05.675166+00:00",
+        "project_id": "recto-local-ia",
+        "application_version": "2.0.0",
+        "runtime_signature": "77439f418d94d75d8a158dc106609aef5c8f2bcd1531590c2c0c6c75295a7693",
+        "cases_sha256": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+        "evaluator_sha256": "41c446ba4472f25f61e3c6e36a8845f21c717a361588fa7d34aa504f56c606a5",
+        "input_forms": 100,
+        "maximum_provider_attempts": 400,
+        "estimated_cost_stop_usd": 0.5,
+        "selection_posthoc": false,
+        "parent_cases_sha256": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+        "parallel_workers": 2,
+        "automatic_retries": 0,
+        "provider": "together",
+        "model": "openai/gpt-oss-120b",
+        "normalizer_model": "openai/gpt-oss-120b",
+        "configured_estimate_rates_per_million": {
+          "openai/gpt-oss-120b": [
+            0.15,
+            0.6
+          ],
+          "Qwen/Qwen3.5-9B": [
+            0.17,
+            0.25
+          ]
+        },
+        "role": "AI-authored synthetic development usability test",
+        "independent_human_questions": 0,
+        "legal_accuracy_measured": false,
+        "rejected_drafts": "Saved only in local diagnostic file; never displayed as approved answers",
+        "budget": "Shared cumulative evaluation ledger; 400 attempts and $0.50 total estimate cap. Prior runs remain preserved; website limits unchanged; not verified billing.",
+        "export": "Frozen fictional questions, accepted wording variants, precise conditional scope suffix, pinned corpus source text"
+      },
+      "metrics": {
+        "input_forms": 100,
+        "pending": 0,
+        "successful_packets": 100,
+        "errors": {},
+        "routing_and_retrieval": {
+          "inputs": 100,
+          "families": 100,
+          "primary": {
+            "accuracy": {
+              "numerator": 100,
+              "denominator": 100,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "labor": {
+                "support": 30,
+                "predicted_count": 30,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "consumer": {
+                "support": 30,
+                "predicted_count": 30,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "mixed": {
+                "support": 25,
+                "predicted_count": 25,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "out_of_scope": {
+                "support": 15,
+                "predicted_count": 15,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  30,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  25,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  15,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 100,
+              "ece": 0.12750172326341927,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 97,
+                  "mean_label_confidence": 0.870583325102757,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 3,
+                  "mean_label_confidence": 0.9344150462302131,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 100,
+              "denominator": 100,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "fully_supported": {
+                "support": 70,
+                "predicted_count": 70,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "partially_supported": {
+                "support": 15,
+                "predicted_count": 15,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "unsupported": {
+                "support": 15,
+                "predicted_count": 15,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  70,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  15,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  15,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 100,
+              "ece": 0.08661657523872002,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 3,
+                  "mean_label_confidence": 0.6229433641534754,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 27,
+                  "mean_label_confidence": 0.8710335830832655,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 70,
+                  "mean_label_confidence": 0.9421657948631343,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": 1.0,
+          "out_of_scope_recall": 1.0,
+          "route_match": {
+            "numerator": 100,
+            "denominator": 100,
+            "value": 1.0
+          },
+          "domain_match": {
+            "numerator": 100,
+            "denominator": 100,
+            "value": 1.0
+          },
+          "clarification_success": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "unsupported_admission": {
+            "numerator": 0,
+            "denominator": 15,
+            "value": 0.0
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "negative_candidate_leakage": {
+            "numerator": 0,
+            "denominator": 15,
+            "value": 0.0
+          },
+          "latency_ms": {
+            "median": 7596.245799999906,
+            "p95": 19272.324914999965
+          },
+          "cases_with_issues": 0,
+          "issue_counts": {}
+        },
+        "classification_or_route_failure_ids": [],
+        "explanation_status": {
+          "withheld": 32,
+          "generated": 59,
+          "partially_generated": 9
+        },
+        "non_generated_reasons": {
+          "no_supported_explanation": 3,
+          "claim_support_failed": 2,
+          "citation_validation_failed": 6,
+          "source_context_unavailable": 4,
+          "related_authority_missing": 1,
+          "provider_unavailable": 1,
+          "supported_concern_required": 15
+        },
+        "failure_codes": {
+          "provider_incomplete_output": 1
+        },
+        "validation_failures": {
+          "source_qualification_missing": 3,
+          "citation_locator_not_cited_source": 2,
+          "numeric_detail_not_in_source": 1
+        },
+        "generated_paragraphs": 78,
+        "generated_without_automated_support": 0,
+        "normalizer_calls": 0,
+        "latency_ms": {
+          "p50": 7593.499999999949,
+          "p95": 19270.14999999996,
+          "maximum": 27608.999999999924
+        },
+        "usage": {
+          "day_utc": "2026-10-25",
+          "provider_requests": 362,
+          "estimated_usd": 0.3223938,
+          "input_tokens": 1244548,
+          "output_tokens": 226186,
+          "maximum_calls": 400,
+          "maximum_estimated_usd": 0.5,
+          "billing_verified": false
+        },
+        "legal_accuracy_measured": false,
+        "independent_human_questions": 0,
+        "runtime_unchanged": true,
+        "limitations": [
+          "Synthetic development questions; not independent human gold.",
+          "Purposive diagnostics include scope boundaries; they are not a population-recall estimate.",
+          "Same-model support acceptance does not establish legal correctness.",
+          "Known-relevant source IDs were not pre-judged; candidate count is not retrieval accuracy."
+        ]
+      },
+      "audit": {
+        "inputs": 100,
+        "integrity": {
+          "candidate_checks": 315,
+          "candidate_failures": 0,
+          "fallback_checks": 13,
+          "fallback_failures": 0,
+          "claim_checks": 78,
+          "claim_gate_failures": 0,
+          "citation_checks": 171,
+          "citation_failures": 0
+        },
+        "routing_issue_ids": [],
+        "normalization_status": {
+          "bypassed": 100
+        },
+        "normalization_failures": {},
+        "role": "AI-authored synthetic development diagnostic",
+        "independent_human_questions": 0,
+        "legal_accuracy": null,
+        "frozen_files_intact": true,
+        "groups": {
+          "C": {
+            "n": 30,
+            "topic_correct": 30,
+            "scope_correct": 30,
+            "route_correct": 30,
+            "AI_status": {
+              "generated": 22,
+              "withheld": 3,
+              "partially_generated": 5
+            }
+          },
+          "L": {
+            "n": 30,
+            "topic_correct": 30,
+            "scope_correct": 30,
+            "route_correct": 30,
+            "AI_status": {
+              "withheld": 10,
+              "generated": 20
+            }
+          },
+          "M": {
+            "n": 10,
+            "topic_correct": 10,
+            "scope_correct": 10,
+            "route_correct": 10,
+            "AI_status": {
+              "generated": 6,
+              "partially_generated": 4
+            }
+          },
+          "O": {
+            "n": 15,
+            "topic_correct": 15,
+            "scope_correct": 15,
+            "route_correct": 15,
+            "AI_status": {
+              "withheld": 15
+            }
+          },
+          "P_B": {
+            "n": 3,
+            "topic_correct": 3,
+            "scope_correct": 3,
+            "route_correct": 3,
+            "AI_status": {
+              "generated": 3
+            }
+          },
+          "P_C": {
+            "n": 6,
+            "topic_correct": 6,
+            "scope_correct": 6,
+            "route_correct": 6,
+            "AI_status": {
+              "generated": 4,
+              "withheld": 2
+            }
+          },
+          "P_L": {
+            "n": 6,
+            "topic_correct": 6,
+            "scope_correct": 6,
+            "route_correct": 6,
+            "AI_status": {
+              "generated": 4,
+              "withheld": 2
+            }
+          }
+        }
+      }
+    },
+    "final-check": {
+      "protocol": {
+        "classifier": "outputs/item10-classifier-v1.5.61",
+        "retrieval": "outputs/item11-retrieval-v1.3.51",
+        "verifier": "outputs/item12-verifier-v1.0.58",
+        "prepared_at_utc": "2026-10-25T09:12:24.561016+00:00",
+        "project_id": "recto-local-ia",
+        "application_version": "2.0.0",
+        "runtime_signature": "95aac9d91745c7179178b28e7de964ee92235a09c9c94340ad49712c0b640a0f",
+        "cases_sha256": "84c6aacfd30727a05da6045d7a6089038d8a9fb7ac7d74a4ec524183c1088d29",
+        "evaluator_sha256": "41c446ba4472f25f61e3c6e36a8845f21c717a361588fa7d34aa504f56c606a5",
+        "input_forms": 17,
+        "maximum_provider_attempts": 400,
+        "estimated_cost_stop_usd": 0.5,
+        "selection_posthoc": true,
+        "parent_cases_sha256": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+        "parallel_workers": 2,
+        "automatic_retries": 0,
+        "provider": "together",
+        "model": "openai/gpt-oss-120b",
+        "normalizer_model": "openai/gpt-oss-120b",
+        "configured_estimate_rates_per_million": {
+          "openai/gpt-oss-120b": [
+            0.15,
+            0.6
+          ],
+          "Qwen/Qwen3.5-9B": [
+            0.17,
+            0.25
+          ]
+        },
+        "role": "AI-authored synthetic development usability test",
+        "independent_human_questions": 0,
+        "legal_accuracy_measured": false,
+        "rejected_drafts": "Saved only in local diagnostic file; never displayed as approved answers",
+        "budget": "Shared cumulative evaluation ledger; 400 attempts and $0.50 total estimate cap. Prior runs remain preserved; website limits unchanged; not verified billing.",
+        "export": "Frozen fictional questions, accepted wording variants, precise conditional scope suffix, pinned corpus source text"
+      },
+      "metrics": {
+        "input_forms": 17,
+        "pending": 0,
+        "successful_packets": 17,
+        "errors": {},
+        "routing_and_retrieval": {
+          "inputs": 17,
+          "families": 17,
+          "primary": {
+            "accuracy": {
+              "numerator": 17,
+              "denominator": 17,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "labor": {
+                "support": 5,
+                "predicted_count": 5,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "consumer": {
+                "support": 7,
+                "predicted_count": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "mixed": {
+                "support": 2,
+                "predicted_count": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "out_of_scope": {
+                "support": 3,
+                "predicted_count": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  5,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  7,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  2,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  3,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 17,
+              "ece": 0.12986193092469933,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 17,
+                  "mean_label_confidence": 0.8701380690753007,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 17,
+              "denominator": 17,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "fully_supported": {
+                "support": 13,
+                "predicted_count": 13,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "partially_supported": {
+                "support": 1,
+                "predicted_count": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "unsupported": {
+                "support": 3,
+                "predicted_count": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  13,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  3,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 17,
+              "ece": 0.07735759892226891,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 4,
+                  "mean_label_confidence": 0.8702010349039858,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 13,
+                  "mean_label_confidence": 0.9387782060542681,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": 1.0,
+          "out_of_scope_recall": 1.0,
+          "route_match": {
+            "numerator": 17,
+            "denominator": 17,
+            "value": 1.0
+          },
+          "domain_match": {
+            "numerator": 17,
+            "denominator": 17,
+            "value": 1.0
+          },
+          "clarification_success": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "unsupported_admission": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "negative_candidate_leakage": {
+            "numerator": 0,
+            "denominator": 3,
+            "value": 0.0
+          },
+          "latency_ms": {
+            "median": 8398.324100000536,
+            "p95": 18517.611839999696
+          },
+          "cases_with_issues": 0,
+          "issue_counts": {}
+        },
+        "classification_or_route_failure_ids": [],
+        "explanation_status": {
+          "withheld": 9,
+          "generated": 8
+        },
+        "non_generated_reasons": {
+          "source_context_unavailable": 2,
+          "no_supported_explanation": 1,
+          "claim_support_failed": 2,
+          "citation_validation_failed": 1,
+          "supported_concern_required": 3
+        },
+        "failure_codes": {},
+        "validation_failures": {
+          "numeric_detail_not_in_source": 1
+        },
+        "generated_paragraphs": 9,
+        "generated_without_automated_support": 0,
+        "normalizer_calls": 0,
+        "latency_ms": {
+          "p50": 8391.000000000531,
+          "p95": 18525.599999999755,
+          "maximum": 23688.000000000102
+        },
+        "usage": {
+          "day_utc": "2026-10-25",
+          "provider_requests": 395,
+          "estimated_usd": 0.3515559,
+          "input_tokens": 1350130,
+          "output_tokens": 248394,
+          "maximum_calls": 400,
+          "maximum_estimated_usd": 0.5,
+          "billing_verified": false
+        },
+        "legal_accuracy_measured": false,
+        "independent_human_questions": 0,
+        "runtime_unchanged": true,
+        "limitations": [
+          "Synthetic development questions; not independent human gold.",
+          "Purposive diagnostics include scope boundaries; they are not a population-recall estimate.",
+          "Same-model support acceptance does not establish legal correctness.",
+          "Known-relevant source IDs were not pre-judged; candidate count is not retrieval accuracy."
+        ]
+      },
+      "audit": {
+        "inputs": 17,
+        "integrity": {
+          "candidate_checks": 45,
+          "candidate_failures": 0,
+          "claim_checks": 9,
+          "claim_gate_failures": 0,
+          "citation_checks": 24,
+          "citation_failures": 0,
+          "fallback_checks": 4,
+          "fallback_failures": 0
+        },
+        "routing_issue_ids": [],
+        "normalization_status": {
+          "bypassed": 17
+        },
+        "normalization_failures": {},
+        "role": "AI-authored synthetic development diagnostic",
+        "independent_human_questions": 0,
+        "legal_accuracy": null,
+        "frozen_files_intact": true,
+        "groups": {
+          "C": {
+            "n": 7,
+            "topic_correct": 7,
+            "scope_correct": 7,
+            "route_correct": 7,
+            "AI_status": {
+              "withheld": 3,
+              "generated": 4
+            }
+          },
+          "L": {
+            "n": 5,
+            "topic_correct": 5,
+            "scope_correct": 5,
+            "route_correct": 5,
+            "AI_status": {
+              "withheld": 3,
+              "generated": 2
+            }
+          },
+          "M": {
+            "n": 1,
+            "topic_correct": 1,
+            "scope_correct": 1,
+            "route_correct": 1,
+            "AI_status": {
+              "generated": 1
+            }
+          },
+          "O": {
+            "n": 3,
+            "topic_correct": 3,
+            "scope_correct": 3,
+            "route_correct": 3,
+            "AI_status": {
+              "withheld": 3
+            }
+          },
+          "P_L": {
+            "n": 1,
+            "topic_correct": 1,
+            "scope_correct": 1,
+            "route_correct": 1,
+            "AI_status": {
+              "generated": 1
+            }
+          }
+        }
+      }
+    },
+    "closure-check": {
+      "protocol": {
+        "classifier": "outputs/item10-classifier-v1.5.61",
+        "retrieval": "outputs/item11-retrieval-v1.3.51",
+        "verifier": "outputs/item12-verifier-v1.0.58",
+        "prepared_at_utc": "2026-10-25T09:18:20.369651+00:00",
+        "project_id": "recto-local-ia",
+        "application_version": "2.0.0",
+        "runtime_signature": "07a0c4a2071af6514c04cb5046eefcf0c3548b9b3177a85bfd278f72124071ea",
+        "cases_sha256": "b3b3558119a15aeb28c50c49fc7f79f5513d8668e512c646587c75f6bea01885",
+        "evaluator_sha256": "41c446ba4472f25f61e3c6e36a8845f21c717a361588fa7d34aa504f56c606a5",
+        "input_forms": 1,
+        "maximum_provider_attempts": 400,
+        "estimated_cost_stop_usd": 0.5,
+        "selection_posthoc": true,
+        "parent_cases_sha256": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+        "parallel_workers": 2,
+        "automatic_retries": 0,
+        "provider": "together",
+        "model": "openai/gpt-oss-120b",
+        "normalizer_model": "openai/gpt-oss-120b",
+        "configured_estimate_rates_per_million": {
+          "openai/gpt-oss-120b": [
+            0.15,
+            0.6
+          ],
+          "Qwen/Qwen3.5-9B": [
+            0.17,
+            0.25
+          ]
+        },
+        "role": "AI-authored synthetic development usability test",
+        "independent_human_questions": 0,
+        "legal_accuracy_measured": false,
+        "rejected_drafts": "Saved only in local diagnostic file; never displayed as approved answers",
+        "budget": "Shared cumulative evaluation ledger; 400 attempts and $0.50 total estimate cap. Prior runs remain preserved; website limits unchanged; not verified billing.",
+        "export": "Frozen fictional questions, accepted wording variants, precise conditional scope suffix, pinned corpus source text"
+      },
+      "metrics": {
+        "input_forms": 1,
+        "pending": 0,
+        "successful_packets": 1,
+        "errors": {},
+        "routing_and_retrieval": {
+          "inputs": 1,
+          "families": 1,
+          "primary": {
+            "accuracy": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "labor": {
+                "support": 1,
+                "predicted_count": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "consumer": {
+                "support": 0,
+                "predicted_count": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": null
+              },
+              "mixed": {
+                "support": 0,
+                "predicted_count": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": null
+              },
+              "out_of_scope": {
+                "support": 0,
+                "predicted_count": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": null
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 1,
+              "ece": 0.13086938418365934,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 1,
+                  "mean_label_confidence": 0.8691306158163407,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 1,
+              "denominator": 1,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "fully_supported": {
+                "support": 1,
+                "predicted_count": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "partially_supported": {
+                "support": 0,
+                "predicted_count": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": null
+              },
+              "unsupported": {
+                "support": 0,
+                "predicted_count": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": null
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 1,
+              "ece": 0.06558495376978679,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 1,
+                  "mean_label_confidence": 0.9344150462302132,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": null,
+          "out_of_scope_recall": null,
+          "route_match": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "domain_match": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "clarification_success": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "unsupported_admission": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "negative_candidate_leakage": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "latency_ms": {
+            "median": 11280.899899999895,
+            "p95": 11280.899899999895
+          },
+          "cases_with_issues": 0,
+          "issue_counts": {}
+        },
+        "classification_or_route_failure_ids": [],
+        "explanation_status": {
+          "generated": 1
+        },
+        "non_generated_reasons": {},
+        "failure_codes": {},
+        "validation_failures": {},
+        "generated_paragraphs": 1,
+        "generated_without_automated_support": 0,
+        "normalizer_calls": 0,
+        "latency_ms": {
+          "p50": 11280.999999999949,
+          "p95": 11280.999999999949,
+          "maximum": 11280.999999999949
+        },
+        "usage": {
+          "day_utc": "2026-10-25",
+          "provider_requests": 398,
+          "estimated_usd": 0.3535893,
+          "input_tokens": 1358046,
+          "output_tokens": 249804,
+          "maximum_calls": 400,
+          "maximum_estimated_usd": 0.5,
+          "billing_verified": false
+        },
+        "legal_accuracy_measured": false,
+        "independent_human_questions": 0,
+        "runtime_unchanged": true,
+        "limitations": [
+          "Synthetic development questions; not independent human gold.",
+          "Purposive diagnostics include scope boundaries; they are not a population-recall estimate.",
+          "Same-model support acceptance does not establish legal correctness.",
+          "Known-relevant source IDs were not pre-judged; candidate count is not retrieval accuracy."
+        ]
+      },
+      "audit": {
+        "inputs": 1,
+        "integrity": {
+          "candidate_checks": 1,
+          "candidate_failures": 0,
+          "claim_checks": 1,
+          "claim_gate_failures": 0,
+          "citation_checks": 3,
+          "citation_failures": 0
+        },
+        "routing_issue_ids": [],
+        "normalization_status": {
+          "bypassed": 1
+        },
+        "normalization_failures": {},
+        "role": "AI-authored synthetic development diagnostic",
+        "independent_human_questions": 0,
+        "legal_accuracy": null,
+        "frozen_files_intact": true,
+        "groups": {
+          "L": {
+            "n": 1,
+            "topic_correct": 1,
+            "scope_correct": 1,
+            "route_correct": 1,
+            "AI_status": {
+              "generated": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "local_regression": {
+    "version": "local-pipeline-evaluation-v1.6.29",
+    "role": "local_AI_development_pipeline_evaluation",
+    "strata": {
+      "all": {
+        "baseline": {
+          "inputs": 436,
+          "families": 171,
+          "primary": {
+            "accuracy": {
+              "numerator": 425,
+              "denominator": 425,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "labor": {
+                "support": 91,
+                "predicted_count": 91,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "consumer": {
+                "support": 86,
+                "predicted_count": 86,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "mixed": {
+                "support": 168,
+                "predicted_count": 168,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "out_of_scope": {
+                "support": 80,
+                "predicted_count": 80,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  91,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  86,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  168,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  80,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 425,
+              "ece": 0.1283358768954055,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 425,
+                  "mean_label_confidence": 0.8716641231045945,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 425,
+              "denominator": 425,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "fully_supported": {
+                "support": 210,
+                "predicted_count": 210,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "partially_supported": {
+                "support": 135,
+                "predicted_count": 135,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "unsupported": {
+                "support": 80,
+                "predicted_count": 80,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  210,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  135,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  80,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 425,
+              "ece": 0.09330796959259685,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 215,
+                  "mean_label_confidence": 0.8717412189818666,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 210,
+                  "mean_label_confidence": 0.9424750040097382,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": 1.0,
+          "out_of_scope_recall": 1.0,
+          "route_match": {
+            "numerator": 432,
+            "denominator": 436,
+            "value": 0.9908256880733946
+          },
+          "domain_match": {
+            "numerator": 432,
+            "denominator": 436,
+            "value": 0.9908256880733946
+          },
+          "clarification_success": {
+            "numerator": 7,
+            "denominator": 11,
+            "value": 0.6363636363636364
+          },
+          "unsupported_admission": {
+            "numerator": 0,
+            "denominator": 80,
+            "value": 0.0
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 70,
+            "denominator": 93,
+            "value": 0.7526881720430108
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 93,
+            "denominator": 93,
+            "value": 1.0
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 81.5,
+            "denominator": 93,
+            "value": 0.8763440860215054
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 89.0,
+            "denominator": 93,
+            "value": 0.956989247311828
+          },
+          "negative_candidate_leakage": {
+            "numerator": 0,
+            "denominator": 23,
+            "value": 0.0
+          },
+          "latency_ms": {
+            "median": 238.18430000028457,
+            "p95": 396.50457500010816
+          },
+          "cases_with_issues": 4,
+          "issue_counts": {
+            "routing_mismatch": 4,
+            "supported_domain_coverage_mismatch": 4
+          }
+        }
+      },
+      "clear": {
+        "baseline": {
+          "inputs": 179,
+          "families": 171,
+          "primary": {
+            "accuracy": {
+              "numerator": 173,
+              "denominator": 173,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "labor": {
+                "support": 46,
+                "predicted_count": 46,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "consumer": {
+                "support": 43,
+                "predicted_count": 43,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "mixed": {
+                "support": 44,
+                "predicted_count": 44,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "out_of_scope": {
+                "support": 40,
+                "predicted_count": 40,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  46,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  43,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  44,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  40,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 173,
+              "ece": 0.12949243683710154,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 173,
+                  "mean_label_confidence": 0.8705075631628985,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 173,
+              "denominator": 173,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "fully_supported": {
+                "support": 106,
+                "predicted_count": 106,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "partially_supported": {
+                "support": 27,
+                "predicted_count": 27,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "unsupported": {
+                "support": 40,
+                "predicted_count": 40,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  106,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  27,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  40,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 173,
+              "ece": 0.08504252595847822,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 67,
+                  "mean_label_confidence": 0.8708560674800071,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 106,
+                  "mean_label_confidence": 0.9428328913964414,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": 1.0,
+          "out_of_scope_recall": 1.0,
+          "route_match": {
+            "numerator": 177,
+            "denominator": 179,
+            "value": 0.9888268156424581
+          },
+          "domain_match": {
+            "numerator": 177,
+            "denominator": 179,
+            "value": 0.9888268156424581
+          },
+          "clarification_success": {
+            "numerator": 4,
+            "denominator": 6,
+            "value": 0.6666666666666666
+          },
+          "unsupported_admission": {
+            "numerator": 0,
+            "denominator": 40,
+            "value": 0.0
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 28,
+            "denominator": 44,
+            "value": 0.6363636363636364
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 44,
+            "denominator": 44,
+            "value": 1.0
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 36.0,
+            "denominator": 44,
+            "value": 0.8181818181818182
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 43.5,
+            "denominator": 44,
+            "value": 0.9886363636363636
+          },
+          "negative_candidate_leakage": {
+            "numerator": 0,
+            "denominator": 12,
+            "value": 0.0
+          },
+          "latency_ms": {
+            "median": 235.72020000028715,
+            "p95": 400.6952199998522
+          },
+          "cases_with_issues": 2,
+          "issue_counts": {
+            "routing_mismatch": 2,
+            "supported_domain_coverage_mismatch": 2
+          }
+        }
+      },
+      "noisy": {
+        "baseline": {
+          "inputs": 257,
+          "families": 167,
+          "primary": {
+            "accuracy": {
+              "numerator": 252,
+              "denominator": 252,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "labor": {
+                "support": 45,
+                "predicted_count": 45,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "consumer": {
+                "support": 43,
+                "predicted_count": 43,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "mixed": {
+                "support": 124,
+                "predicted_count": 124,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "out_of_scope": {
+                "support": 40,
+                "predicted_count": 40,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  45,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  43,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  124,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  40,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 252,
+              "ece": 0.12754188931638366,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 252,
+                  "mean_label_confidence": 0.8724581106836163,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 252,
+              "denominator": 252,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "fully_supported": {
+                "support": 104,
+                "predicted_count": 104,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "partially_supported": {
+                "support": 108,
+                "predicted_count": 108,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "unsupported": {
+                "support": 40,
+                "predicted_count": 40,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  104,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  108,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  40,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 252,
+              "ece": 0.0989822622461784,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 148,
+                  "mean_label_confidence": 0.8721419294590599,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 104,
+                  "mean_label_confidence": 0.9421102341732902,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": 1.0,
+          "out_of_scope_recall": 1.0,
+          "route_match": {
+            "numerator": 255,
+            "denominator": 257,
+            "value": 0.9922178988326849
+          },
+          "domain_match": {
+            "numerator": 255,
+            "denominator": 257,
+            "value": 0.9922178988326849
+          },
+          "clarification_success": {
+            "numerator": 3,
+            "denominator": 5,
+            "value": 0.6
+          },
+          "unsupported_admission": {
+            "numerator": 0,
+            "denominator": 40,
+            "value": 0.0
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 42,
+            "denominator": 49,
+            "value": 0.8571428571428571
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 49,
+            "denominator": 49,
+            "value": 1.0
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 45.5,
+            "denominator": 49,
+            "value": 0.9285714285714286
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 45.5,
+            "denominator": 49,
+            "value": 0.9285714285714286
+          },
+          "negative_candidate_leakage": {
+            "numerator": 0,
+            "denominator": 11,
+            "value": 0.0
+          },
+          "latency_ms": {
+            "median": 240.9618000001501,
+            "p95": 391.6416400001253
+          },
+          "cases_with_issues": 2,
+          "issue_counts": {
+            "routing_mismatch": 2,
+            "supported_domain_coverage_mismatch": 2
+          }
+        }
+      },
+      "original_424": {
+        "baseline": {
+          "inputs": 424,
+          "families": 167,
+          "primary": {
+            "accuracy": {
+              "numerator": 414,
+              "denominator": 414,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "labor": {
+                "support": 90,
+                "predicted_count": 90,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "consumer": {
+                "support": 86,
+                "predicted_count": 86,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "mixed": {
+                "support": 158,
+                "predicted_count": 158,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "out_of_scope": {
+                "support": 80,
+                "predicted_count": 80,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  90,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  86,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  158,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  80,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 414,
+              "ece": 0.12847540575250882,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 414,
+                  "mean_label_confidence": 0.8715245942474912,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 414,
+              "denominator": 414,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "fully_supported": {
+                "support": 208,
+                "predicted_count": 208,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "partially_supported": {
+                "support": 126,
+                "predicted_count": 126,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "unsupported": {
+                "support": 80,
+                "predicted_count": 80,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  208,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  126,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  80,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 414,
+              "ece": 0.09285543206891077,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 206,
+                  "mean_label_confidence": 0.8716682109300926,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 208,
+                  "mean_label_confidence": 0.9422798061147686,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": 1.0,
+          "out_of_scope_recall": 1.0,
+          "route_match": {
+            "numerator": 420,
+            "denominator": 424,
+            "value": 0.9905660377358491
+          },
+          "domain_match": {
+            "numerator": 420,
+            "denominator": 424,
+            "value": 0.9905660377358491
+          },
+          "clarification_success": {
+            "numerator": 6,
+            "denominator": 10,
+            "value": 0.6
+          },
+          "unsupported_admission": {
+            "numerator": 0,
+            "denominator": 80,
+            "value": 0.0
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 70,
+            "denominator": 83,
+            "value": 0.8433734939759037
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 83,
+            "denominator": 83,
+            "value": 1.0
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 76.5,
+            "denominator": 83,
+            "value": 0.9216867469879518
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 79.0,
+            "denominator": 83,
+            "value": 0.9518072289156626
+          },
+          "negative_candidate_leakage": {
+            "numerator": 0,
+            "denominator": 22,
+            "value": 0.0
+          },
+          "latency_ms": {
+            "median": 239.17224999968312,
+            "p95": 398.9813149999462
+          },
+          "cases_with_issues": 4,
+          "issue_counts": {
+            "routing_mismatch": 4,
+            "supported_domain_coverage_mismatch": 4
+          }
+        }
+      },
+      "joined_regressions": {
+        "baseline": {
+          "inputs": 12,
+          "families": 4,
+          "primary": {
+            "accuracy": {
+              "numerator": 11,
+              "denominator": 11,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "labor": {
+                "support": 1,
+                "predicted_count": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "consumer": {
+                "support": 0,
+                "predicted_count": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": null
+              },
+              "mixed": {
+                "support": 10,
+                "predicted_count": 10,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "out_of_scope": {
+                "support": 0,
+                "predicted_count": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": null
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope"
+              ],
+              "predicted_columns": [
+                "labor",
+                "consumer",
+                "mixed",
+                "out_of_scope",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  10,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 11,
+              "ece": 0.12308451809169453,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 11,
+                  "mean_label_confidence": 0.8769154819083055,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "scope": {
+            "accuracy": {
+              "numerator": 11,
+              "denominator": 11,
+              "value": 1.0
+            },
+            "macro_f1": 1.0,
+            "per_class": {
+              "fully_supported": {
+                "support": 2,
+                "predicted_count": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "partially_supported": {
+                "support": 9,
+                "predicted_count": 9,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+              },
+              "unsupported": {
+                "support": 0,
+                "predicted_count": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": null
+              }
+            },
+            "confusion": {
+              "true_rows": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported"
+              ],
+              "predicted_columns": [
+                "fully_supported",
+                "partially_supported",
+                "unsupported",
+                "__abstain__"
+              ],
+              "counts": [
+                [
+                  2,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  9,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              ]
+            },
+            "abstentions": 0,
+            "confidence_calibration": {
+              "prediction_count": 11,
+              "ece": 0.11033983639314292,
+              "bins": [
+                {
+                  "lower": 0.0,
+                  "upper": 0.1,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.1,
+                  "upper": 0.2,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.2,
+                  "upper": 0.3,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.3,
+                  "upper": 0.4,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.4,
+                  "upper": 0.5,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.5,
+                  "upper": 0.6,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.6,
+                  "upper": 0.7,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.7,
+                  "upper": 0.8,
+                  "count": 0,
+                  "mean_label_confidence": null,
+                  "observed_label_accuracy": null
+                },
+                {
+                  "lower": 0.8,
+                  "upper": 0.9,
+                  "count": 9,
+                  "mean_label_confidence": 0.8734122921669212,
+                  "observed_label_accuracy": 1.0
+                },
+                {
+                  "lower": 0.9,
+                  "upper": 1.0,
+                  "count": 2,
+                  "mean_label_confidence": 0.9627755850865687,
+                  "observed_label_accuracy": 1.0
+                }
+              ],
+              "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+            }
+          },
+          "partial_support_recall": 1.0,
+          "out_of_scope_recall": null,
+          "route_match": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "domain_match": {
+            "numerator": 12,
+            "denominator": 12,
+            "value": 1.0
+          },
+          "clarification_success": {
+            "numerator": 1,
+            "denominator": 1,
+            "value": 1.0
+          },
+          "unsupported_admission": {
+            "numerator": 0,
+            "denominator": 0,
+            "value": null
+          },
+          "known_relevant_hit_at_1": {
+            "numerator": 0,
+            "denominator": 10,
+            "value": 0.0
+          },
+          "known_relevant_hit_at_5": {
+            "numerator": 10,
+            "denominator": 10,
+            "value": 1.0
+          },
+          "known_relevant_mrr_at_5": {
+            "numerator": 5.0,
+            "denominator": 10,
+            "value": 0.5
+          },
+          "known_relevant_recall_at_5": {
+            "numerator": 10.0,
+            "denominator": 10,
+            "value": 1.0
+          },
+          "negative_candidate_leakage": {
+            "numerator": 0,
+            "denominator": 1,
+            "value": 0.0
+          },
+          "latency_ms": {
+            "median": 233.7825000004159,
+            "p95": 250.32005999964895
+          },
+          "cases_with_issues": 0,
+          "issue_counts": {}
+        }
+      }
+    },
+    "counts": {
+      "input_forms": 436,
+      "families": 171,
+      "independent_human_questions": 0
+    },
+    "evidence_checks": {
+      "inputs": 436,
+      "live_permissions_closed": 436,
+      "unreviewed_explanation_withheld": 436,
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 1391,
+      "candidate_integrity_failures": 0,
+      "recorded_excerpt_claims": 412,
+      "recorded_excerpt_claims_passed": 412,
+      "recorded_excerpt_legal_support_claimed": 0
+    },
+    "development_intervals": {
+      "primary_correct": {
+        "low": 1.0,
+        "high": 1.0,
+        "families": 165,
+        "meaning": "Family-cluster bootstrap on inspected AI development data; not independent population confidence."
+      },
+      "scope_correct": {
+        "low": 1.0,
+        "high": 1.0,
+        "families": 165,
+        "meaning": "Family-cluster bootstrap on inspected AI development data; not independent population confidence."
+      },
+      "route_correct": {
+        "low": 0.9761322241381278,
+        "high": 1.0,
+        "families": 171,
+        "meaning": "Family-cluster bootstrap on inspected AI development data; not independent population confidence."
+      },
+      "hit_at_5": {
+        "low": 1.0,
+        "high": 1.0,
+        "families": 36,
+        "meaning": "Family-cluster bootstrap on inspected AI development data; not independent population confidence."
+      }
+    },
+    "llm_calls": 0,
+    "generated_answers_evaluated": 0,
+    "formal_acceptance_completed": false
+  },
+  "backend_tests": {
+    "passed": true,
+    "count": 273
+  },
+  "frontend_tests": {
+    "passed": true,
+    "count": 31
+  },
+  "frontend_build_passed": true,
+  "focused_concern_tests": 36,
+  "browser": {
+    "questions": [
+      {
+        "case_id": "PH5_058",
+        "observation": "Browser tab: 1, Title: \"Recto & Co. Legal\", URL: \"http://127.0.0.1:5173/\".\n0 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/\n\t1 container\n\t\t2 link Description: Skip to main content, Value: 127.0.0.1:5173/#main\n\t\t3 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/\n\t\t4 button (collapsed) Menu, Secondary Actions: Expand\n\t\t5 text Development preview.\n\t\t6 text Live classification, retrieval & AI explanations · source applicability remains under review.\n\t\t7 container main\n\t\t\t43 text Analysis ready. Open references to inspect any retrieved provisions.\n\t\t\t8 container\n\t\t\t\t9 heading Ask about your rights, Value: 1\n\t\t\t\t\t10 text Ask about your rights\n\t\t\t\t11 checkbox Sources (5), Value: 0\n\t\t\t\t44 button New question\n\t\t\t12 container Conversation\n\t\t\t\t45 container Response 1\n\t\t\t\t\t46 text Question \n\t\t\t\t\t47 text 1\n\t\t\t\t\t48 heading Value: 2, nasa shelf 150 ung bottle, sa receipt 175. same brand same size. sabi cashier updated na raw price pero d pa napapalitan tag. ano general rule?\n\t\t\t\t\t\t49 text nasa shelf 150 ung bottle, sa receipt 175. same brand same size. sabi cashier updated na raw price pero d pa napapalitan tag. ano general rule?\n\t\t\t\t\t50 container AI explanation\n\t\t\t\t\t\t51 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t52 text AI explanation\n\t\t\t\t\t\t53 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t54 text Under the Consumer Act, a retailer may not sell a consumer product for more than the price shown on its price tag, label or a nearby price list when a tag is impractical; the displayed price is the price that must be charged, and any alteration of that price indication is prohibited.\n\t\t\t\t\t\t55 container Sources for paragraph 1\n\t\t\t\t\t\t\t56 button Republic Act No. 7394, ART. 81\n\t\t\t\t\t\t\t57 button Republic Act No. 7394, ART. 83\n\t\t\t\t\t58 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t59 text Where to ask for assistance\n\t\t\t\t\t60 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t61 text How this question was checked\n\t\t\t\t\t62 text Retrieved candidates\n\t\t\t\t\t63 button 1 Republic Act No. 7394, ART. 81\n\t\t\t\t\t\t64 text 1\n\t\t\t\t\t\t65 text Republic Act No. 7394, ART. 81\n\t\t\t\t\t66 button 2 Republic Act No. 7394, ART. 83\n\t\t\t\t\t\t67 text 2\n\t\t\t\t\t\t68 text Republic Act No. 7394, ART. 83\n\t\t\t\t\t69 button 3 Republic Act No. 7394, ART. 100\n\t\t\t\t\t\t70 text 3\n\t\t\t\t\t\t71 text Republic Act No. 7394, ART. 100\n\t\t\t\t\t72 button 4 Republic Act No. 7394, ART. 11\n\t\t\t\t\t\t73 text 4\n\t\t\t\t\t\t74 text Republic Act No. 7394, ART. 11\n\t\t\t\t\t75 button 5 Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n\t\t\t\t\t\t76 text 5\n\t\t\t\t\t\t77 text Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n\t\t\t31 container\n\t\t\t\t32 text Try another question\n\t\t\t\t33 text entry area (settable) Try another question, ID: query\n\t\t\t\t34 button (disabled) Ask\n\t\t\t\t35 button (collapsed) AI & saving · AI on · Saving off, Secondary Actions: Expand\n\t\t\t\t\t36 text AI & saving · \n\t\t\t\t\t37 text AI on\n\t\t\t\t\t38 text  · \n\t\t\t\t\t39 text Saving off\n\t\t\t\t40 container query-help\n\t\t\t\t\t41 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. \n\t\t\t\t\t42 link Description: Scope & privacy, Value: 127.0.0.1:5173/about\n\nThe focused UI element is 45 container Response 1"
+      },
+      {
+        "case_id": "PH5_063",
+        "observation": "Browser tab: 1, Title: \"Recto & Co. Legal\", URL: \"http://127.0.0.1:5173/\".\n0 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/\n\t1 container\n\t\t2 link Description: Skip to main content, Value: 127.0.0.1:5173/#main\n\t\t3 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/\n\t\t4 button (collapsed) Menu, Secondary Actions: Expand\n\t\t5 text Development preview.\n\t\t6 text Live classification, retrieval & AI explanations · source applicability remains under review.\n\t\t7 container main\n\t\t\t43 text Analysis ready. Open references to inspect any retrieved provisions.\n\t\t\t8 container\n\t\t\t\t9 heading Ask about your rights, Value: 1\n\t\t\t\t\t10 text Ask about your rights\n\t\t\t\t11 checkbox Sources (10), Value: 0\n\t\t\t\t44 button New question\n\t\t\t45 container Conversation\n\t\t\t\t46 container Response 1\n\t\t\t\t\t47 text Question \n\t\t\t\t\t48 text 1\n\t\t\t\t\t49 heading Value: 2, nasa shelf 150 ung bottle, sa receipt 175. same brand same size. sabi cashier updated na raw price pero d pa napapalitan tag. ano general rule?\n\t\t\t\t\t\t50 text nasa shelf 150 ung bottle, sa receipt 175. same brand same size. sabi cashier updated na raw price pero d pa napapalitan tag. ano general rule?\n\t\t\t\t\t51 container AI explanation\n\t\t\t\t\t\t52 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t53 text AI explanation\n\t\t\t\t\t\t54 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t55 text Under the Consumer Act, a retailer may not sell a consumer product for more than the price shown on its price tag, label or a nearby price list when a tag is impractical; the displayed price is the price that must be charged, and any alteration of that price indication is prohibited.\n\t\t\t\t\t\t56 container Sources for paragraph 1\n\t\t\t\t\t\t\t57 button Republic Act No. 7394, ART. 81\n\t\t\t\t\t\t\t58 button Republic Act No. 7394, ART. 83\n\t\t\t\t\t59 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t60 text Where to ask for assistance\n\t\t\t\t\t61 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t62 text How this question was checked\n\t\t\t\t\t63 text Retrieved candidates\n\t\t\t\t\t64 button 1 Republic Act No. 7394, ART. 81\n\t\t\t\t\t\t65 text 1\n\t\t\t\t\t\t66 text Republic Act No. 7394, ART. 81\n\t\t\t\t\t67 button 2 Republic Act No. 7394, ART. 83\n\t\t\t\t\t\t68 text 2\n\t\t\t\t\t\t69 text Republic Act No. 7394, ART. 83\n\t\t\t\t\t70 button 3 Republic Act No. 7394, ART. 100\n\t\t\t\t\t\t71 text 3\n\t\t\t\t\t\t72 text Republic Act No. 7394, ART. 100\n\t\t\t\t\t73 button 4 Republic Act No. 7394, ART. 11\n\t\t\t\t\t\t74 text 4\n\t\t\t\t\t\t75 text Republic Act No. 7394, ART. 11\n\t\t\t\t\t76 button 5 Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n\t\t\t\t\t\t77 text 5\n\t\t\t\t\t\t78 text Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n\t\t\t\t79 container Response 2\n\t\t\t\t\t80 text Question \n\t\t\t\t\t81 text 2\n\t\t\t\t\t82 heading Value: 2, My private office has not paid wages for six weeks. An unrelated online merchant also sent the wrong model of desk fan. What recorded rules cover the two situations?\n\t\t\t\t\t\t83 text My private office has not paid wages for six weeks. An unrelated online merchant also sent the wrong model of desk fan. What recorded rules cover the two situations?\n\t\t\t\t\t101 container AI explanation\n\t\t\t\t\t\t102 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t103 text AI explanation\n\t\t\t\t\t\t104 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t105 text Wages must be paid at least once every two weeks (or twice a month) and the interval cannot exceed sixteen (16) days; if a force‑majeure event or other circumstance beyond the employer’s control makes payment impossible, the employer must pay the wages immediately after that circumstance ends.\n\t\t\t\t\t\t106 container Sources for paragraph 1\n\t\t\t\t\t\t\t107 button Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t108 text When an online purchase is non‑conforming—such as receiving the wrong model—the consumer may seek repair, replacement, or refund, and if the consumer chooses replacement or refund the merchant may require the return of the original goods at no cost to the consumer, provided the return occurs within a reasonable period.\n\t\t\t\t\t\t109 container Sources for paragraph 2\n\t\t\t\t\t\t\t110 button Republic Act No. 11967, SEC. 20\n\t\t\t\t\t111 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t112 text Where to ask for assistance\n\t\t\t\t\t113 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t114 text How this question was checked\n\t\t\t\t\t115 text Retrieved candidates\n\t\t\t\t\t116 button 1 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t117 text 1\n\t\t\t\t\t\t118 text Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t119 button 2 Omnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n\t\t\t\t\t\t120 text 2\n\t\t\t\t\t\t121 text Omnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n\t\t\t\t\t122 button 3 PD 442, as amended and renumbered, ART. 105\n\t\t\t\t\t\t123 text 3\n\t\t\t\t\t\t124 text PD 442, as amended and renumbered, ART. 105\n\t\t\t\t\t125 button 4 Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t126 text 4\n\t\t\t\t\t\t127 text Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t128 button 5 PD 442, as amended and renumbered, ART. 129\n\t\t\t\t\t\t129 text 5\n\t\t\t\t\t\t130 text PD 442, as amended and renumbered, ART. 129\n\t\t\t\t\t131 button 6 Republic Act No. 11967, SEC. 20\n\t\t\t\t\t\t132 text 6\n\t\t\t\t\t\t133 text Republic Act No. 11967, SEC. 20\n\t\t\t\t\t134 button 7 Joint Administrative Order No. 24-03, Series of 2024, SECTION 37\n\t\t\t\t\t\t135 text 7\n\t\t\t\t\t\t136 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 37\n\t\t\t\t\t137 button 8 Joint Administrative Order No. 24-03, Series of 2024, SECTION 39\n\t\t\t\t\t\t138 text 8\n\t\t\t\t\t\t139 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 39\n\t\t\t\t\t140 button 9 Republic Act No. 11967, SEC. 25\n\t\t\t\t\t\t141 text 9\n\t\t\t\t\t\t142 text Republic Act No. 11967, SEC. 25\n\t\t\t\t\t143 button 10 Joint Administrative Order No. 24-03, Series of 2024, SECTION 35\n\t\t\t\t\t\t144 text 10\n\t\t\t\t\t\t145 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 35\n\t\t\t89 container\n\t\t\t\t90 text Try another question\n\t\t\t\t91 text entry area (settable) Try another question, ID: query\n\t\t\t\t92 button (disabled) Ask\n\t\t\t\t93 button (collapsed) AI & saving · AI on · Saving off, Secondary Actions: Expand\n\t\t\t\t\t94 text AI & saving · \n\t\t\t\t\t95 text AI on\n\t\t\t\t\t96 text  · \n\t\t\t\t\t97 text Saving off\n\t\t\t\t98 container query-help\n\t\t\t\t\t99 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. \n\t\t\t\t\t100 link Description: Scope & privacy, Value: 127.0.0.1:5173/about\n\nThe focused UI element is 79 container Response 2"
+      },
+      {
+        "case_id": "PH5_072",
+        "observation": "Browser tab: 1, Title: \"Recto & Co. Legal\", URL: \"http://127.0.0.1:5173/\".\n0 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/\n\t1 container\n\t\t2 link Description: Skip to main content, Value: 127.0.0.1:5173/#main\n\t\t3 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/\n\t\t4 button (collapsed) Menu, Secondary Actions: Expand\n\t\t5 text Development preview.\n\t\t6 text Live classification, retrieval & AI explanations · source applicability remains under review.\n\t\t7 container main\n\t\t\t43 text Analysis ready. Open references to inspect any retrieved provisions.\n\t\t\t8 container\n\t\t\t\t9 heading Ask about your rights, Value: 1\n\t\t\t\t\t10 text Ask about your rights\n\t\t\t\t11 checkbox Sources (4), Value: 0\n\t\t\t\t44 button New question\n\t\t\t45 container Conversation\n\t\t\t\t46 container Response 1\n\t\t\t\t\t47 text Question \n\t\t\t\t\t48 text 1\n\t\t\t\t\t49 heading Value: 2, nasa shelf 150 ung bottle, sa receipt 175. same brand same size. sabi cashier updated na raw price pero d pa napapalitan tag. ano general rule?\n\t\t\t\t\t\t50 text nasa shelf 150 ung bottle, sa receipt 175. same brand same size. sabi cashier updated na raw price pero d pa napapalitan tag. ano general rule?\n\t\t\t\t\t51 container AI explanation\n\t\t\t\t\t\t52 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t53 text AI explanation\n\t\t\t\t\t\t54 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t55 text Under the Consumer Act, a retailer may not sell a consumer product for more than the price shown on its price tag, label or a nearby price list when a tag is impractical; the displayed price is the price that must be charged, and any alteration of that price indication is prohibited.\n\t\t\t\t\t\t56 container Sources for paragraph 1\n\t\t\t\t\t\t\t57 button Republic Act No. 7394, ART. 81\n\t\t\t\t\t\t\t58 button Republic Act No. 7394, ART. 83\n\t\t\t\t\t59 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t60 text Where to ask for assistance\n\t\t\t\t\t61 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t62 text How this question was checked\n\t\t\t\t\t63 text Retrieved candidates\n\t\t\t\t\t64 button 1 Republic Act No. 7394, ART. 81\n\t\t\t\t\t\t65 text 1\n\t\t\t\t\t\t66 text Republic Act No. 7394, ART. 81\n\t\t\t\t\t67 button 2 Republic Act No. 7394, ART. 83\n\t\t\t\t\t\t68 text 2\n\t\t\t\t\t\t69 text Republic Act No. 7394, ART. 83\n\t\t\t\t\t70 button 3 Republic Act No. 7394, ART. 100\n\t\t\t\t\t\t71 text 3\n\t\t\t\t\t\t72 text Republic Act No. 7394, ART. 100\n\t\t\t\t\t73 button 4 Republic Act No. 7394, ART. 11\n\t\t\t\t\t\t74 text 4\n\t\t\t\t\t\t75 text Republic Act No. 7394, ART. 11\n\t\t\t\t\t76 button 5 Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n\t\t\t\t\t\t77 text 5\n\t\t\t\t\t\t78 text Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n\t\t\t\t79 container Response 2\n\t\t\t\t\t80 text Question \n\t\t\t\t\t81 text 2\n\t\t\t\t\t82 heading Value: 2, My private office has not paid wages for six weeks. An unrelated online merchant also sent the wrong model of desk fan. What recorded rules cover the two situations?\n\t\t\t\t\t\t83 text My private office has not paid wages for six weeks. An unrelated online merchant also sent the wrong model of desk fan. What recorded rules cover the two situations?\n\t\t\t\t\t101 container AI explanation\n\t\t\t\t\t\t102 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t103 text AI explanation\n\t\t\t\t\t\t104 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t105 text Wages must be paid at least once every two weeks (or twice a month) and the interval cannot exceed sixteen (16) days; if a force‑majeure event or other circumstance beyond the employer’s control makes payment impossible, the employer must pay the wages immediately after that circumstance ends.\n\t\t\t\t\t\t106 container Sources for paragraph 1\n\t\t\t\t\t\t\t107 button Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t108 text When an online purchase is non‑conforming—such as receiving the wrong model—the consumer may seek repair, replacement, or refund, and if the consumer chooses replacement or refund the merchant may require the return of the original goods at no cost to the consumer, provided the return occurs within a reasonable period.\n\t\t\t\t\t\t109 container Sources for paragraph 2\n\t\t\t\t\t\t\t110 button Republic Act No. 11967, SEC. 20\n\t\t\t\t\t111 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t112 text Where to ask for assistance\n\t\t\t\t\t113 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t114 text How this question was checked\n\t\t\t\t\t115 text Retrieved candidates\n\t\t\t\t\t116 button 1 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t117 text 1\n\t\t\t\t\t\t118 text Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t119 button 2 Omnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n\t\t\t\t\t\t120 text 2\n\t\t\t\t\t\t121 text Omnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n\t\t\t\t\t122 button 3 PD 442, as amended and renumbered, ART. 105\n\t\t\t\t\t\t123 text 3\n\t\t\t\t\t\t124 text PD 442, as amended and renumbered, ART. 105\n\t\t\t\t\t125 button 4 Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t126 text 4\n\t\t\t\t\t\t127 text Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t128 button 5 PD 442, as amended and renumbered, ART. 129\n\t\t\t\t\t\t129 text 5\n\t\t\t\t\t\t130 text PD 442, as amended and renumbered, ART. 129\n\t\t\t\t\t131 button 6 Republic Act No. 11967, SEC. 20\n\t\t\t\t\t\t132 text 6\n\t\t\t\t\t\t133 text Republic Act No. 11967, SEC. 20\n\t\t\t\t\t134 button 7 Joint Administrative Order No. 24-03, Series of 2024, SECTION 37\n\t\t\t\t\t\t135 text 7\n\t\t\t\t\t\t136 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 37\n\t\t\t\t\t137 button 8 Joint Administrative Order No. 24-03, Series of 2024, SECTION 39\n\t\t\t\t\t\t138 text 8\n\t\t\t\t\t\t139 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 39\n\t\t\t\t\t140 button 9 Republic Act No. 11967, SEC. 25\n\t\t\t\t\t\t141 text 9\n\t\t\t\t\t\t142 text Republic Act No. 11967, SEC. 25\n\t\t\t\t\t143 button 10 Joint Administrative Order No. 24-03, Series of 2024, SECTION 35\n\t\t\t\t\t\t144 text 10\n\t\t\t\t\t\t145 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 35\n\t\t\t\t146 container Response 3\n\t\t\t\t\t147 text Question \n\t\t\t\t\t148 text 3\n\t\t\t\t\t149 heading Value: 2, pribadong warehouse worker aq, di bayad overtime. hiwalay ung away naming magkapatid sa mana ng lupa. alin lang ung kaya ng system?\n\t\t\t\t\t\t150 text pribadong warehouse worker aq, di bayad overtime. hiwalay ung away naming magkapatid sa mana ng lupa. alin lang ung kaya ng system?\n\t\t\t\t\t151 container\n\t\t\t\t\t\t152 heading Concerns outside coverage, Value: 3\n\t\t\t\t\t\t\t153 text Concerns outside coverage\n\t\t\t\t\t\t154 content list\n\t\t\t\t\t\t\t155 text hiwalay ung away naming magkapatid sa mana ng lupa. alin lang ung kaya ng system\n\t\t\t\t\t\t156 text These parts were excluded from retrieval.\n\t\t\t\t\t157 container AI explanation\n\t\t\t\t\t\t158 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t159 text AI explanation\n\t\t\t\t\t\t160 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t161 text For any employee covered by the rule, work that exceeds eight (8) hours on an ordinary working day triggers overtime pay; the employee must receive his regular wage plus at least twenty‑five percent (25%) of that wage for the overtime hours.\n\t\t\t\t\t\t162 container Sources for paragraph 1\n\t\t\t\t\t\t\t163 button Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I\n\t\t\t\t\t\t\t164 button PD 442, as amended and renumbered, ART. 87\n\t\t\t\t\t165 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t166 text Where to ask for assistance\n\t\t\t\t\t167 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t168 text How this question was checked\n\t\t\t\t\t169 text Retrieved candidates\n\t\t\t\t\t170 button 1 Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I\n\t\t\t\t\t\t171 text 1\n\t\t\t\t\t\t172 text Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I\n\t\t\t\t\t173 button 2 PD 442, as amended and renumbered, ART. 87\n\t\t\t\t\t\t174 text 2\n\t\t\t\t\t\t175 text PD 442, as amended and renumbered, ART. 87\n\t\t\t\t\t176 button 3 Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I\n\t\t\t\t\t\t177 text 3\n\t\t\t\t\t\t178 text Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I\n\t\t\t\t\t179 button 4 PD 442, as amended and renumbered, ART. 88\n\t\t\t\t\t\t180 text 4\n\t\t\t\t\t\t181 text PD 442, as amended and renumbered, ART. 88\n\t\t\t89 container\n\t\t\t\t90 text Try another question\n\t\t\t\t91 text entry area (settable) Try another question, ID: query\n\t\t\t\t92 button (disabled) Ask\n\t\t\t\t93 button (collapsed) AI & saving · AI on · Saving off, Secondary Actions: Expand\n\t\t\t\t\t94 text AI & saving · \n\t\t\t\t\t95 text AI on\n\t\t\t\t\t96 text  · \n\t\t\t\t\t97 text Saving off\n\t\t\t\t98 container query-help\n\t\t\t\t\t99 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. \n\t\t\t\t\t100 link Description: Scope & privacy, Value: 127.0.0.1:5173/about\n\nThe focused UI element is 146 container Response 3"
+      },
+      {
+        "case_id": "PH5_086",
+        "observation": "Browser tab: 1, Title: \"Recto & Co. Legal\", URL: \"http://127.0.0.1:5173/\".\n0 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/\n\t1 container\n\t\t2 link Description: Skip to main content, Value: 127.0.0.1:5173/#main\n\t\t3 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/\n\t\t4 button (collapsed) Menu, Secondary Actions: Expand\n\t\t5 text Development preview.\n\t\t6 text Live classification, retrieval & AI explanations · source applicability remains under review.\n\t\t7 container main\n\t\t\t43 text Analysis ready. Open references to inspect any retrieved provisions.\n\t\t\t8 container\n\t\t\t\t9 heading Ask about your rights, Value: 1\n\t\t\t\t\t10 text Ask about your rights\n\t\t\t\t11 checkbox Sources, Value: 0\n\t\t\t\t44 button New question\n\t\t\t45 container Conversation\n\t\t\t\t46 container Response 1\n\t\t\t\t\t47 text Question \n\t\t\t\t\t48 text 1\n\t\t\t\t\t49 heading Value: 2, nasa shelf 150 ung bottle, sa receipt 175. same brand same size. sabi cashier updated na raw price pero d pa napapalitan tag. ano general rule?\n\t\t\t\t\t\t50 text nasa shelf 150 ung bottle, sa receipt 175. same brand same size. sabi cashier updated na raw price pero d pa napapalitan tag. ano general rule?\n\t\t\t\t\t51 container AI explanation\n\t\t\t\t\t\t52 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t53 text AI explanation\n\t\t\t\t\t\t54 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t55 text Under the Consumer Act, a retailer may not sell a consumer product for more than the price shown on its price tag, label or a nearby price list when a tag is impractical; the displayed price is the price that must be charged, and any alteration of that price indication is prohibited.\n\t\t\t\t\t\t56 container Sources for paragraph 1\n\t\t\t\t\t\t\t57 button Republic Act No. 7394, ART. 81\n\t\t\t\t\t\t\t58 button Republic Act No. 7394, ART. 83\n\t\t\t\t\t59 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t60 text Where to ask for assistance\n\t\t\t\t\t61 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t62 text How this question was checked\n\t\t\t\t\t63 text Retrieved candidates\n\t\t\t\t\t64 button 1 Republic Act No. 7394, ART. 81\n\t\t\t\t\t\t65 text 1\n\t\t\t\t\t\t66 text Republic Act No. 7394, ART. 81\n\t\t\t\t\t67 button 2 Republic Act No. 7394, ART. 83\n\t\t\t\t\t\t68 text 2\n\t\t\t\t\t\t69 text Republic Act No. 7394, ART. 83\n\t\t\t\t\t70 button 3 Republic Act No. 7394, ART. 100\n\t\t\t\t\t\t71 text 3\n\t\t\t\t\t\t72 text Republic Act No. 7394, ART. 100\n\t\t\t\t\t73 button 4 Republic Act No. 7394, ART. 11\n\t\t\t\t\t\t74 text 4\n\t\t\t\t\t\t75 text Republic Act No. 7394, ART. 11\n\t\t\t\t\t76 button 5 Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n\t\t\t\t\t\t77 text 5\n\t\t\t\t\t\t78 text Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n\t\t\t\t79 container Response 2\n\t\t\t\t\t80 text Question \n\t\t\t\t\t81 text 2\n\t\t\t\t\t82 heading Value: 2, My private office has not paid wages for six weeks. An unrelated online merchant also sent the wrong model of desk fan. What recorded rules cover the two situations?\n\t\t\t\t\t\t83 text My private office has not paid wages for six weeks. An unrelated online merchant also sent the wrong model of desk fan. What recorded rules cover the two situations?\n\t\t\t\t\t101 container AI explanation\n\t\t\t\t\t\t102 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t103 text AI explanation\n\t\t\t\t\t\t104 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t105 text Wages must be paid at least once every two weeks (or twice a month) and the interval cannot exceed sixteen (16) days; if a force‑majeure event or other circumstance beyond the employer’s control makes payment impossible, the employer must pay the wages immediately after that circumstance ends.\n\t\t\t\t\t\t106 container Sources for paragraph 1\n\t\t\t\t\t\t\t107 button Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t108 text When an online purchase is non‑conforming—such as receiving the wrong model—the consumer may seek repair, replacement, or refund, and if the consumer chooses replacement or refund the merchant may require the return of the original goods at no cost to the consumer, provided the return occurs within a reasonable period.\n\t\t\t\t\t\t109 container Sources for paragraph 2\n\t\t\t\t\t\t\t110 button Republic Act No. 11967, SEC. 20\n\t\t\t\t\t111 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t112 text Where to ask for assistance\n\t\t\t\t\t113 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t114 text How this question was checked\n\t\t\t\t\t115 text Retrieved candidates\n\t\t\t\t\t116 button 1 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t117 text 1\n\t\t\t\t\t\t118 text Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t119 button 2 Omnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n\t\t\t\t\t\t120 text 2\n\t\t\t\t\t\t121 text Omnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n\t\t\t\t\t122 button 3 PD 442, as amended and renumbered, ART. 105\n\t\t\t\t\t\t123 text 3\n\t\t\t\t\t\t124 text PD 442, as amended and renumbered, ART. 105\n\t\t\t\t\t125 button 4 Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t\t126 text 4\n\t\t\t\t\t\t127 text Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII\n\t\t\t\t\t128 button 5 PD 442, as amended and renumbered, ART. 129\n\t\t\t\t\t\t129 text 5\n\t\t\t\t\t\t130 text PD 442, as amended and renumbered, ART. 129\n\t\t\t\t\t131 button 6 Republic Act No. 11967, SEC. 20\n\t\t\t\t\t\t132 text 6\n\t\t\t\t\t\t133 text Republic Act No. 11967, SEC. 20\n\t\t\t\t\t134 button 7 Joint Administrative Order No. 24-03, Series of 2024, SECTION 37\n\t\t\t\t\t\t135 text 7\n\t\t\t\t\t\t136 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 37\n\t\t\t\t\t137 button 8 Joint Administrative Order No. 24-03, Series of 2024, SECTION 39\n\t\t\t\t\t\t138 text 8\n\t\t\t\t\t\t139 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 39\n\t\t\t\t\t140 button 9 Republic Act No. 11967, SEC. 25\n\t\t\t\t\t\t141 text 9\n\t\t\t\t\t\t142 text Republic Act No. 11967, SEC. 25\n\t\t\t\t\t143 button 10 Joint Administrative Order No. 24-03, Series of 2024, SECTION 35\n\t\t\t\t\t\t144 text 10\n\t\t\t\t\t\t145 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 35\n\t\t\t\t146 container Response 3\n\t\t\t\t\t147 text Question \n\t\t\t\t\t148 text 3\n\t\t\t\t\t149 heading Value: 2, pribadong warehouse worker aq, di bayad overtime. hiwalay ung away naming magkapatid sa mana ng lupa. alin lang ung kaya ng system?\n\t\t\t\t\t\t150 text pribadong warehouse worker aq, di bayad overtime. hiwalay ung away naming magkapatid sa mana ng lupa. alin lang ung kaya ng system?\n\t\t\t\t\t151 container\n\t\t\t\t\t\t152 heading Concerns outside coverage, Value: 3\n\t\t\t\t\t\t\t153 text Concerns outside coverage\n\t\t\t\t\t\t154 content list\n\t\t\t\t\t\t\t155 text hiwalay ung away naming magkapatid sa mana ng lupa. alin lang ung kaya ng system\n\t\t\t\t\t\t156 text These parts were excluded from retrieval.\n\t\t\t\t\t157 container AI explanation\n\t\t\t\t\t\t158 heading AI explanation, Value: 3\n\t\t\t\t\t\t\t159 text AI explanation\n\t\t\t\t\t\t160 text Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n\t\t\t\t\t\t161 text For any employee covered by the rule, work that exceeds eight (8) hours on an ordinary working day triggers overtime pay; the employee must receive his regular wage plus at least twenty‑five percent (25%) of that wage for the overtime hours.\n\t\t\t\t\t\t162 container Sources for paragraph 1\n\t\t\t\t\t\t\t163 button Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I\n\t\t\t\t\t\t\t164 button PD 442, as amended and renumbered, ART. 87\n\t\t\t\t\t165 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t166 text Where to ask for assistance\n\t\t\t\t\t167 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t168 text How this question was checked\n\t\t\t\t\t169 text Retrieved candidates\n\t\t\t\t\t170 button 1 Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I\n\t\t\t\t\t\t171 text 1\n\t\t\t\t\t\t172 text Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I\n\t\t\t\t\t173 button 2 PD 442, as amended and renumbered, ART. 87\n\t\t\t\t\t\t174 text 2\n\t\t\t\t\t\t175 text PD 442, as amended and renumbered, ART. 87\n\t\t\t\t\t176 button 3 Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I\n\t\t\t\t\t\t177 text 3\n\t\t\t\t\t\t178 text Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I\n\t\t\t\t\t179 button 4 PD 442, as amended and renumbered, ART. 88\n\t\t\t\t\t\t180 text 4\n\t\t\t\t\t\t181 text PD 442, as amended and renumbered, ART. 88\n\t\t\t\t182 container Response 4\n\t\t\t\t\t183 text Question \n\t\t\t\t\t184 text 4\n\t\t\t\t\t185 heading Value: 2, I work for a provincial government office in the Philippines and want to challenge a civil-service disciplinary suspension. What rules govern my appeal?\n\t\t\t\t\t\t186 text I work for a provincial government office in the Philippines and want to challenge a civil-service disciplinary suspension. What rules govern my appeal?\n\t\t\t\t\t187 container Response\n\t\t\t\t\t\t188 heading Where this concern fits, Value: 3\n\t\t\t\t\t\t\t189 text Where this concern fits\n\t\t\t\t\t\t190 text This concern falls outside this project’s selected private-sector labor and ordinary consumer topics. The classifier is identifying a scope limit; it is not deciding whether you have legal rights or a valid complaint.\n\t\t\t\t\t\t191 text Any assistance contacts listed below are recorded directory entries. Check with the agency about whether it handles your concern.\n\t\t\t\t\t\t192 container\n\t\t\t\t\t\t\t193 text Local response . No live AI explanation was used.\n\t\t\t\t\t194 button (collapsed) Where to ask for assistance, Secondary Actions: Expand\n\t\t\t\t\t\t195 text Where to ask for assistance\n\t\t\t\t\t196 button (collapsed) How this question was checked, Secondary Actions: Expand\n\t\t\t\t\t\t197 text How this question was checked\n\t\t\t89 container\n\t\t\t\t90 text Try another question\n\t\t\t\t91 text entry area (settable) Try another question, ID: query\n\t\t\t\t92 button (disabled) Ask\n\t\t\t\t93 button (collapsed) AI & saving · AI on · Saving off, Secondary Actions: Expand\n\t\t\t\t\t94 text AI & saving · \n\t\t\t\t\t95 text AI on\n\t\t\t\t\t96 text  · \n\t\t\t\t\t97 text Saving off\n\t\t\t\t98 container query-help\n\t\t\t\t\t99 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. \n\t\t\t\t\t100 link Description: Scope & privacy, Value: 127.0.0.1:5173/about\n\nThe focused UI element is 182 container Response 4"
+      }
+    ],
+    "controls": {
+      "ai_on": true,
+      "saving_off": true,
+      "blank_ask_disabled": true,
+      "reference_opens_complete_stored_text": true,
+      "performance_binding": "local-pipeline-evaluation-v1.6.29; classifier61/retrieval51/verifier58"
+    },
+    "website": "http://127.0.0.1:5173/",
+    "performance": "Browser tab: 1, Title: \"Recto & Co. Legal\", URL: \"http://127.0.0.1:5173/performance\".\n0 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/performance\n\t1 container\n\t\t2 link Description: Skip to main content, Value: 127.0.0.1:5173/performance#main\n\t\t3 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/\n\t\t4 button (collapsed) Menu, Secondary Actions: Expand\n\t\t5 text Development preview.\n\t\t6 text Recorded development metrics · independent validation pending.\n\t\t7 container main\n\t\t\t8 container performance-top\n\t\t\t\t9 container\n\t\t\t\t\t10 heading Classifier performance, Value: 1\n\t\t\t\t\t\t11 text Classifier performance\n\t\t\t\t\t12 text How well does it recognize a question? Start with the essentials.\n\t\t\t\t13 container\n\t\t\t\t\t14 text Measured development results.  AI-authored cases used while improving the system. These are not independent human tests or legal-answer accuracy scores.\n\t\t\t\t15 container Performance views\n\t\t\t\t\t16 link Description: Overview, Value: 127.0.0.1:5173/performance\n\t\t\t\t\t17 link Description: Detailed results, Value: 127.0.0.1:5173/performance?view=details\n\t\t\t\t22 container\n\t\t\t\t\t23 text Evaluation\n\t\t\t\t\t24 pop up button (collapsed, settable) Evaluation, Value: Current local evaluation, Secondary Actions: Expand\n\t\t\t\t\t\t25 menu\n\t\t\t\t\t\t\t26 (selected) Current local evaluation\n\t\t\t\t\t\t\t27 Previous LLM comparison\n\t\t\t\t28 container\n\t\t\t\t\t29 text Inputs\n\t\t\t\t\t30 pop up button (collapsed, settable) Inputs, Value: Clear + noisy wording, Secondary Actions: Expand\n\t\t\t\t\t\t31 menu\n\t\t\t\t\t\t\t32 (selected) Clear + noisy wording\n\t\t\t\t\t\t\t33 Clear wording\n\t\t\t\t\t\t\t34 Noisy wording\n\t\t\t\t35 container\n\t\t\t\t\t36 text Language\n\t\t\t\t\t37 pop up button (collapsed, settable) Language, Value: English + Taglish, Secondary Actions: Expand\n\t\t\t\t\t\t38 menu\n\t\t\t\t\t\t\t39 (selected) English + Taglish\n\t\t\t\t\t\t\t40 English\n\t\t\t\t\t\t\t41 Taglish\n\t\t\t\t42 container\n\t\t\t\t\t43 text 436  input forms ·  171  wording families ·  425  labeled ·  11  routing-only. No fresh model calls are made by this page.  Tested path: classifier + retrieval + verifier, with both LLM layers disabled.\n\t\t\t\t44 container How often it gets the labels right\n\t\t\t\t\t45 heading How often it gets the labels right, Value: 2, ID: summary-title\n\t\t\t\t\t\t46 text How often it gets the labels right\n\t\t\t\t\t47 text Measured against recorded expectations, including withheld labels in the denominator.\n\t\t\t\t\t48 definition list\n\t\t\t\t\t\t49 container Recognizing the topic Domain accuracy\n\t\t\t\t\t\t\t50 text Recognizing the topic Domain accuracy\n\t\t\t\t\t\t51 container\n\t\t\t\t\t\t\t52 text 100.0% 425  of  425  labels correct Development results on these selected forms.\n\t\t\t\t\t\t53 container Checking what we cover Scope accuracy\n\t\t\t\t\t\t\t54 text Checking what we cover Scope accuracy\n\t\t\t\t\t\t55 container\n\t\t\t\t\t\t\t56 text 100.0% 425  of  425  labels correct Development results on these selected forms.\n\t\t\t\t\t57 container\n\t\t\t\t\t\t58 text Correct routing:  432 / 436  ( 99.1% ).  0  labeled inputs withheld in this selection; they count as misses.\n\t\t\t\t59 container Check individual questions, ID: performance-questions\n\t\t\t\t\t60 heading Check individual questions, Value: 2, ID: questions-title\n\t\t\t\t\t\t61 text Check individual questions\n\t\t\t\t\t62 text 436  recorded forms\n\t\t\t\t\t63 text See the expected labels, what the model predicted and its confidence. A question is correct or incorrect against its recorded label; F1 describes a set of questions.\n\t\t\t\t\t64 container\n\t\t\t\t\t\t65 text Find a question\n\t\t\t\t\t\t66 search text field (settable) Find a question\n\t\t\t\t\t67 checkbox (settable, integer) Description: Only cases with recorded issues, Value: 0\n\t\t\t\t\t68 button (collapsed) Secondary Actions: Expand, Private employee ako. Ilang oras ang normal na workday bago maging excess hours? IR_01_en_tl__clear · clear · Taglish Labels correct +\n\t\t\t\t\t\t69 text Private employee ako. Ilang oras ang normal na workday bago maging excess hours?\n\t\t\t\t\t\t70 container\n\t\t\t\t\t\t\t71 text IR_01_en_tl__clear  ·  clear  ·  Taglish\n\t\t\t\t\t\t72 text Labels correct\n\t\t\t\t\t\t73 text  +\n\t\t\t\t\t74 button (collapsed) Secondary Actions: Expand, Private emplye ako. Ilng ors ang normal na wrkdy bgo maging excess hours? IR_01_en_tl__noisy · noisy · Taglish Labels correct +\n\t\t\t\t\t\t75 text Private emplye ako. Ilng ors ang normal na wrkdy bgo maging excess hours?\n\t\t\t\t\t\t76 container\n\t\t\t\t\t\t\t77 text IR_01_en_tl__noisy  ·  noisy  ·  Taglish\n\t\t\t\t\t\t78 text Labels correct\n\t\t\t\t\t\t79 text  +\n\t\t\t\t\t80 button (collapsed) Secondary Actions: Expand, Bumili ako ng appliance sa store. Anong details ang dapat nasa written warranty tungkol sa coverage at repair? IR_15_en_tl__clear · clear · Taglish Labels correct +\n\t\t\t\t\t\t81 text Bumili ako ng appliance sa store. Anong details ang dapat nasa written warranty tungkol sa coverage at repair?\n\t\t\t\t\t\t82 container\n\t\t\t\t\t\t\t83 text IR_15_en_tl__clear  ·  clear  ·  Taglish\n\t\t\t\t\t\t84 text Labels correct\n\t\t\t\t\t\t85 text  +\n\t\t\t\t\t86 button (collapsed) Secondary Actions: Expand, Bumile ako ng appleance sa store. Anong details ang dapat nasa writtin warranty tungkol sa coverage at ripair? IR_15_en_tl__noisy · noisy · Taglish Labels correct +\n\t\t\t\t\t\t87 text Bumile ako ng appleance sa store. Anong details ang dapat nasa writtin warranty tungkol sa coverage at ripair?\n\t\t\t\t\t\t88 container\n\t\t\t\t\t\t\t89 text IR_15_en_tl__noisy  ·  noisy  ·  Taglish\n\t\t\t\t\t\t90 text Labels correct\n\t\t\t\t\t\t91 text  +\n\t\t\t\t\t92 button (collapsed) Secondary Actions: Expand, Private employee ako, unpaid ang overtime. Sa shop naman, mas mahal ang singil kaysa price tag. SYS_01_2__clear · clear · Taglish Labels correct +\n\t\t\t\t\t\t93 text Private employee ako, unpaid ang overtime. Sa shop naman, mas mahal ang singil kaysa price tag.\n\t\t\t\t\t\t94 container\n\t\t\t\t\t\t\t95 text SYS_01_2__clear  ·  clear  ·  Taglish\n\t\t\t\t\t\t96 text Labels correct\n\t\t\t\t\t\t97 text  +\n\t\t\t\t\t98 button (collapsed) Secondary Actions: Expand, Privateee employyyee ako, unpaid ang overtime. Sa shop nammman, mas maaahal ang singil kaysa prrrice tag. SYS_01_2__noisy · noisy · Taglish Labels correct +\n\t\t\t\t\t\t99 text Privateee employyyee ako, unpaid ang overtime. Sa shop nammman, mas maaahal ang singil kaysa prrrice tag.\n\t\t\t\t\t\t100 container\n\t\t\t\t\t\t\t101 text SYS_01_2__noisy  ·  noisy  ·  Taglish\n\t\t\t\t\t\t102 text Labels correct\n\t\t\t\t\t\t103 text  +\n\t\t\t\t\t104 button (collapsed) Secondary Actions: Expand, Private employee ako, delayed ang sahod. Hiwalay na concern ko ang seafarer deployment. SYS_02_2__clear · clear · Taglish Labels correct +\n\t\t\t\t\t\t105 text Private employee ako, delayed ang sahod. Hiwalay na concern ko ang seafarer deployment.\n\t\t\t\t\t\t106 container\n\t\t\t\t\t\t\t107 text SYS_02_2__clear  ·  clear  ·  Taglish\n\t\t\t\t\t\t108 text Labels correct\n\t\t\t\t\t\t109 text  +\n\t\t\t\t\t110 button (collapsed) Secondary Actions: Expand, Private employee ako, delayed ang sahod. Hiwalay naconcern ko angseafarer deployment. SYS_02_2__noisy · noisy · Taglish Labels correct +\n\t\t\t\t\t\t111 text Private employee ako, delayed ang sahod. Hiwalay naconcern ko angseafarer deployment.\n\t\t\t\t\t\t112 container\n\t\t\t\t\t\t\t113 text SYS_02_2__noisy  ·  noisy  ·  Taglish\n\t\t\t\t\t\t114 text Labels correct\n\t\t\t\t\t\t115 text  +\n\t\t\t\t\t116 button (disabled) Previous\n\t\t\t\t\t117 text Page 1 of 55\n\t\t\t\t\t118 button Next\n\t\t\t\t119 container\n\t\t\t\t\t120 heading Want to look closer?, Value: 2\n\t\t\t\t\t\t121 text Want to look closer?\n\t\t\t\t\t122 text Inspect F1, class-by-class mistakes, routing and confidence calibration.\n\t\t\t\t\t123 link Description: View detailed results, Value: 127.0.0.1:5173/performance?view=details\n\t\t\t\t124 container performance-data\n\t\t\t\t\t125 heading What these results represent, Value: 2\n\t\t\t\t\t\t126 text What these results represent\n\t\t\t\t\t127 text AI-authored development inputs and joined-concern regressions used during repair. Local classifier, retrieval and verifier only; no wording or explanation LLM. Not an independent holdout or legal-answer evaluation.\n\t\t\t\t\t128 container\n\t\t\t\t\t\t129 text The full selected run contains  436  forms from  171  families:  425  labeled forms and  11  routing-only forms. Repeated variants are not independent people. Independent human questions:  0 .\n\t\t\t\t\t130 container\n\t\t\t\t\t\t131 text Measured on  2026-10-25 .  The 424 reused inputs and 12 joined-concern regressions were evaluated locally. Expected labels are scored even when routing conservatively asks for clarification. No conditional-wording or explanation LLM was tested in this local run.  Independent generated-answer quality and current legal applicability were not evaluated.\n\t\t\t\t\t132 heading Recorded stack, Value: 2\n\t\t\t\t\t\t133 text Recorded stack\n\t\t\t\t\t134 definition list\n\t\t\t\t\t\t135 container Classifier\n\t\t\t\t\t\t\t136 text Classifier\n\t\t\t\t\t\t137 text item10-classifier-v1.5.61\n\t\t\t\t\t\t138 container Retrieval\n\t\t\t\t\t\t\t139 text Retrieval\n\t\t\t\t\t\t140 text item11-retrieval-v1.3.51\n\t\t\t\t\t\t141 container Verifier\n\t\t\t\t\t\t\t142 text Verifier\n\t\t\t\t\t\t143 text item12-verifier-v1.0.58\n\t\t\t\t\t\t144 container Normalizer Version\n\t\t\t\t\t\t\t145 text Normalizer Version\n\t\t\t\t\t\t146 text disabled_for_local_evaluation\n\t\t\t\t\t\t147 container Model\n\t\t\t\t\t\t\t148 text Model\n\t\t\t\t\t\t149 text none (no LLM)\n\t\t\t\t\t150 container\n\t\t\t\t\t\t151 text Run:  local-pipeline-evaluation-v1.6.29 . Current classifier, retrieval and verifier bindings  match  this record. New questions are not added to the report or used for training.\n\t\t20 text General information on selected Philippine labor and consumer concerns. This prototype does not provide professional legal advice.\n\t\t21 link Description: Read the scope & limitations, Value: 127.0.0.1:5173/about\n\nThe focused UI element is 7 container main"
+  },
+  "study_provider_usage": {
+    "day_utc": "2026-10-25",
+    "provider_requests": 398,
+    "estimated_usd": 0.3535893,
+    "input_tokens": 1358046,
+    "output_tokens": 249804,
+    "maximum_calls": 400,
+    "maximum_estimated_usd": 0.5,
+    "billing_verified": false
+  },
+  "independent_human_gold_questions": 0,
+  "legal_answer_accuracy": null,
+  "full_second_run_precedes_later_targeted_repairs": true,
+  "review": {
+    "reviewer": "Codex AI engineering/source-agreement inspection; not independent legal review",
+    "first_pass_findings": [
+      {
+        "cases": [
+          "PH5_013",
+          "PH5_014",
+          "PH5_019",
+          "PH5_022",
+          "PH5_025",
+          "PH5_067"
+        ],
+        "finding": "Clear private-employment contexts or general rule requests misclassified or unnecessarily clarified."
+      },
+      {
+        "cases": [
+          "PH5_063",
+          "PH5_068",
+          "PH5_070"
+        ],
+        "finding": "Unrelated was incorrectly treated as permission to discard a separate current concern."
+      },
+      {
+        "cases": [
+          "PH5_072",
+          "PH5_074",
+          "PH5_076",
+          "PH5_079",
+          "PH5_084",
+          "PH5_085",
+          "PH5_087",
+          "PH5_096",
+          "PH5_097",
+          "PH5_100"
+        ],
+        "finding": "Boundary, comma enumeration, actor propagation or exclusion-recognition errors."
+      },
+      {
+        "cases": [
+          "PH5_044",
+          "PH5_046",
+          "PH5_057"
+        ],
+        "finding": "Ordinary English words badly, pot and printer were incorrectly rewritten by local phonetic/boundary features."
+      },
+      {
+        "cases": [
+          "PH5_005",
+          "PH5_010",
+          "PH5_042",
+          "PH5_044",
+          "PH5_045",
+          "PH5_050"
+        ],
+        "finding": "Anaphoric requests or coordinate subjects created duplicate, irrelevant or false unanswered components."
+      },
+      {
+        "cases": [
+          "PH5_008",
+          "PH5_021",
+          "PH5_069",
+          "PH5_078"
+        ],
+        "finding": "Retrieval intent mismatch for noisy deductions, closure and refurbished-as-new sales."
+      },
+      {
+        "cases": [
+          "PH5_018",
+          "PH5_031",
+          "PH5_038",
+          "PH5_039",
+          "PH5_052",
+          "PH5_064",
+          "PH5_080",
+          "PH5_082"
+        ],
+        "finding": "Source agreement or issue coverage needs more than exact citations and same-model acceptance: narrowed status answer, actor/return conditions, overbroad findings, and missing defense qualification."
+      }
+    ],
+    "second_pass_followup_findings": [
+      {
+        "cases": [
+          "PH5_010"
+        ],
+        "finding": "Source requires payroll records; explanation additionally said the same entries must appear on an individual payslip."
+      },
+      {
+        "cases": [
+          "PH5_021"
+        ],
+        "finding": "Anti-circumvention condition attached to advance notice rather than permission to close."
+      },
+      {
+        "cases": [
+          "PH5_034",
+          "PH5_047",
+          "PH5_048",
+          "PH5_049",
+          "PH5_051"
+        ],
+        "finding": "Remaining same-scenario grouping or requested-focus mismatch; some topics genuinely lack indexed authority."
+      },
+      {
+        "cases": [
+          "PH5_052"
+        ],
+        "finding": "Third-party defense omitted; initial deterministic check depended on an exact source phrase and missed the recorded wording variant."
+      },
+      {
+        "cases": [
+          "IR_16_en_tl__clear",
+          "IR_16_en_tl__noisy"
+        ],
+        "finding": "Broad paid-service focus excluded the specific replacement-parts authority; exposed by the 436-input regression, not counted among fresh 100."
+      }
+    ],
+    "source_gaps_retained": [
+      "Night-pay authority is not present in the selected index",
+      "Held compensable-time and meal-period passages",
+      "Final-pay/COE deadlines",
+      "Related thirteenth-month authority",
+      "Manufacturer/importer labeling requirements"
+    ],
+    "final_closure_followup": {
+      "case_id": "PH5_021",
+      "finding": "The 17-case check omitted the serious-business-losses condition when mentioning closure separation pay.",
+      "repair": "Added a fail-closed source-qualification guard and an explicit drafting focus.",
+      "verification": "closure-check returned a qualified explanation preserving serious business losses/financial reverses and the advance notice; original observations remain saved."
+    }
+  },
+  "all_project_issues_closed": false
+}

@@ -1,0 +1,51 @@
+{
+  "run": "final-targeted",
+  "denominator": 8,
+  "observed_rows": 8,
+  "counts": {
+    "packets": 8,
+    "primary_correct": 8,
+    "scope_correct": 8,
+    "route_correct": 8,
+    "domain_correct": 8,
+    "status_generated": 6,
+    "reason_citations_and_automated_support_checked": 6,
+    "judged_cases": 5,
+    "all_known_relevant_hit_at_5": 5,
+    "claims": 6,
+    "citations": 13,
+    "status_withheld": 2,
+    "reason_provider_unavailable": 1,
+    "reason_citation_validation_failed": 1
+  },
+  "inclusive_scores": {
+    "primary": {
+      "correct": 8,
+      "denominator": 8,
+      "fraction": 1.0
+    },
+    "scope": {
+      "correct": 8,
+      "denominator": 8,
+      "fraction": 1.0
+    },
+    "route": {
+      "correct": 8,
+      "denominator": 8,
+      "fraction": 1.0
+    },
+    "domain": {
+      "correct": 8,
+      "denominator": 8,
+      "fraction": 1.0
+    }
+  },
+  "inclusive_macro_f1": {
+    "primary": 1.0,
+    "scope": 1.0
+  },
+  "citation_integrity_failures": [],
+  "independent_human_questions": 0,
+  "legal_answer_accuracy_measured": false,
+  "denominator_note": "Missing packets count as errors in every inclusive score. F1 uses the fixed expected classes, with request errors treated as missed labels."
+}

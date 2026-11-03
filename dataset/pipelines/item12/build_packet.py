@@ -102,7 +102,7 @@ def build(output):
             'No external LLM adapter, frontend connection or production answering was enabled.']}
     save(output / 'VERIFIER_CARD.json', card)
     save(output / 'dataset_inventory_addendum.json', {
-        'new_canonical_authorities': 0, 'new_training_questions': 0, 'new_independent_human_questions': 0,
+        'new_canonical_authorities': 0, 'new_bounded_official_corroborating_excerpts': 2, 'new_training_questions': 0, 'new_independent_human_questions': 0,
         'ai_authored_development_controls': len(fixtures), 'simulated_review_positive_controls': 2,
         'same_legal_source_index': runtime.policy['retrieval'],
         'role': 'Software verification development; not a new independent evaluation set.'})
@@ -163,7 +163,7 @@ These are **AI-authored, inspected software-development controls**, not independ
 
 **Paraphrase checking is a review gate.** Arbitrary legal entailment is not automatically solved by this implementation. Current-guidance approval must bind the exact claim, evidence, concern, source conditions, index and policy. A future service must keep this operator configuration inaccessible to draft/end-user input and authenticate reviewers separately.
 
-Final-pay/COE evidence remains unavailable. MO 28, thirteenth-month guidance, DTI procedure/source review, independent human evaluation, contact follow-up and formal approvals remain open as documented in the prior repair/follow-up packets. The original canonical files, reviewed seed, model weights and evaluated parent versions remain preserved. Frozen-workbook validation is performed separately from this packet builder; source preservation is checked here.
+The 2026-10-26 source supplement supplies a bounded DOLE final-pay/COE statement, official statutory quotations concerning thirteenth-month pay, and clean working-time topic-map repairs. Original OCR/MO 28 copy holds and the handbook's explanatory-only policy remain intact. Independent currentness/legal evaluation, contact follow-up and formal approvals remain pending. The original corpus files, reviewed seed, model weights and evaluated parent versions remain preserved. This packet replays software review fixtures at their historical date, not a current legal review.
 
 ## Next step
 

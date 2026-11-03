@@ -1,0 +1,137 @@
+[
+  {
+    "case_id": "PH5_021",
+    "question": "A private shoe factory says it will close permanently and terminate its employees. Which recorded rules discuss business closure, notice, and applicable conditions?",
+    "group": "L",
+    "topic": "closure",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A private shoe factory says it will close permanently and terminate its employees. Which recorded rules discuss business closure, notice, and applicable conditions?",
+      "normalized_question_text": null,
+      "effective_question_text": "A private shoe factory says it will close permanently and terminate its employees. Which recorded rules discuss business closure, notice, and applicable conditions?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "An employer may close or cease operations, but only if the closure is not intended to evade labor‑law provisions; the employer must give a written notice to both the workers and the Department of Labor and Employment at least one month before the intended closure date. If the closure is not caused by serious business losses or financial reverses, the affected workers are entitled to separation pay of either one month’s salary or at least half a month’s salary for each year of service, whichever is higher.",
+          "citations": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_298",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 298",
+              "quote": "of the establishment or undertaking unless the closing is for the purpose of circumventing the",
+              "start": 267,
+              "end": 361,
+              "citation_label": "PD 442, as amended and renumbered, ART. 298"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_298",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 298",
+              "quote": "provisions of this Title, by serving a written notice on the workers and the Ministry of Labor",
+              "start": 362,
+              "end": 456,
+              "citation_label": "PD 442, as amended and renumbered, ART. 298"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_298",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 298",
+              "quote": "and Employment at least one (1) month before the intended date thereof.",
+              "start": 457,
+              "end": 528,
+              "citation_label": "PD 442, as amended and renumbered, ART. 298"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 2912,
+        "completion_tokens": 262,
+        "total_tokens": 3174
+      },
+      "usage_generation": {
+        "prompt_tokens": 2849,
+        "completion_tokens": 305,
+        "total_tokens": 3154
+      },
+      "usage_support": {
+        "prompt_tokens": 2155,
+        "completion_tokens": 843,
+        "total_tokens": 2998
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a private shoe factory says it will close permanently and terminate its employees. which recorded rules discuss business closure, notice, and applicable conditions",
+        "sources": [
+          "LAB_CODE_2022__art_298"
+        ]
+      }
+    ],
+    "elapsed_ms": 11280.999999999949
+  }
+]

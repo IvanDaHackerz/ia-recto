@@ -1,0 +1,153 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/performance".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/performance
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5173/performance#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Recorded development metrics · independent validation pending.
+		8 container main
+			9 container performance-top
+				10 container
+					11 heading Classifier performance, Value: 1
+						12 text Classifier performance
+					13 text How well does it recognize a question? Start with the essentials.
+				14 container
+					15 text Measured development results.  AI-authored cases used while improving the system. These are not independent human tests or legal-answer accuracy scores.
+				16 container Performance views
+					17 link Description: Overview, Value: 127.0.0.1:5173/performance
+					18 link Description: Detailed results, Value: 127.0.0.1:5173/performance?view=details
+				23 container
+					24 text Evaluation
+					25 pop up button (collapsed, settable) Evaluation, Value: Current local evaluation, Secondary Actions: Expand
+						26 menu
+							27 (selected) Current local evaluation
+							28 Previous LLM comparison
+				29 container
+					30 text Inputs
+					31 pop up button (collapsed, settable) Inputs, Value: Clear + noisy wording, Secondary Actions: Expand
+						32 menu
+							33 (selected) Clear + noisy wording
+							34 Clear wording
+							35 Noisy wording
+				36 container
+					37 text Language
+					38 pop up button (collapsed, settable) Language, Value: English + Taglish, Secondary Actions: Expand
+						39 menu
+							40 (selected) English + Taglish
+							41 English
+							42 Taglish
+				43 container
+					44 text 436  input forms ·  171  wording families ·  425  labeled ·  11  routing-only. No fresh model calls are made by this page.  Tested path: classifier + retrieval + verifier, with both LLM layers disabled.
+				45 container How often it gets the labels right
+					46 heading How often it gets the labels right, Value: 2, ID: summary-title
+						47 text How often it gets the labels right
+					48 text Measured against recorded expectations, including withheld labels in the denominator.
+					49 definition list
+						50 container Recognizing the topic Domain accuracy
+							51 text Recognizing the topic Domain accuracy
+						52 container
+							53 text 100.0% 425  of  425  labels correct Development results on these selected forms.
+						54 container Checking what we cover Scope accuracy
+							55 text Checking what we cover Scope accuracy
+						56 container
+							57 text 100.0% 425  of  425  labels correct Development results on these selected forms.
+					58 container
+						59 text Correct routing:  432 / 436  ( 99.1% ).  0  labeled inputs withheld in this selection; they count as misses.
+				60 container Check individual questions, ID: performance-questions
+					61 heading Check individual questions, Value: 2, ID: questions-title
+						62 text Check individual questions
+					63 text 436  recorded forms
+					64 text See the expected labels, what the model predicted and its confidence. A question is correct or incorrect against its recorded label; F1 describes a set of questions.
+					65 container
+						66 text Find a question
+						67 search text field (settable) Find a question
+					68 checkbox (settable, integer) Description: Only cases with recorded issues, Value: 0
+					69 button (collapsed) Secondary Actions: Expand, Private employee ako. Ilang oras ang normal na workday bago maging excess hours? IR_01_en_tl__clear · clear · Taglish Labels correct +
+						70 text Private employee ako. Ilang oras ang normal na workday bago maging excess hours?
+						71 container
+							72 text IR_01_en_tl__clear  ·  clear  ·  Taglish
+						73 text Labels correct
+						74 text  +
+					75 button (collapsed) Secondary Actions: Expand, Private emplye ako. Ilng ors ang normal na wrkdy bgo maging excess hours? IR_01_en_tl__noisy · noisy · Taglish Labels correct +
+						76 text Private emplye ako. Ilng ors ang normal na wrkdy bgo maging excess hours?
+						77 container
+							78 text IR_01_en_tl__noisy  ·  noisy  ·  Taglish
+						79 text Labels correct
+						80 text  +
+					81 button (collapsed) Secondary Actions: Expand, Bumili ako ng appliance sa store. Anong details ang dapat nasa written warranty tungkol sa coverage at repair? IR_15_en_tl__clear · clear · Taglish Labels correct +
+						82 text Bumili ako ng appliance sa store. Anong details ang dapat nasa written warranty tungkol sa coverage at repair?
+						83 container
+							84 text IR_15_en_tl__clear  ·  clear  ·  Taglish
+						85 text Labels correct
+						86 text  +
+					87 button (collapsed) Secondary Actions: Expand, Bumile ako ng appleance sa store. Anong details ang dapat nasa writtin warranty tungkol sa coverage at ripair? IR_15_en_tl__noisy · noisy · Taglish Labels correct +
+						88 text Bumile ako ng appleance sa store. Anong details ang dapat nasa writtin warranty tungkol sa coverage at ripair?
+						89 container
+							90 text IR_15_en_tl__noisy  ·  noisy  ·  Taglish
+						91 text Labels correct
+						92 text  +
+					93 button (collapsed) Secondary Actions: Expand, Private employee ako, unpaid ang overtime. Sa shop naman, mas mahal ang singil kaysa price tag. SYS_01_2__clear · clear · Taglish Labels correct +
+						94 text Private employee ako, unpaid ang overtime. Sa shop naman, mas mahal ang singil kaysa price tag.
+						95 container
+							96 text SYS_01_2__clear  ·  clear  ·  Taglish
+						97 text Labels correct
+						98 text  +
+					99 button (collapsed) Secondary Actions: Expand, Privateee employyyee ako, unpaid ang overtime. Sa shop nammman, mas maaahal ang singil kaysa prrrice tag. SYS_01_2__noisy · noisy · Taglish Labels correct +
+						100 text Privateee employyyee ako, unpaid ang overtime. Sa shop nammman, mas maaahal ang singil kaysa prrrice tag.
+						101 container
+							102 text SYS_01_2__noisy  ·  noisy  ·  Taglish
+						103 text Labels correct
+						104 text  +
+					105 button (collapsed) Secondary Actions: Expand, Private employee ako, delayed ang sahod. Hiwalay na concern ko ang seafarer deployment. SYS_02_2__clear · clear · Taglish Labels correct +
+						106 text Private employee ako, delayed ang sahod. Hiwalay na concern ko ang seafarer deployment.
+						107 container
+							108 text SYS_02_2__clear  ·  clear  ·  Taglish
+						109 text Labels correct
+						110 text  +
+					111 button (collapsed) Secondary Actions: Expand, Private employee ako, delayed ang sahod. Hiwalay naconcern ko angseafarer deployment. SYS_02_2__noisy · noisy · Taglish Labels correct +
+						112 text Private employee ako, delayed ang sahod. Hiwalay naconcern ko angseafarer deployment.
+						113 container
+							114 text SYS_02_2__noisy  ·  noisy  ·  Taglish
+						115 text Labels correct
+						116 text  +
+					117 button (disabled) Previous
+					118 text Page 1 of 55
+					119 button Next
+				120 container
+					121 heading Want to look closer?, Value: 2
+						122 text Want to look closer?
+					123 text Inspect F1, class-by-class mistakes, routing and confidence calibration.
+					124 link Description: View detailed results, Value: 127.0.0.1:5173/performance?view=details
+				125 container performance-data
+					126 heading What these results represent, Value: 2
+						127 text What these results represent
+					128 text AI-authored development inputs and joined-concern regressions used during repair. Local classifier, retrieval and verifier only; no wording or explanation LLM. Not an independent holdout or legal-answer evaluation.
+					129 container
+						130 text The full selected run contains  436  forms from  171  families:  425  labeled forms and  11  routing-only forms. Repeated variants are not independent people. Independent human questions:  0 .
+					131 container
+						132 text Measured on  2026-10-26 .  The 424 reused inputs and 12 joined-concern regressions were evaluated locally. Expected labels are scored even when routing conservatively asks for clarification. No conditional-wording or explanation LLM was tested in this local run.  Independent generated-answer quality and current legal applicability were not evaluated.
+					133 heading Recorded stack, Value: 2
+						134 text Recorded stack
+					135 definition list
+						136 container Classifier
+							137 text Classifier
+						138 text item10-classifier-v1.5.66
+						139 container Retrieval
+							140 text Retrieval
+						141 text item11-retrieval-v1.3.54
+						142 container Verifier
+							143 text Verifier
+						144 text item12-verifier-v1.0.61
+						145 container Normalizer Version
+							146 text Normalizer Version
+						147 text disabled_for_local_evaluation
+						148 container Model
+							149 text Model
+						150 text none (no LLM)
+					151 container
+						152 text Run:  local-pipeline-evaluation-v1.6.31 . Current classifier, retrieval and verifier bindings  match  this record. New questions are not added to the report or used for training.
+		21 text General information on selected Philippine labor and consumer concerns. This prototype does not provide professional legal advice.
+		22 link Description: Read the scope & limitations, Value: 127.0.0.1:5173/about
+
+The focused UI element is 8 container main

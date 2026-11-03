@@ -1,0 +1,16 @@
+{
+  "role": "source-grounded AI-authored development benchmark, not independent human gold",
+  "positive_queries": 56,
+  "positive_scenario_families": 28,
+  "negative_queries": 11,
+  "domain_is_given": "Oracle-domain retrieval evaluation; separate classifier integration checks are reported",
+  "positive_topic_filters_used": false,
+  "relevance_labels_exhaustive": false,
+  "relevance_limit": "Known source passages chosen by AI; other relevant results may be unjudged. This evaluates retrieval, not current law or answer correctness.",
+  "queries_sha256": "3a354b2204065df29a035e4c1c48c3cd9d96cb1f4cf3f5aafd971ac665be9de6",
+  "index_manifest_sha256": "21e2fb390431d9287d54e49de4e6256790d92108cadbcfdb2bdb937362412fa7",
+  "retrieval_config_fixed_before_queries": false,
+  "reused_queries_from": "outputs\\item11-retrieval-v1.3.55",
+  "previous_development_scores_inspected": true,
+  "model_weights_or_idf_fitted_on_queries": false
+}

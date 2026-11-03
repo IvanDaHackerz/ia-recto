@@ -38,7 +38,7 @@ def main():
         'source_sha256':source['source_sha256'],'source_data_modified':False,'no_question_dataset_fitted':True,'encoder_finetuned':False,'project_text_transmitted':False,
         'deployment_allowed':False,'answer_generation_allowed':False,'legal_status_refreshed':False,'elapsed_seconds':time.time()-started,'python':platform.python_version()}
     manifest['vector_reuse']={'parent_index':str(a.reuse_vectors_from) if a.reuse_vectors_from else None,'cached_exact_text_vectors':reused,'model_weights_unchanged':True}
-    manifest['runtime_source_sha256']={name:sha(PIPELINE/name) for name in ['common.py','encoder.py','retrieval.py']}
+    manifest['runtime_source_sha256']={name:sha(PIPELINE/name) for name in ['common.py','encoder.py','retrieval.py','query_relevance.py']}
     if a.selection_evidence:
         evidence=json.loads(a.selection_evidence.read_text());best=max(evidence['methods'],key=lambda name:(evidence['methods'][name]['hit@5'],evidence['methods'][name]['mrr@10']))
         if a.default_method!=best:raise ValueError('Default method does not match the recorded development selection rule')

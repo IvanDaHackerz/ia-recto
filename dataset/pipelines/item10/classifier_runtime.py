@@ -47,12 +47,21 @@ class ComponentSignalClassifier:
         probs=np.clip(probs,0,1);return probs/probs.sum(axis=1,keepdims=True)
 
 def missing_context(text:str):
-    from scope_constraints import scope_text,employment_issue
+    from scope_constraints import scope_text,employment_issue,constraint
     t=scope_text(normalize(text))
     provider_known=PROVIDER_CONTEXT.search(t) or re.search(r'\b(?:transport\s+operator|recruitment\s+agency|cashier)\b',t)
+    context_rule=constraint(t)
+    if context_rule and context_rule[0]=='consumer':provider_known=True
+    if context_rule and context_rule[1] in {'consumer.investments','consumer.banking_credit','consumer.insurance'}:provider_known=True
     product_known=re.search(r'\b(?:product|item)\b',t) and re.search(r'\b(?:bought|purchased|binili\w*|nabili\w*|quality|defect\w*)\b',t)
+    described_service=re.search(r'\b[\w-]+(?:cleaning|repair)\s+service\b',t)
+    if described_service:provider_known=True
     if not t:return ('empty_input','What labor or consumer concern would you like help with?')
     if len(re.findall(r'\w+',t))<3:return ('too_little_context','What happened, and who was involved in the transaction or employment relationship?')
+    if re.fullmatch(r'(?:can|could|may)\s+i\s+ask\s+(?:you\s+)?about\s+(?:something|an?\s+(?:incident|thing|event))(?:\s+that\s+happened)?(?:\s+(?:yesterday|today|last\s+\w+))?[.!? ]*',t):
+        return ('specific_concern_missing','What happened, who was involved, and what do you need help with?')
+    if re.fullmatch(r'(?:hindi|di)\s+ko\s+alam\s+(?:kung\s+)?(?:paano|pano)\s+(?:ito|to|iyan)\s+(?:ayusin|gawin)[.!? ]*',t):
+        return ('specific_concern_missing','What happened, who was involved, and what do you need help with?')
     from typing_repair import VOCABULARY
     from typing_vocabulary import PRESERVED_WORDS
     if not set(re.findall(r'\w+',t)) & (VOCABULARY | PRESERVED_WORDS):
@@ -64,11 +73,12 @@ def missing_context(text:str):
     # asks the category as a follow-up rather than blocking general information.
     if re.search(r'refund|irefund|money back|payment back|ibalik.{0,30}(bayad|binayad)|(bayad|binayad|binyad).{0,35}(ibalik|ibalk)',t) and not (provider_known or product_known):
         return ('refund_transaction_missing','Who owes the refund, and what purchase or service was it for?')
-    if re.search(r'\b(?:payment|bayad|money)\b',t) and not (provider_known or product_known or employment_issue(t) or re.search(r'\b(?:consumer|employer|boss|amo|company|contract|work|trabaho|employee|purchase)\b',t)):
+    if re.search(r'\b(?:payment|paid|bayad|bayaran|binayaran|babayaran|nagbayad|money)\b',t) and not (provider_known or product_known or employment_issue(t) or re.search(r'\b(?:consumer|employer|boss|amo|company|contract|work|trabaho|employee|purchase)\b',t)):
         return ('payment_context_missing','What was the payment for, and who was supposed to pay or receive it?')
-    if re.search(r'\b(contract|contrct|kontrata)\b',t) and not CONTRACT_CONTEXT.search(t):
+    if re.search(r'\b(contract|contrct|kontrata)\b',t) and not (CONTRACT_CONTEXT.search(t) or employment_issue(t)):
         return ('contract_relationship_missing','What kind of contract ended, and who were the parties?')
-    if re.search(r'\b(charg[a-z]*|chrge|singil|singgil)\b',t) and not provider_known:
+    disciplinary_charge=employment_issue(t) and re.search(r'\b(?:dismiss\w*|disciplinary|misconduct|administrative|respond\w*|reply|hearing)\b',t)
+    if re.search(r'\b(charg(?:e|es|ed|ing)|chrge|singil|singgil)\b',t) and not (provider_known or disciplinary_charge):
         return ('charge_context_missing','What were you charged for, and who charged you?')
     return None
 
@@ -115,9 +125,26 @@ def route_prediction(prediction,thresholds):
     if not p.get('has_reliable_component_evidence',True):
         result.update(routing_action='clarify',substantive_answer_admitted=False,reason='no_reliable_component_evidence',clarification_question='Could you describe the specific employment or consumer concern and who is involved?')
         return result
+    reliable_categories={c['category'] for c in components if c['atomic_evidence_strength']>=.5}
+    if any(c['atomic_evidence_strength']<.5 and c['category'] not in reliable_categories for c in components):
+        # A weak fragment must not disappear while another strong component
+        # makes the aggregate head look confident.
+        result.update(routing_action='clarify',substantive_answer_admitted=False,
+            reason='unresolved_component_scope',clarification_question='Could you clarify the concern and who is responsible for each part? One part is still unclear.')
+        return result
     if result['reason']=='low_confidence':result['clarification_question']=uncertainty_question(p)
-    if result['reason']!='mixed_components_not_resolved' or not p.get('component_routing_enabled',False):return result
+    if result['reason'] not in {'mixed_components_not_resolved','low_confidence'} or not p.get('component_routing_enabled',False):return result
+    if p['predicted_primary']!='mixed':return result
     components=p.get('component_evidence',[])
+    # The labor+consumer+excluded composition is absent from the six-state
+    # calibration distribution. Explicit scopes can determine which parts to
+    # search only when the primary head passes its threshold and every part is
+    # resolved by a scope rule. Preserve the original probability values.
+    explicit_scope_route=result['reason']=='low_confidence'
+    if explicit_scope_route and (p['primary_confidence']<thresholds['primary']
+            or not 0<=thresholds['scope']<=1
+            or {c['category'] for c in components}!={'labor','consumer','excluded'}
+            or not all(c.get('constraint') and c.get('decision_source')=='scope_constraint' for c in components)):return result
     reliable=[c for c in components if c['atomic_evidence_strength']>=.5]
     if len(reliable)!=len(components):return result
     supported=[c for c in reliable if c['category'] in ('labor','consumer')];excluded=[c for c in reliable if c['category']=='excluded']
@@ -127,6 +154,7 @@ def route_prediction(prediction,thresholds):
     result.update(routing_action='retrieve_supported_components',reason='separate_supported_components_require_evidence',substantive_answer_admitted=True,clarification_question=None,
         retrieval_requests=[{'query':c['text'],'allowed_domain':c['category'],'requires_answer_eligible_evidence':True} for c in supported],
         excluded_components=[{'text':c['text'],'constraint_topic':c.get('constraint'),'retrieval_allowed':False} for c in excluded])
+    if explicit_scope_route:result['reason']='explicit_component_scopes_require_evidence'
     return result
 
 def predict_records(bundle,rows):

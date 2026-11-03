@@ -1,0 +1,10 @@
+{
+  "targeted_recheck_ids": [
+    "DEF_002",
+    "DEF_005",
+    "DEF_013",
+    "DEF_028",
+    "DEF_AI_021"
+  ],
+  "role": "Posthoc rechecks after the live 21-case diagnostic identified source/condition errors; original results retained."
+}

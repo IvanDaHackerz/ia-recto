@@ -1,0 +1,493 @@
+[
+  {
+    "case": {
+      "id": "WEB01",
+      "q": "My private employer pays only half my earned salary and says the balance will come someday.",
+      "topic": "Labor",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Labor · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "216 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work."
+    ],
+    "text": "Question 1\nMy private employer pays only half my earned salary and says the balance will come someday.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\nSECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nLabor · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n216 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n2\nOmnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n3\nPD 442, as amended and renumbered, ART. 105\n4\nOmnibus Rules Implementing the Labor Code, SECTION 20 — BOOK THREE, CHAPTER IV, RULE IX\n5\nOmnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, CHAPTER IV, RULE VIII"
+  },
+  {
+    "case": {
+      "id": "WEB02",
+      "q": "The shop refuses warranty repair for a new blender whose motor failed after two days.",
+      "topic": "Consumer",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Consumer · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "150 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "Any other implied warranty shall endure not less than sixty (60) days nor more than one (1) year following the sale of new consumer products."
+    ],
+    "text": "Question 1\nThe shop refuses warranty repair for a new blender whose motor failed after two days.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\nAny other implied warranty shall endure not less than sixty (60) days nor more than one (1) year following the sale of new consumer products.\n\nRecorded excerpt. Open the reference for the complete provision and its exceptions. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nConsumer · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n150 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n2\nRepublic Act No. 7394, ART. 69\n3\nRepublic Act No. 7394, ART. 67\n4\nRepublic Act No. 7394, ART. 100\n5\nRepublic Act No. 7394, ART. 103"
+  },
+  {
+    "case": {
+      "id": "WEB03",
+      "q": "My private company keeps delaying salary. Separately, a retailer delivered a washing machine that leaks immediately.",
+      "topic": "Mixed topics",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Mixed · 88.7% label confidence",
+      "Topic coverage",
+      "Within project topics · 99.3% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "171 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.",
+      "ART. 100. Liability for Product and Service Imperfection. - The suppliers of durable or nondurable consumer products are jointly liable for imperfections in quality that render the products unfit or inadequate for consumption for which they are designed or decrease their value, and for those resulting from inconsistency with the information provided on the container, packaging, labels or publicity messages/advertisement, with due regard to the variations resulting from their nature, the consumer being able to demand replacement to the imperfect parts."
+    ],
+    "text": "Question 1\nMy private company keeps delaying salary. Separately, a retailer delivered a washing machine that leaks immediately.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\nSECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.\n\nComplete stored provision. Current applicability remains under review.\n\nRepublic Act No. 7394, ART. 100\nART. 100. Liability for Product and Service Imperfection. - The suppliers of durable or nondurable consumer products are jointly liable for imperfections in quality that render the products unfit or inadequate for consumption for which they are designed or decrease their value, and for those resulting from inconsistency with the information provided on the container, packaging, labels or publicity messages/advertisement, with due regard to the variations resulting from their nature, the consumer being able to demand replacement to the imperfect parts.\n\nRecorded excerpt. Open the reference for the complete provision and its exceptions. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nMixed · 88.7% label confidence\nTopic coverage\nWithin project topics · 99.3% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n171 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n2\nOmnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n3\nOmnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII\n4\nPD 442, as amended and renumbered, ART. 105\n5\nOmnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, CHAPTER IV, RULE VIII\n6\nRepublic Act No. 7394, ART. 100\n7\nRepublic Act No. 7394, ART. 97\n8\nRepublic Act No. 7394, ART. 99\n9\nRepublic Act No. 7394, ART. 102"
+  },
+  {
+    "case": {
+      "id": "WEB04",
+      "q": "A retailer refuses the warranty on my broken phone, and my mobile provider bills me for a cancelled plan.",
+      "topic": "Mixed topics",
+      "coverage": "Partly within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Mixed · 88.7% label confidence",
+      "Topic coverage",
+      "Partly within project topics · 88.4% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "155 ms"
+    ],
+    "headings": [
+      "Recorded source passages",
+      "Concerns outside coverage"
+    ],
+    "quotes": [
+      "state what the warrantor will do in the event of a defect, malfunction or failure to conform to the written warranty and at whose expense;"
+    ],
+    "text": "Question 1\nA retailer refuses the warranty on my broken phone, and my mobile provider bills me for a cancelled plan.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\nstate what the warrantor will do in the event of a defect, malfunction or failure to conform to the written warranty and at whose expense;\n\nRecorded excerpt. Open the reference for the complete provision and its exceptions. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nConcerns outside coverage\nmy mobile provider bills me for a cancelled plan\n\nThese parts were excluded from retrieval.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nMixed · 88.7% label confidence\nTopic coverage\nPartly within project topics · 88.4% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n155 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n2\nRepublic Act No. 7394, ART. 69\n3\nRepublic Act No. 7394, ART. 97\n4\nRepublic Act No. 7394, ART. 100\n5\nRepublic Act No. 7394, ART. 67"
+  },
+  {
+    "case": {
+      "id": "WEB05",
+      "q": "The bank charged an unauthorized monthly fee on my savings account.",
+      "topic": "Out of scope",
+      "coverage": "Outside project topics"
+    },
+    "fields": [
+      "Topic",
+      "Out of scope · 88.0% label confidence",
+      "Topic coverage",
+      "Outside project topics · 88.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "132 ms"
+    ],
+    "headings": [
+      "Where this concern fits"
+    ],
+    "quotes": [],
+    "text": "Question 1\nThe bank charged an unauthorized monthly fee on my savings account.\nWhere this concern fits\n\nThis concern falls outside this project’s selected private-sector labor and ordinary consumer topics. The classifier is identifying a scope limit; it is not deciding whether you have legal rights or a valid complaint.\n\nAny assistance contacts listed below are recorded directory entries. Check with the agency about whether it handles your concern.\n\nLocal response. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nOut of scope · 88.0% label confidence\nTopic coverage\nOutside project topics · 88.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n132 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics."
+  },
+  {
+    "case": {
+      "id": "WEB06",
+      "q": "They will not give it to me. Please help.",
+      "flow": "clarify"
+    },
+    "fields": [
+      "Tentative topic",
+      "Out of scope · 31.3% label confidence",
+      "Topic coverage",
+      "Outside project topics · 31.3% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "129 ms"
+    ],
+    "headings": [
+      "Let’s work out the concern",
+      "A detail that would help"
+    ],
+    "quotes": [],
+    "text": "Question 1\nThey will not give it to me. Please help.\nLet’s work out the concern\n\nI need one more detail to choose the right sources. This project covers selected Philippine private-sector employment and ordinary consumer-purchase concerns.\n\nLocal response. No live AI explanation was used.\n\nA detail that would help\n\nWhat happened, and what would you like help with? If there are separate concerns, describe each one.\n\nAdd this detail to my question\nHow this question was checked\nTentative topic\nOut of scope · 31.3% label confidence\nTopic coverage\nOutside project topics · 31.3% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n129 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics."
+  },
+  {
+    "case": {
+      "id": "WEB07",
+      "q": "Private employer ko, pinapapasok kami pag rest day pero wala raw dagdag bayad.",
+      "topic": "Labor",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Labor · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "166 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "SECTION 3. Weekly rest day. — Every employer shall give his employees a rest period of not less than twenty-four (24) consecutive hours after every six consecutive normal work days."
+    ],
+    "text": "Question 1\nPrivate employer ko, pinapapasok kami pag rest day pero wala raw dagdag bayad.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE III\nSECTION 3. Weekly rest day. — Every employer shall give his employees a rest period of not less than twenty-four (24) consecutive hours after every six consecutive normal work days.\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nLabor · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n166 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE III\n2\nOmnibus Rules Implementing the Labor Code, SECTION 5 — BOOK THREE, RULE III\n3\nOmnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I\n4\nPD 442, as amended and renumbered, ART. 92\n5\nOmnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE III"
+  },
+  {
+    "case": {
+      "id": "WEB08",
+      "q": "Government employee ako at may issue sa salary deduction ko.",
+      "topic": "Out of scope",
+      "coverage": "Outside project topics"
+    },
+    "fields": [
+      "Topic",
+      "Out of scope · 88.0% label confidence",
+      "Topic coverage",
+      "Outside project topics · 88.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "133 ms"
+    ],
+    "headings": [
+      "Where this concern fits"
+    ],
+    "quotes": [],
+    "text": "Question 1\nGovernment employee ako at may issue sa salary deduction ko.\nWhere this concern fits\n\nThis concern falls outside this project’s selected private-sector labor and ordinary consumer topics. The classifier is identifying a scope limit; it is not deciding whether you have legal rights or a valid complaint.\n\nAny assistance contacts listed below are recorded directory entries. Check with the agency about whether it handles your concern.\n\nLocal response. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nOut of scope · 88.0% label confidence\nTopic coverage\nOutside project topics · 88.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n133 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics."
+  },
+  {
+    "case": {
+      "id": "WEB09",
+      "q": "During my rest day I bought a defective lamp from a private retailer, and the shop refuses a replacement.",
+      "topic": "Consumer",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Consumer · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "163 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "ART. 97. Liability for the Defective Products. - Any Filipino or foreign manufacturer, producer, and any importer, shall be liable for redress, independently of fault, for damages caused to consumers by defects resulting from design, manufacture, construction, assembly and erection, formulas and handling and making up, presentation or packing of their products, as well as for the insufficient or inadequate information on the use and hazards thereof.\n\nA product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:\npresentation of product;\n\nuse and hazards reasonably expected of it;\n\nthe time it was put into circulation.\nA product is not considered defective because another better quality product has been placed in the market.\n\nThe manufacturer, builder, producer or importer shall not be held liable when it evidences:\nthat it did not place the product on the market;\n\nthat although it did place the product on the market such product has no defect;\n\nthat the consumer or a third party is solely at fault.",
+      "ART. 100. Liability for Product and Service Imperfection. - The suppliers of durable or nondurable consumer products are jointly liable for imperfections in quality that render the products unfit or inadequate for consumption for which they are designed or decrease their value, and for those resulting from inconsistency with the information provided on the container, packaging, labels or publicity messages/advertisement, with due regard to the variations resulting from their nature, the consumer being able to demand replacement to the imperfect parts."
+    ],
+    "text": "Question 1\nDuring my rest day I bought a defective lamp from a private retailer, and the shop refuses a replacement.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 97\nART. 97. Liability for the Defective Products. - Any Filipino or foreign manufacturer, producer, and any importer, shall be liable for redress, independently of fault, for damages caused to consumers by defects resulting from design, manufacture, construction, assembly and erection, formulas and handling and making up, presentation or packing of their products, as well as for the insufficient or inadequate information on the use and hazards thereof.\n\nA product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:\npresentation of product;\n\nuse and hazards reasonably expected of it;\n\nthe time it was put into circulation.\nA product is not considered defective because another better quality product has been placed in the market.\n\nThe manufacturer, builder, producer or importer shall not be held liable when it evidences:\nthat it did not place the product on the market;\n\nthat although it did place the product on the market such product has no defect;\n\nthat the consumer or a third party is solely at fault.\n\nComplete stored provision. Current applicability remains under review.\n\nRepublic Act No. 7394, ART. 100\nART. 100. Liability for Product and Service Imperfection. - The suppliers of durable or nondurable consumer products are jointly liable for imperfections in quality that render the products unfit or inadequate for consumption for which they are designed or decrease their value, and for those resulting from inconsistency with the information provided on the container, packaging, labels or publicity messages/advertisement, with due regard to the variations resulting from their nature, the consumer being able to demand replacement to the imperfect parts.\n\nRecorded excerpt. Open the reference for the complete provision and its exceptions. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nConsumer · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n163 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 97\n2\nRepublic Act No. 7394, ART. 100\n3\nRepublic Act No. 7394, ART. 99\n4\nRepublic Act No. 7394, ART. 102\n5\nRepublic Act No. 7394, ART. 100\n6\nRepublic Act No. 7394, ART. 103\n7\nRepublic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n8\nRepublic Act No. 7394, ART. 102\n9\nRepublic Act No. 7394, ART. 128"
+  },
+  {
+    "case": {
+      "id": "WEB10",
+      "q": "I work at a private hospital. My employer has not paid the salary I earned last month.",
+      "topic": "Labor",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Labor · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "172 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work."
+    ],
+    "text": "Question 1\nI work at a private hospital. My employer has not paid the salary I earned last month.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\nSECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.\n\n(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work.\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nLabor · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n172 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII\n2\nPD 442, as amended and renumbered, ART. 105\n3\nPD 442, as amended and renumbered, ART. 129\n4\nOmnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII\n5\nOmnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, CHAPTER IV, RULE VIII"
+  },
+  {
+    "case": {
+      "id": "WEB11",
+      "q": "How should I handle a disagreement over inheritance between my siblings?",
+      "topic": "Out of scope",
+      "coverage": "Outside project topics"
+    },
+    "fields": [
+      "Topic",
+      "Out of scope · 88.0% label confidence",
+      "Topic coverage",
+      "Outside project topics · 88.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "132 ms"
+    ],
+    "headings": [
+      "Where this concern fits"
+    ],
+    "quotes": [],
+    "text": "Question 1\nHow should I handle a disagreement over inheritance between my siblings?\nWhere this concern fits\n\nThis concern falls outside this project’s selected private-sector labor and ordinary consumer topics. The classifier is identifying a scope limit; it is not deciding whether you have legal rights or a valid complaint.\n\nAny assistance contacts listed below are recorded directory entries. Check with the agency about whether it handles your concern.\n\nLocal response. No live AI explanation was used.\n\nHow this question was checked\nTopic\nOut of scope · 88.0% label confidence\nTopic coverage\nOutside project topics · 88.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n132 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics."
+  },
+  {
+    "case": {
+      "id": "WEB12",
+      "q": "The grocery charged me 180 even though the shelf price for the same item was 150.",
+      "topic": "Consumer",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Consumer · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "142 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice."
+    ],
+    "text": "Question 1\nThe grocery charged me 180 even though the shelf price for the same item was 150.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 81\nART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nConsumer · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n142 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 81\n2\nRepublic Act No. 7394, ART. 83\n3\nDepartment Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6\n4\nRepublic Act No. 10909, SEC. 4\n5\nRepublic Act No. 10909, SEC. 3"
+  },
+  {
+    "case": {
+      "id": "WEB13",
+      "q": "Yung bagong electric fan galing sa appliance shop amoy sunog agad nung sinaksak.",
+      "topic": "Consumer",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Consumer · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "144 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "ART. 97. Liability for the Defective Products. - Any Filipino or foreign manufacturer, producer, and any importer, shall be liable for redress, independently of fault, for damages caused to consumers by defects resulting from design, manufacture, construction, assembly and erection, formulas and handling and making up, presentation or packing of their products, as well as for the insufficient or inadequate information on the use and hazards thereof.\n\nA product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:\npresentation of product;\n\nuse and hazards reasonably expected of it;\n\nthe time it was put into circulation.\nA product is not considered defective because another better quality product has been placed in the market.\n\nThe manufacturer, builder, producer or importer shall not be held liable when it evidences:\nthat it did not place the product on the market;\n\nthat although it did place the product on the market such product has no defect;\n\nthat the consumer or a third party is solely at fault."
+    ],
+    "text": "Question 1\nYung bagong electric fan galing sa appliance shop amoy sunog agad nung sinaksak.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 97\nART. 97. Liability for the Defective Products. - Any Filipino or foreign manufacturer, producer, and any importer, shall be liable for redress, independently of fault, for damages caused to consumers by defects resulting from design, manufacture, construction, assembly and erection, formulas and handling and making up, presentation or packing of their products, as well as for the insufficient or inadequate information on the use and hazards thereof.\n\nA product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:\npresentation of product;\n\nuse and hazards reasonably expected of it;\n\nthe time it was put into circulation.\nA product is not considered defective because another better quality product has been placed in the market.\n\nThe manufacturer, builder, producer or importer shall not be held liable when it evidences:\nthat it did not place the product on the market;\n\nthat although it did place the product on the market such product has no defect;\n\nthat the consumer or a third party is solely at fault.\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nConsumer · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n144 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 97\n2\nRepublic Act No. 7394, ART. 12\n3\nRepublic Act No. 7394, ART. 99\n4\nRepublic Act No. 7394, ART. 10"
+  },
+  {
+    "case": {
+      "id": "WEB14",
+      "q": "Bumili ako ng bagong plantsa sa appliance store, pero di umiinit. Anong consumer concern ito?",
+      "topic": "Consumer",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Consumer · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "157 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "ART. 97. Liability for the Defective Products. - Any Filipino or foreign manufacturer, producer, and any importer, shall be liable for redress, independently of fault, for damages caused to consumers by defects resulting from design, manufacture, construction, assembly and erection, formulas and handling and making up, presentation or packing of their products, as well as for the insufficient or inadequate information on the use and hazards thereof.\n\nA product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:\npresentation of product;\n\nuse and hazards reasonably expected of it;\n\nthe time it was put into circulation.\nA product is not considered defective because another better quality product has been placed in the market.\n\nThe manufacturer, builder, producer or importer shall not be held liable when it evidences:\nthat it did not place the product on the market;\n\nthat although it did place the product on the market such product has no defect;\n\nthat the consumer or a third party is solely at fault."
+    ],
+    "text": "Question 1\nBumili ako ng bagong plantsa sa appliance store, pero di umiinit. Anong consumer concern ito?\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 97\nART. 97. Liability for the Defective Products. - Any Filipino or foreign manufacturer, producer, and any importer, shall be liable for redress, independently of fault, for damages caused to consumers by defects resulting from design, manufacture, construction, assembly and erection, formulas and handling and making up, presentation or packing of their products, as well as for the insufficient or inadequate information on the use and hazards thereof.\n\nA product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:\npresentation of product;\n\nuse and hazards reasonably expected of it;\n\nthe time it was put into circulation.\nA product is not considered defective because another better quality product has been placed in the market.\n\nThe manufacturer, builder, producer or importer shall not be held liable when it evidences:\nthat it did not place the product on the market;\n\nthat although it did place the product on the market such product has no defect;\n\nthat the consumer or a third party is solely at fault.\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nConsumer · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n157 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 97\n2\nRepublic Act No. 7394, ART. 100\n3\nRepublic Act No. 7394, ART. 99\n4\nRepublic Act No. 7394, ART. 102\n5\nRepublic Act No. 7394, ART. 154\n6\nRepublic Act No. 7394, ART. 161\n7\nRepublic Act No. 7394, ART. 160\n8\nRepublic Act No. 7394, ART. 159\n9\nRepublic Act No. 7394, ART. 153"
+  },
+  {
+    "case": {
+      "id": "WEB15",
+      "q": "Our private office closed for a regular holiday, but payroll marked it unpaid. Should I still have been paid for that day?",
+      "topic": "Labor",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Labor · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "143 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "ART. 94. Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage\nduring regular holidays, except in retail and service establishments regularly employing less\nthan ten (10) workers;\n(b) The employer may require an employee to work on any holiday but such employee\nshall be paid a compensation equivalent to twice his regular rate; and\n\n(c) As used in this Article, \"holiday\" includes: New Year’s Day, Maundy Thursday, Good\nFriday, the ninth of April, the first of May, the twelfth of June, the fourth of July, the thirtieth\nof November, the twenty-fifth and thirtieth of December and the day designated by law for\nholding a general election.79"
+    ],
+    "text": "Question 1\nOur private office closed for a regular holiday, but payroll marked it unpaid. Should I still have been paid for that day?\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nPD 442, as amended and renumbered, ART. 94\nART. 94. Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage\nduring regular holidays, except in retail and service establishments regularly employing less\nthan ten (10) workers;\n(b) The employer may require an employee to work on any holiday but such employee\nshall be paid a compensation equivalent to twice his regular rate; and\n\n(c) As used in this Article, \"holiday\" includes: New Year’s Day, Maundy Thursday, Good\nFriday, the ninth of April, the first of May, the twelfth of June, the fourth of July, the thirtieth\nof November, the twenty-fifth and thirtieth of December and the day designated by law for\nholding a general election.79\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nA recorded passage has a wording discrepancy and was excluded from AI explanations. Open its reference for details.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nLabor · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n143 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nPD 442, as amended and renumbered, ART. 94\n2\nOmnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE IV\n3\nOmnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE IV"
+  },
+  {
+    "case": {
+      "id": "WEB16",
+      "q": "The shop hid a nonoptional service fee until checkout.",
+      "topic": "Consumer",
+      "coverage": "Within project topics"
+    },
+    "fields": [
+      "Topic",
+      "Consumer · 88.0% label confidence",
+      "Topic coverage",
+      "Within project topics · 94.0% label confidence",
+      "Wording check",
+      "Local only · 0 LLM calls",
+      "Explanation",
+      "local only · 0 LLM calls",
+      "Response shown",
+      "Local response with source excerpts",
+      "Support check",
+      "Not run — no validated draft was ready",
+      "Analysis time",
+      "142 ms"
+    ],
+    "headings": [
+      "Recorded source passages"
+    ],
+    "quotes": [
+      "ART. 51. Deceptive Sales Acts or Practices By Regulation. - The department shall, after due notice and hearing, promulgate regulations declaring as deceptive any sales act, practice or technique which is a misrepresentation of facts other than those enumerated in Article 50."
+    ],
+    "text": "Question 1\nThe shop hid a nonoptional service fee until checkout.\nRecorded source passages\n\nThese passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n\nAI is off for this question. This response uses local analysis and recorded sources.\n\nRepublic Act No. 7394, ART. 51\nART. 51. Deceptive Sales Acts or Practices By Regulation. - The department shall, after due notice and hearing, promulgate regulations declaring as deceptive any sales act, practice or technique which is a misrepresentation of facts other than those enumerated in Article 50.\n\nComplete stored provision. Current applicability remains under review.\n\nLocal response with recorded source text. No live AI explanation was used.\n\nWhere to ask for assistance\nHow this question was checked\nTopic\nConsumer · 88.0% label confidence\nTopic coverage\nWithin project topics · 94.0% label confidence\nWording check\nLocal only · 0 LLM calls\nExplanation\nlocal only · 0 LLM calls\nResponse shown\nLocal response with source excerpts\nSupport check\nNot run — no validated draft was ready\nAnalysis time\n142 ms\n\nTopic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. View recorded evaluation metrics.\n\nRetrieved candidates\n\n1\nRepublic Act No. 7394, ART. 51\n2\nRepublic Act No. 7394, ART. 50\n3\nRepublic Act No. 7394, ART. 110"
+  }
+]

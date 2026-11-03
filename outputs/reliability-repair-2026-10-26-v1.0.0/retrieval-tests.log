@@ -1,0 +1,99 @@
+test_attached_footnote_numbers_do_not_evade_scope_screen (__main__.RetrievalTests.test_attached_footnote_numbers_do_not_evade_scope_screen) ... ok
+test_benchmark_provenance_and_no_topic_oracle_for_positives (__main__.RetrievalTests.test_benchmark_provenance_and_no_topic_oracle_for_positives) ... ok
+test_bilingual_glossary_is_symmetric (__main__.RetrievalTests.test_bilingual_glossary_is_symmetric) ... ok
+test_blocking_and_unknown_quality_flags_fail_closed (__main__.RetrievalTests.test_blocking_and_unknown_quality_flags_fail_closed) ... ok
+test_bm25_numeric_reference (__main__.RetrievalTests.test_bm25_numeric_reference) ... ok
+test_caller_topic_filter_is_preserved (__main__.RetrievalTests.test_caller_topic_filter_is_preserved) ... ok
+test_changed_canonical_source_is_rejected (__main__.RetrievalTests.test_changed_canonical_source_is_rejected) ... ok
+test_changed_runtime_is_rejected (__main__.RetrievalTests.test_changed_runtime_is_rejected) ... ok
+test_citations_parent_text_and_offsets_match_sources (__main__.RetrievalTests.test_citations_parent_text_and_offsets_match_sources) ... ok
+test_classifier_cli_works_without_preloaded_classifier_imports (__main__.RetrievalTests.test_classifier_cli_works_without_preloaded_classifier_imports) ... ok
+test_criminal_investigation_and_investment_remain_excluded (__main__.RetrievalTests.test_criminal_investigation_and_investment_remain_excluded) ... ok
+test_deduction_hearing_is_not_a_dismissal_hearing (__main__.RetrievalTests.test_deduction_hearing_is_not_a_dismissal_hearing) ... ok
+test_default_method_matches_recorded_development_selection (__main__.RetrievalTests.test_default_method_matches_recorded_development_selection) ... ok
+test_delayed_wage_queries_retrieve_payment_timing (__main__.RetrievalTests.test_delayed_wage_queries_retrieve_payment_timing) ... ok
+test_domain_filters_apply_to_every_method (__main__.RetrievalTests.test_domain_filters_apply_to_every_method) ... ok
+test_each_eligibility_level_blocks_independently (__main__.RetrievalTests.test_each_eligibility_level_blocks_independently) ... ok
+test_empty_unknown_method_domain_and_limits (__main__.RetrievalTests.test_empty_unknown_method_domain_and_limits) ... ok
+test_encoder_is_offline_and_frozen (__main__.RetrievalTests.test_encoder_is_offline_and_frozen) ... ok
+test_excluded_queries_return_no_candidates (__main__.RetrievalTests.test_excluded_queries_return_no_candidates) ... ok
+test_excluded_topics_and_domain_mismatch_are_blocked (__main__.RetrievalTests.test_excluded_topics_and_domain_mismatch_are_blocked) ... ok
+test_final_pay_evidence_is_official_excerpt_not_unrelated_wages (__main__.RetrievalTests.test_final_pay_evidence_is_official_excerpt_not_unrelated_wages) ... ok
+test_frozen_classifier_package_is_unchanged (__main__.RetrievalTests.test_frozen_classifier_package_is_unchanged) ... ok
+test_functional_defects_and_service_quality_do_not_become_safety_findings (__main__.RetrievalTests.test_functional_defects_and_service_quality_do_not_become_safety_findings) ... ok
+test_holiday_comparisons_keep_work_performed_sources_available (__main__.RetrievalTests.test_holiday_comparisons_keep_work_performed_sources_available) ... ok
+test_holiday_filter_does_not_hide_an_explicit_second_labor_topic (__main__.RetrievalTests.test_holiday_filter_does_not_hide_an_explicit_second_labor_topic) ... ok
+test_ineligible_historical_and_review_sources_are_absent (__main__.RetrievalTests.test_ineligible_historical_and_review_sources_are_absent) ... ok
+test_internal_platform_complaint_is_not_a_platform_development_deadline (__main__.RetrievalTests.test_internal_platform_complaint_is_not_a_platform_development_deadline) ... ok
+test_invalid_topic_filters_do_not_fall_back (__main__.RetrievalTests.test_invalid_topic_filters_do_not_fall_back) ... ok
+test_labor_expansion_does_not_rewrite_consumer_or_wage_amount_queries (__main__.RetrievalTests.test_labor_expansion_does_not_rewrite_consumer_or_wage_amount_queries) ... ok
+test_long_query_keeps_its_tail (__main__.RetrievalTests.test_long_query_keeps_its_tail) ... ok
+test_missing_locator_is_blocked (__main__.RetrievalTests.test_missing_locator_is_blocked) ... ok
+test_new_text_corruption_is_quarantined (__main__.RetrievalTests.test_new_text_corruption_is_quarantined) ... ok
+test_opportunity_to_answer_retrieves_procedure_instead_of_rest_or_disease (__main__.RetrievalTests.test_opportunity_to_answer_retrieves_procedure_instead_of_rest_or_disease) ... ok
+test_overseas_remittance_sources_are_quarantined (__main__.RetrievalTests.test_overseas_remittance_sources_are_quarantined) ... ok
+test_overtime_qualifications_survive_ranking_expansion (__main__.RetrievalTests.test_overtime_qualifications_survive_ranking_expansion) ... ok
+test_procedural_question_does_not_reintroduce_an_overtime_facet (__main__.RetrievalTests.test_procedural_question_does_not_reintroduce_an_overtime_facet) ... ok
+test_procedural_subtopics_are_not_dropped_by_the_broader_topic_filter (__main__.RetrievalTests.test_procedural_subtopics_are_not_dropped_by_the_broader_topic_filter) ... ok
+test_project_and_closure_queries_retrieve_their_actual_frameworks (__main__.RetrievalTests.test_project_and_closure_queries_retrieve_their_actual_frameworks) ... ok
+test_quality_and_cash_change_paraphrases_keep_relevant_regimes (__main__.RetrievalTests.test_quality_and_cash_change_paraphrases_keep_relevant_regimes) ... ok
+test_real_classifier_routes_isolate_excluded_and_vague_inputs (__main__.RetrievalTests.test_real_classifier_routes_isolate_excluded_and_vague_inputs) ... FAIL
+test_rebuild_eligibility_exactly_reproduces_index_membership (__main__.RetrievalTests.test_rebuild_eligibility_exactly_reproduces_index_membership) ... FAIL
+test_religious_rest_preference_is_not_only_a_generic_schedule (__main__.RetrievalTests.test_religious_rest_preference_is_not_only_a_generic_schedule) ... ok
+test_required_meeting_time_cannot_be_answered_with_an_overtime_rate_alone (__main__.RetrievalTests.test_required_meeting_time_cannot_be_answered_with_an_overtime_rate_alone) ... ok
+test_retrieval_is_deterministic_and_provision_deduplicated (__main__.RetrievalTests.test_retrieval_is_deterministic_and_provision_deduplicated) ... ok
+test_rule_coverage_is_carried_as_an_exact_source_restriction (__main__.RetrievalTests.test_rule_coverage_is_carried_as_an_exact_source_restriction) ... FAIL
+test_scope_and_glyph_quarantine_is_effective (__main__.RetrievalTests.test_scope_and_glyph_quarantine_is_effective) ... ok
+test_scores_are_not_answer_permission (__main__.RetrievalTests.test_scores_are_not_answer_permission) ... ok
+test_short_change_and_price_tag_queries_keep_distinct_evidence (__main__.RetrievalTests.test_short_change_and_price_tag_queries_keep_distinct_evidence) ... ok
+test_single_holiday_scenario_retrieves_holiday_provisions (__main__.RetrievalTests.test_single_holiday_scenario_retrieves_holiday_provisions) ... ok
+test_source_hashes_and_canonical_files_unchanged (__main__.RetrievalTests.test_source_hashes_and_canonical_files_unchanged) ... ok
+test_specific_issue_wins_over_incidental_wage_and_product_words (__main__.RetrievalTests.test_specific_issue_wins_over_incidental_wage_and_product_words) ... ok
+test_supported_topic_filter_is_applied (__main__.RetrievalTests.test_supported_topic_filter_is_applied) ... ok
+test_tagalog_change_and_procedure_queries_retrieve_known_provisions (__main__.RetrievalTests.test_tagalog_change_and_procedure_queries_retrieve_known_provisions) ... ok
+test_tampered_index_is_rejected (__main__.RetrievalTests.test_tampered_index_is_rejected) ... ok
+test_unknown_status_and_retrieval_policy_are_blocked (__main__.RetrievalTests.test_unknown_status_and_retrieval_policy_are_blocked) ... ok
+test_unpaid_overtime_retrieves_general_compensation_rule (__main__.RetrievalTests.test_unpaid_overtime_retrieves_general_compensation_rule) ... ok
+test_unverified_ocr_is_blocked (__main__.RetrievalTests.test_unverified_ocr_is_blocked) ... ok
+test_valid_investigation_queries_are_not_blocked_as_investments (__main__.RetrievalTests.test_valid_investigation_queries_are_not_blocked_as_investments) ... ok
+test_vectors_are_finite_normalized_and_aligned (__main__.RetrievalTests.test_vectors_are_finite_normalized_and_aligned) ... ok
+test_windows_are_within_token_limit_and_cover_all_text (__main__.RetrievalTests.test_windows_are_within_token_limit_and_cover_all_text) ... ok
+
+======================================================================
+FAIL: test_real_classifier_routes_isolate_excluded_and_vague_inputs (__main__.RetrievalTests.test_real_classifier_routes_isolate_excluded_and_vague_inputs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item11\test_retrieval.py", line 325, in test_real_classifier_routes_isolate_excluded_and_vague_inputs
+    self.assertEqual(cases['evidence_gap']['components'][0]['status'],'no_eligible_evidence')
+AssertionError: 'candidates_found' != 'no_eligible_evidence'
+- candidates_found
++ no_eligible_evidence
+
+
+======================================================================
+FAIL: test_rebuild_eligibility_exactly_reproduces_index_membership (__main__.RetrievalTests.test_rebuild_eligibility_exactly_reproduces_index_membership)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item11\test_retrieval.py", line 213, in test_rebuild_eligibility_exactly_reproduces_index_membership
+    self.assertEqual(len(included)+len(excluded),2001);self.assertEqual(len(included),self.retriever.manifest['indexed_chunks'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2003 != 2001
+
+======================================================================
+FAIL: test_rule_coverage_is_carried_as_an_exact_source_restriction (__main__.RetrievalTests.test_rule_coverage_is_carried_as_an_exact_source_restriction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item11\test_retrieval.py", line 109, in test_rule_coverage_is_carried_as_an_exact_source_restriction
+    self.assertEqual(ordinary['hits'],[])
+AssertionError: Lists differ: [{'chunk_id': 'LAB_IRR_1989__rule_i_hours_[12535 chars]lse}] != []
+
+First list contains 3 additional elements.
+First extra element 0:
+{'chunk_id': 'LAB_IRR_1989__rule_i_hours_of_work__section_4__chunk_0001', 'provision_id': 'LAB_IRR_1989__rule_i_hours_of_work__section_4', 'document_id': 'LAB_IRR_1989', 'citation_display': 'Omnibus Rules Implementing the Labor Code, SECTION 4', 'heading': 'Principles in determining hours worked', 'display_text': "SECTION 4. Principles in determining hours worked. — The following general principles shall govern in determining whether the time spent by an employee is considered hours worked for purposes of this Rule:\n\n(a) All hours are hours worked which the employee is required to give his employer, regardless of whether or not such hours are spent in productive labor or involve physical or mental exertion.\n\n(b) An employee need not leave the premises of the work place in order that his rest period shall not be counted, it being enough that he stops working, may rest completely and may leave his work place, to go elsewhere, whether within or outside the premises of his work place.\n\n(c) If the work performed was necessary, or it benefited the employer, or the employee could not abandon his work at the end of his normal working hours because he had no replacement, all time spent for such work shall be considered as hours worked, if the work was with the knowledge of his employer or immediate supervisor.\n\n(d) The time during which an employee is inactive by reason of interruptions in his work beyond his control shall be considered working time either if the imminence of the resumption of work requires the employee's presence at the place of work or if the interval is too brief to be utilized effectively and gainfully in the employee's own interest.", 'normalized_char_start': 0, 'normalized_char_end': 1357, 'source_locator': {'pdf_page_start': None, 'pdf_page_end': None, 'printed_page_start': None, 'printed_page_end': None, 'html_anchor': None, 'source_region': 'main legal text', 'source_char_start': 133310, 'source_char_end': 134669}, 'former_locator_labels': [], 'parent_provision_id': None, 'parent_text': "SECTION 4. Principles in determining hours worked. — The following general principles shall govern in determining whether the time spent by an employee is considered hours worked for purposes of this Rule:\n\n(a) All hours are hours worked which the employee is required to give his employer, regardless of whether or not such hours are spent in productive labor or involve physical or mental exertion.\n\n(b) An employee need not leave the premises of the work place in order that his rest period shall not be counted, it being enough that he stops working, may rest completely and may leave his work place, to go elsewhere, whether within or outside the premises of his work place.\n\n(c) If the work performed was necessary, or it benefited the employer, or the employee could not abandon his work at the end of his normal working hours because he had no replacement, all time spent for such work shall be considered as hours worked, if the work was with the knowledge of his employer or immediate supervisor.\n\n(d) The time during which an employee is inactive by reason of interruptions in his work beyond his control shall be considered working time either if the imminence of the resumption of work requires the employee's presence at the place of work or if the interval is too brief to be utilized effectively and gainfully in the employee's own interest.", 'document_title': 'Omnibus Rules Implementing the Labor Code', 'official_source_url': 'https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819', 'retrieval_url': 'https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819', 'raw_local_path': 'dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html', 'domains': ['labor'], 'supported_topics': ['labor.hours_of_work'], 'legal_status': 'in_force_as_amended_not_a_current_consolidation', 'status_family': 'current_with_conditions', 'status_as_of': '2026-09-29', 'freshness_rule': 'Before using a provision, check the manifest relationships and later topic-specific orders.', 'conditions': ['Before using a provision, check the manifest relationships and later topic-specific orders.', 'SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof.'], 'legal_relationships': [{'relationship_id': 'LSR_008', 'source_document_id': 'LAB_IRR_1989', 'target_document_id': 'PD_442_1974', 'target_citation_if_external': '', 'relationship_type': 'implements', 'scope': 'General Labor Code implementing rules', 'effective_or_issue_date': '1989-05-27', 'status_as_of': '2026-09-29', 'evidence_url': 'https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819', 'confidence': 'high', 'note': 'Later subject-specific amendments control.'}, {'relationship_id': 'LSR_009', 'source_document_id': 'DOLE_DO_147_15', 'target_document_id': 'LAB_IRR_1989', 'target_citation_if_external': '', 'relationship_type': 'amends', 'scope': 'Book VI termination rules', 'effective_or_issue_date': '2015-09-07', 'status_as_of': '2026-09-29', 'evidence_url': 'https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535', 'confidence': 'high', 'note': 'Book VI answers should retrieve the amended rule rather than the older text alone.'}], 'quality_flags': ['table_structure_present'], 'review_status': 'machine_validated', 'extraction_method': 'html_structural', 'score': 15.94257454544523, 'bm25_score': 15.94257454544523, 'semantic_similarity': None, 'retrieval_candidate_only': True, 'answer_generation_allowed': False}
+
+Diff is 17935 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 60 tests in 12.874s
+
+FAILED (failures=3)

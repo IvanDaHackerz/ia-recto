@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\IA\outputs\demo-usability-repair-2026-10-24-v1.0.0\package_selected.py", line 62, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\IA\outputs\demo-usability-repair-2026-10-24-v1.0.0\package_selected.py", line 58, in main
+    run(['-m','backend.classifier.build_config','--classifier',CLASSIFIER,'--output',str(config)],'classifier-final-config.log')
+  File "C:\IA\outputs\demo-usability-repair-2026-10-24-v1.0.0\package_selected.py", line 22, in run
+    if result.returncode:raise RuntimeError('Inspect '+name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inspect classifier-final-config.log

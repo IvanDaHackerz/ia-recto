@@ -1,0 +1,9 @@
+{
+  "phase": "Before any reserved_wording inference",
+  "case_id": "NEW_032",
+  "original_expected_components": 1,
+  "expected_components": 2,
+  "reason": "The question asks about unpaid overtime and a separate equipment-loss deduction. Sharing a payslip does not make these the same legal issue. Preserve both; do not merge merely to meet the original count.",
+  "independent_human_review": false,
+  "original_cases_and_hash_retained": true
+}

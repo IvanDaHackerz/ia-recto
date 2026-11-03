@@ -1,0 +1,6 @@
+{
+  "reason": "A numeric-parser false rejection was found: nonbreaking hyphens in written numbers were not equivalent to ASCII hyphens. Stopped dispatch and preserved observations before repair.",
+  "completed_packets": 44,
+  "unreturned_inflight_attempts": "Remain conservatively reserved in shared budget; not reported as successful responses.",
+  "no_results_overwritten": true
+}

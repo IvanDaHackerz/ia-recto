@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "role": "offline_development_classifier",
+  "classifier": "outputs/item10-classifier-v1.5.61",
+  "model_version": "item10-classifier-v1.5.61",
+  "artifact_checksums_sha256": "125b42b8525dfe468aef5989327549d695e90d23643d19d4235e33e6efa202c6",
+  "thresholds": {
+    "primary": 0.8,
+    "scope": 0.85
+  },
+  "python_major_minor": "3.12",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "fastembed": "0.9.0"
+  },
+  "source_sha256": {
+    "dataset/processed/item10/reviewed_v1.0.0/referral_directory.csv": "95bbdf891c6067d368d4bbf10b9b5c951ea19cb794008ddc5617a58919e413b6",
+    "backend/__init__.py": "5bc80a0ae757163973d7c45f8775df6134608c033929318da11208ed01867830",
+    "backend/classifier/__init__.py": "e8fbc501b6fdc3123b9b0ce8eaf50b013ce2121e1c671d45fc52d82cd9a99721",
+    "backend/classifier/contracts.py": "aaf40ca9800185f7c746b0bd8c51cbca79cfda6997bf052649aa8f4f8c3e050d",
+    "backend/classifier/service.py": "e1a5d6a868c94029f8c14f3282db95e9681c679d6297a20119171701690a39ea",
+    "backend/classifier/server.py": "bd59aa0c6583430a3a71a9945d589d1efb69405a1106e810d764a0b68145f5fa"
+  },
+  "formal_evaluation_completed": false,
+  "website_integration_completed": false,
+  "answer_generation_allowed": false,
+  "deployment_allowed": false
+}

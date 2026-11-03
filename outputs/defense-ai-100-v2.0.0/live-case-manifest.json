@@ -1,0 +1,16 @@
+{
+  "count": 100,
+  "groups": {
+    "labor": 25,
+    "consumer": 25,
+    "mixed": 25,
+    "out_of_scope": 25
+  },
+  "cases_sha256": "3479a57d4d014776476467171754c505db801fa6738c9a6ace70b2dd2d190267",
+  "expectations_frozen_before_inference": true,
+  "authorship": "AI-authored fictional Philippine development questions",
+  "independent_human_questions": 0,
+  "legal_accuracy_measured": false,
+  "repair_policy": "Preserve first-pass results; disclose all retests as development reuse.",
+  "retrieval_policy": "Topic expectations frozen; relevant source IDs not independently pre-judged. Source gaps are separate from classification."
+}

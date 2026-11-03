@@ -1,0 +1,406 @@
+{
+  "cases": 21,
+  "citations_checked": 28,
+  "exact_spans_passed": 28,
+  "identities_passed": 28,
+  "domain_and_hold_checks_passed": 28,
+  "checks": [
+    {
+      "case_id": "DEF_005",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_005",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_10__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_013",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_xvi_general_provisions__section_5__occ_2__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_013",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_xvi_general_provisions__section_5__occ_2__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_016",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_2__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_019",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_CODE_2022__art_234__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_019",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_CODE_2022__art_234__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_019",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_CODE_2022__art_234__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_028",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_028",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_028",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_038",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_110__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_038",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_110__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_040",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_040",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_040",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_044",
+      "claim_id": "development_1",
+      "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_044",
+      "claim_id": "development_1",
+      "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_044",
+      "claim_id": "development_1",
+      "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_049",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_049",
+      "claim_id": "development_1",
+      "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_049",
+      "claim_id": "development_2",
+      "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_049",
+      "claim_id": "development_2",
+      "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_052",
+      "claim_id": "development_2",
+      "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_052",
+      "claim_id": "development_2",
+      "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_052",
+      "claim_id": "development_2",
+      "chunk_id": "RA_11967_2023__sec_25__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_AI_021",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_AI_021",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    }
+  ],
+  "AI_reading_notes": [
+    {
+      "case_id": "DEF_002",
+      "AI_status": "withheld",
+      "reason": "claim_support_failed",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_005",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_008",
+      "AI_status": "withheld",
+      "reason": "provider_unavailable",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_010",
+      "AI_status": "withheld",
+      "reason": "provider_unavailable",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_013",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_016",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_019",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_022",
+      "AI_status": "withheld",
+      "reason": "related_authority_missing",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_025",
+      "AI_status": "withheld",
+      "reason": "provider_unavailable",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_028",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_032",
+      "AI_status": "withheld",
+      "reason": "no_supported_explanation",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_035",
+      "AI_status": "withheld",
+      "reason": "claim_support_failed",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_038",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_040",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_044",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_049",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_050",
+      "AI_status": "withheld",
+      "reason": "provider_unavailable",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_052",
+      "AI_status": "partially_generated",
+      "reason": "supported_parts_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_064",
+      "AI_status": "withheld",
+      "reason": "citation_validation_failed",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_071",
+      "AI_status": "withheld",
+      "reason": "supported_concern_required",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    },
+    {
+      "case_id": "DEF_AI_021",
+      "AI_status": "partially_generated",
+      "reason": "supported_parts_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    }
+  ],
+  "meaning": "Exact-source integrity and AI engineering review are separate from semantic correctness and current-law/legal review.",
+  "independent_human_reviews": 0,
+  "legal_accuracy": null
+}

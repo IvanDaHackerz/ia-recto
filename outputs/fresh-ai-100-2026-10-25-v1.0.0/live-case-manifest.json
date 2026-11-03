@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-10-25T08:28:28.948588+00:00",
+  "cases_sha256": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+  "input_forms": 100,
+  "group_counts": {
+    "L": 30,
+    "C": 30,
+    "M": 10,
+    "P_L": 6,
+    "P_C": 6,
+    "P_B": 3,
+    "O": 15
+  },
+  "earlier_input_rows_checked_for_exact_duplicates": 1760,
+  "exact_duplicates": 0,
+  "provenance": "Fresh AI-authored fictional development questions, authored before inference; not human gold.",
+  "sampling": "Purposive coverage, English/Taglish/noisy typing, not random population sampling.",
+  "prior_topic_overlap_expected": true,
+  "semantic_novelty_independently_validated": false
+}

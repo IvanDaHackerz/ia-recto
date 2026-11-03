@@ -1,0 +1,11 @@
+{
+  "criteria": [
+    "Answer the actual concern without invented case facts",
+    "Keep source conditions, amounts, actors and citations intact",
+    "Do not answer excluded concerns",
+    "Make missing-source and provider limits understandable",
+    "Preserve original questions and all initial observations"
+  ],
+  "no_relabeling_after_inference": true,
+  "legal_accuracy_measured": false
+}

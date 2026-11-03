@@ -1,0 +1,51 @@
+{
+  "inputs": 5,
+  "integrity": {
+    "candidate_checks": 24,
+    "candidate_failures": 0,
+    "claim_checks": 5,
+    "claim_gate_failures": 0,
+    "citation_checks": 9,
+    "citation_failures": 0,
+    "fallback_checks": 1,
+    "fallback_failures": 0
+  },
+  "routing_issue_ids": [],
+  "normalization_status": {
+    "bypassed": 5
+  },
+  "normalization_failures": {},
+  "role": "AI-authored synthetic development diagnostic",
+  "independent_human_questions": 0,
+  "legal_accuracy": null,
+  "frozen_files_intact": true,
+  "groups": {
+    "C": {
+      "n": 2,
+      "topic_correct": 2,
+      "scope_correct": 2,
+      "route_correct": 2,
+      "AI_status": {
+        "generated": 2
+      }
+    },
+    "L": {
+      "n": 2,
+      "topic_correct": 2,
+      "scope_correct": 2,
+      "route_correct": 2,
+      "AI_status": {
+        "generated": 2
+      }
+    },
+    "P_C": {
+      "n": 1,
+      "topic_correct": 1,
+      "scope_correct": 1,
+      "route_correct": 1,
+      "AI_status": {
+        "partially_generated": 1
+      }
+    }
+  }
+}

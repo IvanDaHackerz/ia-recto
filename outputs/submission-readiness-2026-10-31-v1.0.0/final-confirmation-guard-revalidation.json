@@ -1,0 +1,33 @@
+{
+  "role": "Offline guard regression on saved intermediate AI outputs; not a new complete application replay or independent legal review",
+  "claims_tested": 2,
+  "newly_blocked_claims": [
+    {
+      "id": "RD31_014",
+      "claim_id": "development_1",
+      "text": "Sa ilalim ng Omnibus Rules, dapat igalang ng employer ang gustong araw ng pahinga ng empleyado kung ito ay base sa relihiyon. Kailangan lang ipaalam ng empleyado ang kanyang preference sa employer nang nakasulat at hindi bababa sa pitong (7) araw bago ang gustong petsa ng simula. Kung ang pagpili ng empleyado ay magdudulot ng seryosong problema sa operasyon at walang ibang remedyo, puwede pa rin magtakda ang employer ng ibang araw, pero ito ay isang exception lamang.",
+      "new_guard_failure": "source_held_for_interpretation_review"
+    },
+    {
+      "id": "RD31_038",
+      "claim_id": "development_1",
+      "text": "Sa ilalim ng Art. 101 ng Consumer Act, ang supplier ay may pananagutan kapag ang netong laman ng sealed pack ay mas mababa kaysa sa nakasaad sa packaging o label. Bilang consumer, pwede mong piliin ang alinman sa mga remedyo: (a) dagdagan ang kulang na timbang o sukat; (b) palitan ang tiles ng kapareho ng klase, marka o modelo na walang kakulangan; o (c) ibalik agad ang bayad kasama ang monetary updating. Kung ang sukat ay hindi nasukat ayon sa opisyal na pamantayan, ang mismong supplier ang mananagot.",
+      "new_guard_failure": "quantity_comparison_keeps_the_inherent_variations_qualification"
+    }
+  ],
+  "all_checks": [
+    {
+      "id": "RD31_014",
+      "claim_id": "development_1",
+      "text": "Sa ilalim ng Omnibus Rules, dapat igalang ng employer ang gustong araw ng pahinga ng empleyado kung ito ay base sa relihiyon. Kailangan lang ipaalam ng empleyado ang kanyang preference sa employer nang nakasulat at hindi bababa sa pitong (7) araw bago ang gustong petsa ng simula. Kung ang pagpili ng empleyado ay magdudulot ng seryosong problema sa operasyon at walang ibang remedyo, puwede pa rin magtakda ang employer ng ibang araw, pero ito ay isang exception lamang.",
+      "new_guard_failure": "source_held_for_interpretation_review"
+    },
+    {
+      "id": "RD31_038",
+      "claim_id": "development_1",
+      "text": "Sa ilalim ng Art. 101 ng Consumer Act, ang supplier ay may pananagutan kapag ang netong laman ng sealed pack ay mas mababa kaysa sa nakasaad sa packaging o label. Bilang consumer, pwede mong piliin ang alinman sa mga remedyo: (a) dagdagan ang kulang na timbang o sukat; (b) palitan ang tiles ng kapareho ng klase, marka o modelo na walang kakulangan; o (c) ibalik agad ang bayad kasama ang monetary updating. Kung ang sukat ay hindi nasukat ayon sa opisyal na pamantayan, ang mismong supplier ang mananagot.",
+      "new_guard_failure": "quantity_comparison_keeps_the_inherent_variations_qualification"
+    }
+  ],
+  "provider_calls": 0
+}

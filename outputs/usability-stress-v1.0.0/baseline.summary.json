@@ -1,0 +1,312 @@
+{
+  "count": 138,
+  "labeled": 130,
+  "labels_correct": 116,
+  "flow_correct": 118,
+  "exact_quote_cases": 138,
+  "provider_calls": 0,
+  "quoted_responses": 80,
+  "median_ms": 191.75,
+  "failures": [
+    {
+      "id": "DEV005",
+      "q": "Cashier ako sa supermarket. May salary deduction kami pag kulang ang kaha.",
+      "expected": [
+        "labor",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "fully_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV012",
+      "q": "Pinapastay kami sa factory kahit walang ginagawa habang naghihintay ng delivery.",
+      "expected": [
+        "labor",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "labor",
+        "fully_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV027",
+      "q": "Project-based daw ako pero wala silang sinabing project sa contract ko.",
+      "expected": [
+        "labor",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV039",
+      "q": "I work for a private telecom company. My question is about unpaid overtime, not my phone bill.",
+      "expected": [
+        "labor",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV042",
+      "q": "Yung bagong electric fan galing sa appliance shop amoy sunog agad nung sinaksak.",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV052",
+      "q": "Nagbayad ako sa retailer para sa blue chair pero red ang pinadala at ayaw palitan.",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV054",
+      "q": "A salesperson told me a secondhand phone was brand new and I bought it based on that claim.",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "partially_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV056",
+      "q": "Binenta nila yung display unit bilang bago, wala silang sinabi bago ako nagbayad.",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV062",
+      "q": "A retail store displays no prices on any of its household goods.",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV066",
+      "q": "May exposed wire yung bagong extension cord sa hardware. Unsafe consumer product ba ito?",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "partially_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV077",
+      "q": "My employer gave me a gift card. I used it at a store and the store sold me a broken fan.",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "partially_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV080",
+      "q": "The private company that sold me a refrigerator refuses a refund for a defective unit.",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV087",
+      "q": "Nagtrabaho sa regular holiday sa private shop pero walang premium. May misleading ad din yung retailer na pinagbilhan ko.",
+      "expected": [
+        "mixed",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "fully_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV090",
+      "q": "Our company requires unpaid work after clock-out; the online business I bought from refuses to deliver my order.",
+      "expected": [
+        "mixed",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "fully_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV093",
+      "q": "Private company ako, hindi bayad OT ko. Gusto ko rin malaman exact minimum wage ngayon sa Cebu.",
+      "expected": [
+        "mixed",
+        "partially_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "mixed",
+        "partially_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV094",
+      "q": "I need general wage-payment rules for my private job and help with my pending NLRC case.",
+      "expected": [
+        "mixed",
+        "partially_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV104",
+      "q": "Public school teacher ako. May issue ako sa government salary deductions ko.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "mixed",
+        "partially_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV105",
+      "q": "Yaya ako ng bata sa bahay ng isang pamilya, walang day off na binibigay.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "labor",
+        "fully_supported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV135",
+      "q": "Hindi ko alam paano ito ayusin.",
+      "expected": [
+        null,
+        null,
+        "clarify"
+      ],
+      "actual": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV137",
+      "q": "I paid but nothing happened.",
+      "expected": [
+        null,
+        null,
+        "clarify"
+      ],
+      "actual": [
+        "labor",
+        "fully_supported",
+        "local_sources"
+      ],
+      "reason": null
+    }
+  ]
+}

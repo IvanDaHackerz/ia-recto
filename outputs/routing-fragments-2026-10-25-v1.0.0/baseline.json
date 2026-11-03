@@ -1,0 +1,3824 @@
+{
+  "artifact": "outputs\\item10-classifier-v1.5.61",
+  "case_hash": "64a6e0bac7cd642ef2eae3e10518802f1cc1d3ee4a3f1cb7b6e77575b01615c3",
+  "inputs": 40,
+  "passed": 31,
+  "failures": [
+    {
+      "case_id": "EX_NEW_003",
+      "issues": [
+        "components"
+      ]
+    },
+    {
+      "case_id": "EX_NEW_005",
+      "issues": [
+        "components"
+      ]
+    },
+    {
+      "case_id": "EX_NEW_008",
+      "issues": [
+        "primary",
+        "route",
+        "components"
+      ]
+    },
+    {
+      "case_id": "EX_NEW_011",
+      "issues": [
+        "primary",
+        "route",
+        "components"
+      ]
+    },
+    {
+      "case_id": "EX_NEW_012",
+      "issues": [
+        "components"
+      ]
+    },
+    {
+      "case_id": "EX_NEW_016",
+      "issues": [
+        "components"
+      ]
+    },
+    {
+      "case_id": "EX_NEW_017",
+      "issues": [
+        "components"
+      ]
+    },
+    {
+      "case_id": "EX_NEW_019",
+      "issues": [
+        "primary",
+        "scope",
+        "route",
+        "components"
+      ]
+    },
+    {
+      "case_id": "EX_NEW_024",
+      "issues": [
+        "components"
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "case": {
+        "case_id": "EX_NEW_001",
+        "phase": "diagnostic_replay",
+        "question_text": "I work for a private delivery warehouse. We stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. How should we understand this?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "I work for a private delivery warehouse. We stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. How should we understand this?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "private employment: we stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. how should we understand this",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9506559306650246,
+              "consumer": 0.021800363627140152,
+              "excluded": 0.027543705707835202
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "private employment: we stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. how should we understand this"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "i work for a private delivery warehouse",
+              "role": "background",
+              "component_index": null
+            },
+            {
+              "fragment_id": 1,
+              "text": "we stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "how should we understand this",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_002",
+        "phase": "diagnostic_replay",
+        "question_text": "Private hotel employee ako. Sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. May dagdag ba dapat, and ano ang conditions?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Private hotel employee ako. Sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. May dagdag ba dapat, and ano ang conditions?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "private employment: sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. may dagdag ba dapat, and ano ang conditions",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_private_employment_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9921664640528027,
+              "consumer": 0.004109484129037707,
+              "excluded": 0.0037240518181596437
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "private employment: sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. may dagdag ba dapat, and ano ang conditions"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "private hotel employee ako",
+              "role": "background",
+              "component_index": null
+            },
+            {
+              "fragment_id": 1,
+              "text": "sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "may dagdag ba dapat, and ano ang conditions",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_003",
+        "phase": "diagnostic_replay",
+        "question_text": "A private office closed for a regular holiday. The staff were told that no work means no pay. Is that the general rule?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": 1,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "A private office closed for a regular holiday. The staff were told that no work means no pay. Is that the general rule?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "a private office closed for a regular holiday",
+            "category": "labor",
+            "decision_source": "learned_atomic_classifier",
+            "constraint": null,
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.923666691909147,
+              "consumer": 0.041195529511040205,
+              "excluded": 0.03513777857981292
+            },
+            "atomic_evidence_strength": 0.923666691909147
+          },
+          {
+            "text": "private employment: the staff were told that no work means no pay. is that the general rule",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.967500893882984,
+              "consumer": 0.026753584560992933,
+              "excluded": 0.005745521556023092
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "a private office closed for a regular holiday",
+            "private employment: the staff were told that no work means no pay. is that the general rule"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "a private office closed for a regular holiday",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "the staff were told that no work means no pay",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "is that the general rule",
+              "role": "follow_up",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_004",
+        "phase": "diagnostic_replay",
+        "question_text": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "private employment: they deducted a missing cash amount from my salary without asking for my side. what should be checked before that deduction",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.976353645907689,
+              "consumer": 0.01150025264452101,
+              "excluded": 0.012146101447789992
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "private employment: they deducted a missing cash amount from my salary without asking for my side. what should be checked before that deduction"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "i work in a private café",
+              "role": "background",
+              "component_index": null
+            },
+            {
+              "fragment_id": 1,
+              "text": "they deducted a missing cash amount from my salary without asking for my side",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "what should be checked before that deduction",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_005",
+        "phase": "diagnostic_replay",
+        "question_text": "sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": 1,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "sa private printing company kami",
+            "category": "labor",
+            "decision_source": "learned_atomic_classifier",
+            "constraint": null,
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9371834953565816,
+              "consumer": 0.006462797209871947,
+              "excluded": 0.05635370743354649
+            },
+            "atomic_evidence_strength": 0.9371834953565816
+          },
+          {
+            "text": "private employment: isang beses lang kada month nagbibigay sahod",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9692319534858683,
+              "consumer": 0.003078916319318276,
+              "excluded": 0.027689130194813335
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "private employment: tama ba yung pagitan ng payday namin",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_private_employment_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9732306209550997,
+              "consumer": 0.006526861313872239,
+              "excluded": 0.020242517731027983
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "sa private printing company kami",
+            "private employment: isang beses lang kada month nagbibigay sahod",
+            "private employment: tama ba yung pagitan ng payday namin"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "sa private printing company kami",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "isang beses lang kada month nagbibigay sahod",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "tama ba yung pagitan ng payday namin",
+              "role": "concern",
+              "component_index": 2
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_006",
+        "phase": "diagnostic_replay",
+        "question_text": "My private employer accused me of misconduct and immediately dismissed me. I was never allowed to explain. What process is supposed to happen?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "My private employer accused me of misconduct and immediately dismissed me. I was never allowed to explain. What process is supposed to happen?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "my private employer accused me of misconduct and immediately dismissed me. i was never allowed to explain. what process is supposed to happen",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9840962767301061,
+              "consumer": 0.006961875287426719,
+              "excluded": 0.008941847982467053
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "my private employer accused me of misconduct and immediately dismissed me. i was never allowed to explain. what process is supposed to happen"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "my private employer accused me of misconduct and immediately dismissed me",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "i was never allowed to explain",
+              "role": "follow_up",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "what process is supposed to happen",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_007",
+        "phase": "diagnostic_replay",
+        "question_text": "My private employer repeatedly gives me short contracts even though I do the normal daily work of the business. Does the contract label settle whether the work is regular?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "My private employer repeatedly gives me short contracts even though I do the normal daily work of the business. Does the contract label settle whether the work is regular?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "my private employer repeatedly gives me short contracts even though i do the normal daily work of the business. does the contract label settle whether the work is regular",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9660955246977679,
+              "consumer": 0.023783834777854243,
+              "excluded": 0.01012064052437796
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "my private employer repeatedly gives me short contracts even though i do the normal daily work of the business. does the contract label settle whether the work is regular"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "my private employer repeatedly gives me short contracts even though i do the normal daily work of the business",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "does the contract label settle whether the work is regular",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_008",
+        "phase": "diagnostic_replay",
+        "question_text": "Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": 1,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "primary",
+        "route",
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?",
+        "predicted_primary": "mixed",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.4408636987789374,
+        "scope_confidence": 0.9509354358997707,
+        "primary_probabilities": {
+          "labor": 0.3954969983197957,
+          "consumer": 0.15307827544030117,
+          "mixed": 0.4408636987789374,
+          "out_of_scope": 0.010561027460965808
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9509354358997707,
+          "partially_supported": 0.03850353663926354,
+          "unsupported": 0.010561027460965808
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "probationary ako sa private office. ngayong patapos na",
+            "category": "labor",
+            "decision_source": "learned_atomic_classifier",
+            "constraint": null,
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.7798034848848601,
+              "consumer": 0.07805461754193063,
+              "excluded": 0.14214189757320936
+            },
+            "atomic_evidence_strength": 0.7798034848848601
+          },
+          {
+            "text": "lang nila sinabi yung standards na kailangan ma-meet. how does the rule handle that",
+            "category": "consumer",
+            "decision_source": "learned_atomic_classifier",
+            "constraint": null,
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.42948383025876413,
+              "consumer": 0.5056277099731777,
+              "excluded": 0.06488845976805811
+            },
+            "atomic_evidence_strength": 0.5056277099731777
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "probationary ako sa private office. ngayong patapos na",
+            "lang nila sinabi yung standards na kailangan ma-meet. how does the rule handle that"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "probationary ako sa private office",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "ngayong patapos na",
+              "role": "follow_up",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "lang nila sinabi yung standards na kailangan ma-meet",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 3,
+              "text": "how does the rule handle that",
+              "role": "follow_up",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "clarify",
+        "substantive_answer_admitted": false,
+        "clarification_question": "Please confirm each separate concern and which employer, seller, or service is responsible for each one.",
+        "reason": "low_confidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_009",
+        "phase": "diagnostic_replay",
+        "question_text": "I was late last Monday, and my private employer wants to use that undertime to cancel overtime I worked on Wednesday. Can those hours just cancel each other?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "I was late last Monday, and my private employer wants to use that undertime to cancel overtime I worked on Wednesday. Can those hours just cancel each other?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "i was late last monday. my private employer wants to use that undertime to cancel overtime i worked on wednesday. can those hours just cancel each other",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9936971622791435,
+              "consumer": 0.0015234466090876398,
+              "excluded": 0.004779391111768875
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "i was late last monday. my private employer wants to use that undertime to cancel overtime i worked on wednesday. can those hours just cancel each other"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "i was late last monday",
+              "role": "preface",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "my private employer wants to use that undertime to cancel overtime i worked on wednesday",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "can those hours just cancel each other",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_010",
+        "phase": "diagnostic_replay",
+        "question_text": "I work at a private retail store. I requested a rest day for my religious observance. What should the employer consider before refusing?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "I work at a private retail store. I requested a rest day for my religious observance. What should the employer consider before refusing?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "private employment: i requested a rest day for my religious observance. what should the employer consider before refusing",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9932441316507626,
+              "consumer": 0.002116063302337316,
+              "excluded": 0.004639805046899968
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "private employment: i requested a rest day for my religious observance. what should the employer consider before refusing"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "i work at a private retail store",
+              "role": "background",
+              "component_index": null
+            },
+            {
+              "fragment_id": 1,
+              "text": "i requested a rest day for my religious observance",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "what should the employer consider before refusing",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_011",
+        "phase": "diagnostic_replay",
+        "question_text": "I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": 1,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "primary",
+        "route",
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?",
+        "predicted_primary": "mixed",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.5156815662826413,
+        "scope_confidence": 0.9639530930876442,
+        "primary_probabilities": {
+          "labor": 0.03381972320801188,
+          "consumer": 0.4482902578781508,
+          "mixed": 0.5156815662826413,
+          "out_of_scope": 0.002208452631196006
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9639530930876442,
+          "partially_supported": 0.033838454281159724,
+          "unsupported": 0.002208452631196006
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "i bought a new desk fan from an appliance shop. the shop says it will only repair it and will never consider replacement or refund. what does the rule actually allow",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.012533266143688706,
+              "consumer": 0.978674147102528,
+              "excluded": 0.008792586753783145
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "it worked once and then stopped",
+            "category": "labor",
+            "decision_source": "learned_atomic_classifier",
+            "constraint": null,
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.5235933821556297,
+              "consumer": 0.310471156845723,
+              "excluded": 0.1659354609986473
+            },
+            "atomic_evidence_strength": 0.5235933821556297
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "i bought a new desk fan from an appliance shop. the shop says it will only repair it and will never consider replacement or refund. what does the rule actually allow",
+            "it worked once and then stopped"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "i bought a new desk fan from an appliance shop",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "it worked once and then stopped",
+              "role": "preface",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "the shop says it will only repair it and will never consider replacement or refund",
+              "role": "follow_up",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 3,
+              "text": "what does the rule actually allow",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "clarify",
+        "substantive_answer_admitted": false,
+        "clarification_question": "Please confirm each separate concern and which employer, seller, or service is responsible for each one.",
+        "reason": "low_confidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_012",
+        "phase": "diagnostic_replay",
+        "question_text": "may warranty card ako sa bagong microwave. ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": 1,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "may warranty card ako sa bagong microwave. ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "retail transaction: may warranty card ako sa bagong microwave",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.06574758973744424,
+              "consumer": 0.5405688001990003,
+              "excluded": 0.3936836100635554
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.16104176696121184,
+              "consumer": 0.6757443756752813,
+              "excluded": 0.16321385736350666
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "retail transaction: may warranty card ako sa bagong microwave",
+            "ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "may warranty card ako sa bagong microwave",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "ano responsibility ng retailer",
+              "role": "follow_up",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_013",
+        "phase": "diagnostic_replay",
+        "question_text": "A supermarket gave me a store coupon instead of the coins it owed me as change. I did not agree. Can the store decide that for me?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "A supermarket gave me a store coupon instead of the coins it owed me as change. I did not agree. Can the store decide that for me?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "a supermarket gave me a store coupon instead of the coins it owed me as change. i did not agree. can the store decide that for me",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.04644274521137588,
+              "consumer": 0.928652820461985,
+              "excluded": 0.024904434326639135
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "a supermarket gave me a store coupon instead of the coins it owed me as change. i did not agree. can the store decide that for me"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "a supermarket gave me a store coupon instead of the coins it owed me as change",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "i did not agree",
+              "role": "follow_up",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "can the store decide that for me",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_014",
+        "phase": "diagnostic_replay",
+        "question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "the price label on the shelf was lower than the amount the cashier charged. they said the label had not been updated yet. which price rule should i understand",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.033167342323744756,
+              "consumer": 0.9572190243750726,
+              "excluded": 0.009613633301182617
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "the price label on the shelf was lower than the amount the cashier charged. they said the label had not been updated yet. which price rule should i understand"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "the price label on the shelf was lower than the amount the cashier charged",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "they said the label had not been updated yet",
+              "role": "follow_up",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "which price rule should i understand",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_015",
+        "phase": "diagnostic_replay",
+        "question_text": "Nagbayad ako sa local repair shop para ayusin ang electric fan. Same problem pa rin nung binalik. What can the service-quality rule tell me?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Nagbayad ako sa local repair shop para ayusin ang electric fan. Same problem pa rin nung binalik. What can the service-quality rule tell me?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "nagbayad ako sa local repair shop para ayusin ang electric fan. same problem pa rin nung binalik. what can the service-quality rule tell me",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.03166617377352975,
+              "consumer": 0.8943748658728947,
+              "excluded": 0.07395896035357546
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "nagbayad ako sa local repair shop para ayusin ang electric fan. same problem pa rin nung binalik. what can the service-quality rule tell me"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "nagbayad ako sa local repair shop para ayusin ang electric fan",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "same problem pa rin nung binalik",
+              "role": "follow_up",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "what can the service-quality rule tell me",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_016",
+        "phase": "diagnostic_replay",
+        "question_text": "I ordered a red school bag from a Philippine online seller and got a different model. If I ask for a replacement, who pays to return the wrong item?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": 1,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "I ordered a red school bag from a Philippine online seller and got a different model. If I ask for a replacement, who pays to return the wrong item?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "i ordered a red school bag from a philippine online seller and got a different model",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.053397967456687345,
+              "consumer": 0.7923851766968135,
+              "excluded": 0.15421685584649916
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "if i ask for a replacement, who pays to return the wrong item",
+            "category": "consumer",
+            "decision_source": "learned_atomic_classifier",
+            "constraint": null,
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.13055776125136387,
+              "consumer": 0.7441886101544156,
+              "excluded": 0.12525362859422054
+            },
+            "atomic_evidence_strength": 0.7441886101544156
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "i ordered a red school bag from a philippine online seller and got a different model",
+            "if i ask for a replacement, who pays to return the wrong item"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "i ordered a red school bag from a philippine online seller and got a different model",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "if i ask for a replacement, who pays to return the wrong item",
+              "role": "concern",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_017",
+        "phase": "diagnostic_replay",
+        "question_text": "A store advertised a printer with a scanner, but the delivered model cannot scan. What consumer rule covers a feature that was promised but is missing?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": 1,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "A store advertised a printer with a scanner, but the delivered model cannot scan. What consumer rule covers a feature that was promised but is missing?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "a store advertised a printer with a scanner, but the delivered model cannot scan",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.018430206791007913,
+              "consumer": 0.9519442804454967,
+              "excluded": 0.02962551276349511
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "what consumer rule covers a feature that was promised but is missing",
+            "category": "consumer",
+            "decision_source": "learned_atomic_classifier",
+            "constraint": null,
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.019470514016218486,
+              "consumer": 0.9754342738387948,
+              "excluded": 0.0050952121449865
+            },
+            "atomic_evidence_strength": 0.9754342738387948
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "a store advertised a printer with a scanner, but the delivered model cannot scan",
+            "what consumer rule covers a feature that was promised but is missing"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "a store advertised a printer with a scanner, but the delivered model cannot scan",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "what consumer rule covers a feature that was promised but is missing",
+              "role": "concern",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_018",
+        "phase": "diagnostic_replay",
+        "question_text": "The new extension cord I bought from a local shop sparks during normal use. How do the consumer product-safety rules describe a defective product?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "The new extension cord I bought from a local shop sparks during normal use. How do the consumer product-safety rules describe a defective product?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "the new extension cord i bought from a local shop sparks during normal use. how do the consumer product-safety rules describe a defective product",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.0012820080184657856,
+              "consumer": 0.9978168566426383,
+              "excluded": 0.0009011353388960261
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "the new extension cord i bought from a local shop sparks during normal use. how do the consumer product-safety rules describe a defective product"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "the new extension cord i bought from a local shop sparks during normal use",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "how do the consumer product-safety rules describe a defective product",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_019",
+        "phase": "diagnostic_replay",
+        "question_text": "Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": 1,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "primary",
+        "scope",
+        "route",
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?",
+        "predicted_primary": "mixed",
+        "predicted_scope": "partially_supported",
+        "primary_confidence": 0.5046254749208292,
+        "scope_confidence": 0.4723305804872063,
+        "primary_probabilities": {
+          "labor": 0.0022667220171318607,
+          "consumer": 0.4601182670817892,
+          "mixed": 0.5046254749208292,
+          "out_of_scope": 0.03298953598024959
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.494679883532544,
+          "partially_supported": 0.4723305804872063,
+          "unsupported": 0.03298953598024959
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "sabi ng gadget store brand new yung phone, pero refurbished pala",
+            "category": "excluded",
+            "decision_source": "learned_atomic_classifier",
+            "constraint": null,
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.10276293293055033,
+              "consumer": 0.3902759396776591,
+              "excluded": 0.5069611273917904
+            },
+            "atomic_evidence_strength": 0.5069611273917904
+          },
+          {
+            "text": "retail transaction: what does the consumer act say about selling something used as new",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.007762365259161248,
+              "consumer": 0.9170179272834256,
+              "excluded": 0.0752197074574131
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "sabi ng gadget store brand new yung phone, pero refurbished pala",
+            "retail transaction: what does the consumer act say about selling something used as new"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "sabi ng gadget store brand new yung phone, pero refurbished pala",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "what does the consumer act say about selling something used as new",
+              "role": "concern",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "clarify",
+        "substantive_answer_admitted": false,
+        "clarification_question": "Please confirm each separate concern and which employer, seller, or service is responsible for each one.",
+        "reason": "low_confidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_020",
+        "phase": "diagnostic_replay",
+        "question_text": "The Philippine online shop has no working complaint channel for my faulty purchase. What does the source say about an internal redress mechanism?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "The Philippine online shop has no working complaint channel for my faulty purchase. What does the source say about an internal redress mechanism?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "the philippine online shop has no working complaint channel for my faulty purchase. what does the source say about an internal redress mechanism",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.02493481265028044,
+              "consumer": 0.8788167446690569,
+              "excluded": 0.09624844268066272
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "the philippine online shop has no working complaint channel for my faulty purchase. what does the source say about an internal redress mechanism"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "the philippine online shop has no working complaint channel for my faulty purchase",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "what does the source say about an internal redress mechanism",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_021",
+        "phase": "diagnostic_replay",
+        "question_text": "My private employer has delayed wages, and a separate local shop refuses my written warranty claim. Please explain what applies to each concern.",
+        "primary": "mixed",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_components",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "My private employer has delayed wages, and a separate local shop refuses my written warranty claim. Please explain what applies to each concern.",
+        "predicted_primary": "mixed",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8776939685175018,
+        "scope_confidence": 0.9911361239429242,
+        "primary_probabilities": {
+          "labor": 0.061002754063291836,
+          "consumer": 0.061002754063291836,
+          "mixed": 0.8776939685175018,
+          "out_of_scope": 0.0003005233559144133
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9911361239429242,
+          "partially_supported": 0.008563352701161406,
+          "unsupported": 0.0003005233559144133
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "my private employer has delayed wages",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9576306690890789,
+              "consumer": 0.0036706300014862385,
+              "excluded": 0.038698700909434815
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "a separate local shop refuses my written warranty claim. please explain what applies to each concern",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.07327323173956642,
+              "consumer": 0.8924650924568218,
+              "excluded": 0.03426167580361159
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "my private employer has delayed wages",
+            "a separate local shop refuses my written warranty claim. please explain what applies to each concern"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "my private employer has delayed wages",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "a separate local shop refuses my written warranty claim",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "please explain what applies to each concern",
+              "role": "follow_up",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_components",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "separate_supported_components_require_evidence",
+        "referral_ids": [],
+        "retrieval_requests": [
+          {
+            "query": "my private employer has delayed wages",
+            "allowed_domain": "labor",
+            "requires_answer_eligible_evidence": true
+          },
+          {
+            "query": "a separate local shop refuses my written warranty claim. please explain what applies to each concern",
+            "allowed_domain": "consumer",
+            "requires_answer_eligible_evidence": true
+          }
+        ],
+        "excluded_components": [],
+        "referral_candidates": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_022",
+        "phase": "diagnostic_replay",
+        "question_text": "private worker ako na walang weekly rest. unrelated, yung cashier sa grocery hindi binalik buong sukli ko. What should I understand about both issues?",
+        "primary": "mixed",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_components",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "private worker ako na walang weekly rest. unrelated, yung cashier sa grocery hindi binalik buong sukli ko. What should I understand about both issues?",
+        "predicted_primary": "mixed",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8776939685175018,
+        "scope_confidence": 0.9911361239429242,
+        "primary_probabilities": {
+          "labor": 0.061002754063291836,
+          "consumer": 0.061002754063291836,
+          "mixed": 0.8776939685175018,
+          "out_of_scope": 0.0003005233559144133
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9911361239429242,
+          "partially_supported": 0.008563352701161406,
+          "unsupported": 0.0003005233559144133
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "private worker ako na walang weekly rest",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.7882393767295535,
+              "consumer": 0.015212938773237199,
+              "excluded": 0.1965476844972094
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "unrelated, yung cashier sa grocery hindi binalik buong sukli ko. what should i understand about both issues",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.3317143291242204,
+              "consumer": 0.5094233964340114,
+              "excluded": 0.1588622744417683
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "private worker ako na walang weekly rest",
+            "unrelated, yung cashier sa grocery hindi binalik buong sukli ko. what should i understand about both issues"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "private worker ako na walang weekly rest",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "unrelated, yung cashier sa grocery hindi binalik buong sukli ko",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "what should i understand about both issues",
+              "role": "follow_up",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_components",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "separate_supported_components_require_evidence",
+        "referral_ids": [],
+        "retrieval_requests": [
+          {
+            "query": "private worker ako na walang weekly rest",
+            "allowed_domain": "labor",
+            "requires_answer_eligible_evidence": true
+          },
+          {
+            "query": "unrelated, yung cashier sa grocery hindi binalik buong sukli ko. what should i understand about both issues",
+            "allowed_domain": "consumer",
+            "requires_answer_eligible_evidence": true
+          }
+        ],
+        "excluded_components": [],
+        "referral_candidates": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_023",
+        "phase": "diagnostic_replay",
+        "question_text": "My private employer deducted the cost of damaged equipment from my wages. Separately, I need help disputing a bank interest charge. Which part can you help explain?",
+        "primary": "mixed",
+        "scope": "partially_supported",
+        "route": "retrieve_supported_components",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "My private employer deducted the cost of damaged equipment from my wages. Separately, I need help disputing a bank interest charge. Which part can you help explain?",
+        "predicted_primary": "mixed",
+        "predicted_scope": "partially_supported",
+        "primary_confidence": 0.8776939685175019,
+        "scope_confidence": 0.8734122921669212,
+        "primary_probabilities": {
+          "labor": 0.061002754063291836,
+          "consumer": 0.0003005233559144133,
+          "mixed": 0.8776939685175019,
+          "out_of_scope": 0.061002754063291836
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.06558495376978696,
+          "partially_supported": 0.8734122921669212,
+          "unsupported": 0.061002754063291836
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "my private employer deducted the cost of damaged equipment from my wages",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9141919526763608,
+              "consumer": 0.01706198755546183,
+              "excluded": 0.06874605976817744
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "i need help disputing a bank interest charge. which part can you help explain",
+            "category": "excluded",
+            "decision_source": "scope_constraint",
+            "constraint": "consumer.banking_credit",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.0345327243880995,
+              "consumer": 0.08136387261040144,
+              "excluded": 0.8841034030014989
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "my private employer deducted the cost of damaged equipment from my wages",
+            "i need help disputing a bank interest charge. which part can you help explain"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "my private employer deducted the cost of damaged equipment from my wages",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "i need help disputing a bank interest charge",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "which part can you help explain",
+              "role": "follow_up",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_components",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "separate_supported_components_require_evidence",
+        "referral_ids": [
+          "REF_BSP_CAM"
+        ],
+        "retrieval_requests": [
+          {
+            "query": "my private employer deducted the cost of damaged equipment from my wages",
+            "allowed_domain": "labor",
+            "requires_answer_eligible_evidence": true
+          }
+        ],
+        "excluded_components": [
+          {
+            "text": "i need help disputing a bank interest charge. which part can you help explain",
+            "constraint_topic": "consumer.banking_credit",
+            "retrieval_allowed": false
+          }
+        ],
+        "referral_candidates": [
+          {
+            "referral_id": "REF_BSP_CAM",
+            "agency": "Bangko Sentral ng Pilipinas",
+            "service": "BSP Consumer Assistance Mechanism",
+            "portal_url": "https://www.bsp.gov.ph/",
+            "information_url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870",
+            "topic": "consumer.banking_credit",
+            "selection_source": "explicit_scope_topic_rule",
+            "last_contact_verification": "2026-09-29",
+            "requires_contact_refresh": true,
+            "candidate_only": true
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_024",
+        "phase": "diagnostic_replay",
+        "question_text": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+        "primary": "mixed",
+        "scope": "partially_supported",
+        "route": "retrieve_supported_components",
+        "components": 2,
+        "independent_human_gold": false
+      },
+      "issues": [
+        "components"
+      ],
+      "prediction": {
+        "question_id": null,
+        "question_text": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+        "predicted_primary": "mixed",
+        "predicted_scope": "partially_supported",
+        "primary_confidence": 0.8776939685175019,
+        "scope_confidence": 0.8734122921669212,
+        "primary_probabilities": {
+          "labor": 0.0003005233559144133,
+          "consumer": 0.061002754063291836,
+          "mixed": 0.8776939685175019,
+          "out_of_scope": 0.061002754063291836
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.06558495376978696,
+          "partially_supported": 0.8734122921669212,
+          "unsupported": 0.061002754063291836
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "an online store sent a faulty rice cooker",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.0037070721267144615,
+              "consumer": 0.4073037057230045,
+              "excluded": 0.588989222150281
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "a neighbor published my personal information",
+            "category": "excluded",
+            "decision_source": "scope_constraint",
+            "constraint": "consumer.data_privacy",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.05409341769288421,
+              "consumer": 0.009245205356094395,
+              "excluded": 0.9366613769510215
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "retail transaction: please explain the purchase issue and tell me where your scope ends",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.13042875493256356,
+              "consumer": 0.700351477763916,
+              "excluded": 0.16921976730352037
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "an online store sent a faulty rice cooker",
+            "a neighbor published my personal information",
+            "retail transaction: please explain the purchase issue and tell me where your scope ends"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "an online store sent a faulty rice cooker",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "a neighbor published my personal information",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "please explain the purchase issue and tell me where your scope ends",
+              "role": "concern",
+              "component_index": 2
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_components",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "separate_supported_components_require_evidence",
+        "referral_ids": [
+          "REF_NPC"
+        ],
+        "retrieval_requests": [
+          {
+            "query": "an online store sent a faulty rice cooker",
+            "allowed_domain": "consumer",
+            "requires_answer_eligible_evidence": true
+          },
+          {
+            "query": "retail transaction: please explain the purchase issue and tell me where your scope ends",
+            "allowed_domain": "consumer",
+            "requires_answer_eligible_evidence": true
+          }
+        ],
+        "excluded_components": [
+          {
+            "text": "a neighbor published my personal information",
+            "constraint_topic": "consumer.data_privacy",
+            "retrieval_allowed": false
+          }
+        ],
+        "referral_candidates": [
+          {
+            "referral_id": "REF_NPC",
+            "agency": "National Privacy Commission",
+            "service": "Privacy complaint filing",
+            "portal_url": "https://privacy.gov.ph/file-a-complaint/",
+            "information_url": "https://privacy.gov.ph/file-a-complaint-2/",
+            "topic": "consumer.data_privacy",
+            "selection_source": "explicit_scope_topic_rule",
+            "last_contact_verification": "2026-09-29",
+            "requires_contact_refresh": true,
+            "candidate_only": true
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_025",
+        "phase": "diagnostic_replay",
+        "question_text": "Government employee po ako. I want to appeal an administrative suspension under civil-service rules. What argument should I submit?",
+        "primary": "out_of_scope",
+        "scope": "unsupported",
+        "route": "refer_out_of_scope",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Government employee po ako. I want to appeal an administrative suspension under civil-service rules. What argument should I submit?",
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.8691306158163407,
+        "primary_probabilities": {
+          "labor": 0.004281676350580704,
+          "consumer": 0.004281676350580704,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.8691306158163407
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.008863876057075821,
+          "partially_supported": 0.12200550812658358,
+          "unsupported": 0.8691306158163407
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "i want to appeal an administrative suspension under civil-service rules. what argument should i submit",
+            "category": "excluded",
+            "decision_source": "scope_constraint",
+            "constraint": "labor.government_employment",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.017929683337606857,
+              "consumer": 0.024702979233940724,
+              "excluded": 0.9573673374284525
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "i want to appeal an administrative suspension under civil-service rules. what argument should i submit"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "government employee po ako",
+              "role": "background",
+              "component_index": null
+            },
+            {
+              "fragment_id": 1,
+              "text": "i want to appeal an administrative suspension under civil-service rules",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "what argument should i submit",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "refer_out_of_scope",
+        "substantive_answer_admitted": false,
+        "clarification_question": null,
+        "reason": "recognized_excluded_concern",
+        "referral_ids": [
+          "REF_CSC_CCB"
+        ],
+        "referral_candidates": [
+          {
+            "referral_id": "REF_CSC_CCB",
+            "agency": "Civil Service Commission",
+            "service": "Contact Center ng Bayan",
+            "portal_url": "https://contactcenterngbayan.gov.ph/",
+            "information_url": "https://csc.gov.ph/programs/ccb",
+            "topic": "labor.government_employment",
+            "selection_source": "explicit_scope_topic_rule",
+            "last_contact_verification": "2026-09-29",
+            "requires_contact_refresh": true,
+            "candidate_only": true
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_026",
+        "phase": "diagnostic_replay",
+        "question_text": "My bank refused to reverse a transfer charge. What banking rules decide that dispute?",
+        "primary": "out_of_scope",
+        "scope": "unsupported",
+        "route": "refer_out_of_scope",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "My bank refused to reverse a transfer charge. What banking rules decide that dispute?",
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.8691306158163407,
+        "primary_probabilities": {
+          "labor": 0.004281676350580704,
+          "consumer": 0.004281676350580704,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.8691306158163407
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.008863876057075821,
+          "partially_supported": 0.12200550812658358,
+          "unsupported": 0.8691306158163407
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "my bank refused to reverse a transfer charge. what banking rules decide that dispute",
+            "category": "excluded",
+            "decision_source": "scope_constraint",
+            "constraint": "consumer.banking_credit",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.047672091074773985,
+              "consumer": 0.04117251816643421,
+              "excluded": 0.9111553907587918
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "my bank refused to reverse a transfer charge. what banking rules decide that dispute"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "my bank refused to reverse a transfer charge",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "what banking rules decide that dispute",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "refer_out_of_scope",
+        "substantive_answer_admitted": false,
+        "clarification_question": null,
+        "reason": "recognized_excluded_concern",
+        "referral_ids": [
+          "REF_BSP_CAM"
+        ],
+        "referral_candidates": [
+          {
+            "referral_id": "REF_BSP_CAM",
+            "agency": "Bangko Sentral ng Pilipinas",
+            "service": "BSP Consumer Assistance Mechanism",
+            "portal_url": "https://www.bsp.gov.ph/",
+            "information_url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870",
+            "topic": "consumer.banking_credit",
+            "selection_source": "explicit_scope_topic_rule",
+            "last_contact_verification": "2026-09-29",
+            "requires_contact_refresh": true,
+            "candidate_only": true
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_027",
+        "phase": "diagnostic_replay",
+        "question_text": "Tell me exactly how much damages I will win in my pending labor case. I only want a prediction, not general rules.",
+        "primary": "out_of_scope",
+        "scope": "unsupported",
+        "route": "refer_out_of_scope",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Tell me exactly how much damages I will win in my pending labor case. I only want a prediction, not general rules.",
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.8691306158163407,
+        "primary_probabilities": {
+          "labor": 0.004281676350580704,
+          "consumer": 0.004281676350580704,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.8691306158163407
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.008863876057075821,
+          "partially_supported": 0.12200550812658358,
+          "unsupported": 0.8691306158163407
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "tell me exactly how much damages i will win in my pending labor case. i only want a prediction, not general rules",
+            "category": "excluded",
+            "decision_source": "scope_constraint",
+            "constraint": "labor.pending_case",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.012070312571263935,
+              "consumer": 0.011736799476742827,
+              "excluded": 0.9761928879519933
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "tell me exactly how much damages i will win in my pending labor case. i only want a prediction, not general rules"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "tell me exactly how much damages i will win in my pending labor case",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "i only want a prediction, not general rules",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "refer_out_of_scope",
+        "substantive_answer_admitted": false,
+        "clarification_question": null,
+        "reason": "recognized_excluded_concern",
+        "referral_ids": [
+          "REF_PAO"
+        ],
+        "referral_candidates": [
+          {
+            "referral_id": "REF_PAO",
+            "agency": "Public Attorney's Office",
+            "service": "Legal counselling and assistance for qualified clients",
+            "portal_url": "https://pao.gov.ph/contact-us/",
+            "information_url": "https://pao.gov.ph/transparency/mission-and-vision/",
+            "topic": "labor.pending_case",
+            "selection_source": "explicit_scope_topic_rule",
+            "last_contact_verification": "2026-09-29",
+            "requires_contact_refresh": true,
+            "candidate_only": true
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_028",
+        "phase": "diagnostic_replay",
+        "question_text": "We disagree about who inherits our family property. What inheritance case should we file?",
+        "primary": "out_of_scope",
+        "scope": "unsupported",
+        "route": "refer_out_of_scope",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "We disagree about who inherits our family property. What inheritance case should we file?",
+        "predicted_primary": "out_of_scope",
+        "predicted_scope": "unsupported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.8691306158163407,
+        "primary_probabilities": {
+          "labor": 0.004281676350580704,
+          "consumer": 0.004281676350580704,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.8691306158163407
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.008863876057075821,
+          "partially_supported": 0.12200550812658358,
+          "unsupported": 0.8691306158163407
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "we disagree about who inherits our family property. what inheritance case should we file",
+            "category": "excluded",
+            "decision_source": "scope_constraint",
+            "constraint": "outside.family",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.07407551491282074,
+              "consumer": 0.04725790647087899,
+              "excluded": 0.8786665786163004
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "we disagree about who inherits our family property. what inheritance case should we file"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "we disagree about who inherits our family property",
+              "role": "preface",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "what inheritance case should we file",
+              "role": "concern",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "refer_out_of_scope",
+        "substantive_answer_admitted": false,
+        "clarification_question": null,
+        "reason": "recognized_excluded_concern",
+        "referral_ids": [],
+        "referral_candidates": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_029",
+        "phase": "diagnostic_replay",
+        "question_text": "Private warehouse employee ako on a midnight shift. My question is specifically about night differential, not overtime. What is the rule?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Private warehouse employee ako on a midnight shift. My question is specifically about night differential, not overtime. What is the rule?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "private warehouse employee ako on a midnight shift. my question is specifically about night differential, not overtime. what is the rule",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.921332689857476,
+              "consumer": 0.022812013254451313,
+              "excluded": 0.05585529688807281
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "private warehouse employee ako on a midnight shift. my question is specifically about night differential, not overtime. what is the rule"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "private warehouse employee ako on a midnight shift",
+              "role": "preface",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "my question is specifically about night differential, not overtime",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "what is the rule",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_030",
+        "phase": "diagnostic_replay",
+        "question_text": "My private workplace requires a short briefing before I clock in. Does that count as working time?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "My private workplace requires a short briefing before I clock in. Does that count as working time?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "my private workplace requires a short briefing before i clock in. does that count as working time",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.8404784646346678,
+              "consumer": 0.023577745310455284,
+              "excluded": 0.13594379005487703
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "my private workplace requires a short briefing before i clock in. does that count as working time"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "my private workplace requires a short briefing before i clock in",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "does that count as working time",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_031",
+        "phase": "diagnostic_replay",
+        "question_text": "I resigned from a private company. What deadline applies to my final pay and certificate of employment?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "I resigned from a private company. What deadline applies to my final pay and certificate of employment?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "i resigned from a private company. what deadline applies to my final pay and certificate of employment",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9957619689805749,
+              "consumer": 0.00036262543666278925,
+              "excluded": 0.0038754055827622935
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "i resigned from a private company. what deadline applies to my final pay and certificate of employment"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "i resigned from a private company",
+              "role": "preface",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "what deadline applies to my final pay and certificate of employment",
+              "role": "concern",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "EX_NEW_032",
+        "phase": "diagnostic_replay",
+        "question_text": "I work for a private store. Can you explain thirteenth-month pay coverage and computation using your available sources?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "I work for a private store. Can you explain thirteenth-month pay coverage and computation using your available sources?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "private employment: can you explain thirteenth-month pay coverage and computation using your available sources",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.994381947404297,
+              "consumer": 0.0013163397566926071,
+              "excluded": 0.004301712839010519
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "private employment: can you explain thirteenth-month pay coverage and computation using your available sources"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "i work for a private store",
+              "role": "background",
+              "component_index": null
+            },
+            {
+              "fragment_id": 1,
+              "text": "can you explain thirteenth-month pay coverage and computation using your available sources",
+              "role": "concern",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "PH5_013",
+        "phase": "diagnostic_replay",
+        "question_text": "Our private repair shop closed on a regular holiday and marked the day unpaid for everyone. Explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement.",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Our private repair shop closed on a regular holiday and marked the day unpaid for everyone. Explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement.",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "our private repair shop closed on a regular holiday and marked the day unpaid for everyone. explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.9180406374983398,
+              "consumer": 0.07872128047753378,
+              "excluded": 0.0032380820241264614
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "our private repair shop closed on a regular holiday and marked the day unpaid for everyone. explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "our private repair shop closed on a regular holiday and marked the day unpaid for everyone",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "PH5_018",
+        "phase": "diagnostic_replay",
+        "question_text": "A private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. Explain the regular-versus-casual rule and project or seasonal exceptions generally.",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "A private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. Explain the regular-versus-casual rule and project or seasonal exceptions generally.",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "a private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. explain the regular-versus-casual rule and project or seasonal exceptions generally",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "employment_relationship_and_scoped_issue",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.7047490417978445,
+              "consumer": 0.22118333327271322,
+              "excluded": 0.07406762492944227
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "a private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. explain the regular-versus-casual rule and project or seasonal exceptions generally"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "a private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "explain the regular-versus-casual rule and project or seasonal exceptions generally",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "PH5_029",
+        "phase": "diagnostic_replay",
+        "question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+        "primary": "labor",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.8691306158163407,
+          "consumer": 0.004281676350580701,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "private employment: pinapasok nila ako sa scheduled rest day. ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work",
+            "category": "labor",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_private_employment_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.995538592567419,
+              "consumer": 0.0010780537219261888,
+              "excluded": 0.0033833537106548114
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "private employment: pinapasok nila ako sa scheduled rest day. ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "private restaurant employee ako",
+              "role": "background",
+              "component_index": null
+            },
+            {
+              "fragment_id": 1,
+              "text": "pinapasok nila ako sa scheduled rest day",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 2,
+              "text": "ordinary daily rate lang",
+              "role": "follow_up",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 3,
+              "text": "ano general provision tungkol sa premium for rest-day work",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "PH5_034",
+        "phase": "diagnostic_replay",
+        "question_text": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "a new rechargeable lamp from a neighborhood store stopped charging after one use. what conditions govern correction, replacement, or refund under the recorded product-imperfection rule",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_product_sale_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.0061377661023742,
+              "consumer": 0.9879917592710034,
+              "excluded": 0.005870474626622363
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "a new rechargeable lamp from a neighborhood store stopped charging after one use. what conditions govern correction, replacement, or refund under the recorded product-imperfection rule"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "a new rechargeable lamp from a neighborhood store stopped charging after one use",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "what conditions govern correction, replacement, or refund under the recorded product-imperfection rule",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "PH5_042",
+        "phase": "diagnostic_replay",
+        "question_text": "A cashier owed me seven pesos change but gave me a discount coupon without asking. Which recorded exact-change rule covers this situation?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "A cashier owed me seven pesos change but gave me a discount coupon without asking. Which recorded exact-change rule covers this situation?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "a cashier owed me seven pesos change but gave me a discount coupon without asking. which recorded exact-change rule covers this situation",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.3859635392771718,
+              "consumer": 0.45693804927030585,
+              "excluded": 0.15709841145252235
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "a cashier owed me seven pesos change but gave me a discount coupon without asking. which recorded exact-change rule covers this situation"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "a cashier owed me seven pesos change but gave me a discount coupon without asking",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "which recorded exact-change rule covers this situation",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "PH5_048",
+        "phase": "diagnostic_replay",
+        "question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+        "primary": "consumer",
+        "scope": "fully_supported",
+        "route": "retrieve_supported_evidence",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8691306158163407,
+        "scope_confidence": 0.9344150462302132,
+        "primary_probabilities": {
+          "labor": 0.004281676350580701,
+          "consumer": 0.8691306158163407,
+          "mixed": 0.122306031482498,
+          "out_of_scope": 0.004281676350580704
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.9344150462302132,
+          "partially_supported": 0.0613032774192062,
+          "unsupported": 0.004281676350580704
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_product_sale_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.07775776443117059,
+              "consumer": 0.8656473729190688,
+              "excluded": 0.05659486264976045
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "anu general rules at kelan kailangan ibalik ung original item",
+              "role": "follow_up",
+              "component_index": 0
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_evidence",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "supported_candidate_requires_evidence",
+        "referral_ids": []
+      }
+    },
+    {
+      "case": {
+        "case_id": "PH5_077",
+        "phase": "diagnostic_replay",
+        "question_text": "An online merchant delivered a different appliance model from my order. Separately, I want advice on a credit-card interest charge from the bank. Distinguish the supported part.",
+        "primary": "mixed",
+        "scope": "partially_supported",
+        "route": "retrieve_supported_components",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "An online merchant delivered a different appliance model from my order. Separately, I want advice on a credit-card interest charge from the bank. Distinguish the supported part.",
+        "predicted_primary": "mixed",
+        "predicted_scope": "partially_supported",
+        "primary_confidence": 0.8776939685175019,
+        "scope_confidence": 0.8734122921669212,
+        "primary_probabilities": {
+          "labor": 0.0003005233559144133,
+          "consumer": 0.061002754063291836,
+          "mixed": 0.8776939685175019,
+          "out_of_scope": 0.061002754063291836
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.06558495376978696,
+          "partially_supported": 0.8734122921669212,
+          "unsupported": 0.061002754063291836
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "an online merchant delivered a different appliance model from my order",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.030639887229300323,
+              "consumer": 0.7474388581027924,
+              "excluded": 0.22192125466790721
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "i want advice on a credit-card interest charge from the bank. distinguish the supported part",
+            "category": "excluded",
+            "decision_source": "scope_constraint",
+            "constraint": "consumer.banking_credit",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.04218173340810939,
+              "consumer": 0.23835329997841648,
+              "excluded": 0.7194649666134743
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "an online merchant delivered a different appliance model from my order",
+            "i want advice on a credit-card interest charge from the bank. distinguish the supported part"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "an online merchant delivered a different appliance model from my order",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "i want advice on a credit-card interest charge from the bank",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "distinguish the supported part",
+              "role": "follow_up",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_components",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "separate_supported_components_require_evidence",
+        "referral_ids": [
+          "REF_BSP_CAM"
+        ],
+        "retrieval_requests": [
+          {
+            "query": "an online merchant delivered a different appliance model from my order",
+            "allowed_domain": "consumer",
+            "requires_answer_eligible_evidence": true
+          }
+        ],
+        "excluded_components": [
+          {
+            "text": "i want advice on a credit-card interest charge from the bank. distinguish the supported part",
+            "constraint_topic": "consumer.banking_credit",
+            "retrieval_allowed": false
+          }
+        ],
+        "referral_candidates": [
+          {
+            "referral_id": "REF_BSP_CAM",
+            "agency": "Bangko Sentral ng Pilipinas",
+            "service": "BSP Consumer Assistance Mechanism",
+            "portal_url": "https://www.bsp.gov.ph/",
+            "information_url": "https://www.bsp.gov.ph/Pages/Forms/DispForm.aspx?ID=1870",
+            "topic": "consumer.banking_credit",
+            "selection_source": "explicit_scope_topic_rule",
+            "last_contact_verification": "2026-09-29",
+            "requires_contact_refresh": true,
+            "candidate_only": true
+          }
+        ]
+      }
+    },
+    {
+      "case": {
+        "case_id": "PH5_082",
+        "phase": "diagnostic_replay",
+        "question_text": "A Philippine online shop sent me broken headphones. Separately, my mobile network provider imposed a termination charge. Please identify the project boundary.",
+        "primary": "mixed",
+        "scope": "partially_supported",
+        "route": "retrieve_supported_components",
+        "components": null,
+        "independent_human_gold": false
+      },
+      "issues": [],
+      "prediction": {
+        "question_id": null,
+        "question_text": "A Philippine online shop sent me broken headphones. Separately, my mobile network provider imposed a termination charge. Please identify the project boundary.",
+        "predicted_primary": "mixed",
+        "predicted_scope": "partially_supported",
+        "primary_confidence": 0.8776939685175019,
+        "scope_confidence": 0.8734122921669212,
+        "primary_probabilities": {
+          "labor": 0.0003005233559144133,
+          "consumer": 0.061002754063291836,
+          "mixed": 0.8776939685175019,
+          "out_of_scope": 0.061002754063291836
+        },
+        "scope_probabilities": {
+          "fully_supported": 0.06558495376978696,
+          "partially_supported": 0.8734122921669212,
+          "unsupported": 0.061002754063291836
+        },
+        "model_version": "item10-classifier-v1.5.61",
+        "deployment_allowed": false,
+        "confidence_meaning": "Estimated label probability under the training/calibration distribution; not legal correctness or a real-world guarantee.",
+        "has_reliable_component_evidence": true,
+        "component_routing_enabled": true,
+        "component_evidence": [
+          {
+            "text": "a philippine online shop sent me broken headphones",
+            "category": "consumer",
+            "decision_source": "scope_constraint",
+            "constraint": "explicit_ordinary_retail_context",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.01531193471774561,
+              "consumer": 0.4803133045641447,
+              "excluded": 0.5043747607181097
+            },
+            "atomic_evidence_strength": 1.0
+          },
+          {
+            "text": "my mobile network provider imposed a termination charge. please identify the project boundary",
+            "category": "excluded",
+            "decision_source": "scope_constraint",
+            "constraint": "consumer.telecommunications",
+            "uncalibrated_atomic_probabilities": {
+              "labor": 0.15101126691179143,
+              "consumer": 0.11662476208271642,
+              "excluded": 0.7323639710054921
+            },
+            "atomic_evidence_strength": 1.0
+          }
+        ],
+        "segmentation_audit": {
+          "components": [
+            "a philippine online shop sent me broken headphones",
+            "my mobile network provider imposed a termination charge. please identify the project boundary"
+          ],
+          "fragments": [
+            {
+              "fragment_id": 0,
+              "text": "a philippine online shop sent me broken headphones",
+              "role": "concern",
+              "component_index": 0
+            },
+            {
+              "fragment_id": 1,
+              "text": "my mobile network provider imposed a termination charge",
+              "role": "concern",
+              "component_index": 1
+            },
+            {
+              "fragment_id": 2,
+              "text": "please identify the project boundary",
+              "role": "follow_up",
+              "component_index": 1
+            }
+          ],
+          "unresolved_fragment_ids": [],
+          "all_fragments_accounted_for": true,
+          "requires_clarification": false,
+          "reason": null
+        },
+        "routing_action": "retrieve_supported_components",
+        "substantive_answer_admitted": true,
+        "clarification_question": null,
+        "reason": "separate_supported_components_require_evidence",
+        "referral_ids": [
+          "REF_NTC"
+        ],
+        "retrieval_requests": [
+          {
+            "query": "a philippine online shop sent me broken headphones",
+            "allowed_domain": "consumer",
+            "requires_answer_eligible_evidence": true
+          }
+        ],
+        "excluded_components": [
+          {
+            "text": "my mobile network provider imposed a termination charge. please identify the project boundary",
+            "constraint_topic": "consumer.telecommunications",
+            "retrieval_allowed": false
+          }
+        ],
+        "referral_candidates": [
+          {
+            "referral_id": "REF_NTC",
+            "agency": "National Telecommunications Commission",
+            "service": "Consumer Welfare and Protection complaints",
+            "portal_url": "https://www.edge.ntc.gov.ph/",
+            "information_url": "https://www.ntc.gov.ph/wp-content/uploads/2025/CITIZENS_CHARTER/7-FEEDBACK-03282025.pdf",
+            "topic": "consumer.telecommunications",
+            "selection_source": "explicit_scope_topic_rule",
+            "last_contact_verification": "2026-09-29",
+            "requires_contact_refresh": true,
+            "candidate_only": true
+          }
+        ]
+      }
+    }
+  ],
+  "independent_human_questions": 0,
+  "llm_calls": 0
+}

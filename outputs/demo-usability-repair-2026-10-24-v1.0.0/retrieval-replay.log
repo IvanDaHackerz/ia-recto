@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\IA\outputs\demo-usability-repair-2026-10-24-v1.0.0\check_retrieval.py", line 15, in <module>
+    print(c['case_id'],result['classification']['routing_action'],[(x['allowed_domain'],[(h['provision_id'],h['heading']) for h in x['candidates'][:2]]) for x in result['components']],flush=True)
+                                                                                                                                   ~^^^^^^^^^^^^^^
+KeyError: 'candidates'

@@ -1,0 +1,14 @@
+{
+  "claims": 2,
+  "blocked": 2,
+  "reasons": [
+    [
+      "RD31_014",
+      "source_held_for_interpretation_review"
+    ],
+    [
+      "RD31_038",
+      "quantity_comparison_keeps_the_inherent_variations_qualification"
+    ]
+  ]
+}

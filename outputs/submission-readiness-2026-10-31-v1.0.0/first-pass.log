@@ -1,0 +1,111 @@
+RD31_001 generated citations_and_automated_support_checked 11453 ms
+RD31_002 partially_generated supported_parts_checked 15031 ms
+RD31_003 generated citations_and_automated_support_checked 16031 ms
+RD31_004 withheld claim_support_failed 26562 ms
+RD31_005 partially_generated supported_parts_checked 15157 ms
+RD31_006 generated citations_and_automated_support_checked 11422 ms
+RD31_007 withheld supported_concern_required 328 ms
+RD31_008 generated citations_and_automated_support_checked 14125 ms
+RD31_009 partially_generated supported_parts_checked 9734 ms
+RD31_010 withheld supported_concern_required 2687 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 19, 'estimated_usd': 0.0164424, 'input_tokens': 68692, 'output_tokens': 10231, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_011 partially_generated supported_parts_checked 13766 ms
+RD31_012 generated citations_and_automated_support_checked 15281 ms
+RD31_013 partially_generated supported_parts_checked 11735 ms
+RD31_014 partially_generated supported_parts_checked 20156 ms
+RD31_015 withheld supported_concern_required 375 ms
+RD31_016 generated citations_and_automated_support_checked 19563 ms
+RD31_017 generated citations_and_automated_support_checked 14828 ms
+RD31_018 generated citations_and_automated_support_checked 14906 ms
+RD31_019 withheld supported_concern_required 1594 ms
+RD31_020 withheld supported_concern_required 2891 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 37, 'estimated_usd': 0.03633135, 'input_tokens': 162537, 'output_tokens': 19918, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_021 withheld no_supported_explanation 3468 ms
+RD31_022 partially_generated supported_parts_checked 11953 ms
+RD31_023 withheld supported_concern_required 219 ms
+RD31_024 withheld provider_unavailable 28047 ms
+RD31_025 generated citations_and_automated_support_checked 37156 ms
+RD31_026 withheld supported_concern_required 859 ms
+RD31_027 withheld no_supported_explanation 3219 ms
+RD31_028 withheld claim_support_failed 23484 ms
+RD31_029 withheld citation_validation_failed 8953 ms
+RD31_030 generated citations_and_automated_support_checked 22938 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 57, 'estimated_usd': 0.0600447, 'input_tokens': 244758, 'output_tokens': 30082, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_031 generated citations_and_automated_support_checked 17063 ms
+RD31_032 generated citations_and_automated_support_checked 15750 ms
+RD31_033 generated citations_and_automated_support_checked 13172 ms
+RD31_034 generated citations_and_automated_support_checked 17266 ms
+RD31_035 generated citations_and_automated_support_checked 26531 ms
+RD31_036 partially_generated supported_parts_checked 19984 ms
+RD31_037 generated citations_and_automated_support_checked 20969 ms
+RD31_038 generated citations_and_automated_support_checked 14328 ms
+RD31_039 generated citations_and_automated_support_checked 10640 ms
+RD31_040 generated citations_and_automated_support_checked 10546 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 77, 'estimated_usd': 0.0821481, 'input_tokens': 331458, 'output_tokens': 45246, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_041 generated citations_and_automated_support_checked 11016 ms
+RD31_042 withheld supported_concern_required 516 ms
+RD31_043 generated citations_and_automated_support_checked 12547 ms
+RD31_044 generated citations_and_automated_support_checked 13422 ms
+RD31_045 generated citations_and_automated_support_checked 12453 ms
+RD31_046 generated citations_and_automated_support_checked 17250 ms
+RD31_047 withheld claim_support_failed 20203 ms
+RD31_048 partially_generated supported_parts_checked 29297 ms
+RD31_049 withheld supported_concern_required 265 ms
+RD31_050 generated citations_and_automated_support_checked 14765 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 97, 'estimated_usd': 0.1012443, 'input_tokens': 411338, 'output_tokens': 57103, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_051 generated citations_and_automated_support_checked 21516 ms
+RD31_052 partially_generated supported_parts_checked 33938 ms
+RD31_053 withheld supported_concern_required 234 ms
+RD31_054 generated citations_and_automated_support_checked 34046 ms
+RD31_055 generated citations_and_automated_support_checked 18672 ms
+RD31_056 generated citations_and_automated_support_checked 28438 ms
+RD31_057 withheld supported_concern_required 234 ms
+RD31_058 generated citations_and_automated_support_checked 10797 ms
+RD31_059 partially_generated supported_parts_checked 27844 ms
+RD31_060 generated citations_and_automated_support_checked 19859 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 119, 'estimated_usd': 0.128679, 'input_tokens': 524516, 'output_tokens': 74533, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_061 generated citations_and_automated_support_checked 16500 ms
+RD31_062 withheld supported_concern_required 703 ms
+RD31_063 generated citations_and_automated_support_checked 18328 ms
+RD31_064 withheld citation_validation_failed 7328 ms
+RD31_065 withheld supported_concern_required 281 ms
+RD31_066 partially_generated supported_parts_checked 18484 ms
+RD31_067 partially_generated supported_parts_checked 18406 ms
+RD31_068 partially_generated supported_parts_checked 47312 ms
+RD31_069 request_timeout  55016 ms
+RD31_070 generated citations_and_automated_support_checked 13704 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 140, 'estimated_usd': 0.1665138, 'input_tokens': 654885, 'output_tokens': 93362, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_071 withheld supported_concern_required 359 ms
+RD31_072 withheld supported_concern_required 734 ms
+RD31_073 generated citations_and_automated_support_checked 11813 ms
+RD31_074 generated citations_and_automated_support_checked 10578 ms
+RD31_075 generated citations_and_automated_support_checked 18437 ms
+RD31_076 withheld supported_concern_required 687 ms
+RD31_077 withheld citation_validation_failed 12672 ms
+RD31_078 generated citations_and_automated_support_checked 34922 ms
+RD31_079 generated citations_and_automated_support_checked 12656 ms
+RD31_080 partially_generated supported_parts_checked 7765 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 158, 'estimated_usd': 0.18227279999999998, 'input_tokens': 714133, 'output_tokens': 104815, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_081 generated citations_and_automated_support_checked 8453 ms
+RD31_082 generated citations_and_automated_support_checked 12203 ms
+RD31_083 partially_generated supported_parts_checked 17625 ms
+RD31_084 generated citations_and_automated_support_checked 44016 ms
+RD31_085 generated citations_and_automated_support_checked 28265 ms
+RD31_086 withheld supported_concern_required 781 ms
+RD31_087 withheld supported_concern_required 187 ms
+RD31_088 withheld supported_concern_required 390 ms
+RD31_089 withheld supported_concern_required 1797 ms
+RD31_090 withheld supported_concern_required 469 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 172, 'estimated_usd': 0.19801064999999998, 'input_tokens': 773948, 'output_tokens': 116091, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+RD31_091 withheld supported_concern_required 203 ms
+RD31_092 withheld supported_concern_required 437 ms
+RD31_093 withheld supported_concern_required 219 ms
+RD31_094 withheld supported_concern_required 438 ms
+RD31_095 withheld supported_concern_required 219 ms
+RD31_096 withheld supported_concern_required 406 ms
+RD31_097 withheld supported_concern_required 235 ms
+RD31_098 withheld supported_concern_required 578 ms
+RD31_099 withheld supported_concern_required 250 ms
+RD31_100 withheld supported_concern_required 484 ms
+Usage: {'day_utc': '2026-10-31', 'provider_requests': 172, 'estimated_usd': 0.19801064999999998, 'input_tokens': 773948, 'output_tokens': 116091, 'maximum_calls': 400, 'maximum_estimated_usd': 0.5, 'billing_verified': False}
+Summary: {"input_forms": 100, "pending": 0, "errors": {"request_timeout": 1}, "explanation_status": {"generated": 43, "partially_generated": 16, "withheld": 40}, "non_generated_reasons": {"claim_support_failed": 3, "supported_concern_required": 31, "no_supported_explanation": 2, "provider_unavailable": 1, "citation_validation_failed": 3}, "failure_codes": {"provider_unavailable": 1}, "validation_failures": {"numeric_detail_not_in_source": 2, "source_qualification_missing": 1}, "latency_ms": {"p50": 12500.000000001819, "p95": 34089.79999999847, "maximum": 55016.00000000326}, "usage": {"day_utc": "2026-10-31", "provider_requests": 172, "estimated_usd": 0.19801064999999998, "input_tokens": 773948, "output_tokens": 116091, "maximum_calls": 400, "maximum_estimated_usd": 0.5, "billing_verified": false}}

@@ -1,0 +1,19 @@
+{
+  "reviewer": "AI development inspection; not an independent lawyer or human gold reviewer",
+  "independent_human_questions": 0,
+  "independent_legal_reviews": 0,
+  "accepted_drafts_with_manual_condition_concerns": [
+    {"run":"closure-check","case_id":"EX_NEW_014","finding":"Invented exception allowing a higher price after correcting the display.","repair":"New condition guard rejects that inference; correction feedback now includes rejected prose and a specific deletion instruction.","latest_result":"revision-context-check: generated price-ceiling explanation without the invented exception. Unseen-wording reliability remains unmeasured."},
+    {"run":"closure-check","case_id":"PH5_029","finding":"Rest-premium description omitted employee coverage and non-regular-holiday conditions.","repair":"Explicit condition guard and drafting focus.","latest_result":"condition-closure: generated with both conditions."},
+    {"run":"final-recheck","case_id":"EX_NEW_024","finding":"An unless-agreed phrase could attach to return costs rather than the return period.","repair":"Explicit return-cost qualification guard.","latest_result":"closure-check: partial explanation; complex remedies still require independent legal review."}
+  ],
+  "unresolved": [
+    "Three valid synthetic inputs route to clarification incorrectly: EX_NEW_008, EX_NEW_011, EX_NEW_019. Classifier weights and artifacts were not changed in this explanation repair.",
+    "Displayed-price drafts previously repeated an unsupported exception. The correction-context repair passed one targeted check; broader unseen-wording reliability remains unmeasured.",
+    "Some context-only or meta-question fragments are treated as separate concerns, causing duplicate explanations or a misleading missing-part notice.",
+    "Night differential, briefing time, final-pay/COE deadlines and complete thirteenth-month coverage lack usable approved source context.",
+    "Same-model support can miss condition errors. Exact quotations and passed software checks do not establish legal correctness.",
+    "Complex multi-concern requests reached about 40 seconds in the targeted checks.",
+    "No full 40-question run was performed after the last two condition guards; final-runtime checks are targeted and disclosed."
+  ]
+}

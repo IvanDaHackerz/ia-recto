@@ -1,0 +1,23 @@
+{
+  "item12": {
+    "tests_run": 37,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "classifier_regression": {
+    "tests_run": 69,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "retrieval_regression": {
+    "tests_run": 60,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  }
+}

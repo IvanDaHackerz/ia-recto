@@ -1,0 +1,778 @@
+
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		<head><script language="JavaScript">
+
+
+// Change to 1 to have "Next Hit" go to the next document
+// after the last hit in the current document
+fAutoNextDoc = 0;
+
+nHit = 0;
+maxHits = 0;
+
+var simpleNav = 1;
+var browser = navigator.appName;
+var version = parseInt(navigator.appVersion);
+if ((browser.indexOf("Microsoft") != -1) || (version >= 4))
+    simpleNav = 0;
+
+function old_gotoHit(where) {
+    window.location.hash = where;
+    }
+
+function findLink(links, name)
+{   if (links.namedItem)
+        return links.namedItem(name);
+    for (i = 0; i < links.length; ++i) {
+        if (links[i]) {
+            if (links[i].name == name)
+                return links[i];
+            }
+        }
+}
+
+function gotoHit(where)
+{   if (simpleNav) {
+        old_gotoHit(where);
+        return;
+        }
+
+    var a = findLink(document.anchors, where);
+    if (a == null) return;
+    if (a.length > 1) return;
+
+    if (a.y) {
+        // Netscape
+        window.scrollTo(0, a.y);
+        }
+    else {
+        // IE
+        window.scrollTo(0, a.offsetTop - a.offsetHeight + a.offsetParent.offsetTop);
+        }
+
+    var s = document.body.createTextRange();
+    if (s != null) {
+        s.moveToElementText(a);
+        s.moveEnd("word");
+        s.select();
+        s.scrollIntoView();
+        }
+}
+
+function gotoNthHit(n) {
+    nHit = n;
+    if ((n > 1) && (n == maxHits))
+        gotoHit('hit_last');
+    else if (n == 0)
+        old_gotoHit('hit0');
+    else
+        gotoHit('hit' + n);
+ }
+function nextHit() {
+    if (nHit < maxHits) {
+        gotoNthHit(nHit+1);
+        }
+    else if (fAutoNextDoc && parent && parent.res)
+        parent.res.nextDoc();
+    }
+
+function prevHit() {
+    if (nHit > 0) {
+        gotoNthHit(nHit-1);
+        }
+    }
+ </script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<BASE HREF="http://elibrary.judiciary.gov.ph/assets/dtSearch/document_repository/sc/sc_decision/1993.zip&gt;45,df|1993/12634347431262850549.html"><title>[ G.R. No. 95329. January 27, 1993 ]</title>
+		<style>
+		body{
+		margin:10px 30px 10px 30px;
+		font-family:times new roman;
+		font-size:110%;
+		line-height:20px;
+		}
+		</style>
+
+		</head>
+
+		<body>
+				<a href="/assets/pdf/philrep/1993/G.R. No. 95329.pdf">291 Phil. 607</a> &#8592; click for PDF copy
+				<CENTER>				
+				<H2>FIRST DIVISION</H2>
+				<H2 style='background-color:#cccccc;padding-top:10px;padding-bottom:10px;'>
+				[ G.R. No. 95329. January 27, 1993 ]</H2>
+				<H3>HERACIO R. REVILLA, PETITIONER, VS. HON. COURT OF APPEALS, FORTUNATO REVILLA, LUZ REVILLA DAVID, LORETO REVILLA GUTIERREZ, VENERANDA REVILLA MANIQUEZ, NICASIO REVILLA, PERFECTA REVILLA BALACANIA, JUSTINA REVILLA DEL ROSARIO AND AGRIPINA REVILLA CHACON, RESPONDENTS. <br /><br />D E C I S I O N</H3>
+				</CENTER>
+				<BR><STRONG>GRI&Ntilde;O-AQUINO, J.:</STRONG>
+				<BR><BR><div align="justify"><p class="BODY">This is a petition for review of the decision dated September 13,
+1990 of the Court of Appeals in CA&shy;-G.R. CV No. 18190 affirming the decision of
+the Regional Trial Court of Manila, Branch 39, in Special Proceeding No.
+86-38444 which disallowed the second will supposedly executed on September 13,
+1982 by the late Don Cayetano Revilla whose first Will dated January 28, 1978
+had been probated on March 21, 1980 <u>on</u> <u>his</u> <u>own</u> <u>petition</u>
+in Spe&shy;cial Proceeding No. 128828 of the same court, while he was still alive.</p>
+
+<p class="BODY">In our resolution of November 19, 1990, we denied the petition
+for review for it raises only factual issues.  However, upon the petitioner's motion for reconsideration, we set aside
+that resolution and gave due course to the petition so that the parties may
+argue their respective positions with more depth and scope.  After a more thorough consideration of those
+arguments, we are persuaded that the decision of the Court of Appeals should
+not be changed.</p>
+
+<p class="BODY">Don Cayetano Revilla y De la Fuente owned two valuable pieces of
+land with buildings on Calle Azcarraga (now C.M. Recto Street) in the City of
+Manila, and six (6) parcels of land in his hometown of San Miguel,
+Bulacan.  These properties, now worth
+some P30 million, are registered in his name and more particularly de&shy;scribed
+as follows:</p>
+
+<blockquote>&#8220;a)<span style="">&nbsp;&nbsp; </span>TRANSFER CERTIFICATE OF TITLE NO. 76620 (now
+TCT No. 170750-ind.) REGISTRY OF DEEDS FOR THE CITY OF MANILA</blockquote>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">"A PARCEL OF LAND (Lot No. 22 of
+Block No. 2565 of the Cadastral Survey of the City of Manila, Cadas&shy;tral Case
+No. 46, G.L.R.O. Cadastral Record No. 229) with the buildings and other
+improvements now found thereon, situated on the SW. line of Calle Azcarraga,
+District of Quiapo.  x x x containing an
+area of ONE THOUSAND ONE HUNDRED NINETY THREE SQUARE METERS AND SEVENTY SQUARE
+DECIMETERS (1,193.70), more or less.</p>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">Assessed value - P1,834,980.00</p>
+
+<blockquote>&#8220;b)<span style="">&nbsp;&nbsp; </span>TRANSFER CERTIFICATE OF TITLE NO. 66173 (now
+TCT No. 170751-ind.) REGISTRY OF DEEDS FOR THE CITY OF MANILA</blockquote>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">"A PARCEL OF LAND (Lot No. 24 of
+Block No. 2565 of the Cadastral Survey of the City of Manila, Cadas&shy;tral Case
+No. 46, G.L.R.O. Cadastral Record No. 229) with the buildings and improvements
+now found thereon, situated on the SW. line of Calle Azcarraga; District of
+Quiapo.  x x x containing an area of
+SEVEN HUN&shy;DRED SQUARE METERS AND SEVENTY SQUARE DECIMETERS (700.70), MORE OR
+LESS.</p>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">Assessed value - P3,297,150.00</p>
+
+<blockquote>"c)<span style="">&nbsp;&nbsp; </span>TRANSFER CERTIFICATE OF TITLE NO. T&shy;- 192136
+REGISTRY OF DEEDS FOR THE PROVINCE OF BULACAN</blockquote>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">"A parcel of land (Lot 1245-A?6
+of the subd. plan (LRC) Psd-&shy;177051, being a portion of Lot 1245&shy;-A, Psd-11366,
+LRC Cad. Rec. No. 700), situated in the Barrio of Salacot, Mun. of San Miguel,
+Prov. of Bulacan, Island of Luzon.  x x
+x containing an area of TEN THOUSAND (10,000) SQUARE METERS, more or less.</p>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">Assessed value - P4,000.00</p>
+
+<blockquote>"d)<span style="">&nbsp;&nbsp; </span>TRANSFER CERTIFICATE OF TITLE NO. T-192137
+REGISTRY OF DEEDS FOR THE PROVINCE OF BULACAN</blockquote>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">"A parcel of land [Lot 1245-A?7
+of the subd. plan (LRC) Psd?177051, being a portion of Lot 1245&shy;-A,
+Psd-11366, LRC Cad. Rec. No. 700], situated in the Barrio of Salacot, Mun. of
+San Miguel, Prov. of Bulacan, Island of Luzon.  x x x containing an area of SEVEN THOUSAND EIGHT HUNDRED NINETY (7,890)
+SQUARE METERS, more or less.</p>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">Assessed value - P3,790.00</p>
+
+<blockquote>"e)<span style="">&nbsp;&nbsp; </span>TRANSFER CERTIFICATE OF TITLE NO. T&shy;-22049
+REGISTRY OF DEEDS FOR THE PROVINCE OF BULACAN</blockquote>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">"A parcel of land (Lot 1245-A&shy;-9
+of the subd. plan (LRC) Psd&shy;-177051, being a portion of Lot 1245-&shy;A, Psd-11366,
+LRC Cad. Rec. No. 700), situated in the Barrio of Salacot, Municipality of San
+Miguel, Prov. of Bulacan, x x x containing an area of ONE THOUSAND FIVE HUNDRED
+FOURTEEN (1,514) SQUARE METERS, more or less.</p>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">Assessed value - P4,000.00</p>
+
+<blockquote>"f)<span style="">&nbsp;&nbsp;&nbsp; </span>TRANSFER CERTIFICATE OF TITLE NO. 22263
+REGISTRY OF DEEDS FOR THE PROVINCE OF BULACAN</blockquote>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">"A parcel of land (Lot No. 722 of
+the Cadastral Survey of San Miguel), situated in the Municipali&shy;ty of San
+Miguel.  x x x containing an area of
+SEVENTEEN THOUSAND AND EIGHTY SIX (17,086) SQUARE METERS, more or less.</p>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">Assessed value - P4,190.00</p>
+
+<blockquote>&#8220;g)<span style="">&nbsp;&nbsp; </span>TRANSFER CERTIFICATE OF TITLE NO. T-242301
+REGISTRY OF DEEDS FOR THE PROVINCE OF BULACAN</blockquote>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">"A parcel of land (Lot 108 of the Cad.
+Survey of San Miguel), situated in the Municipality of San Miguel.  x x x containing an area of FIVE HUNDRED AND
+SEVENTY THREE SQUARE METERS more or less.</p>
+
+<p class="2Q" style="margin: 0in 0.6in 0.0001pt;">Assessed value - P8,600.00</p>
+
+<blockquote>&#8220;h)<span style="">&nbsp;&nbsp; </span>Cemetery lots with a mausoleum (Lots Nos. 66,
+67, 68, 69, 70 and 71, Block No. 3) situated at the Sta. Rita Memorial Park,
+San Miguel, Bulacan (no commercial value).&#8221; (pp. 63-64, Rollo.)</blockquote>
+
+<p class="BODY">On January 28, 1978, Don Cayetano Revilla, a bachelor, without
+issue nor any surviving ascendants, executed a last will and testament bequeathing
+all his properties to his nine (9) nephews and nieces, the parties herein, who
+are full blood brothers and sisters, including the petitioner, Heracio
+Revilla.  To each of them, he bequeathed
+an undivided one-tenth (1/10) of his estate reserving the last tenth for masses
+to be said after his death, and for the care of the religious images which he
+kept in a chapel in San Miguel, Bulacan, where masses could be held also (p.
+126, Records).</p>
+
+<p class="BODY">During his lifetime, Don Cayetano had himself sought the probate
+of his will and on March 21, 1980 the Court of First Instance of Manila, Branch
+X, after due hearing in Special Proceeding No. 128828, allowed and admitted
+said will to probate.</p>
+
+<p class="BODY">On November 19, 1981, however, the City Hall of Manila was
+destroyed by fire.  The records of
+Special Proceeding No. 128828 also went up in flames.  Shortly thereafter, a petition for the reconstitution of the
+records of Special Proceeding No. 128828 was filed, and after a proper hearing
+wherein Don Cayetano testified again, the petition for reconstitution was
+granted (Exh. &#8216;34&#8217;).  (pp. 51-52, 179,
+Rollo.)</p>
+
+<p class="BODY">Don Cayetano died on November 11, 1986 at the age of 91.</p>
+
+<p class="BODY">On November 19, 1986, Heracio Revilla, the oldest nephew, filed a
+petition for probate of another will, allegedly executed by Don Cayetano on
+September 13, 1982 wherein he (Heracio) was instituted as <u>sole</u> <u>heir</u>
+of his uncle's estate and executor of the will.</p>
+
+<p class="BODY">The probate of the second will was opposed by Heracio's eight (8)
+brothers and sisters, the private respondents herein.  As grounds for their opposition, they alleged:</p>
+
+<blockquote>"x x x a) that on March 21, 1980 in Special Proceeding No.
+128828, the then Court of First Instance of Manila, Branch 10, allowed and
+admitted to probate the last will and testament of the deceased Cayetano
+Revilla and that since then and up to the time of his death.  Cayetano Revilla never in&shy;formed them that
+he revoked the will dated January 28, 1978; (b) that the will sought to be
+probated was not executed in accordance with law and that the signature of
+Cayetano Revilla was different from his usual and customary signature; (c) that
+when the will was allegedly executed the decedent was already of unsound mind
+or otherwise mentally incapable of making a will or was already incompetent and
+could not, without outside aid, take care of himself and manage his properties
+becoming thereby an easy prey of deceit and exploitation; d) that the alleged
+will was executed with undue and improper pressure and influence on the part of
+the beneficiaries there&shy;on or some other persons for their benefit; e) that the
+will is void and ineffective for the reason that it was executed under duress
+or the influence of fear or of threats; and f) that the decedent acted by mis&shy;take
+and the signatures in the alleged will were procured by fraud or trick, and he
+did not intend that the instrument should be his will at the time of fixing
+(sic) his signa&shy;tures thereto" (Opposition to Probate of Alleged Will, pp.
+7-8, Records).</blockquote>
+
+<p class="BODY">The private respondents also opposed Heracio's petition for appointment
+as executor and/or special administrator of the estate on the ground that the
+alleged will is null and void, hence the designation therein of Heracio as
+executor is likewise null and void, and that moreover, he is unfit for the
+trust (pp. 9-12, Records).</p>
+
+<p class="BODY">In an order dated May 7, 1987, the lower court held in abeyance
+the resolution of the issue with regard to the propriety of Heracio's being
+appointed as executor (pp. 34-36, Records), but ordered the parties to present
+their evidence pro and con vis-a-vis the probate of the second will (<u>Ibid</u>).</p>
+
+<p class="BODY">On December 1, 1987, the trial court rendered a decision
+disallowing the second will and, accordingly, dismissed the case with costs
+against the petitioner  (Decision, pp.
+144-184, Records; pp. 52-53, Rollo.)</p>
+
+<p class="BODY">On appeal to the Court of Appeals (CA-G.R. CV No. 18190, Sept.
+19, 1990), the decision of the lower court was affirmed.  This petition for review was filed by
+Heracio under Rule 45 of the Rules of Court.</p>
+
+<p class="BODY">The lone issue in this case is whether the Court of Appeals (and
+the trial court) erred in disallowing the alleged second will of Don Cayetano
+Revilla.</p>
+
+<p class="BODY">After a careful examination of the records, we share the
+appellate court's doubts regarding the authen&shy;ticity and due execution of the
+second will.  Indeed, when Don Cayetano
+testified on November 27, 1982 in the reconstitution proceedings, he was <u>unaware</u>
+of the second will which he supposedly made only two months previous on
+September 13, 1982.  He identified his
+first will and declared that it was his true and only will.  He denied having subsequently made another
+will.  He could not have executed a
+second will on September 13, 1982 be&shy;cause he was sick in the hospital at that
+time - for two (2) months before October 21, 1982, or, in August to September 1982,
+and he did not, and could not, sign any papers while he was confined in the
+hospital.</p>
+
+<blockquote>"ATTY. DAVID</blockquote>
+
+<blockquote>May I request that this letter dated
+October 21, 1982, be marked Exhibit 'C' . . .</blockquote>
+
+<blockquote>"xxx<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>  xxx  <span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>xxx.</blockquote>
+
+<blockquote>"By
+the way Mr. Revilla, will you tell us whether you can still read when you
+signed this letter?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes, I can.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>Did you read the contents of this
+letter?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes, I did.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span><u>When</u> <u>you</u> <u>were</u> <u>sick</u>,
+<u>before</u> <u>you</u> <u>signed</u> <u>this</u> <u>letter</u> <u>on</u> <u>October</u>
+<u>21</u>, <u>1982</u>, <u>were</u> <u>you</u> <u>confined</u> <u>at</u> <u>the</u>
+<u>hospital</u>?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><u>Yes</u>.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>How long were you confined at the
+hospital, was it for one month?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><u>More</u> <u>than</u> <u>one</u> <u>month,</u>
+<u>may</u> <u>be</u> <u>two</u> <u>months</u>.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span><u>When</u> <u>you</u> <u>were</u> <u>in</u>
+<u>the</u> <u>hospital</u> <u>you</u> <u>cannot</u> <u>sign</u> <u>because</u> <u>you</u>
+<u>were</u> <u>sick</u>?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><u>No,</u> <u>I</u> <u>cannot</u> <u>sign</u>.</blockquote>
+
+<blockquote>"xxx<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>  xxx  <span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>xxx.</blockquote>
+
+<blockquote>&#8220;Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span><u>Will</u> <u>you</u> <u>tell</u> <u>us</u>
+<u>Don</u> <u>Cayetano</u> <u>if</u> <u>you</u> <u>ever</u><i style=""> </i><u>executed</u> <u>a</u> <u>last</u> <u>will</u> <u>and</u> <u>testament</u>
+<u>after</u> <u>this</u> <u>one</u> <u>has</u> <u>been</u> <u>probated</u> <u>by</u>
+<u>the</u> <u>Court</u>?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><u>None,</u> <u>sir</u>." (pp.
+20-30, tsn, November 27, 1982.)</blockquote>
+
+<p class="BODY">He recognized the original will and acknowledged that he signed
+it.</p>
+
+<blockquote>"ATTY. DAVID</blockquote>
+
+<blockquote>"x
+x x we were granted by the Court permission to come here to find out from you
+about your will approved by the Court which was burned which needs to be
+reconstituted which Atty. Dacanay undertook as your counsel and I was included
+because your heirs requested me, x x x.  Since the documents were burned, we have here a brown envelope which
+states on its face 'Buksan ito pagkalib&shy;ing ko&#8217; - then a signature Cayetano
+Revilla - that one in the Court which was approved by the Court we would like
+to request from you if this is the envelope which contains a copy of the will
+and if this is your signature? </blockquote>
+
+<blockquote>"xxx<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>  xxx  <span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>xxx.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>And at the back of this en&shy;velope are
+four signatures, are these your signatures?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>(Looking over the four signatures at
+the back of the envelope) <u>Yes</u>, <u>these</u> <u>are</u> <u>all</u> <u>my</u>
+<u>signatures</u>.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>And your instructions were to open
+this envelope x x x 'Buksan ito pagkalibing ko.'</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes, that is right.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>And since you are still alive you
+asked the Court that your last will and testament be approved and allowed and
+what is in the last will and testa&shy;ment is what will prevail?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes sir." (pp. 119-120, Rollo;
+Underscoring ours.)</blockquote>
+
+<p class="BODY">He identified his first will and directed Atty. David to deliver
+it to the Court:  "siyang ibigay sa
+husgado" (p. 122, Rollo).</p>
+
+<blockquote>"ATTY. DAVID</blockquote>
+
+<blockquote>"Now
+that I have told you in presence of your grandson?in-law, Atty. Latosa,
+that the last will and testament which the court admitted and allowed to
+probate was burned, why I asked you if this is the envelope and you remember
+this is the envelope and you said you do, and that the five signatures
+appearing in this envelope are your signatures, now are you willing to have
+this envelope opened?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><u>Yes</u>, <u>kung</u> <u>anong</u>
+<u>nandiyan,</u> <u>siyang</u> <u>ibigay</u> <u>sa</u> <u>husgado</u>."
+(p. 122, Rollo.)</blockquote>
+
+<p class="BODY">Although the envelope containing a copy of the first will was
+sealed, with instructions to open it after his funeral, Don Cayetano wanted
+"to open it now" (p. 123, Rollo).</p>
+
+<blockquote>"ATTY. LATOSA</blockquote>
+
+<blockquote>"Can
+you please read what is written in that envelope which you allowed to be
+opened.</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes, 'buksan ito pagkalibing ko.'</blockquote>
+
+<blockquote>"ATTY. DAVID</blockquote>
+
+<blockquote>"Do
+you want to open this now?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes.</blockquote>
+
+<blockquote>&#8220;Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>Do you wish to open this envelope
+now?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes, I want to open it now."
+(p. 123, Rollo.)</blockquote>
+
+<p class="BODY">Don Cayetano declared that he understood that the document inside
+the envelope was his will ["naiintindihan ko po iyon" (p. 131,
+Rollo)].</p>
+
+<blockquote>  "Q -<span style="">&nbsp;&nbsp; </span>This envelope which contained the last will
+and testament which I took the contents in your presence and in the presence of
+the other representation here including the representatives of the Court, the
+document contained therein is entitled, 'Unang Pahina, Huling Habilin Ni Don
+Cayetano Revilla,' consisting of fourteen pages, the title means that this is
+your last will and testament?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><u>Yes,</u> <u>Naiintindihan</u> <u>ko</u>
+<u>po</u> <u>iyon</u>.</blockquote>
+
+<blockquote>"Q -<span style="">&nbsp;&nbsp;&nbsp; </span>And you
+executed this on the 28 of January as appearing . . . 28th of January 1978, as
+appearing on the 13th page of this last will and testament?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes.</blockquote>
+
+<blockquote>"Q -<span style="">&nbsp;&nbsp;&nbsp; </span>And all the pages
+of this last will and testament were all signed by you which reads Cayetano
+Revilla, will you go over these fourteen pages and tell us if the signatures
+here reading Cayetano Revilla are your signatures?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>(After going over the document, page
+by page and looking at the signature reading Cayetano Revilla in every page)</blockquote>
+
+<blockquote>"<u>Yes,</u>
+<u>these</u> <u>are</u> <u>all</u> <u>my</u> <u>signa&shy;tures,</u> <u>the</u> <u>ones</u>
+<u>reading</u> <u>Cayeta&shy;no</u> <u>Revilla</u>." (p. 131, Rollo; Emphasis
+supplied.)</blockquote>
+
+<p class="BODY">He recognized himself and his lawyer, Attorney Benjamin Dacanay,
+in the pictures that were taken during the signing of his first will.</p>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>Now, in this envelope there are
+pictures five pictures in all, will you go over these and tell us if you can
+remember any of those persons appearing in the pictures?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><u style="">This</u>
+<u style="">one</u>, (testator pointing to a person in the
+picture) <u>is</u> <u>Mr.</u> <u>Dacanay</u>.</blockquote>
+
+<blockquote>"ATTY. DAVID</blockquote>
+
+<blockquote>"May
+I request that this pic&shy;ture wherein Don Cayetano Revilla identified Atty. Daca&shy;nay,
+be marked as Exhibit 'D'.</blockquote>
+
+<blockquote>"There
+is a person in this picture, the one second from the left, will you go over it
+and see if you remember that person?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>I am that person.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>Now in this second picture, do you
+recognize anybody here?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span><u>Yes,</u> <u>I</u> <u>can</u> <u>recognize</u>
+<u>myself</u> <u>when</u> <u>I</u> <u>was</u> <u>signing</u> <u>the</u> <u>will</u>.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>Who else do you know is present in
+that picture?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>This one, he is Mr. Dacanay.</blockquote>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>How about the other one?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>I don't know the others." (p.
+133, Rollo; Underlining supplied.)</blockquote>
+
+<p class="BODY">Don Cayetano assured Attorney David that his original will was
+his "genuine will and testament and not changed" (p. 134, Rollo).</p>
+
+<blockquote>"ATTY. DAVID</blockquote>
+
+<blockquote><span style="">"xxx<span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>  <span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>xxx  <span style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>xxx.</span></blockquote>
+
+<blockquote>"We are doing this Mr. Revilla because in case there
+will be an opposition to this last will and testament we can prove that this is
+the genuine will and testament and not changed.</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>Yes, that is true sir, that is the
+truth." (p. 134, Rollo.)</blockquote>
+
+<p class="BODY">He declared that he did not execute another last will and
+testament after the original will had been probated.</p>
+
+<blockquote>"Q
+-<span style="">&nbsp;&nbsp;&nbsp; </span>Will you tell us Don Cayetano if you
+ever executed a last will and testament after this one has been probated by the
+Court?</blockquote>
+
+<blockquote>"A
+-<span style="">&nbsp;&nbsp;&nbsp;&nbsp; </span>None, sir." (p. 135, Rollo.)</blockquote>
+
+<p class="BODY">The petitioner's contention that Don Cayetano's denial
+constitutes "negative declaration" which has no "probative value
+under the rules of evidence" (p. 73, Rollo) is not correct.  Don Cayetano's assertion that he did not
+execute another will, was not negative evidence.  Evidence is negative when the witness states that he did not see
+or know the occurrence of a fact, and positive when the witness affirms that a
+fact did or did not occur (2 Moore on Facts, p. 1338).  Don Cayetano's declaration that he did not
+execute a second will, constitutes positive evidence of a fact personally known
+to himself:  that he did not make a
+second will.  As correctly held by the
+Court of Appeals:</p>
+
+<blockquote>"This categorical denial by the late Cayetano Revilla must be
+believed by everybody.  If he denied
+having executed another will, who are we to insist that he made another or
+second will after the probate of his will dated January 28, 1978?  The testimonies of the alleged notary public
+as well as the three instrumental witnesses of the alleged second will of the
+late Cayetano Revilla cannot outweigh the denial of the late Cayetano
+Revilla.  x x x." (p. 95, Rollo.)</blockquote>
+
+<p class="BODY">Significantly, although the petitioner opposed the reconstitution
+of Don Cayetano's first will, he did not reveal the second will which Don
+Cayetano supposedly made only two (2) months before he testified in the
+reconstitution proceeding.  Why was the
+second will kept under wraps?  Did
+Heracio fear that if Don Cayetano were confronted with the document, he would
+have disowned it?  The explanation of
+the petitioner that an inquiry into the existence of the second will &#8220;was
+totally uncalled for, immaterial, and irrelevant&#8221; (p. 96, Rollo), is
+unconvincing.  For if the second will
+already existed on November 27, 1982, it would have been Heracio's strong&shy;est
+argument against the reconstitution of the probate of the first will.</p>
+
+<p class="BODY">The petitioner's argument that Don Cayetano's testimony is
+inadmissible because petitioner's counsel, Attorney Layosa, had no opportunity
+to cross-examine him (p. 146, Rollo), does not wash.  The opportunity was there all the time.  Attorney Layosa simply made no attempt to exercise his right to
+cross-examine Don Cayetano.</p>
+
+<p class="BODY">If Don Cayetano's testimony was "an honest mistake due to a
+misapprehension of fact" as the petitioner insists (p. 35, Rollo), that
+mistake would have been rectified by inviting his attention to the second
+will.  It seems, however, that Attorney
+Layosa was under con&shy;straint not to disclose the second will to Don Cayetano.</p>
+
+<p class="BODY">Even the letter that Don Cayetano supposedly sent to the court
+disowning the petition for reconstitution of the records of the first probate
+proceeding, did not disclose that he had already made another will.  As pointedly observed by the Court of
+Appeals, if Don Cayetano were aware that he made a second will, he "could
+have easily told the Court that the reconstitu&shy;tion proceeding was
+useless" because he had already made a second will revoking the first (pp.
+54-55, Rollo).</p>
+
+<p class="BODY">The testimonies of the notary and attesting witnesses and even
+the photographs of what purported to be the signing of the second will were not
+given credit by the trial court and the Court of Appeals.  The court's observation that the photographs
+do not show the nature of the document that was being signed, nor the date of
+the transaction, is valid.  The lower
+court's distrust for the testimonies of the attesting witnesses to the second
+will deserves our highest respect (People vs. Sarol, 139 SCRA 125; Guita vs.
+CA, 139 SCRA 576; People vs. Cabanit, 139 SCRA 94).</p>
+
+<p class="BODY">Since the execution of the second will could not have occurred on
+the date (September 13, 1982) appearing therein (for Don Cayetano was admittedly
+sick in the hospital then) it must have been procured at the time when the
+testator was a virtual prisoner, held <u>incommu&shy;nicado</u>, in his house.  The Honorable Judge (later Court of Appeals
+Justice) Eduardo Bengson had to issue an order commanding the petitioner to
+allow his eight (8) brothers and sisters to visit Don Cayetano.  Only then were they able to penetrate the
+iron curtain that Hera&shy;cio had placed around their uncle.  A videotape, taken during their pleasant
+visit with the old man and shown in court, belied Heracio's allegation that Don
+Cayetano was displeased with his said nephews and nieces, that was why he left
+them out of his second will.</p>
+
+<p class="BODY">Despite Judge Bengzon's order, Heracio did not cease his efforts
+to monopolize Don Cayetano and his estate.  To isolate Don Cayetano and make him inaccessi&shy;ble to the private
+respondents, Heracio transferred him from his own house on Claro M. Recto
+Avenue in Manila to Heracio's house in Novaliches, Quezon City.</p>
+
+<p class="BODY">The execution of the second will in an environment of secrecy and
+seclusion and the disinheritance of his eight (8) other nephews and nieces of
+whom he was equal&shy;ly fond, justified the trial court's and the Court of
+Appeals' belief that undue influence was exercised by Heracio over Don Cayetano
+to make him sign the second will (which Don Cayetano did not know to be such)
+in order to deprive his brothers and sisters of their rightful share in their
+uncle's estate.</p>
+
+<p class="BODY">The employment of undue influence by Heracio was not
+"mutually repugnant" to fraud (p. 172, Rollo) as the petitioner
+insists, for it was the means employed by Heracio to defraud his brothers and
+sisters of their share in Don Cayetano's estate.</p>
+
+<p class="BODY">There was fraud because Don Cayetano was not apprised that the
+document he was signing with Co, Barredo and Lim was a second will revoking the
+dispositions of property that he made in his first will.  Had he been aware that it was a second will,
+and if it were prepared at his own behest, he would not have denied that he
+made it.  He would probably have caused
+it to be probated while he was still alive, as he did with his first will.</p>
+
+<p class="BODY">But apparently, the instrument was foisted on him without his
+being aware of its true nature which the petitioner assiduously concealed, not
+only from the court and the private respondents, but from Don Cayetano himself.</p>
+
+<p class="BODY">That the dispositions in the second will were not made by Don
+Cayetano is proven by the omission therefrom of Don Cayetano's reservation of
+one-tenth of his properties and the income thereof to pay for holy masses for
+the repose of his soul and to be spent for the maintenance of his family chapel
+which houses the religious images he owned in San Miguel, Bulacan.  That provision in his first will, for his
+personal benefit, would not have been deleted by Don Cayetano if his only
+purpose in making a second will was to disinherit his eight nephews and
+nieces.  But Heracio overdid
+himself.  He wanted everything.</p>
+
+<p class="BODY">The objection to the deposition of Don Cayetano for want of an
+oath before he testified, is tardy.  Objection to the lack of an oath should have been made at the taking of
+his deposition.  Section 29(d), Rule 24
+of the Rules of Court provides:</p>
+
+<blockquote>"(d)  As to oral
+examination and other particulars.  -</blockquote>
+
+<blockquote>"Errors and
+irregularities occurring at the oral examination in the manner of taking the
+deposition, in the form of the questions or answers, <u>in</u> <u>the</u> <u>oath</u>
+or affirmation, or in the conduct of the parties and <u>errors</u> <u>of</u> <u>any</u>
+<u>kind</u> <u>which</u> <u>might</u> <u>be</u> <u>obviated,</u> <u>removed,</u>
+<u>or</u> <u>cured</u> <u>if</u> <u>promptly</u> <u>prosecuted,</u> <u>are</u> <u>waived</u>
+<u>unless</u> <u>reasonable</u> <u>objection</u> <u>thereto</u> <u>is</u> <u>made</u>
+<u>at</u> <u>the</u> <u>taking</u> <u>of</u> <u>the</u> <u>deposi&shy;tion</u>."
+(Underlining ours.)</blockquote>
+
+<p class="BODY">While the petitioner puts much stock in the supposed due
+execution of the will and the competence of the attesting witnesses - Co,
+Barredo and Lim - the trial court, with whom the Court of Appeals agreed, gave
+them low marks for credibility.  The
+factual observa&shy;tions of the Court of Appeals on this point are quoted below:</p>
+
+<blockquote>  "Assuming for the sake
+of arguments that the second will was executed, the testimonies of the notary
+public who prepared and before whom the will was acknowledged, as well as those
+of the three (3) instrumental witnesses thereof were not given credit by the
+lower court, and so with this Court, because of major contradictions in their
+testimonies.</blockquote>
+
+<blockquote>"As regards notary public Atty. Mendoza, the court <u>a</u> <u>quo</u>
+doubted his credibility as follows:</blockquote>
+
+<p class="2Q">"&#8216;The prevarications on the testimonies of witnesses are not
+diffi&shy;cult to find especially if we consider that in a second meeting only with
+Don Cayetano, Atty. Mendo&shy;za would readily be en&shy;trusted with the delicate and
+confidential preparation of a second will, designed to disinherit his eight
+nephews and nieces in favor of Heracio, the operator of the bowling alley where
+witness Mendo&shy;za always play; x x x.&#8217; (p. 36, Decision; p. 179, Records)</p>
+
+<p class="2Q">'x x x.  Added to this is
+the statement of Atty. Mendoza that the old man could understood (sic) both
+English and Tagalog.  On this score,
+this Court entertains doubt as to its truthfulness because it was testified to
+by Barredo, prosecution witness and corroborated by Ms. Bingel, principal
+witness for the oppositors, that the old man is versatile in Tagalog as he is a
+Bulake&ntilde;o but could not speak English except to say word, yes, sir.  x x x.' (p. 33, Decision, p. 176, Records).</p>
+
+<blockquote>"With respect to witness Alfredo Barredo, the truthfulness of
+his testimonies was doubted by the lower court in this wise:</blockquote>
+
+<p class="2Q">'x x x.  Another point
+noticed by this Court is the testimony of Alfredo Barredo that after talking
+with Atty. Mendoza at the phone he was asked by the old man to fetch the 2
+witnesses however when asked on direct examina&shy;tion, he stated that he stayed
+all along with the old man and did not leave him even after talking with Atty.
+Mendoza, which spells a whale of difference in time element and enormously
+distanced from the truth.  So also, his
+exaggerated demonstration of the ability of the old man in answering even small
+children yes, sir, is too good to be true.  x x x.' (pp. 33-34, Decision, pp. 176-177, Records).</p>
+
+<blockquote>"Witness Dr. Co's testimony that he did not charge the late
+Cayetano Revilla for two services rendered by him and that he only charged when
+a third service was made was also doubted by the lower court.  Said the court <u>a</u> <u>quo</u>:</blockquote>
+
+<p class="2Q" style="text-indent: 0in;">'x x x witness Co, a practicing dentist was
+munificent enough not to charge Don Cayetano for two time services and only
+charged him the 3rd time.'</p>
+
+<blockquote>It may be added here that the testi&shy;mony of
+Dr. Co that the testator read his will in silence before they were asked to
+affix their signatures (tsn., Aug. 17, 1987, pp. 30-31, 45) is completely
+different from the testimony of another witness (Fer&shy;nando Lim) who testified
+that the late Don Cayetano read his will aloud before he gave it to the
+witnesses for their signatures (tsn., Aug. 13, 1987, pp. 47, 52).</blockquote>
+
+<blockquote>  "The above citations
+of the inconsistencies and contradictions fatally made by said witnesses are
+only some of the more important ones as discussed in the decision of the lower
+court.  But they are enough, to say the
+least, to convince this Court that indeed said witnesses crossed the boundaries
+of their credibilities." (pp. 56-57, Rollo.)</blockquote>
+
+<p class="BODY"><b>WHEREFORE</b>, finding no reversible error in the decision of
+the Court of Appeals, the petition for review is DENIED.  Costs against the petitioner.</p>
+
+<p class="SOORDERED">SO ORDERED<span style="font-weight: normal;">.</span></p>
+
+<span style="font-style: italic;">Cruz, (Chairman), Padilla, <span style="font-style: normal;">and</span>
+Bellosillo, JJ., <span style="font-style: normal;">concur.</span></span><br>
+
+</div>
+				<BR><BR>
+				
+				<HR SIZE='1px' style='margin-top:20px;'>
+				<br />
+				<center>
+				<small style='font-size:10px;line-height:11px;color:#666666;'>
+				Source: Supreme Court E-Library | 
+				Date created: August 08, 2017
+				<br />This page was dynamically generated by the E-Library Content Management System
+				</small>
+				</center>	
+		
+		
+		
+</body>
+</html>

@@ -1,0 +1,11 @@
+fresh 100 100
+{'id': 'RD31_002', 'issues': [], 'components': ['i label bottles for a private company in iloilo. the next payday is always five weeks after the previous one. what wage-payment rule should i understand']}
+{'id': 'RD31_005', 'issues': [], 'components': ['empleyado ako ng private garment shop sa taytay. walang nakalagay na hours, rate, o deductions sa payroll sheet na pinapapirmahan sa amin. anong records ang dapat tingnan']}
+{'id': 'RD31_009', 'issues': [], 'components': ['sa private office namin, binabawas sa oras ang dalawang maikling coffee break', 'private employment: ano ang general rule para sa short rest breaks, hindi sa lunch break']}
+{'id': 'RD31_013', 'issues': [], 'components': ['a private convenience store stays open daily', 'private employment: the owner says that means every employee must also work every day indefinitely', 'private employment: what is the general weekly-rest rule']}
+{'id': 'RD31_015', 'issues': [], 'components': ['a privately owned repair business in baguio closed on a regular holiday', 'management says closing the premises automatically removes holiday pay. what coverage conditions and exceptions should be considered']}
+historical 436 432
+{'id': 'SYS_05_2__clear', 'issues': ['route'], 'components': ['late ang salary ko', 'ayaw din ng shop magbigay ng product refund']}
+{'id': 'SYS_05_2__noisy', 'issues': ['route'], 'components': ['late ang salary ko', 'ayw din ng shop mgbgay ng product refund']}
+{'id': 'TYPE_081__clear', 'issues': ['route'], 'components': ['my employer has not paid me. can you help']}
+{'id': 'TYPE_081__noisy', 'issues': ['route'], 'components': ['my employer has not paid me. can you help']}

@@ -1,0 +1,21 @@
+{
+  "cases": 1,
+  "citations_checked": 0,
+  "exact_spans_passed": 0,
+  "identities_passed": 0,
+  "domain_and_hold_checks_passed": 0,
+  "checks": [],
+  "AI_reading_notes": [
+    {
+      "case_id": "AI100_034",
+      "AI_status": "withheld",
+      "reason": "citation_validation_failed",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    }
+  ],
+  "meaning": "Exact-source integrity and AI engineering review are separate from semantic correctness and current-law/legal review.",
+  "independent_human_reviews": 0,
+  "legal_accuracy": null
+}

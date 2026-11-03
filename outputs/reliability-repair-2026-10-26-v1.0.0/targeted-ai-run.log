@@ -1,0 +1,23 @@
+AI26_001 generated citations_and_automated_support_checked 8328 ms
+AI26_005 generated citations_and_automated_support_checked 10188 ms
+AI26_014 generated citations_and_automated_support_checked 9687 ms
+AI26_019 generated citations_and_automated_support_checked 16859 ms
+AI26_022 generated citations_and_automated_support_checked 10719 ms
+AI26_023 generated citations_and_automated_support_checked 20313 ms
+AI26_024 generated citations_and_automated_support_checked 9328 ms
+AI26_025 withheld claim_support_failed 23968 ms
+AI26_026 partially_generated supported_parts_checked 23204 ms
+AI26_027 generated citations_and_automated_support_checked 10063 ms
+Usage: {'day_utc': '2026-10-26', 'provider_requests': 27, 'estimated_usd': 0.02045715, 'input_tokens': 77185, 'output_tokens': 14799, 'maximum_calls': 80, 'maximum_estimated_usd': 0.15, 'billing_verified': False}
+AI26_031 withheld citation_validation_failed 12125 ms
+AI26_033 generated citations_and_automated_support_checked 11593 ms
+AI26_047 withheld claim_support_failed 14921 ms
+AI26_054 generated citations_and_automated_support_checked 8468 ms
+AI26_059 generated citations_and_automated_support_checked 14375 ms
+AI26_062 partially_generated supported_parts_checked 19391 ms
+AI26_069 withheld provider_unavailable 20344 ms
+AI26_073 RuntimeError  516 ms
+AI26_077 RuntimeError  234 ms
+AI26_090 withheld supported_concern_required 422 ms
+Usage: {'day_utc': '2026-10-26', 'provider_requests': 42, 'estimated_usd': 0.04211055, 'input_tokens': 134039, 'output_tokens': 22856, 'maximum_calls': 80, 'maximum_estimated_usd': 0.15, 'billing_verified': False}
+Summary: {"input_forms": 20, "pending": 0, "errors": {"RuntimeError": 2}, "explanation_status": {"generated": 11, "withheld": 5, "partially_generated": 2}, "non_generated_reasons": {"claim_support_failed": 2, "citation_validation_failed": 1, "provider_unavailable": 1, "supported_concern_required": 1}, "failure_codes": {"provider_unavailable": 1}, "validation_failures": {"source_qualification_missing": 1}, "latency_ms": {"p50": 11156.000000000859, "p95": 23242.20000000132, "maximum": 23967.99999999712}, "usage": {"day_utc": "2026-10-26", "provider_requests": 42, "estimated_usd": 0.04211055, "input_tokens": 134039, "output_tokens": 22856, "maximum_calls": 80, "maximum_estimated_usd": 0.15, "billing_verified": false}}

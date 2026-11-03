@@ -1,0 +1,6 @@
+DEF_002 generated citations_and_automated_support_checked 15500 ms
+DEF_005 withheld source_context_unavailable 500 ms
+DEF_013 generated citations_and_automated_support_checked 9688 ms
+DEF_028 generated citations_and_automated_support_checked 22844 ms
+DEF_AI_021 partially_generated supported_parts_checked 6063 ms
+Summary: {"input_forms": 5, "pending": 0, "errors": {}, "explanation_status": {"generated": 3, "withheld": 1, "partially_generated": 1}, "non_generated_reasons": {"source_context_unavailable": 1}, "failure_codes": {}, "validation_failures": {}, "latency_ms": {"p50": 9688.000000000102, "p95": 21375.199999999313, "maximum": 22843.99999999914}, "usage": {"day_utc": "2026-10-22", "provider_requests": 74, "estimated_usd": 0.0768195, "input_tokens": 212112, "output_tokens": 34264, "maximum_calls": 120, "maximum_estimated_usd": 0.1, "billing_verified": false}}

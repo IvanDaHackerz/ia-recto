@@ -1,0 +1,3 @@
+DEMO_NEW_009 generated citations_and_automated_support_checked 18078 ms
+PH4_071 generated citations_and_automated_support_checked 25562 ms
+Summary: {"input_forms": 2, "pending": 0, "errors": {}, "explanation_status": {"generated": 2}, "non_generated_reasons": {}, "failure_codes": {}, "validation_failures": {}, "latency_ms": {"p50": 21819.99999999971, "p95": 25187.79999999988, "maximum": 25561.999999999898}, "usage": {"day_utc": "2026-10-24", "provider_requests": 189, "estimated_usd": 0.18436995, "input_tokens": 619073, "output_tokens": 137223, "maximum_calls": 200, "maximum_estimated_usd": 0.35, "billing_verified": false}}

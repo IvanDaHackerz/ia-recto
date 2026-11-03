@@ -1,0 +1,38 @@
+{
+  "cases": 1,
+  "citations_checked": 2,
+  "exact_spans_passed": 2,
+  "identities_passed": 2,
+  "domain_and_hold_checks_passed": 2,
+  "checks": [
+    {
+      "case_id": "DEF_028",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    },
+    {
+      "case_id": "DEF_028",
+      "claim_id": "development_1",
+      "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+      "exact_span": true,
+      "source_identity": true,
+      "domain_and_hold_check": true
+    }
+  ],
+  "AI_reading_notes": [
+    {
+      "case_id": "DEF_028",
+      "AI_status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "classification_issues": [],
+      "AI_reading_finding": null,
+      "reading_is_independent_human_or_legal_review": false
+    }
+  ],
+  "meaning": "Exact-source integrity and AI engineering review are separate from semantic correctness and current-law/legal review.",
+  "independent_human_reviews": 0,
+  "legal_accuracy": null
+}

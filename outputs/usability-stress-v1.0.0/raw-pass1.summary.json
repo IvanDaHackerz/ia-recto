@@ -1,0 +1,447 @@
+{
+  "count": 138,
+  "labeled": 130,
+  "labels_correct": 130,
+  "flow_correct": 109,
+  "exact_quote_cases": 138,
+  "provider_calls": 0,
+  "quoted_responses": 0,
+  "median_ms": 17.15,
+  "failures": [
+    {
+      "id": "DEV069",
+      "q": "A paid shoe-cleaning service damaged my shoes instead of cleaning them.",
+      "expected": [
+        "consumer",
+        "fully_supported",
+        "local_sources"
+      ],
+      "actual": [
+        "consumer",
+        "fully_supported",
+        "clarify"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV103",
+      "q": "I am employed at city hall and the municipality has not paid my salary.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV104",
+      "q": "Public school teacher ako. May issue ako sa government salary deductions ko.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV105",
+      "q": "Yaya ako ng bata sa bahay ng isang pamilya, walang day off na binibigay.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV106",
+      "q": "I am a live-out domestic worker for a household and my employer withholds my pay.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV107",
+      "q": "I work in Qatar and my employer has withheld my passport and wages.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV108",
+      "q": "The overseas recruiter changed the contract for my job in Saudi Arabia.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV109",
+      "q": "I work aboard an international cargo ship and need help with my seafarer employment contract.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV110",
+      "q": "How do we contest the result of our union representation election?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV111",
+      "q": "I need a computation of disability benefits after a workplace injury.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV112",
+      "q": "Does the chemical ventilation in our factory comply with occupational safety standards?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV113",
+      "q": "Please calculate how much SSS pension I will get next year.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV114",
+      "q": "What evidence should I submit in my pending NLRC dismissal case?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV115",
+      "q": "Can you tell me whether I will win my illegal dismissal case?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV116",
+      "q": "Magkano eksaktong minimum wage ngayon sa NCR para sa retail employee?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV117",
+      "q": "My bank deducted an unauthorized fee from my savings account.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV118",
+      "q": "My insurer denied the claim on my car insurance policy.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV119",
+      "q": "I invested in a securities fund but the platform will not let me withdraw.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV120",
+      "q": "My broadband provider bills me for an internet plan I already cancelled.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV121",
+      "q": "A seller published my ID photo online without my consent.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV122",
+      "q": "The surgeon operated on the wrong part of my body. Can I bring a malpractice complaint?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV123",
+      "q": "The condominium developer keeps delaying turnover of the unit I bought.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV124",
+      "q": "The airline cancelled my flight and refuses a refund.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV125",
+      "q": "My water provider charged three times the usual amount on the bill.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV126",
+      "q": "The fake online seller disappeared after receiving my payment. How do I ask police to investigate?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV127",
+      "q": "My sibling and I disagree over inheritance of our parents' land.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV128",
+      "q": "Can you help me solve this algebra homework problem?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV129",
+      "q": "How do I cook chicken adobo for four people?",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    },
+    {
+      "id": "DEV130",
+      "q": "Write a Python script to calculate the average of a list.",
+      "expected": [
+        "out_of_scope",
+        "unsupported",
+        "referral"
+      ],
+      "actual": [
+        "out_of_scope",
+        "unsupported",
+        "local_sources"
+      ],
+      "reason": null
+    }
+  ]
+}

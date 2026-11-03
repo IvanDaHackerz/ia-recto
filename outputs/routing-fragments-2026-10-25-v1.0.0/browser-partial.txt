@@ -1,0 +1,104 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5173/#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Live classification, retrieval & AI explanations · source applicability remains under review.
+		8 container main
+			44 text Analysis ready. Open references to inspect any retrieved provisions.
+			9 container
+				10 heading Ask about your rights, Value: 1
+					11 text Ask about your rights
+				12 checkbox Sources (5), Value: 0
+				113 button New question
+			46 container Conversation
+				114 container Response 1
+					115 text Question 
+					116 text 1
+					117 heading Value: 2, An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.
+						118 text An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.
+					119 container Response
+						120 heading Recorded source passages, Value: 3
+							121 text Recorded source passages
+						122 text These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.
+						123 text AI is off for this question. This response uses local analysis and recorded sources.
+						124 container
+							125 button Republic Act No. 11967, SEC. 20
+							126 text SEC. 20. Remedies of Online Consumers. - In case of defect, malfunction, or loss without the fault of the online consumer, or failure to conform with warranty or any liability of the online merchant or e-retailer arising from the contract, the online consumer shall have the right to pursue repair, replacement, refund or other remedies provided under Republic Act No. 7394 or any existing relevant laws.
+
+When the online consumer avails replacement or refund as a remedy, the online merchant is entitled to the return of the original goods delivered, without any cost to the online consumer, within a reasonable period from the receipt thereof, unless otherwise agreed upon by the parties. In case the refund is already paid, but the goods cannot be returned due to the fault of the online consumer, the amount received shall be immediately reimbursed to the online merchant or e-retailer subject to proportionate reduction in price, if appropriate. Complete stored provision.  Current applicability remains under review.
+						127 container
+							128 text Local response  with recorded source text . No live AI explanation was used.
+					129 container
+						130 heading Concerns outside coverage, Value: 3
+							131 text Concerns outside coverage
+						132 content list
+							133 text a neighbor published my personal information
+						134 text These parts were excluded from retrieval.
+					135 button (collapsed) Where to ask for assistance, Secondary Actions: Expand
+						136 text Where to ask for assistance
+					155 container
+						156 button (expanded) How this question was checked, Secondary Actions: Collapse
+							157 text How this question was checked
+						158 definition list
+							159 container Topic
+								160 text Topic
+							161 container
+								162 text Mixed  ·  87.8 % label confidence
+							163 container Topic coverage
+								164 text Topic coverage
+							165 container
+								166 text Partly within project topics  ·  87.3 % label confidence
+							167 container Wording check
+								168 text Wording check
+							169 container
+								170 text Local only  ·  0  LLM calls
+							171 container Explanation
+								172 text Explanation
+							173 container
+								174 text local only  ·  0  LLM calls
+							175 container Response shown
+								176 text Response shown
+							177 text Local response with source excerpts
+							178 container Support check
+								179 text Support check
+							180 text Not run — no validated draft was ready
+							181 container Analysis time
+								182 text Analysis time
+							183 container
+								184 text 208  ms
+						185 text Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. 
+						186 link Description: View recorded evaluation metrics, Value: 127.0.0.1:5173/performance
+						187 text .
+					139 text Retrieved candidates
+					140 button 1 Republic Act No. 11967, SEC. 20
+						141 text 1
+						142 text Republic Act No. 11967, SEC. 20
+					143 button 2 Joint Administrative Order No. 24-03, Series of 2024, SECTION 37
+						144 text 2
+						145 text Joint Administrative Order No. 24-03, Series of 2024, SECTION 37
+					146 button 3 Republic Act No. 7394, ART. 100
+						147 text 3
+						148 text Republic Act No. 7394, ART. 100
+					149 button 4 Republic Act No. 11967, SEC. 19
+						150 text 4
+						151 text Republic Act No. 11967, SEC. 19
+					152 button 5 Republic Act No. 11967, SEC. 17
+						153 text 5
+						154 text Republic Act No. 11967, SEC. 17
+			101 container
+				102 text Try another question
+				103 text entry area (settable) Try another question, ID: query
+				104 button (disabled) Ask
+				105 button (collapsed) AI & saving · Local only · Saving off, Secondary Actions: Expand
+					106 text AI & saving · 
+					107 text Local only
+					108 text  · 
+					109 text Saving off
+				110 container query-help
+					111 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. 
+					112 link Description: Scope & privacy, Value: 127.0.0.1:5173/about
+
+The focused UI element is 156 button (expanded) How this question was checked, Secondary Actions: Collapse

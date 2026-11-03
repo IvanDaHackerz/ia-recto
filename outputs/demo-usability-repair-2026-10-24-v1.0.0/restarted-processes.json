@@ -1,0 +1,10 @@
+[
+  {
+    "ProcessId": 11472,
+    "CommandLine": "\"C:\\Users\\gdhsb\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -m backend.application.server --port 8776 --ui-port 5174"
+  },
+  {
+    "ProcessId": 3464,
+    "CommandLine": "\"node\"   \"C:\\IA\\UI\\UX\\app\\node_modules\\.bin\\\\..\\vite\\bin\\vite.js\" --host 127.0.0.1 --port 5174 --strictPort"
+  }
+]

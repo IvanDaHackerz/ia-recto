@@ -1,0 +1,13 @@
+{
+  "count": 100,
+  "primary_counts": {
+    "labor": 50,
+    "consumer": 40,
+    "mixed": 10
+  },
+  "cases_sha256": "bcab548029507c3ec4f1f54246ff4931f99cb9cb118052f96bbcfa78414eae70",
+  "expectations_frozen_before_inference": true,
+  "independent_human_gold": false,
+  "known_source_gap_cases": 10,
+  "question_text_contains_personal_chat": false
+}

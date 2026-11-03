@@ -57,6 +57,22 @@ class SafetyTests(unittest.TestCase):
         self.assertIsNotNone(safety_notice('I was stabbed ten years ago. My boss threatened to stab me.'))
 
 class GroundingTests(unittest.TestCase):
+    def test_offsetting_and_online_return_keep_their_actual_conditions(self):
+        from backend.application.grounding import source_qualification_failure
+        index=json.loads((ROOT/'CURRENT_ARTIFACTS.json').read_text())['retrieval']
+        records={r['provision_id']:r for r in map(json.loads,(ROOT/index/'records.jsonl').read_text(encoding='utf-8').splitlines())}
+        overtime=records['LAB_CODE_2022__art_88']['parent_text']
+        self.assertIsNotNone(source_qualification_failure('Undertime must be paid separately.',overtime))
+        self.assertIsNone(source_qualification_failure('Undertime on one day cannot be offset by overtime on another day. Leave on another day does not remove the additional compensation required for overtime.',overtime))
+        online=records['RA_11967_2023__sec_20']['parent_text']
+        self.assertIsNotNone(source_qualification_failure('For a defective product the merchant must accept return of the original goods.',online))
+        self.assertIsNotNone(source_qualification_failure('When a merchant delivers the wrong model, the consumer may demand repair, replacement or refund and the originally delivered (incorrect) goods must be returned.',online))
+        self.assertIsNone(source_qualification_failure('When the consumer chooses replacement or refund, the merchant is entitled to return of the original goods at no cost to the consumer within a reasonable period unless otherwise agreed.',online))
+        self.assertIsNotNone(source_qualification_failure('Thus the employer violates both rules.',overtime))
+        status=records['LAB_CODE_2022__art_295']['parent_text']
+        self.assertIsNotNone(source_qualification_failure('Regular work has project and seasonal exceptions; otherwise it is casual. Anyone with one year becomes regular.',status))
+        self.assertIsNone(source_qualification_failure('The separate casual employment rule provides that a casual employee with at least one year of service becomes regular with respect to that activity.',status))
+
     def test_generation_and_judge_receive_the_exact_schema_and_bounded_ids(self):
         adapter=TogetherDevelopmentExplanation('mock','fictional-key')
         components=copy.deepcopy(self.components)
@@ -70,6 +86,10 @@ class GroundingTests(unittest.TestCase):
         self.assertIn(json.dumps(schema,separators=(',',':')),body['messages'][0]['content'])
         claims=checked_claims(self.draft('The recorded text describes normal daily work hours.'),components)
         components[0]['sources'].append({**components[0]['sources'][0],'chunk_id':'uncited','parent_text':'Uncited-only rule about leave and attendance.'})
+        adapter._send.return_value={'assessments':[{'claim_id':'development_1','verdict':'supported',
+            'qualifications_preserved':True,'no_case_outcome':True,'no_excluded_advice':True,'no_new_facts':True,
+            'answers_requested_issue':True,'actor_scope_preserved':True,'conditions_attached_correctly':True,
+            'source_check_reason':'The cited provision describes this hours limit.'}]}
         adapter.assess('Fictional question',claims,components)
         body=adapter._send.call_args.args[0];schema=body['response_format']['json_schema']['schema']
         self.assertEqual(schema['properties']['assessments']['minItems'],1)
@@ -268,6 +288,18 @@ class ApplicationRepairTests(unittest.TestCase):
         held=[h for c in packet['result']['components'] for h in c['candidates'] if h['provision_id']==HOLIDAY_PROVISION]
         self.assertTrue(held)
         self.assertTrue(all(h['explanation_restriction'] for h in held))
+    def test_ambiguous_religious_source_is_inspectable_but_never_offered(self):
+        from backend.application.source_issues import RELIGIOUS_SCHEDULING_PROVISION
+        provider=self.provider()
+        service=ApplicationService(verifier=self.verifier,normalizer=ConditionalNormalizer(),development_provider=provider)
+        packet=service.chat({'question_text':'I am a private employee asking about a religious rest-day preference. What notice and exception conditions are recorded?'})
+        held=[h for c in packet['result']['components'] for h in c['candidates'] if h['provision_id']==RELIGIOUS_SCHEDULING_PROVISION]
+        self.assertTrue(held)
+        self.assertTrue(all(h['explanation_restriction'] for h in held))
+        if provider.complete.called:
+            offered=provider.complete.call_args.args[1]['components']
+            self.assertTrue(all(s['provision_id']!=RELIGIOUS_SCHEDULING_PROVISION for c in offered for s in c['sources']))
+
     def test_unsupported_judgment_withholds_the_entire_draft(self):
         provider=self.provider();provider.assess.side_effect=lambda q,claims,c:{'assessments':[{**r,'verdict':'unsupported'} for r in positive(claims)['assessments']]}
         service=ApplicationService(verifier=self.verifier,normalizer=ConditionalNormalizer(),development_provider=provider)
@@ -278,7 +310,10 @@ class ApplicationRepairTests(unittest.TestCase):
         p=service.chat({'question_text':'My bank charged my account a hidden fee.','use_ai':False})
         self.assertIn('REF_BSP_CAM',{r['id'] for r in p['referrals']})
         p=service.chat({'question_text':'My private employer has not paid my final pay.','use_ai':False})
-        self.assertIn('DOLE_LA_06_20',{r['document_id'] for r in p['source_review_notices']})
+        documents={h['document_id'] for c in p['result']['components'] for h in c['candidates']}
+        self.assertIn('DOLE_FINAL_PAY_COE_NEWS_2026',documents)
+        self.assertNotIn('DOLE_LA_06_20',documents)
+        self.assertFalse(p['result']['display_allowed'])
     def test_health_and_another_question_work_while_generation_waits(self):
         provider=self.provider();entered=threading.Event();release=threading.Event();complete=provider.complete.side_effect
         def wait(q,p):entered.set();release.wait(5);return complete(q,p)

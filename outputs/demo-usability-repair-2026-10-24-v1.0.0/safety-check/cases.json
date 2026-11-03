@@ -1,0 +1,134 @@
+[
+  {
+    "case_id": "DEMO_NEW_018",
+    "family_id": "DEMO_NEW_018",
+    "group": "mixed",
+    "topic": "fresh_demo",
+    "question_text": "A private employer uses repeated contracts for work usual to its business. Separately a grocery keeps the remaining cash change. What general recorded frameworks cover the two concerns?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH4_071",
+    "family_id": "PH4_071",
+    "group": "mixed",
+    "topic": "deduction_delivery_crime",
+    "question_text": "A private employer deducts cash shortages without hearing workers. An online merchant also sent me the wrong appliance model. In a third separate incident I need criminal-case advice about a stolen bicycle. What is within scope?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "development_replay": true
+  },
+  {
+    "case_id": "PH4_057",
+    "family_id": "PH4_057",
+    "group": "mixed",
+    "topic": "status_defect",
+    "question_text": "Private factory employee ako doing the usual work of the business on repeated short contracts. I also bought a new defective home blender from a store. What can your sources say about these separate matters?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "development_replay": true
+  },
+  {
+    "case_id": "PH4_053",
+    "family_id": "PH4_053",
+    "group": "mixed",
+    "topic": "deduction_delivery",
+    "question_text": "Binawasan ng private employer ko ang wages ko para sa nawalang equipment nang hindi ako pinapaliwanag. Hiwalay dito, wrong model ang electric kettle na delivered ng online merchant. What frameworks fit each?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "development_replay": true
+  },
+  {
+    "case_id": "PH4_056",
+    "family_id": "PH4_056",
+    "group": "mixed",
+    "topic": "project_change",
+    "question_text": "A private contractor hired me for a project without identifying its scope at the start. Separately, a grocery will not give my exact cash change. Can you explain the general rules for both?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "development_replay": true
+  },
+  {
+    "case_id": "PH4_051",
+    "family_id": "PH4_051",
+    "group": "mixed",
+    "topic": "wage_price",
+    "question_text": "Private pet-shop employee ako na hindi pa sumasahod. Sa hiwalay na purchase, mas mataas ang singil ng grocery kaysa sa shelf price. Ano ang puwedeng ipaliwanag para sa dalawang issue?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "development_replay": true
+  }
+]

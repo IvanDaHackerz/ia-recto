@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\IA\outputs\defense-readiness-v1.0.0\bind_final.py", line 21, in <module>
+    try:run(['dataset/pipelines/item12/rebind_implementation.py','--output',verifier],'verifier-final-build.log')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\outputs\defense-readiness-v1.0.0\bind_final.py", line 14, in run
+    if r.returncode:raise RuntimeError('Inspect '+name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inspect verifier-final-build.log

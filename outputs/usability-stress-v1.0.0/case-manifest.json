@@ -1,0 +1,17 @@
+{
+  "provenance": "AI-authored synthetic development and regression cases; not independent human gold",
+  "case_files": {
+    "development_cases.json": "6079ce3263ff032410bd8cb7d87ee6ff7e0ad59d8f21ef8e1123b83aa8d09616",
+    "reserved_cases.json": "9f4cc1eb3b7b4e5fa7cde6dc0e4bd145ee807c264d1f6d6fbab00642dd78bd36",
+    "final_probe_cases.json": "91141cf987607acbb0a3082fba511ccc47dce7bfb035c676cef8730f9d2b0864",
+    "all_cases.json": "8798c57b014b12e1970914ee5a980856031042a8d1eda1b18e41aa4c73ce44f4",
+    "variant_cases.json": "ab61798700e01c7397f33579f1b7f422a7af3120a15809e83fbcfd59a9235325"
+  },
+  "stack": {
+    "classifier": "outputs/item10-classifier-v1.5.36",
+    "retrieval": "outputs/item11-retrieval-v1.3.23",
+    "verifier": "outputs/item12-verifier-v1.0.30"
+  },
+  "provider_calls": 0,
+  "independent_acceptance": false
+}

@@ -1,0 +1,9 @@
+{
+  "training_parents": 459,
+  "before_clause_sha256": "eb8f33b519c825a61f809fc7ad1d03628b30f1fc05dc6a9acf3668b2e511969c",
+  "evaluation_examples_fitted": false,
+  "all_training_parent_features_unchanged_after_followup": true,
+  "repeated_word_repair_training_features_unchanged": true,
+  "final_classifier": "outputs/item10-classifier-v1.5.36",
+  "typing_feature_version": "scope-typing-v1.3.2"
+}

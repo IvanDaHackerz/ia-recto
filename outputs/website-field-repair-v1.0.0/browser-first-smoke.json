@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "For my blender warranty, the shop says I need to pay a service fee for every repair. What warranty rules are available?",
+    "expected": "consumer",
+    "snapshot": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- banner:\n  - link \"Recto & Co. Legal\":\n    - /url: /\n  - button \"Menu\":\n    - text: Menu\n- strong: Development preview.\n- text: Live classification, retrieval & AI explanations · source applicability remains under review.\n- main:\n  - status: Analysis ready. Open references to inspect any retrieved provisions.\n  - heading \"Ask about your rights\" [level=1]\n  - button \"Sources (5)\":\n    - text: Sources (5)\n  - button \"New question\":\n    - generic: New question\n  - region \"Conversation\":\n    - article \"Response 1\":\n      - generic: Question 1\n      - heading \"For my blender warranty, the shop says I need to pay a service fee for every repair. What warranty rules are available?\" [level=2]\n      - region \"Response\":\n        - heading \"Recorded source passages\" [level=3]\n        - paragraph: These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.\n        - paragraph: AI is off for this question. This response uses local analysis and recorded sources.\n        - figure \"Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\":\n          - button \"Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\"\n          - blockquote: state what the warrantor will do in the event of a defect, malfunction or failure to conform to the written warranty and at whose expense;\n          - paragraph: Recorded excerpt. Open the reference for the complete provision and its exceptions. Current applicability remains under review.\n        - paragraph: Local response with recorded source text. No live AI explanation was used.\n      - generic \"Where to ask for assistance\"\n      - generic \"How this question was checked\" [active]\n      - term: Topic\n      - definition: Consumer · 88.1% label confidence\n      - term: Topic coverage\n      - definition: Within project topics · 94.0% label confidence\n      - term: Wording check\n      - definition: Local only · 0 LLM calls\n      - term: Explanation\n      - definition: local only · 0 LLM calls\n      - term: Response shown\n      - definition: Local response with source excerpts\n      - term: Support check\n      - definition: Not run — no validated draft was ready\n      - term: Analysis time\n      - definition: 170 ms\n      - paragraph:\n        - text: Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label.\n        - link \"View recorded evaluation metrics\":\n          - /url: /performance\n        - text: .\n      - paragraph: Retrieved candidates\n      - button \"1 Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\":\n        - generic: \"1\"\n        - text: Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III\n      - button \"2 Republic Act No. 7394, ART. 69\":\n        - generic: \"2\"\n        - text: Republic Act No. 7394, ART. 69\n      - button \"3 Republic Act No. 7394, ART. 67\":\n        - generic: \"3\"\n        - text: Republic Act No. 7394, ART. 67\n      - button \"4 Republic Act No. 7394, ART. 100\":\n        - generic: \"4\"\n        - text: Republic Act No. 7394, ART. 100\n      - button \"5 Republic Act No. 7394, ART. 103\":\n        - generic: \"5\"\n        - text: Republic Act No. 7394, ART. 103\n  - generic: Try another question\n  - textbox \"Try another question\":\n    - /placeholder: Ask about a labor or consumer concern…\n  - button \"Ask\" [disabled]:\n    - generic: Ask\n  - generic \"AI & saving · Local only · Saving off\"\n  - paragraph:\n    - text: Use fictional details. Each question is checked independently; include the complete concern and any requested facts.\n    - link \"Scope & privacy\":\n      - /url: /about",
+    "facts": {
+      "fields": [
+        "Topic",
+        "Consumer · 88.1% label confidence",
+        "Topic coverage",
+        "Within project topics · 94.0% label confidence",
+        "Wording check",
+        "Local only · 0 LLM calls",
+        "Explanation",
+        "local only · 0 LLM calls",
+        "Response shown",
+        "Local response with source excerpts",
+        "Support check",
+        "Not run — no validated draft was ready",
+        "Analysis time",
+        "170 ms"
+      ],
+      "headings": [
+        "Recorded source passages"
+      ],
+      "quotes": [
+        "state what the warrantor will do in the event of a defect, malfunction or failure to conform to the written warranty and at whose expense;"
+      ]
+    }
+  }
+]

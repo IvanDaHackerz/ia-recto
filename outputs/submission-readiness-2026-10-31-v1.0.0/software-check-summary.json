@@ -1,0 +1,15 @@
+{
+  "backend_tests_passed": 344,
+  "frontend_tests_passed": 33,
+  "classifier_package_tests_passed": 69,
+  "retrieval_package_tests_passed": 60,
+  "verifier_package_tests_passed": 37,
+  "verifier_scenarios_passed": 52,
+  "focused_submission_tests_passed": 40,
+  "lint_passed": true,
+  "build_passed": true,
+  "metric_reconciliation_passed": true,
+  "npm_reported_vulnerabilities": 0,
+  "source": "project-checks-release.log",
+  "independent_legal_accuracy_measured": false
+}

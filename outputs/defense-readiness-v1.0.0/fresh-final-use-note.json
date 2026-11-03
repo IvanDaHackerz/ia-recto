@@ -1,0 +1,14 @@
+{
+  "original_classifier_routing_observations": {
+    "matched": 6,
+    "total": 6,
+    "used_for_later_classifier_tuning": false
+  },
+  "subsequent_browser_inspection": {
+    "case_id": "CHK_001",
+    "finding": "The first consumer fallback quotation was about price tags instead of short-changing.",
+    "used_for_retrieval_repair": true
+  },
+  "current_role": "Inspected development regression questions, not an untouched end-to-end holdout.",
+  "original_manifest_and_expectations_preserved": true
+}

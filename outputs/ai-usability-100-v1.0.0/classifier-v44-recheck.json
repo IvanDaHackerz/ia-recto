@@ -1,0 +1,8 @@
+{
+  "classifier": "v1.5.44",
+  "cases": 100,
+  "correct": 100,
+  "failures": [],
+  "original_training_feature_rows": 459,
+  "changed_training_feature_rows": 0
+}

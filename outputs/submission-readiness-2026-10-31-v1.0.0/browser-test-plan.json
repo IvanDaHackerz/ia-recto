@@ -1,0 +1,31 @@
+{
+  "provenance": "Additional fictional smoke questions authored after core repairs, before browser inference. Not independent human/legal gold.",
+  "AI_on": true,
+  "save_history": false,
+  "cases": [
+    {
+      "id": "B_L",
+      "question": "I work for a private warehouse in Laguna. Our supervisor requires us to stay beside the loading bay while waiting for deliveries, and we cannot leave. What recorded rule explains whether this waiting time counts as hours worked?",
+      "expected_topic": "labor",
+      "expected_scope": "fully_supported"
+    },
+    {
+      "id": "B_C",
+      "question": "Sa appliance shop sa Tarlac ako bumili ng bagong electric fan. Hindi na umiikot after one week, at may receipt ako. Anong general warranty rules ang dapat kong tingnan?",
+      "expected_topic": "consumer",
+      "expected_scope": "fully_supported"
+    },
+    {
+      "id": "B_M",
+      "question": "Private bakery staff ako sa Rizal at walang night differential sa overnight shift namin. Hiwalay, candy ang ibinigay ng grocery sa halip na tamang sukli. Paki-explain ang recorded rules para sa parehong concern.",
+      "expected_topic": "mixed",
+      "expected_scope": "fully_supported"
+    },
+    {
+      "id": "B_O",
+      "question": "My siblings disagree about dividing our late mother's farmland in Nueva Ecija. Can this website explain our inheritance shares?",
+      "expected_topic": "out_of_scope",
+      "expected_scope": "unsupported"
+    }
+  ]
+}

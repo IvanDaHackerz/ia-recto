@@ -1,0 +1,51 @@
+DEMO_NEW_001 generated citations_and_automated_support_checked 5593 ms
+DEMO_NEW_002 generated citations_and_automated_support_checked 7984 ms
+DEMO_NEW_003 generated citations_and_automated_support_checked 20609 ms
+DEMO_NEW_004 generated citations_and_automated_support_checked 9250 ms
+DEMO_NEW_005 generated citations_and_automated_support_checked 7703 ms
+DEMO_NEW_006 generated citations_and_automated_support_checked 8969 ms
+DEMO_NEW_007 generated citations_and_automated_support_checked 10438 ms
+DEMO_NEW_008 generated citations_and_automated_support_checked 7438 ms
+DEMO_NEW_009 generated citations_and_automated_support_checked 27093 ms
+DEMO_NEW_010 generated citations_and_automated_support_checked 7031 ms
+Usage: {'day_utc': '2026-10-24', 'provider_requests': 107, 'estimated_usd': 0.09362804999999999, 'input_tokens': 338751, 'output_tokens': 71359, 'maximum_calls': 200, 'maximum_estimated_usd': 0.35, 'billing_verified': False}
+DEMO_NEW_011 generated citations_and_automated_support_checked 9141 ms
+DEMO_NEW_012 generated citations_and_automated_support_checked 7594 ms
+DEMO_NEW_013 partially_generated supported_parts_checked 29344 ms
+DEMO_NEW_014 generated citations_and_automated_support_checked 13859 ms
+DEMO_NEW_015 generated citations_and_automated_support_checked 5922 ms
+DEMO_NEW_016 withheld citation_validation_failed 9657 ms
+DEMO_NEW_017 generated citations_and_automated_support_checked 23796 ms
+DEMO_NEW_018 generated citations_and_automated_support_checked 12093 ms
+DEMO_NEW_019 withheld supported_concern_required 157 ms
+DEMO_NEW_020 withheld supported_concern_required 313 ms
+Usage: {'day_utc': '2026-10-24', 'provider_requests': 126, 'estimated_usd': 0.11385015, 'input_tokens': 409965, 'output_tokens': 87259, 'maximum_calls': 200, 'maximum_estimated_usd': 0.35, 'billing_verified': False}
+DEMO_NEW_021 withheld supported_concern_required 141 ms
+DEMO_NEW_022 withheld supported_concern_required 297 ms
+DEMO_NEW_023 withheld supported_concern_required 140 ms
+DEMO_NEW_024 withheld supported_concern_required 281 ms
+PH4_009 generated citations_and_automated_support_checked 16406 ms
+PH4_087 withheld supported_concern_required 391 ms
+PH4_060 partially_generated supported_parts_checked 30188 ms
+PH4_037 generated citations_and_automated_support_checked 13094 ms
+PH4_019 withheld claim_support_failed 15625 ms
+PH4_086 withheld supported_concern_required 422 ms
+Usage: {'day_utc': '2026-10-24', 'provider_requests': 137, 'estimated_usd': 0.12343785, 'input_tokens': 440683, 'output_tokens': 95559, 'maximum_calls': 200, 'maximum_estimated_usd': 0.35, 'billing_verified': False}
+PH4_028 withheld citation_validation_failed 17735 ms
+PH4_071 withheld provider_unavailable 36063 ms
+PH4_007 withheld source_context_unavailable 297 ms
+PH4_010 generated citations_and_automated_support_checked 13172 ms
+PH4_047 generated citations_and_automated_support_checked 10344 ms
+PH4_012 generated citations_and_automated_support_checked 8515 ms
+PH4_057 generated citations_and_automated_support_checked 31375 ms
+PH4_030 generated citations_and_automated_support_checked 9843 ms
+PH4_053 withheld provider_unavailable 27375 ms
+PH4_072 partially_generated supported_parts_checked 18656 ms
+Usage: {'day_utc': '2026-10-24', 'provider_requests': 158, 'estimated_usd': 0.14914755, 'input_tokens': 510526, 'output_tokens': 113062, 'maximum_calls': 200, 'maximum_estimated_usd': 0.35, 'billing_verified': False}
+PH4_008 generated citations_and_automated_support_checked 6656 ms
+PH4_064 generated citations_and_automated_support_checked 6078 ms
+PH4_079 withheld supported_concern_required 172 ms
+PH4_020 generated citations_and_automated_support_checked 6156 ms
+PH4_056 generated citations_and_automated_support_checked 15500 ms
+PH4_051 withheld provider_unavailable 23641 ms
+Summary: {"input_forms": 46, "pending": 0, "errors": {}, "explanation_status": {"generated": 27, "partially_generated": 3, "withheld": 16}, "non_generated_reasons": {"citation_validation_failed": 2, "supported_concern_required": 9, "claim_support_failed": 1, "provider_unavailable": 3, "source_context_unavailable": 1}, "failure_codes": {"provider_unavailable": 2, "provider_incomplete_output": 1}, "validation_failures": {"source_qualification_missing": 1, "numeric_detail_not_in_source": 1}, "latency_ms": {"p50": 9195.49999999981, "p95": 29976.99999999986, "maximum": 36063.0000000001}, "usage": {"day_utc": "2026-10-24", "provider_requests": 168, "estimated_usd": 0.16058985, "input_tokens": 537915, "output_tokens": 117879, "maximum_calls": 200, "maximum_estimated_usd": 0.35, "billing_verified": false}}

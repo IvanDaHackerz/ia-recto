@@ -1,0 +1,10 @@
+{
+  "cases.jsonl": "00b01b86cd008610792c4a6f22c6beb5fce3f073f223abe3422eff0bf4b57f09",
+  "errors.json": "7252746057cee1a27df333cfee840be368322f36ac3b2ab7777f18bc483d2e69",
+  "evaluator.py": "347c67e666137955e9f3d3b7d724305ad30616b6abfe0059759e0cb5c09e8836",
+  "freeze.json": "f5026391cfe15c74dd285b8dd6a77687a48795bedcbd39bbcca47c3a0f6365bc",
+  "metrics.json": "31c1cd165426a17dedecf8bfa61792f6f0302365c6662daefe06aba5b345970b",
+  "metrics_implementation.py": "30dae6d1115a480dd40d58a5a29e9685d9f1e3e488427435e5fe44507109ea6c",
+  "observations.jsonl": "8c1d0ea4f4f09dc9a68397d5a6d4716df612615bb220cf7d3536ad85f668d2eb",
+  "protocol.json": "abcd9196ec0ebc771177db6744213e1ed3ab3624941dbc8b3770e53d9bb2bf7f"
+}

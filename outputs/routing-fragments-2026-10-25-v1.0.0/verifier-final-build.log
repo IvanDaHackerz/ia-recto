@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item12\build_packet.py", line 191, in <module>
+    print(json.dumps(build(args.output.resolve()), indent=2))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item12\build_packet.py", line 71, in build
+    raise ValueError('Build checks failed; inspect logs. Current artifact pointers were not changed.')
+ValueError: Build checks failed; inspect logs. Current artifact pointers were not changed.

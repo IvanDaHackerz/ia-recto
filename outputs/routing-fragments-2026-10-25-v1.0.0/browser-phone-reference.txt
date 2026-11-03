@@ -1,0 +1,76 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5173/#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Live classification, retrieval & AI explanations · source applicability remains under review.
+		8 container main
+			44 text Analysis ready. Open references to inspect any retrieved provisions.
+			9 container
+				10 heading Ask about your rights, Value: 1
+					11 text Ask about your rights
+				12 checkbox Sources (1), Value: 1
+				45 button New question
+			46 container Source references
+				47 container
+					48 heading Source references, Value: 2
+						49 text Source references
+					50 text For response 1 · 1 reference
+					51 button Back to chat
+				52 container Reference blocks
+					53 text Inspect the recorded source text here. Current legal applicability remains under review.
+					54 content list
+						55 container reference-0-0
+							56 button (expanded) 1 Republic Act No. 7394, ART. 50 Consumer Act of the Philippines, Secondary Actions: Collapse
+								57 text 1
+								58 text Republic Act No. 7394, ART. 50
+								59 text Consumer Act of the Philippines
+							60 text Recorded source · current applicability unreviewed
+							61 container reference-0-0-body
+								62 container
+									63 text For:  sabi ng gadget store brand new yung phone, pero refurbished pala. what does the consumer act say about selling something used as new
+								64 definition list
+									65 container Recorded status
+										66 text Recorded status
+									67 text in_force_baseline_subject_to_later_special_laws_and_rules
+									68 container Status checked
+										69 text Status checked
+									70 text 2026-09-29
+									71 container Search ranking
+										72 text Search ranking
+									73 container
+										74 text 28.8579  · not confidence
+								75 button (collapsed) Use restrictions and source checks, Secondary Actions: Expand
+									76 text Use restrictions and source checks
+								77 heading Complete stored provision, Value: 3
+									78 text Complete stored provision
+								79 text Highlighted passages were used in this response.
+								80 container
+									81 text ART. 50. Prohibition Against Deceptive Sales Acts or Practices. - A deceptive act or practice by a seller or supplier in connection with a consumer transaction violates this Act whether it occurs before, during or after the transaction. An act or practice shall be deemed deceptive whenever the producer, manufacturer, supplier or seller, through concealment, false representation or fraudulent manipulation, induces a consumer to enter into a sales or lease transaction of any consumer product or service. 
+
+Without limiting the scope of the above paragraph, the act or practice of a seller or supplier is deceptive when it represents that:
+a consumer product or service has the sponsorship, approval, performance, characteristics, ingredients, accessories, uses, or benefits it does not have;
+
+a consumer product or service is of a particular standard, quality, grade, style, or model when in fact it is not;
+
+a consumer product is new, original or unused, when in fact, it is in a deteriorated, altered, reconditioned, reclaimed or second-hand state;
+
+a consumer product or service is available to the consumer for a reason that is different from the fact;
+
+a consumer product or service has been supplied in accordance with the previous representation when in fact it is not;
+
+a consumer product or service can be supplied in a quantity greater than the supplier intends;
+
+a service, or repair of a consumer product is needed when in fact it is not;
+
+a specific price advantage of a consumer product exists when in fact it does not;
+
+the sales act or practice involves or does not involve a warranty, a disclaimer of warranties, particular warranty terms or other rights, remedies or obligations if the indication is false; and
+
+the seller or supplier has a sponsorship, approval, or affiliation he does not have.
+								82 text RA_7394_1992__art_50
+								83 link Description: Open recorded source, Value: elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302
+
+The focused UI element is 12 checkbox Sources (1), Value: 1

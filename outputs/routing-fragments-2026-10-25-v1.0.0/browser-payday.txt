@@ -1,0 +1,98 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5173/#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Live classification, retrieval & AI explanations · source applicability remains under review.
+		8 container main
+			44 text Analysis ready. Open references to inspect any retrieved provisions.
+			9 container
+				10 heading Ask about your rights, Value: 1
+					11 text Ask about your rights
+				12 checkbox Sources (5), Value: 0
+				113 button New question
+			46 container Conversation
+				114 container Response 1
+					115 text Question 
+					116 text 1
+					117 heading Value: 2, sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?
+						118 text sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?
+					119 container Response
+						120 heading Recorded source passages, Value: 3
+							121 text Recorded source passages
+						122 text These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.
+						123 text AI is off for this question. This response uses local analysis and recorded sources.
+						124 container
+							125 button Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII
+							126 text SECTION 3. Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.
+
+(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed. Final settlement shall be made immediately upon completion of the work. Complete stored provision.  Current applicability remains under review.
+						127 container
+							128 text Local response  with recorded source text . No live AI explanation was used.
+					129 button (collapsed) Where to ask for assistance, Secondary Actions: Expand
+						130 text Where to ask for assistance
+					149 container
+						150 button (expanded) How this question was checked, Secondary Actions: Collapse
+							151 text How this question was checked
+						152 definition list
+							153 container Topic
+								154 text Topic
+							155 container
+								156 text Labor  ·  86.9 % label confidence
+							157 container Topic coverage
+								158 text Topic coverage
+							159 container
+								160 text Within project topics  ·  93.4 % label confidence
+							161 container Wording check
+								162 text Wording check
+							163 container
+								164 text Local only  ·  0  LLM calls
+							165 container Explanation
+								166 text Explanation
+							167 container
+								168 text local only  ·  0  LLM calls
+							169 container Response shown
+								170 text Response shown
+							171 text Local response with source excerpts
+							172 container Support check
+								173 text Support check
+							174 text Not run — no validated draft was ready
+							175 container Analysis time
+								176 text Analysis time
+							177 container
+								178 text 226  ms
+						179 text Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. 
+						180 link Description: View recorded evaluation metrics, Value: 127.0.0.1:5173/performance
+						181 text .
+					133 text Retrieved candidates
+					134 button 1 Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII
+						135 text 1
+						136 text Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII
+					137 button 2 Omnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII
+						138 text 2
+						139 text Omnibus Rules Implementing the Labor Code, SECTION 19 — BOOK THREE, CHAPTER I, RULE VII
+					140 button 3 PD 442, as amended and renumbered, ART. 105
+						141 text 3
+						142 text PD 442, as amended and renumbered, ART. 105
+					143 button 4 PD 442, as amended and renumbered, ART. 129
+						144 text 4
+						145 text PD 442, as amended and renumbered, ART. 129
+					146 button 5 Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII
+						147 text 5
+						148 text Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK THREE, CHAPTER IV, RULE VIII
+			101 container
+				102 text Try another question
+				103 text entry area (settable) Try another question, ID: query
+				104 button (disabled) Ask
+				105 button (collapsed) AI & saving · Local only · Saving off, Secondary Actions: Expand
+					106 text AI & saving · 
+					107 text Local only
+					108 text  · 
+					109 text Saving off
+				110 container query-help
+					111 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. 
+					112 link Description: Scope & privacy, Value: 127.0.0.1:5173/about
+
+The focused UI element is 150 button (expanded) How this question was checked, Secondary Actions: Collapse

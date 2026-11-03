@@ -1,0 +1,274 @@
+[
+  {
+    "id": "FINAL001",
+    "q": "Our private restaurant employer holds the first month's salary as a security deposit.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL002",
+    "q": "A private office employee is told to answer work calls during an unpaid lunch break.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL003",
+    "q": "My private employer says newly hired probationary workers cannot receive holiday pay.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL004",
+    "q": "Kulang ang 13th month na binigay ng private employer ko kahit buong taon ako nagwork.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL005",
+    "q": "My private employer keeps renewing a project-based contract without identifying any project.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL006",
+    "q": "Private company dismissed my sister without any notice or explanation. What basic process can she read about?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL007",
+    "q": "Can a private employer refuse a certificate of employment because an employee resigned?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL008",
+    "q": "I'm a private supermarket employee. Where can I ask about deductions from my wages?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL009",
+    "q": "The appliance shop says the blender's motor is not covered by its written warranty.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL010",
+    "q": "A retailer delivered a cupboard with a broken door and refuses to replace it.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL011",
+    "q": "The grocery cashier says I must accept sweets instead of my exact change.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL012",
+    "q": "Bumili sa online business ng bagong bag pero mali ang product na dumating at ayaw ng refund.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL013",
+    "q": "A shop advertised a stainless-steel pot but delivered one made of a different material.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL014",
+    "q": "The paid repair service left my washing machine in worse condition and won't address my complaint.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL015",
+    "q": "The hardware store sold an electric kettle with a loose exposed wire near the handle.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL016",
+    "q": "My employer recommended a store, and that retailer sold me a defective laptop. This is about the purchase.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL017",
+    "q": "A private employer has delayed my salary, and a paid laundry shop ruined my jacket.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL018",
+    "q": "The private company refuses my COE and the store refuses to honor my refrigerator warranty.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL019",
+    "q": "Unpaid overtime at my private job and a misleading product ad from the retailer are my two concerns.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL020",
+    "q": "Our private shop gives no weekly rest day. Separately, the online business seller delivered a broken table.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "FINAL021",
+    "q": "I want general dismissal notice rules for private employees, and a prediction of my chances of winning a pending case.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "FINAL022",
+    "q": "My private employer owes my wages, while my insurance company is delaying my claim.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "FINAL023",
+    "q": "The store sold me a defective phone; the mobile network also charged an unauthorized data-plan fee.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "FINAL024",
+    "q": "The laundry shop damaged my shirts, and the water utility billed me for an unexplained meter charge.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "FINAL025",
+    "q": "The employer in Singapore has not released my salary for my overseas job.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL026",
+    "q": "Kasambahay ako at hindi tama ang sweldo ko sa household employer.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL027",
+    "q": "A government employee needs help disputing an administrative charge.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL028",
+    "q": "What legal arguments should I make at the hearing of my pending NLRC case?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL029",
+    "q": "Can you calculate my retirement benefits and SSS pension?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL030",
+    "q": "The bank refuses to reverse an unauthorized debit from my account.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL031",
+    "q": "A seller leaked my identity documents online without my consent.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL032",
+    "q": "The apartment landlord is keeping my rent deposit after I moved out.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL033",
+    "q": "The airline cancelled our booking and refuses to return the fare.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL034",
+    "q": "The fake online store took the money and disappeared. I want a police investigation.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL035",
+    "q": "Please explain how to debug a JavaScript program.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL036",
+    "q": "My cousin needs advice about a divorce and child custody.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "FINAL037",
+    "q": "They kept some money and won't explain why.",
+    "flow": "clarify"
+  },
+  {
+    "id": "FINAL038",
+    "q": "Someone changed the agreement. What are my rights?",
+    "flow": "clarify"
+  },
+  {
+    "id": "FINAL039",
+    "q": "May problema po. Ano gagawin ko?",
+    "flow": "clarify"
+  },
+  {
+    "id": "FINAL040",
+    "q": "Can I ask about something that happened yesterday?",
+    "flow": "clarify"
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "targeted_recheck_ids": ["EX_NEW_004", "EX_NEW_014", "EX_NEW_024", "PH5_029", "PH5_048"],
+  "selection_posthoc": true,
+  "reason": "List markers, displayed-price focus, no-cost return condition and Taglish source cross-reference; all earlier observations preserved."
+}

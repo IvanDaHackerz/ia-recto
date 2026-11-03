@@ -1,0 +1,16 @@
+{
+  "parent": "outputs/item10-classifier-v1.5.61",
+  "selected": "outputs/item10-classifier-v1.5.66",
+  "unchanged": {
+    "atomic_model": true,
+    "feature_vocabulary": true,
+    "calibration": true,
+    "thresholds": true,
+    "training_questions": true,
+    "training_groups": true,
+    "frozen_parent_files": true,
+    "release_files": true
+  },
+  "new_training_questions": 0,
+  "new_threshold_selection": false
+}

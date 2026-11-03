@@ -1,0 +1,6 @@
+{
+  "targeted_recheck_ids": [
+    "AI100_034"
+  ],
+  "role": "Final source-definition regression; preserves usual-business predicate as well as project/seasonal exceptions."
+}

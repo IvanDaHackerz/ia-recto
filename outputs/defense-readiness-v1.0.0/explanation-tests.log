@@ -1,0 +1,72 @@
+test_a_fact_error_can_be_removed_once_but_the_revised_draft_must_pass (backend.application.test_development_explanation.CitationTests.test_a_fact_error_can_be_removed_once_but_the_revised_draft_must_pass) ... ok
+test_citation_support_correction_still_requires_a_passed_new_assessment (backend.application.test_development_explanation.CitationTests.test_citation_support_correction_still_requires_a_passed_new_assessment) ... ok
+test_compact_prompt_preserves_full_sources_and_exact_proof (backend.application.test_development_explanation.CitationTests.test_compact_prompt_preserves_full_sources_and_exact_proof) ... ok
+test_display_method_exception_cannot_qualify_the_price_ceiling (backend.application.test_development_explanation.CitationTests.test_display_method_exception_cannot_qualify_the_price_ceiling) ... ok
+test_empty_supported_output_is_a_distinct_safe_withholding_state (backend.application.test_development_explanation.CitationTests.test_empty_supported_output_is_a_distinct_safe_withholding_state) ... ok
+test_exact_quote_offsets_are_calculated_from_stored_text (backend.application.test_development_explanation.CitationTests.test_exact_quote_offsets_are_calculated_from_stored_text) ... ok
+test_fabricated_quote_wrong_source_extra_fields_and_numbers_are_rejected (backend.application.test_development_explanation.CitationTests.test_fabricated_quote_wrong_source_extra_fields_and_numbers_are_rejected) ... ok
+test_failed_individual_support_cannot_remove_an_independently_checked_paragraph (backend.application.test_development_explanation.CitationTests.test_failed_individual_support_cannot_remove_an_independently_checked_paragraph) ... ok
+test_interest_and_project_status_inferences_need_source_support (backend.application.test_development_explanation.CitationTests.test_interest_and_project_status_inferences_need_source_support) ... ok
+test_irrelevant_same_domain_source_never_reaches_the_provider (backend.application.test_development_explanation.CitationTests.test_irrelevant_same_domain_source_never_reaches_the_provider) ... ok
+test_material_period_and_seller_role_exceptions_are_preserved (backend.application.test_development_explanation.CitationTests.test_material_period_and_seller_role_exceptions_are_preserved) ... ok
+test_membership_phrase_does_not_create_an_invented_quantity (backend.application.test_development_explanation.CitationTests.test_membership_phrase_does_not_create_an_invented_quantity) ... ok
+test_missing_authority_for_one_component_does_not_erase_a_supported_other_component (backend.application.test_development_explanation.CitationTests.test_missing_authority_for_one_component_does_not_erase_a_supported_other_component) ... ok
+test_missing_component_can_be_corrected_once_without_skipping_checks (backend.application.test_development_explanation.CitationTests.test_missing_component_can_be_corrected_once_without_skipping_checks) ... ok
+test_missing_duplicate_or_extra_assessments_cannot_authorize_partial_prose (backend.application.test_development_explanation.CitationTests.test_missing_duplicate_or_extra_assessments_cannot_authorize_partial_prose) ... ok
+test_missing_supported_component_is_not_silently_omitted (backend.application.test_development_explanation.CitationTests.test_missing_supported_component_is_not_silently_omitted) ... ok
+test_qualification_revision_requires_a_new_complete_check (backend.application.test_development_explanation.CitationTests.test_qualification_revision_requires_a_new_complete_check) ... ok
+test_related_authority_and_fixture_gates_skip_provider (backend.application.test_development_explanation.CitationTests.test_related_authority_and_fixture_gates_skip_provider) ... ok
+test_revised_invented_quote_is_rejected_before_a_second_assessment (backend.application.test_development_explanation.CitationTests.test_revised_invented_quote_is_rejected_before_a_second_assessment) ... ok
+test_revision_is_bounded_and_does_not_override_a_second_failed_check (backend.application.test_development_explanation.CitationTests.test_revision_is_bounded_and_does_not_override_a_second_failed_check) ... ok
+test_same_component_cannot_be_output_twice (backend.application.test_development_explanation.CitationTests.test_same_component_cannot_be_output_twice) ... ok
+test_source_selection_reaches_later_warranty_clauses (backend.application.test_development_explanation.CitationTests.test_source_selection_reaches_later_warranty_clauses) ... ok
+test_source_specific_prerequisites_cannot_be_silently_dropped (backend.application.test_development_explanation.CitationTests.test_source_specific_prerequisites_cannot_be_silently_dropped) ... ok
+test_support_feedback_is_actionable_and_keeps_the_public_contract (backend.application.test_development_explanation.CitationTests.test_support_feedback_is_actionable_and_keeps_the_public_contract) ... ok
+test_typographic_hyphens_preserve_written_quantities (backend.application.test_development_explanation.CitationTests.test_typographic_hyphens_preserve_written_quantities) ... ok
+test_unsafe_mismatched_or_time_limited_checks_do_not_trigger_revision (backend.application.test_development_explanation.CitationTests.test_unsafe_mismatched_or_time_limited_checks_do_not_trigger_revision) ... ok
+test_whitespace_only_quote_recovery_preserves_the_exact_stored_span (backend.application.test_development_explanation.CitationTests.test_whitespace_only_quote_recovery_preserves_the_exact_stored_span) ... ok
+test_wrong_component_selection_correction_still_needs_support (backend.application.test_development_explanation.CitationTests.test_wrong_component_selection_correction_still_needs_support) ... ok
+setUpClass (backend.application.test_development_explanation.ConcernTests) ... ERROR
+test_saved_credentials_and_feature_flags_change_reuse_identity_without_leaking_them (backend.application.test_conversation.ConfigurationIdentityTests.test_saved_credentials_and_feature_flags_change_reuse_identity_without_leaking_them) ... ok
+setUpClass (backend.application.test_conversation.ConversationTests) ... ERROR
+
+======================================================================
+ERROR: setUpClass (backend.application.test_development_explanation.ConcernTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 17, in setUpClass
+    cls.verifier = load_runtime()
+                   ^^^^^^^^^^^^^^
+  File "C:\IA\backend\terminal_test.py", line 34, in load_runtime
+    verifier = EvidenceVerifier()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item12\verification.py", line 48, in __init__
+    self.retriever = LegalRetriever(ROOT / self.policy['retrieval'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item11\retrieval.py", line 38, in __init__
+    if sha(ROOT/name)!=h:raise ValueError('Source changed; rebuild the index: '+name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Source changed; rebuild the index: dataset/pipelines/item10/scope_constraints.py
+
+======================================================================
+ERROR: setUpClass (backend.application.test_conversation.ConversationTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_conversation.py", line 19, in setUpClass
+    cls.verifier = load_runtime()
+                   ^^^^^^^^^^^^^^
+  File "C:\IA\backend\terminal_test.py", line 34, in load_runtime
+    verifier = EvidenceVerifier()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item12\verification.py", line 48, in __init__
+    self.retriever = LegalRetriever(ROOT / self.policy['retrieval'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item11\retrieval.py", line 38, in __init__
+    if sha(ROOT/name)!=h:raise ValueError('Source changed; rebuild the index: '+name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Source changed; rebuild the index: dataset/pipelines/item10/scope_constraints.py
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.886s
+
+FAILED (errors=2)

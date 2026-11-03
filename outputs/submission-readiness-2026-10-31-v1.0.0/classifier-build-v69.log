@@ -1,0 +1,14 @@
+{
+  "model_version": "item10-classifier-v1.5.69",
+  "software_tests": {
+    "tests_run": 69,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "counterfactual_development_regressions": 19,
+    "accuracy_acceptance_is_separate": true
+  },
+  "learned_state_unchanged": false,
+  "performance_evaluation_deferred": true
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "case_id": "RD31_014",
+    "family_id": "RD31_014",
+    "group": "L",
+    "topic": "religious_rest",
+    "language_style": "taglish",
+    "question_text": "Private retail employee ako sa Marikina. Humingi ako ng rest day na tugma sa religious observance ko pero staffing daw ang problema. Paano tinitingnan ang preference na iyon at ang exceptions?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [
+        "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4"
+      ],
+      "concerns": [],
+      "retrieval_judgment": "frozen_nonexhaustive_known_relevant"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_038",
+    "family_id": "RD31_038",
+    "group": "C",
+    "topic": "quantity_imperfection",
+    "language_style": "taglish",
+    "question_text": "Sealed pack ng tiles ang binili ko sa hardware. Mas kaunti ang laman kaysa quantity sa label at receipt. Ano ang remedies para sa quantity imperfection?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [
+        "RA_7394_1992__art_101"
+      ],
+      "concerns": [],
+      "retrieval_judgment": "frozen_nonexhaustive_known_relevant"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_050",
+    "family_id": "RD31_050",
+    "group": "C",
+    "topic": "supplier_liability",
+    "language_style": "english",
+    "question_text": "A store sold a packaged desk fan without a clear maker or importer identity, and it developed a safety problem. How do the recorded rules distinguish supplier liability from manufacturer or importer liability?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  }
+]

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\IA\outputs\defense-readiness-v1.0.0\package_source_checked.py", line 60, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\IA\outputs\defense-readiness-v1.0.0\package_source_checked.py", line 56, in main
+    run(['-m','backend.classifier.build_config','--classifier',CLASSIFIER,'--output',str(config)],'classifier-source-checked-config.log')
+  File "C:\IA\outputs\defense-readiness-v1.0.0\package_source_checked.py", line 22, in run
+    if result.returncode:raise RuntimeError('Inspect '+name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inspect classifier-source-checked-config.log

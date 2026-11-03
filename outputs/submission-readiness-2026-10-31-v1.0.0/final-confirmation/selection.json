@@ -1,0 +1,10 @@
+{
+  "targeted_recheck_ids": [
+    "RD31_014",
+    "RD31_038",
+    "RD31_050"
+  ],
+  "role": "Last three source-qualification confirmations after reading all final-targeted results; preserve all earlier runs",
+  "cumulative_attempts_before": 392,
+  "maximum_attempts": 400
+}

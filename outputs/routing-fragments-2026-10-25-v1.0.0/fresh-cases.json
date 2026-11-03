@@ -1,0 +1,194 @@
+[
+  {
+    "case_id": "FRESH_001",
+    "question_text": "Probationary employee ako sa private warehouse. Noong last week lang nila ipinakita yung standards. What should I understand about that?",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_002",
+    "question_text": "A private office put me on probation. They explained the standards only near the end. What does the rule say?",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_003",
+    "question_text": "Private factory staff ako. Minsan isang buwan lang ang sahod. Tama ba yung pagitan ng payday?",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_004",
+    "question_text": "I bought a portable fan from an appliance shop. It ran briefly and then stopped. The seller refuses to discuss a replacement. What consumer rule applies?",
+    "primary": "consumer",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_005",
+    "question_text": "The gadget shop called this laptop brand new, but it was refurbished. What does the consumer framework say about that description?",
+    "primary": "consumer",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_006",
+    "question_text": "Sabi ng retailer brand new yung tablet, pero used pala. What consumer rules should I read?",
+    "primary": "consumer",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_007",
+    "question_text": "May warranty card ako sa bagong oven. The retailer says I should complain to the distributor. What responsibility does the retailer have?",
+    "primary": "consumer",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_008",
+    "question_text": "An online shop delivered the wrong headphones. The delivered model has different features. If I choose replacement, what return rules apply?",
+    "primary": "consumer",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_009",
+    "question_text": "Our private office shut for a regular holiday. The employees were told no work means no pay. What is the general holiday rule?",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_010",
+    "question_text": "Sa private packaging company kami. Hindi binayaran ang overtime ko. What general rule applies?",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_011",
+    "question_text": "My private employer delayed wages. Separately, an appliance store refuses my warranty claim. Please explain the two concerns.",
+    "primary": "mixed",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_components",
+    "components": 2
+  },
+  {
+    "case_id": "FRESH_012",
+    "question_text": "My private employer deducted missing equipment from my salary. Separately, my bank charged a loan penalty. Which issue can this project explain?",
+    "primary": "mixed",
+    "scope": "partially_supported",
+    "route": "retrieve_supported_components",
+    "components": 2
+  },
+  {
+    "case_id": "FRESH_013",
+    "question_text": "Government employee ako disputing salary. Separately, a local store delivered a broken fan. Explain the purchase concern.",
+    "primary": "mixed",
+    "scope": "partially_supported",
+    "route": "retrieve_supported_components",
+    "components": 2
+  },
+  {
+    "case_id": "FRESH_014",
+    "question_text": "Seafarer ako. My question is about the employment terms for my overseas vessel assignment.",
+    "primary": "out_of_scope",
+    "scope": "unsupported",
+    "route": "refer_out_of_scope",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_015",
+    "question_text": "Probationary ako sa government office. Saka lang nila sinabi yung standards. What civil-service procedure applies?",
+    "primary": "out_of_scope",
+    "scope": "unsupported",
+    "route": "refer_out_of_scope",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_016",
+    "question_text": "The insurer denied my personal policy claim. Can you tell me the insurance complaint process?",
+    "primary": "out_of_scope",
+    "scope": "unsupported",
+    "route": "refer_out_of_scope",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_017",
+    "question_text": "My landlord kept the rental deposit. Which housing remedy applies?",
+    "primary": "out_of_scope",
+    "scope": "unsupported",
+    "route": "refer_out_of_scope",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_018",
+    "question_text": "Sa private packaging company ako.",
+    "primary": null,
+    "scope": null,
+    "route": "clarify",
+    "components": null
+  },
+  {
+    "case_id": "FRESH_019",
+    "question_text": "They did not meet the requirements. What can I do?",
+    "primary": null,
+    "scope": null,
+    "route": "clarify",
+    "components": null
+  },
+  {
+    "case_id": "FRESH_020",
+    "question_text": "Sa private hotel ako. Unpaid ang overtime, pero hindi ito government employment. What overtime rule applies?",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_021",
+    "question_text": "I work for a private company. My only concern is a retailer refusing the warranty on a broken kettle I bought.",
+    "primary": "consumer",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 1
+  },
+  {
+    "case_id": "FRESH_022",
+    "question_text": "A local shop sold me a faulty oven. A different shop kept my cash change. Please explain each purchase issue.",
+    "primary": "consumer",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 2
+  },
+  {
+    "case_id": "FRESH_023",
+    "question_text": "My private employer dismissed me. A different private employer has not paid wages from my other job. What rules cover each concern?",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "route": "retrieve_supported_evidence",
+    "components": 2
+  },
+  {
+    "case_id": "FRESH_024",
+    "question_text": "An online store sent a damaged lamp. My neighbor also published my personal information. Please explain the consumer part and where your scope ends.",
+    "primary": "mixed",
+    "scope": "partially_supported",
+    "route": "retrieve_supported_components",
+    "components": 2
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "targeted_recheck_ids": ["EX_NEW_014", "PH5_029"],
+  "selection_posthoc": true,
+  "reason": "Manual reading found a new price-ceiling exception and an omitted rest-premium coverage condition despite same-model support acceptance. These are condition-preservation rechecks, not independent legal approval."
+}

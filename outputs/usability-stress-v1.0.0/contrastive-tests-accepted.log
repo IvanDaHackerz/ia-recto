@@ -1,0 +1,21 @@
+test_actual_general_requests_remain_excluded (test_concern_repairs.ConcernRepairTests.test_actual_general_requests_remain_excluded) ... ok
+test_actual_joined_concerns_remain_partial (test_concern_repairs.ConcernRepairTests.test_actual_joined_concerns_remain_partial) ... ok
+test_background_trip_to_collect_salary_is_not_a_wage_claim (test_concern_repairs.ConcernRepairTests.test_background_trip_to_collect_salary_is_not_a_wage_claim) ... ok
+test_explicit_request_conjunction_preserves_both_scopes (test_concern_repairs.ConcernRepairTests.test_explicit_request_conjunction_preserves_both_scopes) ... ok
+test_historical_fact_does_not_inflate_current_concern (test_concern_repairs.ConcernRepairTests.test_historical_fact_does_not_inflate_current_concern) ... ok
+test_incidental_general_words_do_not_override_real_complaints (test_concern_repairs.ConcernRepairTests.test_incidental_general_words_do_not_override_real_complaints) ... ok
+test_native_job_introduction_is_background_not_a_purchase (test_concern_repairs.ConcernRepairTests.test_native_job_introduction_is_background_not_a_purchase) ... ok
+test_natural_sale_and_native_safety_wording (test_concern_repairs.ConcernRepairTests.test_natural_sale_and_native_safety_wording) ... ok
+test_negated_category_is_not_an_excluded_concern (test_concern_repairs.ConcernRepairTests.test_negated_category_is_not_an_excluded_concern) ... ok
+test_phone_product_and_separate_network_concern_stay_partial (test_concern_repairs.ConcernRepairTests.test_phone_product_and_separate_network_concern_stay_partial) ... ok
+test_purchase_role_and_employer_role_remain_distinct (test_concern_repairs.ConcernRepairTests.test_purchase_role_and_employer_role_remain_distinct) ... ok
+test_quoted_demonstration_is_not_personal_harm (test_concern_repairs.ConcernRepairTests.test_quoted_demonstration_is_not_personal_harm) ... ok
+test_rule_follow_up_does_not_absorb_new_topics_or_facts (test_concern_repairs.ConcernRepairTests.test_rule_follow_up_does_not_absorb_new_topics_or_facts) ... ok
+test_rule_follow_up_keeps_its_existing_scenario (test_concern_repairs.ConcernRepairTests.test_rule_follow_up_keeps_its_existing_scenario) ... ok
+test_special_job_categories_and_hyphenated_rate_are_not_admitted (test_concern_repairs.ConcernRepairTests.test_special_job_categories_and_hyphenated_rate_are_not_admitted) ... ok
+test_vague_pay_and_help_requests_require_detail (test_concern_repairs.ConcernRepairTests.test_vague_pay_and_help_requests_require_detail) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 5.199s
+
+OK

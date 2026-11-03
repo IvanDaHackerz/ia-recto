@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\IA\backend\classifier\build_config.py", line 38, in <module>
+    print(json.dumps(build(args.classifier,args.output),indent=2))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\classifier\build_config.py", line 29, in build
+    with Path(output).open('x',encoding='utf-8') as stream:json.dump(config,stream,ensure_ascii=False,indent=2);stream.write('\n')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileExistsError: [Errno 17] File exists: 'C:\\IA\\outputs\\defense-readiness-v1.0.0\\item10-classifier-v1.5.49-config.json'

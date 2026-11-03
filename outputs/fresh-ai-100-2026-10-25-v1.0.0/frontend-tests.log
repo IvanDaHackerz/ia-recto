@@ -1,0 +1,14 @@
+
+> app@0.0.0 test
+> vitest run --reporter=dot
+
+
+ RUN  v5.0.5 C:/IA/UI/UX/app
+
+·······························
+
+ Test Files  5 passed (5)
+      Tests  31 passed (31)
+   Start at  16:37:05
+   Duration  51.09s (environment 81%, setup 15%, import 2%, tests 1%, transform 1%)
+

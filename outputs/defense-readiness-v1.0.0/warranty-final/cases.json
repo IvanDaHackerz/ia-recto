@@ -1,0 +1,29 @@
+[
+  {
+    "case_id": "DEF_028",
+    "question_text": "A retail shop says only the manufacturer handles the written warranty. What role does the retailer have when a customer brings a warranty claim?",
+    "topic": "warranty",
+    "group": "consumer",
+    "split": "discovery",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "family_id": "DEF_028",
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  }
+]

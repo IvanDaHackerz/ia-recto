@@ -144,7 +144,10 @@ class VerifierTests(unittest.TestCase):
             pre = self.v.preflight(question)
             self.assertEqual(pre['decision'], decision)
             self.assertEqual(pre['components'], [])
-        self.assertEqual(self.v.preflight(FINAL_PAY)['components'][0]['candidates'], [])
+        final=self.v.preflight(FINAL_PAY)
+        self.assertTrue(final['components'][0]['candidates'])
+        self.assertFalse(final['display_allowed'])
+        self.assertTrue(all(h['document_id']=='DOLE_FINAL_PAY_COE_NEWS_2026' for h in final['components'][0]['candidates']))
 
     def test_supported_and_excluded_concerns_stay_separate(self):
         pre = self.v.preflight(PARTIAL, 'recorded_excerpt')

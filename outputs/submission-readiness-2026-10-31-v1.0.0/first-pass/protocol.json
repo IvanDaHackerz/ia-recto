@@ -1,0 +1,39 @@
+{
+  "classifier": "outputs/item10-classifier-v1.5.67",
+  "retrieval": "outputs/item11-retrieval-v1.3.55",
+  "verifier": "outputs/item12-verifier-v1.0.62",
+  "prepared_at_utc": "2026-10-31T11:12:22.846524+00:00",
+  "project_id": "recto-local-ia",
+  "application_version": "2.0.0",
+  "runtime_signature": "1d726f99747c1a42f983c48b442ec2fa3635aff4f02ab94f113d5261ce2594cf",
+  "cases_sha256": "58adb2d1cda20e48edc400c8bf6ea54106a9b137b8b847dcaaaceda1af8914af",
+  "evaluator_sha256": "40285eca52b8fd5a73be967dcc29514a4c489aaf7a1da8da6b4d4a0b4ed731c3",
+  "input_forms": 100,
+  "maximum_provider_attempts": 400,
+  "estimated_cost_stop_usd": 0.5,
+  "selection_posthoc": false,
+  "parent_cases_sha256": "41b1632f706cb420f435c75bc922e31c76881a90d1c9c970edcdfb6ba3381794",
+  "parallel_workers": 2,
+  "automatic_retries": 0,
+  "provider": "together",
+  "model": "openai/gpt-oss-120b",
+  "normalizer_model": "openai/gpt-oss-120b",
+  "configured_estimate_rates_per_million": {
+    "openai/gpt-oss-120b": [
+      0.15,
+      0.6
+    ],
+    "Qwen/Qwen3.5-9B": [
+      0.17,
+      0.25
+    ]
+  },
+  "role": "Newly authored synthetic Philippine scope test with AI on; not independent human/legal validation",
+  "question_reuse_disclosed": false,
+  "fresh_wordings": 100,
+  "independent_human_questions": 0,
+  "legal_accuracy_measured": false,
+  "rejected_drafts": "Saved only in local diagnostic file; never displayed as approved answers",
+  "budget": "Shared cumulative evaluation ledger; 400 attempts and $0.50 total estimate cap. Prior runs remain preserved; website limits unchanged; not verified billing.",
+  "export": "100 newly authored fictional questions, accepted wording variants, precise conditional scope suffix, pinned public corpus source text; no personal chat text"
+}

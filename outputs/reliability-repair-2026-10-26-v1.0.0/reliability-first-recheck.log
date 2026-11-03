@@ -1,0 +1,14 @@
+....F....
+======================================================================
+FAIL: test_negated_holiday_exception_does_not_require_both_negations (backend.application.test_reliability_repair.SourceConditionTests.test_negated_holiday_exception_does_not_require_both_negations) (text='Covered kung hindi retail/service at hindi mas mababa sa 10 workers.')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 49, in test_negated_holiday_exception_does_not_require_both_negations
+    with self.subTest(text=text):self.assertIsNotNone(source_qualification_failure(text,source))
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.075s
+
+FAILED (failures=1)

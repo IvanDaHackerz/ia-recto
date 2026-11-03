@@ -1,0 +1,1004 @@
+{
+  "provenance": "AI-authored development/regression checks, not independent human or legal validation",
+  "llm_calls": 0,
+  "sets": {
+    "regression": {
+      "count": 50,
+      "flow_matches": 2,
+      "labeled": 46,
+      "label_matches": 46,
+      "exact_quote_cases": 50,
+      "quoted_responses": 24,
+      "median_local_analysis_ms": 284.87850000055914,
+      "failures": [
+        {
+          "id": "labor.wages_payment",
+          "expected": {
+            "id": "labor.wages_payment",
+            "q": "My employer keeps moving payday and we are already owed three weeks of wages. Where can workers begin?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "labor.hours_of_work",
+          "expected": {
+            "id": "labor.hours_of_work",
+            "q": "The supervisor requires a twenty-minute equipment check before we clock in at the workshop. Is that part of working time?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.857202322387879,
+            "scope_confidence": 0.9280818314886108
+          }
+        },
+        {
+          "id": "labor.rest_days",
+          "expected": {
+            "id": "labor.rest_days",
+            "q": "Halos isang buwan na kaming walang day off sa factory. May weekly pahinga ba dapat ang workers?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.8328516836826738,
+            "scope_confidence": 0.9154831755869409
+          }
+        },
+        {
+          "id": "labor.overtime_pay",
+          "expected": {
+            "id": "labor.overtime_pay",
+            "q": "Pinapapasok kami ng dalawang oras lampas sa regular shift pero pareho lang bayad. Ano ang general overtime rules?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "labor.holiday_premium_pay",
+          "expected": {
+            "id": "labor.holiday_premium_pay",
+            "q": "Our private shop stayed open on a regular holiday. What general pay rules cover the staff who worked?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "labor.thirteenth_month_pay",
+          "expected": {
+            "id": "labor.thirteenth_month_pay",
+            "q": "Five months lang ako sa company bago nagresign. May explanation ba kayo tungkol sa prorated 13th month?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "labor.employment_contracts",
+          "expected": {
+            "id": "labor.employment_contracts",
+            "q": "The firm keeps hiring us on short project contracts although we do the same daily office duties. How is employment status generally explained?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "labor.termination_due_process",
+          "expected": {
+            "id": "labor.termination_due_process",
+            "q": "My manager removed me from the staff roster without any written charge or chance to reply. What dismissal process should I understand?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "labor.final_pay_coe",
+          "expected": {
+            "id": "labor.final_pay_coe",
+            "q": "Three weeks after I resigned, HR still will not release my final pay or COE. What sources cover this?",
+            "flow": "supported_gap",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "labor.complaint_referral",
+          "expected": {
+            "id": "labor.complaint_referral",
+            "q": "I want to ask DOLE for conciliation about unpaid wages before a formal labor complaint. How does that process start?",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "consumer.general_framework",
+          "expected": {
+            "id": "consumer.general_framework",
+            "q": "What is the purpose of the Philippine Consumer Act for everyday shoppers?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "consumer.defective_products",
+          "expected": {
+            "id": "consumer.defective_products",
+            "q": "Kakabili lang ng speaker sa tindahan pero basag pala yung charging port. Ano consumer concern ito?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "consumer.warranties",
+          "expected": {
+            "id": "consumer.warranties",
+            "q": "My refrigerator is still covered by the written warranty, but the seller says I must pay for every repair. What warranty rules can I read?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "consumer.repair_replace_refund",
+          "expected": {
+            "id": "consumer.repair_replace_refund",
+            "q": "The shop has taken my faulty washing machine for repair three times without fixing it. Can you explain replacement and refund options?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "consumer.deceptive_unfair_sales",
+          "expected": {
+            "id": "consumer.deceptive_unfair_sales",
+            "q": "A store passed off a secondhand camera as brand new and hid that it had been repaired. What kind of sales practice is this?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.8604004910504134,
+            "scope_confidence": 0.9297365160733796
+          }
+        },
+        {
+          "id": "consumer.misleading_advertising",
+          "expected": {
+            "id": "consumer.misleading_advertising",
+            "q": "The vacuum advertised as cordless only works while plugged in. What consumer protections concern misleading advertisements?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "consumer.price_tags",
+          "expected": {
+            "id": "consumer.price_tags",
+            "q": "Yung price tag sa shelf ay mas mababa kaysa siningil sa checkout. Anong rules tungkol dito?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.8520113735209512,
+            "scope_confidence": 0.925396112260901
+          }
+        },
+        {
+          "id": "consumer.product_safety",
+          "expected": {
+            "id": "consumer.product_safety",
+            "q": "The new household fan has exposed wiring that sparks when switched on. Which general product safety rules apply?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.8615766846174491,
+            "scope_confidence": 0.930345061015639
+          }
+        },
+        {
+          "id": "consumer.service_complaints",
+          "expected": {
+            "id": "consumer.service_complaints",
+            "q": "A paid laundry service shrank our clothes and refuses to acknowledge the damage. What consumer service rules cover it?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "consumer.online_transactions",
+          "expected": {
+            "id": "consumer.online_transactions",
+            "q": "An online business sent a cheap substitute instead of the model I ordered, and it is still answering messages but refusing a return.",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.8729872849969736,
+            "scope_confidence": 0.9362487348187565
+          }
+        },
+        {
+          "id": "consumer.complaint_referral",
+          "expected": {
+            "id": "consumer.complaint_referral",
+            "q": "What documents are normally needed to begin a DTI consumer complaint against a retailer?",
+            "flow": "supported",
+            "primary": "consumer",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "consumer",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "labor.regional_minimum_wage_amounts",
+          "expected": {
+            "id": "labor.regional_minimum_wage_amounts",
+            "q": "Please give the exact peso minimum wage rate in Davao this week.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.ofw",
+          "expected": {
+            "id": "labor.ofw",
+            "q": "My employer in Kuwait is holding my wages and my recruitment agency will not help. Which scope does that fall under?",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.seafarers",
+          "expected": {
+            "id": "labor.seafarers",
+            "q": "I am part of a ship crew and dispute the benefits promised in my seafarer contract.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.government_employment",
+          "expected": {
+            "id": "labor.government_employment",
+            "q": "Permanent employee ako ng city government at may unpaid overtime kami. Covered ba ito?",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.kasambahay",
+          "expected": {
+            "id": "labor.kasambahay",
+            "q": "Live-in helper ako sa bahay ng pamilya at hindi na ako binibigyan ng rest day.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.union_cba",
+          "expected": {
+            "id": "labor.union_cba",
+            "q": "Our union disputes who can vote in the collective bargaining representation election.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.workers_compensation",
+          "expected": {
+            "id": "labor.workers_compensation",
+            "q": "Can you compute my disability benefits after an accident at work?",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.occupational_safety",
+          "expected": {
+            "id": "labor.occupational_safety",
+            "q": "What technical OSH compliance requirements apply to chemical exposure in a factory?",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.retirement_pension",
+          "expected": {
+            "id": "labor.retirement_pension",
+            "q": "Estimate the SSS retirement pension I should receive based on my contributions.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.pending_case",
+          "expected": {
+            "id": "labor.pending_case",
+            "q": "My labor case is already pending at the NLRC and I need a strategy for the next hearing.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "labor.case_outcome_prediction",
+          "expected": {
+            "id": "labor.case_outcome_prediction",
+            "q": "Can you predict if I will win the dismissal complaint against my employer?",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.banking_credit",
+          "expected": {
+            "id": "consumer.banking_credit",
+            "q": "The lender added charges to my loan even after I settled the balance. Is that covered here?",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.insurance",
+          "expected": {
+            "id": "consumer.insurance",
+            "q": "My insurance company says the accident is excluded from my policy and refuses my claim.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.investments",
+          "expected": {
+            "id": "consumer.investments",
+            "q": "A securities broker is withholding the funds in my investment account.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.telecommunications",
+          "expected": {
+            "id": "consumer.telecommunications",
+            "q": "My broadband provider charges for a service package that was never activated.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.data_privacy",
+          "expected": {
+            "id": "consumer.data_privacy",
+            "q": "A retailer uploaded my ID picture and full home address to a public social media post.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.medical_malpractice",
+          "expected": {
+            "id": "consumer.medical_malpractice",
+            "q": "The surgeon operated on the wrong site and I want medical malpractice advice.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.real_estate",
+          "expected": {
+            "id": "consumer.real_estate",
+            "q": "The condo developer has not turned over the unit I paid for even after the agreed date.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.transportation",
+          "expected": {
+            "id": "consumer.transportation",
+            "q": "Our airline cancelled the flight and will not explain compensation for the passengers.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.utility_billing",
+          "expected": {
+            "id": "consumer.utility_billing",
+            "q": "The water company billed our house for a meter reading that cannot be correct.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "consumer.criminal_online_fraud",
+          "expected": {
+            "id": "consumer.criminal_online_fraud",
+            "q": "A fake shopping page took my payment then disappeared. I want the police to investigate the online scam.",
+            "flow": "excluded",
+            "primary": "out_of_scope",
+            "scope": "unsupported"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "mixed.supported",
+          "expected": {
+            "id": "mixed.supported",
+            "q": "My private employer owes overtime. Separately, the shop will not honor the warranty for my broken monitor.",
+            "flow": "mixed",
+            "primary": "mixed",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_components",
+            "reason": "separate_supported_components_require_evidence",
+            "clarification_question": null,
+            "predicted_primary": "mixed",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.8876788390247004,
+            "scope_confidence": 0.992638089310561
+          }
+        },
+        {
+          "id": "mixed.partial",
+          "expected": {
+            "id": "mixed.partial",
+            "q": "Hindi binayaran overtime ko sa private company. At yung landlord ko ayaw ibalik rental deposit ko.",
+            "flow": "partial",
+            "primary": "mixed",
+            "scope": "partially_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_components",
+            "reason": "separate_supported_components_require_evidence",
+            "clarification_question": null,
+            "predicted_primary": "mixed",
+            "predicted_scope": "partially_supported",
+            "primary_confidence": 0.8876788390247005,
+            "scope_confidence": 0.8841114177161056
+          }
+        },
+        {
+          "id": "mixed.privacy",
+          "expected": {
+            "id": "mixed.privacy",
+            "q": "The seller refuses to repair the faulty tablet and also published my personal address online without permission.",
+            "flow": "partial",
+            "primary": "mixed",
+            "scope": "partially_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_components",
+            "reason": "separate_supported_components_require_evidence",
+            "clarification_question": null,
+            "predicted_primary": "mixed",
+            "predicted_scope": "partially_supported",
+            "primary_confidence": 0.8876788390247006,
+            "scope_confidence": 0.8841114177161057
+          }
+        },
+        {
+          "id": "incidental.employer",
+          "expected": {
+            "id": "incidental.employer",
+            "q": "I am employed by a private insurance firm and HR still has not paid my wages. This is about my job, not a policy claim.",
+            "flow": "supported",
+            "primary": "labor",
+            "scope": "fully_supported"
+          },
+          "flow": "local_sources",
+          "routing": {
+            "routing_action": "retrieve_supported_evidence",
+            "reason": "supported_candidate_requires_evidence",
+            "clarification_question": null,
+            "predicted_primary": "labor",
+            "predicted_scope": "fully_supported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.940158464167631
+          }
+        },
+        {
+          "id": "outside.cooking",
+          "expected": {
+            "id": "outside.cooking",
+            "q": "Can you give me an easy recipe for chicken tinola?",
+            "flow": "excluded"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        },
+        {
+          "id": "outside.family",
+          "expected": {
+            "id": "outside.family",
+            "q": "Who can apply for custody of a child after the parents separate?",
+            "flow": "excluded"
+          },
+          "flow": "referral",
+          "routing": {
+            "routing_action": "refer_out_of_scope",
+            "reason": "recognized_excluded_concern",
+            "clarification_question": null,
+            "predicted_primary": "out_of_scope",
+            "predicted_scope": "unsupported",
+            "primary_confidence": 0.880543996407511,
+            "scope_confidence": 0.880543996407511
+          }
+        }
+      ]
+    },
+    "fresh_synthetic": {
+      "count": 24,
+      "flow_matches": 23,
+      "labeled": 23,
+      "label_matches": 22,
+      "exact_quote_cases": 24,
+      "quoted_responses": 18,
+      "median_local_analysis_ms": 311.7118500013021,
+      "failures": [
+        {
+          "id": "fresh16",
+          "expected": {
+            "id": "fresh16",
+            "q": "My new extension cord has exposed live wiring. What product safety rules concern unsafe goods?",
+            "primary": "consumer",
+            "scope": "fully_supported",
+            "flow": "local_sources"
+          },
+          "flow": "clarify",
+          "routing": {
+            "routing_action": "clarify",
+            "reason": "low_confidence",
+            "clarification_question": "Please confirm each separate concern and which employer, seller, or service is responsible for each one.",
+            "predicted_primary": "mixed",
+            "predicted_scope": "partially_supported",
+            "primary_confidence": 0.6700448634375741,
+            "scope_confidence": 0.6517470154104212
+          }
+        }
+      ]
+    }
+  }
+}

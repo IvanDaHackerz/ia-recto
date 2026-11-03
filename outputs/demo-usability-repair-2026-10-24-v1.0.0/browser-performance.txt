@@ -1,0 +1,436 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5174/performance?view=details".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5174/performance?view=details
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5174/performance?view=details#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5174/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Recorded development metrics · independent validation pending.
+		23 container performance-top
+			24 container
+				25 heading Classifier performance, Value: 1
+					26 text Classifier performance
+				27 text The scores, mistakes and checks behind the overview.
+			28 container
+				29 text Measured development results.  AI-authored cases used while improving the system. These are not independent human tests or legal-answer accuracy scores.
+			30 container Performance views
+				31 link Description: Overview, Value: 127.0.0.1:5174/performance
+				32 link Description: Detailed results, Value: 127.0.0.1:5174/performance?view=details
+			33 container
+				34 text Evaluation
+				35 pop up button (collapsed, settable) Evaluation, Value: Current local evaluation, Secondary Actions: Expand
+					36 menu
+						37 (selected) Current local evaluation
+						38 Previous LLM comparison
+			39 container
+				40 text Inputs
+				41 pop up button (collapsed, settable) Inputs, Value: Clear + noisy wording, Secondary Actions: Expand
+					42 menu
+						43 (selected) Clear + noisy wording
+						44 Clear wording
+						45 Noisy wording
+			46 container
+				47 text Language
+				48 pop up button (collapsed, settable) Language, Value: English + Taglish, Secondary Actions: Expand
+					49 menu
+						50 (selected) English + Taglish
+						51 English
+						52 Taglish
+			53 container
+				54 text 436  input forms ·  171  wording families ·  425  labeled ·  11  routing-only. No fresh model calls are made by this page.  Tested path: classifier + retrieval + verifier, with both LLM layers disabled.
+			139 heading Detailed results, Value: 2
+				140 text Detailed results
+			141 text The same saved predictions power every score and case below.
+			142 button Download report
+			143 container Detailed report sections
+				144 text Jump to
+				145 link Description: Scores, Value: 127.0.0.1:5174/performance?view=details#performance-scores
+				146 link Description: Classes, Value: 127.0.0.1:5174/performance?view=details#performance-classes
+				147 link Description: Routing, Value: 127.0.0.1:5174/performance?view=details#performance-routing
+				148 link Description: Confidence, Value: 127.0.0.1:5174/performance?view=details#performance-confidence
+				149 link Description: Evidence, Value: 127.0.0.1:5174/performance?view=details#performance-evidence
+				150 link Description: Questions, Value: 127.0.0.1:5174/performance?view=details#performance-questions
+				151 link Description: About the data, Value: 127.0.0.1:5174/performance?view=details#performance-data
+			152 container performance-scores
+				153 heading Two decisions, measured separately, Value: 2
+					154 text Two decisions, measured separately
+				155 container Overall classifier scores
+					156 table Selected development results
+						157 text Selected development results
+						158 row
+							159 cell
+								160 text Decision
+							161 cell
+								162 text Accuracy
+							163 cell
+								164 text Macro precision
+							165 cell
+								166 text Macro recall
+							167 cell
+								168 text Macro F1
+							169 cell
+								170 text Correct / total
+						171 row
+							172 cell
+								173 text Topic
+							174 cell
+								175 text 100.0%
+							176 cell
+								177 text 1.000
+							178 cell
+								179 text 1.000
+							180 cell
+								181 text 1.000
+							182 cell
+								183 text 425 / 425
+						184 row
+							185 cell
+								186 text Coverage
+							187 cell
+								188 text 100.0%
+							189 cell
+								190 text 1.000
+							191 cell
+								192 text 1.000
+							193 cell
+								194 text 1.000
+							195 cell
+								196 text 425 / 425
+				197 text Macro scores weight each represented class equally. Clarification-only forms have no invented topic or coverage labels.
+			198 container performance-classes
+				199 container Classification output
+					200 checkbox Topic, Value: 1
+					201 checkbox Coverage, Value: 0
+				202 container Matrix values
+					203 checkbox Counts, Value: 1
+					204 checkbox Row %, Value: 0
+				205 heading Where predictions land, Value: 2
+					206 text Where predictions land
+				207 text Rows are expected labels; columns are predictions. “Withheld” includes failed wording validation. Select a cell to inspect its questions.
+				208 container Confusion matrix
+					209 table Expected versus predicted domain labels
+						210 container
+							211 text Expected versus predicted  domain  labels
+						212 row
+							213 cell
+								214 text Labor
+							215 cell
+								216 text Consumer
+							217 cell
+								218 text Mixed
+							219 cell
+								220 text Out of scope
+							221 cell
+								222 text Withheld
+						223 row
+							224 cell
+								225 text Labor
+							226 cell
+								227 checkbox Description: Expected Labor, predicted Labor: 91 cases, Value: 0
+									228 text 91
+							229 cell
+								230 checkbox Description: Expected Labor, predicted Consumer: 0 cases, Value: 0
+									231 text 0
+							232 cell
+								233 checkbox Description: Expected Labor, predicted Mixed: 0 cases, Value: 0
+									234 text 0
+							235 cell
+								236 checkbox Description: Expected Labor, predicted Out of scope: 0 cases, Value: 0
+									237 text 0
+							238 cell
+								239 checkbox Description: Expected Labor, predicted Withheld: 0 cases, Value: 0
+									240 text 0
+						241 row
+							242 cell
+								243 text Consumer
+							244 cell
+								245 checkbox Description: Expected Consumer, predicted Labor: 0 cases, Value: 0
+									246 text 0
+							247 cell
+								248 checkbox Description: Expected Consumer, predicted Consumer: 86 cases, Value: 0
+									249 text 86
+							250 cell
+								251 checkbox Description: Expected Consumer, predicted Mixed: 0 cases, Value: 0
+									252 text 0
+							253 cell
+								254 checkbox Description: Expected Consumer, predicted Out of scope: 0 cases, Value: 0
+									255 text 0
+							256 cell
+								257 checkbox Description: Expected Consumer, predicted Withheld: 0 cases, Value: 0
+									258 text 0
+						259 row
+							260 cell
+								261 text Mixed
+							262 cell
+								263 checkbox Description: Expected Mixed, predicted Labor: 0 cases, Value: 0
+									264 text 0
+							265 cell
+								266 checkbox Description: Expected Mixed, predicted Consumer: 0 cases, Value: 0
+									267 text 0
+							268 cell
+								269 checkbox Description: Expected Mixed, predicted Mixed: 168 cases, Value: 0
+									270 text 168
+							271 cell
+								272 checkbox Description: Expected Mixed, predicted Out of scope: 0 cases, Value: 0
+									273 text 0
+							274 cell
+								275 checkbox Description: Expected Mixed, predicted Withheld: 0 cases, Value: 0
+									276 text 0
+						277 row
+							278 cell
+								279 text Out of scope
+							280 cell
+								281 checkbox Description: Expected Out of scope, predicted Labor: 0 cases, Value: 0
+									282 text 0
+							283 cell
+								284 checkbox Description: Expected Out of scope, predicted Consumer: 0 cases, Value: 0
+									285 text 0
+							286 cell
+								287 checkbox Description: Expected Out of scope, predicted Mixed: 0 cases, Value: 0
+									288 text 0
+							289 cell
+								290 checkbox Description: Expected Out of scope, predicted Out of scope: 80 cases, Value: 0
+									291 text 80
+							292 cell
+								293 checkbox Description: Expected Out of scope, predicted Withheld: 0 cases, Value: 0
+									294 text 0
+				295 heading Performance by class, Value: 3
+					296 text Performance by class
+				297 container Per class metrics
+					298 table Per-class precision recall and F1
+						299 text Per-class precision recall and F1
+						300 row
+							301 cell
+								302 text Class
+							303 cell
+								304 text Precision
+							305 cell
+								306 text Recall
+							307 cell
+								308 text F1
+							309 cell
+								310 text Cases
+						311 row
+							312 cell
+								313 text Labor
+							314 cell
+								315 text 1.000
+							316 cell
+								317 text 1.000
+							318 cell
+								319 text 1.000
+							320 cell
+								321 text 91
+						322 row
+							323 cell
+								324 text Consumer
+							325 cell
+								326 text 1.000
+							327 cell
+								328 text 1.000
+							329 cell
+								330 text 1.000
+							331 cell
+								332 text 86
+						333 row
+							334 cell
+								335 text Mixed
+							336 cell
+								337 text 1.000
+							338 cell
+								339 text 1.000
+							340 cell
+								341 text 1.000
+							342 cell
+								343 text 168
+						344 row
+							345 cell
+								346 text Out of scope
+							347 cell
+								348 text 1.000
+							349 cell
+								350 text 1.000
+							351 cell
+								352 text 1.000
+							353 cell
+								354 text 80
+			355 container performance-routing
+				356 heading Routing and retrieval, Value: 2
+					357 text Routing and retrieval
+				358 definition list
+					359 container Correct next step Exact route matches across all selected forms.
+						360 text Correct next step
+						361 text Exact route matches across all selected forms.
+					362 container
+						363 text 99.1% 432 / 436
+					364 container Known-relevant Hit@5 Judged concern groups with a known relevant provision among the first five.
+						365 text Known-relevant Hit@5
+						366 text Judged concern groups with a known relevant provision among the first five.
+					367 container
+						368 text 100.0% 93 / 93
+					369 container Clarification success Routing-only forms that ask for clarification.
+						370 text Clarification success
+						371 text Routing-only forms that ask for clarification.
+					372 container
+						373 text 63.6% 7 / 11
+					374 container Unsupported admission Unsupported forms sent to retrieval. Lower is better.
+						375 text Unsupported admission
+						376 text Unsupported forms sent to retrieval. Lower is better.
+					377 container
+						378 text 0.0% 0 / 80
+				379 text Recorded pipeline time Median
+				380 container
+					381 text 247  ms
+				382 text P95
+				383 container
+					384 text 469  ms
+				385 container
+					386 text 0  wording LLM calls.  Both LLM stages were disabled. Timing excludes the separate diagnostic excerpt postflight.
+			387 container performance-confidence
+				388 heading Does confidence match accuracy?, Value: 2
+					389 text Does confidence match accuracy?
+				390 container
+					391 text Topic  ECE:  0.125 . Lower is better. Calculated on  425  available predictions; withheld labels have no fabricated confidence.
+				392 container Calibration bins
+					393 table Observed confidence calibration
+						394 text Observed confidence calibration
+						395 row
+							396 cell
+								397 text Bin
+							398 cell
+								399 text Cases
+							400 cell
+								401 text Confidence
+							402 cell
+								403 text Accuracy
+						404 row
+							405 cell
+								406 text 80% – 90%
+							407 cell
+								408 text 425
+							409 cell
+								410 text 87.5%
+							411 cell
+								412 text 100.0%
+				413 text Confidence is label certainty, not a probability that a legal answer is correct. Reused development cases do not establish calibration on future users.
+			70 container Check individual questions, ID: performance-questions
+				71 heading Check individual questions, Value: 2, ID: questions-title
+					72 text Check individual questions
+				73 text 4  recorded forms
+				74 text See the expected labels, what the model predicted and its confidence. A question is correct or incorrect against its recorded label; F1 describes a set of questions.
+				75 container
+					76 text Find a question
+					77 search text field (settable) Find a question
+				78 checkbox (settable, integer) Description: Only cases with recorded issues, Value: 1
+				79 button (collapsed) Secondary Actions: Expand, Late ang salary ko. Ayaw din ng shop magbigay ng product refund. SYS_05_2__clear · clear · Taglish Routing only +
+					80 text Late ang salary ko. Ayaw din ng shop magbigay ng product refund.
+					81 container
+						82 text SYS_05_2__clear  ·  clear  ·  Taglish
+					83 text Routing only
+					414 text  +
+				85 button (collapsed) Secondary Actions: Expand, Late ang salary ko. Ayw din ng shop mgbgay ng product rfnd. SYS_05_2__noisy · noisy · Taglish Routing only +
+					86 text Late ang salary ko. Ayw din ng shop mgbgay ng product rfnd.
+					87 container
+						88 text SYS_05_2__noisy  ·  noisy  ·  Taglish
+					89 text Routing only
+					415 text  +
+				91 button (collapsed) My employer has not paid me. Can you help? TYPE_081__clear · clear · English Routing only +, Secondary Actions: Expand
+					92 text My employer has not paid me. Can you help?
+					93 container
+						94 text TYPE_081__clear  ·  clear  ·  English
+					95 text Routing only
+					416 text  +
+				97 button (collapsed) My empluyer has not paid me. Can you help? TYPE_081__noisy · noisy · English Routing only +, Secondary Actions: Expand
+					98 text My empluyer has not paid me. Can you help?
+					99 container
+						100 text TYPE_081__noisy  ·  noisy  ·  English
+					101 text Routing only
+					417 text  +
+				103 button (disabled) Previous
+				104 text Page 1 of 1
+				105 button (disabled) Next
+			418 container performance-evidence
+				419 heading Evidence checks for the complete local run, Value: 2
+					420 text Evidence checks for the complete local run
+				421 text These checks cover the full run, independent of the question filters. Exact source quotations establish provenance, not legal relevance or current applicability.
+				422 definition list
+					423 container Candidate integrity Stored metadata, source text and domain checks.
+						424 text Candidate integrity
+						425 text Stored metadata, source text and domain checks.
+					426 container
+						427 text 1465 / 1465 checks passed
+					428 container Exact recorded excerpts Diagnostic quotations passed the citation postflight.
+						429 text Exact recorded excerpts
+						430 text Diagnostic quotations passed the citation postflight.
+					431 container
+						432 text 413 / 413 claims checked
+					433 container Unapproved explanations withheld No legal explanation was generated or approved.
+						434 text Unapproved explanations withheld
+						435 text No legal explanation was generated or approved.
+					436 container
+						437 text 436 / 436 inputs
+					438 container Wrong-domain candidate leaks Lower is better. Relevance is measured separately through Hit@5.
+						439 text Wrong-domain candidate leaks
+						440 text Lower is better. Relevance is measured separately through Hit@5.
+					441 container
+						442 text 0 candidate leaks
+				443 container
+					444 text Descriptive 95% family-resampling range for topic accuracy:  100.0% – 100.0% . This reflects variation within the inspected development families, not independent population accuracy.
+			445 container
+				446 heading Live AI pipeline check, Value: 2
+					447 text Live AI pipeline check
+				448 text A separate replay used the same  436  synthetic inputs with conditional wording and explanation checks enabled. These figures cover the full replay and do not follow the filters above.
+				449 definition list
+					450 container Responses returned
+						451 text Responses returned
+					452 container
+						453 text 436 / 436
+					454 container Explanations shown Passed exact citations and same-model automated support. This is not an answer-accuracy score.
+						455 text Explanations shown
+						456 text Passed exact citations and same-model automated support. This is not an answer-accuracy score.
+					457 container
+						458 text 82 354  withheld
+					459 container Provider use Includes failures. Cost is an estimate, not confirmed billing.
+						460 text Provider use
+						461 text Includes failures. Cost is an estimate, not confirmed billing.
+					462 container
+						463 text 459 $ 0.4522  estimated
+					464 container Whole-request latency
+						465 text Whole-request latency
+					466 container
+						467 text 2594  ms P95  9039  ms
+				468 button (collapsed) Why explanations were withheld, Secondary Actions: Expand
+					469 text Why explanations were withheld
+				470 text Run:  application-evaluation-v1.2.0 . Inference code  differs from  the evaluated files. Independent legal-answer accuracy is unmeasured. Provider failures and conservative withholding limit availability; a passed automated check does not establish current legal correctness.
+			111 container performance-data
+				112 heading What these results represent, Value: 2
+					113 text What these results represent
+				114 text AI-authored development inputs and joined-concern regressions used during repair. Local classifier, retrieval and verifier only; no wording or explanation LLM. Not an independent holdout or legal-answer evaluation.
+				115 container
+					116 text The full selected run contains  436  forms from  171  families:  425  labeled forms and  11  routing-only forms. Repeated variants are not independent people. Independent human questions:  0 .
+				117 container
+					118 text Measured on  2026-10-24 .  The 424 reused inputs and 12 joined-concern regressions were evaluated locally. Expected labels are scored even when routing conservatively asks for clarification. No conditional-wording or explanation LLM was tested in this local run.  Independent generated-answer quality and current legal applicability were not evaluated.
+				119 heading Recorded stack, Value: 2
+					120 text Recorded stack
+				121 definition list
+					122 container Classifier
+						123 text Classifier
+					124 text item10-classifier-v1.5.58
+					125 container Retrieval
+						126 text Retrieval
+					127 text item11-retrieval-v1.3.49
+					128 container Verifier
+						129 text Verifier
+					130 text item12-verifier-v1.0.56
+					131 container Normalizer Version
+						132 text Normalizer Version
+					133 text disabled_for_local_evaluation
+					134 container Model
+						135 text Model
+					136 text none (no LLM)
+				137 container
+					138 text Run:  local-pipeline-evaluation-v1.6.27 . Current classifier, retrieval and verifier bindings  match  this record. New questions are not added to the report or used for training.
+		21 text General information on selected Philippine labor and consumer concerns. This prototype does not provide professional legal advice.
+		22 link Description: Read the scope & limitations, Value: 127.0.0.1:5174/about
+
+The focused UI element is 25 heading Classifier performance, Value: 1

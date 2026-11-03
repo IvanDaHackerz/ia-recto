@@ -1,0 +1,52 @@
+{
+  "strata": {
+    "fresh_24": {
+      "n": 24,
+      "AI_status": {
+        "generated": 13,
+        "withheld": 9,
+        "partially_generated": 2
+      },
+      "primary_correct": 24,
+      "scope_correct": 24,
+      "route_correct": 23,
+      "domain_correct": 19
+    },
+    "inspected_replay_22": {
+      "n": 22,
+      "AI_status": {
+        "generated": 14,
+        "withheld": 7,
+        "partially_generated": 1
+      },
+      "primary_correct": 22,
+      "scope_correct": 22,
+      "route_correct": 22,
+      "domain_correct": 22
+    }
+  },
+  "checks": {
+    "candidates": 163,
+    "candidate_failures": 0,
+    "citations": 93,
+    "citation_failures": 0,
+    "fallback_excerpts": 8,
+    "fallback_failures": 0
+  },
+  "errors": {},
+  "latency": {
+    "p50": 8500.0,
+    "p95": 24312.000000000124,
+    "maximum": 36734.00000000038
+  },
+  "usage": {
+    "day_utc": "2026-10-24",
+    "provider_requests": 84,
+    "estimated_usd": 0.07630515,
+    "input_tokens": 274125,
+    "output_tokens": 58644,
+    "maximum_calls": 200,
+    "maximum_estimated_usd": 0.35,
+    "billing_verified": false
+  }
+}

@@ -1,0 +1,101 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5173/#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Live classification, retrieval & AI explanations · source applicability remains under review.
+		8 container main
+			44 text Analysis ready. Open references to inspect any retrieved provisions.
+			9 container
+				10 heading Ask about your rights, Value: 1
+					11 text Ask about your rights
+				12 checkbox Sources (5), Value: 0
+				45 button New question
+			13 container Conversation
+				46 container Response 1
+					47 text Question 
+					48 text 1
+					49 heading Value: 2, Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?
+						50 text Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?
+					51 container Response
+						52 heading Recorded source passages, Value: 3
+							53 text Recorded source passages
+						54 text These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.
+						55 text AI is off for this question. This response uses local analysis and recorded sources.
+						56 container
+							57 button Omnibus Rules Implementing the Labor Code, SECTION 5 — BOOK SIX, TITLE I, CHAPTER IV, RULE XVI
+							58 text SECTION 5. Regular and casual employment. — (a) The provisions of written agreements to the contrary notwithstanding and regardless of the oral agreements of the parties, an employment shall be considered to be regular employment for purposes of Book VI of the Labor Code where the employee has been engaged to perform activities which are usually necessary or desirable in the usual business or trade of the employer except where the employment has been fixed for a specific project or undertaking the completion or termination of which has been determined at the time of the engagement of the employee or where the work or service to be performed is seasonal in nature and the employment is for the duration of the season.
+
+(b) Employment shall be deemed as casual in nature if it is not covered by the preceding paragraph; Provided, That any employee who has rendered at least one year of service, whether such service is continuous or not, shall be considered a regular employee with respect to the activity in which he is employed and his employment shall continue while such activity exists.
+
+(c) An employee who is allowed to work after a probationary period shall be considered a regular employee. Complete stored provision.  Current applicability remains under review.
+						59 container
+							60 text Local response  with recorded source text . No live AI explanation was used.
+					61 text A recorded passage has a wording discrepancy and was excluded from AI explanations. Open its reference for details.
+					62 button (collapsed) Where to ask for assistance, Secondary Actions: Expand
+						63 text Where to ask for assistance
+					82 container
+						83 button (expanded) How this question was checked, Secondary Actions: Collapse
+							84 text How this question was checked
+						85 definition list
+							86 container Topic
+								87 text Topic
+							88 container
+								89 text Labor  ·  86.9 % label confidence
+							90 container Topic coverage
+								91 text Topic coverage
+							92 container
+								93 text Within project topics  ·  93.4 % label confidence
+							94 container Wording check
+								95 text Wording check
+							96 container
+								97 text Local only  ·  0  LLM calls
+							98 container Explanation
+								99 text Explanation
+							100 container
+								101 text local only  ·  0  LLM calls
+							102 container Response shown
+								103 text Response shown
+							104 text Local response with source excerpts
+							105 container Support check
+								106 text Support check
+							107 text Not run — no validated draft was ready
+							108 container Analysis time
+								109 text Analysis time
+							110 container
+								111 text 415  ms
+						112 text Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. 
+						113 link Description: View recorded evaluation metrics, Value: 127.0.0.1:5173/performance
+						114 text .
+					66 text Retrieved candidates
+					67 button 1 Omnibus Rules Implementing the Labor Code, SECTION 5 — BOOK SIX, TITLE I, CHAPTER IV, RULE XVI
+						68 text 1
+						69 text Omnibus Rules Implementing the Labor Code, SECTION 5 — BOOK SIX, TITLE I, CHAPTER IV, RULE XVI
+					70 button 2 Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK SIX, TITLE I, CHAPTER IV, RULE XVI
+						71 text 2
+						72 text Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK SIX, TITLE I, CHAPTER IV, RULE XVI
+					73 button 3 PD 442, as amended and renumbered, ART. 296
+						74 text 3
+						75 text PD 442, as amended and renumbered, ART. 296
+					76 button 4 PD 442, as amended and renumbered, ART. 295
+						77 text 4
+						78 text PD 442, as amended and renumbered, ART. 295
+					79 button 5 Omnibus Rules Implementing the Labor Code, ARTICLE 280
+						80 text 5
+						81 text Omnibus Rules Implementing the Labor Code, ARTICLE 280
+			32 container
+				33 text Try another question
+				34 text entry area (settable) Try another question, ID: query
+				35 button (disabled) Ask
+				36 button (collapsed) AI & saving · Local only · Saving off, Secondary Actions: Expand
+					37 text AI & saving · 
+					38 text Local only
+					39 text  · 
+					40 text Saving off
+				41 container query-help
+					42 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. 
+					43 link Description: Scope & privacy, Value: 127.0.0.1:5173/about
+
+The focused UI element is 83 button (expanded) How this question was checked, Secondary Actions: Collapse

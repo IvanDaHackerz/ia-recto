@@ -1,0 +1,6 @@
+DEF_002 generated citations_and_automated_support_checked 10890 ms
+DEF_005 generated citations_and_automated_support_checked 11468 ms
+DEF_013 generated citations_and_automated_support_checked 11844 ms
+DEF_028 generated citations_and_automated_support_checked 8719 ms
+DEF_AI_021 partially_generated supported_parts_checked 13188 ms
+Summary: {"input_forms": 5, "pending": 0, "errors": {}, "explanation_status": {"generated": 4, "partially_generated": 1}, "non_generated_reasons": {}, "failure_codes": {}, "validation_failures": {}, "latency_ms": {"p50": 11468.000000000757, "p95": 12919.19999999991, "maximum": 13188.000000000102}, "usage": {"day_utc": "2026-10-22", "provider_requests": 52, "estimated_usd": 0.059928749999999996, "input_tokens": 140455, "output_tokens": 24027, "maximum_calls": 120, "maximum_estimated_usd": 0.1, "billing_verified": false}}

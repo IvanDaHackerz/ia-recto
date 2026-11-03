@@ -1,0 +1,19 @@
+{
+  "inputs": 100,
+  "primary": {
+    "numerator": 100,
+    "denominator": 100,
+    "value": 1.0
+  },
+  "scope": {
+    "numerator": 100,
+    "denominator": 100,
+    "value": 1.0
+  },
+  "routes": {
+    "numerator": 100,
+    "denominator": 100,
+    "value": 1.0
+  },
+  "issues": {}
+}

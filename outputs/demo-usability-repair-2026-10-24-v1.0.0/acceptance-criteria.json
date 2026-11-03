@@ -1,0 +1,12 @@
+{
+  "purpose": "Demo usability engineering checks, not legal validation",
+  "criteria": [
+    "No dropped supported concerns",
+    "Excluded requests must not receive substantive legal answers",
+    "Displayed explanations must address their component query and preserve actors and conditions",
+    "All quotations must resolve to exact recorded spans",
+    "Unknown source coverage remains a disclosed gap"
+  ],
+  "fresh_questions_frozen_before_inference": true,
+  "no_relabeling_after_inference": true
+}

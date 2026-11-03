@@ -1,0 +1,106 @@
+[
+  {
+    "contract_version": "1.0.0",
+    "chunking_version": "1.0.0",
+    "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+    "document_id": "LAB_CODE_2022",
+    "provision_id": "LAB_CODE_2022__art_298",
+    "chunk_sequence": 1,
+    "chunk_method": "whole_provision",
+    "subdivision_label": null,
+    "context_prefix": "Labor Code of the Philippines - Renumbered DOLE Edition 2022 > Book Six – POST-EMPLOYMENT > Title I – TERMINATION OF EMPLOYMENT > Chapter IV – PENALTIES FOR VIOLATION > ART. 298 - [283] Closure of Establishment and Reduction of Personnel",
+    "display_text": "ART. 298. [283] Closure of Establishment and Reduction of Personnel. – The employer\nmay also terminate the employment of any employee due to the installation of labor-saving\ndevices, redundancy, retrenchment to prevent losses or the closing or cessation of operation\nof the establishment or undertaking unless the closing is for the purpose of circumventing the\nprovisions of this Title, by serving a written notice on the workers and the Ministry of Labor\nand Employment at least one (1) month before the intended date thereof. In case of\ntermination due to the installation of labor-saving devices or redundancy, the worker affected\nthereby shall be entitled to a separation pay equivalent to at least his one (1) month pay or to\nat least one (1) month pay for every year of service, whichever is higher. In case of\nretrenchment to prevent losses and in cases of closures or cessation of operations of\nestablishment or undertaking not due to serious business losses or financial reverses, the\nseparation pay shall be equivalent to one (1) month pay or at least one-half (1/2) month pay\nfor every year of service, whichever is higher. A fraction of at least six (6) months shall be\nconsidered one (1) whole year.",
+    "retrieval_text": "Labor Code of the Philippines - Renumbered DOLE Edition 2022 > Book Six – POST-EMPLOYMENT > Title I – TERMINATION OF EMPLOYMENT > Chapter IV – PENALTIES FOR VIOLATION > ART. 298 - [283] Closure of Establishment and Reduction of Personnel\nART. 298. [283] Closure of Establishment and Reduction of Personnel. – The employer\nmay also terminate the employment of any employee due to the installation of labor-saving\ndevices, redundancy, retrenchment to prevent losses or the closing or cessation of operation\nof the establishment or undertaking unless the closing is for the purpose of circumventing the\nprovisions of this Title, by serving a written notice on the workers and the Ministry of Labor\nand Employment at least one (1) month before the intended date thereof. In case of\ntermination due to the installation of labor-saving devices or redundancy, the worker affected\nthereby shall be entitled to a separation pay equivalent to at least his one (1) month pay or to\nat least one (1) month pay for every year of service, whichever is higher. In case of\nretrenchment to prevent losses and in cases of closures or cessation of operations of\nestablishment or undertaking not due to serious business losses or financial reverses, the\nseparation pay shall be equivalent to one (1) month pay or at least one-half (1/2) month pay\nfor every year of service, whichever is higher. A fraction of at least six (6) months shall be\nconsidered one (1) whole year.",
+    "normalized_char_start": 0,
+    "normalized_char_end": 1213,
+    "character_count": 1213,
+    "token_count": null,
+    "tokenizer_name": null,
+    "overlap_previous_tokens": 0,
+    "domains": [
+      "labor"
+    ],
+    "scope_status": "supported",
+    "supported_topics": [
+      "labor.termination_due_process"
+    ],
+    "excluded_topics": [],
+    "answer_eligible": true,
+    "answer_use_mode": "default_answer",
+    "legal_status": "official_consolidation_through_2022",
+    "status_family": "current_with_conditions",
+    "status_as_of": "2026-09-29",
+    "citation_display": "PD 442, as amended and renumbered, ART. 298",
+    "quality_flags": [],
+    "heading": "[283] Closure of Establishment and Reduction of Personnel",
+    "source_locator": {
+      "pdf_page_start": 129,
+      "pdf_page_end": 129,
+      "printed_page_start": "117",
+      "printed_page_end": "117",
+      "html_anchor": null,
+      "source_region": "PDF page text",
+      "source_char_start": null,
+      "source_char_end": null
+    },
+    "former_locator_labels": [
+      "ART. 283"
+    ],
+    "parent_provision_id": null,
+    "parent_text": "ART. 298. [283] Closure of Establishment and Reduction of Personnel. – The employer\nmay also terminate the employment of any employee due to the installation of labor-saving\ndevices, redundancy, retrenchment to prevent losses or the closing or cessation of operation\nof the establishment or undertaking unless the closing is for the purpose of circumventing the\nprovisions of this Title, by serving a written notice on the workers and the Ministry of Labor\nand Employment at least one (1) month before the intended date thereof. In case of\ntermination due to the installation of labor-saving devices or redundancy, the worker affected\nthereby shall be entitled to a separation pay equivalent to at least his one (1) month pay or to\nat least one (1) month pay for every year of service, whichever is higher. In case of\nretrenchment to prevent losses and in cases of closures or cessation of operations of\nestablishment or undertaking not due to serious business losses or financial reverses, the\nseparation pay shall be equivalent to one (1) month pay or at least one-half (1/2) month pay\nfor every year of service, whichever is higher. A fraction of at least six (6) months shall be\nconsidered one (1) whole year.",
+    "parent_heading": "[283] Closure of Establishment and Reduction of Personnel",
+    "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+    "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+    "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+    "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+    "source_id": "DOLE_LABOR_CODE",
+    "authority_level": "primary_official",
+    "source_verification_status": "verified_pdf;136_pages;dole_attribution_confirmed",
+    "retrieval_use_policy": "active_with_freshness_check",
+    "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+    "conditions": [
+      "Check for post-2022 statutes and issuances before stating the present rule."
+    ],
+    "legal_relationships": [
+      {
+        "relationship_id": "LSR_001",
+        "source_document_id": "LAB_CODE_2022",
+        "target_document_id": "PD_442_1974",
+        "target_citation_if_external": "",
+        "relationship_type": "consolidates_as_amended_and_renumbered",
+        "scope": "Labor Code text through the edition's cutoff",
+        "effective_or_issue_date": "2022",
+        "status_as_of": "2026-09-29",
+        "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+        "confidence": "high",
+        "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+      },
+      {
+        "relationship_id": "LSR_010",
+        "source_document_id": "DOLE_LA_06_20",
+        "target_document_id": "LAB_CODE_2022",
+        "target_citation_if_external": "",
+        "relationship_type": "provides_agency_guidance",
+        "scope": "Final pay and certificate of employment timelines",
+        "effective_or_issue_date": "2020-01-31",
+        "status_as_of": "2026-09-29",
+        "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+        "confidence": "medium_high",
+        "note": "No official superseding advisory was located in this audit."
+      }
+    ],
+    "extraction_method": "pdf_text",
+    "ocr_used": false,
+    "review_status": "machine_validated",
+    "source_hierarchy": {
+      "book": "Book Six – POST-EMPLOYMENT",
+      "title": "Title I – TERMINATION OF EMPLOYMENT",
+      "chapter": "Chapter IV – PENALTIES FOR VIOLATION",
+      "part": null,
+      "rule": null
+    },
+    "index_text": "PD 442, as amended and renumbered, ART. 298\n[283] Closure of Establishment and Reduction of Personnel\n[283] Closure of Establishment and Reduction of Personnel\nLabor Code of the Philippines - Renumbered DOLE Edition 2022\nART. 298. [283] Closure of Establishment and Reduction of Personnel. – The employer\nmay also terminate the employment of any employee due to the installation of labor-saving\ndevices, redundancy, retrenchment to prevent losses or the closing or cessation of operation\nof the establishment or undertaking unless the closing is for the purpose of circumventing the\nprovisions of this Title, by serving a written notice on the workers and the Ministry of Labor\nand Employment at least one (1) month before the intended date thereof. In case of\ntermination due to the installation of labor-saving devices or redundancy, the worker affected\nthereby shall be entitled to a separation pay equivalent to at least his one (1) month pay or to\nat least one (1) month pay for every year of service, whichever is higher. In case of\nretrenchment to prevent losses and in cases of closures or cessation of operations of\nestablishment or undertaking not due to serious business losses or financial reverses, the\nseparation pay shall be equivalent to one (1) month pay or at least one-half (1/2) month pay\nfor every year of service, whichever is higher. A fraction of at least six (6) months shall be\nconsidered one (1) whole year.",
+    "answer_generation_allowed": false,
+    "retrieval_candidate_only": true
+  }
+]

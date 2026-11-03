@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item12\rebind_implementation.py", line 61, in <module>
+    build(parser.parse_args().output.resolve())
+  File "C:\IA\dataset\pipelines\item12\rebind_implementation.py", line 35, in build
+    if changed or not all(t['passed'] for t in tests.values()):raise ValueError('Dependency software checks failed; inspect logs')
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Dependency software checks failed; inspect logs

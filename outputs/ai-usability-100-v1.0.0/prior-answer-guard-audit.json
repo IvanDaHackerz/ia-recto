@@ -1,0 +1,66 @@
+{
+  "first-pass": [
+    {
+      "case_id": "AI100_031",
+      "claim_id": "development_1",
+      "guard": "regular_employment_framework_has_a_seasonal_exception"
+    },
+    {
+      "case_id": "AI100_034",
+      "claim_id": "development_1",
+      "guard": "project_exception_cannot_be_inverted_into_regular_or_casual_definition"
+    },
+    {
+      "case_id": "AI100_034",
+      "claim_id": "development_2",
+      "guard": "project_exception_cannot_be_inverted_into_regular_or_casual_definition"
+    },
+    {
+      "case_id": "AI100_046",
+      "claim_id": "development_1",
+      "guard": "final_settlement_is_limited_to_payment_by_results"
+    },
+    {
+      "case_id": "AI100_054",
+      "claim_id": "development_1",
+      "guard": "manufacturer_defenses_cannot_be_reassigned_to_the_seller"
+    },
+    {
+      "case_id": "AI100_096",
+      "claim_id": "development_1",
+      "guard": "loss_deduction_requires_recognized_trade_practice"
+    },
+    {
+      "case_id": "AI100_100",
+      "claim_id": "development_2",
+      "guard": "manufacturer_defenses_cannot_be_reassigned_to_the_seller"
+    }
+  ],
+  "repaired-confirmation": [
+    {
+      "case_id": "AI100_031",
+      "claim_id": "development_1",
+      "guard": "regular_employment_framework_has_a_seasonal_exception"
+    },
+    {
+      "case_id": "AI100_053",
+      "claim_id": "development_1",
+      "guard": "monetary_updating_does_not_authorize_an_uncited_interest_award"
+    },
+    {
+      "case_id": "AI100_056",
+      "claim_id": "development_1",
+      "guard": "monetary_updating_does_not_authorize_an_uncited_interest_award"
+    },
+    {
+      "case_id": "AI100_072",
+      "claim_id": "development_1",
+      "guard": "packaging_silence_does_not_prove_false_certification"
+    },
+    {
+      "case_id": "AI100_079",
+      "claim_id": "development_2",
+      "guard": "monetary_updating_does_not_authorize_an_uncited_interest_award"
+    }
+  ]
+}

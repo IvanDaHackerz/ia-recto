@@ -1,0 +1,30 @@
+{
+  "version": "item12-verifier-v1.0.65",
+  "as_of": "2026-10-17",
+  "implementation": "Deterministic citation/provenance/context checks plus scoped trusted-review gates.",
+  "automated_paraphrase_entailment_model": false,
+  "current_guidance_real_reviews": 0,
+  "source_data_modified": false,
+  "classifier_weights_modified": false,
+  "no_new_training_data": true,
+  "development_fixture_count": 52,
+  "independent_human_gold": false,
+  "software_reviews_are_simulated": true,
+  "review_identity_authenticated_by_software": false,
+  "deployment_allowed": false,
+  "answer_generation_allowed": false,
+  "display_allowed": false,
+  "source_currentness_refreshed": false,
+  "supported_modes": [
+    "recorded_excerpt",
+    "current_guidance"
+  ],
+  "limitations": [
+    "Exact quotes do not prove relevance, currentness or answer completeness.",
+    "Arbitrary paraphrases need scoped operator-managed review; no automatic legal-entailment claim.",
+    "No real current-guidance review exists; default gate therefore blocks.",
+    "Minimum authority dependencies are incomplete by design; recorded conditions still need review.",
+    "Hand-authored development controls cannot establish real-world accuracy.",
+    "No external LLM adapter, frontend connection or production answering was enabled."
+  ]
+}

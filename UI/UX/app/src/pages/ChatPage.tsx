@@ -9,7 +9,7 @@ import { DomainTag } from "../components/DomainTag";
 import { CitationCard } from "../components/CitationCard";
 import { OutOfScopeNotice } from "../components/OutOfScopeNotice";
 import { ExampleQuestion } from "../components/ExampleQuestion";
-import { apiRequest, cancelQuery, fetchApi, isChatResult, referencesFor, type ChatResult, type LiveReference, type SavedConversation } from "../data/api";
+import { apiRequest, cancelQuery, fetchApi, initialReferenceIndex, isChatResult, referencesFor, type ChatResult, type LiveReference, type SavedConversation } from "../data/api";
 import { useSettings } from "../context/settingsState";
 import { PrivacyControls } from "../components/PrivacyControls";
 import { LiveResult, LiveCitationCard } from "../components/LiveResult";
@@ -60,7 +60,7 @@ export function ChatPage() {
       if (controller.signal.aborted) return;
       if (!data.conversation.turns.every(turn => isChatResult(turn.packet))) throw new Error("This saved result is incompatible with the current viewer.");
       setTurns(data.conversation.turns.map(turn => ({ query: turn.packet.original_question_text, packet: turn.packet })));
-      setActiveTurn(0); savedConversation.current = savedId; setSavedLoading(false);
+      setActiveTurn(0); setActiveCitation(initialReferenceIndex(data.conversation.turns[0]?.packet)); savedConversation.current = savedId; setSavedLoading(false);
     }).catch(error => { if (!controller.signal.aborted) { setSavedError(error instanceof Error ? error.message : "Saved questions are unavailable."); setSavedLoading(false); } });
     return () => controller.abort();
   }, [savedId]);
@@ -95,6 +95,7 @@ export function ChatPage() {
       if (request.current !== controller) return;
       if (packet.history?.saved) savedConversation.current = packet.history.conversation_id;
       setTurns(previous => previous.map((turn, i) => i === index ? { query, packet } : turn));
+      setActiveCitation(initialReferenceIndex(packet));
       setAnnouncement("Analysis ready. Open references to inspect any retrieved provisions.");
     } catch (error) {
       if (request.current !== controller) return;
@@ -181,10 +182,10 @@ export function ChatPage() {
         </form>}
       </div>
       <aside className="sources-panel" aria-label="Source references">
-        <header className="sources-panel-heading"><div><h2>Source references</h2><p className="metadata">{selected ? `For response ${activeTurn + 1} · ${citations.length + liveReferences.length} reference${citations.length + liveReferences.length === 1 ? "" : "s"}` : "The provisions retrieved for your question"}</p></div><button type="button" className="text-link touch-link sources-back" onClick={returnToChat}><ArrowLeft size={16} aria-hidden="true" />Back to chat</button></header>
+        <header className="sources-panel-heading"><div><h2>Source references</h2><p className="metadata">{selected?.pending ? "Preparing references…" : selected ? `For response ${activeTurn + 1} · ${citations.length + liveReferences.length} reference${citations.length + liveReferences.length === 1 ? "" : "s"}` : "The provisions retrieved for your question"}</p></div><button type="button" className="text-link touch-link sources-back" onClick={returnToChat}><ArrowLeft size={16} aria-hidden="true" />Back to chat</button></header>
         <div className="sources-scroll" role="region" aria-label="Reference blocks" tabIndex={0}>
-          {liveReferences.length > 0 ? <><p className="metadata reference-disclosure">Inspect the recorded source text here. Current legal applicability remains under review.</p><ol className="reference-blocks">{liveReferences.map((reference, index) => <li key={`${activeTurn}-${index}`}><LiveCitationCard reference={reference} number={index + 1} id={`reference-${activeTurn}-${index}`} expanded={activeCitation === index} onToggle={() => setActiveCitation(activeCitation === index ? null : index)} quotes={sourceQuotes(selected?.packet, reference)} /></li>)}</ol></> : citations.length > 0 ? <><p className="metadata reference-disclosure">References for a scripted example. Inspect source text and answer-use restrictions below.</p><ol className="reference-blocks">{citations.map((citation, index) => <li key={`${activeTurn}-${citation.id}`}><CitationCard citation={citation} number={index + 1} id={`reference-${activeTurn}-${index}`} expanded={activeCitation === index} onToggle={() => setActiveCitation(activeCitation === index ? null : index)} /></li>)}</ol></> : <>
-            <div className="source-panel-empty"><BookOpen size={28} strokeWidth={1.4} aria-hidden="true" /><h3>{selected ? "No supporting citations" : "Follow the reference trail"}</h3><p>{!selected ? "Ask a question to see retrieved provisions here. Open a block to inspect the complete stored text." : !selected.scenario ? "No provisions are available for this response. Clarification and referral routes do not search legal sources." : selected.scenario.evidenceStatus === "insufficient" ? "No provision is mapped to this example. Topic coverage alone is not enough to answer." : "No legal answer or supporting citations are provided for this excluded topic."}</p><Link className="text-link touch-link citation-jump" to="/library">Browse the Library</Link></div>
+          {selected?.pending ? <div className="source-panel-empty"><BookOpen size={28} strokeWidth={1.4} aria-hidden="true" /><h3>Preparing source references</h3><p>Your question is being checked. References will appear here when the analysis finishes.</p></div> : liveReferences.length > 0 ? <><p className="metadata reference-disclosure">Inspect the recorded source text here. Current legal applicability remains under review.</p><ol className="reference-blocks">{liveReferences.map((reference, index) => <li key={`${activeTurn}-${index}`}><LiveCitationCard reference={reference} number={index + 1} id={`reference-${activeTurn}-${index}`} expanded={activeCitation === index} onToggle={() => setActiveCitation(activeCitation === index ? null : index)} quotes={sourceQuotes(selected?.packet, reference)} /></li>)}</ol></> : citations.length > 0 ? <><p className="metadata reference-disclosure">References for a scripted example. Inspect source text and answer-use restrictions below.</p><ol className="reference-blocks">{citations.map((citation, index) => <li key={`${activeTurn}-${citation.id}`}><CitationCard citation={citation} number={index + 1} id={`reference-${activeTurn}-${index}`} expanded={activeCitation === index} onToggle={() => setActiveCitation(activeCitation === index ? null : index)} /></li>)}</ol></> : <>
+            <div className="source-panel-empty"><BookOpen size={28} strokeWidth={1.4} aria-hidden="true" /><h3>{selected ? "No supporting citations" : "Follow the reference trail"}</h3><p>{!selected ? "Ask a question to see retrieved provisions here. Open a block to inspect the complete stored text." : !selected.scenario ? "No source references were returned for this response. Check the response for a clarification, scope boundary or source limitation." : selected.scenario.evidenceStatus === "insufficient" ? "No provision is mapped to this example. Topic coverage alone is not enough to answer." : "No legal answer or supporting citations are provided for this excluded topic."}</p><Link className="text-link touch-link citation-jump" to="/library">Browse the Library</Link></div>
             {!turns.length && <section className="workspace-topics"><h3>Explore by topic</h3><p className="metadata">{libraryDocuments.length} recorded documents. A local snapshot, not a live search index.</p><ul>{topics.map(topic => <li key={topic.id}><Link className="touch-link" to={`/library?domain=${topic.domain}&q=${encodeURIComponent(topic.searchTerm)}`}>{topic.label}</Link></li>)}</ul></section>}
           </>}
         </div>

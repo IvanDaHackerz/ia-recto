@@ -1,0 +1,184 @@
+[
+  {
+    "case_id": "PH2_008",
+    "family_id": "PH2_008",
+    "question_text": "Private factory worker ako. Naka-eight hours na ako tapos pinadagdag pa ng tatlong oras. What general overtime provisions and coverage limits are relevant?",
+    "group": "labor",
+    "topic": "overtime",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH2_016",
+    "family_id": "PH2_016",
+    "question_text": "Private employee ako sa garment business. Paulit-ulit ang contract at usual na trabaho ng negosyo ang ginagawa ko. What regular-employment test is recorded? Do not decide my status.",
+    "group": "labor",
+    "topic": "employment_status",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH2_018",
+    "family_id": "PH2_018",
+    "question_text": "Sa private farm ako. Seasonal daw ang trabaho namin. Explain the seasonal exception in the recorded employment-status rule without saying that I am automatically casual.",
+    "group": "labor",
+    "topic": "seasonal",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH2_021",
+    "family_id": "PH2_021",
+    "question_text": "May unpaid salary concern ako sa private repair shop. Ano ang purpose ng SEnA conciliation, at may decision na ba agad doon?",
+    "group": "labor",
+    "topic": "complaint",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH2_022",
+    "family_id": "PH2_022",
+    "question_text": "I have an overtime dispute with a private company in Laguna. Can you explain the basic labor complaint and referral process without filing a case for me?",
+    "group": "labor",
+    "topic": "complaint",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH2_033",
+    "family_id": "PH2_033",
+    "question_text": "Under the recorded consumer-product rule, are there circumstances allowing remedies without first waiting for correction? Please preserve the conditions.",
+    "group": "consumer",
+    "topic": "correction",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH2_048",
+    "family_id": "PH2_048",
+    "question_text": "A newly bought power strip overheated during ordinary household use and scorched a desk. What recorded product-safety framework and limitations can you explain?",
+    "group": "consumer",
+    "topic": "safety",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH2_059",
+    "family_id": "PH2_059",
+    "question_text": "I need basic SEnA information for a private-sector unpaid-wage concern. Separately, a retailer sold me a power strip that overheated. Please distinguish the concerns.",
+    "group": "mixed",
+    "topic": "sena_safety",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH2_060",
+    "family_id": "PH2_060",
+    "question_text": "I need a COE from my former private employer. Separately, the retailer refuses to accept my appliance warranty claim. Explain whatever your sources support and name any gap.",
+    "group": "mixed",
+    "topic": "source_gap_supported",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  }
+]

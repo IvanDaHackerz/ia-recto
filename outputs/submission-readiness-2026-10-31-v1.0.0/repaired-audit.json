@@ -1,0 +1,59 @@
+{
+  "run": "repaired",
+  "denominator": 100,
+  "observed_rows": 100,
+  "counts": {
+    "packets": 100,
+    "primary_correct": 100,
+    "scope_correct": 100,
+    "route_correct": 100,
+    "domain_correct": 100,
+    "status_generated": 52,
+    "reason_citations_and_automated_support_checked": 52,
+    "judged_cases": 54,
+    "all_known_relevant_hit_at_5": 54,
+    "claims": 88,
+    "citations": 191,
+    "status_partially_generated": 18,
+    "reason_supported_parts_checked": 18,
+    "status_withheld": 30,
+    "reason_claim_support_failed": 3,
+    "reason_no_supported_explanation": 2,
+    "reason_provider_unavailable": 3,
+    "reason_citation_validation_failed": 7,
+    "reason_supported_concern_required": 15,
+    "outside_cases": 15,
+    "outside_candidates": 0,
+    "outside_claims": 0
+  },
+  "inclusive_scores": {
+    "primary": {
+      "correct": 100,
+      "denominator": 100,
+      "fraction": 1.0
+    },
+    "scope": {
+      "correct": 100,
+      "denominator": 100,
+      "fraction": 1.0
+    },
+    "route": {
+      "correct": 100,
+      "denominator": 100,
+      "fraction": 1.0
+    },
+    "domain": {
+      "correct": 100,
+      "denominator": 100,
+      "fraction": 1.0
+    }
+  },
+  "inclusive_macro_f1": {
+    "primary": 1.0,
+    "scope": 1.0
+  },
+  "citation_integrity_failures": [],
+  "independent_human_questions": 0,
+  "legal_answer_accuracy_measured": false,
+  "denominator_note": "Missing packets count as errors in every inclusive score. F1 uses the fixed expected classes, with request errors treated as missed labels."
+}

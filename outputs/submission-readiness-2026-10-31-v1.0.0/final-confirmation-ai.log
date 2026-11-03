@@ -1,0 +1,4 @@
+RD31_014 generated citations_and_automated_support_checked 11563 ms
+RD31_038 generated citations_and_automated_support_checked 16594 ms
+RD31_050 withheld citation_validation_failed 6422 ms
+Summary: {"input_forms": 3, "pending": 0, "errors": {}, "explanation_status": {"generated": 2, "withheld": 1}, "non_generated_reasons": {"citation_validation_failed": 1}, "failure_codes": {}, "validation_failures": {"source_qualification_missing": 1}, "latency_ms": {"p50": 11563.00000000192, "p95": 16090.899999997782, "maximum": 16593.999999997322}, "usage": {"day_utc": "2026-10-31", "provider_requests": 398, "estimated_usd": 0.4408485, "input_tokens": 1679104, "output_tokens": 259701, "maximum_calls": 400, "maximum_estimated_usd": 0.5, "billing_verified": false}}

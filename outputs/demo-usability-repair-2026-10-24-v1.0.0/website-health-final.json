@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "status": "ready",
+  "development_only": true,
+  "project_id": "recto-local-ia",
+  "application_version": "2.0.0",
+  "runtime_signature": "86b95fb3ac92c3cf8040e85c7e80b062a9732d7f62a455cf8690dd00611612ff",
+  "classifier": "outputs/item10-classifier-v1.5.58",
+  "retrieval": "outputs/item11-retrieval-v1.3.49",
+  "verifier": "item12-verifier-v1.0.56",
+  "normalizer_configured": true,
+  "explanation_adapter_configured": true,
+  "development_explanations_enabled": true,
+  "history_available": true,
+  "history_retention_days": 30,
+  "last_integrity_check_unix": 1792827873.6644711,
+  "maximum_active_questions": 4,
+  "answer_generation_allowed": false,
+  "display_allowed": false,
+  "deployment_allowed": false
+}

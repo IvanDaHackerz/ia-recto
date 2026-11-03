@@ -1,0 +1,119 @@
+[
+  {
+    "contract_version": "1.0.0",
+    "chunking_version": "1.0.0",
+    "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+    "document_id": "RA_7394_1992",
+    "provision_id": "RA_7394_1992__art_81",
+    "chunk_sequence": 1,
+    "chunk_method": "whole_provision",
+    "subdivision_label": null,
+    "context_prefix": "Consumer Act of the Philippines > TITLE III PROTECTION AGAINST DECEPTIVE, UNFAIR AND UNCONSCIONABLE SALES ACTS OR PRACTICES > CHAPTER IV LABELING AND FAIR PACKAGING > ART. 81 - Price Tag Requirement",
+    "display_text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+    "retrieval_text": "Consumer Act of the Philippines > TITLE III PROTECTION AGAINST DECEPTIVE, UNFAIR AND UNCONSCIONABLE SALES ACTS OR PRACTICES > CHAPTER IV LABELING AND FAIR PACKAGING > ART. 81 - Price Tag Requirement\nART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+    "normalized_char_start": 0,
+    "normalized_char_end": 790,
+    "character_count": 790,
+    "token_count": null,
+    "tokenizer_name": null,
+    "overlap_previous_tokens": 0,
+    "domains": [
+      "consumer"
+    ],
+    "scope_status": "supported",
+    "supported_topics": [
+      "consumer.price_tags"
+    ],
+    "excluded_topics": [],
+    "answer_eligible": true,
+    "answer_use_mode": "default_answer",
+    "legal_status": "in_force_baseline_subject_to_later_special_laws_and_rules",
+    "status_family": "current_with_conditions",
+    "status_as_of": "2026-09-29",
+    "citation_display": "Republic Act No. 7394, ART. 81",
+    "quality_flags": [
+      "table_structure_present"
+    ],
+    "heading": "Price Tag Requirement",
+    "source_locator": {
+      "pdf_page_start": null,
+      "pdf_page_end": null,
+      "printed_page_start": null,
+      "printed_page_end": null,
+      "html_anchor": null,
+      "source_region": "main legal text",
+      "source_char_start": 114291,
+      "source_char_end": 115083
+    },
+    "former_locator_labels": [],
+    "parent_provision_id": null,
+    "parent_text": "ART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+    "parent_heading": "Price Tag Requirement",
+    "document_title": "Consumer Act of the Philippines",
+    "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+    "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/3302",
+    "raw_local_path": "dataset/canonical_sources/raw/consumer/ra_7394_1992_scel.html",
+    "source_id": "SCEL_LAWS",
+    "authority_level": "primary_official",
+    "source_verification_status": "verified_title_and_citation",
+    "retrieval_use_policy": "active_provision_level",
+    "freshness_rule": "Pair with the responsible agency's current topic-specific rule and later special law.",
+    "conditions": [
+      "Pair with the responsible agency's current topic-specific rule and later special law."
+    ],
+    "legal_relationships": [
+      {
+        "relationship_id": "LSR_013",
+        "source_document_id": "DTI_DAO_02_1993",
+        "target_document_id": "RA_7394_1992",
+        "target_citation_if_external": "",
+        "relationship_type": "implements",
+        "scope": "General Consumer Act rules",
+        "effective_or_issue_date": "1993",
+        "status_as_of": "2026-09-29",
+        "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+        "confidence": "high",
+        "note": "Use subject to later topic-specific rules."
+      },
+      {
+        "relationship_id": "LSR_015",
+        "source_document_id": "DTI_DAO_20_02",
+        "target_document_id": "RA_7394_1992",
+        "target_citation_if_external": "",
+        "relationship_type": "governs_complaint_procedure",
+        "scope": "DTI consumer mediation and adjudication",
+        "effective_or_issue_date": "2020",
+        "status_as_of": "2026-09-29",
+        "evidence_url": "https://fairtrade.dti.gov.ph/resources/laws-policies/",
+        "confidence": "high",
+        "note": "Also applies across DTI-administered trade and consumer laws according to its scope."
+      },
+      {
+        "relationship_id": "LSR_018",
+        "source_document_id": "RA_11967_2023",
+        "target_document_id": "RA_7394_1992",
+        "target_citation_if_external": "",
+        "relationship_type": "operates_alongside",
+        "scope": "Online consumer protection and DTI compliance",
+        "effective_or_issue_date": "2023-12-05",
+        "status_as_of": "2026-09-29",
+        "evidence_url": "https://ecommerce.dti.gov.ph/related-laws-policy-issuance/",
+        "confidence": "high",
+        "note": "The ITA expressly refers to compliance with both the ITA and the Consumer Act; apply conflict rules provision by provision."
+      }
+    ],
+    "extraction_method": "html_structural",
+    "ocr_used": false,
+    "review_status": "machine_validated",
+    "source_hierarchy": {
+      "book": null,
+      "title": "TITLE III PROTECTION AGAINST DECEPTIVE, UNFAIR AND UNCONSCIONABLE SALES ACTS OR PRACTICES",
+      "chapter": "CHAPTER IV LABELING AND FAIR PACKAGING",
+      "part": null,
+      "rule": null
+    },
+    "index_text": "Republic Act No. 7394, ART. 81\nPrice Tag Requirement\nPrice Tag Requirement\nConsumer Act of the Philippines\nART. 81. Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+    "answer_generation_allowed": false,
+    "retrieval_candidate_only": true
+  }
+]

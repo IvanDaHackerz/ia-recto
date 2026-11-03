@@ -1,0 +1,93 @@
+{
+  "inputs": 100,
+  "integrity": {
+    "candidate_checks": 315,
+    "candidate_failures": 0,
+    "fallback_checks": 13,
+    "fallback_failures": 0,
+    "claim_checks": 78,
+    "claim_gate_failures": 0,
+    "citation_checks": 171,
+    "citation_failures": 0
+  },
+  "routing_issue_ids": [],
+  "normalization_status": {
+    "bypassed": 100
+  },
+  "normalization_failures": {},
+  "role": "AI-authored synthetic development diagnostic",
+  "independent_human_questions": 0,
+  "legal_accuracy": null,
+  "frozen_files_intact": true,
+  "groups": {
+    "C": {
+      "n": 30,
+      "topic_correct": 30,
+      "scope_correct": 30,
+      "route_correct": 30,
+      "AI_status": {
+        "generated": 22,
+        "withheld": 3,
+        "partially_generated": 5
+      }
+    },
+    "L": {
+      "n": 30,
+      "topic_correct": 30,
+      "scope_correct": 30,
+      "route_correct": 30,
+      "AI_status": {
+        "withheld": 10,
+        "generated": 20
+      }
+    },
+    "M": {
+      "n": 10,
+      "topic_correct": 10,
+      "scope_correct": 10,
+      "route_correct": 10,
+      "AI_status": {
+        "generated": 6,
+        "partially_generated": 4
+      }
+    },
+    "O": {
+      "n": 15,
+      "topic_correct": 15,
+      "scope_correct": 15,
+      "route_correct": 15,
+      "AI_status": {
+        "withheld": 15
+      }
+    },
+    "P_B": {
+      "n": 3,
+      "topic_correct": 3,
+      "scope_correct": 3,
+      "route_correct": 3,
+      "AI_status": {
+        "generated": 3
+      }
+    },
+    "P_C": {
+      "n": 6,
+      "topic_correct": 6,
+      "scope_correct": 6,
+      "route_correct": 6,
+      "AI_status": {
+        "generated": 4,
+        "withheld": 2
+      }
+    },
+    "P_L": {
+      "n": 6,
+      "topic_correct": 6,
+      "scope_correct": 6,
+      "route_correct": 6,
+      "AI_status": {
+        "generated": 4,
+        "withheld": 2
+      }
+    }
+  }
+}

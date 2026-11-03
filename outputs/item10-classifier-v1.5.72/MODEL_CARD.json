@@ -1,0 +1,42 @@
+{
+  "model_version": "item10-classifier-v1.5.72",
+  "status": "implementation_software_checked_performance_evaluation_pending",
+  "parent_classifier": "outputs/item10-classifier-v1.5.70",
+  "training_parent_rows": 459,
+  "unique_atomic_fit_texts": 222,
+  "new_training_questions": 0,
+  "unchanged_learned_state": {
+    "atomic_weights": true,
+    "feature_vocabulary": true,
+    "calibration": true,
+    "thresholds": true,
+    "training_membership": true
+  },
+  "thresholds": {
+    "primary": 0.8,
+    "scope": 0.85
+  },
+  "software_tests": {
+    "tests_run": 69,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true,
+    "counterfactual_development_regressions": 19,
+    "accuracy_acceptance_is_separate": true
+  },
+  "routing_repairs": "Anaphoric follow-ups, background versus complaints, bounded spelling aliases and scope/workplace boundaries; conservative spelling/boundary features before concern detection.",
+  "software_replay_role": "Inspected regression assertions only; not a new performance evaluation.",
+  "formal_evaluation_completed": false,
+  "display_metrics_implemented": false,
+  "independent_human_gold_available": false,
+  "website_integration_completed": false,
+  "llm_integration_completed": false,
+  "deployment_allowed": false,
+  "answer_generation_allowed": false,
+  "limitations": [
+    "Rule changes were informed by inspected development cases.",
+    "Label confidence does not measure legal-answer correctness.",
+    "Final performance/calibration evaluation and formal acceptance remain pending."
+  ]
+}

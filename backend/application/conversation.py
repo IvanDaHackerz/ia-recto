@@ -4,7 +4,7 @@ import copy
 import re
 from .source_issues import issue_for
 
-VERSION = 'conversational-guidance-v1.0.0'
+VERSION = 'conversational-guidance-v1.2.0'
 EMPLOYMENT_TYPE = re.compile(r'\b(?:private|pribado|government|gobyerno|gobierno|govt|municipal|civil.service|kasambahay|household|domestic.worker|ofw|overseas|seaf\w*r)\b', re.I)
 LABOR_ISSUE = re.compile(r'\b(?:salary|salaries|wages?|sahod|sweldo|overtime|holiday.pay|13th.month|thirteenth.month|working.hours|hours.of.work|fired|dismiss\w*|terminat\w*)\b', re.I)
 GENERAL_SCOPE = ('The labor sources below concern private-sector employment. Your employment type has not been confirmed, '
@@ -79,6 +79,7 @@ def prepare_general_information(packet, question, inspect):
 
 
 def eligible_quotes(verifier, result):
+    from dataset.pipelines.item11.query_relevance import relevant_excerpt
     quotes = []
     for component in (result or {}).get('components', []):
         gates = {g['chunk_id']: g for g in component['evidence_gates']}
@@ -88,11 +89,11 @@ def eligible_quotes(verifier, result):
                     or issue_for(hit) or verifier.check_candidate(hit, component['allowed_domain'])):
                 continue
             text = hit['parent_text']
-            # Complete recorded text when short; otherwise one complete paragraph.
-            # Never cut a paragraph mid-sentence or invent a local paraphrase.
-            quote = text if len(text) <= 1800 else next((line for line in text.splitlines() if 60 <= len(line.strip()) <= 1800), '')
+            quote = relevant_excerpt(component['query'], component['allowed_domain'], hit)
             if not quote:
                 continue
+            if any(q['quote']==quote for q in quotes):
+                break
             quotes.append({'component_id': component['component_id'], 'chunk_id': hit['chunk_id'],
                 'citation_display': hit.get('citation_label', hit['citation_display']), 'quote': quote,
                 'complete_provision': quote == text})
@@ -113,10 +114,15 @@ def response_for(packet, verifier, question):
     if packet.get('safety_notice'):
         return {**response, 'kind': 'safety', 'heading': 'Your immediate safety comes first',
                 'paragraphs': ['The immediate safety concern takes priority. Follow the emergency information shown here; this project cannot assess an injury or investigate an assault.']}
-    generated = (explanation['status'] == 'generated' and explanation.get('citations_checked') and explanation.get('automated_support_checked')
+    generated = (explanation['status'] in {'generated','partially_generated'} and explanation.get('citations_checked') and explanation.get('automated_support_checked')
                  or explanation['status'] == 'verified' and explanation.get('legal_support_verified'))
     if generated:
-        response.update(kind='ai_explanation', heading='AI explanation', ai_generated=True)
+        partial=explanation['status']=='partially_generated'
+        response.update(kind='partial_ai_explanation' if partial else 'ai_explanation',
+                        heading='AI explanation for supported parts' if partial else 'AI explanation',ai_generated=True)
+        if partial:
+            answered = {c.get('component_id') for c in explanation.get('claims', [])}
+            response['quotes'] = [q for q in eligible_quotes(verifier, result) if q['component_id'] not in answered]
     elif not result or route.get('routing_action') == 'clarify':
         follow = (packet.get('clarification_follow_up') or {}).get('question') or route.get('clarification_question') or (packet.get('normalization') or {}).get('clarification_question')
         response['paragraphs'] = ['I need one more detail to choose the right sources. This project covers selected Philippine private-sector employment and ordinary consumer-purchase concerns.']
@@ -129,7 +135,8 @@ def response_for(packet, verifier, question):
         quotes = eligible_quotes(verifier, result)
         response.update(kind='recorded_sources' if quotes else 'source_limit', heading='What I found', quotes=quotes)
         if quotes:
-            response['paragraphs'] = ['I found recorded source text related to your question. The passage below shows what the source says; open its reference for the complete provision, conditions and exceptions.']
+            response['heading'] = 'Recorded source passages'
+            response['paragraphs'] = ['These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.']
         else:
             response['paragraphs'] = ['I understand this as a concern within the project’s topics, but the available records are not sufficient for a supported legal explanation. That is a source limitation, not a conclusion that you have no rights.']
         reason = explanation['reason']
@@ -143,6 +150,8 @@ def response_for(packet, verifier, question):
             response['paragraphs'].append(detail + ' You can still inspect the recorded sources and try AI again later.')
         elif reason in {'citation_validation_failed', 'claim_support_failed', 'support_check_unavailable', 'no_supported_explanation'}:
             response['paragraphs'].append('The AI draft did not clear the source checks, so I’m showing the recorded material instead of treating that draft as reliable.')
+        if not quotes:
+            response['paragraphs'].append('Rewording a clear question will not add a missing legal source. You can inspect the library or the assistance contacts below for the next place to check.')
         elif reason == 'source_review_required':
             response['paragraphs'].append('AI explanations are not configured in this running server. The local source response remains available.')
     if context:

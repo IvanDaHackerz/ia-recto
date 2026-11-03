@@ -1,0 +1,2917 @@
+[
+  {
+    "id": "DEMO_NEW_001",
+    "fresh": true,
+    "group": "labor",
+    "question": "Our private bakery in Iloilo has missed two salary dates because sales were low. What wage-payment rule can we read?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Wages must be paid at least once every two weeks or twice a month, with intervals not exceeding sixteen days, unless a force‑majeure event or circumstances beyond the employer’s control prevent such regularity; in those cases the employer must pay the wages immediately after the event or circumstance ends.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.",
+            "start": 11,
+            "end": 388,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 7500.0
+  },
+  {
+    "id": "DEMO_NEW_002",
+    "fresh": true,
+    "group": "labor",
+    "question": "I work for a private packaging business and finish ten hours on an ordinary weekday. What general overtime rule applies to covered workers?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 9,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "For a covered employee, any work beyond eight (8) hours on an ordinary working day triggers overtime pay, which must be the regular wage plus at least twenty‑five percent (25%).",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 8",
+            "quote": "Overtime pay. — Any employee covered by this Rule who is permitted or required to work beyond eight (8) hours on ordinary working days shall be paid an additional compensation for the overtime work in the amount equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+            "start": 11,
+            "end": 302,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_002",
+        "text": "Where the statutory conditions are met, any employee covered by the rule who works more than eight (8) hours on an ordinary workday is entitled to overtime compensation equal to his regular wage plus at least twenty‑five percent (25%).",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 8",
+            "quote": "Overtime pay. — Any employee covered by this Rule who is permitted or required to work beyond eight (8) hours on ordinary working days shall be paid an additional compensation for the overtime work in the amount equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+            "start": 11,
+            "end": 302,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 10219.000000000051
+  },
+  {
+    "id": "DEMO_NEW_003",
+    "fresh": true,
+    "group": "labor",
+    "question": "My private office shut for Christmas and payroll treated the holiday as unpaid. What does the recorded holiday-pay rule say, including exceptions?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under PD 442 Art. 94, every worker must receive his regular daily wage for a regular holiday, unless the employer is a retail or service establishment that regularly employs fewer than ten workers; in that case the rule does not apply. If the employer requires the employee to work on the holiday, the employee must be paid twice his regular rate. The holiday list includes New Year’s Day, Maundy Thursday, Good Friday, April 9, May 1, June 12, July 4, November 30, and December 25 and 30, plus any day set by law for a general election.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage",
+            "start": 9,
+            "end": 88,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "during regular holidays, except in retail and service establishments regularly employing less",
+            "start": 89,
+            "end": 182,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "than ten (10) workers;",
+            "start": 183,
+            "end": 205,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 9422.00000000048
+  },
+  {
+    "id": "DEMO_NEW_004",
+    "fresh": true,
+    "group": "labor",
+    "question": "A private hardware distributor dismissed an employee for misconduct without asking for an explanation. What procedural protections can be described generally?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "no_supported_explanation",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 7922.00000000048
+  },
+  {
+    "id": "DEMO_NEW_005",
+    "fresh": true,
+    "group": "labor",
+    "question": "Probationary employee ako sa private office. Wala silang sinabi na standards noong hiring. What does the probation rule require about those standards?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 10,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "partially_generated",
+    "reason": "supported_parts_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "The probation rule provides that a probationary employee may be terminated for a just cause or when he fails to qualify as a regular employee, but that qualification must be measured against reasonable standards that the employer must disclose to the employee at the time of engagement. Thus, the employer is required to make the standards known up front before the probation period begins.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_296__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_296",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 296",
+            "quote": "qualify as a regular employee in accordance with reasonable standards made known by the",
+            "start": 352,
+            "end": 439,
+            "citation_label": "PD 442, as amended and renumbered, ART. 296"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_296__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_296",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 296",
+            "quote": "employer to the employee at the time of his engagement.",
+            "start": 440,
+            "end": 495,
+            "citation_label": "PD 442, as amended and renumbered, ART. 296"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_003",
+        "text": "Under the Omnibus Rules on probationary employment, the employer is expressly required to make known to the employee the standards under which he will qualify as a regular employee at the time of his engagement. This means the employer must communicate the reasonable criteria for regularization before the employee starts work, so that failure to meet those standards can be a valid ground for termination.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_xvi_general_provisions__section_6__occ_2__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_xvi_general_provisions__section_6__occ_2",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6",
+            "quote": "(d) In all cases involving employees engaged on probationary basis, the employer shall make known to the employee the standards under which he will qualify as a regular employee at the time of his engagement.",
+            "start": 810,
+            "end": 1018,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK SIX, TITLE I, CHAPTER IV, RULE XVI"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_296__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_296",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 296",
+            "quote": "qualify as a regular employee in accordance with reasonable standards made known by the",
+            "start": 352,
+            "end": 439,
+            "citation_label": "PD 442, as amended and renumbered, ART. 296"
+          }
+        ]
+      }
+    ],
+    "unanswered": [
+      {
+        "component_id": "concern_002",
+        "query": "wala silang sinabi na standards noong hiring",
+        "reason": "source_context_unavailable"
+      }
+    ],
+    "elapsed_ms": 25796.000000000276
+  },
+  {
+    "id": "DEMO_NEW_006",
+    "fresh": true,
+    "group": "labor",
+    "question": "Our private employer wants to deduct damaged stock from wages. What conditions does the recorded loss-and-damage deduction rule contain?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where the employer is in a trade, occupation or business where making deductions or requiring deposits to reimburse loss or damage to tools, materials, or equipment is a recognized practice, wage deductions may be made only if (a) the employee is clearly shown to be responsible for the loss or damage; (b) the employee is given a reasonable opportunity to show cause why the deduction should not be made; (c) the deduction amount is fair, reasonable and does not exceed the actual loss or damage; and (d) the deduction does not exceed 20 percent of the employee’s wages in a week.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 14",
+            "quote": "Deduction for loss or damage. — Where the employer is engaged in a trade, occupation or business where the practice of making deductions or requiring deposits is recognized to answer for the reimbursement of loss or damage to tools, materials, or equipment supplied by the employer to the employee, the employer may make wage deductions or require the employees to make deposits from which deductions shall be made, subject to the following conditions:",
+            "start": 12,
+            "end": 464,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 14"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 14",
+            "quote": "(a) That the employee concerned is clearly shown to be responsible for the loss or damage;",
+            "start": 466,
+            "end": 556,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 14"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 14",
+            "quote": "(b) That the employee is given reasonable opportunity to show cause why deduction should not be made;",
+            "start": 557,
+            "end": 658,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 14"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 8092.999999999847
+  },
+  {
+    "id": "DEMO_NEW_007",
+    "fresh": true,
+    "group": "consumer",
+    "question": "A retail appliance shop says I must pay a fee before it forwards my written warranty claim. What is the retailer role under the recorded warranty rule?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under the warranty law, a retailer must forward your written claim to the distributor at no cost to you. The retailer is only subsidiarily liable—meaning they step in to cover the warranty expenses only if both the manufacturer and the distributor fail to honor the warranty. Even when the retailer pays, they may still pursue recovery from the distributor or manufacturer.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "Retail. - The retailer shall be subsidiarily liable under the warranty in case of failure of both the manufacturer and distributor to honor the warranty.",
+            "start": 2232,
+            "end": 2385,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "In such case, the retailer shall shoulder the expenses and costs necessary to honor the warranty.",
+            "start": 2386,
+            "end": 2483,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "Nothing therein shall prevent the retailer from proceeding against the distributor or manufacturer.",
+            "start": 2484,
+            "end": 2583,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 19859.999999999673
+  },
+  {
+    "id": "DEMO_NEW_008",
+    "fresh": true,
+    "group": "consumer",
+    "question": "A grocery shelf price tag says 85 pesos but checkout asks for 95. What price-display rule and exceptions are in the recorded source?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where a consumer product is offered for retail sale, the law makes it unlawful to sell it at a price higher than the price shown on a visible tag, label or marking, and it forbids any erasures or alterations of such price displays. An exception applies if the item is too small or its nature makes a tag impractical; a price list placed at the nearest point where the products are displayed may be used instead. A further specific exception requires lumber to show both the price and the official wood name on its tag.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+            "provision_id": "RA_7394_1992__art_81",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 81",
+            "quote": "Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+            "start": 9,
+            "end": 790,
+            "citation_label": "Republic Act No. 7394, ART. 81"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+            "provision_id": "RA_7394_1992__art_83",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 83",
+            "quote": "There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+            "start": 196,
+            "end": 284,
+            "citation_label": "Republic Act No. 7394, ART. 83"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 8234.999999999673
+  },
+  {
+    "id": "DEMO_NEW_009",
+    "fresh": true,
+    "group": "consumer",
+    "question": "I ordered a desk lamp from an online merchant in the Philippines but received a different model. What recorded consumer remedy framework can be described?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "partially_generated",
+    "reason": "supported_parts_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where the online consumer receives a product that does not match what was ordered, the consumer has the right to pursue repair, replacement, refund, or any other remedy provided under the Consumer Act and related laws; the online merchant must accept the return of the originally delivered goods at no cost to the consumer and must do so within a reasonable period unless the parties agree otherwise.",
+        "citations": [
+          {
+            "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+            "provision_id": "DTI_JAO_24_03__section_37",
+            "document_id": "DTI_JAO_24_03",
+            "citation_display": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37",
+            "quote": "consumer, or failure to conform with warranty or any liability of the online merchant or eretailer arising from the contract, the online consumer shall have the right to pursue repair,",
+            "start": 158,
+            "end": 342,
+            "citation_label": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37"
+          },
+          {
+            "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+            "provision_id": "DTI_JAO_24_03__section_37",
+            "document_id": "DTI_JAO_24_03",
+            "citation_display": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37",
+            "quote": "When the online consumer avails of replacement or refund as a remedy, the online",
+            "start": 454,
+            "end": 534,
+            "citation_label": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37"
+          },
+          {
+            "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+            "provision_id": "DTI_JAO_24_03__section_37",
+            "document_id": "DTI_JAO_24_03",
+            "citation_display": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37",
+            "quote": "merchant or e-retailer is entitled to the return of the original goods delivered, without any",
+            "start": 535,
+            "end": 628,
+            "citation_label": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37"
+          }
+        ]
+      }
+    ],
+    "unanswered": [
+      {
+        "component_id": "concern_002",
+        "query": "what recorded consumer remedy framework can be described",
+        "reason": "source_context_unavailable"
+      }
+    ],
+    "elapsed_ms": 8359.000000000378
+  },
+  {
+    "id": "DEMO_NEW_010",
+    "fresh": true,
+    "group": "consumer",
+    "question": "A paid laundry service shrank the curtains I left for cleaning. What does the recorded service-quality rule say, with its conditions?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where a paid laundry service provides a service that is improper—meaning it is inadequate for the purpose reasonably expected, such as shrinking curtains—the supplier is liable for the quality imperfection. The consumer may choose any of the following remedies: the service performed again at no extra cost, immediate reimbursement of the amount paid with monetary updating (subject to any loss or damage), or a proportionate price reduction; the repeat service may be given by a qualified third party at the supplier’s risk and cost.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+            "provision_id": "RA_7394_1992__art_102",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 102",
+            "quote": "Liability for Service Quality Imperfection. - The service supplier is liable for any quality imperfections that render the services improper for consumption or decrease their value, and for those resulting from inconsistency with the information contained in the offer or advertisement, the consumer being entitled to demand alternative at his option:",
+            "start": 10,
+            "end": 361,
+            "citation_label": "Republic Act No. 7394, ART. 102"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+            "provision_id": "RA_7394_1992__art_102",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 102",
+            "quote": "the performance of the services, without any additional cost and when applicable;",
+            "start": 362,
+            "end": 443,
+            "citation_label": "Republic Act No. 7394, ART. 102"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+            "provision_id": "RA_7394_1992__art_102",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 102",
+            "quote": "the immediate reimbursement of the amount paid, with monetary updating without prejudice to losses and damages, if any;",
+            "start": 445,
+            "end": 564,
+            "citation_label": "Republic Act No. 7394, ART. 102"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 8297.00000000048
+  },
+  {
+    "id": "DEMO_NEW_011",
+    "fresh": true,
+    "group": "consumer",
+    "question": "A newly bought electric kettle sparks near its handle during normal use. What recorded product-safety framework applies without deciding anyone is already liable?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 219.00000000005093
+  },
+  {
+    "id": "DEMO_NEW_012",
+    "fresh": true,
+    "group": "consumer",
+    "question": "A supermarket cashier gives a discount coupon instead of my remaining cash change. What does the recorded change rule require?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where a business establishment fails to give the exact cash change and instead offers a discount coupon, the law treats that as unlawful because change must be given only in legal tender; any other form of change is prohibited. If the establishment shortchanges the consumer, the amount of change withheld must be paid to the complainant in addition to any fine, as determined by a DTI audit.",
+        "citations": [
+          {
+            "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+            "provision_id": "RA_10909_2016__sec_4",
+            "document_id": "RA_10909_2016",
+            "citation_display": "Republic Act No. 10909, SEC. 4",
+            "quote": "(b) Other Prohibitions. – It shall also be unlawful for any business establishment which sells goods or provides services to give the change in any form other than the present currency or to ask the consumers for permission to be exempted from the provisions of this Act for any reason, including the nonavailability of small bills or coins.",
+            "start": 456,
+            "end": 797,
+            "citation_label": "Republic Act No. 10909, SEC. 4"
+          },
+          {
+            "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+            "provision_id": "DTI_DAO_16_03__rule_vii_penalties__section_2",
+            "document_id": "DTI_DAO_16_03",
+            "citation_display": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2",
+            "quote": "above, the total amount of change the establishment failed or refused to give, as",
+            "start": 81,
+            "end": 162,
+            "citation_label": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6"
+          },
+          {
+            "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+            "provision_id": "DTI_DAO_16_03__rule_vii_penalties__section_2",
+            "document_id": "DTI_DAO_16_03",
+            "citation_display": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2",
+            "quote": "determined from the audit of DTI, shall be paid by the said establishment to the",
+            "start": 163,
+            "end": 243,
+            "citation_label": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 13890.000000000327
+  },
+  {
+    "id": "DEMO_NEW_013",
+    "fresh": true,
+    "group": "mixed",
+    "question": "My private employer delayed my salary. Separately a store refuses to process a broken electric fan warranty. Please explain the two concerns separately.",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 9,
+      "negative_control_correct": null,
+      "issues": [
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under the Omnibus Rules implementing the Labor Code, wages must be paid at least once every two weeks or twice a month, so the interval between payments cannot exceed sixteen (16) days. The only exception is when a force‑majeure event or circumstances beyond the employer’s control prevent payment; in that case the employer must pay the wages immediately after the event or circumstance ends.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.",
+            "start": 11,
+            "end": 388,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed.",
+            "start": 390,
+            "end": 599,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_002",
+        "text": "Republic Act No. 7394 allows a consumer to enforce a warranty by presenting the warranty card or official receipt together with the defective product to the immediate seller, and no other documents are required. The retailer (the store) is only subsidiarily liable if both the manufacturer and the distributor fail to honor the warranty; otherwise the immediate seller must accept the claim and arrange the repair or replacement required by the warranty.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "Enforcement of warranty or guarantee. - The warranty rights can be enforced by presentment of a claim.",
+            "start": 2585,
+            "end": 2687,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "To this end, the purchaser needs only to present to the immediate seller either the warranty card or the official receipt along with the product to be serviced or returned to the immediate seller.",
+            "start": 2688,
+            "end": 2884,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "No other documentary requirement shall be demanded from the purchaser.",
+            "start": 2885,
+            "end": 2955,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 36344.00000000005
+  },
+  {
+    "id": "DEMO_NEW_014",
+    "fresh": true,
+    "group": "mixed",
+    "question": "My private employer offsets Friday overtime against Monday undertime. Separately my credit-card issuer added a fee. Which part can this project cover?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where an employee works less than the normal hours on a given day (undertime), the employer may not cancel that undertime by counting overtime the employee performed on a different day; the undertime must be paid separately. Even if the employee is allowed to take leave on another day, the employer still must pay the extra compensation required by law for the overtime worked.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_88",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 88",
+            "quote": "shall not be offset by overtime work on any other day.",
+            "start": 84,
+            "end": 138,
+            "citation_label": "PD 442, as amended and renumbered, ART. 88"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_88",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 88",
+            "quote": "additional compensation required in this Chapter.",
+            "start": 263,
+            "end": 312,
+            "citation_label": "PD 442, as amended and renumbered, ART. 88"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 8640.999999999622
+  },
+  {
+    "id": "DEMO_NEW_015",
+    "fresh": true,
+    "group": "mixed",
+    "question": "An appliance retailer charged above its price tag. Separately my internet provider charged a cancellation fee. Explain the supported part and identify the boundary.",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where a consumer product is offered for retail sale, it is unlawful to sell it at a price higher than the price shown on a publicly displayed tag, label or marking; the rule also allows a price list at the nearest point of display when the item is too small or its nature makes a tag impractical.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+            "provision_id": "RA_7394_1992__art_81",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 81",
+            "quote": "Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+            "start": 9,
+            "end": 790,
+            "citation_label": "Republic Act No. 7394, ART. 81"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 10030.999999999949
+  },
+  {
+    "id": "DEMO_NEW_016",
+    "fresh": true,
+    "group": "mixed",
+    "question": "A private employer deducted missing inventory from wages. A separate shop delivered the wrong ordered item. Also I need advice on a criminal police investigation. What parts are in scope?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": [
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "AI_status": "withheld",
+    "reason": "citation_validation_failed",
+    "claims": [],
+    "unanswered": [
+      {
+        "component_id": "concern_002",
+        "query": "a separate shop delivered the wrong ordered item",
+        "reason": "source_context_unavailable"
+      }
+    ],
+    "elapsed_ms": 14250.0
+  },
+  {
+    "id": "DEMO_NEW_017",
+    "fresh": true,
+    "group": "mixed",
+    "question": "I am employed by an insurance company in a private office and my salary is late. Separately I bought a defective blender from a retail shop. Explain the employment and purchase concerns.",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 6,
+      "negative_control_correct": null,
+      "issues": [
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under the Omnibus Rules implementing the Labor Code, Section 3(a) requires that wages be paid at least once every two weeks or twice a month, i.e., at intervals not exceeding sixteen (16) days, unless a force‑majeure event or other circumstance beyond the employer’s control makes such regular payment impossible; in that case the employer must pay the wages immediately after the event ends. If the job is paid by results, the same sixteen‑day interval applies proportionally, and final settlement must be made immediately when the work is finished.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.",
+            "start": 11,
+            "end": 388,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed.",
+            "start": 390,
+            "end": 599,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_002",
+        "text": "Republic Act 7394, Art. 100 makes the supplier(s) of a consumer product jointly liable for any quality imperfection that renders the product unfit for its intended use or lowers its value, including mismatches with the information on its packaging or advertising. If the defect is not corrected within thirty (30) days, the consumer may choose either (a) a replacement of the same kind in perfect condition, (b) an immediate reimbursement of the purchase price with monetary updating, or (c) a proportionate price reduction. The correction period may be varied by agreement but cannot be less than seven (7) nor more than one hundred and eighty (180) days, and the consumer may invoke the alternative remedies immediately when repair would jeopardize the product’s quality.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+            "provision_id": "RA_7394_1992__art_100",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 100",
+            "quote": "Liability for Product and Service Imperfection. - The suppliers of durable or nondurable consumer products are jointly liable for imperfections in quality that render the products unfit or inadequate for consumption for which they are designed or decrease their value, and for those resulting from inconsistency with the information provided on the container, packaging, labels or publicity messages/advertisement, with due regard to the variations resulting from their nature, the consumer being able to demand replacement to the imperfect parts.",
+            "start": 10,
+            "end": 557,
+            "citation_label": "Republic Act No. 7394, ART. 100"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+            "provision_id": "RA_7394_1992__art_100",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 100",
+            "quote": "If the imperfection is not corrected within thirty (30) days, the consumer may alternatively demand at his option:",
+            "start": 559,
+            "end": 673,
+            "citation_label": "Republic Act No. 7394, ART. 100"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+            "provision_id": "RA_7394_1992__art_100",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 100",
+            "quote": "the replacement of the product by another of the same kind, in a perfect state of use;",
+            "start": 674,
+            "end": 760,
+            "citation_label": "Republic Act No. 7394, ART. 100"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 17296.99999999957
+  },
+  {
+    "id": "DEMO_NEW_018",
+    "fresh": true,
+    "group": "mixed",
+    "question": "A private employer uses repeated contracts for work usual to its business. Separately a grocery keeps the remaining cash change. What general recorded frameworks cover the two concerns?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 8,
+      "negative_control_correct": null,
+      "issues": [
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where an employee is hired to perform activities that are usually necessary or desirable in the employer’s ordinary business or trade, the employment is deemed regular, except when the work is fixed for a specific project whose completion was determined at hiring or is seasonal and limited to that season. Any employment not covered by those conditions is casual, but an employee who has rendered at least one year of service—whether continuous or broken—becomes regular with respect to that activity.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_295__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_295",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 295",
+            "quote": "employment shall be deemed to be regular where the employee has been engaged to perform",
+            "start": 173,
+            "end": 260,
+            "citation_label": "PD 442, as amended and renumbered, ART. 295"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_295__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_295",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 295",
+            "quote": "employer, except where the employment has been fixed for a specific project or undertaking",
+            "start": 351,
+            "end": 441,
+            "citation_label": "PD 442, as amended and renumbered, ART. 295"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_295__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_295",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 295",
+            "quote": "paragraph: Provided, That any employee who has rendered at least one year of service,",
+            "start": 749,
+            "end": 834,
+            "citation_label": "PD 442, as amended and renumbered, ART. 295"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_002",
+        "text": "Business establishments must give consumers the exact change without waiting to be asked; it is unlawful to shortchange a consumer even by a small amount, and they may not substitute other forms of payment or seek exemption. If an establishment fails or refuses to give the proper change, DTI may impose a fine and the establishment must also pay the amount of change withheld to the complainant.",
+        "citations": [
+          {
+            "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+            "provision_id": "RA_10909_2016__sec_4",
+            "document_id": "RA_10909_2016",
+            "citation_display": "Republic Act No. 10909, SEC. 4",
+            "quote": "Regulated Acts. – It shall be the duty of the business establishment to give the exact change to the consumer without waiting for the consumer to ask for the same.",
+            "start": 8,
+            "end": 171,
+            "citation_label": "Republic Act No. 10909, SEC. 4"
+          },
+          {
+            "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+            "provision_id": "RA_10909_2016__sec_4",
+            "document_id": "RA_10909_2016",
+            "citation_display": "Republic Act No. 10909, SEC. 4",
+            "quote": "(a) In General. – It shall be unlawful for any business establishment to shortchange a consumer, even if such change is only of a small amount.",
+            "start": 173,
+            "end": 316,
+            "citation_label": "Republic Act No. 10909, SEC. 4"
+          },
+          {
+            "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+            "provision_id": "DTI_DAO_16_03__rule_vii_penalties__section_2",
+            "document_id": "DTI_DAO_16_03",
+            "citation_display": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2",
+            "quote": "determined from the audit of DTI, shall be paid by the said establishment to the",
+            "start": 163,
+            "end": 243,
+            "citation_label": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 12796.99999999957
+  },
+  {
+    "id": "DEMO_NEW_019",
+    "fresh": true,
+    "group": "out_of_scope",
+    "question": "My bank froze my savings account after an unexpected transfer. What banking remedy should I use?",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 155.99999999994907
+  },
+  {
+    "id": "DEMO_NEW_020",
+    "fresh": true,
+    "group": "out_of_scope",
+    "question": "An online store publicly posted my home address. My only concern is privacy, not a refund or product defect. What privacy case can I file?",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 313.00000000010186
+  },
+  {
+    "id": "DEMO_NEW_021",
+    "fresh": true,
+    "group": "out_of_scope",
+    "question": "I am a city government employee in the Philippines disputing my overtime. What civil-service pay rules apply?",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 140.00000000032742
+  },
+  {
+    "id": "DEMO_NEW_022",
+    "fresh": true,
+    "group": "out_of_scope",
+    "question": "OFW ako sa Qatar at hindi pa binabayaran ng employer ang overseas salary ko. What overseas employment process applies?",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 280.99999999994907
+  },
+  {
+    "id": "DEMO_NEW_023",
+    "fresh": true,
+    "group": "out_of_scope",
+    "question": "A stranger stole my bicycle outside my house. What criminal charges should I file?",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 140.00000000032742
+  },
+  {
+    "id": "DEMO_NEW_024",
+    "fresh": true,
+    "group": "out_of_scope",
+    "question": "My private employer dismissed me last week. I only want a prediction whether I will win my labor case, not general legal information.",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 280.99999999994907
+  },
+  {
+    "id": "PH4_009",
+    "fresh": false,
+    "group": "labor",
+    "question": "Sa private office ko, kulang ako ng isang oras noong Tuesday at may overtime noong Thursday. Gusto nilang i-offset ang dalawa. Allowed ba iyon?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under Article 88, any shortfall of work (undertime) on a given day cannot be cancelled out by overtime done on a different day; the employer must still pay the required additional compensation even if the employee is allowed to take leave on another day of the week.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_88",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 88",
+            "quote": "Undertime Not Offset by Overtime.74 – Undertime work on any particular day",
+            "start": 9,
+            "end": 83,
+            "citation_label": "PD 442, as amended and renumbered, ART. 88"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_88",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 88",
+            "quote": "shall not be offset by overtime work on any other day.",
+            "start": 84,
+            "end": 138,
+            "citation_label": "PD 442, as amended and renumbered, ART. 88"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_88",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 88",
+            "quote": "go on leave on some other day of the week shall not exempt the employer from paying the",
+            "start": 175,
+            "end": 262,
+            "citation_label": "PD 442, as amended and renumbered, ART. 88"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 4438.000000000102
+  },
+  {
+    "id": "PH4_087",
+    "fresh": false,
+    "group": "out_of_scope",
+    "question": "Ano ang exact current minimum daily wage in pesos for my region in the Philippines? I want the current rate, not general wage-payment rules.",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 438.00000000010186
+  },
+  {
+    "id": "PH4_060",
+    "fresh": false,
+    "group": "mixed",
+    "question": "My private employer paid only an ordinary daily wage for work on a regular holiday. Separately, an online platform offers no complaint channel for a nonconforming retail order. Which recorded rules apply to these different concerns?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 7,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where the employer is not a retail or service establishment that regularly employs fewer than ten workers, Art. 94(a) of PD 442 requires payment of the regular daily wage on a regular holiday, but Art. 94(b) obliges the employer to pay a compensation equivalent to twice the regular rate if the employee is required to work. The exception in Art. 94(a) applies only to those small retail/service firms.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage",
+            "start": 9,
+            "end": 88,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "during regular holidays, except in retail and service establishments regularly employing less",
+            "start": 89,
+            "end": 182,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_94",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 94",
+            "quote": "than ten (10) workers;",
+            "start": 183,
+            "end": 205,
+            "citation_label": "PD 442, as amended and renumbered, ART. 94"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_002",
+        "text": "For a non‑conforming retail order on a digital platform, Sec. 24 of RA 11967 mandates that the aggrieved party first use the platform’s internal redress mechanism, and the mechanism is deemed exhausted only if the complaint remains unresolved after seven (7) calendar days from filing.",
+        "citations": [
+          {
+            "chunk_id": "RA_11967_2023__sec_24__chunk_0001",
+            "provision_id": "RA_11967_2023__sec_24",
+            "document_id": "RA_11967_2023",
+            "citation_display": "Republic Act No. 11967, SEC. 24",
+            "quote": "Internal Redress Mechanism. - An aggrieved party shall avail of the internal redress mechanism of the digital platform, e-marketplace or e-retailer prior to the filing of a complaint before any court or appropriate government agency, or resorting to alternative dispute resolution.",
+            "start": 9,
+            "end": 290,
+            "citation_label": "Republic Act No. 11967, SEC. 24"
+          },
+          {
+            "chunk_id": "RA_11967_2023__sec_24__chunk_0001",
+            "provision_id": "RA_11967_2023__sec_24",
+            "document_id": "RA_11967_2023",
+            "citation_display": "Republic Act No. 11967, SEC. 24",
+            "quote": "Such mechanism is deemed exhausted if the complaint remains unresolved after seven (7) calendar days from filing thereof.",
+            "start": 291,
+            "end": 412,
+            "citation_label": "Republic Act No. 11967, SEC. 24"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 17953.00000000043
+  },
+  {
+    "id": "PH4_037",
+    "fresh": false,
+    "group": "consumer",
+    "question": "A retail cashier will give me only a store voucher for my remaining cash change even though I did not agree. Can a voucher replace the balance owed?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where a business establishment refuses to give the exact cash change and instead offers a store voucher, the law makes that unlawful because change must be given in present currency and the establishment cannot ask the consumer’s permission to substitute another form; if it shortchanges the consumer, the establishment must pay the amount of change owed in cash, in addition to any fine, as determined by DTI audit.",
+        "citations": [
+          {
+            "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+            "provision_id": "RA_10909_2016__sec_4",
+            "document_id": "RA_10909_2016",
+            "citation_display": "Republic Act No. 10909, SEC. 4",
+            "quote": "(b) Other Prohibitions. – It shall also be unlawful for any business establishment which sells goods or provides services to give the change in any form other than the present currency or to ask the consumers for permission to be exempted from the provisions of this Act for any reason, including the nonavailability of small bills or coins.",
+            "start": 456,
+            "end": 797,
+            "citation_label": "Republic Act No. 10909, SEC. 4"
+          },
+          {
+            "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+            "provision_id": "DTI_DAO_16_03__rule_vii_penalties__section_2",
+            "document_id": "DTI_DAO_16_03",
+            "citation_display": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2",
+            "quote": "determined from the audit of DTI, shall be paid by the said establishment to the",
+            "start": 163,
+            "end": 243,
+            "citation_label": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6"
+          },
+          {
+            "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+            "provision_id": "DTI_DAO_16_03__rule_vii_penalties__section_2",
+            "document_id": "DTI_DAO_16_03",
+            "citation_display": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2",
+            "quote": "complainant.",
+            "start": 244,
+            "end": 256,
+            "citation_label": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 9984.000000000378
+  },
+  {
+    "id": "PH4_019",
+    "fresh": false,
+    "group": "labor",
+    "question": "Private cinema cashier ako. After a shortage allegation, they sent me home permanently without asking for my side. Ano ang general due-process safeguards?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 4,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "For a dismissal, the employer must first give the worker a written notice that specifies the acts or omissions constituting the grounds for dismissal, and the worker must be afforded due process, meaning the dismissal can occur only for a just or authorized cause and after the worker is given a reasonable chance to answer the allegations and be heard with a representative if desired.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_1__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_1",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 1",
+            "quote": "Security of tenure and due process. — No workers shall be dismissed except for a just or authorized cause provided by law and after due process.",
+            "start": 11,
+            "end": 155,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK FIVE, CHAPTER IV, RULE XIV"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_2__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_2",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 2",
+            "quote": "Notice of dismissal. — Any employer who seeks to dismiss a worker shall furnish him a written notice stating the particular acts or omission constituting the grounds for his dismissal.",
+            "start": 11,
+            "end": 195,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 2 — BOOK FIVE, CHAPTER IV, RULE XIV"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_5__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_5",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 5",
+            "quote": "The employer shall afford the worker ample opportunity to be heard and to defend himself with the assistance of his representative, if he so desires.",
+            "start": 173,
+            "end": 322,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 5 — BOOK FIVE, CHAPTER IV, RULE XIV"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 7717.999999999847
+  },
+  {
+    "id": "PH4_086",
+    "fresh": false,
+    "group": "out_of_scope",
+    "question": "My private employer dismissed me. I only want you to predict whether I will win my case and the amount the tribunal will award.",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 421.9999999995707
+  },
+  {
+    "id": "PH4_028",
+    "fresh": false,
+    "group": "consumer",
+    "question": "The sealed household detergent I bought at a supermarket is leaking from a cracked container. What product-quality or safety rules can this project explain without assuming who caused the crack?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under Republic Act No. 7394, Art. 100, the supplier of a consumer product is jointly liable for imperfections that make the product unfit or reduce its value. If the defect is not corrected within thirty (30) days, the consumer may choose replacement, a refund with monetary updating, or a proportionate price reduction; the parties may agree to shorten or extend that period, but it cannot be less than seven (7) nor more than one hundred and eighty (180) days. Art. 97 further defines a product as defective when it fails to provide the safety reasonably expected, considering its presentation, the expected use and hazards, and the time it entered circulation, regardless of fault.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+            "provision_id": "RA_7394_1992__art_100",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 100",
+            "quote": "If the imperfection is not corrected within thirty (30) days, the consumer may alternatively demand at his option:",
+            "start": 559,
+            "end": 673,
+            "citation_label": "Republic Act No. 7394, ART. 100"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+            "provision_id": "RA_7394_1992__art_100",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 100",
+            "quote": "The parties may agree to reduce or increase the term specified in the immediately preceding paragraph; but such shall not be less than seven (7) nor more than one hundred and eighty (180) days.",
+            "start": 913,
+            "end": 1106,
+            "citation_label": "Republic Act No. 7394, ART. 100"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+            "provision_id": "RA_7394_1992__art_97",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 97",
+            "quote": "A product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:",
+            "start": 455,
+            "end": 618,
+            "citation_label": "Republic Act No. 7394, ART. 97"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 14469.000000000051
+  },
+  {
+    "id": "PH4_071",
+    "fresh": false,
+    "group": "mixed",
+    "question": "A private employer deducts cash shortages without hearing workers. An online merchant also sent me the wrong appliance model. In a third separate incident I need criminal-case advice about a stolen bicycle. What is within scope?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 8,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where an employer wants to deduct wages for cash shortages, the Omnibus Rules (Section 14) allow such deduction only if (a) the employee is clearly shown responsible, (b) the employee is given a reasonable opportunity to show cause, (c) the amount is fair, actual loss and does not exceed 20 % of the weekly wage, and (d) the deduction is made in a trade where this practice is recognized. Moreover, PD 442 Art 116 makes it unlawful to withhold any part of a worker’s wages without the worker’s consent. Thus, deducting cash shortages without hearing the worker violates both the show‑cause requirement and the consent prohibition.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 14",
+            "quote": "Deduction for loss or damage. — Where the employer is engaged in a trade, occupation or business where the practice of making deductions or requiring deposits is recognized to answer for the reimbursement of loss or damage to tools, materials, or equipment supplied by the employer to the employee, the employer may make wage deductions or require the employees to make deposits from which deductions shall be made, subject to the following conditions:",
+            "start": 12,
+            "end": 464,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 14"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_116__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_116",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 116",
+            "quote": "Withholding of Wages and Kickbacks Prohibited. – It shall be unlawful for any",
+            "start": 10,
+            "end": 87,
+            "citation_label": "PD 442, as amended and renumbered, ART. 116"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_002",
+        "text": "If an online merchant delivers a different appliance model than the one ordered, the consumer is treated as having received a non‑conforming product. Under Republic Act No. 11967 Sec. 20, the consumer may demand repair, replacement, or refund, and the merchant must be allowed to retrieve the originally delivered goods at no cost to the consumer within a reasonable period, unless the parties agree otherwise. The merchant’s primary liability for such breach is affirmed by Sec. 25 of the same Act.",
+        "citations": [
+          {
+            "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+            "provision_id": "RA_11967_2023__sec_20",
+            "document_id": "RA_11967_2023",
+            "citation_display": "Republic Act No. 11967, SEC. 20",
+            "quote": "Remedies of Online Consumers. - In case of defect, malfunction, or loss without the fault of the online consumer, or failure to conform with warranty or any liability of the online merchant or e-retailer arising from the contract, the online consumer shall have the right to pursue repair, replacement, refund or other remedies provided under Republic Act No. 7394 or any existing relevant laws.",
+            "start": 9,
+            "end": 404,
+            "citation_label": "Republic Act No. 11967, SEC. 20"
+          },
+          {
+            "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+            "provision_id": "RA_11967_2023__sec_20",
+            "document_id": "RA_11967_2023",
+            "citation_display": "Republic Act No. 11967, SEC. 20",
+            "quote": "When the online consumer avails replacement or refund as a remedy, the online merchant is entitled to the return of the original goods delivered, without any cost to the online consumer, within a reasonable period from the receipt thereof, unless otherwise agreed upon by the parties.",
+            "start": 406,
+            "end": 690,
+            "citation_label": "Republic Act No. 11967, SEC. 20"
+          },
+          {
+            "chunk_id": "RA_11967_2023__sec_25__chunk_0001",
+            "provision_id": "RA_11967_2023__sec_25",
+            "document_id": "RA_11967_2023",
+            "citation_display": "Republic Act No. 11967, SEC. 25",
+            "quote": "Primary Liability of E-retailers or Online Merchants. - The e-retailer or online merchant shall be primarily liable for indemnifying the online consumer in civil actions or administrative complaints arising from the internet transaction, without prejudice to the imposition of other penalties as may be appropriate under Section 29 of this Act and other laws.",
+            "start": 9,
+            "end": 368,
+            "citation_label": "Republic Act No. 11967, SEC. 25"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 18390.99999999962
+  },
+  {
+    "id": "PH4_007",
+    "fresh": false,
+    "group": "labor",
+    "question": "Private factory worker ako. Required kaming manatili sa station nang dalawang oras habang hinihintay ang supervisor, pero hindi raw counted dahil wala pang production. What rule covers waiting time?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "source_context_unavailable",
+    "claims": [],
+    "unanswered": [
+      {
+        "component_id": "concern_001",
+        "query": "private employment: required kaming manatili sa station nang dalawang oras habang hinihintay ang supervisor, pero hindi raw counted dahil wala pang production. what rule covers waiting time",
+        "reason": "source_context_unavailable"
+      }
+    ],
+    "elapsed_ms": 313.00000000010186
+  },
+  {
+    "id": "PH4_010",
+    "fresh": false,
+    "group": "labor",
+    "question": "My private employer says I can take Friday off instead of receiving the additional pay for overtime already worked on Monday. What does the recorded rule say about that?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where an employee works overtime, the employer must still pay the overtime premium; the employee’s undertime or a granted leave on another day does not offset that obligation. Permission to take leave on a different day does not excuse the employer from paying the additional compensation required by law.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_88",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 88",
+            "quote": "shall not be offset by overtime work on any other day.",
+            "start": 84,
+            "end": 138,
+            "citation_label": "PD 442, as amended and renumbered, ART. 88"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_88",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 88",
+            "quote": "go on leave on some other day of the week shall not exempt the employer from paying the",
+            "start": 175,
+            "end": 262,
+            "citation_label": "PD 442, as amended and renumbered, ART. 88"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_88",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 88",
+            "quote": "additional compensation required in this Chapter.",
+            "start": 263,
+            "end": 312,
+            "citation_label": "PD 442, as amended and renumbered, ART. 88"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 9609.000000000378
+  },
+  {
+    "id": "PH4_047",
+    "fresh": false,
+    "group": "consumer",
+    "question": "The battery cover of a newly bought children’s toy falls off during ordinary use. What product-safety standard and limitations can be described without declaring liability already proved?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under the Consumer Act, a product is deemed defective when it fails to provide the safety that a consumer rightfully expects, taking into account the product’s presentation, the use and hazards reasonably expected, and the time it was placed on the market. However, a manufacturer, producer or importer is not liable if it can show that it did not place the product on the market, that the product placed on the market had no defect, or that the consumer or a third party was solely at fault.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+            "provision_id": "RA_7394_1992__art_97",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 97",
+            "quote": "A product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:",
+            "start": 455,
+            "end": 618,
+            "citation_label": "Republic Act No. 7394, ART. 97"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+            "provision_id": "RA_7394_1992__art_97",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 97",
+            "quote": "The manufacturer, builder, producer or importer shall not be held liable when it evidences:",
+            "start": 836,
+            "end": 927,
+            "citation_label": "Republic Act No. 7394, ART. 97"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+            "provision_id": "RA_7394_1992__art_97",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 97",
+            "quote": "that it did not place the product on the market;",
+            "start": 928,
+            "end": 976,
+            "citation_label": "Republic Act No. 7394, ART. 97"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 9078.999999999724
+  },
+  {
+    "id": "PH4_012",
+    "fresh": false,
+    "group": "labor",
+    "question": "I work for a private restaurant. I asked in writing for a different weekly rest day because of my religion. Must the employer consider that preference, and are there limits?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where an employee’s request for a weekly rest day is based on religious grounds, the employer must honor that preference, provided the employee submits the request in writing at least seven (7) days before the desired start date. However, if granting the request would inevitably cause serious prejudice or obstruction to the business and the employer cannot reasonably adopt other remedial measures, the employer may instead set the rest day of its own choosing for at least two (2) days in a month.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+            "quote": "Preference of employee. — The preference of the employee as to his weekly day of rest shall be respected by the employer if the same is based on religious grounds.",
+            "start": 11,
+            "end": 174,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 4 — BOOK THREE, RULE III"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+            "quote": "The employee shall make known his preference to the employer in writing at least seven (7) days before the desired effectivity of the initial rest day so preferred.",
+            "start": 175,
+            "end": 339,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 4 — BOOK THREE, RULE III"
+          },
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+            "quote": "Where, however, the choice of the employee as to his rest day based on religious grounds will inevitably result in serious prejudice or obstruction to the operations of the undertaking and the employer cannot normally be expected to resort to other remedial measures, the employer may so schedule the weekly rest day of his choice for at least two (2) days in a month.",
+            "start": 341,
+            "end": 709,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 4 — BOOK THREE, RULE III"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 6938.000000000102
+  },
+  {
+    "id": "PH4_057",
+    "fresh": false,
+    "group": "mixed",
+    "question": "Private factory employee ako doing the usual work of the business on repeated short contracts. I also bought a new defective home blender from a store. What can your sources say about these separate matters?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 4,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "citation_validation_failed",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 16640.000000000327
+  },
+  {
+    "id": "PH4_030",
+    "fresh": false,
+    "group": "consumer",
+    "question": "The retailer says it has no responsibility for my written-warranty claim because only the manufacturer handles repairs. What is the retailer’s role under the recorded warranty provision?",
+    "expectation": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under the warranty law, a retailer is only secondarily liable: if both the manufacturer and the distributor refuse to honor the written warranty, the retailer must step in and cover the expenses needed to fulfill the warranty, but the retailer may still sue the distributor or manufacturer to recover those costs. Moreover, when the buyer presents a claim, the retailer (if not the distributor) must forward the claim to the distributor on the buyer’s behalf without charging the buyer any additional fee.",
+        "citations": [
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "Retail. - The retailer shall be subsidiarily liable under the warranty in case of failure of both the manufacturer and distributor to honor the warranty.",
+            "start": 2232,
+            "end": 2385,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "In such case, the retailer shall shoulder the expenses and costs necessary to honor the warranty.",
+            "start": 2386,
+            "end": 2483,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          },
+          {
+            "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+            "provision_id": "RA_7394_1992__art_68",
+            "document_id": "RA_7394_1992",
+            "citation_display": "Republic Act No. 7394, ART. 68",
+            "quote": "In the case of a retailer other than the distributor, the former shall take responsibility without cost to the buyer of presenting the warranty claim to the distributor in the consumer's behalf.",
+            "start": 3178,
+            "end": 3372,
+            "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 9421.000000000276
+  },
+  {
+    "id": "PH4_053",
+    "fresh": false,
+    "group": "mixed",
+    "question": "Binawasan ng private employer ko ang wages ko para sa nawalang equipment nang hindi ako pinapaliwanag. Hiwalay dito, wrong model ang electric kettle na delivered ng online merchant. What frameworks fit each?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 8,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "citation_validation_failed",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 14188.000000000102
+  },
+  {
+    "id": "PH4_072",
+    "fresh": false,
+    "group": "mixed",
+    "question": "Private food-shop worker ako na walang weekly rest day. A grocery separately charged above its price label. My landlord also kept my rental deposit. Please separate the supported concerns.",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 7,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "partially_generated",
+    "reason": "supported_parts_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where the statutory conditions are met, every employer must give each employee a rest period of at least twenty‑four (24) consecutive hours after six consecutive normal work days; the rule applies to all employers, including private food‑shop operators.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "Weekly rest day. — Every employer shall give his employees a rest period of not less than twenty-four (24) consecutive hours after every six consecutive normal work days.",
+            "start": 11,
+            "end": 181,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE III"
+          }
+        ]
+      }
+    ],
+    "unanswered": [
+      {
+        "component_id": "concern_002",
+        "query": "a grocery separately charged above its price label",
+        "reason": "claim_support_failed"
+      }
+    ],
+    "elapsed_ms": 19171.99999999957
+  },
+  {
+    "id": "PH4_008",
+    "fresh": false,
+    "group": "labor",
+    "question": "A private chocolate-packaging shop schedules its rank-and-file staff for nine working hours on an ordinary Wednesday. How is the time beyond the normal day generally treated?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "For an ordinary workday, any employee may be required to work beyond eight (8) hours only if the employer pays overtime compensation equal to the regular wage plus at least twenty‑five percent (25%) of that wage.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_87",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 87",
+            "quote": "Overtime Work. – Work may be performed beyond eight (8) hours a day",
+            "start": 9,
+            "end": 76,
+            "citation_label": "PD 442, as amended and renumbered, ART. 87"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_87",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 87",
+            "quote": "provided that the employee is paid for the overtime work, an additional compensation",
+            "start": 77,
+            "end": 161,
+            "citation_label": "PD 442, as amended and renumbered, ART. 87"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_87",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 87",
+            "quote": "equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+            "start": 162,
+            "end": 241,
+            "citation_label": "PD 442, as amended and renumbered, ART. 87"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 5109.000000000378
+  },
+  {
+    "id": "PH4_064",
+    "fresh": false,
+    "group": "mixed",
+    "question": "Private warehouse employee ako at delayed ang wages. Sa hiwalay na concern, may unauthorized fee sa savings account ko sa bank. What can this project address?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "For a private warehouse employee, wages must be paid at least once every two weeks or twice a month, and the interval between payments cannot exceed sixteen days, unless a force‑majeure event or circumstances beyond the employer’s control prevent regular payment; in such cases the employer must pay the wages immediately after the event or circumstance ends.",
+        "citations": [
+          {
+            "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+            "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+            "document_id": "LAB_IRR_1989",
+            "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+            "quote": "Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.",
+            "start": 11,
+            "end": 388,
+            "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 7578.000000000429
+  },
+  {
+    "id": "PH4_079",
+    "fresh": false,
+    "group": "out_of_scope",
+    "question": "OFW ako working for an employer in Saudi Arabia. Delayed ang overseas salary ko. What overseas labor process should I follow?",
+    "expectation": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "supported_concern_required",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 155.99999999994907
+  },
+  {
+    "id": "PH4_020",
+    "fresh": false,
+    "group": "labor",
+    "question": "A private distributor is abolishing several positions because of redundancy. The affected workers were told verbally to stop coming tomorrow. What written-notice framework applies?",
+    "expectation": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Where an employer is eliminating positions because of redundancy, the law requires the employer to serve a written notice on the affected workers and the Department of Labor and Employment at least one (1) month before the intended date of termination.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_298",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 298",
+            "quote": "provisions of this Title, by serving a written notice on the workers and the Ministry of Labor",
+            "start": 362,
+            "end": 456,
+            "citation_label": "PD 442, as amended and renumbered, ART. 298"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_298",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 298",
+            "quote": "and Employment at least one (1) month before the intended date thereof.",
+            "start": 457,
+            "end": 528,
+            "citation_label": "PD 442, as amended and renumbered, ART. 298"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 6094.000000000051
+  },
+  {
+    "id": "PH4_056",
+    "fresh": false,
+    "group": "mixed",
+    "question": "A private contractor hired me for a project without identifying its scope at the start. Separately, a grocery will not give my exact cash change. Can you explain the general rules for both?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 8,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "generated",
+    "reason": "citations_and_automated_support_checked",
+    "claims": [
+      {
+        "claim_id": "development_1",
+        "component_id": "concern_001",
+        "text": "Under the Labor Code, an employee is considered regular when engaged to perform activities that are usually necessary or desirable in the employer’s usual business, unless the work is fixed for a specific project whose completion or termination was already determined at the time of engagement, or it is seasonal. If the contractor’s job is truly a specific‑project hire and the project’s end was set when you were hired, the employment would not be deemed regular; otherwise the regular‑employment rule applies. An employee not covered by that rule and who has not rendered at least one year of service is deemed casual.",
+        "citations": [
+          {
+            "chunk_id": "LAB_CODE_2022__art_295__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_295",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 295",
+            "quote": "employment shall be deemed to be regular where the employee has been engaged to perform",
+            "start": 173,
+            "end": 260,
+            "citation_label": "PD 442, as amended and renumbered, ART. 295"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_295__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_295",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 295",
+            "quote": "employer, except where the employment has been fixed for a specific project or undertaking",
+            "start": 351,
+            "end": 441,
+            "citation_label": "PD 442, as amended and renumbered, ART. 295"
+          },
+          {
+            "chunk_id": "LAB_CODE_2022__art_295__chunk_0001",
+            "provision_id": "LAB_CODE_2022__art_295",
+            "document_id": "LAB_CODE_2022",
+            "citation_display": "PD 442, as amended and renumbered, ART. 295",
+            "quote": "An employment shall be deemed to be casual if it is not covered by the preceding",
+            "start": 668,
+            "end": 748,
+            "citation_label": "PD 442, as amended and renumbered, ART. 295"
+          }
+        ]
+      },
+      {
+        "claim_id": "development_2",
+        "component_id": "concern_002",
+        "text": "Republic Act 10909 requires every business establishment to give the consumer the exact change without waiting to be asked, and makes it unlawful to shortchange even a small amount. The Department of Trade and Industry’s Administrative Order 16‑03 adds that, besides any fine, the establishment must pay the complainant the total amount of change it refused or failed to give, as determined by a DTI audit.",
+        "citations": [
+          {
+            "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+            "provision_id": "RA_10909_2016__sec_4",
+            "document_id": "RA_10909_2016",
+            "citation_display": "Republic Act No. 10909, SEC. 4",
+            "quote": "Regulated Acts. – It shall be the duty of the business establishment to give the exact change to the consumer without waiting for the consumer to ask for the same.",
+            "start": 8,
+            "end": 171,
+            "citation_label": "Republic Act No. 10909, SEC. 4"
+          },
+          {
+            "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+            "provision_id": "RA_10909_2016__sec_4",
+            "document_id": "RA_10909_2016",
+            "citation_display": "Republic Act No. 10909, SEC. 4",
+            "quote": "(a) In General. – It shall be unlawful for any business establishment to shortchange a consumer, even if such change is only of a small amount.",
+            "start": 173,
+            "end": 316,
+            "citation_label": "Republic Act No. 10909, SEC. 4"
+          },
+          {
+            "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+            "provision_id": "DTI_DAO_16_03__rule_vii_penalties__section_2",
+            "document_id": "DTI_DAO_16_03",
+            "citation_display": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2",
+            "quote": "Shortchange Amount. - In addition to the amount of the fine mentioned",
+            "start": 11,
+            "end": 80,
+            "citation_label": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6"
+          }
+        ]
+      }
+    ],
+    "unanswered": [],
+    "elapsed_ms": 18921.000000000276
+  },
+  {
+    "id": "PH4_051",
+    "fresh": false,
+    "group": "mixed",
+    "question": "Private pet-shop employee ako na hindi pa sumasahod. Sa hiwalay na purchase, mas mataas ang singil ng grocery kaysa sa shelf price. Ano ang puwedeng ipaliwanag para sa dalawang issue?",
+    "expectation": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 6,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "AI_status": "withheld",
+    "reason": "provider_unavailable",
+    "claims": [],
+    "unanswered": [],
+    "elapsed_ms": 36734.00000000038
+  }
+]

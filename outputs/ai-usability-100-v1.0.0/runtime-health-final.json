@@ -1,0 +1,10 @@
+{
+  "status": "ready",
+  "classifier": "outputs/item10-classifier-v1.5.44",
+  "retrieval": "outputs/item11-retrieval-v1.3.33",
+  "verifier": "item12-verifier-v1.0.40",
+  "runtime_matches_current": true,
+  "normalizer_configured": true,
+  "development_explanations_enabled": true,
+  "current_legal_guidance_allowed": false
+}

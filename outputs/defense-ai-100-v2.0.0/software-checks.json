@@ -1,0 +1,43 @@
+{
+  "verifier": {
+    "tests_run": 37,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "classifier": {
+    "tests_run": 69,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "retrieval": {
+    "tests_run": 59,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "backend": {
+    "tests_run": 260,
+    "passed": true
+  },
+  "frontend": {
+    "tests_run": 31,
+    "passed": true
+  },
+  "frontend_build": {
+    "passed": true
+  },
+  "frontend_lint": {
+    "passed": true
+  },
+  "classifier_contrasts": {
+    "tests_run": 29,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  }
+}

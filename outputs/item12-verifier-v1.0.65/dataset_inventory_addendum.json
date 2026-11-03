@@ -1,0 +1,10 @@
+{
+  "new_canonical_authorities": 0,
+  "new_bounded_official_corroborating_excerpts": 2,
+  "new_training_questions": 0,
+  "new_independent_human_questions": 0,
+  "ai_authored_development_controls": 52,
+  "simulated_review_positive_controls": 2,
+  "same_legal_source_index": "outputs/item11-retrieval-v1.3.59",
+  "role": "Software verification development; not a new independent evaluation set."
+}

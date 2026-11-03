@@ -39,7 +39,10 @@ export function AppShell() {
         if (event.key === "Escape" && menuOpen) { setMenuOpen(false); menuRef.current?.focus(); }
       }}>
         <div className="header-inner">
-          <NavLink to="/" className="wordmark" onClick={() => setMenuOpen(false)}>Recto &amp; Co. Legal</NavLink>
+          <NavLink to="/" className="wordmark" onClick={() => setMenuOpen(false)}>
+            <img className="brand-logo" src="/logo.png" width="380" height="310" alt="" />
+            <span>Recto &amp; Co. Legal</span>
+          </NavLink>
           <button ref={menuRef} className="menu-toggle" type="button" aria-expanded={menuOpen} aria-controls="site-nav" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <X size={18} aria-hidden="true" /> : <Menu size={18} aria-hidden="true" />}
             {menuOpen ? "Close" : "Menu"}

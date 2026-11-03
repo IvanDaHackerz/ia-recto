@@ -1,0 +1,15 @@
+test_boundaries_preserve_actors_and_function_words (backend.test_typing_features.TypingFeaturesTests.test_boundaries_preserve_actors_and_function_words) ... ok
+test_existing_training_wordforms_are_preserved_without_evaluation_vocabulary (backend.test_typing_features.TypingFeaturesTests.test_existing_training_wordforms_are_preserved_without_evaluation_vocabulary) ... ok
+test_literals_names_negation_and_numbers_are_not_repaired (backend.test_typing_features.TypingFeaturesTests.test_literals_names_negation_and_numbers_are_not_repaired) ... ok
+test_matching_is_idempotent (backend.test_typing_features.TypingFeaturesTests.test_matching_is_idempotent) ... ok
+test_privacy_deletion_does_not_exclude_product_label_correction (backend.test_typing_features.TypingFeaturesTests.test_privacy_deletion_does_not_exclude_product_label_correction) ... ok
+test_product_label_quantity_is_supported_without_guessing_compressed_word (backend.test_typing_features.TypingFeaturesTests.test_product_label_quantity_is_supported_without_guessing_compressed_word) ... ok
+test_repeated_scope_and_function_words_keep_question_context (backend.test_typing_features.TypingFeaturesTests.test_repeated_scope_and_function_words_keep_question_context) ... ok
+test_scope_contrasts_survive_typing_noise (backend.test_typing_features.TypingFeaturesTests.test_scope_contrasts_survive_typing_noise) ... ok
+test_separate_supported_and_excluded_concerns_remain_separate (backend.test_typing_features.TypingFeaturesTests.test_separate_supported_and_excluded_concerns_remain_separate) ... ok
+test_unique_procedure_and_provider_spellings_use_declared_terms (backend.test_typing_features.TypingFeaturesTests.test_unique_procedure_and_provider_spellings_use_declared_terms) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.098s
+
+OK

@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "id": "WEB01",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB02",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB03",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB04",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB05",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB06",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB07",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB08",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB09",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB10",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB11",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB12",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB13",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB14",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB15",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB16",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    },
+    {
+      "id": "WEB17",
+      "labels_and_flow_match": true,
+      "exact_quotes": true,
+      "zero_provider_calls": true
+    }
+  ],
+  "count": 17,
+  "matches": 17,
+  "exact_quote_cases": 17,
+  "zero_provider_cases": 17
+}

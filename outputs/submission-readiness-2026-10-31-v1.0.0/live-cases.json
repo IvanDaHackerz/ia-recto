@@ -1,0 +1,2286 @@
+[
+  {
+    "case_id": "RD31_001",
+    "family_id": "RD31_001",
+    "group": "L",
+    "topic": "wage_form",
+    "language_style": "taglish",
+    "question_text": "Sa pribadong furniture workshop sa Bulacan ako nagtatrabaho. Gusto ng may-ari na grocery coupons ang kalahati ng sweldo namin. Puwede ba iyon kahit cash ang kailangan namin?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_002",
+    "family_id": "RD31_002",
+    "group": "L",
+    "topic": "pay_frequency",
+    "language_style": "english",
+    "question_text": "I label bottles for a private company in Iloilo. The next payday is always five weeks after the previous one. What wage-payment rule should I understand?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_003",
+    "family_id": "RD31_003",
+    "group": "L",
+    "topic": "pay_delay",
+    "language_style": "noisy_taglish",
+    "question_text": "private printing press ung work q. 2 payday na lumipas, sabi ng boss wala pang bayad ung clients kya wait lng kmi sa sahod. ano pwede kong malaman tungkol dito?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_004",
+    "family_id": "RD31_004",
+    "group": "L",
+    "topic": "loss_deductions",
+    "language_style": "english",
+    "question_text": "A private hardware store wants the whole missing-cash amount taken from whichever cashier was on duty, without checking who caused the shortage. What conditions apply to a wage deduction?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_005",
+    "family_id": "RD31_005",
+    "group": "L",
+    "topic": "payroll_records",
+    "language_style": "taglish",
+    "question_text": "Empleyado ako ng private garment shop sa Taytay. Walang nakalagay na hours, rate, o deductions sa payroll sheet na pinapapirmahan sa amin. Anong records ang dapat tingnan?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_006",
+    "family_id": "RD31_006",
+    "group": "L",
+    "topic": "mandatory_briefing",
+    "language_style": "english",
+    "question_text": "At a private cold-storage business in Davao, staff must attend a safety briefing before the attendance clock is switched on. Does being off the clock settle whether that time counts as work?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_007",
+    "family_id": "RD31_007",
+    "group": "L",
+    "topic": "required_waiting",
+    "language_style": "taglish",
+    "question_text": "Private machine operator ako. Kapag nasira ang makina, bawal kaming umalis dahil anumang oras puwedeng paandarin ulit. Counted ba ang paghihintay na iyon sa oras ng trabaho?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_008",
+    "family_id": "RD31_008",
+    "group": "L",
+    "topic": "meal_period",
+    "language_style": "english",
+    "question_text": "A private packaging plant in Pampanga gives a short lunch period and says continuous operation justifies it. What conditions govern a shorter meal break and whether it counts as working time?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_009",
+    "family_id": "RD31_009",
+    "group": "L",
+    "topic": "short_breaks",
+    "language_style": "taglish",
+    "question_text": "Sa private office namin, binabawas sa oras ang dalawang maikling coffee break. Ano ang general rule para sa short rest breaks, hindi sa lunch break?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_010",
+    "family_id": "RD31_010",
+    "group": "L",
+    "topic": "night_differential",
+    "language_style": "noisy_taglish",
+    "question_text": "pribadong bakery sa Cagayan de Oro aq, 12mn hanggang umaga ung duty. pareho lng hourly rate sa pang umaga. meron bang general rule sa night differential?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_011",
+    "family_id": "RD31_011",
+    "group": "L",
+    "topic": "ordinary_overtime",
+    "language_style": "english",
+    "question_text": "A private sign-making shop in Cavite requires extra work after the ordinary daily hours to finish a rush order. The manager says a monthly salary automatically includes every extra hour. What is the general overtime rule?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_012",
+    "family_id": "RD31_012",
+    "group": "L",
+    "topic": "undertime_offset",
+    "language_style": "taglish",
+    "question_text": "Sa pribadong bodega namin, gusto nilang ibawas ang late ko ngayong linggo sa overtime na natapos ko noong nakaraang linggo. Ano ang rule sa pag-offset ng undertime at overtime?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_013",
+    "family_id": "RD31_013",
+    "group": "L",
+    "topic": "weekly_rest",
+    "language_style": "english",
+    "question_text": "A private convenience store stays open daily, and the owner says that means every employee must also work every day indefinitely. What is the general weekly-rest rule?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_014",
+    "family_id": "RD31_014",
+    "group": "L",
+    "topic": "religious_rest",
+    "language_style": "taglish",
+    "question_text": "Private retail employee ako sa Marikina. Humingi ako ng rest day na tugma sa religious observance ko pero staffing daw ang problema. Paano tinitingnan ang preference na iyon at ang exceptions?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_015",
+    "family_id": "RD31_015",
+    "group": "L",
+    "topic": "holiday_pay",
+    "language_style": "english",
+    "question_text": "A privately owned repair business in Baguio closed on a regular holiday. Management says closing the premises automatically removes holiday pay. What coverage conditions and exceptions should be considered?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_016",
+    "family_id": "RD31_016",
+    "group": "L",
+    "topic": "thirteenth_basic",
+    "language_style": "taglish",
+    "question_text": "Rank-and-file worker ako sa private pet-supply store. Sabi sa amin pang-manager lang daw ang 13th month pay. Ano ang general rule at basic computation na kaya mong ipaliwanag?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_017",
+    "family_id": "RD31_017",
+    "group": "L",
+    "topic": "thirteenth_separation",
+    "language_style": "english",
+    "question_text": "A rank-and-file employee left a private grocery partway through the year. Does your available evidence explain a proportionate thirteenth-month payment, or only a more general rule?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_018",
+    "family_id": "RD31_018",
+    "group": "L",
+    "topic": "regular_activity",
+    "language_style": "english",
+    "question_text": "A private food-packaging company repeatedly hires the same people for short contracts to do its normal year-round production. What is the regular-employment activity test, without deciding the workers' status?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_019",
+    "family_id": "RD31_019",
+    "group": "L",
+    "topic": "project_employment",
+    "language_style": "taglish",
+    "question_text": "Tinanggap ako ng private contractor para raw sa isang project pero walang malinaw na scope na sinabi noong hiring. Ano ang kailangang malinaw tungkol sa project noong umpisa?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_020",
+    "family_id": "RD31_020",
+    "group": "L",
+    "topic": "seasonal_employment",
+    "language_style": "noisy_taglish",
+    "question_text": "sa pribadong fruit farm aq, tuwing picking season lang may work. seasonal daw kmi. ano ba ung exception na yan, wag muna ideclare kung regular aq o hindi.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_021",
+    "family_id": "RD31_021",
+    "group": "L",
+    "topic": "probation_standards",
+    "language_style": "english",
+    "question_text": "A private logistics company first told a probationary employee the required performance standards when it announced non-regularization. What does the general rule say about communicating those standards?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_022",
+    "family_id": "RD31_022",
+    "group": "L",
+    "topic": "probation_duration",
+    "language_style": "taglish",
+    "question_text": "Private office worker ako sa Pasig. Gusto kong maintindihan ang general probationary-employment rule at limit nito, bago ako pumirma sa bagong kontrata. Ano ang sinasabi ng sources?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_023",
+    "family_id": "RD31_023",
+    "group": "L",
+    "topic": "dismissal_process",
+    "language_style": "english",
+    "question_text": "A private restaurant removed a cook after an accusation, without explaining the charge or giving a chance to respond. What procedural safeguards should be checked, without deciding if the dismissal was illegal?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_024",
+    "family_id": "RD31_024",
+    "group": "L",
+    "topic": "security_tenure",
+    "language_style": "taglish",
+    "question_text": "Regular employee ako sa private bookstore sa Naga. Puwede raw akong alisin kapag gusto lang ng owner kahit walang dahilan. Ano ang security-of-tenure rule, general information lang?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_025",
+    "family_id": "RD31_025",
+    "group": "L",
+    "topic": "closure_conditions",
+    "language_style": "english",
+    "question_text": "A private shoe workshop in Lipa plans to shut down. What are the general notice and separation-pay conditions, including the distinction involving serious business losses?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_026",
+    "family_id": "RD31_026",
+    "group": "L",
+    "topic": "resignation_notice",
+    "language_style": "taglish",
+    "question_text": "Magreresign ako sa private events company. Walang emergency reason na binabanggit, gusto ko lang lumipat ng trabaho. Ano ang ordinary notice rule at ano ang general exceptions?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_027",
+    "family_id": "RD31_027",
+    "group": "L",
+    "topic": "final_pay",
+    "language_style": "english",
+    "question_text": "I finished employment at a private optical shop in Cebu. The employer says final pay can be kept indefinitely until business improves. What release timeline does the available official statement describe?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_028",
+    "family_id": "RD31_028",
+    "group": "L",
+    "topic": "certificate_employment",
+    "language_style": "noisy_taglish",
+    "question_text": "umalis na aq sa private salon. humingi aq ng COE pero sabi next quarter na raw nila aasikasuhin. may timeline ba mula nung request ko?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_029",
+    "family_id": "RD31_029",
+    "group": "L",
+    "topic": "conciliation_purpose",
+    "language_style": "english",
+    "question_text": "A private workshop employee and employer disagree about unpaid wages but want to try resolving the disagreement first. What does SEnA assistance do, and does asking for help itself decide who wins?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_030",
+    "family_id": "RD31_030",
+    "group": "L",
+    "topic": "conciliation_participants",
+    "language_style": "taglish",
+    "question_text": "May SEnA conference tungkol sa sahod ko sa private company. Paano ang general rule sa pagharap ng lawyer, representative, o agent? Hindi ko hinihinging mag-file ka para sa akin.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_031",
+    "family_id": "RD31_031",
+    "group": "C",
+    "topic": "warranty_presentment",
+    "language_style": "english",
+    "question_text": "A shop in Antipolo sold me a desk lamp with a written warranty. It says it will not even receive the warranty claim because I kept only the receipt. What should be presented and what is the seller's role?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_032",
+    "family_id": "RD31_032",
+    "group": "C",
+    "topic": "warranty_forwarding",
+    "language_style": "taglish",
+    "question_text": "May written warranty ang air fryer na binili ko sa local retailer. Sabi nila distributor lang ang puwedeng tumanggap ng claim at ayaw nila itong ipasa. Ano ang general obligation ng retailer?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_033",
+    "family_id": "RD31_033",
+    "group": "C",
+    "topic": "warranty_terms",
+    "language_style": "english",
+    "question_text": "An appliance seller in Cabanatuan gave an express warranty but its written card does not say who will honor it, what is covered, or how long it lasts. What warranty information does the law require?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_034",
+    "family_id": "RD31_034",
+    "group": "C",
+    "topic": "discounted_warranty",
+    "language_style": "noisy_taglish",
+    "question_text": "sale ung binili kong bagong keyboard sa store, may warranty card nmn. sira agad ung ilang keys pero sabi discount item kaya bawal claim. ano general warranty rules dito?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_035",
+    "family_id": "RD31_035",
+    "group": "C",
+    "topic": "immediate_seller",
+    "language_style": "english",
+    "question_text": "I bought a blender directly from the manufacturer's showroom in Metro Manila. Staff say they have exactly the same role as an ordinary retailer when I present a warranty claim. How do the recorded roles differ?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_036",
+    "family_id": "RD31_036",
+    "group": "C",
+    "topic": "product_quality",
+    "language_style": "taglish",
+    "question_text": "Bumili ako ng bagong folding table sa shop sa Angeles. Hindi kumakapit ang lock kaya hindi magamit nang normal. Ano ang general consumer rules sa product imperfection at remedies?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_037",
+    "family_id": "RD31_037",
+    "group": "C",
+    "topic": "correction_period",
+    "language_style": "english",
+    "question_text": "A retailer in Bacolod has kept trying to correct a defect in a newly bought electric fan. What is the general correction-period pathway before choosing other remedies, and are there exceptions?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_038",
+    "family_id": "RD31_038",
+    "group": "C",
+    "topic": "quantity_imperfection",
+    "language_style": "taglish",
+    "question_text": "Sealed pack ng tiles ang binili ko sa hardware. Mas kaunti ang laman kaysa quantity sa label at receipt. Ano ang remedies para sa quantity imperfection?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_039",
+    "family_id": "RD31_039",
+    "group": "C",
+    "topic": "repair_parts",
+    "language_style": "english",
+    "question_text": "A repair shop in Dumaguete installed a used replacement component without asking me, although I brought the item for an ordinary paid repair. What rule concerns replacement parts and consumer authorization?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_040",
+    "family_id": "RD31_040",
+    "group": "C",
+    "topic": "service_guarantee",
+    "language_style": "taglish",
+    "question_text": "Pinagawa ko ang rice cooker sa repair firm at binayaran ang service, pero bumalik agad ang parehong sira. Ano ang general service-guaranty rule, kung covered ang repair firm?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_041",
+    "family_id": "RD31_041",
+    "group": "C",
+    "topic": "used_as_new",
+    "language_style": "english",
+    "question_text": "A store in Valenzuela advertised a speaker as brand-new, but it had an old user's account and clear repair marks when delivered. What is the general deceptive-sales rule without declaring this seller guilty?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_042",
+    "family_id": "RD31_042",
+    "group": "C",
+    "topic": "false_certification",
+    "language_style": "taglish",
+    "question_text": "Sabi ng salesperson certified ang electric kettle pero ayaw nilang ipakita ang basehan ng certification claim. Ano ang general rule sa claims tungkol sa approval o certification, nang hindi muna sinasabing fake iyon?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_043",
+    "family_id": "RD31_043",
+    "group": "C",
+    "topic": "misrepresented_features",
+    "language_style": "english",
+    "question_text": "A shop in General Santos promised a printer had a feature listed on its display card, but that model does not have it. What kind of consumer rule concerns misrepresented characteristics?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_044",
+    "family_id": "RD31_044",
+    "group": "C",
+    "topic": "misleading_advertisement",
+    "language_style": "english",
+    "question_text": "A local advertisement in Batangas promises a vacuum cleaner can do a task that its product description says it cannot do. What does the general misleading-advertisement rule look at?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_045",
+    "family_id": "RD31_045",
+    "group": "C",
+    "topic": "price_comparisons",
+    "language_style": "taglish",
+    "question_text": "May malaking 'half price' poster ang shop pero may duda ako kung tunay ang dating price na ginagamit nilang comparison. Ano ang general rule sa price comparisons sa advertisement?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_046",
+    "family_id": "RD31_046",
+    "group": "C",
+    "topic": "price_ceiling",
+    "language_style": "noisy_taglish",
+    "question_text": "sa grocery sa Lucena, iba ung nasa shelf tag at mas mataas ung sa cashier. sabi lumang tag lang un pero ayaw sundin ung displayed price. ano rule dito?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_047",
+    "family_id": "RD31_047",
+    "group": "C",
+    "topic": "tag_display",
+    "language_style": "english",
+    "question_text": "A homewares shop in Tagum displays goods without individual tags and says staff will quote prices after a buyer commits. What are the general price-display requirements and any permitted display alternatives?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_048",
+    "family_id": "RD31_048",
+    "group": "C",
+    "topic": "exact_change",
+    "language_style": "taglish",
+    "question_text": "Bumili ako sa local bakery sa Tarlac. Candy ang gustong ibigay bilang sukli kahit cash ang hinihingi ko. Ano ang rule sa exact change at puwede bang ipawaive iyon?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_049",
+    "family_id": "RD31_049",
+    "group": "C",
+    "topic": "unsafe_product",
+    "language_style": "english",
+    "question_text": "A newly bought extension cord from a retail shop in Rizal sparks during normal use. I want general product-safety information, not a damages computation or an automatic ruling against anyone. What source should I understand?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_050",
+    "family_id": "RD31_050",
+    "group": "C",
+    "topic": "supplier_liability",
+    "language_style": "english",
+    "question_text": "A store sold a packaged desk fan without a clear maker or importer identity, and it developed a safety problem. How do the recorded rules distinguish supplier liability from manufacturer or importer liability?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_051",
+    "family_id": "RD31_051",
+    "group": "C",
+    "topic": "laundry_quality",
+    "language_style": "taglish",
+    "question_text": "May bayad na laundry service sa San Pablo pero may permanent marks ang damit pagbalik at hindi nila inayos ang reklamo. Ano ang general remedies sa service-quality imperfection?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_052",
+    "family_id": "RD31_052",
+    "group": "C",
+    "topic": "repair_quality",
+    "language_style": "noisy_taglish",
+    "question_text": "nagbayad aq sa repair shop sa Malolos para ayusin ung speaker. same issue pa rin pag uwi, ayaw iredo o ibalik bayad. ano options under general consumer service rules?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_053",
+    "family_id": "RD31_053",
+    "group": "C",
+    "topic": "service_reperformance",
+    "language_style": "english",
+    "question_text": "A paid furniture-repair business in Roxas City left a chair unusable and refuses to repeat the service. What does the service-quality rule say about proper performance or other remedies?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_054",
+    "family_id": "RD31_054",
+    "group": "C",
+    "topic": "consumer_complaint",
+    "language_style": "taglish",
+    "question_text": "Gusto kong magreklamo sa DTI tungkol sa sirang small appliance na binili sa tindahan sa Legazpi. Anong basic consumer-complaint information at limitation ang kaya mong ibigay?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_055",
+    "family_id": "RD31_055",
+    "group": "C",
+    "topic": "online_wrong_item",
+    "language_style": "english",
+    "question_text": "A Philippine online merchant sent a different size of cabinet from the one in my order. What remedy conditions apply, and when does return of the original goods become relevant?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_056",
+    "family_id": "RD31_056",
+    "group": "C",
+    "topic": "online_return_cost",
+    "language_style": "taglish",
+    "question_text": "Nag-avail ako ng replacement dahil iba ang model na ipinadala ng online shop sa akin. Sino ang sasagot sa return ng original item, at paano kung may napagkasunduang return period?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_057",
+    "family_id": "RD31_057",
+    "group": "C",
+    "topic": "online_redress",
+    "language_style": "english",
+    "question_text": "I have filed a complaint about a faulty charger through a Philippine shopping platform's internal redress system and it remains unresolved. What prerequisite and exhaustion rule is recorded?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_058",
+    "family_id": "RD31_058",
+    "group": "C",
+    "topic": "online_primary_liability",
+    "language_style": "english",
+    "question_text": "An e-retailer based in the Philippines says only the delivery platform can ever be responsible for a purchase problem. What is the recorded distinction between merchant and platform liability, without deciding the facts?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_059",
+    "family_id": "RD31_059",
+    "group": "C",
+    "topic": "dti_procedure",
+    "language_style": "english",
+    "question_text": "A seller in Calamba refuses to discuss a faulty home appliance after I gave the receipt and described the problem. What basic DTI complaint process or referral information can this system provide?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_060",
+    "family_id": "RD31_060",
+    "group": "C",
+    "topic": "change_of_mind_boundary",
+    "language_style": "taglish",
+    "question_text": "Ako mismo ang pumili ng wrong color ng storage box sa tindahan. Walang sira o maling delivery; nagbago lang ang gusto ko. Automatic ba ang refund sa consumer rules na hawak mo, o may limit ang masasabi mo?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_061",
+    "family_id": "RD31_061",
+    "group": "M",
+    "topic": "both",
+    "language_style": "english",
+    "question_text": "My private café employer in Iligan pays wages through store-only vouchers. Separately, a local hardware shop charged more than its shelf price for a toolbox. Please handle the two issues separately.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_062",
+    "family_id": "RD31_062",
+    "group": "M",
+    "topic": "both",
+    "language_style": "taglish",
+    "question_text": "Private warehouse employee ako sa Navotas at hindi nila binabayaran ang required extra hours. Hiwalay naman, defective ang bagong desk lamp ko at ayaw tanggapin ng retailer ang warranty claim. Ano ang general rules sa bawat concern?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_063",
+    "family_id": "RD31_063",
+    "group": "M",
+    "topic": "both",
+    "language_style": "english",
+    "question_text": "A private manufacturer in Biñan keeps us working without a weekly rest day. An unrelated paid laundry business also returned damaged clothes. What can the system explain about each issue?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_064",
+    "family_id": "RD31_064",
+    "group": "M",
+    "topic": "both",
+    "language_style": "noisy_taglish",
+    "question_text": "pribadong stockroom helper aq sa Mandaue, kinaltas ung nawawalang gamit kahit di pa inimbestigahan. hiwalay na shop ung nagbigay ng candy kapalit ng sukli ko. pakiseparate ung sagot.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_065",
+    "family_id": "RD31_065",
+    "group": "M",
+    "topic": "both",
+    "language_style": "english",
+    "question_text": "I was dismissed by a private printing business without a chance to respond. Separately, an online furniture merchant delivered the wrong cabinet model. Explain the relevant rules without deciding either dispute.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_066",
+    "family_id": "RD31_066",
+    "group": "M",
+    "topic": "both",
+    "language_style": "taglish",
+    "question_text": "Hindi pa nire-release ng private employer ko sa Olongapo ang final pay. Ibang transaction naman ang bayad kong appliance repair na hindi naayos. Ano ang general information para sa dalawang reklamo?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_067",
+    "family_id": "RD31_067",
+    "group": "M",
+    "topic": "both",
+    "language_style": "english",
+    "question_text": "A private employer in Tacloban says my monthly salary removes any entitlement to night differential. A separate shop advertised a used monitor as new. Which rules concern these independent situations?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_068",
+    "family_id": "RD31_068",
+    "group": "M",
+    "topic": "both",
+    "language_style": "taglish",
+    "question_text": "Private rank-and-file worker ako sa Dasmariñas at may tanong sa 13th month pay. Hiwalay na online seller ang ayaw tumanggap ng complaint ko tungkol sa wrong item. Ano ang kaya mong ipaliwanag sa bawat isa?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_069",
+    "family_id": "RD31_069",
+    "group": "M",
+    "topic": "both",
+    "language_style": "english",
+    "question_text": "I was told probation standards only when a private employer ended my probation. Separately, a local retailer insists every express warranty can omit its duration. Please distinguish the employment and purchase questions.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_070",
+    "family_id": "RD31_070",
+    "group": "M",
+    "topic": "both",
+    "language_style": "noisy_taglish",
+    "question_text": "private restaurant crew aq sa Laoag, ung late ko dati ibabawas daw sa OT ko. hiwalay, ung package ng tiles sa hardware kulang kumpara sa quantity sa label. anong rules sa dalawa?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_071",
+    "family_id": "RD31_071",
+    "group": "M",
+    "topic": "both",
+    "language_style": "english",
+    "question_text": "A private contractor did not identify my supposed project at hiring. An unrelated electronics retailer refuses to forward my warranty claim to its distributor. What general rules apply to those separate concerns?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_072",
+    "family_id": "RD31_072",
+    "group": "M",
+    "topic": "both",
+    "language_style": "taglish",
+    "question_text": "Private factory worker ako sa San Fernando. Bawal umalis habang waiting sa machine restart pero ayaw i-count ang oras. Ibang issue ang mas mataas na checkout price ng grocery kaysa displayed tag. Pakilinaw pareho.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_073",
+    "family_id": "RD31_073",
+    "group": "M",
+    "topic": "labor_excluded",
+    "language_style": "english",
+    "question_text": "A private company's payroll in Zamboanga is released only every six weeks. Separately, my bank charged a credit-card annual fee. Explain the wage concern and identify the boundary for the banking issue.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_074",
+    "family_id": "RD31_074",
+    "group": "M",
+    "topic": "labor_excluded",
+    "language_style": "taglish",
+    "question_text": "Private hotel employee ako sa Dumaguete at hindi ko makuha ang COE na nirequest ko. Hiwalay, kailangan ko ng rules sa claim ng car insurance ko. Alin ang covered ng project?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_075",
+    "family_id": "RD31_075",
+    "group": "M",
+    "topic": "labor_excluded",
+    "language_style": "english",
+    "question_text": "My private employer in Bataan has no weekly day off for its staff. Separately, my sibling working for a foreign employer in Qatar asks about an overseas contract. Keep the two concerns distinct.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_076",
+    "family_id": "RD31_076",
+    "group": "M",
+    "topic": "labor_excluded",
+    "language_style": "noisy_taglish",
+    "question_text": "empleyado aq ng private furniture shop sa Koronadal, walang night differential ung night duty. hiwalay ung reklamo ko sa internet provider na laging nawawala connection. ano lang kaya ng system?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_077",
+    "family_id": "RD31_077",
+    "group": "M",
+    "topic": "labor_excluded",
+    "language_style": "english",
+    "question_text": "A private business in Las Piñas wants to deduct alleged stock loss without checking responsibility. Separately, I want a personalized estimate of my retirement pension. Which part can you explain?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_078",
+    "family_id": "RD31_078",
+    "group": "M",
+    "topic": "labor_excluded",
+    "language_style": "taglish",
+    "question_text": "Private retail worker ako sa Vigan at may issue sa unpaid regular holiday. Ibang concern ang refund ng condo reservation na binayaran ko. Ihiwalay ang labor issue sa real-estate issue.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_079",
+    "family_id": "RD31_079",
+    "group": "M",
+    "topic": "consumer_excluded",
+    "language_style": "english",
+    "question_text": "A retail shop in Puerto Princesa says my written product warranty disappears because the item was on sale. Separately, I dispute a charge for a hospital procedure. What is within the project scope?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_080",
+    "family_id": "RD31_080",
+    "group": "M",
+    "topic": "consumer_excluded",
+    "language_style": "taglish",
+    "question_text": "Sira ang bagong desk fan na binili ko sa local shop sa Meycauayan. Hiwalay, may reklamo ako sa electric utility bill namin. Alin lang ang ordinary consumer-product concern dito?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_081",
+    "family_id": "RD31_081",
+    "group": "M",
+    "topic": "consumer_excluded",
+    "language_style": "english",
+    "question_text": "A paid laundry service in San Jose del Monte refuses to redo a poorly performed service. Separately, a lending app is charging me loan interest I want to dispute. Explain only what the system covers.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_082",
+    "family_id": "RD31_082",
+    "group": "M",
+    "topic": "consumer_excluded",
+    "language_style": "noisy_taglish",
+    "question_text": "online shop sa Pinas nagpadala ng ibang model ng blender sa order q. hiwalay ung nalaman kong personal data leak sa isang app. ano ang supported part?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_083",
+    "family_id": "RD31_083",
+    "group": "M",
+    "topic": "consumer_excluded",
+    "language_style": "english",
+    "question_text": "A local repair shop in Talisay fitted different parts without my authorization. Separately, I want advice on whether to buy shares in a company. Separate the consumer service issue from the investment question.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_084",
+    "family_id": "RD31_084",
+    "group": "M",
+    "topic": "both_excluded",
+    "language_style": "english",
+    "question_text": "A private employer in Tanauan withheld ordinary wages. An unrelated shop also charged above its displayed price. Separately, I need help dividing inherited land among siblings. Which concerns can this project handle?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_085",
+    "family_id": "RD31_085",
+    "group": "M",
+    "topic": "both_excluded",
+    "language_style": "taglish",
+    "question_text": "Private employee ako sa Cainta, may issue sa probation standards. Hiwalay na retailer ang ayaw ipasa sa distributor ang warranty complaint ko. May concern din ako sa mobile-network bill. Pakihiwalay ang covered at hindi covered.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_086",
+    "family_id": "RD31_086",
+    "group": "O",
+    "topic": "banking",
+    "language_style": "english",
+    "question_text": "My savings bank in Cebu imposed a new maintaining-balance fee. Can this project tell me whether that banking charge is lawful?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_087",
+    "family_id": "RD31_087",
+    "group": "O",
+    "topic": "lending",
+    "language_style": "noisy_taglish",
+    "question_text": "ung lending app ko sobrang taas ng interest at penalties, ano exact legal rate sa loan q sa Pilipinas?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_088",
+    "family_id": "RD31_088",
+    "group": "O",
+    "topic": "insurance",
+    "language_style": "taglish",
+    "question_text": "Ayaw bayaran ng insurer ang travel-insurance claim ko matapos makansela ang trip. Paano ko sila hahabulin under insurance rules?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_089",
+    "family_id": "RD31_089",
+    "group": "O",
+    "topic": "investments",
+    "language_style": "english",
+    "question_text": "I want a recommendation on which Philippine stock to buy next week and how much profit to expect. Can you choose one for me?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_090",
+    "family_id": "RD31_090",
+    "group": "O",
+    "topic": "telecommunications",
+    "language_style": "taglish",
+    "question_text": "Postpaid mobile plan ko ang reklamo: may bill kahit matagal na disconnected. Ano ang telecom regulation at paano ko ipapa-adjust?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_091",
+    "family_id": "RD31_091",
+    "group": "O",
+    "topic": "privacy",
+    "language_style": "english",
+    "question_text": "A mobile application disclosed private account details without permission. What data-privacy complaint and compensation can I pursue?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_092",
+    "family_id": "RD31_092",
+    "group": "O",
+    "topic": "medical",
+    "language_style": "english",
+    "question_text": "I think a doctor's treatment at a hospital was negligent. Can you determine medical-malpractice liability and the damages I should claim?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_093",
+    "family_id": "RD31_093",
+    "group": "O",
+    "topic": "real_estate",
+    "language_style": "taglish",
+    "question_text": "Nagbayad ako ng reservation sa condo developer at ayaw ibalik matapos akong umatras. Ano ang real-estate buyer rules dito?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_094",
+    "family_id": "RD31_094",
+    "group": "O",
+    "topic": "transport",
+    "language_style": "english",
+    "question_text": "An airline changed my domestic flight and charged a rebooking fee. What passenger-rights regulation settles my refund?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_095",
+    "family_id": "RD31_095",
+    "group": "O",
+    "topic": "utility",
+    "language_style": "noisy_taglish",
+    "question_text": "sobrang laki ng water bill namin sa bahay, parang mali reading ng meter. anong utility billing rule ang dapat sundin?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_096",
+    "family_id": "RD31_096",
+    "group": "O",
+    "topic": "government_work",
+    "language_style": "taglish",
+    "question_text": "Permanent government employee ako sa city hall. Gusto kong malaman ang overtime at dismissal rules sa civil service, hindi private employment.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_097",
+    "family_id": "RD31_097",
+    "group": "O",
+    "topic": "domestic_worker",
+    "language_style": "english",
+    "question_text": "I work as a live-in kasambahay for a family in Quezon City. What specific domestic-worker salary and rest rules govern my job?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_098",
+    "family_id": "RD31_098",
+    "group": "O",
+    "topic": "seafarer",
+    "language_style": "english",
+    "question_text": "My question concerns a seafarer's overseas deployment contract and a shipboard injury compensation computation. Is that part of this project's legal coverage?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_099",
+    "family_id": "RD31_099",
+    "group": "O",
+    "topic": "criminal_fraud",
+    "language_style": "taglish",
+    "question_text": "Humingi ng pera ang pekeng online seller tapos nawala ang account. Gusto ko ng criminal investigation at tulong para makilala ang scammer, hindi ordinary product replacement.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  },
+  {
+    "case_id": "RD31_100",
+    "family_id": "RD31_100",
+    "group": "O",
+    "topic": "pending_case_prediction",
+    "language_style": "english",
+    "question_text": "I already have a labor case pending in court. Based on my side of the story, tell me if I will win and the exact damages the judge will award.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "input_provenance": "New fictional wording authored by Codex before this run; purposive scope test, no independent human/legal gold."
+  }
+]

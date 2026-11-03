@@ -1,0 +1,7 @@
+fresh {'inputs': 100, 'all_expected': 99}
+RD31_072 ['primary', 'route', 'domains'] supported_candidate_requires_evidence labor fully_supported
+historical {'inputs': 436, 'all_expected': 432}
+SYS_05_2__clear ['route', 'domains'] separate_supported_components_require_evidence mixed fully_supported
+SYS_05_2__noisy ['route', 'domains'] separate_supported_components_require_evidence mixed fully_supported
+TYPE_081__clear ['route', 'domains'] supported_candidate_requires_evidence labor fully_supported
+TYPE_081__noisy ['route', 'domains'] supported_candidate_requires_evidence labor fully_supported

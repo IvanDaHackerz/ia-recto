@@ -1,0 +1,20 @@
+{
+  "prepared_at_utc": "2026-10-19T10:47:26.877016+00:00",
+  "cases_sha256": "00b01b86cd008610792c4a6f22c6beb5fce3f073f223abe3422eff0bf4b57f09",
+  "historical_cases_sha256": "1603269dfbc95ab78ec596b2bec0b7d7488fa0f84d6c3ddd375f264bcab25ba1",
+  "historical_inputs": 424,
+  "new_regression_inputs": 12,
+  "independent_human_questions": 0,
+  "expected_labels_frozen_before_inference": true,
+  "role": "reused_AI_development_plus_joined_regressions",
+  "judgment_correction": {
+    "case_id": "joined_english",
+    "previous_relevant_ids": [
+      "LAB_CODE_2022__art_87"
+    ],
+    "new_relevant_ids": [],
+    "reason": "Question mentions wages, not overtime. No new relevance judgment claimed; mark retrieval unjudged.",
+    "previous_case_freeze": "outputs/local-pipeline-cases-v1.0.0",
+    "original_424_inputs_and_expectations_unchanged": true
+  }
+}

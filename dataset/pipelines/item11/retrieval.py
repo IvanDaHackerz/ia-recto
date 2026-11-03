@@ -6,36 +6,7 @@ import numpy as np
 from common import ROOT,PIPELINE,readrows,csvrows,sha
 from encoder import encode,windows
 
-STOP=set('a an the of to and or in on at for from with by is are was be been this that it my i me we our you your ang ng sa mga ako ko po ba yung at na ay may'.split())
-CONCEPTS=[
- (r'\b(?:sukli|shortchang\w*)\b','change'),
- (r'\b(?:labels?|labeling|labelling)\b','label'),
- (r'\b(?:short\s+(?:hours|workday)|kulang\s+(?:ang\s+)?oras|undertime)\b','undertime'),
- (r'\b(?:gaano\s+kadalas|how\s+often|frequency|frequently|regularity)\b','frequency'),
- (r'\b(?:sahod|sweldo|suweldo|salary|salaries|wages?)\b','wage'),
- (r'\b(?:ibigay|bigay|bayad|pagbabayad|paid|pay|payments?|paying)\b','payment'),
- (r'\b(?:lawyers?|attorneys?)\b','lawyer'),
- (r'\b(?:agents?)\b','agent'),
- (r'\b(?:representatives?|representing|represent)\b','representative'),
- (r'\b(?:pagharap|appearance|appearing)\b','appearance'),
- (r'\b(?:sena|conciliation.mediation)\b','conciliation'),
- (r'\b(?:palpak|flawed|faulty|defective|imperfections?)\b','defect'),
- (r'\b(?:redo|reperformance|reexecution)\b','reperformance'),
- (r'\b(?:refunds?|reimbursements?)\b','refund'),
- (r'\b(?:bawas|reductions?)\b','reduction'),
- (r'\b(?:presyo|prices?)\b','price'),
- (r'\b(?:services?)\b','service'),
- (r'\b(?:employers?)\b','employer'),
- (r'\b(?:employees?)\b','employee'),
- (r'\b(?:working|worked|works|work)\b','work'),
- (r'\b(?:rules?)\b','rule'),
-]
-
-def tokens(text):
-    # Symmetric source/query glossary. Disclosed development preprocessing.
-    text=unicodedata.normalize('NFKC',text).casefold()
-    for pattern,replacement in CONCEPTS:text=re.sub(pattern,replacement,text)
-    return [w for w in re.findall(r'[^\W_]+',text) if w not in STOP]
+from query_relevance import tokens,query_facets,source_relevance,relevant_excerpt
 
 def ranking_expansion(query,allowed_domain):
     """Bounded labor concepts for lexical ranking, never user facts or citations.
@@ -53,6 +24,7 @@ def ranking_expansion(query,allowed_domain):
         if not words&{'holiday','holidays','rest','undertime','offset','emergency','compulsory','health','hospital','clinic'}:
             extra.append('ordinary')
     return list(dict.fromkeys(extra))
+
 
 class LegalRetriever:
     def __init__(self,index_dir,verify_sources=True):
@@ -125,12 +97,14 @@ class LegalRetriever:
         # These exclusions affect candidate relevance, never source eligibility,
         # user facts, legal support or the value of a BM25 score.
         employer_dismissal=allowed_domain=='labor' and bool(re.search(
-            r'\b(?:employer|boss|company)\b.{0,70}\b(?:fired|dismiss\w*|terminat\w*|sinibak|tinanggal)\b|\b(?:fired|dismissed|terminated)\s+(?:me|us|by)\b',query,re.I))
+            r'\b(?:employer|boss|company|manager|hr)\b.{0,70}\b(?:fired|dismiss\w*|terminat\w*|sinibak|tinanggal|removed)\b|\b(?:fired|dismissed|terminated)\s+(?:me|us|by)\b|\bdismissal\b',query,re.I))
         if employer_dismissal and not re.search(r'\b(?:resign\w*|quit|employee.initiated)\b',query,re.I):
             allowed=[i for i in allowed if not re.search(r'\btermination\s+by\s+employee\b|\b(?:resignation|voluntary\s+resignation)\b',self.records[i]['heading'] or '',re.I)]
             base['query_relevance_filter']='exclude_employee_initiated_termination_for_explicit_employer_dismissal'
         if not allowed:base.update(status='no_eligible_evidence',reason='no_indexed_chunks_for_requested_scope');return base
         expansion=ranking_expansion(query,allowed_domain)
+        facets=query_facets(query,allowed_domain)
+        if facets:expansion=list(dict.fromkeys(expansion+[term for f in facets for term in f[3].split()]))
         lexical_query=query+(' '+' '.join(expansion) if expansion else '')
         base['ranking_expansion']={'terms':expansion,'meaning':'Lexical ranking only; not supplied facts, confidence or legal support'}
         lex=self.lexical_scores(lexical_query) if method in {'bm25','hybrid'} else None
@@ -153,6 +127,14 @@ class LegalRetriever:
                     for j in siblings:score[j]+=1/(constant+rank)
             order=ranking(score,True)
             order.sort(key=lambda i:(-score[i],-(float(sem[i])+float(lex[i])/(1+float(lex[i]))),self.records[i]['chunk_id']))
+        if order:
+            # Relevance is separate from source eligibility. Keep exact records
+            # and the original BM25 score, but remove topic-mismatched candidates
+            # before they can become quotations or LLM context.
+            relevance={i:source_relevance(query,allowed_domain,self.records[i]) for i in order}
+            order=[i for i in order if relevance[i]>0]
+            if facets:order.sort(key=lambda i:(-relevance[i],-float(score[i]),self.records[i]['chunk_id']))
+            base['query_relevance_filter']='query_concepts_source_identity_and_scope'
         seen=set()
         for i in order:
             r=self.records[i]

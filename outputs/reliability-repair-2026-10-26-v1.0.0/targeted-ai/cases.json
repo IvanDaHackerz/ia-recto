@@ -1,0 +1,462 @@
+[
+  {
+    "case_id": "AI26_001",
+    "family_id": "AI26_001",
+    "group": "L",
+    "topic": "night_work",
+    "question_text": "I pack orders for a private Cebu warehouse from 11 at night until 7 in the morning. Payroll lists the same basic hourly pay throughout. What general night-work provision should I read?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_001",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_005",
+    "family_id": "AI26_005",
+    "group": "L",
+    "topic": "paydays",
+    "question_text": "sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "EX_NEW_005",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_014",
+    "family_id": "AI26_014",
+    "group": "L",
+    "topic": "holiday",
+    "question_text": "private warehouse po, walang pasok nung regular holiday tas zero bayad lahat. ano ung general holiday-pay provision at may exclusions ba?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_014",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_019",
+    "family_id": "AI26_019",
+    "group": "L",
+    "topic": "status",
+    "question_text": "pribadong farm worker aq, tuwing harvest lng kmi kinukuha. ano ung seasonal exception sa employment-status rule? di ko hinihingi na ideclare agad akong regular.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_019",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_022",
+    "family_id": "AI26_022",
+    "group": "L",
+    "topic": "security_tenure",
+    "question_text": "I am a regular employee of a private bookstore. The owner says I can be removed whenever sales are low without explaining any legal cause. What general security-of-tenure rule is recorded?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_022",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_023",
+    "family_id": "AI26_023",
+    "group": "L",
+    "topic": "conciliation",
+    "question_text": "What is the purpose of SEnA when a private-sector worker and employer disagree about unpaid wages? Explain the basic assistance process rather than predicting a result.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_023",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_024",
+    "family_id": "AI26_024",
+    "group": "L",
+    "topic": "hours_worked",
+    "question_text": "My private café requires us to attend a twenty-minute briefing before clocking in. Which recorded definition would be needed to check whether that time counts as work?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_024",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_025",
+    "family_id": "AI26_025",
+    "group": "L",
+    "topic": "meal_period",
+    "question_text": "A private assembly plant gives only twenty minutes for lunch while the machines keep running. What sources or limitations apply to a general meal-period question?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_025",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_026",
+    "family_id": "AI26_026",
+    "group": "L",
+    "topic": "final_pay",
+    "question_text": "A worker resigned from a private travel agency and asks about the release deadline for final pay and a certificate of employment. Explain only what the available sources actually support.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_026",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_027",
+    "family_id": "AI26_027",
+    "group": "L",
+    "topic": "thirteenth",
+    "question_text": "I work for a private retailer and want the general rule for thirteenth-month pay. If your recorded sources do not cover the computation, say so rather than inventing a formula.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_027",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_031",
+    "family_id": "AI26_031",
+    "group": "C",
+    "topic": "warranty",
+    "question_text": "A local shop sold me a new stand mixer with a written warranty, but now refuses to accept a claim because I bought it during a promotion. What recorded warranty rules are relevant?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_031",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_033",
+    "family_id": "AI26_033",
+    "group": "C",
+    "topic": "warranty",
+    "question_text": "may warranty card ako sa bagong microwave. ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "EX_NEW_012",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_047",
+    "family_id": "AI26_047",
+    "group": "C",
+    "topic": "online_redress",
+    "question_text": "A Philippine marketplace seller has no working way to submit a complaint about a faulty kettle. What recorded obligations concern an internal complaint or redress mechanism?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_047",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_054",
+    "family_id": "AI26_054",
+    "group": "C",
+    "topic": "cash_change",
+    "question_text": "A bakery cashier wants to give bread instead of the cash change owed to me. What recorded rule applies if I do not agree to that substitution?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_054",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_059",
+    "family_id": "AI26_059",
+    "group": "C",
+    "topic": "warranty_claim",
+    "question_text": "My receipt and warranty card show the seller's name, but the seller says only its supplier is responsible for receiving my written complaint. Explain the recorded claim-forwarding obligation.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_059",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_062",
+    "family_id": "AI26_062",
+    "group": "M",
+    "topic": "both",
+    "question_text": "pribadong factory worker aq, binawasan sahod q sa kulang inventory. hiwalay ung grocery na sobra singil sa price tag. pakiseparate ung dalawang concern.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_062",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_069",
+    "family_id": "AI26_069",
+    "group": "M",
+    "topic": "both",
+    "question_text": "A private factory will close permanently and dismiss its staff. Separately, my local appliance dealer refuses a warranty claim solely because the purchase was discounted. Keep the two explanations separate.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_069",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_073",
+    "family_id": "AI26_073",
+    "group": "P_L",
+    "topic": "criminal",
+    "question_text": "A private employer deducted an alleged equipment loss from wages without a hearing. Separately, I need advice about a criminal accusation involving a stolen motorcycle. Explain only the supported concern.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_073",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_077",
+    "family_id": "AI26_077",
+    "group": "P_C",
+    "topic": "banking",
+    "question_text": "An online merchant delivered a different appliance model from my order. Separately, I want advice on a credit-card interest charge from the bank. Distinguish the supported part.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_077",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  },
+  {
+    "case_id": "AI26_090",
+    "family_id": "AI26_090",
+    "group": "O",
+    "topic": "banking",
+    "question_text": "My savings bank charged a dormancy fee on my account. What banking regulation determines whether the fee is valid?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "source_case_id": "PH5_090",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  }
+]

@@ -1,0 +1,61 @@
+....F...EEF............................................E
+======================================================================
+ERROR: test_scope_contrasts_survive_typing_noise (backend.test_typing_features.TypingFeaturesTests.test_scope_contrasts_survive_typing_noise) (text='exact mnmum wge today')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_typing_features.py", line 62, in test_scope_contrasts_survive_typing_noise
+    self.assertEqual(constraint(text)[0], expected)
+                     ~~~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: test_scope_contrasts_survive_typing_noise (backend.test_typing_features.TypingFeaturesTests.test_scope_contrasts_survive_typing_noise) (text='sfarer dplyment')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_typing_features.py", line 62, in test_scope_contrasts_survive_typing_noise
+    self.assertEqual(constraint(text)[0], expected)
+                     ~~~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+ERROR: setUpClass (backend.application.test_development_explanation.ConcernTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_development_explanation.py", line 17, in setUpClass
+    cls.verifier = load_runtime()
+                   ^^^^^^^^^^^^^^
+  File "C:\IA\backend\terminal_test.py", line 34, in load_runtime
+    verifier = EvidenceVerifier()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item12\verification.py", line 48, in __init__
+    self.retriever = LegalRetriever(ROOT / self.policy['retrieval'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item11\retrieval.py", line 35, in __init__
+    if sha(PIPELINE/name)!=h:raise ValueError('Retrieval runtime changed; rebuild the index: '+name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Retrieval runtime changed; rebuild the index: query_relevance.py
+
+======================================================================
+FAIL: test_ordinary_words_and_inflections_are_not_rewritten_as_scope_terms (backend.test_typing_features.TypingFeaturesTests.test_ordinary_words_and_inflections_are_not_rewritten_as_scope_terms)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_typing_features.py", line 16, in test_ordinary_words_and_inflections_are_not_rewritten_as_scope_terms
+    self.assertEqual(matching_text('sfarer dplyment'),'seafarer deployment')
+AssertionError: 'sfarer deployment' != 'seafarer deployment'
+- sfarer deployment
++ seafarer deployment
+?  ++
+
+
+======================================================================
+FAIL: test_separate_supported_and_excluded_concerns_remain_separate (backend.test_typing_features.TypingFeaturesTests.test_separate_supported_and_excluded_concerns_remain_separate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_typing_features.py", line 77, in test_separate_supported_and_excluded_concerns_remain_separate
+    self.assertEqual(len(audit["components"]), 2)
+AssertionError: 1 != 2
+
+----------------------------------------------------------------------
+Ran 54 tests in 0.746s
+
+FAILED (failures=2, errors=3)

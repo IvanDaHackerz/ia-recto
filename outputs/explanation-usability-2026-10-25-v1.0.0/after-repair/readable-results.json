@@ -1,0 +1,4475 @@
+[
+  {
+    "case_id": "EX_NEW_001",
+    "question": "I work for a private delivery warehouse. We stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. How should we understand this?",
+    "group": "L",
+    "topic": "overtime",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 4,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I work for a private delivery warehouse. We stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. How should we understand this?",
+      "normalized_question_text": null,
+      "effective_question_text": "I work for a private delivery warehouse. We stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. How should we understand this?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "If you work more than eight hours in a regular workday, the law says you must get extra pay equal to at least 25% of your regular wage for the overtime hours; the regular salary does not automatically cover those extra hours.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_8",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 8",
+              "quote": "Overtime pay. — Any employee covered by this Rule who is permitted or required to work beyond eight (8) hours on ordinary working days shall be paid an additional compensation for the overtime work in the amount equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+              "start": 11,
+              "end": 302,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 8 — BOOK THREE, RULE I"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_87__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_87",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 87",
+              "quote": "equivalent to his regular wage plus at least twenty-five percent (25%) thereof.",
+              "start": 162,
+              "end": 241,
+              "citation_label": "PD 442, as amended and renumbered, ART. 87"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 2855,
+        "completion_tokens": 183,
+        "total_tokens": 3038
+      },
+      "usage_support": {
+        "prompt_tokens": 2079,
+        "completion_tokens": 626,
+        "total_tokens": 2705
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: we stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. how should we understand this",
+        "sources": [
+          "LAB_IRR_1989__rule_i_hours_of_work__section_8",
+          "LAB_CODE_2022__art_87",
+          "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+          "LAB_CODE_2022__art_88"
+        ]
+      }
+    ],
+    "elapsed_ms": 7250.0
+  },
+  {
+    "case_id": "EX_NEW_002",
+    "question": "Private hotel employee ako. Sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. May dagdag ba dapat, and ano ang conditions?",
+    "group": "L",
+    "topic": "rest_premium",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Private hotel employee ako. Sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. May dagdag ba dapat, and ano ang conditions?",
+      "normalized_question_text": null,
+      "effective_question_text": "Private hotel employee ako. Sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. May dagdag ba dapat, and ano ang conditions?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Sa Pilipinas, kung pinapasok ka ng employer mo sa scheduled rest day (hal., Linggo) at hindi ka binigyan ng dagdag na sahod, dapat kang bayaran ng premium pay na hindi bababa sa 30% ng regular na sweldo mo. Kung lumagpas ka ng walong (8) oras sa araw na iyon, may overtime pay pa na katumbas ng rate para sa unang walong oras plus 30% ng iyon. Pero puwede ka lang ipasok sa rest day kung natutugunan ang mga kondisyon sa Section 6 ng Omnibus Rules, tulad ng emergency, urgent work, abnormal pressure, perishable goods, o iba pang katulad na sitwasyon; kung wala ito, hindi dapat ipagawa sa iyo nang walang karampatang dagdag na bayad.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+              "quote": "Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage.",
+              "start": 11,
+              "end": 385,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6",
+              "quote": "When work on rest day authorized. — An employer may require any of his employees to work on his scheduled rest day for the duration of the following emergencies and exceptional conditions:",
+              "start": 11,
+              "end": 199,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, RULE III"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 4201,
+        "completion_tokens": 345,
+        "total_tokens": 4546
+      },
+      "usage_support": {
+        "prompt_tokens": 2697,
+        "completion_tokens": 703,
+        "total_tokens": 3400
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. may dagdag ba dapat, and ano ang conditions",
+        "sources": [
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_5",
+          "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+          "LAB_CODE_2022__art_92"
+        ]
+      }
+    ],
+    "elapsed_ms": 9250.0
+  },
+  {
+    "case_id": "EX_NEW_003",
+    "question": "A private office closed for a regular holiday. The staff were told that no work means no pay. Is that the general rule?",
+    "group": "L",
+    "topic": "holiday",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 8,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A private office closed for a regular holiday. The staff were told that no work means no pay. Is that the general rule?",
+      "normalized_question_text": null,
+      "effective_question_text": "A private office closed for a regular holiday. The staff were told that no work means no pay. Is that the general rule?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 4,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under the Labor Code, every worker must receive his regular daily wage on a regular holiday, unless the employer is a retail or service establishment that regularly employs fewer than ten workers.",
+          "citations": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_94",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 94",
+              "quote": "Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage",
+              "start": 9,
+              "end": 88,
+              "citation_label": "PD 442, as amended and renumbered, ART. 94"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_94",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 94",
+              "quote": "during regular holidays, except in retail and service establishments regularly employing less",
+              "start": 89,
+              "end": 182,
+              "citation_label": "PD 442, as amended and renumbered, ART. 94"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_94",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 94",
+              "quote": "than ten (10) workers;",
+              "start": 183,
+              "end": 205,
+              "citation_label": "PD 442, as amended and renumbered, ART. 94"
+            }
+          ]
+        },
+        {
+          "claim_id": "development_2",
+          "component_id": "concern_002",
+          "text": "The general rule is that employees are paid their regular daily wage for a regular holiday, but this does not apply to retail or service businesses with less than ten regular employees.",
+          "citations": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_94",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 94",
+              "quote": "Right to Holiday Pay.78 – (a) Every worker shall be paid his regular daily wage",
+              "start": 9,
+              "end": 88,
+              "citation_label": "PD 442, as amended and renumbered, ART. 94"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_94",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 94",
+              "quote": "during regular holidays, except in retail and service establishments regularly employing less",
+              "start": 89,
+              "end": 182,
+              "citation_label": "PD 442, as amended and renumbered, ART. 94"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_94__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_94",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 94",
+              "quote": "than ten (10) workers;",
+              "start": 183,
+              "end": 205,
+              "citation_label": "PD 442, as amended and renumbered, ART. 94"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 7309,
+        "completion_tokens": 403,
+        "total_tokens": 7712
+      },
+      "usage_support": {
+        "prompt_tokens": 2637,
+        "completion_tokens": 1128,
+        "total_tokens": 3765
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 7513,
+        "completion_tokens": 335,
+        "total_tokens": 7848
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 2604,
+        "completion_tokens": 685,
+        "total_tokens": 3289
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a private office closed for a regular holiday",
+        "sources": [
+          "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3",
+          "LAB_CODE_2022__art_94",
+          "LAB_IRR_1989__rule_iv_holidays_with_pay__section_9"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "private employment: the staff were told that no work means no pay. is that the general rule",
+        "sources": [
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_4",
+          "LAB_CODE_2022__art_97",
+          "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6",
+          "LAB_CODE_2022__art_106",
+          "LAB_CODE_2022__art_94"
+        ]
+      }
+    ],
+    "elapsed_ms": 19828.00000000043
+  },
+  {
+    "case_id": "EX_NEW_004",
+    "question": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+    "group": "L",
+    "topic": "deduction",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+      "normalized_question_text": null,
+      "effective_question_text": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Before an employer can deduct cash from your salary, it must first be a business where the practice of making deductions for loss or damage to tools, materials, or equipment is recognized. The employee must be clearly shown to be responsible for the loss, be given a reasonable chance to explain why the deduction shouldn’t be made, and the amount must be fair, reasonable and not exceed the actual loss. Also, the deduction cannot be more than 20 % of your weekly wages.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 14",
+              "quote": "Deduction for loss or damage. — Where the employer is engaged in a trade, occupation or business where the practice of making deductions or requiring deposits is recognized to answer for the reimbursement of loss or damage to tools, materials, or equipment supplied by the employer to the employee, the employer may make wage deductions or require the employees to make deposits from which deductions shall be made, subject to the following conditions:",
+              "start": 12,
+              "end": 464,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 14"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 14",
+              "quote": "(a) That the employee concerned is clearly shown to be responsible for the loss or damage;",
+              "start": 466,
+              "end": 556,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 14"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 14",
+              "quote": "(d) That the deduction from the wages of the employee does not exceed 20 percent of the employee's wages in a week.",
+              "start": 773,
+              "end": 888,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 14"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 2306,
+        "completion_tokens": 1234,
+        "total_tokens": 3540
+      },
+      "usage_generation": {
+        "prompt_tokens": 2245,
+        "completion_tokens": 972,
+        "total_tokens": 3217
+      },
+      "usage_support": {
+        "prompt_tokens": 2159,
+        "completion_tokens": 563,
+        "total_tokens": 2722
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: they deducted a missing cash amount from my salary without asking for my side. what should be checked before that deduction",
+        "sources": [
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+          "LAB_CODE_2022__art_116",
+          "LAB_CODE_2022__art_117"
+        ]
+      }
+    ],
+    "elapsed_ms": 20811.999999999898
+  },
+  {
+    "case_id": "EX_NEW_005",
+    "question": "sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?",
+    "group": "L",
+    "topic": "paydays",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 10,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?",
+      "normalized_question_text": null,
+      "effective_question_text": "sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "partially_generated",
+      "reason": "supported_parts_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_002",
+          "text": "Sa private na kumpanya, ang sahod dapat binabayad hindi bababa sa dalawang linggo o dalawang beses sa isang buwan, at ang pagitan ng payday hindi dapat lumagpas ng labing‑anim (16) na araw, maliban kung may force majeure o ibang di‑kontroladong pangyayari; kung ganoon, dapat bayaran agad pag natapos ang sitwasyon.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+              "quote": "Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.",
+              "start": 11,
+              "end": 388,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+            }
+          ]
+        },
+        {
+          "claim_id": "development_2",
+          "component_id": "concern_003",
+          "text": "Sa private employment, ang batas nagtatakda na ang sahod dapat ibigay hindi bababa sa dalawang linggo o dalawang beses kada buwan, at ang pagitan ng payday hindi dapat lumagpas ng labing‑anim (16) na araw, maliban kung may force majeure o ibang di‑kontroladong pangyayari kung saan dapat bayaran agad pag huminto ang sitwasyon.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+              "quote": "Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.",
+              "start": 11,
+              "end": 388,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_001",
+          "query": "sa private printing company kami",
+          "reason": "source_context_unavailable"
+        }
+      ],
+      "usage_generation": {
+        "prompt_tokens": 9345,
+        "completion_tokens": 316,
+        "total_tokens": 9661
+      },
+      "usage_support": {
+        "prompt_tokens": 2433,
+        "completion_tokens": 571,
+        "total_tokens": 3004
+      },
+      "coverage_complete": false,
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "sa private printing company kami",
+        "sources": []
+      },
+      {
+        "id": "concern_002",
+        "query": "private employment: isang beses lang kada month nagbibigay sahod",
+        "sources": [
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+          "LAB_IRR_1989__rule_vii_wages__section_19",
+          "LAB_CODE_2022__art_105",
+          "LAB_CODE_2022__art_129",
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_1"
+        ]
+      },
+      {
+        "id": "concern_003",
+        "query": "private employment: tama ba yung pagitan ng payday namin",
+        "sources": [
+          "LAB_IRR_1989__rule_vii_wages__section_19",
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+          "LAB_CODE_2022__art_105",
+          "LAB_CODE_2022__art_129",
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_1"
+        ]
+      }
+    ],
+    "elapsed_ms": 7188.000000000102
+  },
+  {
+    "case_id": "EX_NEW_006",
+    "question": "My private employer accused me of misconduct and immediately dismissed me. I was never allowed to explain. What process is supposed to happen?",
+    "group": "L",
+    "topic": "procedure",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "My private employer accused me of misconduct and immediately dismissed me. I was never allowed to explain. What process is supposed to happen?",
+      "normalized_question_text": null,
+      "effective_question_text": "My private employer accused me of misconduct and immediately dismissed me. I was never allowed to explain. What process is supposed to happen?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "claim_support_failed",
+      "llm_calls": 4,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 3186,
+        "completion_tokens": 205,
+        "total_tokens": 3391
+      },
+      "usage_support": {
+        "prompt_tokens": 2024,
+        "completion_tokens": 676,
+        "total_tokens": 2700
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 3316,
+        "completion_tokens": 156,
+        "total_tokens": 3472
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 1670,
+        "completion_tokens": 799,
+        "total_tokens": 2469
+      }
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "my private employer accused me of misconduct and immediately dismissed me. i was never allowed to explain. what process is supposed to happen",
+        "sources": [
+          "LAB_IRR_1989__rule_xiv_termination_of_employment__section_1",
+          "LAB_CODE_2022__art_297",
+          "LAB_IRR_1989__rule_xvi_general_provisions__section_7__occ_2",
+          "LAB_IRR_1989__rule_xiii_picketing_strikes_and_lockouts__section_3",
+          "LAB_IRR_1989__rule_xvi_general_provisions__section_11__occ_2"
+        ]
+      }
+    ],
+    "elapsed_ms": 14844.000000000051
+  },
+  {
+    "case_id": "EX_NEW_007",
+    "question": "My private employer repeatedly gives me short contracts even though I do the normal daily work of the business. Does the contract label settle whether the work is regular?",
+    "group": "L",
+    "topic": "status",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "My private employer repeatedly gives me short contracts even though I do the normal daily work of the business. Does the contract label settle whether the work is regular?",
+      "normalized_question_text": null,
+      "effective_question_text": "My private employer repeatedly gives me short contracts even though I do the normal daily work of the business. Does the contract label settle whether the work is regular?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "citation_validation_failed",
+      "llm_calls": 2,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage": {
+        "prompt_tokens": 2612,
+        "completion_tokens": 316,
+        "total_tokens": 2928
+      },
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 2712,
+        "completion_tokens": 266,
+        "total_tokens": 2978
+      },
+      "validation_failure": "source_qualification_missing"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "my private employer repeatedly gives me short contracts even though i do the normal daily work of the business. does the contract label settle whether the work is regular",
+        "sources": [
+          "LAB_IRR_1989__rule_xvi_general_provisions__section_5__occ_2",
+          "LAB_CODE_2022__art_295",
+          "LAB_IRR_1989__article_280"
+        ]
+      }
+    ],
+    "elapsed_ms": 4844.000000000051
+  },
+  {
+    "case_id": "EX_NEW_008",
+    "question": "Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?",
+    "group": "L",
+    "topic": "probation",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": false,
+      "scope_correct": true,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "primary_label_mismatch_or_abstention",
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?",
+      "normalized_question_text": null,
+      "effective_question_text": "Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?",
+      "gate": {
+        "needed": false,
+        "reason": "local_path",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "local_path",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 484.00000000037835
+  },
+  {
+    "case_id": "EX_NEW_009",
+    "question": "I was late last Monday, and my private employer wants to use that undertime to cancel overtime I worked on Wednesday. Can those hours just cancel each other?",
+    "group": "L",
+    "topic": "offsetting",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I was late last Monday, and my private employer wants to use that undertime to cancel overtime I worked on Wednesday. Can those hours just cancel each other?",
+      "normalized_question_text": null,
+      "effective_question_text": "I was late last Monday, and my private employer wants to use that undertime to cancel overtime I worked on Wednesday. Can those hours just cancel each other?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under the Labor Code, any undertime you incur on a given day cannot be used to cancel or reduce overtime you earned on a different day. The rule also says that even if you are given permission to take leave on another day, the employer must still pay the extra compensation required by law.",
+          "citations": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_88",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 88",
+              "quote": "Undertime Not Offset by Overtime.74 – Undertime work on any particular day",
+              "start": 9,
+              "end": 83,
+              "citation_label": "PD 442, as amended and renumbered, ART. 88"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_88__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_88",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 88",
+              "quote": "shall not be offset by overtime work on any other day.",
+              "start": 84,
+              "end": 138,
+              "citation_label": "PD 442, as amended and renumbered, ART. 88"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 1434,
+        "completion_tokens": 258,
+        "total_tokens": 1692
+      },
+      "usage_support": {
+        "prompt_tokens": 1802,
+        "completion_tokens": 681,
+        "total_tokens": 2483
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "i was late last monday. my private employer wants to use that undertime to cancel overtime i worked on wednesday. can those hours just cancel each other",
+        "sources": [
+          "LAB_CODE_2022__art_88"
+        ]
+      }
+    ],
+    "elapsed_ms": 7046.0000000002765
+  },
+  {
+    "case_id": "EX_NEW_010",
+    "question": "I work at a private retail store. I requested a rest day for my religious observance. What should the employer consider before refusing?",
+    "group": "L",
+    "topic": "religion",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I work at a private retail store. I requested a rest day for my religious observance. What should the employer consider before refusing?",
+      "normalized_question_text": null,
+      "effective_question_text": "I work at a private retail store. I requested a rest day for my religious observance. What should the employer consider before refusing?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "An employer must honor an employee’s request for a weekly rest day that is based on religious reasons, provided the employee submits a written notice at least seven days before the desired start date. However, if granting that preference would seriously prejudice or block the business’s operations and no reasonable alternative can be found, the employer may instead set the employee’s rest day, but must still allow the employee at least two rest days per month.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+              "quote": "Preference of employee. — The preference of the employee as to his weekly day of rest shall be respected by the employer if the same is based on religious grounds.",
+              "start": 11,
+              "end": 174,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 4 — BOOK THREE, RULE III"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+              "quote": "The employee shall make known his preference to the employer in writing at least seven (7) days before the desired effectivity of the initial rest day so preferred.",
+              "start": 175,
+              "end": 339,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 4 — BOOK THREE, RULE III"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+              "quote": "Where, however, the choice of the employee as to his rest day based on religious grounds will inevitably result in serious prejudice or obstruction to the operations of the undertaking and the employer cannot normally be expected to resort to other remedial measures, the employer may so schedule the weekly rest day of his choice for at least two (2) days in a month.",
+              "start": 341,
+              "end": 709,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 4 — BOOK THREE, RULE III"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 1504,
+        "completion_tokens": 272,
+        "total_tokens": 1776
+      },
+      "usage_support": {
+        "prompt_tokens": 2161,
+        "completion_tokens": 735,
+        "total_tokens": 2896
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: i requested a rest day for my religious observance. what should the employer consider before refusing",
+        "sources": [
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4"
+        ]
+      }
+    ],
+    "elapsed_ms": 8140.000000000327
+  },
+  {
+    "case_id": "EX_NEW_011",
+    "question": "I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?",
+    "group": "C",
+    "topic": "defect",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": false,
+      "scope_correct": true,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "primary_label_mismatch_or_abstention",
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?",
+      "normalized_question_text": null,
+      "effective_question_text": "I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?",
+      "gate": {
+        "needed": false,
+        "reason": "local_path",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "local_path",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 311.99999999989814
+  },
+  {
+    "case_id": "EX_NEW_012",
+    "question": "may warranty card ako sa bagong microwave. ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer?",
+    "group": "C",
+    "topic": "warranty",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 4,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "may warranty card ako sa bagong microwave. ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer?",
+      "normalized_question_text": null,
+      "effective_question_text": "may warranty card ako sa bagong microwave. ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Sa ilalim ng RA 7394 Art. 68, ang retailer ay subsidiarily liable—meaning kung parehong hindi tumugon ang manufacturer at distributor, ang retailer ay may pananagutan. Kaya pwede mong dalhin ang warranty card o resibo sa retailer at mag‑present ng claim; wala nang ibang dokumentong kailangan. Kapag tinanggap ng retailer ang claim, dapat niyang sagutin ang gastos para ayusin o palitan ang microwave, pero may karapatan siyang habulin ang distributor o manufacturer para mabawi ang gastos.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Retail. - The retailer shall be subsidiarily liable under the warranty in case of failure of both the manufacturer and distributor to honor the warranty.",
+              "start": 2232,
+              "end": 2385,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "In such case, the retailer shall shoulder the expenses and costs necessary to honor the warranty.",
+              "start": 2386,
+              "end": 2483,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Enforcement of warranty or guarantee. - The warranty rights can be enforced by presentment of a claim.",
+              "start": 2585,
+              "end": 2687,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            }
+          ]
+        },
+        {
+          "claim_id": "development_2",
+          "component_id": "concern_002",
+          "text": "Ayon sa parehong probisyon ng RA 7394 Art. 68, ang retailer ay may subsidiaray liability kapag parehong hindi nag‑honor ang manufacturer at distributor. Ibig sabihin, pwede mong i‑present ang warranty card o resibo sa retailer at hilingin ang repair o replacement nang walang karagdagang requirements. Ang retailer ay dapat mag‑bayad ng lahat ng gastos para matupad ang warranty, pero hindi ito humahadlang sa kanya na habulin ang distributor o manufacturer para mabawi ang bayad.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Retail. - The retailer shall be subsidiarily liable under the warranty in case of failure of both the manufacturer and distributor to honor the warranty.",
+              "start": 2232,
+              "end": 2385,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "In such case, the retailer shall shoulder the expenses and costs necessary to honor the warranty.",
+              "start": 2386,
+              "end": 2483,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0002",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Enforcement of warranty or guarantee. - The warranty rights can be enforced by presentment of a claim.",
+              "start": 2585,
+              "end": 2687,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 8755,
+        "completion_tokens": 790,
+        "total_tokens": 9545
+      },
+      "usage_support": {
+        "prompt_tokens": 4918,
+        "completion_tokens": 894,
+        "total_tokens": 5812
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "retail transaction: may warranty card ako sa bagong microwave",
+        "sources": [
+          "RA_7394_1992__art_68",
+          "RA_7394_1992__art_69",
+          "RA_7394_1992__art_67"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer",
+        "sources": [
+          "RA_7394_1992__art_68"
+        ]
+      }
+    ],
+    "elapsed_ms": 12734.000000000378
+  },
+  {
+    "case_id": "EX_NEW_013",
+    "question": "A supermarket gave me a store coupon instead of the coins it owed me as change. I did not agree. Can the store decide that for me?",
+    "group": "C",
+    "topic": "exact_change",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A supermarket gave me a store coupon instead of the coins it owed me as change. I did not agree. Can the store decide that for me?",
+      "normalized_question_text": null,
+      "effective_question_text": "A supermarket gave me a store coupon instead of the coins it owed me as change. I did not agree. Can the store decide that for me?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under the No Shortchanging Act of 2016, a business establishment must give the exact change in legal currency to the consumer and it is unlawful to give change in any other form or to ask the consumer’s permission to substitute it, such as with a store coupon. If the establishment refuses or fails to give the proper cash change, the amount of the shortchanged change must be paid to the complainant in addition to any fine that may be imposed.",
+          "citations": [
+            {
+              "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+              "provision_id": "RA_10909_2016__sec_4",
+              "document_id": "RA_10909_2016",
+              "citation_display": "Republic Act No. 10909, SEC. 4",
+              "quote": "Regulated Acts. – It shall be the duty of the business establishment to give the exact change to the consumer without waiting for the consumer to ask for the same.",
+              "start": 8,
+              "end": 171,
+              "citation_label": "Republic Act No. 10909, SEC. 4"
+            },
+            {
+              "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+              "provision_id": "RA_10909_2016__sec_4",
+              "document_id": "RA_10909_2016",
+              "citation_display": "Republic Act No. 10909, SEC. 4",
+              "quote": "(b) Other Prohibitions. – It shall also be unlawful for any business establishment which sells goods or provides services to give the change in any form other than the present currency or to ask the consumers for permission to be exempted from the provisions of this Act for any reason, including the nonavailability of small bills or coins.",
+              "start": 456,
+              "end": 797,
+              "citation_label": "Republic Act No. 10909, SEC. 4"
+            },
+            {
+              "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+              "provision_id": "DTI_DAO_16_03__rule_vii_penalties__section_2",
+              "document_id": "DTI_DAO_16_03",
+              "citation_display": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2",
+              "quote": "complainant.",
+              "start": 244,
+              "end": 256,
+              "citation_label": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 3962,
+        "completion_tokens": 244,
+        "total_tokens": 4206
+      },
+      "usage_support": {
+        "prompt_tokens": 2406,
+        "completion_tokens": 951,
+        "total_tokens": 3357
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a supermarket gave me a store coupon instead of the coins it owed me as change. i did not agree. can the store decide that for me",
+        "sources": [
+          "DTI_DAO_16_03__rule_vii_penalties__section_2",
+          "RA_10909_2016__sec_4",
+          "RA_10909_2016__sec_2",
+          "RA_10909_2016__section_1",
+          "RA_10909_2016__sec_3"
+        ]
+      }
+    ],
+    "elapsed_ms": 8405.999999999949
+  },
+  {
+    "case_id": "EX_NEW_014",
+    "question": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+    "group": "C",
+    "topic": "price_tag",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+      "normalized_question_text": null,
+      "effective_question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under Republic Act No. 7394, Art. 81, it is unlawful for a retailer to sell a consumer product at a price higher than the price shown on the tag, label, or public marking. The displayed price must apply to all buyers, and the sale price cannot exceed that stated price.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "quote": "Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+              "start": 9,
+              "end": 790,
+              "citation_label": "Republic Act No. 7394, ART. 81"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 1620,
+        "completion_tokens": 178,
+        "total_tokens": 1798
+      },
+      "usage_support": {
+        "prompt_tokens": 1902,
+        "completion_tokens": 551,
+        "total_tokens": 2453
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "the price label on the shelf was lower than the amount the cashier charged. they said the label had not been updated yet. which price rule should i understand",
+        "sources": [
+          "RA_7394_1992__art_81",
+          "RA_7394_1992__art_83"
+        ]
+      }
+    ],
+    "elapsed_ms": 6155.999999999949
+  },
+  {
+    "case_id": "EX_NEW_015",
+    "question": "Nagbayad ako sa local repair shop para ayusin ang electric fan. Same problem pa rin nung binalik. What can the service-quality rule tell me?",
+    "group": "C",
+    "topic": "repair_service",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Nagbayad ako sa local repair shop para ayusin ang electric fan. Same problem pa rin nung binalik. What can the service-quality rule tell me?",
+      "normalized_question_text": null,
+      "effective_question_text": "Nagbayad ako sa local repair shop para ayusin ang electric fan. Same problem pa rin nung binalik. What can the service-quality rule tell me?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Kung ang repair shop ay hindi naayos ang fan at bumalik pa rin ang problema, liable sila sa quality imperfection. Bilang consumer, pwede kang pumili na ipagawa ulit ang repair nang walang dagdag na bayad, hilingin ang agarang refund kasama ang monetary updating, o kunin ang proportionate price reduction. Pwede rin silang mag‑outsource sa qualified third party, pero sila pa rin ang may risk at gastos.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+              "provision_id": "RA_7394_1992__art_102",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 102",
+              "quote": "Liability for Service Quality Imperfection. - The service supplier is liable for any quality imperfections that render the services improper for consumption or decrease their value, and for those resulting from inconsistency with the information contained in the offer or advertisement, the consumer being entitled to demand alternative at his option:",
+              "start": 10,
+              "end": 361,
+              "citation_label": "Republic Act No. 7394, ART. 102"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+              "provision_id": "RA_7394_1992__art_102",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 102",
+              "quote": "the immediate reimbursement of the amount paid, with monetary updating without prejudice to losses and damages, if any;",
+              "start": 445,
+              "end": 564,
+              "citation_label": "Republic Act No. 7394, ART. 102"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_102__chunk_0001",
+              "provision_id": "RA_7394_1992__art_102",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 102",
+              "quote": "Reperformance of services may be entrusted to duly qualified third parties, at the supplier's risk and cost.",
+              "start": 599,
+              "end": 707,
+              "citation_label": "Republic Act No. 7394, ART. 102"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 1604,
+        "completion_tokens": 319,
+        "total_tokens": 1923
+      },
+      "usage_support": {
+        "prompt_tokens": 2075,
+        "completion_tokens": 775,
+        "total_tokens": 2850
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "nagbayad ako sa local repair shop para ayusin ang electric fan. same problem pa rin nung binalik. what can the service-quality rule tell me",
+        "sources": [
+          "RA_7394_1992__art_102"
+        ]
+      }
+    ],
+    "elapsed_ms": 7984.999999999673
+  },
+  {
+    "case_id": "EX_NEW_016",
+    "question": "I ordered a red school bag from a Philippine online seller and got a different model. If I ask for a replacement, who pays to return the wrong item?",
+    "group": "C",
+    "topic": "online_return",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 10,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I ordered a red school bag from a Philippine online seller and got a different model. If I ask for a replacement, who pays to return the wrong item?",
+      "normalized_question_text": null,
+      "effective_question_text": "I ordered a red school bag from a Philippine online seller and got a different model. If I ask for a replacement, who pays to return the wrong item?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "partially_generated",
+      "reason": "supported_parts_checked",
+      "llm_calls": 4,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "If you opt for a replacement, the online merchant is entitled to have the original (wrong) item returned, and you do not have to bear any cost for that return, provided it is done within a reasonable period unless you and the merchant agree otherwise.",
+          "citations": [
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "quote": "When the online consumer avails replacement or refund as a remedy, the online merchant is entitled to the return of the original goods delivered, without any cost to the online consumer, within a reasonable period from the receipt thereof, unless otherwise agreed upon by the parties.",
+              "start": 406,
+              "end": 690,
+              "citation_label": "Republic Act No. 11967, SEC. 20"
+            },
+            {
+              "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+              "provision_id": "DTI_JAO_24_03__section_37",
+              "document_id": "DTI_JAO_24_03",
+              "citation_display": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37",
+              "quote": "merchant or e-retailer is entitled to the return of the original goods delivered, without any",
+              "start": 535,
+              "end": 628,
+              "citation_label": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 9280,
+        "completion_tokens": 591,
+        "total_tokens": 9871
+      },
+      "usage_support": {
+        "prompt_tokens": 3942,
+        "completion_tokens": 1431,
+        "total_tokens": 5373
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 9549,
+        "completion_tokens": 650,
+        "total_tokens": 10199
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 2297,
+        "completion_tokens": 552,
+        "total_tokens": 2849
+      },
+      "coverage_complete": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_002",
+          "query": "if i ask for a replacement, who pays to return the wrong item",
+          "reason": "claim_support_failed"
+        }
+      ],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "i ordered a red school bag from a philippine online seller and got a different model",
+        "sources": [
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_37",
+          "DTI_JAO_24_03__section_34",
+          "RA_11967_2023__sec_19",
+          "RA_11967_2023__sec_11"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "if i ask for a replacement, who pays to return the wrong item",
+        "sources": [
+          "RA_7394_1992__art_68",
+          "RA_7394_1992__art_100",
+          "RA_7394_1992__art_103",
+          "RA_7394_1992__art_102",
+          "RA_7394_1992__art_128"
+        ]
+      }
+    ],
+    "elapsed_ms": 22172.00000000048
+  },
+  {
+    "case_id": "EX_NEW_017",
+    "question": "A store advertised a printer with a scanner, but the delivered model cannot scan. What consumer rule covers a feature that was promised but is missing?",
+    "group": "C",
+    "topic": "advertising",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A store advertised a printer with a scanner, but the delivered model cannot scan. What consumer rule covers a feature that was promised but is missing?",
+      "normalized_question_text": null,
+      "effective_question_text": "A store advertised a printer with a scanner, but the delivered model cannot scan. What consumer rule covers a feature that was promised but is missing?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "partially_generated",
+      "reason": "supported_parts_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "The law says it is illegal to spread a false, deceptive or misleading advertisement that induces a purchase. If a store advertises a printer with a scanner but the delivered model cannot scan, the ad is misleading because it fails to disclose a material fact about the product’s features. This triggers the prohibition on false or deceptive advertising under the Consumer Act.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_110__chunk_0001",
+              "provision_id": "RA_7394_1992__art_110",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 110",
+              "quote": "An advertisement shall be false, deceptive or misleading if it is not in conformity with the provisions of this Act or if it is misleading in a material respect.",
+              "start": 420,
+              "end": 581,
+              "citation_label": "Republic Act No. 7394, ART. 110"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_002",
+          "query": "what consumer rule covers a feature that was promised but is missing",
+          "reason": "source_context_unavailable"
+        }
+      ],
+      "usage_generation": {
+        "prompt_tokens": 1499,
+        "completion_tokens": 178,
+        "total_tokens": 1677
+      },
+      "usage_support": {
+        "prompt_tokens": 1830,
+        "completion_tokens": 599,
+        "total_tokens": 2429
+      },
+      "coverage_complete": false,
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a store advertised a printer with a scanner, but the delivered model cannot scan",
+        "sources": [
+          "RA_7394_1992__art_110"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "what consumer rule covers a feature that was promised but is missing",
+        "sources": []
+      }
+    ],
+    "elapsed_ms": 6905.999999999949
+  },
+  {
+    "case_id": "EX_NEW_018",
+    "question": "The new extension cord I bought from a local shop sparks during normal use. How do the consumer product-safety rules describe a defective product?",
+    "group": "C",
+    "topic": "safety",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 4,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "The new extension cord I bought from a local shop sparks during normal use. How do the consumer product-safety rules describe a defective product?",
+      "normalized_question_text": null,
+      "effective_question_text": "The new extension cord I bought from a local shop sparks during normal use. How do the consumer product-safety rules describe a defective product?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under Republic Act No. 7394, a product is considered defective when it fails to provide the safety that a consumer can reasonably expect, given how the product is presented, the usual ways it will be used and the hazards that can be anticipated, and the period when it was placed on the market.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+              "provision_id": "RA_7394_1992__art_97",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 97",
+              "quote": "A product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:",
+              "start": 455,
+              "end": 618,
+              "citation_label": "Republic Act No. 7394, ART. 97"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 3504,
+        "completion_tokens": 497,
+        "total_tokens": 4001
+      },
+      "usage_support": {
+        "prompt_tokens": 1850,
+        "completion_tokens": 535,
+        "total_tokens": 2385
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "the new extension cord i bought from a local shop sparks during normal use. how do the consumer product-safety rules describe a defective product",
+        "sources": [
+          "RA_7394_1992__art_97",
+          "RA_7394_1992__art_100",
+          "RA_7394_1992__art_12",
+          "RA_7394_1992__art_10"
+        ]
+      }
+    ],
+    "elapsed_ms": 8983.999999999469
+  },
+  {
+    "case_id": "EX_NEW_019",
+    "question": "Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?",
+    "group": "C",
+    "topic": "used_as_new",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": false,
+      "scope_correct": false,
+      "route": "clarify",
+      "route_correct": false,
+      "domain_correct": false,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": [
+        "primary_label_mismatch_or_abstention",
+        "scope_label_mismatch_or_abstention",
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?",
+      "normalized_question_text": null,
+      "effective_question_text": "Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?",
+      "gate": {
+        "needed": false,
+        "reason": "local_path",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "local_path",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 172.0000000004802
+  },
+  {
+    "case_id": "EX_NEW_020",
+    "question": "The Philippine online shop has no working complaint channel for my faulty purchase. What does the source say about an internal redress mechanism?",
+    "group": "C",
+    "topic": "redress",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "The Philippine online shop has no working complaint channel for my faulty purchase. What does the source say about an internal redress mechanism?",
+      "normalized_question_text": null,
+      "effective_question_text": "The Philippine online shop has no working complaint channel for my faulty purchase. What does the source say about an internal redress mechanism?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "The law says you must first use the online shop’s own complaint system before filing a case in court or with a government agency. That internal redress process is considered exhausted only if the shop does not resolve your complaint within seven calendar days after you filed it.",
+          "citations": [
+            {
+              "chunk_id": "RA_11967_2023__sec_24__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_24",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 24",
+              "quote": "Internal Redress Mechanism. - An aggrieved party shall avail of the internal redress mechanism of the digital platform, e-marketplace or e-retailer prior to the filing of a complaint before any court or appropriate government agency, or resorting to alternative dispute resolution.",
+              "start": 9,
+              "end": 290,
+              "citation_label": "Republic Act No. 11967, SEC. 24"
+            },
+            {
+              "chunk_id": "RA_11967_2023__sec_24__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_24",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 24",
+              "quote": "Such mechanism is deemed exhausted if the complaint remains unresolved after seven (7) calendar days from filing thereof.",
+              "start": 291,
+              "end": 412,
+              "citation_label": "Republic Act No. 11967, SEC. 24"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 1955,
+        "completion_tokens": 444,
+        "total_tokens": 2399
+      },
+      "usage_generation": {
+        "prompt_tokens": 1855,
+        "completion_tokens": 433,
+        "total_tokens": 2288
+      },
+      "usage_support": {
+        "prompt_tokens": 1876,
+        "completion_tokens": 592,
+        "total_tokens": 2468
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "the philippine online shop has no working complaint channel for my faulty purchase. what does the source say about an internal redress mechanism",
+        "sources": [
+          "RA_11967_2023__sec_24",
+          "DTI_JAO_24_03__section_38"
+        ]
+      }
+    ],
+    "elapsed_ms": 11016.000000000531
+  },
+  {
+    "case_id": "EX_NEW_021",
+    "question": "My private employer has delayed wages, and a separate local shop refuses my written warranty claim. Please explain what applies to each concern.",
+    "group": "M",
+    "topic": "both",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 8,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "My private employer has delayed wages, and a separate local shop refuses my written warranty claim. Please explain what applies to each concern.",
+      "normalized_question_text": null,
+      "effective_question_text": "My private employer has delayed wages, and a separate local shop refuses my written warranty claim. Please explain what applies to each concern.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "An employer must pay wages at least every 16 days (twice a month). If a force majeure event or circumstances beyond the employer’s control prevent this regular schedule, the employer must pay the wages immediately after those conditions end.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+              "quote": "Time of payment. — (a) Wages shall be paid not less than once every two (2) weeks or twice a month at intervals not exceeding sixteen (16) days, unless payment cannot be made with such regularity due to force majeure or circumstances beyond the employer's control in which case the employer shall pay the wages immediately after such force majeure or circumstances have ceased.",
+              "start": 11,
+              "end": 388,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+              "quote": "(b) In case of payment of wages by results involving work which cannot be finished in two (2) weeks, payment shall be made at intervals not exceeding sixteen days in proportion to the amount of work completed.",
+              "start": 390,
+              "end": 599,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, CHAPTER IV, RULE VIII"
+            }
+          ]
+        },
+        {
+          "claim_id": "development_2",
+          "component_id": "concern_002",
+          "text": "To enforce a warranty, you simply present the warranty card or receipt to the shop where you bought the product; no other documents are required. If the shop is a retailer that is not the distributor, it must forward your claim to the distributor at no cost to you. The retailer is only secondarily liable for the warranty costs if both the manufacturer and the distributor fail to honor the warranty.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Enforcement of warranty or guarantee. - The warranty rights can be enforced by presentment of a claim.",
+              "start": 2585,
+              "end": 2687,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "In the case of a retailer other than the distributor, the former shall take responsibility without cost to the buyer of presenting the warranty claim to the distributor in the consumer's behalf.",
+              "start": 3178,
+              "end": 3372,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Retail. - The retailer shall be subsidiarily liable under the warranty in case of failure of both the manufacturer and distributor to honor the warranty.",
+              "start": 2232,
+              "end": 2385,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 7919,
+        "completion_tokens": 1115,
+        "total_tokens": 9034
+      },
+      "usage_generation": {
+        "prompt_tokens": 7855,
+        "completion_tokens": 1138,
+        "total_tokens": 8993
+      },
+      "usage_support": {
+        "prompt_tokens": 3810,
+        "completion_tokens": 1198,
+        "total_tokens": 5008
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "my private employer has delayed wages",
+        "sources": [
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_3",
+          "LAB_CODE_2022__art_105",
+          "LAB_IRR_1989__rule_vii_wages__section_19",
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_1",
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_12"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "a separate local shop refuses my written warranty claim. please explain what applies to each concern",
+        "sources": [
+          "RA_7394_1992__art_68",
+          "RA_7394_1992__art_69",
+          "RA_7394_1992__art_67"
+        ]
+      }
+    ],
+    "elapsed_ms": 22436.999999999898
+  },
+  {
+    "case_id": "EX_NEW_022",
+    "question": "private worker ako na walang weekly rest. unrelated, yung cashier sa grocery hindi binalik buong sukli ko. What should I understand about both issues?",
+    "group": "M",
+    "topic": "both",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 10,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "private worker ako na walang weekly rest. unrelated, yung cashier sa grocery hindi binalik buong sukli ko. What should I understand about both issues?",
+      "normalized_question_text": null,
+      "effective_question_text": "private worker ako na walang weekly rest. unrelated, yung cashier sa grocery hindi binalik buong sukli ko. What should I understand about both issues?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Ayon sa Omnibus Rules, dapat binibigyan ng employer ang mga empleyado ng hindi bababa sa 24 na sunud-sunod na oras na pahinga pagkatapos ng anim na magkasunod na normal na araw ng trabaho.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+              "quote": "Weekly rest day. — Every employer shall give his employees a rest period of not less than twenty-four (24) consecutive hours after every six consecutive normal work days.",
+              "start": 11,
+              "end": 181,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE III"
+            }
+          ]
+        },
+        {
+          "claim_id": "development_2",
+          "component_id": "concern_002",
+          "text": "Sa ilalim ng No Shortchanging Act (RA 10909) at DAO 16‑03, obligadong magbigay ng eksaktong sukli ang negosyo; bawal mag‑shortchange kahit maliit lang ang halaga, at kung nag‑shortchange, kailangang bayaran ng establisyemento ang kulang na sukli bilang bahagi ng parusa.",
+          "citations": [
+            {
+              "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+              "provision_id": "RA_10909_2016__sec_4",
+              "document_id": "RA_10909_2016",
+              "citation_display": "Republic Act No. 10909, SEC. 4",
+              "quote": "Regulated Acts. – It shall be the duty of the business establishment to give the exact change to the consumer without waiting for the consumer to ask for the same.",
+              "start": 8,
+              "end": 171,
+              "citation_label": "Republic Act No. 10909, SEC. 4"
+            },
+            {
+              "chunk_id": "DTI_DAO_16_03__rule_vii_penalties__section_2__chunk_0001",
+              "provision_id": "DTI_DAO_16_03__rule_vii_penalties__section_2",
+              "document_id": "DTI_DAO_16_03",
+              "citation_display": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2",
+              "quote": "Shortchange Amount. - In addition to the amount of the fine mentioned",
+              "start": 11,
+              "end": 80,
+              "citation_label": "Department Administrative Order No. 16-03, Series of 2016, SECTION 2 — Rule VII, PDF page 6"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 7161,
+        "completion_tokens": 330,
+        "total_tokens": 7491
+      },
+      "usage_support": {
+        "prompt_tokens": 2690,
+        "completion_tokens": 1194,
+        "total_tokens": 3884
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private worker ako na walang weekly rest",
+        "sources": [
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_5",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6",
+          "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+          "LAB_CODE_2022__art_92"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "unrelated, yung cashier sa grocery hindi binalik buong sukli ko. what should i understand about both issues",
+        "sources": [
+          "DTI_DAO_16_03__rule_vii_penalties__section_2",
+          "RA_10909_2016__sec_4",
+          "RA_10909_2016__sec_2",
+          "RA_10909_2016__sec_3",
+          "RA_10909_2016__section_1"
+        ]
+      }
+    ],
+    "elapsed_ms": 11608.999999999469
+  },
+  {
+    "case_id": "EX_NEW_023",
+    "question": "My private employer deducted the cost of damaged equipment from my wages. Separately, I need help disputing a bank interest charge. Which part can you help explain?",
+    "group": "P_L",
+    "topic": "partial",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "My private employer deducted the cost of damaged equipment from my wages. Separately, I need help disputing a bank interest charge. Which part can you help explain?",
+      "normalized_question_text": null,
+      "effective_question_text": "My private employer deducted the cost of damaged equipment from my wages. Separately, I need help disputing a bank interest charge. Which part can you help explain?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "citation_validation_failed",
+      "llm_calls": 2,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage": {
+        "prompt_tokens": 2222,
+        "completion_tokens": 1123,
+        "total_tokens": 3345
+      },
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 2283,
+        "completion_tokens": 999,
+        "total_tokens": 3282
+      },
+      "validation_failure": "numeric_detail_not_in_source"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "my private employer deducted the cost of damaged equipment from my wages",
+        "sources": [
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+          "LAB_CODE_2022__art_116",
+          "LAB_CODE_2022__art_117"
+        ]
+      }
+    ],
+    "elapsed_ms": 13969.000000000051
+  },
+  {
+    "case_id": "EX_NEW_024",
+    "question": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+    "group": "P_C",
+    "topic": "partial",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 9,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+      "normalized_question_text": null,
+      "effective_question_text": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "claim_support_failed",
+      "llm_calls": 3,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 11601,
+        "completion_tokens": 2091,
+        "total_tokens": 13692
+      },
+      "usage_generation": {
+        "prompt_tokens": 11451,
+        "completion_tokens": 1351,
+        "total_tokens": 12802
+      },
+      "usage_support": {
+        "prompt_tokens": 2299,
+        "completion_tokens": 805,
+        "total_tokens": 3104
+      }
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "an online store sent a faulty rice cooker",
+        "sources": [
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_37",
+          "RA_7394_1992__art_100",
+          "RA_11967_2023__sec_19",
+          "DTI_JAO_24_03__section_35"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "retail transaction: please explain the purchase issue and tell me where your scope ends",
+        "sources": [
+          "RA_7394_1992__art_50",
+          "RA_7394_1992__art_81",
+          "RA_7394_1992__art_163",
+          "RA_7394_1992__art_68"
+        ]
+      }
+    ],
+    "elapsed_ms": 28859.00000000038
+  },
+  {
+    "case_id": "EX_NEW_025",
+    "question": "Government employee po ako. I want to appeal an administrative suspension under civil-service rules. What argument should I submit?",
+    "group": "O",
+    "topic": "government",
+    "expected": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Government employee po ako. I want to appeal an administrative suspension under civil-service rules. What argument should I submit?",
+      "normalized_question_text": null,
+      "effective_question_text": "Government employee po ako. I want to appeal an administrative suspension under civil-service rules. What argument should I submit?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 157.0000000001528
+  },
+  {
+    "case_id": "EX_NEW_026",
+    "question": "My bank refused to reverse a transfer charge. What banking rules decide that dispute?",
+    "group": "O",
+    "topic": "bank",
+    "expected": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "My bank refused to reverse a transfer charge. What banking rules decide that dispute?",
+      "normalized_question_text": null,
+      "effective_question_text": "My bank refused to reverse a transfer charge. What banking rules decide that dispute?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 328.9999999997235
+  },
+  {
+    "case_id": "EX_NEW_027",
+    "question": "Tell me exactly how much damages I will win in my pending labor case. I only want a prediction, not general rules.",
+    "group": "O",
+    "topic": "prediction",
+    "expected": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Tell me exactly how much damages I will win in my pending labor case. I only want a prediction, not general rules.",
+      "normalized_question_text": null,
+      "effective_question_text": "Tell me exactly how much damages I will win in my pending labor case. I only want a prediction, not general rules.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 140.00000000032742
+  },
+  {
+    "case_id": "EX_NEW_028",
+    "question": "We disagree about who inherits our family property. What inheritance case should we file?",
+    "group": "O",
+    "topic": "inheritance",
+    "expected": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "We disagree about who inherits our family property. What inheritance case should we file?",
+      "normalized_question_text": null,
+      "effective_question_text": "We disagree about who inherits our family property. What inheritance case should we file?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 265.0000000003274
+  },
+  {
+    "case_id": "EX_NEW_029",
+    "question": "Private warehouse employee ako on a midnight shift. My question is specifically about night differential, not overtime. What is the rule?",
+    "group": "L",
+    "topic": "gap_night",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Private warehouse employee ako on a midnight shift. My question is specifically about night differential, not overtime. What is the rule?",
+      "normalized_question_text": null,
+      "effective_question_text": "Private warehouse employee ako on a midnight shift. My question is specifically about night differential, not overtime. What is the rule?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "source_context_unavailable",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_001",
+          "query": "private warehouse employee ako on a midnight shift. my question is specifically about night differential, not overtime. what is the rule",
+          "reason": "source_context_unavailable"
+        }
+      ]
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private warehouse employee ako on a midnight shift. my question is specifically about night differential, not overtime. what is the rule",
+        "sources": []
+      }
+    ],
+    "elapsed_ms": 219.00000000005093
+  },
+  {
+    "case_id": "EX_NEW_030",
+    "question": "My private workplace requires a short briefing before I clock in. Does that count as working time?",
+    "group": "L",
+    "topic": "gap_counted_time",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "My private workplace requires a short briefing before I clock in. Does that count as working time?",
+      "normalized_question_text": null,
+      "effective_question_text": "My private workplace requires a short briefing before I clock in. Does that count as working time?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "source_context_unavailable",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_001",
+          "query": "my private workplace requires a short briefing before i clock in. does that count as working time",
+          "reason": "source_context_unavailable"
+        }
+      ]
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "my private workplace requires a short briefing before i clock in. does that count as working time",
+        "sources": []
+      }
+    ],
+    "elapsed_ms": 452.9999999995198
+  },
+  {
+    "case_id": "EX_NEW_031",
+    "question": "I resigned from a private company. What deadline applies to my final pay and certificate of employment?",
+    "group": "L",
+    "topic": "gap_final_pay",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I resigned from a private company. What deadline applies to my final pay and certificate of employment?",
+      "normalized_question_text": null,
+      "effective_question_text": "I resigned from a private company. What deadline applies to my final pay and certificate of employment?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "source_context_unavailable",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_001",
+          "query": "i resigned from a private company. what deadline applies to my final pay and certificate of employment",
+          "reason": "source_context_unavailable"
+        }
+      ]
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "i resigned from a private company. what deadline applies to my final pay and certificate of employment",
+        "sources": []
+      }
+    ],
+    "elapsed_ms": 140.99999999962165
+  },
+  {
+    "case_id": "EX_NEW_032",
+    "question": "I work for a private store. Can you explain thirteenth-month pay coverage and computation using your available sources?",
+    "group": "L",
+    "topic": "gap_thirteenth",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I work for a private store. Can you explain thirteenth-month pay coverage and computation using your available sources?",
+      "normalized_question_text": null,
+      "effective_question_text": "I work for a private store. Can you explain thirteenth-month pay coverage and computation using your available sources?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "related_authority_missing",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_001",
+          "query": "private employment: can you explain thirteenth-month pay coverage and computation using your available sources",
+          "reason": "related_authority_missing"
+        }
+      ]
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: can you explain thirteenth-month pay coverage and computation using your available sources",
+        "sources": [
+          "PD_851_1975__sec_2",
+          "PD_851_1975__sec_3"
+        ]
+      }
+    ],
+    "elapsed_ms": 344.00000000005093
+  },
+  {
+    "case_id": "PH5_013",
+    "question": "Our private repair shop closed on a regular holiday and marked the day unpaid for everyone. Explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement.",
+    "group": "L",
+    "topic": "holiday",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Our private repair shop closed on a regular holiday and marked the day unpaid for everyone. Explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement.",
+      "normalized_question_text": null,
+      "effective_question_text": "Our private repair shop closed on a regular holiday and marked the day unpaid for everyone. Explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "claim_support_failed",
+      "llm_calls": 4,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 2189,
+        "completion_tokens": 283,
+        "total_tokens": 2472
+      },
+      "usage_support": {
+        "prompt_tokens": 2030,
+        "completion_tokens": 950,
+        "total_tokens": 2980
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 2311,
+        "completion_tokens": 352,
+        "total_tokens": 2663
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 1993,
+        "completion_tokens": 907,
+        "total_tokens": 2900
+      }
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "our private repair shop closed on a regular holiday and marked the day unpaid for everyone. explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement",
+        "sources": [
+          "LAB_CODE_2022__art_94",
+          "LAB_IRR_1989__rule_iv_holidays_with_pay__section_3",
+          "LAB_IRR_1989__rule_iv_holidays_with_pay__section_9"
+        ]
+      }
+    ],
+    "elapsed_ms": 16655.99999999995
+  },
+  {
+    "case_id": "PH5_018",
+    "question": "A private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. Explain the regular-versus-casual rule and project or seasonal exceptions generally.",
+    "group": "L",
+    "topic": "status",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. Explain the regular-versus-casual rule and project or seasonal exceptions generally.",
+      "normalized_question_text": null,
+      "effective_question_text": "A private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. Explain the regular-versus-casual rule and project or seasonal exceptions generally.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "citation_validation_failed",
+      "llm_calls": 2,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage": {
+        "prompt_tokens": 2614,
+        "completion_tokens": 1074,
+        "total_tokens": 3688
+      },
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 2714,
+        "completion_tokens": 523,
+        "total_tokens": 3237
+      },
+      "validation_failure": "numeric_detail_not_in_source"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. explain the regular-versus-casual rule and project or seasonal exceptions generally",
+        "sources": [
+          "LAB_IRR_1989__article_280",
+          "LAB_IRR_1989__rule_xvi_general_provisions__section_5__occ_2",
+          "LAB_CODE_2022__art_295"
+        ]
+      }
+    ],
+    "elapsed_ms": 10046.99999999957
+  },
+  {
+    "case_id": "PH5_029",
+    "question": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+    "group": "L",
+    "topic": "rest_work",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+      "normalized_question_text": null,
+      "effective_question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 4,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Kapag pinapasok ka ng employer mo sa scheduled rest day, dapat bayaran ka ng premium pay na hindi bababa sa 30% ng regular na sahod mo, maliban kung ikaw ay kabilang sa mga empleyadong in-exempt sa ilalim ng Section 2 ng Rule (yung mga hindi sakop ng coverage).",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+              "quote": "Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage.",
+              "start": 11,
+              "end": 385,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 4200,
+        "completion_tokens": 183,
+        "total_tokens": 4383
+      },
+      "usage_support": {
+        "prompt_tokens": 2000,
+        "completion_tokens": 991,
+        "total_tokens": 2991
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 4329,
+        "completion_tokens": 191,
+        "total_tokens": 4520
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 2004,
+        "completion_tokens": 498,
+        "total_tokens": 2502
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: pinapasok nila ako sa scheduled rest day. ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work",
+        "sources": [
+          "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_5",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6",
+          "LAB_CODE_2022__art_92"
+        ]
+      }
+    ],
+    "elapsed_ms": 12765.999999999622
+  },
+  {
+    "case_id": "PH5_034",
+    "question": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+    "group": "C",
+    "topic": "repair_refund",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+      "normalized_question_text": null,
+      "effective_question_text": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under the product‑imperfection rule, the supplier is liable for a defective lamp. The consumer must first give the supplier up to thirty (30) days to fix the problem; if the defect is not corrected within that period, the buyer can choose either a replacement of the same kind in perfect condition, an immediate refund of the purchase price with monetary updating, or a proportionate price reduction. The parties may agree to shorten or lengthen the correction period, but it cannot be less than seven (7) days nor more than one hundred and eighty (180) days.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+              "provision_id": "RA_7394_1992__art_100",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 100",
+              "quote": "If the imperfection is not corrected within thirty (30) days, the consumer may alternatively demand at his option:",
+              "start": 559,
+              "end": 673,
+              "citation_label": "Republic Act No. 7394, ART. 100"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+              "provision_id": "RA_7394_1992__art_100",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 100",
+              "quote": "the replacement of the product by another of the same kind, in a perfect state of use;",
+              "start": 674,
+              "end": 760,
+              "citation_label": "Republic Act No. 7394, ART. 100"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+              "provision_id": "RA_7394_1992__art_100",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 100",
+              "quote": "The parties may agree to reduce or increase the term specified in the immediately preceding paragraph; but such shall not be less than seven (7) nor more than one hundred and eighty (180) days.",
+              "start": 913,
+              "end": 1106,
+              "citation_label": "Republic Act No. 7394, ART. 100"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 6200,
+        "completion_tokens": 1809,
+        "total_tokens": 8009
+      },
+      "usage_generation": {
+        "prompt_tokens": 6100,
+        "completion_tokens": 917,
+        "total_tokens": 7017
+      },
+      "usage_support": {
+        "prompt_tokens": 2268,
+        "completion_tokens": 1678,
+        "total_tokens": 3946
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a new rechargeable lamp from a neighborhood store stopped charging after one use. what conditions govern correction, replacement, or refund under the recorded product-imperfection rule",
+        "sources": [
+          "RA_7394_1992__art_100",
+          "RA_7394_1992__art_68",
+          "RA_7394_1992__art_103",
+          "RA_7394_1992__art_67",
+          "RA_7394_1992__art_128"
+        ]
+      }
+    ],
+    "elapsed_ms": 28250.0
+  },
+  {
+    "case_id": "PH5_042",
+    "question": "A cashier owed me seven pesos change but gave me a discount coupon without asking. Which recorded exact-change rule covers this situation?",
+    "group": "C",
+    "topic": "exact_change",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A cashier owed me seven pesos change but gave me a discount coupon without asking. Which recorded exact-change rule covers this situation?",
+      "normalized_question_text": null,
+      "effective_question_text": "A cashier owed me seven pesos change but gave me a discount coupon without asking. Which recorded exact-change rule covers this situation?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under Republic Act No. 10909, Section 4, a business establishment must give the exact change to the consumer without waiting for the consumer to ask, and it is unlawful to give change in any form other than present currency or to ask the consumer’s permission to substitute another form, such as a discount coupon.",
+          "citations": [
+            {
+              "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+              "provision_id": "RA_10909_2016__sec_4",
+              "document_id": "RA_10909_2016",
+              "citation_display": "Republic Act No. 10909, SEC. 4",
+              "quote": "Regulated Acts. – It shall be the duty of the business establishment to give the exact change to the consumer without waiting for the consumer to ask for the same.",
+              "start": 8,
+              "end": 171,
+              "citation_label": "Republic Act No. 10909, SEC. 4"
+            },
+            {
+              "chunk_id": "RA_10909_2016__sec_4__chunk_0001",
+              "provision_id": "RA_10909_2016__sec_4",
+              "document_id": "RA_10909_2016",
+              "citation_display": "Republic Act No. 10909, SEC. 4",
+              "quote": "(b) Other Prohibitions. – It shall also be unlawful for any business establishment which sells goods or provides services to give the change in any form other than the present currency or to ask the consumers for permission to be exempted from the provisions of this Act for any reason, including the nonavailability of small bills or coins.",
+              "start": 456,
+              "end": 797,
+              "citation_label": "Republic Act No. 10909, SEC. 4"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 4436,
+        "completion_tokens": 217,
+        "total_tokens": 4653
+      },
+      "usage_generation": {
+        "prompt_tokens": 4336,
+        "completion_tokens": 225,
+        "total_tokens": 4561
+      },
+      "usage_support": {
+        "prompt_tokens": 2055,
+        "completion_tokens": 532,
+        "total_tokens": 2587
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a cashier owed me seven pesos change but gave me a discount coupon without asking. which recorded exact-change rule covers this situation",
+        "sources": [
+          "DTI_DAO_16_03__rule_vii_penalties__section_2",
+          "RA_10909_2016__sec_4",
+          "RA_10909_2016__sec_6",
+          "RA_10909_2016__sec_3",
+          "RA_10909_2016__sec_2"
+        ]
+      }
+    ],
+    "elapsed_ms": 7265.999999999622
+  },
+  {
+    "case_id": "PH5_048",
+    "question": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+    "group": "C",
+    "topic": "online_description",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+      "normalized_question_text": null,
+      "effective_question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "citation_validation_failed",
+      "llm_calls": 2,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage": {
+        "prompt_tokens": 5112,
+        "completion_tokens": 442,
+        "total_tokens": 5554
+      },
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 5175,
+        "completion_tokens": 935,
+        "total_tokens": 6110
+      },
+      "validation_failure": "numeric_detail_not_in_source"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item",
+        "sources": [
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_37",
+          "RA_11967_2023__sec_19",
+          "DTI_JAO_24_03__section_35",
+          "DTI_JAO_24_03__section_39"
+        ]
+      }
+    ],
+    "elapsed_ms": 9594.000000000051
+  },
+  {
+    "case_id": "PH5_077",
+    "question": "An online merchant delivered a different appliance model from my order. Separately, I want advice on a credit-card interest charge from the bank. Distinguish the supported part.",
+    "group": "P_C",
+    "topic": "banking",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "An online merchant delivered a different appliance model from my order. Separately, I want advice on a credit-card interest charge from the bank. Distinguish the supported part.",
+      "normalized_question_text": null,
+      "effective_question_text": "An online merchant delivered a different appliance model from my order. Separately, I want advice on a credit-card interest charge from the bank. Distinguish the supported part.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "citation_validation_failed",
+      "llm_calls": 3,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 4874,
+        "completion_tokens": 497,
+        "total_tokens": 5371
+      },
+      "usage_support": {
+        "prompt_tokens": 2156,
+        "completion_tokens": 950,
+        "total_tokens": 3106
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 4999,
+        "completion_tokens": 726,
+        "total_tokens": 5725
+      },
+      "validation_failure": "numeric_detail_not_in_source"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "an online merchant delivered a different appliance model from my order",
+        "sources": [
+          "DTI_JAO_24_03__section_37",
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_39",
+          "RA_11967_2023__sec_25",
+          "DTI_JAO_24_03__section_35"
+        ]
+      }
+    ],
+    "elapsed_ms": 14733.999999999469
+  },
+  {
+    "case_id": "PH5_082",
+    "question": "A Philippine online shop sent me broken headphones. Separately, my mobile network provider imposed a termination charge. Please identify the project boundary.",
+    "group": "P_C",
+    "topic": "telecom",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A Philippine online shop sent me broken headphones. Separately, my mobile network provider imposed a termination charge. Please identify the project boundary.",
+      "normalized_question_text": null,
+      "effective_question_text": "A Philippine online shop sent me broken headphones. Separately, my mobile network provider imposed a termination charge. Please identify the project boundary.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "If an online merchant in the Philippines delivers headphones that are broken, the consumer has the right under Republic Act No. 11967 Sec. 20 and DTI Joint Administrative Order No. 24‑03 Sec. 37 to demand repair, replacement, or refund. When the consumer opts for replacement or refund, the merchant may require the return of the original headphones at no cost to the consumer, provided the return is made within a reasonable period unless the parties have agreed otherwise. If the defect is not fixed within 30 days, Republic Act No. 7394 Art. 100 allows the consumer to choose either a replacement of a like product, a full reimbursement with monetary updating, or a proportionate price reduction.",
+          "citations": [
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "quote": "Remedies of Online Consumers. - In case of defect, malfunction, or loss without the fault of the online consumer, or failure to conform with warranty or any liability of the online merchant or e-retailer arising from the contract, the online consumer shall have the right to pursue repair, replacement, refund or other remedies provided under Republic Act No. 7394 or any existing relevant laws.",
+              "start": 9,
+              "end": 404,
+              "citation_label": "Republic Act No. 11967, SEC. 20"
+            },
+            {
+              "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+              "provision_id": "DTI_JAO_24_03__section_37",
+              "document_id": "DTI_JAO_24_03",
+              "citation_display": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37",
+              "quote": "Philippines. - ln case of defect, malfunction, or loss without the fault of the online",
+              "start": 71,
+              "end": 157,
+              "citation_label": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+              "provision_id": "RA_7394_1992__art_100",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 100",
+              "quote": "If the imperfection is not corrected within thirty (30) days, the consumer may alternatively demand at his option:",
+              "start": 559,
+              "end": 673,
+              "citation_label": "Republic Act No. 7394, ART. 100"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 4412,
+        "completion_tokens": 885,
+        "total_tokens": 5297
+      },
+      "usage_support": {
+        "prompt_tokens": 2956,
+        "completion_tokens": 905,
+        "total_tokens": 3861
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a philippine online shop sent me broken headphones",
+        "sources": [
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_37",
+          "RA_7394_1992__art_100",
+          "DTI_JAO_24_03__section_34",
+          "RA_11967_2023__sec_19"
+        ]
+      }
+    ],
+    "elapsed_ms": 12952.99999999952
+  }
+]

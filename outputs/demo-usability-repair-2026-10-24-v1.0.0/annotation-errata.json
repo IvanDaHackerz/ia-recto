@@ -1,0 +1,11 @@
+{
+  "case_id": "DEMO_NEW_016",
+  "frozen_expected_domains": [
+    "labor"
+  ],
+  "question_also_contains": "A separate shop delivered the wrong ordered item",
+  "engineering_interpretation": "The frozen domain expectation omitted consumer although the question explicitly contains both labor and retail concerns. The classifier retained both.",
+  "frozen_files_changed": false,
+  "raw_scores_preserved": true,
+  "independent_label_review": false
+}

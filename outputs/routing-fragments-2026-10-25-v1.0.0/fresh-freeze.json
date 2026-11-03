@@ -1,0 +1,8 @@
+{
+  "cases_sha256": "ccda76389d1ce97e6ceb998624ea68f2a3d17de05ca976a95855590bbb450601",
+  "inputs": 24,
+  "AI_authored": true,
+  "independent_human_gold": false,
+  "first_inference_not_yet_performed": true,
+  "labels_and_counts_frozen_before_inference": true
+}

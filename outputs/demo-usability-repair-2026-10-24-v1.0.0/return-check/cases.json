@@ -1,0 +1,45 @@
+[
+  {
+    "case_id": "DEMO_NEW_009",
+    "family_id": "DEMO_NEW_009",
+    "group": "consumer",
+    "topic": "fresh_demo",
+    "question_text": "I ordered a desk lamp from an online merchant in the Philippines but received a different model. What recorded consumer remedy framework can be described?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH4_071",
+    "family_id": "PH4_071",
+    "group": "mixed",
+    "topic": "deduction_delivery_crime",
+    "question_text": "A private employer deducts cash shortages without hearing workers. An online merchant also sent me the wrong appliance model. In a third separate incident I need criminal-case advice about a stolen bicycle. What is within scope?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer",
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "development_replay": true
+  }
+]

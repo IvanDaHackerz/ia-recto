@@ -1,0 +1,18 @@
+{
+  "purpose": "Twenty targeted engineering repair diagnostics; not a new 100-question run or legal acceptance",
+  "criteria": [
+    "Supported and excluded concerns remain distinct",
+    "No unsupported source/cross-concern citation leakage",
+    "Explanations answer the requested issue and preserve source qualifications",
+    "Selected quotes equal exact recorded source spans",
+    "Readable response even when AI is withheld",
+    "Provider and source limitations remain visible"
+  ],
+  "fresh_questions": false,
+  "no_relabeling_after_inference": true,
+  "full_batch_then_review": true,
+  "AI_enabled_for_every_input": true,
+  "selection_posthoc": true,
+  "maximum_provider_attempts": 80,
+  "estimated_cost_stop_usd": 0.15
+}

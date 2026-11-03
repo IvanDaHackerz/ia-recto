@@ -1,0 +1,32 @@
+{
+  "prepared_at_utc": "2026-10-21T14:04:29.044238+00:00",
+  "project_id": "recto-local-ia",
+  "application_version": "2.0.0",
+  "runtime_signature": "5ea42dfd6d201c394dff229a68dcb4177696340f8682f11c07d04729642d71df",
+  "cases_sha256": "bcab548029507c3ec4f1f54246ff4931f99cb9cb118052f96bbcfa78414eae70",
+  "evaluator_sha256": "5ceb9c27530b1c1a8e76ee62f82c7ed565ec540f211357e102b922f0544f5309",
+  "input_forms": 100,
+  "maximum_provider_attempts": 500,
+  "estimated_cost_stop_usd": 0.5,
+  "parallel_workers": 2,
+  "automatic_retries": 0,
+  "provider": "together",
+  "model": "openai/gpt-oss-120b",
+  "normalizer_model": "openai/gpt-oss-120b",
+  "configured_estimate_rates_per_million": {
+    "openai/gpt-oss-120b": [
+      0.15,
+      0.6
+    ],
+    "Qwen/Qwen3.5-9B": [
+      0.17,
+      0.25
+    ]
+  },
+  "role": "AI-authored synthetic development usability test",
+  "independent_human_questions": 0,
+  "legal_accuracy_measured": false,
+  "rejected_drafts": "Saved only in local diagnostic file; never displayed as approved answers",
+  "budget": "Separate evaluation ledger; website limits remain unchanged; not verified billing",
+  "export": "Frozen fictional questions, accepted wording variants, precise conditional scope suffix, pinned corpus source text"
+}

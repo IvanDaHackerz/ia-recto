@@ -7,7 +7,7 @@ export function LiveResult({ packet, edit, onReference, onFollowUp }: { packet: 
   const result = packet.result;
   const route = result?.routing;
   const wording = packet.normalization;
-  const generated = packet.explanation.status === "generated" && packet.explanation.citations_checked && packet.explanation.automated_support_checked
+  const generated = ["generated", "partially_generated"].includes(packet.explanation.status) && packet.explanation.citations_checked && packet.explanation.automated_support_checked
     || packet.explanation.status === "verified" && packet.explanation.legal_support_verified === true;
   const clarification = packet.clarification_follow_up?.question ?? route?.clarification_question ?? wording?.clarification_question;
   const scopeLabel = (scope: string) => ({ fully_supported: "Within project topics", partially_supported: "Partly within project topics", unsupported: "Outside project topics" }[scope] ?? labelName(scope));
@@ -33,7 +33,15 @@ export function LiveResult({ packet, edit, onReference, onFollowUp }: { packet: 
     {(!result || route?.routing_action === "clarify") && !packet.response && <section className="notice notice-caution"><h3>Help clarify the question</h3><p>{clarification || "Please retype the concern using fuller words and include the relevant details."}</p><p className="metadata">Edit the full question to include these details. Each submission is checked on its own.</p><button type="button" className="text-link touch-link" onClick={edit}>Edit this question</button></section>}
     {route?.routing_action === "refer_out_of_scope" && !packet.response && <p>This concern is outside the selected labor and consumer topics. See <Link to="/about">scope &amp; limitations</Link> for what is covered.</p>}
     {!!result?.excluded_components.length && <section className="notice notice-caution"><h3>Concerns outside coverage</h3><ul>{result.excluded_components.map((c, i) => <li key={i}>{c.text}</li>)}</ul><p>These parts were excluded from retrieval.</p></section>}
-    {generated && <GeneratedExplanation explanation={packet.explanation} onReference={onReference} />}
+    {generated && <GeneratedExplanation explanation={packet.explanation} components={result?.components} onReference={onReference} />}
+    {generated && !!packet.explanation.unanswered_components?.length && <section className="notice notice-caution" aria-label="Parts not explained">
+      <h3>Parts I couldn’t explain</h3>
+      <p>The explanation above covers only the supported parts. Here is what is still missing.</p>
+      <ul>{packet.explanation.unanswered_components.map(concern => <li key={concern.component_id}><strong>{concern.query}</strong><p>{concern.reason === "related_authority_missing" ? "A required related source is unavailable or awaiting review." : concern.reason === "source_wording_requires_review" ? "The recorded wording needs review before it can support an explanation." : concern.reason === "claim_support_failed" ? "The draft for this concern did not pass the source-support check." : "The current records do not contain enough eligible evidence to explain this concern."}</p></li>)}</ul>
+      {!!packet.response?.quotes.length && <details className="source-checks"><summary>Recorded passages for the remaining concerns</summary><p className="metadata">These are locally matched excerpts, without an AI interpretation. Open a reference to read its conditions and exceptions.</p>{packet.response.quotes.map(quote => <figure className="response-quote" key={`${quote.component_id}-${quote.chunk_id}`}><figcaption><button type="button" className="text-link touch-link" onClick={event => onReference(quote.chunk_id, event.currentTarget, quote.component_id)}>{quote.citation_display}</button></figcaption><blockquote>{quote.quote}</blockquote></figure>)}</details>}
+      <p className="metadata">A missing explanation can reflect a source or checking limit. Rewording a clear question will not add a missing legal source.</p>
+      <button type="button" className="text-link touch-link" onClick={edit}>Review the full question</button>
+    </section>}
     {result?.components.some(c => c.candidates.some(h => h.explanation_restriction)) && <p className="metadata">A recorded passage has a wording discrepancy and was excluded from AI explanations. Open its reference for details.</p>}
     {!!result?.components.length && !generated && !packet.response && <section className="notice"><h3>{result.components.some(c => c.candidates.length) ? "Provisions found for inspection" : "No eligible provisions found"}</h3><p>Open a reference to inspect its complete stored text.</p><p><strong>{packet.explanation.reason === "local_only" ? "Local-only analysis." : "Explanation withheld."}</strong> {explanationMessage(packet.explanation.reason, packet.explanation.failure_code, packet.explanation.validation_failure)}</p>{packet.explanation.reason === "provider_unavailable" && !["daily_provider_limit", "provider_auth_failed", "model_pricing_not_configured"].includes(packet.explanation.failure_code ?? "") && <button type="button" className="text-link touch-link" onClick={edit}>Use this question again</button>}</section>}
     {packet.response?.follow_up && <section className="response-follow-up"><h3>A detail that would help</h3><p>{packet.response.follow_up}</p>
@@ -45,10 +53,12 @@ export function LiveResult({ packet, edit, onReference, onFollowUp }: { packet: 
     {packet.history?.saved && <p className="metadata">Saved on this device. <Link to="/history">Open history</Link>.</p>}
     {packet.history?.error && <p className="metadata" role="status">{packet.history.error}</p>}
     <details className="live-diagnostics"><summary>How this question was checked</summary><dl className="live-labels">
-      {route && (generated || route.routing_action === "clarify") && <><div><dt>{generated ? "Topic" : "Tentative topic"}</dt><dd>{labelName(route.predicted_primary)} · {(route.primary_confidence * 100).toFixed(1)}% label confidence</dd></div><div><dt>Topic coverage</dt><dd>{scopeLabel(route.predicted_scope)} · {(route.scope_confidence * 100).toFixed(1)}% label confidence</dd></div></>}
+      {route && <><div><dt>{route.routing_action === "clarify" ? "Tentative topic" : "Topic"}</dt><dd>{labelName(route.predicted_primary)} · {(route.primary_confidence * 100).toFixed(1)}% label confidence</dd></div><div><dt>Topic coverage</dt><dd>{scopeLabel(route.predicted_scope)} · {(route.scope_confidence * 100).toFixed(1)}% label confidence</dd></div></>}
       <div><dt>Wording check</dt><dd>{wording?.status ?? "Local only"} · {wording?.llm_calls ?? 0} LLM calls</dd></div>
       <div><dt>Explanation</dt><dd>{packet.explanation.reason.replaceAll("_", " ")} · {packet.explanation.llm_calls} LLM calls</dd></div>
-      {packet.response && <div><dt>Response shown</dt><dd>{packet.response.ai_generated ? "Checked AI explanation" : "Local explanation"}</dd></div>}
+      {packet.explanation.status === "partially_generated" && <div><dt>Explanation coverage</dt><dd>{packet.explanation.claims.length} of {result?.components.length ?? 0} concerns explained by AI</dd></div>}
+      {packet.response && <div><dt>Response shown</dt><dd>{packet.response.ai_generated ? packet.explanation.status === "partially_generated" ? "Partial AI explanation" : "Checked AI explanation" : packet.response.quotes.length ? "Local response with source excerpts" : "Local response"}</dd></div>}
+      {route?.reason === "explicit_component_scopes_require_evidence" && <div><dt>Why these parts were searched</dt><dd>Each separated concern matches a defined project category. The excluded concern was kept out of retrieval; the label confidence is unchanged.</dd></div>}
       {packet.guidance_context?.classification_is_conditional && <div><dt>Original classification</dt><dd>{labelName(packet.guidance_context.original_routing.predicted_primary)} · {packet.guidance_context.original_routing.reason.replaceAll("_", " ")}. Source search uses the stated private-sector assumption.</dd></div>}
       {packet.search_help && <div><dt>Additional search wording</dt><dd>{packet.search_help.query}</dd></div>}
       {packet.explanation.revision_attempted && <div><dt>Draft correction</dt><dd>One correction attempted</dd></div>}
@@ -102,7 +112,7 @@ export function LiveCitationCard({ reference, number, id, expanded, onToggle, qu
         <ul>{gate?.reasons.map(reason => <li key={reason}>{reason === "scoped_currentness_review_missing" ? "A current-source review for this concern is missing." : reason.replaceAll("_", " ")}</li>)}</ul>
         <pre className="source-metadata">{JSON.stringify({ conditions: hit.conditions, relationships: hit.legal_relationships, freshness: hit.freshness_rule }, null, 2)}</pre>
       </details>
-      <h3>Complete stored provision</h3>{quotes.length > 0 && <p className="metadata">Highlighted passages were cited in the explanation.</p>}<p className="source-text">{markedSource(hit.parent_text, quotes)}</p>
+      <h3>Complete stored provision</h3>{quotes.length > 0 && <p className="metadata">Highlighted passages were used in this response.</p>}<p className="source-text">{markedSource(hit.parent_text, quotes)}</p>
       <p className="metadata">{hit.provision_id}</p>
       {url && <a className="text-link touch-link" href={url} target="_blank" rel="noopener noreferrer">Open recorded source<ExternalLink size={14} aria-hidden="true" /></a>}
     </div>

@@ -1,0 +1,7 @@
+{
+  "case_id": "PH2_057",
+  "frozen_expected": "mixed fully_supported, retrieve both domains",
+  "review": "The construction-contract fragment does not establish an employment relationship; it could describe a construction service contract. Clarification is appropriate. Original expected labels and first-pass mismatches remain unchanged.",
+  "corrected_gold_claimed": false,
+  "independent_review": false
+}

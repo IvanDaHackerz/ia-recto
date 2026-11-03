@@ -1,0 +1,839 @@
+{
+  "role": "Current local revalidation of captured live outputs, not a fresh provider or independent legal evaluation",
+  "observed_packets": 98,
+  "original_generated": 70,
+  "captured_generated_passing_current_local_checks": 58,
+  "generated_flagged_by_new_guards": 12,
+  "source_gap_audit_is_posthoc": true,
+  "source_gap_case_ids": [
+    "AI100_006",
+    "AI100_007",
+    "AI100_008",
+    "AI100_009",
+    "AI100_010",
+    "AI100_026",
+    "AI100_027",
+    "AI100_028",
+    "AI100_029",
+    "AI100_030",
+    "AI100_041",
+    "AI100_042",
+    "AI100_043",
+    "AI100_044",
+    "AI100_045",
+    "AI100_094"
+  ],
+  "targeted_recheck_ids": [
+    "AI100_021",
+    "AI100_024",
+    "AI100_034",
+    "AI100_035",
+    "AI100_037",
+    "AI100_038",
+    "AI100_040",
+    "AI100_047",
+    "AI100_048",
+    "AI100_053",
+    "AI100_054",
+    "AI100_055",
+    "AI100_056",
+    "AI100_058",
+    "AI100_062",
+    "AI100_064",
+    "AI100_079",
+    "AI100_085",
+    "AI100_086",
+    "AI100_088",
+    "AI100_089",
+    "AI100_092",
+    "AI100_096",
+    "AI100_098",
+    "AI100_099",
+    "AI100_100"
+  ],
+  "cases": [
+    {
+      "case_id": "AI100_001",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_002",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_003",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_004",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_005",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_006",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_007",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_008",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_009",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_010",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_011",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_012",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_013",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_014",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_015",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_016",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_017",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_018",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_019",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_020",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_021",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "claim_support_failed"
+    },
+    {
+      "case_id": "AI100_022",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_023",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_024",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "claim_support_failed"
+    },
+    {
+      "case_id": "AI100_025",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_026",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "related_authority_missing"
+    },
+    {
+      "case_id": "AI100_027",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "related_authority_missing"
+    },
+    {
+      "case_id": "AI100_028",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "related_authority_missing"
+    },
+    {
+      "case_id": "AI100_029",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "related_authority_missing"
+    },
+    {
+      "case_id": "AI100_030",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "related_authority_missing"
+    },
+    {
+      "case_id": "AI100_031",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_032",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_033",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_034",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: regular_project_framework_must_preserve_the_seasonal_exception"
+    },
+    {
+      "case_id": "AI100_035",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "claim_support_failed"
+    },
+    {
+      "case_id": "AI100_036",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_037",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "claim_support_failed"
+    },
+    {
+      "case_id": "AI100_038",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "claim_support_failed"
+    },
+    {
+      "case_id": "AI100_039",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_040",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: put_article_and_rule_locators_in_citation_fields_only"
+    },
+    {
+      "case_id": "AI100_041",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_042",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_043",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_044",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_045",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_046",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_047",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "citation_validation_failed"
+    },
+    {
+      "case_id": "AI100_048",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Uncited numeric detail"
+    },
+    {
+      "case_id": "AI100_049",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_050",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_051",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_052",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_053",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: put_article_and_rule_locators_in_citation_fields_only"
+    },
+    {
+      "case_id": "AI100_054",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: thirty_day_default_has_an_agreed_period_variation"
+    },
+    {
+      "case_id": "AI100_055",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: thirty_day_default_has_an_agreed_period_variation"
+    },
+    {
+      "case_id": "AI100_056",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: thirty_day_default_has_an_agreed_period_variation"
+    },
+    {
+      "case_id": "AI100_057",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_058",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: immediate_honoring_and_retailer_forwarding_have_different_actors"
+    },
+    {
+      "case_id": "AI100_059",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_060",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_061",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_062",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: thirty_day_default_has_an_agreed_period_variation"
+    },
+    {
+      "case_id": "AI100_063",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_064",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "claim_support_failed"
+    },
+    {
+      "case_id": "AI100_065",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_066",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_067",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_068",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_069",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_070",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_071",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_072",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_073",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_074",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_075",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_076",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_077",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_078",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_079",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: thirty_day_default_has_an_agreed_period_variation"
+    },
+    {
+      "case_id": "AI100_080",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_081",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_082",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_083",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_084",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_085",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: thirty_day_default_has_an_agreed_period_variation"
+    },
+    {
+      "case_id": "AI100_086",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "claim_support_failed"
+    },
+    {
+      "case_id": "AI100_087",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_088",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "provider_unavailable"
+    },
+    {
+      "case_id": "AI100_089",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": false,
+      "local_failure": "Source qualification omitted: thirty_day_default_has_an_agreed_period_variation"
+    },
+    {
+      "case_id": "AI100_090",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_091",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_092",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "citation_validation_failed"
+    },
+    {
+      "case_id": "AI100_093",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_094",
+      "source_gap_audit": true,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "source_context_unavailable"
+    },
+    {
+      "case_id": "AI100_095",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_096",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "citation_validation_failed"
+    },
+    {
+      "case_id": "AI100_097",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "generated",
+      "original_reason": "citations_and_automated_support_checked",
+      "current_local_checks_pass": true
+    },
+    {
+      "case_id": "AI100_098",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "withheld",
+      "original_reason": "provider_unavailable"
+    },
+    {
+      "case_id": "AI100_099",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "not_executed_in_latest_bulk_run",
+      "reason": "bulk_estimated_cost_stop"
+    },
+    {
+      "case_id": "AI100_100",
+      "source_gap_audit": false,
+      "independent_legal_review": false,
+      "status": "not_executed_in_latest_bulk_run",
+      "reason": "bulk_estimated_cost_stop"
+    }
+  ],
+  "new_provider_calls": 0
+}

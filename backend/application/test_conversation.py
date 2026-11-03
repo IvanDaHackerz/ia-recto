@@ -58,8 +58,9 @@ class ConversationTests(unittest.TestCase):
         question = 'Sira yung binili kong phone at ayaw palitan ng shop.'
         packet = self.ask(question)
         self.assertEqual(packet['original_question_text'], question)
-        self.assertIn('search_help', packet)
-        self.assertFalse(packet['search_help']['changes_user_facts'])
+        # Query concepts now recover these sources directly; a redundant alias
+        # search is no longer required. Any fallback still preserves user facts.
+        if 'search_help' in packet:self.assertFalse(packet['search_help']['changes_user_facts'])
         self.assertTrue(packet['response']['quotes'])
         self.assertEqual(packet['result']['routing']['predicted_primary'], 'consumer')
 
@@ -79,6 +80,58 @@ class ConversationTests(unittest.TestCase):
                 packet = self.ask(question)
                 self.assertTrue(packet['response']['paragraphs'])
                 self.assertFalse(packet['response']['ai_generated'])
+
+    def test_mixed_source_gap_keeps_the_other_checked_explanation_and_names_the_gap(self):
+        provider=Mock();provider.name,provider.model='test','mock'
+        def complete(question,preflight):
+            return {'paragraphs':[{'component_id':c['component_id'],
+                'text':'The recorded provision describes the relevant rule, subject to its conditions.',
+                'evidence':[{'chunk_id':c['sources'][0]['chunk_id'],'quote':c['sources'][0]['parent_text'][:120]}]}
+                for c in preflight['components']]}
+        provider.complete.side_effect=complete
+        provider.assess.side_effect=lambda question,claims,components:{'assessments':[{
+            'claim_id':c['claim_id'],'verdict':'supported','qualifications_preserved':True,
+            'no_case_outcome':True,'no_excluded_advice':True,'no_new_facts':True} for c in claims]}
+        service=ApplicationService(verifier=self.verifier,normalizer=ConditionalNormalizer(),development_provider=provider)
+        # Simulate one unavailable concern. Actual thirteenth-month statutory
+        # quotations are now indexed; do not retain the obsolete corpus-gap claim.
+        from dataset.pipelines.item11.query_relevance import source_relevance
+        with patch('dataset.pipelines.item11.query_relevance.source_relevance',side_effect=lambda q,d,h:0 if d=='labor' else source_relevance(q,d,h)):
+            packet=service.chat({'question_text':'Private employee ako with missing 13th month pay. Separately, the store charged above the price tag.'})
+        self.assertEqual(packet['explanation']['status'],'partially_generated')
+        self.assertEqual(packet['response']['kind'],'partial_ai_explanation')
+        self.assertTrue(packet['response']['ai_generated'])
+        self.assertTrue(packet['explanation']['unanswered_components'])
+        self.assertTrue(any('13th' in c['query'] for c in packet['explanation']['unanswered_components']))
+        self.assertFalse(packet['result']['answer_generation_allowed'])
+
+    def test_counted_meeting_source_gap_does_not_generate_an_unrelated_wage_schedule(self):
+        provider=Mock();provider.name,provider.model='test','mock'
+        service=ApplicationService(verifier=self.verifier,normalizer=ConditionalNormalizer(),development_provider=provider)
+        packet=service.chat({'question_text':'Sa private company ako. Required yung meeting bago magbukas, pero off the clock daw yun. What rules cover time worked?','use_ai':False})
+        self.assertEqual(packet['result']['routing']['predicted_primary'],'labor')
+        self.assertEqual(packet['response']['kind'],'recorded_sources')
+        self.assertTrue(packet['response']['quotes'])
+        self.assertTrue(all('wages' not in self.verifier.records[q['chunk_id']]['heading'].lower() for q in packet['response']['quotes']))
+        self.assertEqual(packet['explanation']['llm_calls'],0)
+        provider.complete.assert_not_called()
+
+    def test_partial_response_excerpts_belong_only_to_the_unanswered_concern(self):
+        packet={'explanation':{'status':'partially_generated','citations_checked':True,'automated_support_checked':True,
+            'claims':[{'component_id':'answered'}]},'result':{'components':[],'routing':{}}}
+        with patch('backend.application.conversation.eligible_quotes',return_value=[
+                {'component_id':'answered','quote':'Already explained.'},
+                {'component_id':'missing','quote':'Locally matched source, not AI.'}]):
+            result=response_for(packet,None,'Two independent concerns.')
+        self.assertEqual([q['component_id'] for q in result['quotes']],['missing'])
+        self.assertTrue(result['ai_generated'])
+
+    def test_short_change_fallback_quotes_the_short_change_law(self):
+        packet=self.ask('The grocery kept my change.')
+        self.assertTrue(packet['response']['quotes'])
+        quote=packet['response']['quotes'][0]
+        record=self.verifier.records[quote['chunk_id']]
+        self.assertIn('10909',record['document_id']+' '+record['document_title'])
 
     def test_provider_failure_and_rejected_draft_still_get_a_local_response(self):
         packet = self.ask('Private employee ako. What are normal working hours?')

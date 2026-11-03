@@ -1,0 +1,95 @@
+{
+  "backup_sha256": "64924fecd96a0b0fda4254186627dc7d8c2d9bb37444f1a1c51e943e8fe96e9e",
+  "changed_source_files": [
+    {
+      "path": "backend/application/controls.py",
+      "before": "4cb8a52ba082a159c1e23686d25e4d9a2b2acf90706fa80d8d16e2ae144d806f",
+      "after": "94102852f61083f68102f2bd69e86771ff79a581e6717b8dcce83d68d8f3c371"
+    },
+    {
+      "path": "backend/application/development_explanation.py",
+      "before": "cb832b17e25bb012aa34db5cabd2d7cc0b3379e98c98720e32cd6b35a9dfcd4b",
+      "after": "b078539706a087115099548d0ee71b4e19522015e0ec15bb4c212cd27dfb33a2"
+    },
+    {
+      "path": "backend/application/grounding.py",
+      "before": "9924add5140da0b52618106b8c6f5a1f41ebedd730e11dee39b6358ec1e6bd9b",
+      "after": "aa8c03b51643ed3747c790f7f9932d730929abe21dd015938b907326913c16a6"
+    },
+    {
+      "path": "backend/application/performance_current.json",
+      "before": "489713f555dc3624937547e11a46e6cb0246481a9d56ad4872b03ba4e43234ff",
+      "after": "ba27f2d82bd56e54261221bfa85035b923a04d969e18ffe0fb86bdebb914df3d"
+    },
+    {
+      "path": "backend/application/README.md",
+      "before": "153b3cfaf18d35ff91e43f05d5f3b5348bc5e9ae03cb25a09c0eb3fa1ba2cb01",
+      "after": "cc1d74dca93b42096cd23de014e8c43ceae1f1fe1292c27f079315ddcb9e45ee"
+    },
+    {
+      "path": "backend/application/source_issues.py",
+      "before": "c7f49941eb2a927895e323c1209ebcfc71008f32ba2781c10998a6cc4cb38caf",
+      "after": "0d93ea716adae4e58613e1b3d0f477f63765307584fc992e898d7eea277ac841"
+    },
+    {
+      "path": "backend/application/test_repairs.py",
+      "before": "480502c70247b7976cd6c37ee70c10c8e7d824fe015163f09903c8515e1b208f",
+      "after": "80eaa277eb7031c89c8046d17610d521bd3bbfdda6ca0fbe9f63cb56c3dfb6f2"
+    },
+    {
+      "path": "backend/classifier/config.json",
+      "before": "3ceeba7f76a7eec9dce694d8ca16fafcbbc5b7ac0c4e004adfc95200815c1260",
+      "after": "b234edd39aa147f3a3e332681108326f959ef66d168669a9b87ca50f1e52c646"
+    },
+    {
+      "path": "CURRENT_ARTIFACTS.json",
+      "before": "38b00616f049b24c2dfd096f300f8edb725524267520f7c62089f6efe9b3d361",
+      "after": "26d526cc50d610c2f7f68059e6d1adead96f16d4256e706a80cb11d896694a00"
+    },
+    {
+      "path": "dataset/pipelines/item10/classifier_runtime.py",
+      "before": "496871bb9ad6beb0f06b857674c5ab40db9938d6fd460a287ef8d591bada9651",
+      "after": "7b22a40d7ec91d88ec0d5fd310b4aedd5934aa3e324708bc5bb5a16daca347db"
+    },
+    {
+      "path": "dataset/pipelines/item10/clause_classifier.py",
+      "before": "b396c0b1c086cc4a8ebccb2a95d139072de7b7cff63aa7131afe79712a1fcec4",
+      "after": "a3d615674632824fa5624e65b4862ebb6d76eb572106bed800db1b84da1fb269"
+    },
+    {
+      "path": "dataset/pipelines/item10/scope_constraints.py",
+      "before": "b8ec1b805023aa18778d012fdef9e79c65f87002a630bbed471130cf2a3ef615",
+      "after": "04fc24cde83c95658330e198c3e4d6ea55128905ef569195aa7e922a61f9f135"
+    },
+    {
+      "path": "dataset/pipelines/item11/query_relevance.py",
+      "before": "1729070444dbc53edc9bd4f5b6c2186a21aa05a2d5d057f46fbf07d43d4c9ae0",
+      "after": "5d87582c2fb20d9f6faf64f800d97449d98c03ee367b5e23dd2507313c4c8af1"
+    },
+    {
+      "path": "dataset/pipelines/item12/policy.json",
+      "before": "acd3d71e5703117a119ae029a3b469dd58bda6397023e3ae2048566bcfff6de8",
+      "after": "0ab042fed04ad6203111ff09b3dd6d6a6acb30ed2bd29f18824f0df471dcf438"
+    },
+    {
+      "path": "README.md",
+      "before": "d8d3cdc788e54dea3627aa92a15e5af73b403b23720405b1ff808d496cc19eb7",
+      "after": "0a4f9a71f80246634a6253a70747a7cae1fc91176dd678f5f4926cb5ed8ca1ef"
+    },
+    {
+      "path": "UI/UX/app/package-lock.json",
+      "before": "01c65de978cf78bf090c26c1fd335fa380d6ecfe85040ee9e7cedd3efde684ca",
+      "after": "e93ae013fd7387ab1d6fedc76fa869d00af25c06dddcfeb506641f234cd2aab6"
+    },
+    {
+      "path": "UI/UX/app/package.json",
+      "before": "84cea548fbb64f6828150b8022a9c8444c4075d929449417097084da97ffb972",
+      "after": "096a4a92cee18ecf843b8c7d079bfd7f26e293083ed83398c50e031145c83c81"
+    },
+    {
+      "path": "backend/application/test_submission_readiness.py",
+      "before": null,
+      "after": "973c2063ad752921206de9aaf9fd61f66e3fc958d192020ed0bfe4fec2044cda"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+AI26_025 generated citations_and_automated_support_checked 8969 ms
+Summary: {"input_forms": 1, "pending": 0, "errors": {}, "explanation_status": {"generated": 1}, "non_generated_reasons": {}, "failure_codes": {}, "validation_failures": {}, "latency_ms": {"p50": 8969.00000000096, "p95": 8969.00000000096, "maximum": 8969.00000000096}, "usage": {"day_utc": "2026-10-26", "provider_requests": 63, "estimated_usd": 0.0634788, "input_tokens": 215242, "output_tokens": 38169, "maximum_calls": 80, "maximum_estimated_usd": 0.15, "billing_verified": false}}

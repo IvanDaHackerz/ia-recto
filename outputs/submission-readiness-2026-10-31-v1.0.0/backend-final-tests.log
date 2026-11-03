@@ -1,0 +1,790 @@
+Frozen 436 local development inputs
+Frozen 436 local development inputs
+Completed 10/200 inputs / 20 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 20/200 inputs / 40 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 30/200 inputs / 60 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 40/200 inputs / 80 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 50/200 inputs / 100 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 60/200 inputs / 120 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 70/200 inputs / 140 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 80/200 inputs / 160 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 90/200 inputs / 180 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 100/200 inputs / 200 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 110/200 inputs / 220 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 120/200 inputs / 240 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 130/200 inputs / 260 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 140/200 inputs / 280 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 150/200 inputs / 300 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 160/200 inputs / 320 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 170/200 inputs / 340 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 180/200 inputs / 360 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 190/200 inputs / 380 pipeline executions; LLM requests 0; estimated cost $0.0000
+Completed 200/200 inputs / 400 pipeline executions; LLM requests 0; estimated cost $0.0000
+Inference complete. Review semantic_review_queue.jsonl before opening performance metrics.
+....................EEEEEEEEEEF.................................................................................................EEEEE..................................................................................................EEEEEEEEE.E.....................................................E..E..........................
+======================================================================
+ERROR: test_errors_do_not_echo_payloads_or_credentials (backend.application.test_application.HTTPTests.test_errors_do_not_echo_payloads_or_credentials)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 271, in test_errors_do_not_echo_payloads_or_credentials
+    status, _, payload = self.request("POST", "/api/chat", '{"question_text":"test"}', {"Content-Type": "application/json"})
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_get_routes_and_no_store (backend.application.test_application.HTTPTests.test_get_routes_and_no_store)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 242, in test_get_routes_and_no_store
+    status, headers, payload = self.request("GET", path)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_host_origin_paths_and_methods (backend.application.test_application.HTTPTests.test_host_origin_paths_and_methods) (path='/api/health', headers={'Host': 'evil.example'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 265, in test_host_origin_paths_and_methods
+    self.assertEqual(self.request(method, path, headers=headers)[0], expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_host_origin_paths_and_methods (backend.application.test_application.HTTPTests.test_host_origin_paths_and_methods) (path='/api/health', headers={'Origin': 'https://evil.example'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 265, in test_host_origin_paths_and_methods
+    self.assertEqual(self.request(method, path, headers=headers)[0], expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_host_origin_paths_and_methods (backend.application.test_application.HTTPTests.test_host_origin_paths_and_methods) (path='/api/health?x=1', headers={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 265, in test_host_origin_paths_and_methods
+    self.assertEqual(self.request(method, path, headers=headers)[0], expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_host_origin_paths_and_methods (backend.application.test_application.HTTPTests.test_host_origin_paths_and_methods) (path='/unknown', headers={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 265, in test_host_origin_paths_and_methods
+    self.assertEqual(self.request(method, path, headers=headers)[0], expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_host_origin_paths_and_methods (backend.application.test_application.HTTPTests.test_host_origin_paths_and_methods) (path='/api/chat', headers={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 265, in test_host_origin_paths_and_methods
+    self.assertEqual(self.request(method, path, headers=headers)[0], expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_host_origin_paths_and_methods (backend.application.test_application.HTTPTests.test_host_origin_paths_and_methods) (path='/api/performance', headers={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 265, in test_host_origin_paths_and_methods
+    self.assertEqual(self.request(method, path, headers=headers)[0], expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_invalid_json_content_and_unknown_client_review_fields (backend.application.test_application.HTTPTests.test_invalid_json_content_and_unknown_client_review_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 254, in test_invalid_json_content_and_unknown_client_review_fields
+    self.assertEqual(self.request("POST", "/api/chat", body, {"Content-Type": "application/json"})[0], 400)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_real_json_post_and_exact_origin (backend.application.test_application.HTTPTests.test_real_json_post_and_exact_origin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 247, in test_real_json_post_and_exact_origin
+    status, headers, _ = self.request("POST", "/api/chat", '{"question_text":"test"}',
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_application.py", line 234, in request
+    client.request(method, path, body=body, headers=headers or {})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_cancel_is_scoped_and_blocks_the_same_pending_request_id (backend.application.test_history_http.HistoryHTTPTests.test_cancel_is_scoped_and_blocks_the_same_pending_request_id)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_history_http.py", line 54, in test_cancel_is_scoped_and_blocks_the_same_pending_request_id
+    a,b=self.session(),self.session()
+        ^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 35, in session
+    _,headers,_=self.request('GET','/api/health')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 33, in request
+    c.request(method,path,body,headers);r=c.getresponse();result=(r.status,dict(r.getheaders()),json.loads(r.read()));c.close();return result
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_client_ids_deduplicate_completed_requests (backend.application.test_history_http.HistoryHTTPTests.test_client_ids_deduplicate_completed_requests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_history_http.py", line 64, in test_client_ids_deduplicate_completed_requests
+    a=self.session();payload={'question_text':'What is the weather tomorrow?','use_ai':False,'save_history':True,'request_id':'dedupe'}
+      ^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 35, in session
+    _,headers,_=self.request('GET','/api/health')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 33, in request
+    c.request(method,path,body,headers);r=c.getresponse();result=(r.status,dict(r.getheaders()),json.loads(r.read()));c.close();return result
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_cookie_tampering_does_not_select_another_history_owner (backend.application.test_history_http.HistoryHTTPTests.test_cookie_tampering_does_not_select_another_history_owner)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_history_http.py", line 50, in test_cookie_tampering_does_not_select_another_history_owner
+    cookie=self.session();forged=cookie[:-1]+('0' if cookie[-1]!='0' else '1')
+           ^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 35, in session
+    _,headers,_=self.request('GET','/api/health')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 33, in request
+    c.request(method,path,body,headers);r=c.getresponse();result=(r.status,dict(r.getheaders()),json.loads(r.read()));c.close();return result
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_history_opt_in_export_and_owner_isolation (backend.application.test_history_http.HistoryHTTPTests.test_history_opt_in_export_and_owner_isolation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_history_http.py", line 39, in test_history_opt_in_export_and_owner_isolation
+    a,b=self.session(),self.session()
+        ^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 35, in session
+    _,headers,_=self.request('GET','/api/health')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 33, in request
+    c.request(method,path,body,headers);r=c.getresponse();result=(r.status,dict(r.getheaders()),json.loads(r.read()));c.close();return result
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_unknown_options_and_cross_origin_writes_are_rejected (backend.application.test_history_http.HistoryHTTPTests.test_unknown_options_and_cross_origin_writes_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_history_http.py", line 59, in test_unknown_options_and_cross_origin_writes_are_rejected
+    a=self.session()
+      ^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 35, in session
+    _,headers,_=self.request('GET','/api/health')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\application\test_history_http.py", line 33, in request
+    c.request(method,path,body,headers);r=c.getresponse();result=(r.status,dict(r.getheaders()),json.loads(r.read()));c.close();return result
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_connection_limit_returns_busy (backend.classifier.test_service.HTTPTests.test_connection_limit_returns_busy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 242, in test_connection_limit_returns_busy
+    connection.request('GET','/health')
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_duplicate_or_chunked_lengths_are_rejected (backend.classifier.test_service.HTTPTests.test_duplicate_or_chunked_lengths_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 221, in test_duplicate_or_chunked_lengths_are_rejected
+    connection.putheader('Content-Type','application/json');connection.endheaders()
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_integrity_failure_returns_unavailable (backend.classifier.test_service.HTTPTests.test_integrity_failure_returns_unavailable)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 234, in test_integrity_failure_returns_unavailable
+    self.assertEqual(self.call()[0],503)
+                     ^^^^^^^^^^^
+  File "C:\IA\backend\classifier\test_service.py", line 175, in call
+    connection.request(method,path,body=body,headers={'Content-Type':'application/json',**(headers or {})})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_json_errors_invalid_utf8_and_unsupported_content_type (backend.classifier.test_service.HTTPTests.test_json_errors_invalid_utf8_and_unsupported_content_type)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 208, in test_json_errors_invalid_utf8_and_unsupported_content_type
+    self.assertEqual(self.call(body=body)[0],400)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\classifier\test_service.py", line 175, in call
+    connection.request(method,path,body=body,headers={'Content-Type':'application/json',**(headers or {})})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_model_failure_returns_no_traceback_question_or_paths (backend.classifier.test_service.HTTPTests.test_model_failure_returns_no_traceback_question_or_paths)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 228, in test_model_failure_returns_no_traceback_question_or_paths
+    status,_,data=self.call()
+                  ^^^^^^^^^^^
+  File "C:\IA\backend\classifier\test_service.py", line 175, in call
+    connection.request(method,path,body=body,headers={'Content-Type':'application/json',**(headers or {})})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_origin_allowlist_and_preflight (backend.classifier.test_service.HTTPTests.test_origin_allowlist_and_preflight)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 199, in test_origin_allowlist_and_preflight
+    status,headers,_=self.call(headers={'Origin':'http://localhost:5173'})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\classifier\test_service.py", line 175, in call
+    connection.request(method,path,body=body,headers={'Content-Type':'application/json',**(headers or {})})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_oversized_request_is_rejected (backend.classifier.test_service.HTTPTests.test_oversized_request_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 213, in test_oversized_request_is_rejected
+    self.assertEqual(self.call(body='x'*(MAX_BODY_BYTES+1))[0],413)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\classifier\test_service.py", line 175, in call
+    connection.request(method,path,body=body,headers={'Content-Type':'application/json',**(headers or {})})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_read_only_health_and_contract_endpoints (backend.classifier.test_service.HTTPTests.test_read_only_health_and_contract_endpoints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 188, in test_read_only_health_and_contract_endpoints
+    status,_,data=self.call('GET',path)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\classifier\test_service.py", line 175, in call
+    connection.request(method,path,body=body,headers={'Content-Type':'application/json',**(headers or {})})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_real_http_classification_uses_versioned_contract (backend.classifier.test_service.HTTPTests.test_real_http_classification_uses_versioned_contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 181, in test_real_http_classification_uses_versioned_contract
+    status,headers,data=self.call()
+                        ^^^^^^^^^^^
+  File "C:\IA\backend\classifier\test_service.py", line 175, in call
+    connection.request(method,path,body=body,headers={'Content-Type':'application/json',**(headers or {})})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_unknown_endpoint_methods_and_query_overrides_are_rejected (backend.classifier.test_service.HTTPTests.test_unknown_endpoint_methods_and_query_overrides_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\classifier\test_service.py", line 196, in test_unknown_endpoint_methods_and_query_overrides_are_rejected
+    self.assertEqual(self.call(method,path)[0],code)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\classifier\test_service.py", line 175, in call
+    connection.request(method,path,body=body,headers={'Content-Type':'application/json',**(headers or {})})
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+
+======================================================================
+ERROR: test_current_local_replay_preserves_cases_judgments_and_export_plan (backend.test_normalization_evaluation.EvaluationTests.test_current_local_replay_preserves_cases_judgments_and_export_plan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_normalization_evaluation.py", line 58, in test_current_local_replay_preserves_cases_judgments_and_export_plan
+    output = prepare(Path(folder) / "study", frozen_cases=source, baseline_report=baseline)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 88, in prepare
+    for name, expected in read(baseline / "artifact_checksums.json").items():
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 22, in read
+    return strict_json(Path(path).read_text(encoding="utf-8"))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\IA\\outputs\\local-pipeline-evaluation-v1.6.33\\artifact_checksums.json'
+
+======================================================================
+ERROR: test_joined_cases_without_reference_metadata_can_finalize (backend.test_normalization_evaluation.EvaluationTests.test_joined_cases_without_reference_metadata_can_finalize)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_normalization_evaluation.py", line 95, in test_joined_cases_without_reference_metadata_can_finalize
+    output = prepare(Path(folder) / "study", frozen_cases=source,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 88, in prepare
+    for name, expected in read(baseline / "artifact_checksums.json").items():
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 22, in read
+    return strict_json(Path(path).read_text(encoding="utf-8"))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\IA\\outputs\\local-pipeline-evaluation-v1.6.33\\artifact_checksums.json'
+
+======================================================================
+FAIL: test_actual_frozen_denominators_and_deferrals (backend.application.test_application.PerformanceTests.test_actual_frozen_denominators_and_deferrals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_application.py", line 182, in test_actual_frozen_denominators_and_deferrals
+    self.assertTrue(data["stack_matches_current"])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 320 tests in 64.131s
+
+FAILED (failures=1, errors=27)
+Finalized development comparison: C:\IA\outputs\normalization-eval-test-iepjqgb9\study\REPORT.md

@@ -171,9 +171,12 @@ def cases(verifier):
     changed['claims'][0].update(kind='paraphrase', text='No overtime pay is required.')
     add('changed_claim_invalidates_review', LABOR, changed, 0, mode='current_guidance', reviews=store, reason='claim_support_and_coverage_review_missing')
 
-    for name, q, reason in [('final_pay_gap', FINAL_PAY, 'no_eligible_retrieval_evidence'),
+    for name, q, reason in [('final_pay_wrong_source', FINAL_PAY, None),
                              ('clarification_route', CLARIFY, None), ('excluded_route', EXCLUDED, None)]:
         d = copy.deepcopy(labor)
         d['question_text'] = q
         add(name, q, d, 0, category='routing_or_corpus_gap', reason=reason)
+    final=excerpt(verifier,FINAL_PAY)
+    add('final_pay_official_recorded_excerpt',FINAL_PAY,final,1,category='valid_excerpt_control')
+    add('final_pay_currentness_still_unreviewed',FINAL_PAY,final,0,mode='current_guidance',category='routing_or_corpus_gap',reason='scoped_currentness_review_missing')
     return result

@@ -1,0 +1,16 @@
+{
+  "role": "Engineering reading of original synthetic AI outputs, not independent legal review",
+  "run": "first-pass",
+  "reviewed_accepted_answer_range": "RD31_001 through RD31_085; RD31_086 through RD31_100 are intended outside-scope routes",
+  "findings": [
+    {"cases": ["007","010","011","015","019","020","023","026","042","049","053","057","062","064","065","070","071","072","076","084","089","091","099"], "issue": "Language, anaphora, explicit concern-boundary or domain-recognition errors", "repair": "Scoped context/segmentation features with counterexamples; no new training questions or threshold relaxation"},
+    {"cases": ["021","045","047","050","073"], "issue": "Relevant-source focus or incompatible remedy regime", "repair": "Query-relevance focus for probation, price comparisons, price display, product safety and pay frequency"},
+    {"cases": ["017","036","040","055","079"], "issue": "Limited excerpt overclaims or actor/condition errors passed automated support", "repair": "Source-reading notes and deterministic source-bound qualification checks with positive controls"},
+    {"cases": ["014","038","056","058","060","063","078","083","085"], "issue": "Ambiguous actor, awkward remedy translation, overbroad only condition, or omitted/changed qualification", "repair": "Preserve literal ambiguous wording and emphasize actor directions, alternatives and source conditions; final outputs require review; no legal approval claimed"},
+    {"cases": ["068"], "issue": "Internal quote-selection labels appeared in prose", "repair": "Remove only isolated trailing transport-label lists; reject labels left inside prose"},
+    {"cases": ["069"], "issue": "Outer request timeout discarded the entire result", "repair": "Stop provider work before the outer deadline and reserve time for a readable fallback; avoid a revision when too little time remains"}
+  ],
+  "source_holds_preserved": ["Suspect MO 28 source copy", "OCR/low-confidence source text", "Handbook as independent legal authority"],
+  "unresolved_external_acceptance": ["Independent human questions", "Professional/current-source legal review", "Owner acceptance under live demonstration conditions"],
+  "no_claim_that_automated_support_is_legal_entailment": true
+}

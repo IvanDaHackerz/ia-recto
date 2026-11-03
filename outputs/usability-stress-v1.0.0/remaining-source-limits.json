@@ -1,0 +1,63 @@
+[
+  {
+    "id": "DEV024",
+    "field": "thirteenth",
+    "q": "Three months lang ako nagwork sa private cafe this year, may prorated 13th month ba?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "origin_set": "development_cases.json"
+  },
+  {
+    "id": "DEV033",
+    "field": "termination",
+    "q": "Pinapirma ako ng resignation letter pero hindi naman ako kusang nagresign sa private job ko.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "origin_set": "development_cases.json"
+  },
+  {
+    "id": "DEV034",
+    "field": "final",
+    "q": "I left a private company and HR will not release my certificate of employment.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "origin_set": "development_cases.json"
+  },
+  {
+    "id": "DEV035",
+    "field": "final",
+    "q": "Private employer ko ayaw ibigay final pay kahit tapos na clearance.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "origin_set": "development_cases.json"
+  },
+  {
+    "id": "DEV096",
+    "field": "partial",
+    "q": "The private shop owes my final pay. Separately, my landlord keeps my rental deposit.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported",
+    "origin_set": "development_cases.json"
+  },
+  {
+    "id": "FINAL004",
+    "q": "Kulang ang 13th month na binigay ng private employer ko kahit buong taon ako nagwork.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "origin_set": "final_probe_cases.json"
+  },
+  {
+    "id": "FINAL007",
+    "q": "Can a private employer refuse a certificate of employment because an employee resigned?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported",
+    "origin_set": "final_probe_cases.json"
+  }
+]

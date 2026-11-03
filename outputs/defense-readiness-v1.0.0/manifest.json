@@ -1,0 +1,9 @@
+{
+  "count": 72,
+  "sha256": "3b125fa3e6cfd037c293f3fd0d6e7f0437876b92118838cd2ae035f55a2bd40c",
+  "discovery": 48,
+  "confirmation": 24,
+  "authorship": "AI-generated fictional development questions",
+  "expectations_frozen_before_inference": true,
+  "confirmation_policy": "Inspect only after the repair batch; disclose any later tuning as development reuse."
+}

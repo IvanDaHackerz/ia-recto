@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-10-26T06:24:31.590Z",
+  "url": "http://127.0.0.1:5173/",
+  "role": "Six actual UI regression submissions with AI off; synthetic development examples, not independent accuracy",
+  "submissions": 6,
+  "passed": 6,
+  "llm_calls": 0,
+  "saving_enabled": false,
+  "ai_preference_restored": true,
+  "component_counts_note": "Expected counts are asserted in the backend integration tests; the UI checks visible topic, coverage, references and exclusions.",
+  "cases": [
+    {
+      "id": "probation_standards",
+      "topic": "labor",
+      "references": 5,
+      "expected_supported_components": 1,
+      "visible_check": "Within project topics; source excerpts; wording and explanation 0 LLM calls",
+      "evidence": "browser-probation.txt"
+    },
+    {
+      "id": "faulty_fan",
+      "topic": "consumer",
+      "references": 5,
+      "expected_supported_components": 1,
+      "visible_check": "Within project topics; Article 68 excerpt; wording and explanation 0 LLM calls",
+      "evidence": "browser-fan.txt"
+    },
+    {
+      "id": "refurbished_as_new",
+      "topic": "consumer",
+      "references": 1,
+      "expected_supported_components": 1,
+      "visible_check": "Within project topics; Article 50 excerpt; wording and explanation 0 LLM calls",
+      "evidence": "browser-phone.txt"
+    },
+    {
+      "id": "background_payday",
+      "topic": "labor",
+      "references": 5,
+      "expected_supported_components": 1,
+      "visible_check": "Labor; Within project topics; payment-interval excerpt; no empty extra response",
+      "evidence": "browser-payday.txt"
+    },
+    {
+      "id": "purchase_privacy_meta",
+      "topic": "mixed",
+      "references": 5,
+      "expected_supported_components": 1,
+      "visible_check": "Partly within project topics; neighbor privacy issue explicitly excluded; online-purchase references retained",
+      "evidence": "browser-partial.txt"
+    },
+    {
+      "id": "government_probation",
+      "topic": "out_of_scope",
+      "references": 0,
+      "expected_supported_components": 0,
+      "visible_check": "Outside project topics; scope-limit response; no retrieved sources; 0 LLM calls",
+      "evidence": "browser-government.txt"
+    }
+  ],
+  "performance": {
+    "run": "local-pipeline-evaluation-v1.6.31",
+    "stack_match_visible": true,
+    "evidence": "browser-performance.txt"
+  }
+}

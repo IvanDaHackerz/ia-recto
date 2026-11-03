@@ -14,6 +14,24 @@ ISSUES={HOLIDAY_PROVISION:{
     'checked_on':'2026-10-19','independent_legal_review_completed':False,
     'message':'This passage has a worked/unworked wording discrepancy. It is excluded from AI explanations pending source review.'}}
 
+# The stored second paragraph jumps from regular/casual status into an unrelated
+# reinstatement/separation-pay clause. Preserve that record, but do not quote or
+# paraphrase it as approved evidence. Other indexed editions remain searchable.
+ISSUES['LAB_IRR_1989__article_280']={
+    'kind':'recorded_text_continuity_issue',
+    'checked_on':'2026-10-21','independent_legal_review_completed':False,
+    'message':'This recorded employment-status passage has a discontinuous paragraph and is excluded from explanations pending source-text review.'}
+
+# Its special scheduling sentence uses an unresolved "his choice" pronoun.
+# Repeated generation changed the actor or omitted the monthly qualification.
+# Preserve the complete source for inspection; do not approve its paraphrase.
+RELIGIOUS_SCHEDULING_PROVISION='LAB_IRR_1989__rule_iii_weekly_rest_periods__section_4'
+ISSUES[RELIGIOUS_SCHEDULING_PROVISION]={
+    'kind':'recorded_interpretation_ambiguity',
+    'recorded_parent_sha256':'d7896a283b0c5bfd86d8ecb5026f74b744470204ddd20dbf9bcaf1401f63090e',
+    'checked_on':'2026-10-31','independent_legal_review_completed':False,
+    'message':'This special religious-rest scheduling passage has an ambiguous choice/qualification. It is excluded from AI explanations pending interpretation review; its complete recorded text remains inspectable.'}
+
 def issue_for(source):
     # Hold every chunk of the provision until an explicit reviewed resolution;
     # replacing its bytes cannot silently remove the restriction.

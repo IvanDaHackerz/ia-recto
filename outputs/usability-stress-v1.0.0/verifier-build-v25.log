@@ -1,0 +1,27 @@
+{
+  "version": "item12-verifier-v1.0.25",
+  "software_tests": {
+    "verifier": {
+      "tests_run": 37,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    },
+    "classifier": {
+      "tests_run": 69,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    },
+    "retrieval": {
+      "tests_run": 49,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    }
+  },
+  "evaluation_deferred": true
+}

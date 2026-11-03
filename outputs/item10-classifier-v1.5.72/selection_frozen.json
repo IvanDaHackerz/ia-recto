@@ -1,0 +1,11 @@
+{
+  "selected_candidate": "lexical_C100",
+  "selection_data": "Parent configuration, atomic weights and thresholds inherited; probability calibration refitted on original training folds.",
+  "model_sha256": "ba8eae320105a077194a612af9a1650e8f5ec51ae113cb5ca8982faa8beb10ac",
+  "thresholds": {
+    "primary": 0.8,
+    "scope": 0.85
+  },
+  "new_selection_or_fitting": true,
+  "fresh_independent_holdout_evaluated": false
+}

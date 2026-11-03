@@ -1,0 +1,1869 @@
+[
+  {
+    "case_id": "PH5_001",
+    "question": "I pack orders for a private Cebu warehouse from 11 at night until 7 in the morning. Payroll lists the same basic hourly pay throughout. What general night-work provision should I read?",
+    "group": "L",
+    "topic": "night_work",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I pack orders for a private Cebu warehouse from 11 at night until 7 in the morning. Payroll lists the same basic hourly pay throughout. What general night-work provision should I read?",
+      "normalized_question_text": null,
+      "effective_question_text": "I pack orders for a private Cebu warehouse from 11 at night until 7 in the morning. Payroll lists the same basic hourly pay throughout. What general night-work provision should I read?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "source_context_unavailable",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_001",
+          "query": "i pack orders for a private cebu warehouse from 11 at night until 7 in the morning. payroll lists the same basic hourly pay throughout. what general night-work provision should i read",
+          "reason": "source_context_unavailable"
+        }
+      ]
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "i pack orders for a private cebu warehouse from 11 at night until 7 in the morning. payroll lists the same basic hourly pay throughout. what general night-work provision should i read",
+        "sources": []
+      }
+    ],
+    "elapsed_ms": 358.99999999946886
+  },
+  {
+    "case_id": "PH5_010",
+    "question": "private office employee ako. ang payslip total lang walang hours o breakdown ng bawas. anong payroll information ang nasa recorded rules?",
+    "group": "L",
+    "topic": "payroll",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "private office employee ako. ang payslip total lang walang hours o breakdown ng bawas. anong payroll information ang nasa recorded rules?",
+      "normalized_question_text": null,
+      "effective_question_text": "private office employee ako. ang payslip total lang walang hours o breakdown ng bawas. anong payroll information ang nasa recorded rules?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "The rule says an employer must issue a payroll that individually shows each worker’s (1) the period being paid, (2) the pay rate (per month, week, day or hour), (3) the amount due for regular work, (4) the amount due for overtime work, (5) any deductions, and (6) the net amount actually paid.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6",
+              "quote": "Payrolls. — (a) Every employer shall pay his employees by means of a payroll wherein the following information and data shall be individually shown:",
+              "start": 11,
+              "end": 159,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, CHAPTER IV, RULE X"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6",
+              "quote": "(1) Length of time to be paid;",
+              "start": 161,
+              "end": 191,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, CHAPTER IV, RULE X"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 6",
+              "quote": "(2) The rate of pay per month, week, day or hour piece, etc.;",
+              "start": 193,
+              "end": 254,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 6 — BOOK THREE, CHAPTER IV, RULE X"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 2497,
+        "completion_tokens": 208,
+        "total_tokens": 2705
+      },
+      "usage_support": {
+        "prompt_tokens": 2092,
+        "completion_tokens": 598,
+        "total_tokens": 2690
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: ang payslip total lang walang hours o breakdown ng bawas. anong payroll information ang nasa recorded rules",
+        "sources": [
+          "LAB_IRR_1989__rule_x_administration_and_enforcement__section_6"
+        ]
+      }
+    ],
+    "elapsed_ms": 5625.0
+  },
+  {
+    "case_id": "PH5_021",
+    "question": "A private shoe factory says it will close permanently and terminate its employees. Which recorded rules discuss business closure, notice, and applicable conditions?",
+    "group": "L",
+    "topic": "closure",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 1,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A private shoe factory says it will close permanently and terminate its employees. Which recorded rules discuss business closure, notice, and applicable conditions?",
+      "normalized_question_text": null,
+      "effective_question_text": "A private shoe factory says it will close permanently and terminate its employees. Which recorded rules discuss business closure, notice, and applicable conditions?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 4,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "When an employer decides to close or cease operations, the law requires a written notice to be given to the workers and the Department of Labor and Employment at least one (1) month before the intended closure date, and the closure must not be for the purpose of evading labor‑law provisions; separate from the notice, employees terminated because of the closure are entitled to separation pay, which is at least one (1) month’s pay or at least one‑half (1/2) month’s pay for every year of service, whichever is higher, with any fraction of at least six (6) months counted as a full year.",
+          "citations": [
+            {
+              "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_298",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 298",
+              "quote": "provisions of this Title, by serving a written notice on the workers and the Ministry of Labor",
+              "start": 362,
+              "end": 456,
+              "citation_label": "PD 442, as amended and renumbered, ART. 298"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_298",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 298",
+              "quote": "and Employment at least one (1) month before the intended date thereof.",
+              "start": 457,
+              "end": 528,
+              "citation_label": "PD 442, as amended and renumbered, ART. 298"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_298__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_298",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 298",
+              "quote": "of the establishment or undertaking unless the closing is for the purpose of circumventing the",
+              "start": 267,
+              "end": 361,
+              "citation_label": "PD 442, as amended and renumbered, ART. 298"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 2827,
+        "completion_tokens": 382,
+        "total_tokens": 3209
+      },
+      "usage_support": {
+        "prompt_tokens": 2234,
+        "completion_tokens": 1238,
+        "total_tokens": 3472
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 2957,
+        "completion_tokens": 317,
+        "total_tokens": 3274
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 2163,
+        "completion_tokens": 950,
+        "total_tokens": 3113
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a private shoe factory says it will close permanently and terminate its employees. which recorded rules discuss business closure, notice, and applicable conditions",
+        "sources": [
+          "LAB_CODE_2022__art_298"
+        ]
+      }
+    ],
+    "elapsed_ms": 15139.999999999418
+  },
+  {
+    "case_id": "PH5_025",
+    "question": "A private assembly plant gives only twenty minutes for lunch while the machines keep running. What sources or limitations apply to a general meal-period question?",
+    "group": "L",
+    "topic": "meal_period",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A private assembly plant gives only twenty minutes for lunch while the machines keep running. What sources or limitations apply to a general meal-period question?",
+      "normalized_question_text": null,
+      "effective_question_text": "A private assembly plant gives only twenty minutes for lunch while the machines keep running. What sources or limitations apply to a general meal-period question?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "no_supported_explanation",
+      "llm_calls": 1,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_002",
+          "query": "private employment: what sources or limitations apply to a general meal-period question",
+          "reason": "source_context_unavailable"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 4509,
+        "completion_tokens": 52,
+        "total_tokens": 4561
+      }
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a private assembly plant gives only twenty minutes for lunch. the machines keep running",
+        "sources": [
+          "LAB_IRR_1989__rule_vii_wages__section_19",
+          "RA_6727_1989__sec_7",
+          "LAB_CODE_2022__art_229",
+          "LAB_CODE_2022__art_220",
+          "LAB_IRR_1989__rule_i_definition_of_terms__section_1"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "private employment: what sources or limitations apply to a general meal-period question",
+        "sources": []
+      }
+    ],
+    "elapsed_ms": 2000.0
+  },
+  {
+    "case_id": "PH5_029",
+    "question": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+    "group": "L",
+    "topic": "rest_work",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+      "normalized_question_text": null,
+      "effective_question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "claim_support_failed",
+      "llm_calls": 3,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 3106,
+        "completion_tokens": 171,
+        "total_tokens": 3277
+      },
+      "usage_generation": {
+        "prompt_tokens": 3053,
+        "completion_tokens": 193,
+        "total_tokens": 3246
+      },
+      "usage_support": {
+        "prompt_tokens": 1951,
+        "completion_tokens": 890,
+        "total_tokens": 2841
+      }
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: pinapasok nila ako sa scheduled rest day. ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work",
+        "sources": [
+          "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_5",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6",
+          "LAB_CODE_2022__art_92"
+        ]
+      }
+    ],
+    "elapsed_ms": 8391.000000000531
+  },
+  {
+    "case_id": "PH5_034",
+    "question": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+    "group": "C",
+    "topic": "repair_refund",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+      "normalized_question_text": null,
+      "effective_question_text": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "claim_support_failed",
+      "llm_calls": 3,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 6464,
+        "completion_tokens": 824,
+        "total_tokens": 7288
+      },
+      "usage_generation": {
+        "prompt_tokens": 6404,
+        "completion_tokens": 725,
+        "total_tokens": 7129
+      },
+      "usage_support": {
+        "prompt_tokens": 2233,
+        "completion_tokens": 2916,
+        "total_tokens": 5149
+      }
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a new rechargeable lamp from a neighborhood store stopped charging after one use. what conditions govern correction, replacement, or refund under the recorded product-imperfection rule",
+        "sources": [
+          "RA_7394_1992__art_100",
+          "RA_7394_1992__art_68",
+          "RA_7394_1992__art_103",
+          "RA_7394_1992__art_67",
+          "RA_7394_1992__art_128"
+        ]
+      }
+    ],
+    "elapsed_ms": 23688.000000000102
+  },
+  {
+    "case_id": "PH5_046",
+    "question": "I ordered a stainless cooking pot from a Philippine online merchant but received a plastic storage box. What recorded online-sale remedies and return conditions can be explained?",
+    "group": "C",
+    "topic": "online_wrong_item",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I ordered a stainless cooking pot from a Philippine online merchant but received a plastic storage box. What recorded online-sale remedies and return conditions can be explained?",
+      "normalized_question_text": null,
+      "effective_question_text": "I ordered a stainless cooking pot from a Philippine online merchant but received a plastic storage box. What recorded online-sale remedies and return conditions can be explained?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "If an online consumer receives an item that does not match what was ordered, the consumer may seek repair, replacement, or a refund under the online‑sale rules. When the consumer chooses replacement or refund, the merchant may require the original (incorrect) goods to be sent back at no cost to the consumer, and the return must be made within a reasonable period unless the parties have agreed on a different timeframe. If a refund has already been paid but the consumer cannot return the goods because of the consumer’s fault, the consumer must immediately return the refund amount, possibly reduced proportionally.",
+          "citations": [
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "quote": "Remedies of Online Consumers. - In case of defect, malfunction, or loss without the fault of the online consumer, or failure to conform with warranty or any liability of the online merchant or e-retailer arising from the contract, the online consumer shall have the right to pursue repair, replacement, refund or other remedies provided under Republic Act No. 7394 or any existing relevant laws.",
+              "start": 9,
+              "end": 404,
+              "citation_label": "Republic Act No. 11967, SEC. 20"
+            },
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "quote": "When the online consumer avails replacement or refund as a remedy, the online merchant is entitled to the return of the original goods delivered, without any cost to the online consumer, within a reasonable period from the receipt thereof, unless otherwise agreed upon by the parties.",
+              "start": 406,
+              "end": 690,
+              "citation_label": "Republic Act No. 11967, SEC. 20"
+            },
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "quote": "In case the refund is already paid, but the goods cannot be returned due to the fault of the online consumer, the amount received shall be immediately reimbursed to the online merchant or e-retailer subject to proportionate reduction in price, if appropriate.",
+              "start": 691,
+              "end": 950,
+              "citation_label": "Republic Act No. 11967, SEC. 20"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 3523,
+        "completion_tokens": 663,
+        "total_tokens": 4186
+      },
+      "usage_support": {
+        "prompt_tokens": 2245,
+        "completion_tokens": 1162,
+        "total_tokens": 3407
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "i ordered a stainless cooking pot from a philippine online merchant but received a plastic storage box. what recorded online-sale remedies and return conditions can be explained",
+        "sources": [
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_37",
+          "RA_11967_2023__sec_25",
+          "DTI_JAO_24_03__section_34",
+          "DTI_JAO_24_03__section_39"
+        ]
+      }
+    ],
+    "elapsed_ms": 10594.000000000051
+  },
+  {
+    "case_id": "PH5_047",
+    "question": "A Philippine marketplace seller has no working way to submit a complaint about a faulty kettle. What recorded obligations concern an internal complaint or redress mechanism?",
+    "group": "C",
+    "topic": "online_redress",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A Philippine marketplace seller has no working way to submit a complaint about a faulty kettle. What recorded obligations concern an internal complaint or redress mechanism?",
+      "normalized_question_text": null,
+      "effective_question_text": "A Philippine marketplace seller has no working way to submit a complaint about a faulty kettle. What recorded obligations concern an internal complaint or redress mechanism?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "The law requires that a buyer who is dissatisfied with a product on a digital platform must first use the platform’s internal redress mechanism before filing any suit or going to a government agency, and the mechanism is considered exhausted only if the complaint is still unresolved after seven calendar days from filing.",
+          "citations": [
+            {
+              "chunk_id": "RA_11967_2023__sec_24__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_24",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 24",
+              "quote": "Internal Redress Mechanism. - An aggrieved party shall avail of the internal redress mechanism of the digital platform, e-marketplace or e-retailer prior to the filing of a complaint before any court or appropriate government agency, or resorting to alternative dispute resolution.",
+              "start": 9,
+              "end": 290,
+              "citation_label": "Republic Act No. 11967, SEC. 24"
+            },
+            {
+              "chunk_id": "RA_11967_2023__sec_24__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_24",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 24",
+              "quote": "Such mechanism is deemed exhausted if the complaint remains unresolved after seven (7) calendar days from filing thereof.",
+              "start": 291,
+              "end": 412,
+              "citation_label": "Republic Act No. 11967, SEC. 24"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 2593,
+        "completion_tokens": 213,
+        "total_tokens": 2806
+      },
+      "usage_support": {
+        "prompt_tokens": 1887,
+        "completion_tokens": 527,
+        "total_tokens": 2414
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a philippine marketplace seller has no working way to submit a complaint about a faulty kettle. what recorded obligations concern an internal complaint or redress mechanism",
+        "sources": [
+          "RA_11967_2023__sec_24",
+          "DTI_JAO_24_03__section_38"
+        ]
+      }
+    ],
+    "elapsed_ms": 5094.000000000051
+  },
+  {
+    "case_id": "PH5_048",
+    "question": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+    "group": "C",
+    "topic": "online_description",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+      "normalized_question_text": null,
+      "effective_question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "citation_validation_failed",
+      "llm_calls": 3,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 3729,
+        "completion_tokens": 451,
+        "total_tokens": 4180
+      },
+      "usage_support": {
+        "prompt_tokens": 2476,
+        "completion_tokens": 1228,
+        "total_tokens": 3704
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 3857,
+        "completion_tokens": 560,
+        "total_tokens": 4417
+      },
+      "validation_failure": "numeric_detail_not_in_source"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item",
+        "sources": [
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_37",
+          "RA_11967_2023__sec_19",
+          "DTI_JAO_24_03__section_35",
+          "DTI_JAO_24_03__section_39"
+        ]
+      }
+    ],
+    "elapsed_ms": 14592.999999999847
+  },
+  {
+    "case_id": "PH5_049",
+    "question": "A shop says the written warranty document is unnecessary because its staff can remember the promise. What does the recorded consumer law say about warranty information?",
+    "group": "C",
+    "topic": "warranty_document",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A shop says the written warranty document is unnecessary because its staff can remember the promise. What does the recorded consumer law say about warranty information?",
+      "normalized_question_text": null,
+      "effective_question_text": "A shop says the written warranty document is unnecessary because its staff can remember the promise. What does the recorded consumer law say about warranty information?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "When a seller or manufacturer gives an express warranty, the law obliges them to set out the warranty terms in clear, understandable language, identifying the warrantor, the party covered, the products or parts, what will be done (and at whose expense) if a defect occurs, what the consumer must do to claim it, and the period within which the warrantor must act after notice; the buyer need only present the warranty card or receipt and no other document, and any agreement that leaves out these written requirements is void.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "Terms of express warranty. - Any seller or manufacturer who gives an express warranty shall:",
+              "start": 197,
+              "end": 289,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "stipulate the period within which, after notice of defect, malfunction or failure to conform to the warranty, the warrantor will perform any obligation under the warranty.",
+              "start": 738,
+              "end": 909,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_68__chunk_0001",
+              "provision_id": "RA_7394_1992__art_68",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 68",
+              "quote": "No other documentary requirement shall be demanded from the purchaser.",
+              "start": 2885,
+              "end": 2955,
+              "citation_label": "Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 5938,
+        "completion_tokens": 1031,
+        "total_tokens": 6969
+      },
+      "usage_support": {
+        "prompt_tokens": 3094,
+        "completion_tokens": 863,
+        "total_tokens": 3957
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a shop says the written warranty document is unnecessary because its staff can remember the promise. what does the recorded consumer law say about warranty information",
+        "sources": [
+          "RA_7394_1992__art_68",
+          "RA_7394_1992__art_67",
+          "RA_7394_1992__art_69"
+        ]
+      }
+    ],
+    "elapsed_ms": 12342.999999999847
+  },
+  {
+    "case_id": "PH5_051",
+    "question": "The package of an appliance does not identify the manufacturer or importer. What general consumer labeling provisions are available in the corpus?",
+    "group": "C",
+    "topic": "labeling",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "The package of an appliance does not identify the manufacturer or importer. What general consumer labeling provisions are available in the corpus?",
+      "normalized_question_text": null,
+      "effective_question_text": "The package of an appliance does not identify the manufacturer or importer. What general consumer labeling provisions are available in the corpus?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "source_context_unavailable",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_001",
+          "query": "the package of an appliance does not identify the manufacturer or importer",
+          "reason": "source_context_unavailable"
+        },
+        {
+          "component_id": "concern_002",
+          "query": "what general consumer labeling provisions are available in the corpus",
+          "reason": "source_context_unavailable"
+        }
+      ]
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "the package of an appliance does not identify the manufacturer or importer",
+        "sources": []
+      },
+      {
+        "id": "concern_002",
+        "query": "what general consumer labeling provisions are available in the corpus",
+        "sources": []
+      }
+    ],
+    "elapsed_ms": 219.00000000005093
+  },
+  {
+    "case_id": "PH5_052",
+    "question": "A toy bought from a local shop has a battery compartment that falls open during normal handling. What recorded safety or product-quality rules can be discussed?",
+    "group": "C",
+    "topic": "unsafe_toy",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A toy bought from a local shop has a battery compartment that falls open during normal handling. What recorded safety or product-quality rules can be discussed?",
+      "normalized_question_text": null,
+      "effective_question_text": "A toy bought from a local shop has a battery compartment that falls open during normal handling. What recorded safety or product-quality rules can be discussed?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under the Consumer Act, any manufacturer, producer or importer is liable for damages caused by a product that is defective, meaning it does not provide the safety reasonably expected considering its presentation, the use and hazards reasonably expected, and the time it was placed on the market. However, liability does not attach if the party can show that the consumer or a third party is solely at fault for the injury.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+              "provision_id": "RA_7394_1992__art_97",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 97",
+              "quote": "A product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:",
+              "start": 455,
+              "end": 618,
+              "citation_label": "Republic Act No. 7394, ART. 97"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+              "provision_id": "RA_7394_1992__art_97",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 97",
+              "quote": "use and hazards reasonably expected of it;",
+              "start": 645,
+              "end": 687,
+              "citation_label": "Republic Act No. 7394, ART. 97"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+              "provision_id": "RA_7394_1992__art_97",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 97",
+              "quote": "The manufacturer, builder, producer or importer shall not be held liable when it evidences:",
+              "start": 836,
+              "end": 927,
+              "citation_label": "Republic Act No. 7394, ART. 97"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 3511,
+        "completion_tokens": 288,
+        "total_tokens": 3799
+      },
+      "usage_generation": {
+        "prompt_tokens": 3446,
+        "completion_tokens": 262,
+        "total_tokens": 3708
+      },
+      "usage_support": {
+        "prompt_tokens": 2070,
+        "completion_tokens": 901,
+        "total_tokens": 2971
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "a toy bought from a local shop has a battery compartment that falls open during normal handling. what recorded safety or product-quality rules can be discussed",
+        "sources": [
+          "RA_7394_1992__art_97",
+          "RA_7394_1992__art_100"
+        ]
+      }
+    ],
+    "elapsed_ms": 10078.00000000043
+  },
+  {
+    "case_id": "PH5_065",
+    "question": "sa private bakery wala kaming weekly rest. saka ung binili kong charger sa local shop may exposed wire. labor at consumer ba pareho, at ano sources nila?",
+    "group": "M",
+    "topic": "both",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 8,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "sa private bakery wala kaming weekly rest. saka ung binili kong charger sa local shop may exposed wire. labor at consumer ba pareho, at ano sources nila?",
+      "normalized_question_text": null,
+      "effective_question_text": "sa private bakery wala kaming weekly rest. saka ung binili kong charger sa local shop may exposed wire. labor at consumer ba pareho, at ano sources nila?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 4,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "For covered employees, the law requires that every employer give a rest period of at least twenty‑four (24) consecutive hours after each stretch of six consecutive normal work days.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+              "quote": "Weekly rest day. — Every employer shall give his employees a rest period of not less than twenty-four (24) consecutive hours after every six consecutive normal work days.",
+              "start": 11,
+              "end": 181,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE III"
+            }
+          ]
+        },
+        {
+          "claim_id": "development_2",
+          "component_id": "concern_002",
+          "text": "For consumers, a manufacturer, producer or importer is liable for damages caused by a product that is defective—meaning it fails to provide the safety expected based on its presentation, its reasonably expected use and hazards, and the time it was placed on the market—unless the party proves it never marketed the product, the product had no defect, or the consumer or a third party was solely at fault.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+              "provision_id": "RA_7394_1992__art_97",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 97",
+              "quote": "Liability for the Defective Products. - Any Filipino or foreign manufacturer, producer, and any importer, shall be liable for redress, independently of fault, for damages caused to consumers by defects resulting from design, manufacture, construction, assembly and erection, formulas and handling and making up, presentation or packing of their products, as well as for the insufficient or inadequate information on the use and hazards thereof.",
+              "start": 9,
+              "end": 453,
+              "citation_label": "Republic Act No. 7394, ART. 97"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+              "provision_id": "RA_7394_1992__art_97",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 97",
+              "quote": "A product is defective when it does not offer the safety rightfully expected of it, taking relevant circumstances into consideration, including but not limited to:",
+              "start": 455,
+              "end": 618,
+              "citation_label": "Republic Act No. 7394, ART. 97"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_97__chunk_0001",
+              "provision_id": "RA_7394_1992__art_97",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 97",
+              "quote": "The manufacturer, builder, producer or importer shall not be held liable when it evidences:",
+              "start": 836,
+              "end": 927,
+              "citation_label": "Republic Act No. 7394, ART. 97"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 4982,
+        "completion_tokens": 342,
+        "total_tokens": 5324
+      },
+      "usage_support": {
+        "prompt_tokens": 2494,
+        "completion_tokens": 1058,
+        "total_tokens": 3552
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 5234,
+        "completion_tokens": 382,
+        "total_tokens": 5616
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 2602,
+        "completion_tokens": 878,
+        "total_tokens": 3480
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "sa private bakery wala kaming weekly rest",
+        "sources": [
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_5",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6",
+          "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+          "LAB_CODE_2022__art_92"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "ung binili kong charger sa local shop may exposed wire. labor at consumer ba pareho, at ano sources nila",
+        "sources": [
+          "RA_7394_1992__art_97",
+          "RA_7394_1992__art_12",
+          "RA_7394_1992__art_10"
+        ]
+      }
+    ],
+    "elapsed_ms": 17234.999999999673
+  },
+  {
+    "case_id": "PH5_083",
+    "question": "My private employer dismissed me without letting me answer. Explain the general recorded procedural rule, but I also want you to guarantee that I will win a case and state the exact damages.",
+    "group": "P_L",
+    "topic": "prediction",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "My private employer dismissed me without letting me answer. Explain the general recorded procedural rule, but I also want you to guarantee that I will win a case and state the exact damages.",
+      "normalized_question_text": null,
+      "effective_question_text": "My private employer dismissed me without letting me answer. Explain the general recorded procedural rule, but I also want you to guarantee that I will win a case and state the exact damages.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 4,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under the Omnibus Rules, a worker cannot be dismissed unless there is a just or authorized cause and the employer observes due process; the employer must give the worker a reasonable period to answer the allegations in the dismissal notice and must provide ample opportunity to be heard, with a representative if desired.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_1__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_1",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 1",
+              "quote": "Security of tenure and due process. — No workers shall be dismissed except for a just or authorized cause provided by law and after due process.",
+              "start": 11,
+              "end": 155,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 1 — BOOK FIVE, CHAPTER IV, RULE XIV"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_5__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_5",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 5",
+              "quote": "Answer and hearing. — The worker may answer the allegations stated against him in the notice of dismissal within a reasonable period from receipt of such notice.",
+              "start": 11,
+              "end": 172,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 5 — BOOK FIVE, CHAPTER IV, RULE XIV"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_5__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_xiv_termination_of_employment__section_5",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 5",
+              "quote": "The employer shall afford the worker ample opportunity to be heard and to defend himself with the assistance of his representative, if he so desires.",
+              "start": 173,
+              "end": 322,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 5 — BOOK FIVE, CHAPTER IV, RULE XIV"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 2534,
+        "completion_tokens": 232,
+        "total_tokens": 2766
+      },
+      "usage_support": {
+        "prompt_tokens": 2104,
+        "completion_tokens": 902,
+        "total_tokens": 3006
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 2673,
+        "completion_tokens": 251,
+        "total_tokens": 2924
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 2100,
+        "completion_tokens": 550,
+        "total_tokens": 2650
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "my private employer dismissed me without letting me answer. explain the general recorded procedural rule",
+        "sources": [
+          "LAB_IRR_1989__rule_xiv_termination_of_employment__section_5",
+          "LAB_IRR_1989__rule_xiv_termination_of_employment__section_1",
+          "LAB_IRR_1989__rule_xiv_termination_of_employment__section_2"
+        ]
+      }
+    ],
+    "elapsed_ms": 13032.000000000153
+  },
+  {
+    "case_id": "PH5_087",
+    "question": "I am employed by a household in Hong Kong and my employer retained part of my wages. What overseas-worker procedure applies?",
+    "group": "O",
+    "topic": "overseas",
+    "expected": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I am employed by a household in Hong Kong and my employer retained part of my wages. What overseas-worker procedure applies?",
+      "normalized_question_text": null,
+      "effective_question_text": "I am employed by a household in Hong Kong and my employer retained part of my wages. What overseas-worker procedure applies?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 203.00000000042928
+  },
+  {
+    "case_id": "PH5_097",
+    "question": "I run a small online business and want the exact tax return and tax computation I should file with the BIR.",
+    "group": "O",
+    "topic": "tax",
+    "expected": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I run a small online business and want the exact tax return and tax computation I should file with the BIR.",
+      "normalized_question_text": null,
+      "effective_question_text": "I run a small online business and want the exact tax return and tax computation I should file with the BIR.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 359.00000000037835
+  },
+  {
+    "case_id": "PH5_100",
+    "question": "Can you recommend the best fertilizer schedule for a balcony tomato plant in Manila?",
+    "group": "O",
+    "topic": "unrelated",
+    "expected": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "out_of_scope",
+      "predicted_scope": "unsupported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "refer_out_of_scope",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 0,
+      "negative_control_correct": true,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Can you recommend the best fertilizer schedule for a balcony tomato plant in Manila?",
+      "normalized_question_text": null,
+      "effective_question_text": "Can you recommend the best fertilizer schedule for a balcony tomato plant in Manila?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "components": [],
+    "elapsed_ms": 155.99999999994907
+  }
+]

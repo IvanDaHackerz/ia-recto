@@ -1,0 +1,11 @@
+{
+  "browser_cases": 12,
+  "flow_and_label_matches": 12,
+  "diagnostics_visible": 12,
+  "duplicate_quotes": 0,
+  "all_browser_quotes_exact": true,
+  "zero_live_llm_calls": true,
+  "indexed_membership_and_text_preserved": true,
+  "chunks": 362,
+  "provisions": 353
+}

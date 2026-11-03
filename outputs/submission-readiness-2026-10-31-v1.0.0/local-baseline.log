@@ -1,0 +1,25 @@
+{
+  "inputs": 100,
+  "primary": {
+    "numerator": 92,
+    "denominator": 100,
+    "value": 0.92
+  },
+  "scope": {
+    "numerator": 93,
+    "denominator": 100,
+    "value": 0.93
+  },
+  "routes": {
+    "numerator": 78,
+    "denominator": 100,
+    "value": 0.78
+  },
+  "issues": {
+    "routing_mismatch": 22,
+    "supported_domain_coverage_mismatch": 19,
+    "known_relevant_provision_missed": 12,
+    "primary_label_mismatch_or_abstention": 8,
+    "scope_label_mismatch_or_abstention": 7
+  }
+}

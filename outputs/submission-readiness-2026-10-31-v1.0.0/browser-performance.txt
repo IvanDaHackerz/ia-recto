@@ -1,0 +1,3 @@
+Browser tab: 2, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/performance".
+There has been no change in the accessibility tree.
+The focused UI element is 0 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/performance

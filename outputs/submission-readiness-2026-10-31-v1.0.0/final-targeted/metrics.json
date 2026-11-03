@@ -1,0 +1,422 @@
+{
+  "input_forms": 8,
+  "pending": 0,
+  "successful_packets": 8,
+  "errors": {},
+  "routing_and_retrieval": {
+    "inputs": 8,
+    "families": 8,
+    "primary": {
+      "accuracy": {
+        "numerator": 8,
+        "denominator": 8,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "per_class": {
+        "labor": {
+          "support": 2,
+          "predicted_count": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "consumer": {
+          "support": 4,
+          "predicted_count": 4,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "mixed": {
+          "support": 2,
+          "predicted_count": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "out_of_scope": {
+          "support": 0,
+          "predicted_count": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "confusion": {
+        "true_rows": [
+          "labor",
+          "consumer",
+          "mixed",
+          "out_of_scope"
+        ],
+        "predicted_columns": [
+          "labor",
+          "consumer",
+          "mixed",
+          "out_of_scope",
+          "__abstain__"
+        ],
+        "counts": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "abstentions": 0,
+      "confidence_calibration": {
+        "prediction_count": 8,
+        "ece": 0.1221542836028292,
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 8,
+            "mean_label_confidence": 0.8778457163971708,
+            "observed_label_accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          }
+        ],
+        "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+      }
+    },
+    "scope": {
+      "accuracy": {
+        "numerator": 8,
+        "denominator": 8,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "per_class": {
+        "fully_supported": {
+          "support": 7,
+          "predicted_count": 7,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "partially_supported": {
+          "support": 1,
+          "predicted_count": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "unsupported": {
+          "support": 0,
+          "predicted_count": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "confusion": {
+        "true_rows": [
+          "fully_supported",
+          "partially_supported",
+          "unsupported"
+        ],
+        "predicted_columns": [
+          "fully_supported",
+          "partially_supported",
+          "unsupported",
+          "__abstain__"
+        ],
+        "counts": [
+          [
+            7,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "abstentions": 0,
+      "confidence_calibration": {
+        "prediction_count": 8,
+        "ece": 0.06264803292558425,
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 1,
+            "mean_label_confidence": 0.8797701492450739,
+            "observed_label_accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 7,
+            "mean_label_confidence": 0.945577941050036,
+            "observed_label_accuracy": 1.0
+          }
+        ],
+        "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+      }
+    },
+    "partial_support_recall": 1.0,
+    "out_of_scope_recall": null,
+    "route_match": {
+      "numerator": 8,
+      "denominator": 8,
+      "value": 1.0
+    },
+    "domain_match": {
+      "numerator": 8,
+      "denominator": 8,
+      "value": 1.0
+    },
+    "clarification_success": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "unsupported_admission": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "known_relevant_hit_at_1": {
+      "numerator": 3,
+      "denominator": 5,
+      "value": 0.6
+    },
+    "known_relevant_hit_at_5": {
+      "numerator": 5,
+      "denominator": 5,
+      "value": 1.0
+    },
+    "known_relevant_mrr_at_5": {
+      "numerator": 3.8333333333333335,
+      "denominator": 5,
+      "value": 0.7666666666666667
+    },
+    "known_relevant_recall_at_5": {
+      "numerator": 5.0,
+      "denominator": 5,
+      "value": 1.0
+    },
+    "negative_candidate_leakage": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "latency_ms": {
+      "median": 17343.333499999062,
+      "p95": 28919.70760000258
+    },
+    "cases_with_issues": 0,
+    "issue_counts": {}
+  },
+  "all_input_outcomes": {
+    "primary": {
+      "correct": 8,
+      "denominator": 8
+    },
+    "scope": {
+      "correct": 8,
+      "denominator": 8
+    },
+    "route": {
+      "correct": 8,
+      "denominator": 8
+    }
+  },
+  "classification_or_route_failure_ids": [],
+  "explanation_status": {
+    "generated": 6,
+    "withheld": 2
+  },
+  "non_generated_reasons": {
+    "provider_unavailable": 1,
+    "citation_validation_failed": 1
+  },
+  "failure_codes": {
+    "provider_unavailable": 1
+  },
+  "validation_failures": {
+    "source_qualification_missing": 1
+  },
+  "generated_paragraphs": 6,
+  "generated_without_automated_support": 0,
+  "normalizer_calls": 0,
+  "latency_ms": {
+    "p50": 17335.500000001048,
+    "p95": 28921.050000000465,
+    "maximum": 32000.0
+  },
+  "usage": {
+    "day_utc": "2026-10-31",
+    "provider_requests": 392,
+    "estimated_usd": 0.4349721,
+    "input_tokens": 1653168,
+    "output_tokens": 256391,
+    "maximum_calls": 400,
+    "maximum_estimated_usd": 0.5,
+    "billing_verified": false
+  },
+  "legal_accuracy_measured": false,
+  "independent_human_questions": 0,
+  "runtime_unchanged": true,
+  "limitations": [
+    "Synthetic wordings within established topic families; any post-repair replay reuses the opened test. Not independent human/legal gold.",
+    "Purposive diagnostics include scope boundaries; they are not a population-recall estimate.",
+    "Same-model support acceptance does not establish legal correctness.",
+    "Known-relevant IDs were frozen before inference for 54 cases. Judgments are nonexhaustive and do not approve legal currentness; candidate count is not retrieval accuracy."
+  ]
+}

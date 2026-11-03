@@ -1,0 +1,26 @@
+{
+  "selection_role": "Posthoc checks of observed failures and final guards; not fresh holdout",
+  "targeted_recheck_ids": [
+    "PH5_001",
+    "PH5_010",
+    "PH5_021",
+    "PH5_025",
+    "PH5_029",
+    "PH5_034",
+    "PH5_046",
+    "PH5_047",
+    "PH5_048",
+    "PH5_049",
+    "PH5_051",
+    "PH5_052",
+    "PH5_065",
+    "PH5_083",
+    "PH5_087",
+    "PH5_097",
+    "PH5_100"
+  ],
+  "purpose": "Recheck schedule context, document/closure/defense conditions, online opt wording, selected source gaps, and previous unsafe scope admissions. All initial and second observations remain preserved.",
+  "maximum_cumulative_provider_attempts": 400,
+  "estimated_cost_stop_usd": 0.5,
+  "relabeling": false
+}

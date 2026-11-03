@@ -1,0 +1,401 @@
+{
+  "input_forms": 5,
+  "pending": 0,
+  "successful_packets": 5,
+  "errors": {},
+  "routing_and_retrieval": {
+    "inputs": 5,
+    "families": 5,
+    "primary": {
+      "accuracy": {
+        "numerator": 5,
+        "denominator": 5,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "per_class": {
+        "labor": {
+          "support": 3,
+          "predicted_count": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "consumer": {
+          "support": 1,
+          "predicted_count": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "mixed": {
+          "support": 1,
+          "predicted_count": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "out_of_scope": {
+          "support": 0,
+          "predicted_count": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "confusion": {
+        "true_rows": [
+          "labor",
+          "consumer",
+          "mixed",
+          "out_of_scope"
+        ],
+        "predicted_columns": [
+          "labor",
+          "consumer",
+          "mixed",
+          "out_of_scope",
+          "__abstain__"
+        ],
+        "counts": [
+          [
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "abstentions": 0,
+      "confidence_calibration": {
+        "prediction_count": 5,
+        "ece": 0.12454144597263395,
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 5,
+            "mean_label_confidence": 0.875458554027366,
+            "observed_label_accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          }
+        ],
+        "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+      }
+    },
+    "scope": {
+      "accuracy": {
+        "numerator": 5,
+        "denominator": 5,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "per_class": {
+        "fully_supported": {
+          "support": 5,
+          "predicted_count": 5,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "partially_supported": {
+          "support": 0,
+          "predicted_count": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": null
+        },
+        "unsupported": {
+          "support": 0,
+          "predicted_count": 0,
+          "precision": 0.0,
+          "recall": null,
+          "f1": null
+        }
+      },
+      "confusion": {
+        "true_rows": [
+          "fully_supported",
+          "partially_supported",
+          "unsupported"
+        ],
+        "predicted_columns": [
+          "fully_supported",
+          "partially_supported",
+          "unsupported",
+          "__abstain__"
+        ],
+        "counts": [
+          [
+            5,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "abstentions": 0,
+      "confidence_calibration": {
+        "prediction_count": 5,
+        "ece": 0.05269365507628032,
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 5,
+            "mean_label_confidence": 0.9473063449237197,
+            "observed_label_accuracy": 1.0
+          }
+        ],
+        "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+      }
+    },
+    "partial_support_recall": null,
+    "out_of_scope_recall": null,
+    "route_match": {
+      "numerator": 5,
+      "denominator": 5,
+      "value": 1.0
+    },
+    "domain_match": {
+      "numerator": 5,
+      "denominator": 5,
+      "value": 1.0
+    },
+    "clarification_success": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "unsupported_admission": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "known_relevant_hit_at_1": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "known_relevant_hit_at_5": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "known_relevant_mrr_at_5": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "known_relevant_recall_at_5": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "negative_candidate_leakage": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "latency_ms": {
+      "median": 11471.656899999289,
+      "p95": 12918.577739999455
+    },
+    "cases_with_issues": 0,
+    "issue_counts": {}
+  },
+  "classification_or_route_failure_ids": [],
+  "explanation_status": {
+    "generated": 4,
+    "partially_generated": 1
+  },
+  "non_generated_reasons": {},
+  "failure_codes": {},
+  "validation_failures": {},
+  "generated_paragraphs": 5,
+  "generated_without_automated_support": 0,
+  "normalizer_calls": 0,
+  "latency_ms": {
+    "p50": 11468.000000000757,
+    "p95": 12919.19999999991,
+    "maximum": 13188.000000000102
+  },
+  "usage": {
+    "day_utc": "2026-10-22",
+    "provider_requests": 52,
+    "estimated_usd": 0.059928749999999996,
+    "input_tokens": 140455,
+    "output_tokens": 24027,
+    "maximum_calls": 120,
+    "maximum_estimated_usd": 0.1,
+    "billing_verified": false
+  },
+  "legal_accuracy_measured": false,
+  "independent_human_questions": 0,
+  "runtime_unchanged": true,
+  "limitations": [
+    "Synthetic development questions; not independent human gold.",
+    "Purposive diagnostics include scope boundaries; they are not a population-recall estimate.",
+    "Same-model support acceptance does not establish legal correctness.",
+    "Known-relevant source IDs were not pre-judged; candidate count is not retrieval accuracy."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "run": "first-pass",
+  "denominator": 100,
+  "observed_rows": 100,
+  "counts": {
+    "packets": 99,
+    "primary_correct": 90,
+    "scope_correct": 91,
+    "route_correct": 77,
+    "domain_correct": 80,
+    "status_generated": 43,
+    "reason_citations_and_automated_support_checked": 43,
+    "judged_cases": 54,
+    "all_known_relevant_hit_at_5": 42,
+    "claims": 78,
+    "citations": 172,
+    "status_partially_generated": 16,
+    "reason_supported_parts_checked": 16,
+    "status_withheld": 40,
+    "reason_claim_support_failed": 3,
+    "reason_supported_concern_required": 31,
+    "reason_no_supported_explanation": 2,
+    "reason_provider_unavailable": 1,
+    "reason_citation_validation_failed": 3,
+    "request_errors": 1,
+    "outside_cases": 15,
+    "outside_candidates": 0,
+    "outside_claims": 0
+  },
+  "inclusive_scores": {
+    "primary": {
+      "correct": 90,
+      "denominator": 100,
+      "fraction": 0.9
+    },
+    "scope": {
+      "correct": 91,
+      "denominator": 100,
+      "fraction": 0.91
+    },
+    "route": {
+      "correct": 77,
+      "denominator": 100,
+      "fraction": 0.77
+    },
+    "domain": {
+      "correct": 80,
+      "denominator": 100,
+      "fraction": 0.8
+    }
+  },
+  "inclusive_macro_f1": {
+    "primary": 0.9143779188749541,
+    "scope": 0.9009828419123771
+  },
+  "citation_integrity_failures": [],
+  "independent_human_questions": 0,
+  "legal_answer_accuracy_measured": false,
+  "denominator_note": "Missing packets count as errors in every inclusive score. F1 uses the fixed expected classes, with request errors treated as missed labels."
+}

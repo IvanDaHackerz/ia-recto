@@ -1,0 +1,121 @@
+{
+  "inputs": 100,
+  "integrity": {
+    "candidate_checks": 350,
+    "candidate_failures": 0,
+    "fallback_checks": 23,
+    "fallback_failures": 0,
+    "claim_checks": 71,
+    "claim_gate_failures": 0,
+    "citation_checks": 151,
+    "citation_failures": 0
+  },
+  "routing_issue_ids": [
+    "PH5_013",
+    "PH5_014",
+    "PH5_019",
+    "PH5_022",
+    "PH5_025",
+    "PH5_063",
+    "PH5_065",
+    "PH5_067",
+    "PH5_068",
+    "PH5_070",
+    "PH5_072",
+    "PH5_074",
+    "PH5_076",
+    "PH5_079",
+    "PH5_083",
+    "PH5_084",
+    "PH5_085",
+    "PH5_087",
+    "PH5_096",
+    "PH5_097",
+    "PH5_100"
+  ],
+  "normalization_status": {
+    "bypassed": 97,
+    "clarify": 2,
+    "unchanged": 1
+  },
+  "normalization_failures": {
+    "ambiguous_short_content_replaced": 2
+  },
+  "role": "AI-authored synthetic development diagnostic",
+  "independent_human_questions": 0,
+  "legal_accuracy": null,
+  "frozen_files_intact": true,
+  "groups": {
+    "C": {
+      "n": 30,
+      "topic_correct": 30,
+      "scope_correct": 30,
+      "route_correct": 30,
+      "AI_status": {
+        "generated": 22,
+        "withheld": 5,
+        "partially_generated": 3
+      }
+    },
+    "L": {
+      "n": 30,
+      "topic_correct": 27,
+      "scope_correct": 28,
+      "route_correct": 26,
+      "AI_status": {
+        "withheld": 14,
+        "generated": 15,
+        "partially_generated": 1
+      }
+    },
+    "M": {
+      "n": 10,
+      "topic_correct": 7,
+      "scope_correct": 9,
+      "route_correct": 5,
+      "AI_status": {
+        "generated": 8,
+        "withheld": 2
+      }
+    },
+    "O": {
+      "n": 15,
+      "topic_correct": 11,
+      "scope_correct": 11,
+      "route_correct": 11,
+      "AI_status": {
+        "withheld": 15
+      }
+    },
+    "P_B": {
+      "n": 3,
+      "topic_correct": 2,
+      "scope_correct": 2,
+      "route_correct": 2,
+      "AI_status": {
+        "generated": 3
+      }
+    },
+    "P_C": {
+      "n": 6,
+      "topic_correct": 4,
+      "scope_correct": 4,
+      "route_correct": 4,
+      "AI_status": {
+        "partially_generated": 2,
+        "withheld": 3,
+        "generated": 1
+      }
+    },
+    "P_L": {
+      "n": 6,
+      "topic_correct": 4,
+      "scope_correct": 4,
+      "route_correct": 3,
+      "AI_status": {
+        "generated": 4,
+        "withheld": 2
+      }
+    }
+  }
+}

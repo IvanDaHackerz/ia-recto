@@ -1,0 +1,118 @@
+[
+  {
+    "case_id": "EX_NEW_014",
+    "question": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+    "group": "C",
+    "topic": "price_tag",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+      "normalized_question_text": null,
+      "effective_question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under the Consumer Act, it is unlawful to sell a consumer product for more than the price shown on its tag, label or publicly displayed price list; the checkout price must not exceed the displayed price for any buyer.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "quote": "Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+              "start": 9,
+              "end": 790,
+              "citation_label": "Republic Act No. 7394, ART. 81"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 2592,
+        "completion_tokens": 162,
+        "total_tokens": 2754
+      },
+      "usage_generation": {
+        "prompt_tokens": 2365,
+        "completion_tokens": 223,
+        "total_tokens": 2588
+      },
+      "usage_support": {
+        "prompt_tokens": 1883,
+        "completion_tokens": 614,
+        "total_tokens": 2497
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "the price label on the shelf was lower than the amount the cashier charged. they said the label had not been updated yet. which price rule should i understand",
+        "sources": [
+          "RA_7394_1992__art_81",
+          "RA_7394_1992__art_83"
+        ]
+      }
+    ],
+    "elapsed_ms": 8280.999999999949
+  }
+]

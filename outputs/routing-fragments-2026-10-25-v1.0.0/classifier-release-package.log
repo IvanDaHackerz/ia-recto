@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item10\build_preintegration.py", line 145, in <module>
+    build(args.parent,args.output,args.recalibrate_training_folds)
+  File "C:\IA\dataset\pipelines\item10\build_preintegration.py", line 110, in build
+    raise ValueError('Classifier software checks failed; inspect ' + str(output / 'software_tests.log'))
+ValueError: Classifier software checks failed; inspect C:\IA\outputs\item10-classifier-v1.5.64\software_tests.log

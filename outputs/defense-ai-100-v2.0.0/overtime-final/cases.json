@@ -1,0 +1,22 @@
+[
+  {
+    "case_id": "PH2_008",
+    "family_id": "PH2_008",
+    "question_text": "Private factory worker ako. Naka-eight hours na ako tapos pinadagdag pa ng tatlong oras. What general overtime provisions and coverage limits are relevant?",
+    "group": "labor",
+    "topic": "overtime",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  }
+]

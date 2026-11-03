@@ -1,0 +1,25 @@
+{
+  "role": "AI engineering reading, not independent legal review",
+  "initial_accepted_errors": [
+    {
+      "case_id": "DEF_005",
+      "finding": "Counted-time question answered with overtime/exception rules; later limited wage-timing discussion was still irrelevant.",
+      "final": "No eligible counted-time authority; local source limitation, zero explanation calls."
+    },
+    {
+      "case_id": "DEF_013",
+      "finding": "Seasonal exception inferred casual status and a one-year transition.",
+      "final": "New local guard rejects the observed inference; targeted recheck no longer classifies seasonal work as casual."
+    },
+    {
+      "case_id": "DEF_028",
+      "finding": "Mandatory retailer presentment weakened to an optional may.",
+      "final": "New local guard and targeted recheck preserve must-present duty and distinguish subsidiary liability."
+    }
+  ],
+  "limitations": [
+    "Exact spans do not establish entailment.",
+    "Same-model checks remain fallible.",
+    "No independent current-law or legal-professional acceptance is claimed."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "canonical_records_byte_identical": true,
+  "learned_state": {
+    "atomic_weights": true,
+    "feature_vocabulary": true,
+    "calibration": true,
+    "thresholds": true,
+    "training_membership": true
+  },
+  "frozen_72_cases_unchanged": true,
+  "fresh_six_cases_unchanged": true
+}

@@ -1,8 +1,8 @@
 {
-  "version": "item12-verifier-v1.0.15",
-  "parent_verifier": "outputs/item12-verifier-v1.0.11",
-  "classifier": "outputs/item10-classifier-v1.5.23",
-  "retrieval": "outputs/item11-retrieval-v1.3.7",
+  "version": "item12-verifier-v1.0.65",
+  "parent_verifier": "outputs/item12-verifier-v1.0.64",
+  "classifier": "outputs/item10-classifier-v1.5.72",
+  "retrieval": "outputs/item11-retrieval-v1.3.59",
   "retrieval_method": "bm25",
   "top_k": 5,
   "maximum_review_days": 30,

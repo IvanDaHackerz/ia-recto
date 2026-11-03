@@ -107,18 +107,22 @@ class CancellableTransport:
     def __init__(self,context,ledger,stage):self.context=context;self.ledger=ledger;self.stage=stage
     def __call__(self,request,timeout):
         ctx=self.context;ctx.check()
+        # Preserve time for local source fallback and response serialization.
+        # A slow provider must not consume the entire outer request deadline.
+        provider_deadline=ctx.deadline-5
+        if time.monotonic()>=provider_deadline:raise ProviderStopped('provider_time_budget_exhausted')
         parsed=urlsplit(request.full_url)
         if parsed.scheme!='https' or parsed.hostname not in {'api.together.ai','api.openai.com'} or parsed.port or parsed.username or parsed.query or parsed.fragment:
             raise ProviderStopped('provider_host_rejected')
         body=strict_json(request.data.decode('utf-8'));model=body['model']
         stage='explanation_support' if body.get('response_format',{}).get('json_schema',{}).get('name')=='explanation_support' else self.stage
         rid=self.ledger.reserve(stage,model,len(request.data),body.get('max_tokens',body.get('max_output_tokens',3072)))
-        connection=http.client.HTTPSConnection(parsed.hostname,timeout=min(8,timeout,max(.1,ctx.deadline-time.monotonic())))
+        connection=http.client.HTTPSConnection(parsed.hostname,timeout=min(8,timeout,max(.1,provider_deadline-time.monotonic())))
         with ctx.lock:ctx.connections.append(connection)
         outcome='unavailable';usage={};attempt=None;started=time.perf_counter()
         try:
             ctx.check();connection.connect();ctx.check()
-            connection.sock.settimeout(min(timeout,max(.1,ctx.deadline-time.monotonic())))
+            connection.sock.settimeout(min(timeout,max(.1,provider_deadline-time.monotonic())))
             attempt={'stage':stage,'model':model};ctx.calls.append(attempt)
             connection.request('POST',parsed.path,body=request.data,headers=dict(request.header_items()))
             response=connection.getresponse()
@@ -134,7 +138,9 @@ class CancellableTransport:
             outcome='canceled' if ctx.canceled.is_set() else 'timeout';raise ProviderStopped('request_canceled' if ctx.canceled.is_set() else 'request_timeout') from None
         except ProviderStopped:raise
         except (OSError,ValueError,http.client.HTTPException):
-            outcome='canceled' if ctx.canceled.is_set() else 'unavailable';raise ProviderStopped('request_canceled' if ctx.canceled.is_set() else 'provider_unavailable') from None
+            budget_expired=time.monotonic()>=provider_deadline
+            outcome='canceled' if ctx.canceled.is_set() else 'timeout' if budget_expired else 'unavailable'
+            raise ProviderStopped('request_canceled' if ctx.canceled.is_set() else 'provider_time_budget_exhausted' if budget_expired else 'provider_unavailable') from None
         finally:
             if attempt is not None:attempt['elapsed_ms']=round((time.perf_counter()-started)*1000,1)
             connection.close()

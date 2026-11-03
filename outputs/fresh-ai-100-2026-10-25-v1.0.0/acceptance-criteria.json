@@ -1,0 +1,13 @@
+{
+  "purpose": "Engineering usability and source-agreement checks, not legal validation",
+  "criteria": [
+    "No dropped supported concerns",
+    "No substantive answers for excluded concerns",
+    "No invented facts in normalization",
+    "Displayed claims address the requested issue and retain source conditions",
+    "Quotes match exact recorded source spans",
+    "Provider problems and source gaps remain visible"
+  ],
+  "fresh_questions_frozen_before_inference": true,
+  "no_relabeling_after_inference": true
+}

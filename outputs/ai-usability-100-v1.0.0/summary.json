@@ -1,0 +1,750 @@
+{
+  "finished_at_utc": "2026-10-22T02:34:33.715099+00:00",
+  "dataset": {
+    "count": 100,
+    "primary_counts": {
+      "labor": 50,
+      "consumer": 40,
+      "mixed": 10
+    },
+    "cases_sha256": "bcab548029507c3ec4f1f54246ff4931f99cb9cb118052f96bbcfa78414eae70",
+    "expectations_frozen_before_inference": true,
+    "independent_human_gold": false,
+    "known_source_gap_cases": 10,
+    "question_text_contains_personal_chat": false
+  },
+  "artifacts": {
+    "accuracy_repair": "outputs/item13-accuracy-repair-v1.0.0",
+    "all_project_issues_closed": false,
+    "answer_generation_allowed": false,
+    "classifier": "outputs/item10-classifier-v1.5.44",
+    "classifier_backend": "backend/classifier/config.json",
+    "classifier_display_metrics_deferred": false,
+    "classifier_implementation_completed": true,
+    "classifier_owner_terminal_testing_deferred": true,
+    "classifier_performance_evaluation_pending": true,
+    "classifier_preintegration": "outputs/classifier-preintegration-v1.0.0",
+    "conditional_normalization": "backend/normalization_status.json",
+    "conditional_normalization_live_test_completed": true,
+    "conditional_normalization_performance_evaluation_pending": true,
+    "current_guidance_allowed": false,
+    "deployment_allowed": false,
+    "development_only": true,
+    "historical_system_evaluation": "outputs/item13-evaluation-v1.0.1",
+    "item12_offline_implementation_completed": true,
+    "item12_started": true,
+    "item12_status": "offline_implementation_tested",
+    "item13_all_development_screens_met": null,
+    "item13_failed_development_screens": [],
+    "item13_formal_acceptance_completed": false,
+    "item13_full_generated_answer_evaluation_ready": false,
+    "item13_offline_evaluation_ready": true,
+    "item13_offline_implementation_completed": true,
+    "item13_screening_run_completed_for_current_stack": false,
+    "item13_started": true,
+    "item13_status": "local_pipeline_development_evaluation_complete_independent_and_generated_answer_acceptance_pending",
+    "llm_integration_completed": true,
+    "pre_item13_audit": "outputs/pre-item13-audit-2026-10-17",
+    "referral_refresh": "dataset/processed/item10/referral_refresh_v1.0.0",
+    "repair_packet": "outputs/pre-item12-repair-2026-10-17",
+    "retrieval": "outputs/item11-retrieval-v1.3.33",
+    "source_contact_followup": "outputs/source-contact-followup-v1.0.0",
+    "system_evaluation": "outputs/item13-evaluation-v1.0.1",
+    "system_evaluation_stack_matches_current": false,
+    "verifier": "outputs/item12-verifier-v1.0.40",
+    "website_integration_completed": true,
+    "conditional_normalization_development_evaluation_completed": true,
+    "conditional_normalization_initial_evaluation": "outputs/normalization-evaluation-v1.0.0",
+    "conditional_normalization_development_evaluation": "outputs/normalization-evaluation-v3.0.1",
+    "conditional_normalization_evaluation_summary": "outputs/current-stack-validation-v1.0.0",
+    "conditional_normalization_quality_approved_for_website": false,
+    "conditional_normalization_performance_evaluation_pending_reason": "Current complete application AI replay is recorded separately; a fresh independent paired/generalization evaluation and owner acceptance remain pending.",
+    "conditional_normalization_diagnostic_audit": "outputs/normalization-diagnostics-v2.0.0",
+    "classifier_typing_repair": "outputs/local-pipeline-repair-v1.0.0",
+    "classifier_preintegration_repair": "outputs/local-pipeline-repair-v1.0.0",
+    "classifier_development_performance_evaluation_completed": true,
+    "classifier_performance_evaluation_pending_reason": "Current local classifier/retrieval/verifier development evaluation is complete. Independent/generalization validation and owner acceptance remain pending.",
+    "website_integration_mode": "local_development_with_exact_citations_and_same_model_support_checks",
+    "website_backend": "backend/application",
+    "website_integration": "outputs/website-integration-v1.0.0",
+    "explanation_adapter_implementation_completed": true,
+    "explanation_generation_enabled": true,
+    "explanation_status": "recorded_source_selection_citation_and_automated_support_checked_legal_review_pending",
+    "website_independent_acceptance_completed": false,
+    "classifier_joined_concern_repair": "outputs/joined-concern-repair-v1.0.0",
+    "joined_concern_regression_fixed": true,
+    "conditional_normalization_development_evaluation_stack_matches_current": false,
+    "local_pipeline_evaluation": "outputs/local-pipeline-evaluation-v1.6.15",
+    "local_pipeline_cases": "outputs/local-pipeline-cases-v1.1.0",
+    "local_pipeline_repair": "outputs/local-pipeline-repair-v1.0.0",
+    "local_pipeline_development_evaluation_completed": true,
+    "local_pipeline_evaluation_stack_matches_current": true,
+    "local_pipeline_evaluation_llm_calls": 0,
+    "local_pipeline_remaining_conservative_route_deferrals": null,
+    "website_performance_current_binding": "backend/application/performance_current.json",
+    "conditional_normalization_previous_development_evaluation": "outputs/normalization-evaluation-v2.0.0",
+    "conditional_normalization_current_stack_comparison_completed": false,
+    "conditional_normalization_current_stack_comparison_llm_calls": 5,
+    "conditional_normalization_remaining_routing_errors_on_reused_development_packet": 1,
+    "fresh_human_test_preparation": "outputs/current-stack-validation-v1.0.0/HUMAN_TEST.md",
+    "fresh_human_test_completed": false,
+    "explanation_readiness_handoff": "outputs/current-stack-validation-v1.0.0/EXPLANATION_HANDOFF.md",
+    "local_pipeline_previous_evaluation": "outputs/local-pipeline-evaluation-v1.6.14",
+    "development_explanation_generation_enabled": true,
+    "development_explanation_source_currency_approved": false,
+    "classifier_concern_repair": "outputs/website-explanations-v1.0.0",
+    "llm_integration_scope": "owner_enabled_local_development_wording_and_recorded_source_explanations_not_legal_acceptance",
+    "conditional_normalization_last_comparison_completed": true,
+    "conditional_normalization_last_comparison_stack": {
+      "classifier": "outputs/item10-classifier-v1.5.12",
+      "retrieval": "outputs/item11-retrieval-v1.2.8",
+      "verifier": "outputs/item12-verifier-v1.0.7"
+    },
+    "website_explanation_release": "outputs/holiday-explanation-repair-v1.0.0",
+    "website_explanation_software_tests": 205,
+    "website_explanation_ui_review": "UI/UX/app/.impeccable/review/repair/finish-review-final.md",
+    "generated_answer_legal_quality_evaluation_completed": false,
+    "development_explanation_citation_checks_are_legal_support_proof": false,
+    "project_repair": "outputs/project-repair-v1.0.0",
+    "application_development_evaluation": "outputs/application-evaluation-v1.2.0",
+    "application_development_evaluation_completed": true,
+    "application_evaluation_inference_binding": "backend/application/performance_application.json",
+    "application_replay_independent_human_questions": 0,
+    "application_replay_answer_accuracy_measured": false,
+    "website_history_implemented": true,
+    "website_history_mode": "opt_in_windows_user_encrypted_30_days_browser_scoped",
+    "website_local_only_option": true,
+    "website_request_controls_implemented": true,
+    "website_explanation_software_tests_scope": "backend unittest discovery; package and frontend checks reported separately",
+    "website_ui_review_disposition": "ship_for_reviewed_local_interface",
+    "last_project_repair_date": "2026-10-19",
+    "application_generated_answer_evaluation_stack_matches_current": false,
+    "holiday_explanation_repair": "outputs/holiday-explanation-repair-v1.0.0",
+    "holiday_explanation_live_smoke": "outputs/holiday-explanation-repair-v1.0.0/live-smoke-schema-bound-packet.json",
+    "holiday_source_wording_hold": "backend/application/source_issues.py",
+    "website_explanation_frontend_tests": 26,
+    "holiday_explanation_live_acceptance_completed": false,
+    "holiday_explanation_full_ai_replay_pending": true,
+    "holiday_explanation_provider_errors_observed": [
+      "provider_http_503",
+      "provider_incomplete_output"
+    ],
+    "holiday_explanation_latest_browser_check": "outputs/holiday-explanation-repair-v1.0.0/browser-final-check.txt",
+    "holiday_explanation_final_live_status": "provider_http_503_live_acceptance_pending",
+    "application_response_policy": "conversational-guidance-v1.1.0",
+    "conversational_guidance_repair": "outputs/conversational-guidance-v1.0.0",
+    "conversational_guidance_independent_human_evaluation_completed": false,
+    "conversational_guidance_legal_answer_accuracy_measured": false,
+    "conversational_guidance_model_weights_or_thresholds_changed": false,
+    "scope_flexibility_repair": "outputs/scope-flexibility-v1.0.0",
+    "scope_flexibility_atomic_weights_unchanged": true,
+    "scope_flexibility_thresholds_unchanged": true,
+    "scope_flexibility_calibration_refit_on_original_training_only": true,
+    "scope_flexibility_independent_human_questions": 0,
+    "scope_flexibility_external_ai_calls": 0,
+    "website_field_repair": "outputs/website-field-repair-v1.0.0",
+    "local_pipeline_route_deferrals_note": "See the current evaluation errors.json; historical routing expectations include earlier policy choices.",
+    "website_field_repair_browser_cases": 12,
+    "website_field_repair_external_ai_calls": 0,
+    "website_field_repair_independent_acceptance_completed": false,
+    "classifier_usability_stress": "outputs/usability-stress-v1.0.0",
+    "classifier_scope_retest_repair": "outputs/ai-usability-100-v1.0.0",
+    "classifier_scope_retest_repair_recent_regression_cases": 148,
+    "classifier_scope_retest_repair_browser_cases": 16,
+    "classifier_scope_retest_repair_backend_tests": 226,
+    "classifier_scope_retest_repair_external_ai_calls": 0,
+    "classifier_scope_retest_repair_independent_acceptance_completed": false,
+    "classifier_scope_retest_repair_remaining_source_limits": true,
+    "ai_usability_development_report": "outputs/ai-usability-100-v1.0.0",
+    "ai_usability_development_evaluation": "outputs/ai-usability-100-v1.0.0/final-replay",
+    "ai_usability_independent_human_questions": 0,
+    "ai_usability_latest_repair_check": "outputs/ai-usability-100-v1.0.0/targeted-final",
+    "ai_usability_project_definition_check": "outputs/ai-usability-100-v1.0.0/project-definition-final"
+  },
+  "phases": {
+    "first-pass": {
+      "input_forms": 100,
+      "pending": 0,
+      "successful_packets": 100,
+      "explanation_status": {
+        "withheld": 44,
+        "generated": 56
+      },
+      "non_generated_reasons": {
+        "citation_validation_failed": 15,
+        "source_context_unavailable": 10,
+        "claim_support_failed": 6,
+        "supported_concern_required": 4,
+        "no_supported_explanation": 4,
+        "related_authority_missing": 5
+      },
+      "failure_codes": {},
+      "validation_failures": {
+        "invalid_output_contract": 2,
+        "incomplete_concerns": 4,
+        "numeric_detail_not_in_source": 9
+      },
+      "latency_ms": {
+        "p50": 7906.499999997322,
+        "p95": 18529.699999999866,
+        "maximum": 30468.999999997322
+      },
+      "usage": {
+        "day_utc": "2026-10-21",
+        "provider_requests": 175,
+        "estimated_usd": 0.1104621,
+        "input_tokens": 523690,
+        "output_tokens": 53181,
+        "maximum_calls": 500,
+        "maximum_estimated_usd": 0.5,
+        "billing_verified": false
+      },
+      "matches": {
+        "primary": {
+          "numerator": 96,
+          "denominator": 100,
+          "value": 0.96
+        },
+        "scope": {
+          "numerator": 97,
+          "denominator": 100,
+          "value": 0.97
+        },
+        "route": {
+          "numerator": 95,
+          "denominator": 100,
+          "value": 0.95
+        },
+        "domain": {
+          "numerator": 96,
+          "denominator": 100,
+          "value": 0.96
+        }
+      }
+    },
+    "post-repair": {
+      "input_forms": 10,
+      "pending": 90,
+      "successful_packets": 10,
+      "explanation_status": {
+        "generated": 5,
+        "withheld": 5
+      },
+      "non_generated_reasons": {
+        "source_context_unavailable": 5
+      },
+      "failure_codes": {},
+      "validation_failures": {},
+      "latency_ms": {
+        "p50": 3648.5000000029686,
+        "p95": 15812.600000002203,
+        "maximum": 15953.000000001339
+      },
+      "usage": {
+        "day_utc": "2026-10-21",
+        "provider_requests": 199,
+        "estimated_usd": 0.1297215,
+        "input_tokens": 593842,
+        "output_tokens": 67742,
+        "maximum_calls": 500,
+        "maximum_estimated_usd": 0.5,
+        "billing_verified": false
+      },
+      "matches": {
+        "primary": {
+          "numerator": 10,
+          "denominator": 10,
+          "value": 1.0
+        },
+        "scope": {
+          "numerator": 10,
+          "denominator": 10,
+          "value": 1.0
+        },
+        "route": {
+          "numerator": 10,
+          "denominator": 10,
+          "value": 1.0
+        },
+        "domain": {
+          "numerator": 10,
+          "denominator": 10,
+          "value": 1.0
+        }
+      }
+    },
+    "post-repair-final": {
+      "input_forms": 44,
+      "pending": 56,
+      "successful_packets": 44,
+      "explanation_status": {
+        "generated": 18,
+        "withheld": 26
+      },
+      "non_generated_reasons": {
+        "claim_support_failed": 6,
+        "source_context_unavailable": 9,
+        "citation_validation_failed": 5,
+        "related_authority_missing": 5,
+        "no_supported_explanation": 1
+      },
+      "failure_codes": {},
+      "validation_failures": {
+        "numeric_detail_not_in_source": 5
+      },
+      "latency_ms": {
+        "p50": 6757.499999999709,
+        "p95": 19106.20000000054,
+        "maximum": 31109.000000004016
+      },
+      "usage": {
+        "day_utc": "2026-10-21",
+        "provider_requests": 280,
+        "estimated_usd": 0.1864941,
+        "input_tokens": 796965,
+        "output_tokens": 100421,
+        "maximum_calls": 500,
+        "maximum_estimated_usd": 0.5,
+        "billing_verified": false
+      },
+      "matches": {
+        "primary": {
+          "numerator": 44,
+          "denominator": 44,
+          "value": 1.0
+        },
+        "scope": {
+          "numerator": 44,
+          "denominator": 44,
+          "value": 1.0
+        },
+        "route": {
+          "numerator": 44,
+          "denominator": 44,
+          "value": 1.0
+        },
+        "domain": {
+          "numerator": 44,
+          "denominator": 44,
+          "value": 1.0
+        }
+      }
+    },
+    "repaired-confirmation": {
+      "input_forms": 100,
+      "pending": 0,
+      "successful_packets": 100,
+      "explanation_status": {
+        "withheld": 30,
+        "generated": 70
+      },
+      "non_generated_reasons": {
+        "claim_support_failed": 7,
+        "source_context_unavailable": 13,
+        "related_authority_missing": 5,
+        "no_supported_explanation": 1,
+        "citation_validation_failed": 4
+      },
+      "failure_codes": {},
+      "validation_failures": {
+        "numeric_detail_not_in_source": 3,
+        "source_qualification_missing": 1
+      },
+      "latency_ms": {
+        "p50": 8789.00000000067,
+        "p95": 20335.80000000111,
+        "maximum": 35468.99999999732
+      },
+      "usage": {
+        "day_utc": "2026-10-21",
+        "provider_requests": 479,
+        "estimated_usd": 0.3359913,
+        "input_tokens": 1410789,
+        "output_tokens": 196127,
+        "maximum_calls": 500,
+        "maximum_estimated_usd": 0.5,
+        "billing_verified": false
+      },
+      "matches": {
+        "primary": {
+          "numerator": 100,
+          "denominator": 100,
+          "value": 1.0
+        },
+        "scope": {
+          "numerator": 100,
+          "denominator": 100,
+          "value": 1.0
+        },
+        "route": {
+          "numerator": 100,
+          "denominator": 100,
+          "value": 1.0
+        },
+        "domain": {
+          "numerator": 100,
+          "denominator": 100,
+          "value": 1.0
+        }
+      }
+    },
+    "final-replay": {
+      "input_forms": 98,
+      "pending": 2,
+      "successful_packets": 98,
+      "explanation_status": {
+        "generated": 70,
+        "withheld": 28
+      },
+      "non_generated_reasons": {
+        "source_context_unavailable": 11,
+        "claim_support_failed": 7,
+        "related_authority_missing": 5,
+        "citation_validation_failed": 3,
+        "provider_unavailable": 2
+      },
+      "failure_codes": {
+        "provider_unavailable": 1,
+        "daily_provider_limit": 1
+      },
+      "validation_failures": {
+        "numeric_detail_not_in_source": 2,
+        "source_qualification_missing": 1
+      },
+      "latency_ms": {
+        "p50": 13007.499999999709,
+        "p95": 29595.64999999745,
+        "maximum": 36344.0000000046
+      },
+      "usage": {
+        "day_utc": "2026-10-21",
+        "provider_requests": 693,
+        "estimated_usd": 0.49252065,
+        "input_tokens": 2045863,
+        "output_tokens": 292926,
+        "maximum_calls": 750,
+        "maximum_estimated_usd": 0.5,
+        "billing_verified": false
+      },
+      "matches": {
+        "primary": {
+          "numerator": 98,
+          "denominator": 98,
+          "value": 1.0
+        },
+        "scope": {
+          "numerator": 98,
+          "denominator": 98,
+          "value": 1.0
+        },
+        "route": {
+          "numerator": 98,
+          "denominator": 98,
+          "value": 1.0
+        },
+        "domain": {
+          "numerator": 98,
+          "denominator": 98,
+          "value": 1.0
+        }
+      }
+    },
+    "targeted-final": {
+      "input_forms": 26,
+      "pending": 0,
+      "successful_packets": 26,
+      "explanation_status": {
+        "generated": 16,
+        "withheld": 10
+      },
+      "non_generated_reasons": {
+        "claim_support_failed": 5,
+        "no_supported_explanation": 1,
+        "citation_validation_failed": 4
+      },
+      "failure_codes": {},
+      "validation_failures": {
+        "source_qualification_missing": 3,
+        "invalid_output_contract": 1
+      },
+      "latency_ms": {
+        "p50": 11499.999999996362,
+        "p95": 20496.000000002823,
+        "maximum": 22312.999999994645
+      },
+      "usage": {
+        "day_utc": "2026-10-21",
+        "provider_requests": 767,
+        "estimated_usd": 0.54999675,
+        "input_tokens": 2295745,
+        "output_tokens": 326249,
+        "maximum_calls": 900,
+        "maximum_estimated_usd": 0.59,
+        "billing_verified": false
+      },
+      "matches": {
+        "primary": {
+          "numerator": 26,
+          "denominator": 26,
+          "value": 1.0
+        },
+        "scope": {
+          "numerator": 26,
+          "denominator": 26,
+          "value": 1.0
+        },
+        "route": {
+          "numerator": 26,
+          "denominator": 26,
+          "value": 1.0
+        },
+        "domain": {
+          "numerator": 26,
+          "denominator": 26,
+          "value": 1.0
+        }
+      }
+    },
+    "project-definition-final": {
+      "input_forms": 1,
+      "pending": 0,
+      "successful_packets": 1,
+      "explanation_status": {
+        "withheld": 1
+      },
+      "non_generated_reasons": {
+        "citation_validation_failed": 1
+      },
+      "failure_codes": {},
+      "validation_failures": {
+        "source_qualification_missing": 1
+      },
+      "latency_ms": {
+        "p50": 6516.00000000326,
+        "p95": 6516.00000000326,
+        "maximum": 6516.00000000326
+      },
+      "usage": {
+        "day_utc": "2026-10-21",
+        "provider_requests": 769,
+        "estimated_usd": 0.55137855,
+        "input_tokens": 2302817,
+        "output_tokens": 326784,
+        "maximum_calls": 900,
+        "maximum_estimated_usd": 0.59,
+        "billing_verified": false
+      },
+      "matches": {
+        "primary": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0
+        },
+        "scope": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0
+        },
+        "route": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0
+        },
+        "domain": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0
+        }
+      }
+    }
+  },
+  "checkpoint": {
+    "method": "Last observation per frozen question: final-replay, then targeted-final, then project-definition-final; never select the best response.",
+    "role": "Posthoc cached/live development regression checkpoint; not a fresh full-100 provider run or independent acceptance test.",
+    "unique_questions": 100,
+    "missing_observations": 0,
+    "last_live_status_counts": {
+      "generated": 73,
+      "withheld": 27
+    },
+    "last_live_withheld_reasons": {
+      "source_context_unavailable": 11,
+      "claim_support_failed": 5,
+      "related_authority_missing": 5,
+      "citation_validation_failed": 5,
+      "no_supported_explanation": 1
+    },
+    "current_local_generated_pass": 73,
+    "current_local_generated_fail": 0,
+    "label_and_route_matches": {
+      "primary_correct": 100,
+      "scope_correct": 100,
+      "route_correct": 100,
+      "domain_correct": 100
+    },
+    "posthoc_source_gap_case_ids": [
+      "AI100_006",
+      "AI100_007",
+      "AI100_008",
+      "AI100_009",
+      "AI100_010",
+      "AI100_026",
+      "AI100_027",
+      "AI100_028",
+      "AI100_029",
+      "AI100_030",
+      "AI100_041",
+      "AI100_042",
+      "AI100_043",
+      "AI100_044",
+      "AI100_045",
+      "AI100_094"
+    ],
+    "AI_reading_flags_are_not_exhaustive_or_independent": true,
+    "new_provider_calls": 0,
+    "legal_accuracy": null
+  },
+  "preservation": {
+    "records_byte_identical_to_previous_stack": true,
+    "frozen_cases_unchanged": true,
+    "learned_state": {
+      "atomic_weights": true,
+      "feature_vocabulary": true,
+      "calibration": true,
+      "thresholds": true,
+      "training_membership": true
+    }
+  },
+  "classifier_recheck": {
+    "classifier": "v1.5.44",
+    "cases": 100,
+    "correct": 100,
+    "failures": [],
+    "original_training_feature_rows": 459,
+    "changed_training_feature_rows": 0
+  },
+  "previous_436_AI_off_regression": {
+    "inputs": 436,
+    "primary": {
+      "numerator": 425,
+      "denominator": 425,
+      "value": 1.0
+    },
+    "scope": {
+      "numerator": 425,
+      "denominator": 425,
+      "value": 1.0
+    },
+    "primary_macro_f1": 1.0,
+    "scope_macro_f1": 1.0,
+    "route": {
+      "numerator": 432,
+      "denominator": 436,
+      "value": 0.9908256880733946
+    },
+    "hit_at_5": {
+      "numerator": 93,
+      "denominator": 93,
+      "value": 1.0
+    },
+    "unsupported_admission": {
+      "numerator": 0,
+      "denominator": 80,
+      "value": 0.0
+    },
+    "evidence_checks": {
+      "inputs": 436,
+      "live_permissions_closed": 436,
+      "unreviewed_explanation_withheld": 436,
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 1605,
+      "candidate_integrity_failures": 0,
+      "recorded_excerpt_claims": 432,
+      "recorded_excerpt_claims_passed": 432,
+      "recorded_excerpt_legal_support_claimed": 0
+    }
+  },
+  "software_tests": {
+    "backend_count": 238,
+    "backend_passed": true,
+    "classifier_build_tests": 69,
+    "retrieval_build_tests": 50,
+    "verifier_build_tests": 37,
+    "note": "Software tests and AI response accuracy are separate."
+  },
+  "runtime_health": {
+    "checked_at_utc": "2026-10-22T02:31:11.8083181Z",
+    "runtime_matches_current": true,
+    "runtime_signature": "1feb8ff00f1060cf2e9fb4aa0a631a48062a56daa3dbcb56e6b9a4d209789e01",
+    "development_explanations_enabled": true,
+    "answer_generation_allowed": false
+  },
+  "batch_cost_ledger_all_days": [
+    {
+      "day_utc": "2026-10-21",
+      "requests_including_reservations": 769,
+      "estimated_usd": 0.55137855,
+      "input_tokens": 2302817,
+      "output_tokens": 326784
+    }
+  ],
+  "website_ledger_all_days_includes_earlier_work_not_task_cost": [
+    {
+      "day_utc": "2026-10-19",
+      "requests_including_reservations": 44,
+      "estimated_usd": 0.04175415,
+      "input_tokens": 95657,
+      "output_tokens": 14560
+    },
+    {
+      "day_utc": "2026-10-20",
+      "requests_including_reservations": 8,
+      "estimated_usd": 0.0042282,
+      "input_tokens": 18292,
+      "output_tokens": 2474
+    },
+    {
+      "day_utc": "2026-10-21",
+      "requests_including_reservations": 26,
+      "estimated_usd": 0.01858245,
+      "input_tokens": 76727,
+      "output_tokens": 11789
+    },
+    {
+      "day_utc": "2026-10-22",
+      "requests_including_reservations": 5,
+      "estimated_usd": 0.0023142,
+      "input_tokens": 9324,
+      "output_tokens": 1526
+    }
+  ],
+  "legal_accuracy_measured": false,
+  "independent_human_reviews": 0,
+  "formal_acceptance_completed": false,
+  "remaining_issues": [
+    "Same-model support judgments still accept incomplete or misattached conditions; engineered guards are not an entailment proof.",
+    "Some long or joined questions still produce repetitive components or adjacent-topic discussion.",
+    "Sixteen questions have a genuine source-coverage/held-authority gap; topic confidence cannot repair that gap.",
+    "AI responses can remain withheld after one bounded correction; the last project-contract recheck was withheld.",
+    "Latency remains variable, with roughly 11.5-second median and 20.5-second p95 on the 26 targeted checks.",
+    "No independent human-written/legally reviewed acceptance evaluation or current-law approval is claimed."
+  ],
+  "final_browser_check": {
+    "checked_at_utc": "2026-10-22T02:32:38.442Z",
+    "case_id": "AI100_074",
+    "question_text": "Nasa price tag ng appliance yung lower amount pero mas mataas ang singil sa checkout. Anong recorded consumer rule ang relevant?",
+    "AI_enabled": true,
+    "saving_enabled": false,
+    "explanation_generated": true,
+    "topic": "consumer",
+    "topic_confidence_percent": 88,
+    "topic_coverage_confidence_percent": 94,
+    "price_exception_ambiguity_removed": true,
+    "independent_legal_review": false,
+    "method": "One live browser regression after the final local guard; not a new 100-question provider run.",
+    "snapshot": "- link \"Skip to main content\":\n  - /url: \"#main\"\n- banner:\n  - link \"Recto & Co. Legal\":\n    - /url: /\n  - button \"Menu\":\n    - text: Menu\n- strong: Development preview.\n- text: Live classification, retrieval & AI explanations · source applicability remains under review.\n- main:\n  - status: Analysis ready. Open references to inspect any retrieved provisions.\n  - heading \"Ask about your rights\" [level=1]\n  - button \"Sources (2)\":\n    - text: Sources (2)\n  - button \"New question\":\n  - region \"Conversation\":\n    - article \"Response 1\":\n      - generic: Question 1\n      - heading \"Nasa price tag ng appliance yung lower amount pero mas mataas ang singil sa checkout. Anong recorded consumer rule ang relevant?\" [level=2]\n      - region \"AI explanation\":\n        - heading \"AI explanation\" [level=3]\n        - paragraph: Citations and automated source support checked. Legal interpretation and current applicability have not been independently reviewed.\n        - paragraph:\n          - generic: Where a consumer product is displayed with a price tag, it is unlawful to charge a higher amount at checkout; the sale price must not exceed the price shown on the tag or label, and price tags may not be altered or erased.\n          - text: Where a consumer product is displayed with a price tag, it is unlawful to charge a higher amount at checkout; the sale price must not exceed the price shown on the tag or label, and price tags may not be altered or erased.\n        - generic \"Sources for paragraph 1\":\n          - button \"Republic Act No. 7394, ART. 81\"\n          - button \"Republic Act No. 7394, ART. 83\"\n      - generic \"Where to ask for assistance\"\n      - generic \"How this question was checked\" [active]\n      - term: Topic\n      - definition: Consumer · 88.0% label confidence\n      - term: Topic coverage\n      - definition: Within project topics · 94.0% label confidence\n      - term: Wording check\n      - definition: bypassed · 0 LLM calls\n      - term: Explanation\n      - definition: citations and automated support checked · 3 LLM calls\n      - term: Response shown\n      - definition: Checked AI explanation\n      - term: Draft correction\n      - definition: One correction attempted\n      - term: Support check\n      - definition: Automated check passed; independent legal review pending\n      - term: Analysis time\n      - definition: 10028 ms\n      - paragraph:\n        - text: Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label.\n        - link \"View recorded evaluation metrics\":\n          - /url: /performance\n        - text: .\n      - paragraph: Retrieved candidates\n      - button \"1 Republic Act No. 7394, ART. 83\":\n        - generic: \"1\"\n        - text: Republic Act No. 7394, ART. 83\n      - button \"2 Republic Act No. 7394, ART. 81\":\n        - generic: \"2\"\n        - text: Republic Act No. 7394, ART. 81\n  - generic: Try another question\n  - textbox \"Try another question\":\n    - /placeholder: Ask about a labor or consumer concern…\n  - button \"Ask\" [disabled]:\n  - generic \"AI & saving · AI on · Saving off\"\n  - paragraph:\n    - text: Use fictional details. Each question is checked independently; include the complete concern and any requested facts.\n    - link \"Scope & privacy\":\n      - /url: /about",
+    "llm_calls": 3,
+    "analysis_time_ms": 10028,
+    "one_correction_attempted": true
+  }
+}

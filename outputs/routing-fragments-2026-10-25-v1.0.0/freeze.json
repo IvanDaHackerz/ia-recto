@@ -1,0 +1,9 @@
+{
+  "cases_sha256": "64a6e0bac7cd642ef2eae3e10518802f1cc1d3ee4a3f1cb7b6e77575b01615c3",
+  "diagnostic_replays": 40,
+  "reserved_wording": 32,
+  "AI_authored": true,
+  "independent_human_gold": false,
+  "expected_labels_and_component_counts_frozen_before_inference": true,
+  "scope": "Routing and segmentation only; no legal accuracy or provider calls."
+}

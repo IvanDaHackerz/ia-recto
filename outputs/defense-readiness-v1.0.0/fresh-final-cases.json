@@ -1,0 +1,75 @@
+[
+  {
+    "case_id": "CHK_001",
+    "question_text": "Private company worker ako with unpaid overtime. A grocery also kept my change. Separately, my insurer denied a car claim.",
+    "expected_primary": "mixed",
+    "expected_scope": "partially_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "consumer",
+      "labor"
+    ],
+    "split": "fresh_final",
+    "authorship": "AI-generated fictional development check"
+  },
+  {
+    "case_id": "CHK_002",
+    "question_text": "My private employer uses bank transfer for my delayed wages. I also need to dispute a separate bank account fee.",
+    "expected_primary": "mixed",
+    "expected_scope": "partially_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "labor"
+    ],
+    "split": "fresh_final",
+    "authorship": "AI-generated fictional development check"
+  },
+  {
+    "case_id": "CHK_003",
+    "question_text": "Private employee ako. Late ang sahod namin. Bank transfer lang yung payment method, hindi bank fees ang reklamo ko.",
+    "expected_primary": "labor",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "labor"
+    ],
+    "split": "fresh_final",
+    "authorship": "AI-generated fictional development check"
+  },
+  {
+    "case_id": "CHK_004",
+    "question_text": "The merchant separately refused to accept the return of the wrong online purchase. What recorded return rule applies?",
+    "expected_primary": "consumer",
+    "expected_scope": "fully_supported",
+    "expected_route": "retrieve_supported_evidence",
+    "expected_domains": [
+      "consumer"
+    ],
+    "split": "fresh_final",
+    "authorship": "AI-generated fictional development check"
+  },
+  {
+    "case_id": "CHK_005",
+    "question_text": "I need help with unpaid wages from a private company. Separately, can you tell me tomorrow's weather?",
+    "expected_primary": "mixed",
+    "expected_scope": "partially_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "labor"
+    ],
+    "split": "fresh_final",
+    "authorship": "AI-generated fictional development check"
+  },
+  {
+    "case_id": "CHK_006",
+    "question_text": "A retailer sold me a phone with a defective screen. My employer is a government hospital, and I also need help with my unpaid overtime.",
+    "expected_primary": "mixed",
+    "expected_scope": "partially_supported",
+    "expected_route": "retrieve_supported_components",
+    "expected_domains": [
+      "consumer"
+    ],
+    "split": "fresh_final",
+    "authorship": "AI-generated fictional development check"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "REPORT.md": "0d343e4ed0f410fb92a0a0d5e35026a562c574280035570cda4633030f610b6a",
+  "case-manifest.json": "f8ce73ad95fd57fe54ed9680ea38f10abbd3742abb9be34fbef9ca465414b1b1",
+  "application-search-final.json": "89634debcf40882a267673b045d7bbce11c4929b5d2e42694c6c820353d1998f",
+  "application-search-final.summary.json": "70fb353d852fa15792f35bf8eb057ddeeb78cd2b28adde02797a317d194e8c74",
+  "legacy-summary.json": "f5aad488a137f7d882a8aae0c14c8b2f9686499a530284bd05879dc3c2893fc8",
+  "raw-packaged-v36.json": "cf995d7b22f1934cc3f087e571ea191aa76bc8a8cb452a4048f50856ee82f034",
+  "variants-packaged-v36.json": "5baa39123e0ba06c76e167ea11c41d037e9f7b602b5ed719c42b2fc3aab2b0d0",
+  "browser-results.json": "04ed739b1d1c8c20e8ae49708f279253bf0ee5218398d9d66337013a97ba81d6",
+  "browser-summary.json": "249f0237063fc0c2fcff4e1c15d1b8e56a083fe1e36289768c76c6617e34584a",
+  "browser-passage-checks.json": "3c8050442081650e846e1252842f0df39f886a8ac332672df1d0fd06e757bc38",
+  "backend-tests-noise-final.log": "dca3c2a2e66e67532ce4b6888a772e109cfc45aaaf01dd14be8907bbfda0c266",
+  "contrastive-tests-noise-final.log": "ab28974ff0ced2f664fbb9789389bef31fcf19374d95bbea10f66f55de504cb9",
+  "typing-tests-reviewed.log": "7ae741dfaa1742087c30deb1db19fc58f31f009f3efa0fd02f61b70df46832c9",
+  "runtime-health.json": "25e27b09e8b41862aef820454fa1a29a977b204311eb05f9262c29cc96054f6c",
+  "remaining-source-limits.json": "267533d8938a13ac1d98d8630225529aa8e60a49b9f9470f1c791825556a137e",
+  "followup-training-audit.json": "192a4dafceebf19d70cd0d82b0378ee6158cc33bceb7852e917f564fd1145728",
+  "browser-classifier-proof.jpg": "827746a7dc872526d8941370d574064a77f3ae6fb3d3b0292e23450a66b7dda3",
+  "browser-noisy-question-proof.jpg": "20c69cd1acc84a0fe0bf221597620421855b0291e97d0a9c6d1f76ed4a913764"
+}

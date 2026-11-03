@@ -1,0 +1,7 @@
+{
+  "targeted_recheck_ids": [
+    "EX_NEW_014"
+  ],
+  "selection_posthoc": true,
+  "reason": "Check that local-rejection corrections receive the actual rejected paragraph and remove the specific unsupported price-ceiling exception. Earlier failed drafts remain preserved."
+}

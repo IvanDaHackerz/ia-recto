@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item11\benchmark_retrieval.py", line 68, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\IA\dataset\pipelines\item11\benchmark_retrieval.py", line 33, in main
+    if (out/'benchmark_metrics.json').exists():raise ValueError('Benchmark results already recorded; do not overwrite')
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Benchmark results already recorded; do not overwrite

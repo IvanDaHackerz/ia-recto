@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-10-26T07:16:14.468551+00:00",
+  "cases_sha256": "928e9d9937bebbbd1ab7ebb0097dbc6e5bd8df8920e6de9c4a4b78eb33e053d3",
+  "input_forms": 100,
+  "groups": {
+    "L": 30,
+    "C": 30,
+    "M": 10,
+    "P_L": 6,
+    "P_C": 6,
+    "P_B": 3,
+    "O": 15
+  },
+  "display_groups": {
+    "labor": 30,
+    "consumer": 30,
+    "mixed": 25,
+    "out_of_scope": 15
+  },
+  "parent_files": {
+    "outputs/fresh-ai-100-2026-10-25-v1.0.0/live-cases.json": "70bfdead47a4f3ee3afa6834d24e9691befe8847dece4ac08adc2a80b9e9a7b2",
+    "outputs/explanation-usability-2026-10-25-v1.0.0/live-cases.json": "be0c1565aaec1807e722db935bbe7c23dfcdddfb2754552995cb72b33b82939f"
+  },
+  "replacements": {
+    "PH5_005": "EX_NEW_005",
+    "PH5_017": "EX_NEW_008",
+    "PH5_020": "EX_NEW_006",
+    "PH5_033": "EX_NEW_012",
+    "PH5_034": "EX_NEW_011",
+    "PH5_038": "EX_NEW_019",
+    "PH5_061": "EX_NEW_021",
+    "PH5_076": "EX_NEW_024"
+  },
+  "provenance": "All 100 are reused fictional AI-authored inputs; 92 from the prior 100-question packet and eight from the explanation study.",
+  "new_question_texts": 0,
+  "independent_human_questions": 0,
+  "sampling": "Purposive scope coverage and repair regressions; not a random population sample.",
+  "expectations_frozen_before_this_run": true,
+  "legal_accuracy_measured": false,
+  "external_destination": "Together.ai using the existing configured provider; fictional questions and eligible public recorded source passages only."
+}

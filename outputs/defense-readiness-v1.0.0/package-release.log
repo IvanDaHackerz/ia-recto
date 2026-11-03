@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\IA\outputs\defense-readiness-v1.0.0\package_release.py", line 61, in <module>
+    run(['dataset/pipelines/item10/build_preintegration.py','--parent','outputs/item10-classifier-v1.5.47','--output',CLASSIFIER],'classifier-release-build.log')
+  File "C:\IA\outputs\defense-readiness-v1.0.0\package_release.py", line 22, in run
+    if result.returncode:raise RuntimeError('Inspect '+name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Inspect classifier-release-build.log

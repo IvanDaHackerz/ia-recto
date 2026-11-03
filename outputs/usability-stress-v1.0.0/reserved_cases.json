@@ -1,0 +1,316 @@
+[
+  {
+    "id": "RES001",
+    "q": "I am employed at a private dental clinic. Our salaries have been unpaid for two months.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES002",
+    "q": "Nagtatrabaho sa private bodega. Pinapa-duty kami kahit naka day off, walang dagdag bayad.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES003",
+    "q": "The private store makes us attend an unpaid half-hour meeting before every shift.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES004",
+    "q": "An employee at a private lending firm wants basic overtime-pay information about her job.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES005",
+    "q": "My private employer says cashiers must reimburse every customer shortage from their wages.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES006",
+    "q": "Our private employer calls every regular monthly payment an advance and keeps deducting it later.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES007",
+    "q": "The private restaurant owner fired me in a text message without explaining a cause.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES008",
+    "q": "Private shop staff kami, paano magtanong sa DOLE tungkol sa delayed salary?",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES009",
+    "q": "My private employer says my six-month contract prevents me from ever becoming regular.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES010",
+    "q": "The employer withheld my earned salary after I resigned from my private job.",
+    "flow": "local_sources",
+    "primary": "labor",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES011",
+    "q": "A retail store sold me a rechargeable light that won't hold a charge.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES012",
+    "q": "Bumili ako ng bagong plantsa sa appliance store, pero di umiinit. Anong consumer concern ito?",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES013",
+    "q": "The laundry service mixed bleach into my colored clothes and ruined them.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES014",
+    "q": "The store manager says the printed warranty does not apply to discounted appliances.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES015",
+    "q": "An online retailer delivered a cheap substitute for the branded item on my receipt.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES016",
+    "q": "My supermarket receipt is higher than the price clearly printed on the shelf.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES017",
+    "q": "I paid a bicycle repair shop to fix a brake but it returned the bicycle without doing the repair.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES018",
+    "q": "A toy from a retailer overheats and the casing becomes dangerously hot.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES019",
+    "q": "The retailer advertised a new mattress but delivered a used one with stains.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES020",
+    "q": "A business seller on an online marketplace refuses to deliver my paid desk order.",
+    "flow": "local_sources",
+    "primary": "consumer",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES021",
+    "q": "Private employer owes salary. Also, the appliance retailer refuses my warranty repair.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES022",
+    "q": "My private office requires unpaid overtime, and a shop charged more than the price tag.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES023",
+    "q": "The private factory gave me no rest day; a laundry shop also lost my shirts.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES024",
+    "q": "The employer won't release my COE from my private job. The online retailer delivered a damaged chair.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "fully_supported"
+  },
+  {
+    "id": "RES025",
+    "q": "Private employer has not paid my salary. I also need help disputing a credit-card fee with my bank.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "RES026",
+    "q": "The private store dismissed me without notice. What are my chances of winning the pending NLRC case?",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "RES027",
+    "q": "The retailer sold me a broken appliance. My broadband provider also refuses to cancel my internet plan.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "RES028",
+    "q": "The shop will not honor my warranty. Separately, my insurer has rejected my policy claim.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "RES029",
+    "q": "The repair shop ruined my chair, and my landlord will not return my rental deposit.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "RES030",
+    "q": "The store charged more than the shelf price and the airline lost my checked bag.",
+    "flow": "local_sources",
+    "primary": "mixed",
+    "scope": "partially_supported"
+  },
+  {
+    "id": "RES031",
+    "q": "Domestic helper ako sa bahay ng employer at hindi binabayaran nang tama.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES032",
+    "q": "Government nurse ako sa public hospital at may problema sa salary.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES033",
+    "q": "My overseas employer in Bahrain refuses to give me my final wages.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES034",
+    "q": "The union wants advice on challenging a collective bargaining representation election.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES035",
+    "q": "How much compensation does a seafarer get for permanent disability?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES036",
+    "q": "My investment broker will not transfer the proceeds of my securities sale.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES037",
+    "q": "The phone company renewed my mobile data plan without permission.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES038",
+    "q": "An online seller published my ID and address to shame me publicly.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES039",
+    "q": "Please calculate my GSIS retirement pension.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES040",
+    "q": "What is the exact minimum-wage rate in my city today?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES041",
+    "q": "My landlord added fees to the apartment rent. What can I do?",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES042",
+    "q": "Someone stole my bag while I was heading to collect my salary.",
+    "flow": "referral",
+    "primary": "out_of_scope",
+    "scope": "unsupported"
+  },
+  {
+    "id": "RES043",
+    "q": "Ayaw niya ako bayaran pero di ko alam anong details kailangan.",
+    "flow": "clarify"
+  },
+  {
+    "id": "RES044",
+    "q": "The contract is unfair. Help me understand it.",
+    "flow": "clarify"
+  },
+  {
+    "id": "RES045",
+    "q": "They refused my request again yesterday.",
+    "flow": "clarify"
+  },
+  {
+    "id": "RES046",
+    "q": "May tanong lang tungkol sa service, pwede ba?",
+    "flow": "clarify"
+  }
+]

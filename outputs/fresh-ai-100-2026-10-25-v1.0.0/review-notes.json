@@ -1,0 +1,130 @@
+{
+  "reviewer": "Codex AI engineering/source-agreement inspection; not independent legal review",
+  "first_pass_findings": [
+    {
+      "cases": [
+        "PH5_013",
+        "PH5_014",
+        "PH5_019",
+        "PH5_022",
+        "PH5_025",
+        "PH5_067"
+      ],
+      "finding": "Clear private-employment contexts or general rule requests misclassified or unnecessarily clarified."
+    },
+    {
+      "cases": [
+        "PH5_063",
+        "PH5_068",
+        "PH5_070"
+      ],
+      "finding": "Unrelated was incorrectly treated as permission to discard a separate current concern."
+    },
+    {
+      "cases": [
+        "PH5_072",
+        "PH5_074",
+        "PH5_076",
+        "PH5_079",
+        "PH5_084",
+        "PH5_085",
+        "PH5_087",
+        "PH5_096",
+        "PH5_097",
+        "PH5_100"
+      ],
+      "finding": "Boundary, comma enumeration, actor propagation or exclusion-recognition errors."
+    },
+    {
+      "cases": [
+        "PH5_044",
+        "PH5_046",
+        "PH5_057"
+      ],
+      "finding": "Ordinary English words badly, pot and printer were incorrectly rewritten by local phonetic/boundary features."
+    },
+    {
+      "cases": [
+        "PH5_005",
+        "PH5_010",
+        "PH5_042",
+        "PH5_044",
+        "PH5_045",
+        "PH5_050"
+      ],
+      "finding": "Anaphoric requests or coordinate subjects created duplicate, irrelevant or false unanswered components."
+    },
+    {
+      "cases": [
+        "PH5_008",
+        "PH5_021",
+        "PH5_069",
+        "PH5_078"
+      ],
+      "finding": "Retrieval intent mismatch for noisy deductions, closure and refurbished-as-new sales."
+    },
+    {
+      "cases": [
+        "PH5_018",
+        "PH5_031",
+        "PH5_038",
+        "PH5_039",
+        "PH5_052",
+        "PH5_064",
+        "PH5_080",
+        "PH5_082"
+      ],
+      "finding": "Source agreement or issue coverage needs more than exact citations and same-model acceptance: narrowed status answer, actor/return conditions, overbroad findings, and missing defense qualification."
+    }
+  ],
+  "second_pass_followup_findings": [
+    {
+      "cases": [
+        "PH5_010"
+      ],
+      "finding": "Source requires payroll records; explanation additionally said the same entries must appear on an individual payslip."
+    },
+    {
+      "cases": [
+        "PH5_021"
+      ],
+      "finding": "Anti-circumvention condition attached to advance notice rather than permission to close."
+    },
+    {
+      "cases": [
+        "PH5_034",
+        "PH5_047",
+        "PH5_048",
+        "PH5_049",
+        "PH5_051"
+      ],
+      "finding": "Remaining same-scenario grouping or requested-focus mismatch; some topics genuinely lack indexed authority."
+    },
+    {
+      "cases": [
+        "PH5_052"
+      ],
+      "finding": "Third-party defense omitted; initial deterministic check depended on an exact source phrase and missed the recorded wording variant."
+    },
+    {
+      "cases": [
+        "IR_16_en_tl__clear",
+        "IR_16_en_tl__noisy"
+      ],
+      "finding": "Broad paid-service focus excluded the specific replacement-parts authority; exposed by the 436-input regression, not counted among fresh 100."
+    }
+  ],
+  "source_gaps_retained": [
+    "Night-pay authority is not present in the selected index",
+    "Held compensable-time and meal-period passages",
+    "Final-pay/COE deadlines",
+    "Related thirteenth-month authority",
+    "Manufacturer/importer labeling requirements"
+  ],
+  "final_closure_followup": {
+    "case_id": "PH5_021",
+    "finding": "The 17-case check omitted the serious-business-losses condition when mentioning closure separation pay.",
+    "repair": "Added a fail-closed source-qualification guard and an explicit drafting focus.",
+    "verification": "closure-check returned a qualified explanation preserving serious business losses/financial reverses and the advance notice; original observations remain saved."
+  }
+}

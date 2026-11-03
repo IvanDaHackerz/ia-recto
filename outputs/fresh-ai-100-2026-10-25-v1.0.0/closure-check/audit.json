@@ -1,0 +1,31 @@
+{
+  "inputs": 1,
+  "integrity": {
+    "candidate_checks": 1,
+    "candidate_failures": 0,
+    "claim_checks": 1,
+    "claim_gate_failures": 0,
+    "citation_checks": 3,
+    "citation_failures": 0
+  },
+  "routing_issue_ids": [],
+  "normalization_status": {
+    "bypassed": 1
+  },
+  "normalization_failures": {},
+  "role": "AI-authored synthetic development diagnostic",
+  "independent_human_questions": 0,
+  "legal_accuracy": null,
+  "frozen_files_intact": true,
+  "groups": {
+    "L": {
+      "n": 1,
+      "topic_correct": 1,
+      "scope_correct": 1,
+      "route_correct": 1,
+      "AI_status": {
+        "generated": 1
+      }
+    }
+  }
+}

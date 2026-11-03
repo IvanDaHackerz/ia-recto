@@ -1,0 +1,18 @@
+{
+  "claims": 6,
+  "blocked": 3,
+  "reasons": [
+    [
+      "RD31_014",
+      "source_held_for_interpretation_review"
+    ],
+    [
+      "RD31_038",
+      "quantity_rule_compares_stated_container_label_or_ad_content_not_an_invented_receipt_trigger"
+    ],
+    [
+      "RD31_050",
+      "listed_product_damage_actors_do_not_establish_exclusive_seller_liability_for_deception"
+    ]
+  ]
+}

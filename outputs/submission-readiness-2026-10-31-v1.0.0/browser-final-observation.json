@@ -1,0 +1,7 @@
+{
+  "questionId": "RD31_002",
+  "use_ai": true,
+  "save_history": false,
+  "source": "Final runtime browser smoke, reused development question",
+  "state": "Browser tab: 1, Title: \"Recto & Co. Legal\", URL: \"http://127.0.0.1:5173/\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 76 button (expanded) How this question was checked, Secondary Actions: Collapse"
+}

@@ -30,6 +30,7 @@ export type ChatResult = {
   result: { question_text: string; routing: Routing; decision: string; as_of: string;
     excluded_components: { text: string }[]; referral_ids: string[]; components: Concern[] } | null;
   explanation: { status: string; reason: string; llm_calls: number; mode?: string; citations_checked?: boolean; automated_support_checked?: boolean; legal_support_verified?: boolean; failure_code?: string; validation_failure?: string; revision_attempted?: boolean;
+    coverage_complete?: boolean; unanswered_components?: { component_id: string; query: string; reason: string }[];
     claims: { claim_id: string; component_id?: string; text: string; citations: { chunk_id: string; citation_display: string; citation_label?: string; quote: string; start?: number; end?: number }[] }[] };
 };
 export type ChatOptions = { request_id: string; use_ai: boolean; save_history: boolean; conversation_id?: string };
@@ -38,6 +39,18 @@ export type SavedConversation = { schema_version: string; conversation: { id: st
 export type LiveReference = { hit: Candidate; concern: Concern };
 export function referencesFor(packet?: ChatResult): LiveReference[] {
   return packet?.result?.components.flatMap(concern => concern.candidates.map(hit => ({ hit, concern }))) ?? [];
+}
+
+export function initialReferenceIndex(packet?: ChatResult): number | null {
+  const references = referencesFor(packet);
+  if (!references.length) return null;
+  const explanation = packet?.explanation;
+  const checked = explanation && (["generated", "partially_generated"].includes(explanation.status) && explanation.citations_checked && explanation.automated_support_checked
+    || explanation.status === "verified" && explanation.legal_support_verified);
+  if (!checked) return 0;
+  const index = references.findIndex(reference => explanation.claims.some(claim => (!claim.component_id || claim.component_id === reference.concern.component_id)
+    && claim.citations.some(citation => citation.chunk_id === reference.hit.chunk_id)));
+  return index < 0 ? 0 : index;
 }
 
 export async function apiRequest<T>(path: string, options: { method?: string; signal?: AbortSignal; body?: unknown; keepalive?: boolean } = {}): Promise<T> {

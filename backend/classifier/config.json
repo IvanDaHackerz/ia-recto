@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "role": "offline_development_classifier",
-  "classifier": "outputs/item10-classifier-v1.5.23",
-  "model_version": "item10-classifier-v1.5.23",
-  "artifact_checksums_sha256": "a106d9e61a62c638a43b0229b158aad6932f66b9c6eb9fd52ba233f69b7ae7a9",
+  "classifier": "outputs/item10-classifier-v1.5.72",
+  "model_version": "item10-classifier-v1.5.72",
+  "artifact_checksums_sha256": "05c328ca2039fccc6b29961dfbf6cedd6060f94a6d0845dba5786bc22946e65d",
   "thresholds": {
     "primary": 0.8,
     "scope": 0.85

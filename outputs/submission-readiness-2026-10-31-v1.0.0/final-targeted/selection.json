@@ -1,0 +1,19 @@
+{
+  "targeted_recheck_ids": [
+    "RD31_002",
+    "RD31_014",
+    "RD31_038",
+    "RD31_050",
+    "RD31_057",
+    "RD31_058",
+    "RD31_068",
+    "RD31_074"
+  ],
+  "selection_role": "Posthoc targeted live check of the final context and source-qualification repairs, after the complete 100-question replay",
+  "full_intermediate_AI_run": "repaired",
+  "independent_human_questions": 0,
+  "shared_provider_attempts_before_final_check": 373,
+  "maximum_cumulative_provider_attempts": 400,
+  "estimated_total_cost_cap_usd": 0.5,
+  "unselected_repairs_tested_locally": "36 regression tests with negative and positive controls; all 100 local questions and the historical suite also replayed against the final stack"
+}

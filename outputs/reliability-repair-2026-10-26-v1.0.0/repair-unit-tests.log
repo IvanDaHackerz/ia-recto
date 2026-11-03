@@ -1,0 +1,19 @@
+..E...........
+======================================================================
+ERROR: test_new_source_view_keeps_scan_and_suspect_modifier_holds (backend.application.test_reliability_repair.FragmentAndRelevanceTests.test_new_source_view_keeps_scan_and_suspect_modifier_holds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_reliability_repair.py", line 122, in test_new_source_view_keeps_scan_and_suspect_modifier_holds
+    source=sources();records,_=curate(source)
+           ^^^^^^^^^
+  File "C:\IA\dataset\pipelines\item11\common.py", line 33, in sources
+    apply_supplements(ROOT,documents,provisions,chunks,canonical,legal,registry)
+  File "C:\IA\dataset\pipelines\item11\supplemental_sources.py", line 35, in apply_supplements
+    if existing & {r[key] for r in new_rows}:raise ValueError('Supplement may not replace an existing source')
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Supplement may not replace an existing source
+
+----------------------------------------------------------------------
+Ran 14 tests in 4.515s
+
+FAILED (errors=1)

@@ -1,0 +1,211 @@
+[
+  {
+    "case_id": "EX_NEW_014",
+    "question": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+    "group": "C",
+    "topic": "price_tag",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+      "normalized_question_text": null,
+      "effective_question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "withheld",
+      "reason": "citation_validation_failed",
+      "llm_calls": 2,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "usage": {
+        "prompt_tokens": 2365,
+        "completion_tokens": 218,
+        "total_tokens": 2583
+      },
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 2431,
+        "completion_tokens": 286,
+        "total_tokens": 2717
+      },
+      "validation_failure": "source_qualification_missing"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "the price label on the shelf was lower than the amount the cashier charged. they said the label had not been updated yet. which price rule should i understand",
+        "sources": [
+          "RA_7394_1992__art_81",
+          "RA_7394_1992__art_83"
+        ]
+      }
+    ],
+    "elapsed_ms": 5063.000000000102
+  },
+  {
+    "case_id": "PH5_029",
+    "question": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+    "group": "L",
+    "topic": "rest_work",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+      "normalized_question_text": null,
+      "effective_question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 3,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Kung pinapasok ka ng employer mo sa scheduled rest day na hindi regular holiday, dapat kang bayaran ng premium pay na hindi bababa sa 30% ng regular na sahod mo, maliban kung ikaw ay isa sa mga empleyadong exempted sa rule. Ibig sabihin, hindi sapat ang ordinary daily rate lang; kailangan may dagdag na 30% bilang premium.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+              "quote": "Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage.",
+              "start": 11,
+              "end": 385,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "revision_attempted": true,
+      "usage_validation_revision": {
+        "prompt_tokens": 5028,
+        "completion_tokens": 259,
+        "total_tokens": 5287
+      },
+      "usage_generation": {
+        "prompt_tokens": 4975,
+        "completion_tokens": 232,
+        "total_tokens": 5207
+      },
+      "usage_support": {
+        "prompt_tokens": 2033,
+        "completion_tokens": 667,
+        "total_tokens": 2700
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: pinapasok nila ako sa scheduled rest day. ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work",
+        "sources": [
+          "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_5",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6",
+          "LAB_CODE_2022__art_92"
+        ]
+      }
+    ],
+    "elapsed_ms": 9421.99999999957
+  }
+]

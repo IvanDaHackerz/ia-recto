@@ -1,0 +1,66 @@
+{
+  "version": "item12-verifier-v1.0.63",
+  "status": "offline_implementation_tested",
+  "as_of": "2026-10-17",
+  "classifier": "outputs/item10-classifier-v1.5.69",
+  "retrieval": "outputs/item11-retrieval-v1.3.56",
+  "source_snapshot_is_executable_in_original_project_layout_only": true,
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "fastembed": "0.9.0"
+  },
+  "tests": {
+    "item12": {
+      "tests_run": 37,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    },
+    "classifier_regression": {
+      "tests_run": 69,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    },
+    "retrieval_regression": {
+      "tests_run": 60,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": true
+    }
+  },
+  "development_cases": 52,
+  "development_cases_passed": 52,
+  "all_project_issues_closed": false,
+  "deployment_allowed": false,
+  "answer_generation_allowed": false,
+  "live_llm_calls": 0,
+  "legal_status_refreshed": false,
+  "independent_human_evaluation": false,
+  "parent_verifier": "outputs/item12-verifier-v1.0.62",
+  "audit_repairs": [
+    "Reject exponent-overflow JSON numbers.",
+    "Reject unknown modes and sources in the direct source gate.",
+    "Refresh the default date and recheck artifacts/review snapshot on every request.",
+    "Require expected surviving component identities in development metrics."
+  ],
+  "implementation_authorization": "Project owner explicitly requested: Ok build item 12. Earlier milestone hold superseded for offline development only.",
+  "runtime_source_sha256": {
+    "build_packet.py": "4fa68e824d7705ff45b2e21f5a285a41bb7d27e23f7e91d5fc824d6698f8dca4",
+    "contracts.py": "3bd46e2e82d9eeb9371a2d8f8c36145cad4faf836257f5d40b21e406c9f7ad1e",
+    "development_cases.py": "c34b90e5e1acd9e7dac458add099f067daccd5c61ad0efdc55bfdf5cf9357421",
+    "evaluate_verifier.py": "5182da7296922a86fb12203102ec9718ebb1dc8591527a9a76ff5bf7a7d02d79",
+    "policy.json": "36912fdc30812d1826488beb5a4f9ced1e47f564914f588e686507393bbbb2bd",
+    "README.md": "1ffa48c704fbd60a83c8d74870f15cb1101385a8667b4fe6b86f326e121ebdb0",
+    "rebind_implementation.py": "efbac5f6944fc4bd57c4ec42783bfd79a78d86d09999dde14274ce412e20d790",
+    "test_verifier.py": "a89bc9c145dca9442cb2fbd26707a8907d3d1a4ac0bdc5b0702bf4804b64045c",
+    "trusted_reviews.json": "7fe3f6364590737abcebbf53151860724baf0748b38c73365901ec96bac5757d",
+    "verification.py": "c569d30dfaebfb020f8691e46a1a7d68738338dd4be3f9a2d345abbd35b2cf0b"
+  }
+}

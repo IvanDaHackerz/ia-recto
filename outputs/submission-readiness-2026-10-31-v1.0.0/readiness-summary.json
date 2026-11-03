@@ -1,0 +1,631 @@
+{
+  "date": "2026-10-31T23:06:35.710901+08:00",
+  "stack": {
+    "classifier": "outputs/item10-classifier-v1.5.72",
+    "retrieval": "outputs/item11-retrieval-v1.3.59",
+    "verifier": "outputs/item12-verifier-v1.0.65"
+  },
+  "fresh_questions": 100,
+  "groups": {
+    "labor": 30,
+    "consumer": 30,
+    "mixed": 25,
+    "outside": 15
+  },
+  "first_pass": {
+    "run": "first-pass",
+    "denominator": 100,
+    "observed_rows": 100,
+    "counts": {
+      "packets": 99,
+      "primary_correct": 90,
+      "scope_correct": 91,
+      "route_correct": 77,
+      "domain_correct": 80,
+      "status_generated": 43,
+      "reason_citations_and_automated_support_checked": 43,
+      "judged_cases": 54,
+      "all_known_relevant_hit_at_5": 42,
+      "claims": 78,
+      "citations": 172,
+      "status_partially_generated": 16,
+      "reason_supported_parts_checked": 16,
+      "status_withheld": 40,
+      "reason_claim_support_failed": 3,
+      "reason_supported_concern_required": 31,
+      "reason_no_supported_explanation": 2,
+      "reason_provider_unavailable": 1,
+      "reason_citation_validation_failed": 3,
+      "request_errors": 1,
+      "outside_cases": 15,
+      "outside_candidates": 0,
+      "outside_claims": 0
+    },
+    "inclusive_scores": {
+      "primary": {
+        "correct": 90,
+        "denominator": 100,
+        "fraction": 0.9
+      },
+      "scope": {
+        "correct": 91,
+        "denominator": 100,
+        "fraction": 0.91
+      },
+      "route": {
+        "correct": 77,
+        "denominator": 100,
+        "fraction": 0.77
+      },
+      "domain": {
+        "correct": 80,
+        "denominator": 100,
+        "fraction": 0.8
+      }
+    },
+    "inclusive_macro_f1": {
+      "primary": 0.9143779188749541,
+      "scope": 0.9009828419123771
+    },
+    "citation_integrity_failures": [],
+    "independent_human_questions": 0,
+    "legal_answer_accuracy_measured": false,
+    "denominator_note": "Missing packets count as errors in every inclusive score. F1 uses the fixed expected classes, with request errors treated as missed labels."
+  },
+  "post_repair_replay": {
+    "run": "repaired",
+    "denominator": 100,
+    "observed_rows": 100,
+    "counts": {
+      "packets": 100,
+      "primary_correct": 100,
+      "scope_correct": 100,
+      "route_correct": 100,
+      "domain_correct": 100,
+      "status_generated": 52,
+      "reason_citations_and_automated_support_checked": 52,
+      "judged_cases": 54,
+      "all_known_relevant_hit_at_5": 54,
+      "claims": 88,
+      "citations": 191,
+      "status_partially_generated": 18,
+      "reason_supported_parts_checked": 18,
+      "status_withheld": 30,
+      "reason_claim_support_failed": 3,
+      "reason_no_supported_explanation": 2,
+      "reason_provider_unavailable": 3,
+      "reason_citation_validation_failed": 7,
+      "reason_supported_concern_required": 15,
+      "outside_cases": 15,
+      "outside_candidates": 0,
+      "outside_claims": 0
+    },
+    "inclusive_scores": {
+      "primary": {
+        "correct": 100,
+        "denominator": 100,
+        "fraction": 1.0
+      },
+      "scope": {
+        "correct": 100,
+        "denominator": 100,
+        "fraction": 1.0
+      },
+      "route": {
+        "correct": 100,
+        "denominator": 100,
+        "fraction": 1.0
+      },
+      "domain": {
+        "correct": 100,
+        "denominator": 100,
+        "fraction": 1.0
+      }
+    },
+    "inclusive_macro_f1": {
+      "primary": 1.0,
+      "scope": 1.0
+    },
+    "citation_integrity_failures": [],
+    "independent_human_questions": 0,
+    "legal_answer_accuracy_measured": false,
+    "denominator_note": "Missing packets count as errors in every inclusive score. F1 uses the fixed expected classes, with request errors treated as missed labels."
+  },
+  "historical_local_replay": {
+    "counts": {
+      "input_forms": 436,
+      "families": 171,
+      "independent_human_questions": 0
+    },
+    "scores": {
+      "inputs": 436,
+      "families": 171,
+      "primary": {
+        "accuracy": {
+          "numerator": 425,
+          "denominator": 425,
+          "value": 1.0
+        },
+        "macro_f1": 1.0,
+        "per_class": {
+          "labor": {
+            "support": 91,
+            "predicted_count": 91,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "consumer": {
+            "support": 86,
+            "predicted_count": 86,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "mixed": {
+            "support": 168,
+            "predicted_count": 168,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "out_of_scope": {
+            "support": 80,
+            "predicted_count": 80,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "confusion": {
+          "true_rows": [
+            "labor",
+            "consumer",
+            "mixed",
+            "out_of_scope"
+          ],
+          "predicted_columns": [
+            "labor",
+            "consumer",
+            "mixed",
+            "out_of_scope",
+            "__abstain__"
+          ],
+          "counts": [
+            [
+              91,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              86,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              168,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              80,
+              0
+            ]
+          ]
+        },
+        "abstentions": 0,
+        "confidence_calibration": {
+          "prediction_count": 425,
+          "ece": 0.12167864927232463,
+          "bins": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "count": 425,
+              "mean_label_confidence": 0.8783213507276754,
+              "observed_label_accuracy": 1.0
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            }
+          ],
+          "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+        }
+      },
+      "scope": {
+        "accuracy": {
+          "numerator": 425,
+          "denominator": 425,
+          "value": 1.0
+        },
+        "macro_f1": 1.0,
+        "per_class": {
+          "fully_supported": {
+            "support": 210,
+            "predicted_count": 210,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "partially_supported": {
+            "support": 135,
+            "predicted_count": 135,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "unsupported": {
+            "support": 80,
+            "predicted_count": 80,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        },
+        "confusion": {
+          "true_rows": [
+            "fully_supported",
+            "partially_supported",
+            "unsupported"
+          ],
+          "predicted_columns": [
+            "fully_supported",
+            "partially_supported",
+            "unsupported",
+            "__abstain__"
+          ],
+          "counts": [
+            [
+              210,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              135,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              80,
+              0
+            ]
+          ]
+        },
+        "abstentions": 0,
+        "confidence_calibration": {
+          "prediction_count": 425,
+          "ece": 0.08840652301279994,
+          "bins": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "count": 0,
+              "mean_label_confidence": null,
+              "observed_label_accuracy": null
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "count": 215,
+              "mean_label_confidence": 0.8782613977663691,
+              "observed_label_accuracy": 1.0
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "count": 210,
+              "mean_label_confidence": 0.9457191771418603,
+              "observed_label_accuracy": 1.0
+            }
+          ],
+          "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+        }
+      },
+      "partial_support_recall": 1.0,
+      "out_of_scope_recall": 1.0,
+      "route_match": {
+        "numerator": 432,
+        "denominator": 436,
+        "value": 0.9908256880733946
+      },
+      "domain_match": {
+        "numerator": 432,
+        "denominator": 436,
+        "value": 0.9908256880733946
+      },
+      "clarification_success": {
+        "numerator": 7,
+        "denominator": 11,
+        "value": 0.6363636363636364
+      },
+      "unsupported_admission": {
+        "numerator": 0,
+        "denominator": 80,
+        "value": 0.0
+      },
+      "known_relevant_hit_at_1": {
+        "numerator": 70,
+        "denominator": 93,
+        "value": 0.7526881720430108
+      },
+      "known_relevant_hit_at_5": {
+        "numerator": 93,
+        "denominator": 93,
+        "value": 1.0
+      },
+      "known_relevant_mrr_at_5": {
+        "numerator": 81.5,
+        "denominator": 93,
+        "value": 0.8763440860215054
+      },
+      "known_relevant_recall_at_5": {
+        "numerator": 89.0,
+        "denominator": 93,
+        "value": 0.956989247311828
+      },
+      "negative_candidate_leakage": {
+        "numerator": 2,
+        "denominator": 23,
+        "value": 0.08695652173913043
+      },
+      "latency_ms": {
+        "median": 243.92654999974184,
+        "p95": 393.85337499879824
+      },
+      "cases_with_issues": 6,
+      "issue_counts": {
+        "routing_mismatch": 4,
+        "supported_domain_coverage_mismatch": 4,
+        "negative_candidate_leak": 2
+      }
+    },
+    "evidence_checks": {
+      "inputs": 436,
+      "live_permissions_closed": 436,
+      "unreviewed_explanation_withheld": 436,
+      "cross_domain_candidate_leaks": 0,
+      "candidate_integrity_checks": 1397,
+      "candidate_integrity_failures": 0,
+      "recorded_excerpt_claims": 439,
+      "recorded_excerpt_claims_passed": 439,
+      "recorded_excerpt_legal_support_claimed": 0
+    }
+  },
+  "engineering_checked": true,
+  "independent_human_acceptance": false,
+  "legal_accuracy_measured": false,
+  "atomic_weights_thresholds_training_membership_unchanged": true,
+  "calibration_refit_original_training_only": true,
+  "submission_or_deployment_approval": false,
+  "complete_AI_100_replay_matches_final_runtime": false,
+  "final_targeted_AI_replay": {
+    "run": "final-targeted",
+    "denominator": 8,
+    "observed_rows": 8,
+    "counts": {
+      "packets": 8,
+      "primary_correct": 8,
+      "scope_correct": 8,
+      "route_correct": 8,
+      "domain_correct": 8,
+      "status_generated": 6,
+      "reason_citations_and_automated_support_checked": 6,
+      "judged_cases": 5,
+      "all_known_relevant_hit_at_5": 5,
+      "claims": 6,
+      "citations": 13,
+      "status_withheld": 2,
+      "reason_provider_unavailable": 1,
+      "reason_citation_validation_failed": 1
+    },
+    "inclusive_scores": {
+      "primary": {
+        "correct": 8,
+        "denominator": 8,
+        "fraction": 1.0
+      },
+      "scope": {
+        "correct": 8,
+        "denominator": 8,
+        "fraction": 1.0
+      },
+      "route": {
+        "correct": 8,
+        "denominator": 8,
+        "fraction": 1.0
+      },
+      "domain": {
+        "correct": 8,
+        "denominator": 8,
+        "fraction": 1.0
+      }
+    },
+    "inclusive_macro_f1": {
+      "primary": 1.0,
+      "scope": 1.0
+    },
+    "citation_integrity_failures": [],
+    "independent_human_questions": 0,
+    "legal_answer_accuracy_measured": false,
+    "denominator_note": "Missing packets count as errors in every inclusive score. F1 uses the fixed expected classes, with request errors treated as missed labels."
+  },
+  "last_AI_confirmation": {
+    "run": "final-confirmation",
+    "denominator": 3,
+    "observed_rows": 3,
+    "counts": {
+      "packets": 3,
+      "primary_correct": 3,
+      "scope_correct": 3,
+      "route_correct": 3,
+      "domain_correct": 3,
+      "status_generated": 2,
+      "reason_citations_and_automated_support_checked": 2,
+      "judged_cases": 2,
+      "all_known_relevant_hit_at_5": 2,
+      "claims": 2,
+      "citations": 5,
+      "status_withheld": 1,
+      "reason_citation_validation_failed": 1
+    },
+    "inclusive_scores": {
+      "primary": {
+        "correct": 3,
+        "denominator": 3,
+        "fraction": 1.0
+      },
+      "scope": {
+        "correct": 3,
+        "denominator": 3,
+        "fraction": 1.0
+      },
+      "route": {
+        "correct": 3,
+        "denominator": 3,
+        "fraction": 1.0
+      },
+      "domain": {
+        "correct": 3,
+        "denominator": 3,
+        "fraction": 1.0
+      }
+    },
+    "inclusive_macro_f1": {
+      "primary": 1.0,
+      "scope": 1.0
+    },
+    "citation_integrity_failures": [],
+    "independent_human_questions": 0,
+    "legal_answer_accuracy_measured": false,
+    "denominator_note": "Missing packets count as errors in every inclusive score. F1 uses the fixed expected classes, with request errors treated as missed labels."
+  },
+  "final_guard_regression_blocked_old_claims": 20,
+  "limitations": [
+    "Opened questions informed repairs; repeated results are development regression measurements.",
+    "Same-model support checks and exact citations are not independent legal review.",
+    "Held or incomplete sources remain held; bounded source availability can require a fallback.",
+    "Provider availability and latency can vary."
+  ]
+}

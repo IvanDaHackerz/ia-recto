@@ -2,6 +2,7 @@
 from __future__ import annotations
 import csv,hashlib,json,re
 from pathlib import Path
+from supplemental_sources import MANIFEST as SUPPLEMENT_MANIFEST, apply_supplements
 
 ROOT=Path(__file__).resolve().parents[3]
 PIPELINE=Path(__file__).parent
@@ -13,7 +14,8 @@ SOURCE_FILES=[
  'dataset/canonical_sources/manifests/legal_status_review.csv',
  'dataset/canonical_sources/manifests/legal_status_relationships.csv','dataset/authoritative_source_registry.csv',
  'project_legal_scope.md','dataset/pipelines/item10/scope_constraints.py',
- 'dataset/pipelines/item10/typing_repair.py','dataset/pipelines/item10/typing_vocabulary.py']
+ 'dataset/pipelines/item10/typing_repair.py','dataset/pipelines/item10/typing_vocabulary.py',
+ SUPPLEMENT_MANIFEST,'dataset/pipelines/item11/supplemental_sources.py']
 
 def readrows(path):return [json.loads(l) for l in Path(path).read_text(encoding='utf-8').splitlines() if l.strip()]
 def csvrows(path):
@@ -28,6 +30,7 @@ def sources():
     canonical={r['document_id']:r for r in csvrows(ROOT/SOURCE_FILES[6])}
     legal={r['document_id']:r for r in csvrows(ROOT/SOURCE_FILES[7])}
     registry={r['source_id']:r for r in csvrows(ROOT/SOURCE_FILES[9])}
+    apply_supplements(ROOT,documents,provisions,chunks,canonical,legal,registry)
     for rows,key in [(documents,'document_id'),(provisions,'provision_id'),(chunks,'chunk_id')]:
         if len({r[key] for r in rows})!=len(rows):raise ValueError('Duplicate '+key)
     if json.loads((ROOT/SOURCE_FILES[3]).read_text())['status']!='passed':raise ValueError('Item 7 validation is not passed')
@@ -61,7 +64,6 @@ SPECIALIZED_HEADERS=[
  ('compensation_safety',r'\b(?:occupational|workers?.compensation|disability|medical.and.dental|pension|retirement)\b'),
  ('specialized_consumer_products',r'\b(?:food|drugs?|cosmetics?|cigarettes?|hazardous.substances?|mislabeled.drugs)\b'),
  ('specialized_financial_services',r'\b(?:credit.plan|banking|insurance|investments?|securities)\b'),
- ('night_work_outside_initial_module',r'\bnight.shift.differential\b'),
  ('overseas_remittance',r'\bforeign.exchange.remittance\b'),
 ]
 
@@ -106,11 +108,21 @@ def eligibility(c,p,d,source):
 
 def curate(source):
     included=[];excluded=[]
+    # Section headings such as "Regular working hours" can omit the worker
+    # category specified by their enclosing Rule. Carry that Rule's exact
+    # coverage text as a restriction, never as newly approved answer evidence.
+    def rule_key(p):
+        h=p['hierarchy']
+        return (p['document_id'],tuple(h.get(k) for k in ['book','title','chapter','part','rule']))
+    coverage={}
+    for p in source['provisions'].values():
+        if p['hierarchy'].get('rule') and re.search(r'\bcoverage\b',p.get('heading') or '',re.I):
+            coverage.setdefault(rule_key(p),[]).append(p['normalized_text'])
     for c in source['chunks']:
         p=source['provisions'][c['provision_id']];d=source['documents'][c['document_id']];reasons=eligibility(c,p,d,source)
         if reasons:
             excluded.append({'chunk_id':c['chunk_id'],'provision_id':p['provision_id'],'document_id':d['document_id'],'item7_answer_eligible':c['answer_eligible'],'reasons':reasons});continue
-        conditions=[d['freshness_rule']]
+        conditions=[d['freshness_rule'],*coverage.get(rule_key(p),[])]
         relationships=[r for r in source['relationships'] if r['source_document_id']==d['document_id'] or r['target_document_id']==d['document_id']]
         included.append({**c,'heading':p['heading'],'source_locator':p['source_locator'],'former_locator_labels':p['former_locator_labels'],
             'parent_provision_id':p['parent_provision_id'],'parent_text':p['normalized_text'],'parent_heading':p['heading'],

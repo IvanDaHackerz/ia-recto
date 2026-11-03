@@ -1,0 +1,8 @@
+{
+  "path": "outputs/local-pipeline-evaluation-v1.6.13",
+  "files": {
+    "metrics.json": "6c00b7a76aee73e50e0ba39460be84554a5ba8c75ec839f2f4d540cb9cc13124",
+    "observations.jsonl": "a1c32c052cbac6266d7d276020d9497a755a249d0b07da96242a052457b8a0ee",
+    "protocol.json": "545635577e0bc1bdd896d7b86b0e9626b3ae282b61601865f96db68ed59f681b"
+  }
+}

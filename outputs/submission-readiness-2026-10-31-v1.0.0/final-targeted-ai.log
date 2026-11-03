@@ -1,0 +1,9 @@
+RD31_002 generated citations_and_automated_support_checked 12891 ms
+RD31_014 generated citations_and_automated_support_checked 19063 ms
+RD31_038 generated citations_and_automated_support_checked 16218 ms
+RD31_050 generated citations_and_automated_support_checked 18453 ms
+RD31_057 generated citations_and_automated_support_checked 10359 ms
+RD31_058 generated citations_and_automated_support_checked 23203 ms
+RD31_068 withheld provider_unavailable 32000 ms
+RD31_074 withheld citation_validation_failed 8704 ms
+Summary: {"input_forms": 8, "pending": 0, "errors": {}, "explanation_status": {"generated": 6, "withheld": 2}, "non_generated_reasons": {"provider_unavailable": 1, "citation_validation_failed": 1}, "failure_codes": {"provider_unavailable": 1}, "validation_failures": {"source_qualification_missing": 1}, "latency_ms": {"p50": 17335.500000001048, "p95": 28921.050000000465, "maximum": 32000.0}, "usage": {"day_utc": "2026-10-31", "provider_requests": 392, "estimated_usd": 0.4349721, "input_tokens": 1653168, "output_tokens": 256391, "maximum_calls": 400, "maximum_estimated_usd": 0.5, "billing_verified": false}}

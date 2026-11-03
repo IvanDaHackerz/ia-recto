@@ -1,0 +1,111 @@
+[
+  {
+    "contract_version": "1.0.0",
+    "chunking_version": "1.0.0",
+    "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+    "document_id": "LAB_IRR_1989",
+    "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+    "chunk_sequence": 1,
+    "chunk_method": "whole_provision",
+    "subdivision_label": null,
+    "context_prefix": "Omnibus Rules Implementing the Labor Code > BOOK THREE Conditions of Employment > RULE I Hours of Work > SECTION 9 - Premium and overtime pay for holiday and rest day work",
+    "display_text": "SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+    "retrieval_text": "Omnibus Rules Implementing the Labor Code > BOOK THREE Conditions of Employment > RULE I Hours of Work > SECTION 9 - Premium and overtime pay for holiday and rest day work\nSECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+    "normalized_char_start": 0,
+    "normalized_char_end": 1127,
+    "character_count": 1127,
+    "token_count": null,
+    "tokenizer_name": null,
+    "overlap_previous_tokens": 0,
+    "domains": [
+      "labor"
+    ],
+    "scope_status": "supported",
+    "supported_topics": [
+      "labor.holiday_premium_pay",
+      "labor.hours_of_work",
+      "labor.overtime_pay",
+      "labor.rest_days",
+      "labor.wages_payment"
+    ],
+    "excluded_topics": [],
+    "answer_eligible": true,
+    "answer_use_mode": "default_answer",
+    "legal_status": "in_force_as_amended_not_a_current_consolidation",
+    "status_family": "current_with_conditions",
+    "status_as_of": "2026-09-29",
+    "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+    "quality_flags": [
+      "table_structure_present"
+    ],
+    "heading": "Premium and overtime pay for holiday and rest day work",
+    "source_locator": {
+      "pdf_page_start": null,
+      "pdf_page_end": null,
+      "printed_page_start": null,
+      "printed_page_end": null,
+      "html_anchor": null,
+      "source_region": "main legal text",
+      "source_char_start": 136895,
+      "source_char_end": 138024
+    },
+    "former_locator_labels": [],
+    "parent_provision_id": null,
+    "parent_text": "SECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+    "parent_heading": "Premium and overtime pay for holiday and rest day work",
+    "document_title": "Omnibus Rules Implementing the Labor Code",
+    "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+    "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+    "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+    "source_id": "SCEL_LAWS",
+    "authority_level": "primary_official",
+    "source_verification_status": "verified_title_date_and_full_html",
+    "retrieval_use_policy": "active_provision_level_only",
+    "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+    "conditions": [
+      "Before using a provision, check the manifest relationships and later topic-specific orders.",
+      "SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof."
+    ],
+    "legal_relationships": [
+      {
+        "relationship_id": "LSR_008",
+        "source_document_id": "LAB_IRR_1989",
+        "target_document_id": "PD_442_1974",
+        "target_citation_if_external": "",
+        "relationship_type": "implements",
+        "scope": "General Labor Code implementing rules",
+        "effective_or_issue_date": "1989-05-27",
+        "status_as_of": "2026-09-29",
+        "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+        "confidence": "high",
+        "note": "Later subject-specific amendments control."
+      },
+      {
+        "relationship_id": "LSR_009",
+        "source_document_id": "DOLE_DO_147_15",
+        "target_document_id": "LAB_IRR_1989",
+        "target_citation_if_external": "",
+        "relationship_type": "amends",
+        "scope": "Book VI termination rules",
+        "effective_or_issue_date": "2015-09-07",
+        "status_as_of": "2026-09-29",
+        "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+        "confidence": "high",
+        "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+      }
+    ],
+    "extraction_method": "html_structural",
+    "ocr_used": false,
+    "review_status": "machine_validated",
+    "source_hierarchy": {
+      "book": "BOOK THREE Conditions of Employment",
+      "title": null,
+      "chapter": null,
+      "part": null,
+      "rule": "RULE I Hours of Work"
+    },
+    "index_text": "Omnibus Rules Implementing the Labor Code, SECTION 9\nPremium and overtime pay for holiday and rest day work\nPremium and overtime pay for holiday and rest day work\nOmnibus Rules Implementing the Labor Code\nSECTION 9. Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage. For work performed in excess of eight (8) hours on special holidays and rest days not falling on regular holidays, an employee shall be paid an additional compensation for the overtime work equivalent to his rate for the first eight hours on a special holiday or rest day plus at least thirty percent (30%) thereof.\n\n(b) Employees of public utility enterprises as well as those employed in non-profit institutions and organizations shall be entitled to the premium and overtime pay provided herein, unless they are specifically excluded from the coverage of this Rule as provided in Section 2 hereof.\n\n(c) The payment of additional compensation for work performed on regular holidays shall be governed by Rule IV, Book Three, of these Rules.",
+    "answer_generation_allowed": false,
+    "retrieval_candidate_only": true
+  }
+]

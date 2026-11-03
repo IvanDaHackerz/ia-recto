@@ -1,0 +1,77 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5173/#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Live classification, retrieval & AI explanations · source applicability remains under review.
+		8 container main
+			44 text Analysis ready. Open references to inspect any retrieved provisions.
+			9 container
+				10 heading Ask about your rights, Value: 1
+					11 text Ask about your rights
+				12 checkbox Sources, Value: 0
+				113 button New question
+			46 container Conversation
+				114 container Response 1
+					115 text Question 
+					116 text 1
+					117 heading Value: 2, Probationary ako sa government office. Saka lang nila sinabi ang standards. What civil-service procedure applies?
+						118 text Probationary ako sa government office. Saka lang nila sinabi ang standards. What civil-service procedure applies?
+					119 container Response
+						120 heading Where this concern fits, Value: 3
+							121 text Where this concern fits
+						122 text This concern falls outside this project’s selected private-sector labor and ordinary consumer topics. The classifier is identifying a scope limit; it is not deciding whether you have legal rights or a valid complaint.
+						123 text Any assistance contacts listed below are recorded directory entries. Check with the agency about whether it handles your concern.
+						124 container
+							125 text Local response . No live AI explanation was used.
+					126 button (collapsed) Where to ask for assistance, Secondary Actions: Expand
+						127 text Where to ask for assistance
+					128 container
+						129 button (expanded) How this question was checked, Secondary Actions: Collapse
+							130 text How this question was checked
+						131 definition list
+							132 container Topic
+								133 text Topic
+							134 container
+								135 text Out of scope  ·  86.9 % label confidence
+							136 container Topic coverage
+								137 text Topic coverage
+							138 container
+								139 text Outside project topics  ·  86.9 % label confidence
+							140 container Wording check
+								141 text Wording check
+							142 container
+								143 text Local only  ·  0  LLM calls
+							144 container Explanation
+								145 text Explanation
+							146 container
+								147 text local only  ·  0  LLM calls
+							148 container Response shown
+								149 text Response shown
+							150 text Local response
+							151 container Support check
+								152 text Support check
+							153 text Not run — no validated draft was ready
+							154 container Analysis time
+								155 text Analysis time
+							156 container
+								157 text 181  ms
+						158 text Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. 
+						159 link Description: View recorded evaluation metrics, Value: 127.0.0.1:5173/performance
+						160 text .
+			101 container
+				102 text Try another question
+				103 text entry area (settable) Try another question, ID: query
+				104 button (disabled) Ask
+				105 button (collapsed) AI & saving · Local only · Saving off, Secondary Actions: Expand
+					106 text AI & saving · 
+					107 text Local only
+					108 text  · 
+					109 text Saving off
+				110 container query-help
+					111 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. 
+					112 link Description: Scope & privacy, Value: 127.0.0.1:5173/about
+
+The focused UI element is 129 button (expanded) How this question was checked, Secondary Actions: Collapse

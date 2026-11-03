@@ -1,0 +1,84 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5173/#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Live classification, retrieval & AI explanations · source applicability remains under review.
+		8 container main
+			44 text Analysis ready. Open references to inspect any retrieved provisions.
+			9 container
+				10 heading Ask about your rights, Value: 1
+					11 text Ask about your rights
+				12 checkbox Sources (1), Value: 0
+				45 button New question
+			13 container Conversation
+				46 container Response 1
+					47 text Question 
+					48 text 1
+					49 heading Value: 2, Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?
+						50 text Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?
+					51 container Response
+						52 heading Recorded source passages, Value: 3
+							53 text Recorded source passages
+						54 text These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.
+						55 text AI is off for this question. This response uses local analysis and recorded sources.
+						56 container
+							57 button Republic Act No. 7394, ART. 50
+							58 text ART. 50. Prohibition Against Deceptive Sales Acts or Practices. - A deceptive act or practice by a seller or supplier in connection with a consumer transaction violates this Act whether it occurs before, during or after the transaction. An act or practice shall be deemed deceptive whenever the producer, manufacturer, supplier or seller, through concealment, false representation or fraudulent manipulation, induces a consumer to enter into a sales or lease transaction of any consumer product or service. Recorded excerpt. Open the reference for the complete provision and its exceptions.  Current applicability remains under review.
+						59 container
+							60 text Local response  with recorded source text . No live AI explanation was used.
+					61 button (collapsed) Where to ask for assistance, Secondary Actions: Expand
+						62 text Where to ask for assistance
+					69 container
+						70 button (expanded) How this question was checked, Secondary Actions: Collapse
+							71 text How this question was checked
+						72 definition list
+							73 container Topic
+								74 text Topic
+							75 container
+								76 text Consumer  ·  86.9 % label confidence
+							77 container Topic coverage
+								78 text Topic coverage
+							79 container
+								80 text Within project topics  ·  93.4 % label confidence
+							81 container Wording check
+								82 text Wording check
+							83 container
+								84 text Local only  ·  0  LLM calls
+							85 container Explanation
+								86 text Explanation
+							87 container
+								88 text local only  ·  0  LLM calls
+							89 container Response shown
+								90 text Response shown
+							91 text Local response with source excerpts
+							92 container Support check
+								93 text Support check
+							94 text Not run — no validated draft was ready
+							95 container Analysis time
+								96 text Analysis time
+							97 container
+								98 text 173  ms
+						99 text Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. 
+						100 link Description: View recorded evaluation metrics, Value: 127.0.0.1:5173/performance
+						101 text .
+					65 text Retrieved candidates
+					66 button 1 Republic Act No. 7394, ART. 50
+						67 text 1
+						68 text Republic Act No. 7394, ART. 50
+			32 container
+				33 text Try another question
+				34 text entry area (settable) Try another question, ID: query
+				35 button (disabled) Ask
+				36 button (collapsed) AI & saving · Local only · Saving off, Secondary Actions: Expand
+					37 text AI & saving · 
+					38 text Local only
+					39 text  · 
+					40 text Saving off
+				41 container query-help
+					42 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. 
+					43 link Description: Scope & privacy, Value: 127.0.0.1:5173/about
+
+The focused UI element is 70 button (expanded) How this question was checked, Secondary Actions: Collapse

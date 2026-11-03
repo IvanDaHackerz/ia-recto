@@ -253,7 +253,13 @@ Examples are ruled rows with serif question text and a quiet topic line. Hover/f
 
 Local fallback responses use the same readable explanation measure with a distinct local-response disclosure. A complete short recorded provision or one complete paragraph appears as a serif block quotation, with its source action above and completeness/currentness metadata below. General employment scope uses a flat ruled paragraph, followed by a single targeted follow-up section; wrapping employment-type buttons fill the composer without submitting. Retain the 44px controls, keyboard focus and responsive wrapping. These additions do not introduce a new color, shadow or card system.
 
+Source fallback headings say “Recorded source passages” and describe local topic selection without claiming an explanation or legal support. Diagnostics expose topic, topic coverage and label confidence on local, referral and clarification paths as well as generated responses. Identical local quotations appear once. Preserve these distinctions when extending the response flow.
+
 Generated explanations reveal by word with a Show full answer control. Screen readers receive the full paragraph immediately; a reduced-motion preference or hidden document completes the reveal. Citation controls stay available and select the response, concern and matching chunk. Mobile source navigation restores focus to the invoking control when returning.
+
+When only some concerns have eligible sources and approved paragraphs, use the heading “AI explanation for supported parts.” A named “Parts I couldn’t explain” notice lists each remaining concern and its source/support limitation, with an action to review the complete question. Diagnostics report how many concerns received an AI explanation. A partial response never presents the other concerns as answered; existing outside-coverage notices remain separate.
+
+While a request is pending, the source pane says it is preparing references. Once an approved explanation arrives, initially open a source cited by a displayed paragraph, preserving both chunk and concern identity. Candidate references remain inspectable in their original order. A response without returned references points the reader to the clarification, scope boundary or source limitation in the response.
 
 Exact quote spans are highlighted inside the complete stored provision, using the caution wash and reading ink. The Library's arrival spotlight is a separate, temporary navigation cue (1600ms), with a static wash under reduced motion. Neither cue changes the recorded check status. Keep source dates, use restrictions and full legal text visible within the existing reading pattern.
 

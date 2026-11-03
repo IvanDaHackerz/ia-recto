@@ -1,0 +1,629 @@
+[
+  {
+    "case_id": "EX_NEW_004",
+    "question": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+    "group": "L",
+    "topic": "deduction",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 3,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+      "normalized_question_text": null,
+      "effective_question_text": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Before an employer can deduct wages for a missing cash amount, the deduction is only allowed if the employer’s trade is one where loss‑or‑damage deductions are recognized, the employee is clearly shown to be responsible, the employee is given a reasonable opportunity to show cause why the deduction should not be made, the amount deducted is fair, actually reflects the loss and does not exceed it, and the deduction does not exceed 20 % of the employee’s weekly wages.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 14",
+              "quote": "Deduction for loss or damage. — Where the employer is engaged in a trade, occupation or business where the practice of making deductions or requiring deposits is recognized to answer for the reimbursement of loss or damage to tools, materials, or equipment supplied by the employer to the employee, the employer may make wage deductions or require the employees to make deposits from which deductions shall be made, subject to the following conditions:",
+              "start": 12,
+              "end": 464,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 14"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 2990,
+        "completion_tokens": 858,
+        "total_tokens": 3848
+      },
+      "usage_support": {
+        "prompt_tokens": 1913,
+        "completion_tokens": 701,
+        "total_tokens": 2614
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: they deducted a missing cash amount from my salary without asking for my side. what should be checked before that deduction",
+        "sources": [
+          "LAB_IRR_1989__rule_viii_payment_of_wages__section_14",
+          "LAB_CODE_2022__art_116",
+          "LAB_CODE_2022__art_117"
+        ]
+      }
+    ],
+    "elapsed_ms": 11813.000000000102
+  },
+  {
+    "case_id": "EX_NEW_014",
+    "question": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+    "group": "C",
+    "topic": "price_tag",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 2,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+      "normalized_question_text": null,
+      "effective_question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Under the Consumer Act, a retailer must display a clear price tag, label, or price list for each product, and it is illegal to charge a buyer more than the price shown. So if the shelf label shows a lower price, the cashier may not charge a higher amount unless the displayed price is corrected in accordance with the required tag or list.",
+          "citations": [
+            {
+              "chunk_id": "RA_7394_1992__art_81__chunk_0001",
+              "provision_id": "RA_7394_1992__art_81",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 81",
+              "quote": "Price Tag Requirement. - It shall be unlawful to offer any consumer product for retail sale to the public without an appropriate price tag, label or marking publicly displayed to indicate the price of each article and said products shall not be sold at a price higher than that stated therein and without discrimination to all buyers: Provided, That lumber sold, displayed or offered for sale to the public shall be tagged or labeled by indicating thereon the price and the corresponding official name of the wood: Provided, further, That if consumer products for sale are too small or the nature of which makes it impractical to place a price tag thereon, price list placed at the nearest point where the products are displayed indicating the retail price of the same may suffice.",
+              "start": 9,
+              "end": 790,
+              "citation_label": "Republic Act No. 7394, ART. 81"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_83__chunk_0001",
+              "provision_id": "RA_7394_1992__art_83",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 83",
+              "quote": "There shall be no erasures or alterations of any sort of price tags, labels or markings.",
+              "start": 196,
+              "end": 284,
+              "citation_label": "Republic Act No. 7394, ART. 83"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 2365,
+        "completion_tokens": 210,
+        "total_tokens": 2575
+      },
+      "usage_support": {
+        "prompt_tokens": 2166,
+        "completion_tokens": 1094,
+        "total_tokens": 3260
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "the price label on the shelf was lower than the amount the cashier charged. they said the label had not been updated yet. which price rule should i understand",
+        "sources": [
+          "RA_7394_1992__art_81",
+          "RA_7394_1992__art_83"
+        ]
+      }
+    ],
+    "elapsed_ms": 10125.0
+  },
+  {
+    "case_id": "EX_NEW_024",
+    "question": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+    "group": "P_C",
+    "topic": "partial",
+    "expected": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "mixed",
+      "predicted_scope": "partially_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_components",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 9,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+      "normalized_question_text": null,
+      "effective_question_text": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "partially_generated",
+      "reason": "supported_parts_checked",
+      "llm_calls": 4,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "When an online consumer receives a defective rice cooker, the law gives the consumer the right to ask for repair, replacement, or refund. If the consumer chooses replacement or refund, the online merchant may require the return of the original unit at no cost to the consumer, as long as the return period is reasonable and not otherwise agreed. Under the Consumer Act, if the defect is not fixed within 30 days, the consumer may instead demand a replacement of the same kind, a full reimbursement with monetary updating, or a proportionate price reduction. The merchant’s entitlement to the original goods and the consumer’s options apply only when the defect is not caused by the consumer.",
+          "citations": [
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "quote": "Remedies of Online Consumers. - In case of defect, malfunction, or loss without the fault of the online consumer, or failure to conform with warranty or any liability of the online merchant or e-retailer arising from the contract, the online consumer shall have the right to pursue repair, replacement, refund or other remedies provided under Republic Act No. 7394 or any existing relevant laws.",
+              "start": 9,
+              "end": 404,
+              "citation_label": "Republic Act No. 11967, SEC. 20"
+            },
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "quote": "When the online consumer avails replacement or refund as a remedy, the online merchant is entitled to the return of the original goods delivered, without any cost to the online consumer, within a reasonable period from the receipt thereof, unless otherwise agreed upon by the parties.",
+              "start": 406,
+              "end": 690,
+              "citation_label": "Republic Act No. 11967, SEC. 20"
+            },
+            {
+              "chunk_id": "RA_7394_1992__art_100__chunk_0001",
+              "provision_id": "RA_7394_1992__art_100",
+              "document_id": "RA_7394_1992",
+              "citation_display": "Republic Act No. 7394, ART. 100",
+              "quote": "If the imperfection is not corrected within thirty (30) days, the consumer may alternatively demand at his option:",
+              "start": 559,
+              "end": 673,
+              "citation_label": "Republic Act No. 7394, ART. 100"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 12196,
+        "completion_tokens": 1056,
+        "total_tokens": 13252
+      },
+      "usage_support": {
+        "prompt_tokens": 3552,
+        "completion_tokens": 1881,
+        "total_tokens": 5433
+      },
+      "revision_attempted": true,
+      "usage_revision": {
+        "prompt_tokens": 12418,
+        "completion_tokens": 1172,
+        "total_tokens": 13590
+      },
+      "usage_revision_support": {
+        "prompt_tokens": 3690,
+        "completion_tokens": 2033,
+        "total_tokens": 5723
+      },
+      "coverage_complete": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_002",
+          "query": "retail transaction: please explain the purchase issue and tell me where your scope ends",
+          "reason": "claim_support_failed"
+        }
+      ],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "an online store sent a faulty rice cooker",
+        "sources": [
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_37",
+          "RA_7394_1992__art_100",
+          "RA_11967_2023__sec_19",
+          "DTI_JAO_24_03__section_35"
+        ]
+      },
+      {
+        "id": "concern_002",
+        "query": "retail transaction: please explain the purchase issue and tell me where your scope ends",
+        "sources": [
+          "RA_7394_1992__art_50",
+          "RA_7394_1992__art_81",
+          "RA_7394_1992__art_163",
+          "RA_7394_1992__art_68"
+        ]
+      }
+    ],
+    "elapsed_ms": 40405.99999999995
+  },
+  {
+    "case_id": "PH5_029",
+    "question": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+    "group": "L",
+    "topic": "rest_work",
+    "expected": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "labor",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+      "normalized_question_text": null,
+      "effective_question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "Kung pinapasok ka ng employer mo sa iyong scheduled rest day, dapat kang bayaran ng premium pay na hindi bababa sa 30% ng regular na sahod mo, bukod sa ordinary daily rate. Ibig sabihin, hindi sapat na ibigay lang ang arawang sweldo; kailangan din ng dagdag na 30% bilang kompensasyon para sa araw na dapat sana’y pahinga ka.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 9",
+              "quote": "Premium and overtime pay for holiday and rest day work. — (a) Except employees referred to under Section 2 of this Rule, an employee who is permitted or suffered to work on special holida ys or on his designated rest days not falling on regular holidays, shall be paid with an additional compensation as premium pay of not less than thirty percent (30%) of his regular wage.",
+              "start": 11,
+              "end": 385,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 9 — BOOK THREE, RULE I"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 4954,
+        "completion_tokens": 216,
+        "total_tokens": 5170
+      },
+      "usage_support": {
+        "prompt_tokens": 2017,
+        "completion_tokens": 655,
+        "total_tokens": 2672
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "private employment: pinapasok nila ako sa scheduled rest day. ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work",
+        "sources": [
+          "LAB_IRR_1989__rule_i_hours_of_work__section_9",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_3",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_5",
+          "LAB_IRR_1989__rule_iii_weekly_rest_periods__section_6",
+          "LAB_CODE_2022__art_92"
+        ]
+      }
+    ],
+    "elapsed_ms": 7764.999999999418
+  },
+  {
+    "case_id": "PH5_048",
+    "question": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+    "group": "C",
+    "topic": "online_description",
+    "expected": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "assessment": {
+      "labeled": true,
+      "predicted_primary": "consumer",
+      "predicted_scope": "fully_supported",
+      "primary_correct": true,
+      "scope_correct": true,
+      "route": "retrieve_supported_evidence",
+      "route_correct": true,
+      "domain_correct": true,
+      "retrieval": [],
+      "candidate_count": 5,
+      "negative_control_correct": null,
+      "issues": []
+    },
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+      "normalized_question_text": null,
+      "effective_question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "If the item you got is not what you ordered, you may ask for repair, replacement, or refund under the Consumer Act. If you choose replacement or refund, the seller can ask you to send back the original backpack you received, and you don’t have to pay for the return, as long as you do it within a reasonable time unless you and the seller agreed otherwise.",
+          "citations": [
+            {
+              "chunk_id": "RA_11967_2023__sec_20__chunk_0001",
+              "provision_id": "RA_11967_2023__sec_20",
+              "document_id": "RA_11967_2023",
+              "citation_display": "Republic Act No. 11967, SEC. 20",
+              "quote": "When the online consumer avails replacement or refund as a remedy, the online merchant is entitled to the return of the original goods delivered, without any cost to the online consumer, within a reasonable period from the receipt thereof, unless otherwise agreed upon by the parties.",
+              "start": 406,
+              "end": 690,
+              "citation_label": "Republic Act No. 11967, SEC. 20"
+            },
+            {
+              "chunk_id": "DTI_JAO_24_03__section_37__chunk_0001",
+              "provision_id": "DTI_JAO_24_03__section_37",
+              "document_id": "DTI_JAO_24_03",
+              "citation_display": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37",
+              "quote": "merchant or e-retailer is entitled to the return of the original goods delivered, without any",
+              "start": 535,
+              "end": 628,
+              "citation_label": "Joint Administrative Order No. 24-03, Series of 2024, SECTION 37"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 5857,
+        "completion_tokens": 848,
+        "total_tokens": 6705
+      },
+      "usage_support": {
+        "prompt_tokens": 2337,
+        "completion_tokens": 843,
+        "total_tokens": 3180
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "components": [
+      {
+        "id": "concern_001",
+        "query": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item",
+        "sources": [
+          "RA_11967_2023__sec_20",
+          "DTI_JAO_24_03__section_37",
+          "RA_11967_2023__sec_19",
+          "DTI_JAO_24_03__section_35",
+          "DTI_JAO_24_03__section_39"
+        ]
+      }
+    ],
+    "elapsed_ms": 11250.0
+  }
+]

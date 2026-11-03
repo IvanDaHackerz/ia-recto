@@ -1,0 +1,7 @@
+{
+  "count": 6,
+  "sha256": "6ffec2ffd7fb002309a93492de70755258915f273004c6f6e5a168e96243d303",
+  "expected_labels_frozen_before_inference": true,
+  "independent_human_gold": false,
+  "policy": "No tuning on these final observations; retain every failure."
+}

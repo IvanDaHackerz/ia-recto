@@ -1,0 +1,17 @@
+{
+  "targeted_recheck_ids": [
+    "PH2_008",
+    "PH2_016",
+    "PH2_018",
+    "PH2_021",
+    "PH2_022",
+    "PH2_033",
+    "PH2_048",
+    "PH2_059",
+    "PH2_060"
+  ],
+  "selection_posthoc": true,
+  "reason": "Preserved 49-case reading found three accepted conditional-logic errors and remaining explanation failures. Verify bounded final condition and procedure repairs; no independent gold claim.",
+  "maximum_cumulative_attempts": 500,
+  "maximum_cumulative_estimated_usd": 0.5
+}

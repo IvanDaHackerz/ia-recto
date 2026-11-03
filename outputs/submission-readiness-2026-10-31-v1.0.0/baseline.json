@@ -1,0 +1,10 @@
+{
+  "checkpoint_sha256": "64924fecd96a0b0fda4254186627dc7d8c2d9bb37444f1a1c51e943e8fe96e9e",
+  "selected_artifacts": {
+    "classifier": "outputs/item10-classifier-v1.5.67",
+    "retrieval": "outputs/item11-retrieval-v1.3.55",
+    "verifier": "outputs/item12-verifier-v1.0.62"
+  },
+  "private_state_included": false,
+  "new_independent_human_questions": 0
+}

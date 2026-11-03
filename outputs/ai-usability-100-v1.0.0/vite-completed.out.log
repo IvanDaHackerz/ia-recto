@@ -1,0 +1,13 @@
+
+  VITE v8.3.1  ready in 3832 ms
+
+  ➜  Local:   http://127.0.0.1:5174/
+  ➜  press h + enter to show help
+12:04:08 PM [vite] (client) hmr update /src/index.css, /src/pages/SettingsPage.tsx, /src/pages/SavedHistoryPage.tsx, /src/pages/PerformancePage.tsx, /src/pages/ChatPage.tsx, /src/components/LiveResult.tsx
+12:04:08 PM [vite] (client) hmr update /src/index.css, /src/components/LiveResult.tsx
+12:04:09 PM [vite] (client) hmr update /src/index.css, /src/components/GeneratedExplanation.tsx
+12:04:09 PM [vite] (client) hmr update /src/index.css
+12:29:11 PM [vite] (client) hmr update /src/index.css, /src/components/LiveResult.tsx
+1:02:43 PM [vite] (client) hmr update /src/index.css, /src/pages/SettingsPage.tsx, /src/pages/SavedHistoryPage.tsx, /src/pages/PerformancePage.tsx, /src/pages/ChatPage.tsx, /src/components/LiveResult.tsx
+1:02:44 PM [vite] (client) hmr update /src/pages/ChatPage.tsx, /src/index.css
+1:02:46 PM [vite] (client) hmr update /src/pages/ChatPage.tsx, /src/index.css

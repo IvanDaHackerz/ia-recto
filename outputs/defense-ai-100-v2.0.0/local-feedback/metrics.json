@@ -1,0 +1,400 @@
+{
+  "cases": 100,
+  "provider_calls": 0,
+  "runtime": {
+    "schema_version": "1.0",
+    "status": "ready",
+    "development_only": true,
+    "project_id": "recto-local-ia",
+    "application_version": "2.0.0",
+    "runtime_signature": "f36f6c24a8e8714fcb8aaed6c5ba450a4211ccf4e25f1e18eee52187ddbbbec3",
+    "classifier": "outputs/item10-classifier-v1.5.52",
+    "retrieval": "outputs/item11-retrieval-v1.3.43",
+    "verifier": "item12-verifier-v1.0.50",
+    "normalizer_configured": false,
+    "explanation_adapter_configured": false,
+    "development_explanations_enabled": false,
+    "history_available": false,
+    "history_retention_days": null,
+    "last_integrity_check_unix": 1792678147.8044174,
+    "maximum_active_questions": 4,
+    "answer_generation_allowed": false,
+    "display_allowed": false,
+    "deployment_allowed": false
+  },
+  "scope_metrics": {
+    "inputs": 100,
+    "families": 100,
+    "primary": {
+      "accuracy": {
+        "numerator": 99,
+        "denominator": 100,
+        "value": 0.99
+      },
+      "macro_f1": 0.9899959983993598,
+      "per_class": {
+        "labor": {
+          "support": 25,
+          "predicted_count": 25,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "consumer": {
+          "support": 25,
+          "predicted_count": 26,
+          "precision": 0.9615384615384616,
+          "recall": 1.0,
+          "f1": 0.9803921568627451
+        },
+        "mixed": {
+          "support": 25,
+          "predicted_count": 24,
+          "precision": 1.0,
+          "recall": 0.96,
+          "f1": 0.9795918367346939
+        },
+        "out_of_scope": {
+          "support": 25,
+          "predicted_count": 25,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "confusion": {
+        "true_rows": [
+          "labor",
+          "consumer",
+          "mixed",
+          "out_of_scope"
+        ],
+        "predicted_columns": [
+          "labor",
+          "consumer",
+          "mixed",
+          "out_of_scope",
+          "__abstain__"
+        ],
+        "counts": [
+          [
+            25,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            25,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            24,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            25,
+            0
+          ]
+        ]
+      },
+      "abstentions": 0,
+      "confidence_calibration": {
+        "prediction_count": 100,
+        "ece": 0.10700427879328381,
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 95,
+            "mean_label_confidence": 0.8799945500461396,
+            "observed_label_accuracy": 0.9894736842105263
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 5,
+            "mean_label_confidence": 0.9400179732576712,
+            "observed_label_accuracy": 1.0
+          }
+        ],
+        "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+      }
+    },
+    "scope": {
+      "accuracy": {
+        "numerator": 100,
+        "denominator": 100,
+        "value": 1.0
+      },
+      "macro_f1": 1.0,
+      "per_class": {
+        "fully_supported": {
+          "support": 60,
+          "predicted_count": 60,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "partially_supported": {
+          "support": 15,
+          "predicted_count": 15,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "unsupported": {
+          "support": 25,
+          "predicted_count": 25,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "confusion": {
+        "true_rows": [
+          "fully_supported",
+          "partially_supported",
+          "unsupported"
+        ],
+        "predicted_columns": [
+          "fully_supported",
+          "partially_supported",
+          "unsupported",
+          "__abstain__"
+        ],
+        "counts": [
+          [
+            60,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            15,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            25,
+            0
+          ]
+        ]
+      },
+      "abstentions": 0,
+      "confidence_calibration": {
+        "prediction_count": 100,
+        "ece": 0.09239710017432469,
+        "bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "count": 5,
+            "mean_label_confidence": 0.6266786488384475,
+            "observed_label_accuracy": 1.0
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "count": 0,
+            "mean_label_confidence": null,
+            "observed_label_accuracy": null
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "count": 35,
+            "mean_label_confidence": 0.8807675576502122,
+            "observed_label_accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "count": 60,
+            "mean_label_confidence": 0.9466672036769644,
+            "observed_label_accuracy": 1.0
+          }
+        ],
+        "note": "Only available label predictions; abstentions have no fabricated probability. Not legal correctness."
+      }
+    },
+    "partial_support_recall": 1.0,
+    "out_of_scope_recall": 1.0,
+    "route_match": {
+      "numerator": 99,
+      "denominator": 100,
+      "value": 0.99
+    },
+    "domain_match": {
+      "numerator": 99,
+      "denominator": 100,
+      "value": 0.99
+    },
+    "clarification_success": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "unsupported_admission": {
+      "numerator": 0,
+      "denominator": 25,
+      "value": 0.0
+    },
+    "known_relevant_hit_at_1": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "known_relevant_hit_at_5": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "known_relevant_mrr_at_5": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "known_relevant_recall_at_5": {
+      "numerator": 0,
+      "denominator": 0,
+      "value": null
+    },
+    "negative_candidate_leakage": {
+      "numerator": 0,
+      "denominator": 25,
+      "value": 0.0
+    },
+    "latency_ms": {
+      "median": 244.35640000228886,
+      "p95": 337.82359999750037
+    },
+    "cases_with_issues": 1,
+    "issue_counts": {
+      "primary_label_mismatch_or_abstention": 1,
+      "routing_mismatch": 1,
+      "supported_domain_coverage_mismatch": 1
+    }
+  },
+  "all_expectations_matched": 99,
+  "failures": [
+    {
+      "id": "PH2_057",
+      "issues": [
+        "primary_label_mismatch_or_abstention",
+        "routing_mismatch",
+        "supported_domain_coverage_mismatch"
+      ]
+    }
+  ]
+}

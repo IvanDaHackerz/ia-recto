@@ -1,0 +1,32 @@
+......F........F......
+======================================================================
+FAIL: test_general_ending_does_not_create_an_extra_concern (test_concern_repairs.ConcernRepairTests.test_general_ending_does_not_create_an_extra_concern)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item10\test_concern_repairs.py", line 41, in test_general_ending_does_not_create_an_extra_concern
+    self.check(text,'mixed')
+  File "C:\IA\dataset\pipelines\item10\test_concern_repairs.py", line 15, in check
+    self.assertNotEqual(p['routing_action'],'clarify')
+AssertionError: 'clarify' == 'clarify'
+
+======================================================================
+FAIL: test_purchase_role_and_employer_role_remain_distinct (test_concern_repairs.ConcernRepairTests.test_purchase_role_and_employer_role_remain_distinct)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\dataset\pipelines\item10\test_concern_repairs.py", line 109, in test_purchase_role_and_employer_role_remain_distinct
+    self.check('My private employer gave me a gift card. I used it at a store and the store sold me a broken fan.','consumer')
+  File "C:\IA\dataset\pipelines\item10\test_concern_repairs.py", line 14, in check
+    self.assertEqual((p['predicted_primary'],p['predicted_scope']),(primary,scope))
+AssertionError: Tuples differ: (np.str_('mixed'), np.str_('fully_supported')) != ('consumer', 'fully_supported')
+
+First differing element 0:
+np.str_('mixed')
+'consumer'
+
+- (np.str_('mixed'), np.str_('fully_supported'))
++ ('consumer', 'fully_supported')
+
+----------------------------------------------------------------------
+Ran 22 tests in 4.713s
+
+FAILED (failures=2)

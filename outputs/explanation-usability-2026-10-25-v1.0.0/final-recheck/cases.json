@@ -1,0 +1,844 @@
+[
+  {
+    "case_id": "EX_NEW_001",
+    "family_id": "EX_NEW_001",
+    "group": "L",
+    "topic": "overtime",
+    "question_text": "I work for a private delivery warehouse. We stay two extra hours to finish sorting parcels, but the manager says overtime is already included in our salary. How should we understand this?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_002",
+    "family_id": "EX_NEW_002",
+    "group": "L",
+    "topic": "rest_premium",
+    "question_text": "Private hotel employee ako. Sunday ang scheduled rest day ko pero pinapasok ako at usual daily pay lang. May dagdag ba dapat, and ano ang conditions?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_003",
+    "family_id": "EX_NEW_003",
+    "group": "L",
+    "topic": "holiday",
+    "question_text": "A private office closed for a regular holiday. The staff were told that no work means no pay. Is that the general rule?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_004",
+    "family_id": "EX_NEW_004",
+    "group": "L",
+    "topic": "deduction",
+    "question_text": "I work in a private café. They deducted a missing cash amount from my salary without asking for my side. What should be checked before that deduction?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_005",
+    "family_id": "EX_NEW_005",
+    "group": "L",
+    "topic": "paydays",
+    "question_text": "sa private printing company kami. isang beses lang kada month nagbibigay sahod. tama ba yung pagitan ng payday namin?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_006",
+    "family_id": "EX_NEW_006",
+    "group": "L",
+    "topic": "procedure",
+    "question_text": "My private employer accused me of misconduct and immediately dismissed me. I was never allowed to explain. What process is supposed to happen?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_007",
+    "family_id": "EX_NEW_007",
+    "group": "L",
+    "topic": "status",
+    "question_text": "My private employer repeatedly gives me short contracts even though I do the normal daily work of the business. Does the contract label settle whether the work is regular?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_008",
+    "family_id": "EX_NEW_008",
+    "group": "L",
+    "topic": "probation",
+    "question_text": "Probationary ako sa private office. Ngayong patapos na saka lang nila sinabi yung standards na kailangan ma-meet. How does the rule handle that?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_009",
+    "family_id": "EX_NEW_009",
+    "group": "L",
+    "topic": "offsetting",
+    "question_text": "I was late last Monday, and my private employer wants to use that undertime to cancel overtime I worked on Wednesday. Can those hours just cancel each other?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_010",
+    "family_id": "EX_NEW_010",
+    "group": "L",
+    "topic": "religion",
+    "question_text": "I work at a private retail store. I requested a rest day for my religious observance. What should the employer consider before refusing?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_011",
+    "family_id": "EX_NEW_011",
+    "group": "C",
+    "topic": "defect",
+    "question_text": "I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_012",
+    "family_id": "EX_NEW_012",
+    "group": "C",
+    "topic": "warranty",
+    "question_text": "may warranty card ako sa bagong microwave. ayaw tanggapin ng retailer yung complaint ko, sa supplier daw ako dumiretso. ano responsibility ng retailer?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_013",
+    "family_id": "EX_NEW_013",
+    "group": "C",
+    "topic": "exact_change",
+    "question_text": "A supermarket gave me a store coupon instead of the coins it owed me as change. I did not agree. Can the store decide that for me?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_014",
+    "family_id": "EX_NEW_014",
+    "group": "C",
+    "topic": "price_tag",
+    "question_text": "The price label on the shelf was lower than the amount the cashier charged. They said the label had not been updated yet. Which price rule should I understand?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_015",
+    "family_id": "EX_NEW_015",
+    "group": "C",
+    "topic": "repair_service",
+    "question_text": "Nagbayad ako sa local repair shop para ayusin ang electric fan. Same problem pa rin nung binalik. What can the service-quality rule tell me?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_016",
+    "family_id": "EX_NEW_016",
+    "group": "C",
+    "topic": "online_return",
+    "question_text": "I ordered a red school bag from a Philippine online seller and got a different model. If I ask for a replacement, who pays to return the wrong item?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_017",
+    "family_id": "EX_NEW_017",
+    "group": "C",
+    "topic": "advertising",
+    "question_text": "A store advertised a printer with a scanner, but the delivered model cannot scan. What consumer rule covers a feature that was promised but is missing?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_018",
+    "family_id": "EX_NEW_018",
+    "group": "C",
+    "topic": "safety",
+    "question_text": "The new extension cord I bought from a local shop sparks during normal use. How do the consumer product-safety rules describe a defective product?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_019",
+    "family_id": "EX_NEW_019",
+    "group": "C",
+    "topic": "used_as_new",
+    "question_text": "Sabi ng gadget store brand new yung phone, pero refurbished pala. What does the Consumer Act say about selling something used as new?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_020",
+    "family_id": "EX_NEW_020",
+    "group": "C",
+    "topic": "redress",
+    "question_text": "The Philippine online shop has no working complaint channel for my faulty purchase. What does the source say about an internal redress mechanism?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_021",
+    "family_id": "EX_NEW_021",
+    "group": "M",
+    "topic": "both",
+    "question_text": "My private employer has delayed wages, and a separate local shop refuses my written warranty claim. Please explain what applies to each concern.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_022",
+    "family_id": "EX_NEW_022",
+    "group": "M",
+    "topic": "both",
+    "question_text": "private worker ako na walang weekly rest. unrelated, yung cashier sa grocery hindi binalik buong sukli ko. What should I understand about both issues?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor",
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_023",
+    "family_id": "EX_NEW_023",
+    "group": "P_L",
+    "topic": "partial",
+    "question_text": "My private employer deducted the cost of damaged equipment from my wages. Separately, I need help disputing a bank interest charge. Which part can you help explain?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_024",
+    "family_id": "EX_NEW_024",
+    "group": "P_C",
+    "topic": "partial",
+    "question_text": "An online store sent a faulty rice cooker. Separately, a neighbor published my personal information. Please explain the purchase issue and tell me where your scope ends.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_025",
+    "family_id": "EX_NEW_025",
+    "group": "O",
+    "topic": "government",
+    "question_text": "Government employee po ako. I want to appeal an administrative suspension under civil-service rules. What argument should I submit?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    }
+  },
+  {
+    "case_id": "EX_NEW_026",
+    "family_id": "EX_NEW_026",
+    "group": "O",
+    "topic": "bank",
+    "question_text": "My bank refused to reverse a transfer charge. What banking rules decide that dispute?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    }
+  },
+  {
+    "case_id": "EX_NEW_027",
+    "family_id": "EX_NEW_027",
+    "group": "O",
+    "topic": "prediction",
+    "question_text": "Tell me exactly how much damages I will win in my pending labor case. I only want a prediction, not general rules.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    }
+  },
+  {
+    "case_id": "EX_NEW_028",
+    "family_id": "EX_NEW_028",
+    "group": "O",
+    "topic": "inheritance",
+    "question_text": "We disagree about who inherits our family property. What inheritance case should we file?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "out_of_scope",
+      "expected_scope": "unsupported",
+      "expected_route": "refer_out_of_scope",
+      "expected_domains": [],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "no_candidates"
+    }
+  },
+  {
+    "case_id": "EX_NEW_029",
+    "family_id": "EX_NEW_029",
+    "group": "L",
+    "topic": "gap_night",
+    "question_text": "Private warehouse employee ako on a midnight shift. My question is specifically about night differential, not overtime. What is the rule?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_030",
+    "family_id": "EX_NEW_030",
+    "group": "L",
+    "topic": "gap_counted_time",
+    "question_text": "My private workplace requires a short briefing before I clock in. Does that count as working time?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_031",
+    "family_id": "EX_NEW_031",
+    "group": "L",
+    "topic": "gap_final_pay",
+    "question_text": "I resigned from a private company. What deadline applies to my final pay and certificate of employment?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "EX_NEW_032",
+    "family_id": "EX_NEW_032",
+    "group": "L",
+    "topic": "gap_thirteenth",
+    "question_text": "I work for a private store. Can you explain thirteenth-month pay coverage and computation using your available sources?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": false,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    }
+  },
+  {
+    "case_id": "PH5_013",
+    "family_id": "PH5_013",
+    "group": "L",
+    "topic": "holiday",
+    "question_text": "Our private repair shop closed on a regular holiday and marked the day unpaid for everyone. Explain the general holiday-pay rule and coverage exceptions without deciding anyone's entitlement.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  },
+  {
+    "case_id": "PH5_018",
+    "family_id": "PH5_018",
+    "group": "L",
+    "topic": "status",
+    "question_text": "A private food manufacturer keeps renewing four-month contracts for workers doing its everyday production work. Explain the regular-versus-casual rule and project or seasonal exceptions generally.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  },
+  {
+    "case_id": "PH5_029",
+    "family_id": "PH5_029",
+    "group": "L",
+    "topic": "rest_work",
+    "question_text": "Private restaurant employee ako. pinapasok nila ako sa scheduled rest day tapos ordinary daily rate lang. ano general provision tungkol sa premium for rest-day work?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  },
+  {
+    "case_id": "PH5_034",
+    "family_id": "PH5_034",
+    "group": "C",
+    "topic": "repair_refund",
+    "question_text": "A new rechargeable lamp from a neighborhood store stopped charging after one use. What conditions govern correction, replacement, or refund under the recorded product-imperfection rule?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  },
+  {
+    "case_id": "PH5_042",
+    "family_id": "PH5_042",
+    "group": "C",
+    "topic": "exact_change",
+    "question_text": "A cashier owed me seven pesos change but gave me a discount coupon without asking. Which recorded exact-change rule covers this situation?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  },
+  {
+    "case_id": "PH5_048",
+    "family_id": "PH5_048",
+    "group": "C",
+    "topic": "online_description",
+    "question_text": "sa online seller sa pinas ako umorder ng blue backpack, green at ibang model dumating. anu general rules at kelan kailangan ibalik ung original item?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "consumer",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  },
+  {
+    "case_id": "PH5_077",
+    "family_id": "PH5_077",
+    "group": "P_C",
+    "topic": "banking",
+    "question_text": "An online merchant delivered a different appliance model from my order. Separately, I want advice on a credit-card interest charge from the bank. Distinguish the supported part.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  },
+  {
+    "case_id": "PH5_082",
+    "family_id": "PH5_082",
+    "group": "P_C",
+    "topic": "telecom",
+    "question_text": "A Philippine online shop sent me broken headphones. Separately, my mobile network provider imposed a termination charge. Please identify the project boundary.",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "mixed",
+      "expected_scope": "partially_supported",
+      "expected_route": "retrieve_supported_components",
+      "expected_domains": [
+        "consumer"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_study": "fresh-ai-100-2026-10-25-v1.0.0"
+  }
+]

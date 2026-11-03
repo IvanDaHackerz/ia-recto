@@ -1,0 +1,25 @@
+[
+  {
+    "case_id": "AI26_025",
+    "family_id": "AI26_025",
+    "group": "L",
+    "topic": "meal_period",
+    "question_text": "A private assembly plant gives only twenty minutes for lunch while the machines keep running. What sources or limitations apply to a general meal-period question?",
+    "AI_authored": true,
+    "independent_human_gold": false,
+    "development_replay": true,
+    "source_case": {
+      "expected_primary": "labor",
+      "expected_scope": "fully_supported",
+      "expected_route": "retrieve_supported_evidence",
+      "expected_domains": [
+        "labor"
+      ],
+      "relevant_ids": [],
+      "concerns": [],
+      "retrieval_judgment": "unjudged"
+    },
+    "source_case_id": "PH5_025",
+    "input_provenance": "Reused inspected synthetic development input; no new independent or human-authored test claim."
+  }
+]

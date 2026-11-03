@@ -1,0 +1,17 @@
+{
+  "cases_sha256": "be0c1565aaec1807e722db935bbe7c23dfcdddfb2754552995cb72b33b82939f",
+  "input_forms": 40,
+  "new_fictional_inputs": 32,
+  "inspected_failure_replays": 8,
+  "independent_human_gold_questions": 0,
+  "groups": {
+    "L": 17,
+    "C": 13,
+    "M": 2,
+    "P_L": 1,
+    "P_C": 3,
+    "O": 4
+  },
+  "role": "AI-authored development usability diagnostics, not independent legal accuracy",
+  "expected_labels_frozen_before_inference": true
+}

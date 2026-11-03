@@ -1,0 +1,9 @@
+{
+  "targeted_recheck_ids": [
+    "PH2_008"
+  ],
+  "selection_posthoc": true,
+  "reason": "Engineering reading caught an only-if inversion in the last overtime paraphrase. Check the added rejection guard without changing numeric/eligibility controls.",
+  "maximum_cumulative_attempts": 500,
+  "maximum_cumulative_estimated_usd": 0.5
+}

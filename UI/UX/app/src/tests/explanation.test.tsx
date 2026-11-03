@@ -8,6 +8,55 @@ import { packet, reference } from "./fixtures";
 import { mediaPreference } from "./setup";
 
 describe("validated explanation presentation", () => {
+  it("labels separate labor and consumer explanations and keeps their citations separate", () => {
+    mediaPreference(true);
+    const mixed = structuredClone(packet);
+    mixed.result!.components[0].allowed_domain = "labor";
+    mixed.result!.components.push({ ...mixed.result!.components[0], component_id: "c2", allowed_domain: "consumer" });
+    mixed.explanation.claims.push({ ...mixed.explanation.claims[0], claim_id: "second", component_id: "c2", text: "A different consumer rule." });
+    render(<GeneratedExplanation explanation={mixed.explanation} components={mixed.result!.components} onReference={() => {}} />);
+    expect(screen.getByRole("heading", { name: "Labor concern" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Consumer concern" })).toBeInTheDocument();
+  });
+  it("makes local excerpts available for an unanswered part without presenting them as AI", () => {
+    const partial = structuredClone(packet);
+    partial.explanation.status = "partially_generated";
+    partial.explanation.unanswered_components = [{ component_id: "c2", query: "A second concern", reason: "claim_support_failed" }];
+    partial.response = { version: "1", kind: "partial_ai_explanation", heading: "AI explanation", paragraphs: [], follow_up: null, follow_up_options: [], ai_generated: true,
+      quotes: [{ component_id: "c2", chunk_id: "h2", citation_display: "Other recorded provision", quote: "A locally matched passage for the unanswered concern.", complete_provision: false }] };
+    const open = vi.fn();
+    render(<MemoryRouter><LiveResult packet={partial} edit={() => {}} onReference={open} /></MemoryRouter>);
+    fireEvent.click(screen.getByText("Recorded passages for the remaining concerns"));
+    fireEvent.click(screen.getByRole("button", { name: "Other recorded provision" }));
+    expect(open).toHaveBeenCalledWith("h2", expect.anything(), "c2");
+    expect(screen.getByText(/without an AI interpretation/)).toBeInTheDocument();
+  });
+  it("keeps a checked partial explanation and makes the unanswered concern explicit", () => {
+    const partial = structuredClone(packet);
+    partial.explanation.status = "partially_generated";
+    partial.explanation.coverage_complete = false;
+    partial.explanation.unanswered_components = [{ component_id: "c2", query: "My certificate of employment was withheld.", reason: "source_context_unavailable" }];
+    partial.result!.components.push({ ...partial.result!.components[0], component_id: "c2" });
+    const edit = vi.fn();
+    render(<MemoryRouter><LiveResult packet={partial} edit={edit} onReference={() => {}} /></MemoryRouter>);
+    expect(screen.getByRole("heading", { name: "AI explanation for supported parts" })).toBeInTheDocument();
+    expect(screen.getByRole("region", { name: "Parts not explained" })).toHaveTextContent("certificate of employment");
+    expect(screen.getByText("1 of 2 concerns explained by AI")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Review the full question" }));
+    expect(edit).toHaveBeenCalledOnce();
+  });
+  it.each(["retrieve_supported_evidence", "refer_out_of_scope"])("keeps classification inspectable on the AI-off %s path", (action) => {
+    const local = structuredClone(packet);
+    local.result!.routing.routing_action = action;
+    local.explanation = { status: "withheld", reason: "local_only", llm_calls: 0, claims: [] };
+    local.response = { version: "test", kind: "source_limit", heading: "Local result", ai_generated: false,
+      paragraphs: ["A local response."], quotes: [], follow_up: null, follow_up_options: [] };
+    render(<MemoryRouter><LiveResult packet={local} edit={() => {}} onReference={() => {}} /></MemoryRouter>);
+    expect(screen.getByText("Topic")).toBeInTheDocument();
+    expect(screen.getByText("Labor · 90.0% label confidence")).toBeInTheDocument();
+    expect(screen.getByText(/Within project topics · 80.0%/)).toBeInTheDocument();
+    expect(screen.queryByText("Local explanation")).not.toBeInTheDocument();
+  });
   it("shows a useful local explanation with exact source text when AI fails", () => {
     const fallback = structuredClone(packet);
     fallback.explanation = { status: "withheld", reason: "provider_unavailable", failure_code: "provider_http_503", llm_calls: 1, claims: [] };

@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "question": "My private employer wants to replace my earned Monday overtime pay with Friday leave. What recorded rule can you explain?",
+      "ai": true,
+      "observed": "One AI paragraph about overtime and leave; Article 88 citation displayed."
+    },
+    {
+      "question": "A neighborhood grocery charged more than its shelf price tag. What is the general rule, including the price-list exception?",
+      "ai": true,
+      "observed": "One AI paragraph; price ceiling preserved and price-list exception applies only to display; Article 81 citation."
+    },
+    {
+      "question": "My private employer is late paying my salary. Separately, a local store refuses to forward my written warranty claim to the distributor. Please distinguish the two concerns.",
+      "ai": true,
+      "observed": "Two separate AI paragraphs: wage timing and no-cost retailer claim forwarding; separate source citations."
+    },
+    {
+      "question": "My private employer delayed my wages. Separately my bank charged an account-maintenance fee. Which concern can this project explain?",
+      "ai": true,
+      "observed": "Banking concern explicitly excluded; one wage explanation with source citation; no banking advice generated."
+    },
+    {
+      "question": "I work for our municipal government and my salary is late. What civil-service remedy applies?",
+      "ai": true,
+      "observed": "Correct outside-coverage local response; no live AI explanation."
+    },
+    {
+      "question": "Pribadong empleyado ako. Hindi binayaran ang overtime ko kahapon. Ano ang general overtime rule?",
+      "ai": false,
+      "observed": "Labor classified; source excerpt displayed; wording and explanation each 0 LLM calls; analysis 230 ms."
+    }
+  ],
+  "checks": {
+    "citation_opens_full_stored_provision": true,
+    "empty_question_ask_disabled": true,
+    "ai_off_zero_wording_and_explanation_calls": true,
+    "ai_restored_on": true,
+    "saving_left_off": true,
+    "performance_current_stack_matches": true,
+    "performance_run": "local-pipeline-evaluation-v1.6.27",
+    "performance_topic_and_coverage": "425/425 each",
+    "performance_routes": "432/436",
+    "performance_issue_filter_count": 4,
+    "detailed_f1_and_confidence_sections_available": true
+  },
+  "note": "The first labor receipt and source-panel check preceded the last online-return punctuation guard; subsequent browser checks used the final backend. All six questions were new fictional browser inputs.",
+  "handoff_url": "http://127.0.0.1:5174/"
+}

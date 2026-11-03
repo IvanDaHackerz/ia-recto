@@ -1,0 +1,17 @@
+{
+  "purpose": "Submission-readiness engineering check, not professional legal approval",
+  "criteria": [
+    "All 100 inputs produce a readable response or a clearly recorded failure",
+    "Topic, scope and supported-domain expectations remain frozen",
+    "Outside-scope concerns do not receive substantive legal explanations",
+    "Returned citations belong to their concern and equal stored source spans",
+    "AI text addresses the question and preserves actors, exceptions and limits",
+    "Fallbacks and provider errors are counted, not silently discarded",
+    "No model weights, confidence thresholds or UI redesign without a demonstrated defect"
+  ],
+  "AI_enabled_for_every_input": true,
+  "fresh_wording": true,
+  "independent_human_gold": false,
+  "full_batch_then_review": true,
+  "no_relabeling_after_inference": true
+}

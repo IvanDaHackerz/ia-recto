@@ -1,0 +1,54 @@
+Encoding 719 windows from 362 eligible chunks locally
+{
+  "index_version": "item11-retrieval-v1.3.33",
+  "status": "offline_index_built",
+  "as_of": "2026-10-17",
+  "indexed_chunks": 362,
+  "indexed_provisions": 353,
+  "semantic_windows": 719,
+  "semantic_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "semantic_model_manifest_sha256": "a53f046acc0792a8ff9d13fee07d11d1bd5d9fb6527c629884195732d57be976",
+  "source_sha256": {
+    "dataset/processed/item7/documents.jsonl": "ac00c44ca0403667ea158e974dd7bfcb383d2dfcbcc9ced7ad7b182345402497",
+    "dataset/processed/item7/provisions.jsonl": "0b3c0888e4b069b3aa21fb12b1b6f874bb8d9b8612c27e7876faa83c5e94330a",
+    "dataset/processed/item7/retrieval_chunks.jsonl": "1d66021007783628b450346feb97c2b44077376d678ce81f313f760d2cd887c9",
+    "dataset/processed/item7/validation_report.json": "32d467802f6df9a54a17fa6d45a76c4ea662a52c6676d2687829771f71362a84",
+    "dataset/data_contract/controlled_vocabularies.json": "c6e76c792dd8d205c3bc73038a3dd6a1c7689c219f3cee061b0a04ced593f46e",
+    "dataset/data_contract/topic_taxonomy.csv": "2f97e84279c0d4e971efb7b083aaf106d2e2fa3962dedcb8a188334c3e22d84d",
+    "dataset/canonical_sources/manifests/canonical_documents.csv": "33ba01510b167290ef2110d70e7fa01cad74d67efa7713fad44dec91370ec762",
+    "dataset/canonical_sources/manifests/legal_status_review.csv": "885ce842bdf671e9b974d6f0066e016c64cf71baf7a4c85f6316d60408131924",
+    "dataset/canonical_sources/manifests/legal_status_relationships.csv": "22214d2cf7edee9ffcf6dc492c944355e427316e4cf66f31a49ad474b4d9f4da",
+    "dataset/authoritative_source_registry.csv": "92f25ef1011225bc8b821df4efc8a1ae4d3e76b5ab06a34e7ce7c388f5c0d341",
+    "project_legal_scope.md": "38dc149a0d6c237c9dc4cc1d0bbadfa0c5a29a95b5a7a01cad26fef7b185ccdb",
+    "dataset/pipelines/item10/scope_constraints.py": "93e63fccfa0d9ea2dff2548d91d72816e61edac3892b076f2a382e916f8ff3cc",
+    "dataset/pipelines/item10/typing_repair.py": "45751c65ace4514a470317e5f5a2350fa5bd009da4e1614ea53cfd18d672b774",
+    "dataset/pipelines/item10/typing_vocabulary.py": "9b899f8370e1f6a3f901d38360594588f758ef4020793d9b76d53edcfa744da4"
+  },
+  "source_data_modified": false,
+  "no_question_dataset_fitted": true,
+  "encoder_finetuned": false,
+  "project_text_transmitted": false,
+  "deployment_allowed": false,
+  "answer_generation_allowed": false,
+  "legal_status_refreshed": false,
+  "elapsed_seconds": 3.8846898078918457,
+  "python": "3.12.14",
+  "vector_reuse": {
+    "parent_index": "outputs\\item11-retrieval-v1.3.23",
+    "cached_exact_text_vectors": 719,
+    "model_weights_unchanged": true
+  },
+  "runtime_source_sha256": {
+    "common.py": "5f0fa4d5fada51c84096370b3a5bc2939033365efc9f946d847d16dde81d3a8b",
+    "encoder.py": "46e58849fe07fd0a9072dda7c534e68747cd10683337cfea9a79ef57a6ab6b8b",
+    "retrieval.py": "83410f19c41afb22adc9b1cae39b7b680ca51d818fba9216a82074c5c077c3b4",
+    "query_relevance.py": "51f668e6e33cf2b1f1cde29e3bd24be1f7a9274d031795165dabacfca9ff6edc"
+  },
+  "method_selection": {
+    "source": "outputs\\item11-retrieval-v1.0.2\\benchmark_metrics.json",
+    "sha256": "c59852240ef3fa5f7be6b00be67c1ff2ef4ae8e70417ffa1582e7cbb69e0a80e",
+    "role": "AI development selection, not independent test",
+    "rule": "Highest Hit@5, then MRR@10",
+    "selected": "bm25"
+  }
+}

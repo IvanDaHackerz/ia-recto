@@ -1,0 +1,70 @@
+{
+  "version": "item12-verifier-v1.0.65",
+  "as_of": "2026-10-17",
+  "provenance": "AI-authored, inspected development software fixtures; not independent human/legal gold.",
+  "passed": 52,
+  "total": 52,
+  "groups": {
+    "adversarial": {
+      "passed": 40,
+      "total": 40,
+      "rate": 1.0,
+      "wilson_95_interval": [
+        0.9123783988027135,
+        1.0
+      ]
+    },
+    "real_currentness_gate": {
+      "passed": 1,
+      "total": 1,
+      "rate": 1.0,
+      "wilson_95_interval": [
+        0.20654931437723745,
+        1.0
+      ]
+    },
+    "routing_or_corpus_gap": {
+      "passed": 4,
+      "total": 4,
+      "rate": 1.0,
+      "wilson_95_interval": [
+        0.5101091635454027,
+        1.0
+      ]
+    },
+    "simulated_review_control": {
+      "passed": 2,
+      "total": 2,
+      "rate": 1.0,
+      "wilson_95_interval": [
+        0.34238022750665303,
+        1.0
+      ]
+    },
+    "valid_excerpt_control": {
+      "passed": 5,
+      "total": 5,
+      "rate": 1.0,
+      "wilson_95_interval": [
+        0.5655175352168251,
+        1.0
+      ]
+    }
+  },
+  "decisions": {
+    "recorded_excerpt_candidate": 4,
+    "partial_candidate": 3,
+    "reviewed_answer_candidate": 2,
+    "insufficient_evidence": 31,
+    "draft_rejected": 10,
+    "clarify": 1,
+    "refer_out_of_scope": 1
+  },
+  "interval_meaning": "Descriptive binomial intervals on dependent hand-authored development controls; not real-world legal accuracy or confidence.",
+  "legal_answer_accuracy_measured": false,
+  "independent_human_evaluation": false,
+  "live_llm_called": false,
+  "canonical_sources_modified": false,
+  "answer_generation_allowed": false,
+  "deployment_allowed": false
+}

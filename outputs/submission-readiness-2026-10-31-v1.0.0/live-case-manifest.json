@@ -1,0 +1,22 @@
+{
+  "created_on": "2026-10-31",
+  "cases_sha256": "41b1632f706cb420f435c75bc922e31c76881a90d1c9c970edcdfb6ba3381794",
+  "input_forms": 100,
+  "groups": {
+    "L": 30,
+    "C": 30,
+    "M": 25,
+    "O": 15
+  },
+  "language_styles": {
+    "taglish": 36,
+    "english": 51,
+    "noisy_taglish": 13
+  },
+  "new_question_texts": 100,
+  "independent_human_questions": 0,
+  "expectations_frozen_before_inference": true,
+  "sampling": "Purposive Philippine scope coverage; not a random population sample or an independent human/legal holdout.",
+  "legal_accuracy_measured": false,
+  "external_destination": "Configured Together.ai provider; fictional questions and eligible public legal-source excerpts only."
+}

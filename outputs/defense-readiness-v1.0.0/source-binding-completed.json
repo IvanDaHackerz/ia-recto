@@ -1,0 +1,7 @@
+{
+  "classifier_config_unchanged_and_verified": true,
+  "classifier": "outputs/item10-classifier-v1.5.49",
+  "retrieval": "outputs/item11-retrieval-v1.3.38",
+  "verifier": "outputs/item12-verifier-v1.0.45",
+  "note": "The source-only rebind retained the same classifier config; duplicate output was preserved and a new checked config was compared."
+}

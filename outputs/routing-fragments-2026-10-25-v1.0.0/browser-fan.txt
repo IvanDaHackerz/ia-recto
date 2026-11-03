@@ -1,0 +1,102 @@
+Browser tab: 1, Title: "Recto & Co. Legal", URL: "http://127.0.0.1:5173/".
+1 AXWebArea Recto & Co. Legal, URL: 127.0.0.1:5173/
+	2 container
+		3 link Description: Skip to main content, Value: 127.0.0.1:5173/#main
+		4 link Description: Recto & Co. Legal, Value: 127.0.0.1:5173/
+		5 button (collapsed) Menu, Secondary Actions: Expand
+		6 text Development preview.
+		7 text Live classification, retrieval & AI explanations · source applicability remains under review.
+		8 container main
+			44 text Analysis ready. Open references to inspect any retrieved provisions.
+			9 container
+				10 heading Ask about your rights, Value: 1
+					11 text Ask about your rights
+				12 checkbox Sources (5), Value: 0
+				45 button New question
+			13 container Conversation
+				46 container Response 1
+					47 text Question 
+					48 text 1
+					49 heading Value: 2, I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?
+						50 text I bought a new desk fan from an appliance shop. It worked once and then stopped. The shop says it will only repair it and will never consider replacement or refund. What does the rule actually allow?
+					51 container Response
+						52 heading Recorded source passages, Value: 3
+							53 text Recorded source passages
+						54 text These passages were selected by local topic matching. They are source excerpts, not an explanation or a decision about your situation. Open each reference for its complete text, conditions and exceptions.
+						55 text AI is off for this question. This response uses local analysis and recorded sources.
+						56 container
+							57 button Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III
+							58 text Minimum standards for warranties. - For the warrantor of a consumer product to meet the minimum standards for warranty, he shall:
+
+remedy such consumer product within a reasonable time and without charge in case of a defect, malfunction or failure to conform to such written warranty;
+
+permit the consumer to elect whether to ask for a refund or replacement without charge of such product or part, as the case may be, where after reasonable number of attempts to remedy the defect or malfunction, the product continues to have the defect or to malfunction.
+
+The warrantor will not be required to perform the above duties if he can show that the defect, malfunction or failure to conform to a written warranty was caused by damage due to unreasonable use thereof. Recorded excerpt. Open the reference for the complete provision and its exceptions.  Current applicability remains under review.
+						59 container
+							60 text Local response  with recorded source text . No live AI explanation was used.
+					61 button (collapsed) Where to ask for assistance, Secondary Actions: Expand
+						62 text Where to ask for assistance
+					81 container
+						82 button (expanded) How this question was checked, Secondary Actions: Collapse
+							83 text How this question was checked
+						84 definition list
+							85 container Topic
+								86 text Topic
+							87 container
+								88 text Consumer  ·  86.9 % label confidence
+							89 container Topic coverage
+								90 text Topic coverage
+							91 container
+								92 text Within project topics  ·  93.4 % label confidence
+							93 container Wording check
+								94 text Wording check
+							95 container
+								96 text Local only  ·  0  LLM calls
+							97 container Explanation
+								98 text Explanation
+							99 container
+								100 text local only  ·  0  LLM calls
+							101 container Response shown
+								102 text Response shown
+							103 text Local response with source excerpts
+							104 container Support check
+								105 text Support check
+							106 text Not run — no validated draft was ready
+							107 container Analysis time
+								108 text Analysis time
+							109 container
+								110 text 303  ms
+						111 text Topic coverage describes the project's subject areas; it does not establish entitlement or source support. Confidence measures label certainty. A new question has no accuracy or F1 score without an expected label. 
+						112 link Description: View recorded evaluation metrics, Value: 127.0.0.1:5173/performance
+						113 text .
+					65 text Retrieved candidates
+					66 button 1 Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III
+						67 text 1
+						68 text Republic Act No. 7394, ART. 68 — TITLE III, CHAPTER III
+					69 button 2 Republic Act No. 7394, ART. 103
+						70 text 2
+						71 text Republic Act No. 7394, ART. 103
+					72 button 3 Republic Act No. 7394, ART. 100
+						73 text 3
+						74 text Republic Act No. 7394, ART. 100
+					75 button 4 Republic Act No. 7394, ART. 102
+						76 text 4
+						77 text Republic Act No. 7394, ART. 102
+					78 button 5 Republic Act No. 7394, ART. 69
+						79 text 5
+						80 text Republic Act No. 7394, ART. 69
+			32 container
+				33 text Try another question
+				34 text entry area (settable) Try another question, ID: query
+				35 button (disabled) Ask
+				36 button (collapsed) AI & saving · Local only · Saving off, Secondary Actions: Expand
+					37 text AI & saving · 
+					38 text Local only
+					39 text  · 
+					40 text Saving off
+				41 container query-help
+					42 text Use fictional details. Each question is checked independently; include the complete concern and any requested facts. 
+					43 link Description: Scope & privacy, Value: 127.0.0.1:5173/about
+
+The focused UI element is 82 button (expanded) How this question was checked, Secondary Actions: Collapse

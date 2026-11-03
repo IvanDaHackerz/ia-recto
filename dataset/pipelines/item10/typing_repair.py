@@ -12,7 +12,7 @@ import re
 import unicodedata
 from typing_vocabulary import PRESERVED_WORDS
 
-VERSION = "scope-typing-v1.2.0"
+VERSION = "scope-typing-v1.3.4"
 ANCHORS = frozenset("""private pribado government municipal employee employer company
     employment worker workers workplace work job trabaho salary salaries sahod sweldo
     wage wages paid unpaid overtime undertime holiday regular rest rules probation
@@ -31,7 +31,7 @@ ANCHORS = frozenset("""private pribado government municipal employee employer co
     binili biniling nabili binayaran nabayaran bayad bayaran charge charges charged singil price
     label fee quote order delivery service laundry complaint concern issue problem
     problema reklamo hiwalay separate separately delayed withheld refuses refused
-    pay payment payslip notice probationary promotion spouse sister brother kapatid
+    pay payment payroll payslip notice probationary promotion spouse sister brother kapatid
     pinsan cousin cooker rice kettle vacuum toaster furniture table chair cord
     weekly daily monthly annual rights benefit benefits process compensation factory
     shelf net quantity return returned hazard damage manufacturer liability edge
@@ -48,7 +48,7 @@ STRUCTURE = frozenset("""a an the my our your his her their i we you he she they
     gusto gusto ko dahil kaya para kung ba ito nito bawat parehong dalawang
     hiwalay another separate separately also too then tapos saka tsaka
     kailan salon compliant edging nabayaran nabayarran kompanya kumpanya
-    home
+    home this that these those still
     """.split())
 PROTECTED = frozenset("""not no never without cannot can't won't don't didn't doesn't
     hindi hinde inde hnd hndi ndi nd di d wala walang ofw dti dole sena nlrc sss
@@ -71,6 +71,20 @@ def consonants(word):
     return re.sub(r"[aeiou]", "", key(word))
 
 
+def preserved_form(word):
+    """Keep ordinary words and inflections from becoming phonetic aliases."""
+    vocabulary=VOCABULARY | PRESERVED_WORDS | {'role','prove','proved','proven','proof','put','get','got','set','cut','let','run','act','try','use','due','owe','own'}
+    if word in vocabulary:return True
+    # An unfamiliar adverb is not evidence of a missing boundary (badly must
+    # not become "ba daily"). Leave it for whole-question interpretation.
+    if word.endswith('ly') and len(word)>3:return True
+    for suffix in ('ing','ed','es','s','er','or','ion'):
+        if word.endswith(suffix) and len(word)>len(suffix)+2:
+            stem=word[:-len(suffix)]
+            if stem in vocabulary or stem+'e' in vocabulary:return True
+    return False
+
+
 BY_CONSONANTS = {}
 for _term in sorted(ANCHORS):
     BY_CONSONANTS.setdefault(consonants(_term), []).append(_term)
@@ -78,7 +92,7 @@ for _term in sorted(ANCHORS):
 
 @lru_cache(maxsize=8192)
 def candidate(word):
-    if word in VOCABULARY or word in PRESERVED_WORDS or not word.isalpha() or len(word) < 3:
+    if preserved_form(word) or not word.isalpha() or len(word) < 3:
         return word
     collapsed = re.sub(r"(.)\1{2,}", r"\1", word)
     if collapsed in VOCABULARY:
@@ -88,12 +102,18 @@ def candidate(word):
         # Repair a run of 3+ against a unique whole declared word, without
         # inserting a syllable or changing the collapsed character sequence.
         once = re.sub(r"(.)\1+", r"\1", key(word))
-        repeated = [term for term in ANCHORS if re.sub(r"(.)\1+", r"\1", key(term)) == once]
+        repeated = [term for term in VOCABULARY if re.sub(r"(.)\1+", r"\1", key(term)) == once]
         if len(repeated) == 1:
             return repeated[0]
+    # Vowel insertion is defensible for compressed consonant clusters, not
+    # arbitrary unknown words. Sharing a consonant skeleton does not make
+    # two normally spelt words equivalent (e.g. hiring/hearing, kind/condo).
+    vowels=len(re.findall(r'[aeiou]',word))
+    compressed = bool(re.search(r'^[bcdfghjklmnpqrstvwxyz]{2}|[bcdfghjklmnpqrstvwxyz]{3}', word))
     options = [term for term in BY_CONSONANTS.get(consonants(word), [])
                if key(word)[:1] == key(term)[:1]
-               and (key(word) == key(term) or len(re.findall(r"[aeiou]", word)) < len(re.findall(r"[aeiou]", term)))
+               and (key(word) == key(term) or compressed and vowels < len(re.findall(r"[aeiou]", term))
+                    and SequenceMatcher(None,word,term).ratio() >= .7)
                and (len(consonants(term)) >= 3 or SequenceMatcher(None, key(word), key(term)).ratio() >= .8)]
     if len(options) == 1:
         return options[0]
@@ -104,17 +124,22 @@ def candidate(word):
 
 @lru_cache(maxsize=8192)
 def split_word(word):
-    if word in VOCABULARY or word in PRESERVED_WORDS or not word.isalpha() or len(word) > 48:
+    if preserved_form(word) or not word.isalpha() or len(word) > 48:
         return word
     options = []
-    approximate_pieces = (len(re.findall(r"[aeiou]", word)) / len(word) < .34
+    approximate_pieces = (len(re.findall(r"[aeiou]", word)) / len(word) < .25
+                          and bool(re.search(r'[bcdfghjklmnpqrstvwxyz]{3}',word))
                           or any(len(term) >= 5 and term in word for term in ANCHORS))
     whole = candidate(word)
     if whole != word:
         options.append((1.001, whole))
     def extend(start, parts, cost):
         if start == len(word):
+            # A short word embedded in another ordinary word is insufficient
+            # evidence of missing spaces (network must not become net work).
             if (len(parts) >= 2 and any(p in BOUNDARY_ANCHORS and len(p) >= 3 for p in parts)
+                    and (any(p in BOUNDARY_ANCHORS and len(p) >= 5 for p in parts)
+                         or any(p in STRUCTURE or p in PROTECTED for p in parts))
                     and not (len(parts) == 3 and cost > .3 and not approximate_pieces)):
                 options.append((cost + .001 * len(parts), " ".join(parts)))
             return

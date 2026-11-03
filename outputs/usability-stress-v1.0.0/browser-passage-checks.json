@@ -1,0 +1,7 @@
+{
+  "offline_purchase_has_no_online_remedy": true,
+  "shelf_price_uses_price_tag_rule": true,
+  "holiday_followup_is_one_holiday_passage": true,
+  "hidden_fee_has_sales_practice_passage": true,
+  "noisy_holiday_preserves_same_passage": true
+}

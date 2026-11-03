@@ -1,0 +1,26 @@
+{
+  "provenance": "AI-authored development/regression checks, not independent human or legal validation",
+  "llm_calls": 0,
+  "sets": {
+    "regression": {
+      "count": 50,
+      "flow_matches": 50,
+      "labeled": 46,
+      "label_matches": 46,
+      "exact_quote_cases": 50,
+      "quoted_responses": 23,
+      "median_local_analysis_ms": 187.4137500001325,
+      "failures": []
+    },
+    "fresh_synthetic": {
+      "count": 24,
+      "flow_matches": 24,
+      "labeled": 23,
+      "label_matches": 23,
+      "exact_quote_cases": 24,
+      "quoted_responses": 19,
+      "median_local_analysis_ms": 189.0038500000628,
+      "failures": []
+    }
+  }
+}

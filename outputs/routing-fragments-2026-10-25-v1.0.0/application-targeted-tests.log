@@ -1,0 +1,9 @@
+test_background_and_rule_followups_do_not_make_empty_extra_retrievals (backend.application.test_routing_fragment_repair.RoutingFragmentRepairTests.test_background_and_rule_followups_do_not_make_empty_extra_retrievals) ... ok
+test_excluded_jobs_and_missing_relationships_are_not_admitted (backend.application.test_routing_fragment_repair.RoutingFragmentRepairTests.test_excluded_jobs_and_missing_relationships_are_not_admitted) ... ok
+test_scope_request_does_not_create_an_extra_consumer_search_or_erase_privacy (backend.application.test_routing_fragment_repair.RoutingFragmentRepairTests.test_scope_request_does_not_create_an_extra_consumer_search_or_erase_privacy) ... ok
+test_three_valid_questions_reach_one_correct_domain_component (backend.application.test_routing_fragment_repair.RoutingFragmentRepairTests.test_three_valid_questions_reach_one_correct_domain_component) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 9.047s
+
+OK

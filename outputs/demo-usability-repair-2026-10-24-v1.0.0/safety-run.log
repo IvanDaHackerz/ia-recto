@@ -1,0 +1,7 @@
+DEMO_NEW_018 generated citations_and_automated_support_checked 11578 ms
+PH4_071 generated citations_and_automated_support_checked 12266 ms
+PH4_057 generated citations_and_automated_support_checked 20578 ms
+PH4_053 withheld citation_validation_failed 12453 ms
+PH4_056 withheld claim_support_failed 25891 ms
+PH4_051 generated citations_and_automated_support_checked 14234 ms
+Summary: {"input_forms": 6, "pending": 0, "errors": {}, "explanation_status": {"generated": 4, "withheld": 2}, "non_generated_reasons": {"citation_validation_failed": 1, "claim_support_failed": 1}, "failure_codes": {}, "validation_failures": {"source_qualification_missing": 1}, "latency_ms": {"p50": 13343.499999999949, "p95": 24562.749999999596, "maximum": 25890.99999999962}, "usage": {"day_utc": "2026-10-24", "provider_requests": 184, "estimated_usd": 0.17880615, "input_tokens": 600949, "output_tokens": 132481, "maximum_calls": 200, "maximum_estimated_usd": 0.35, "billing_verified": false}}

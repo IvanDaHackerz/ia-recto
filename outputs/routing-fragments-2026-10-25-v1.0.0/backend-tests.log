@@ -1,0 +1,99 @@
+Frozen 436 local development inputs
+Frozen 436 local development inputs
+..................................................................................................................F............................................................................................................................................E.EE...E......................
+======================================================================
+ERROR: test_current_local_replay_preserves_cases_judgments_and_export_plan (backend.test_normalization_evaluation.EvaluationTests.test_current_local_replay_preserves_cases_judgments_and_export_plan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_normalization_evaluation.py", line 58, in test_current_local_replay_preserves_cases_judgments_and_export_plan
+    output = prepare(Path(folder) / "study", frozen_cases=source, baseline_report=baseline)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 159, in prepare
+    "runtime_artifact_manifest_sha256": {current[name] + "/artifact_checksums.json": sha(ROOT / current[name] / "artifact_checksums.json")
+                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 30, in sha
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\IA\\outputs\\item11-retrieval-v1.3.53\\artifact_checksums.json'
+
+======================================================================
+ERROR: test_frozen_execution_question_only_and_final_report_cannot_be_overwritten (backend.test_normalization_evaluation.EvaluationTests.test_frozen_execution_question_only_and_final_report_cannot_be_overwritten)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_normalization_evaluation.py", line 209, in test_frozen_execution_question_only_and_final_report_cannot_be_overwritten
+    output = prepare(Path(directory) / "study")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 159, in prepare
+    "runtime_artifact_manifest_sha256": {current[name] + "/artifact_checksums.json": sha(ROOT / current[name] / "artifact_checksums.json")
+                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 30, in sha
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\IA\\outputs\\item11-retrieval-v1.3.53\\artifact_checksums.json'
+
+======================================================================
+ERROR: test_joined_cases_without_reference_metadata_can_finalize (backend.test_normalization_evaluation.EvaluationTests.test_joined_cases_without_reference_metadata_can_finalize)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_normalization_evaluation.py", line 95, in test_joined_cases_without_reference_metadata_can_finalize
+    output = prepare(Path(folder) / "study", frozen_cases=source,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 159, in prepare
+    "runtime_artifact_manifest_sha256": {current[name] + "/artifact_checksums.json": sha(ROOT / current[name] / "artifact_checksums.json")
+                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 30, in sha
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\IA\\outputs\\item11-retrieval-v1.3.53\\artifact_checksums.json'
+
+======================================================================
+ERROR: test_repair_suite_preserves_old_inputs_and_adds_partial_scope_stress (backend.test_normalization_evaluation.EvaluationTests.test_repair_suite_preserves_old_inputs_and_adds_partial_scope_stress)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\test_normalization_evaluation.py", line 124, in test_repair_suite_preserves_old_inputs_and_adds_partial_scope_stress
+    output = prepare(Path(directory) / "study", suite="repair")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 159, in prepare
+    "runtime_artifact_manifest_sha256": {current[name] + "/artifact_checksums.json": sha(ROOT / current[name] / "artifact_checksums.json")
+                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\IA\backend\evaluate_normalization.py", line 30, in sha
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gdhsb\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\IA\\outputs\\item11-retrieval-v1.3.53\\artifact_checksums.json'
+
+======================================================================
+FAIL: test_work_history_is_not_an_independent_termination_claim (backend.application.test_field_repairs.FieldRepairTests.test_work_history_is_not_an_independent_termination_claim)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\IA\backend\application\test_field_repairs.py", line 163, in test_work_history_is_not_an_independent_termination_claim
+    self.assertEqual(len(p['result']['components']),1)
+AssertionError: 2 != 1
+
+----------------------------------------------------------------------
+Ran 285 tests in 49.230s
+
+FAILED (failures=1, errors=4)
