@@ -18,11 +18,11 @@ export function LiveResult({ packet, edit, onReference, onFollowUp }: { packet: 
     {!generated && packet.response && <section className="generated-explanation response-summary" aria-label="Response">
       <h3>{packet.response.heading}</h3>
       {packet.response.paragraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
-      {!!packet.response.quotes.length && <div className="recorded-passages">{packet.response.quotes.map(quote => <figure className="response-quote" key={quote.chunk_id}>
+      {!!packet.response.quotes.length && <details className="recorded-passages"><summary>Read the recorded source passages</summary>{packet.response.quotes.map(quote => <figure className="response-quote" key={quote.chunk_id}>
         <figcaption><button type="button" className="text-link touch-link" onClick={event => onReference(quote.chunk_id, event.currentTarget, quote.component_id)}>{quote.citation_display}</button></figcaption>
         <blockquote>{quote.quote}</blockquote><p className="metadata">{quote.complete_provision ? "Complete stored provision." : "Recorded excerpt. Open the reference for the complete provision and its exceptions."} Current applicability remains under review.</p>
-      </figure>)}</div>}
-      <p className="metadata">Local response{packet.response.quotes.length ? " with recorded source text" : ""}. No live AI explanation was used.</p>
+      </figure>)}</details>}
+      <p className="metadata">{packet.response.ai_generated ? "AI response about your situation and the available next step. Factual context checked; this does not establish a legal answer." : `Local response${packet.response.quotes.length ? " with recorded source text" : ""}. No live AI explanation was used.`}</p>
       {packet.explanation.reason === "provider_unavailable" && <button type="button" className="text-link touch-link" onClick={edit}>Use this question again</button>}
     </section>}
     {!generated && !packet.response && <h3 className="live-route">{routeName(route?.routing_action)}</h3>}
@@ -57,7 +57,9 @@ export function LiveResult({ packet, edit, onReference, onFollowUp }: { packet: 
       <div><dt>Wording check</dt><dd>{wording?.status ?? "Local only"} · {wording?.llm_calls ?? 0} LLM calls</dd></div>
       <div><dt>Explanation</dt><dd>{packet.explanation.reason.replaceAll("_", " ")} · {packet.explanation.llm_calls} LLM calls</dd></div>
       {packet.explanation.status === "partially_generated" && <div><dt>Explanation coverage</dt><dd>{packet.explanation.claims.length} of {result?.components.length ?? 0} concerns explained by AI</dd></div>}
-      {packet.response && <div><dt>Response shown</dt><dd>{packet.response.ai_generated ? packet.explanation.status === "partially_generated" ? "Partial AI explanation" : "Checked AI explanation" : packet.response.quotes.length ? "Local response with source excerpts" : "Local response"}</dd></div>}
+      {packet.response && <div><dt>Response shown</dt><dd>{packet.response.kind === "ai_guidance" ? "AI situation response; no new legal rules" : packet.response.ai_generated ? packet.explanation.status === "partially_generated" ? "Partial AI explanation" : "Checked AI explanation" : packet.response.quotes.length ? "Local response with source excerpts" : "Local response"}</dd></div>}
+      {packet.response?.generation && <div><dt>Situation response</dt><dd>{packet.response.generation.reason.replaceAll("_", " ")} · {packet.response.generation.llm_calls} LLM calls</dd></div>}
+      {packet.situation_context && <div><dt>Question context</dt><dd>The scenario and its follow-up were searched together. Original classifier fragments: {packet.situation_context.original_components.map(c => c.query).join(" / ")}</dd></div>}
       {route?.reason === "explicit_component_scopes_require_evidence" && <div><dt>Why these parts were searched</dt><dd>Each separated concern matches a defined project category. The excluded concern was kept out of retrieval; the label confidence is unchanged.</dd></div>}
       {packet.guidance_context?.classification_is_conditional && <div><dt>Original classification</dt><dd>{labelName(packet.guidance_context.original_routing.predicted_primary)} · {packet.guidance_context.original_routing.reason.replaceAll("_", " ")}. Source search uses the stated private-sector assumption.</dd></div>}
       {packet.search_help && <div><dt>Additional search wording</dt><dd>{packet.search_help.query}</dd></div>}

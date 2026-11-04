@@ -2,6 +2,15 @@ import { describe, expect, it, vi } from "vitest";
 import { fetchApi, isChatResult } from "../data/api";
 import { packet } from "./fixtures";
 describe("chat contract", () => {
+  it("rejects AI situation guidance without its completed context check", () => {
+    const guidance = structuredClone(packet);
+    guidance.response = { version: "test", kind: "ai_guidance", heading: "About your situation", paragraphs: ["A fictional situation response."], ai_generated: true,
+      quotes: [], follow_up: null, follow_up_options: [] };
+    expect(isChatResult(guidance)).toBe(false);
+    guidance.response.context_checked = true;
+    guidance.response.generation = { status: "generated", reason: "factual_context_checked", llm_calls: 2 };
+    expect(isChatResult(guidance)).toBe(true);
+  });
   it("rejects malformed local responses and quotations that are absent from the source", () => {
     const local = structuredClone(packet);
     local.response = { version: "test", kind: "recorded_sources", heading: "What I found", paragraphs: ["Recorded material."], ai_generated: false, follow_up: null, follow_up_options: [],

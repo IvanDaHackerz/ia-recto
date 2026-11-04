@@ -1,0 +1,180 @@
+{
+  "packet": {
+    "inspection_only": true,
+    "labeled_evaluation": false,
+    "original_question_text": "Bagong rice cooker ang binili ko sa store pero hindi nagla-lock ang lid. Ano ang ibig sabihin nito para sa concern ko?",
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Bagong rice cooker ang binili ko sa store pero hindi nagla-lock ang lid. Ano ang ibig sabihin nito para sa concern ko?",
+      "normalized_question_text": null,
+      "effective_question_text": "Bagong rice cooker ang binili ko sa store pero hindi nagla-lock ang lid. Ano ang ibig sabihin nito para sa concern ko?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "clarification_follow_up": null,
+    "total_query_ms": 10591.784399999824,
+    "result": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "Bagong rice cooker ang binili ko sa store pero hindi nagla-lock ang lid. Ano ang ibig sabihin nito para sa concern ko?",
+      "question_sha256": "66db59acca6a9ee7410ccbe7896aa5d50b3470e20f0bb3cd61b675b23a7e44cc",
+      "mode": "current_guidance",
+      "as_of": "2026-11-04",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8759212835492677,
+        "scope_confidence": 0.9378330752863915
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "bagong rice cooker ang binili ko sa store pero hindi nagla-lock ang lid. ano ang ibig sabihin nito para sa concern ko",
+          "allowed_domain": "consumer",
+          "retrieval_status": "no_lexical_match",
+          "retrieval_reason": "no_matching_terms",
+          "candidates": [],
+          "evidence_gates": [],
+          "evidence_ready": false
+        }
+      ],
+      "offline_drafting_allowed": false,
+      "all_supported_components_evidence_ready": false,
+      "decision": "insufficient_evidence"
+    },
+    "privacy": {
+      "redacted": false,
+      "categories": {},
+      "guaranteed_complete": false,
+      "note": "Known identifiers are removed locally; avoid personal details. Names and indirect identifiers may still be missed.",
+      "external_ai_enabled": true
+    },
+    "safety_notice": null,
+    "explanation": {
+      "status": "withheld",
+      "reason": "source_context_unavailable",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false,
+      "unanswered_components": [
+        {
+          "component_id": "concern_001",
+          "query": "bagong rice cooker ang binili ko sa store pero hindi nagla-lock ang lid. ano ang ibig sabihin nito para sa concern ko",
+          "reason": "source_context_unavailable"
+        }
+      ]
+    },
+    "request_id": "0ea9049d10bf4531b8be3734e3a18a96",
+    "schema_version": "1.0",
+    "network_requests": [
+      {
+        "stage": "situation_response",
+        "model": "openai/gpt-oss-120b",
+        "elapsed_ms": 4246.7
+      },
+      {
+        "stage": "situation_response",
+        "model": "openai/gpt-oss-120b",
+        "elapsed_ms": 5714.8
+      }
+    ],
+    "history": {
+      "saved": false
+    },
+    "referrals": [
+      {
+        "id": "REF_DTI_CARE",
+        "agency": "Department of Trade and Industry",
+        "service": "Consumer Complaints Assistance and Resolution System",
+        "contact": {
+          "portal_url": "https://consumercare.dti.gov.ph/",
+          "email": "consumercare@dti.gov.ph",
+          "phone": "(02) 7215 1165",
+          "office_address": "5th Floor, Trade and Industry Building, 361 Sen. Gil J. Puyat Ave., 1200 Makati City"
+        },
+        "checked_on": "2026-10-17",
+        "information_url": "https://fairtrade.dti.gov.ph/faq/how-to-file-a-consumer-complaint/",
+        "note": "Phone is the FTEB general office number. Filing guidance on this page expressly addresses Metro Manila; regional offices may differ.",
+        "complete": true,
+        "jurisdiction_certified": false
+      }
+    ],
+    "source_review_notices": [],
+    "response": {
+      "version": "conversational-guidance-v1.3.0",
+      "kind": "source_limit",
+      "heading": "What I found",
+      "paragraphs": [
+        "I understand this as a concern within the project’s topics, but the available records are not sufficient for a supported legal explanation. That is a source limitation, not a conclusion that you have no rights.",
+        "Rewording a clear question will not add a missing legal source. You can inspect the library or the assistance contacts below for the next place to check."
+      ],
+      "follow_up": null,
+      "follow_up_options": [],
+      "quotes": [],
+      "ai_generated": false,
+      "generation": {
+        "status": "withheld",
+        "reason": "context_check_failed",
+        "llm_calls": 2
+      }
+    }
+  },
+  "provider_results": [
+    {
+      "schema": "situation_response",
+      "result": {
+        "paragraphs": [
+          "I understand this as a concern within the project’s topics, but the available records are not sufficient for a supported legal explanation. That is a source limitation, not a conclusion that you have no rights.",
+          "Rewording a clear question will not add a missing legal source. You can inspect the library or the assistance contacts below for the next place to check."
+        ]
+      }
+    },
+    {
+      "schema": "situation_response_check",
+      "result": {
+        "situation_preserved": true,
+        "scope_preserved": true,
+        "no_new_legal_claims": true,
+        "no_new_facts": true,
+        "no_case_outcome": true,
+        "answers_user_concern": false,
+        "response_plan_preserved": true
+      }
+    }
+  ]
+}

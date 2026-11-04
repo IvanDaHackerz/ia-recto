@@ -1,0 +1,700 @@
+{
+  "packet": {
+    "inspection_only": true,
+    "labeled_evaluation": false,
+    "original_question_text": "A private cinema requires ticket staff to count their cash drawers before clocking in. Does this required preparation count as working time?",
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "A private cinema requires ticket staff to count their cash drawers before clocking in. Does this required preparation count as working time?",
+      "normalized_question_text": null,
+      "effective_question_text": "A private cinema requires ticket staff to count their cash drawers before clocking in. Does this required preparation count as working time?",
+      "gate": {
+        "needed": false,
+        "reason": "raw_question_understood",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "raw_question_understood",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "clarification_follow_up": null,
+    "total_query_ms": 12079.235000000153,
+    "result": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "A private cinema requires ticket staff to count their cash drawers before clocking in. Does this required preparation count as working time?",
+      "question_sha256": "1b8a7e8ab484547a1743540c7cea34d7993a58dcc0b65625bb1a36db4d3bc3a7",
+      "mode": "current_guidance",
+      "as_of": "2026-11-04",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "retrieve_supported_evidence",
+        "reason": "supported_candidate_requires_evidence",
+        "clarification_question": null,
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8344828269476575,
+        "scope_confidence": 0.9163610396817086
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "components": [
+        {
+          "component_id": "concern_001",
+          "query": "A private cinema requires ticket staff to count their cash drawers before clocking in. Does this required preparation count as working time?",
+          "allowed_domain": "labor",
+          "retrieval_status": "candidates_found",
+          "retrieval_reason": "same_situation_follow_up",
+          "candidates": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_3__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_3",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+              "heading": "Hours worked",
+              "display_text": "SECTION 3. Hours worked. — The following shall be considered as compensable hours worked:\n\n(a) All time during which an employee is required to be on duty or to be at the employer's premises or to be at a prescribed work place; and\n\n(b) All time during which an employee is suffered or permitted to work.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 304,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 133004,
+                "source_char_end": 133310
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SECTION 3. Hours worked. — The following shall be considered as compensable hours worked:\n\n(a) All time during which an employee is required to be on duty or to be at the employer's premises or to be at a prescribed work place; and\n\n(b) All time during which an employee is suffered or permitted to work.",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work"
+              ],
+              "legal_status": "in_force_as_amended_not_a_current_consolidation",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "conditions": [
+                "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                "SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 20.516670682995308,
+              "bm25_score": 20.516670682995308,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE I"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_7__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_7",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 7",
+              "heading": "Meal and Rest Periods",
+              "display_text": "SECTION 7. Meal and Rest Periods. — Every employer shall give his employees, regardless of sex, not less than one (1) hour time-off for regular meals, except in the following cases when a meal period of not less than twenty (20) minutes may be given by the employer provided that such shorter meal period is credited as compensable hours worked of the employee:\n\n(a) Where the work is non-manual work in nature or does not involve strenuous physical exertion;\n\n(b) Where the establishment regularly operates not less than sixteen (16) hours a day;\n\n(c) In case of actual or impending emergencies or there is urgent work to be performed on machineries, equipment or installations to avoid serious loss which the employer would otherwise suffer; and\n\n(d) Where the work is necessary to prevent serious loss of perishable goods.\n\nRest periods or coffee breaks running from five (5) to twenty (20) minutes shall be considered as compensable working time.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 950,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 135639,
+                "source_char_end": 136591
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SECTION 7. Meal and Rest Periods. — Every employer shall give his employees, regardless of sex, not less than one (1) hour time-off for regular meals, except in the following cases when a meal period of not less than twenty (20) minutes may be given by the employer provided that such shorter meal period is credited as compensable hours worked of the employee:\n\n(a) Where the work is non-manual work in nature or does not involve strenuous physical exertion;\n\n(b) Where the establishment regularly operates not less than sixteen (16) hours a day;\n\n(c) In case of actual or impending emergencies or there is urgent work to be performed on machineries, equipment or installations to avoid serious loss which the employer would otherwise suffer; and\n\n(d) Where the work is necessary to prevent serious loss of perishable goods.\n\nRest periods or coffee breaks running from five (5) to twenty (20) minutes shall be considered as compensable working time.",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work"
+              ],
+              "legal_status": "in_force_as_amended_not_a_current_consolidation",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "conditions": [
+                "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                "SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 16.787294286440467,
+              "bm25_score": 16.787294286440467,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 7 — BOOK THREE, RULE I"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_84__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_84",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 84",
+              "heading": "Hours Worked",
+              "display_text": "ART. 84. Hours Worked. – Hours worked shall include (a) all time during which an\nemployee is required to be on duty or to be at a prescribed workplace; and (b) all time during\nwhich an employee is suffered or permitted to work.\n\nRest periods of short duration during working hours shall be counted as hours worked.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 314,
+              "source_locator": {
+                "pdf_page_start": 39,
+                "pdf_page_end": 40,
+                "printed_page_start": "27",
+                "printed_page_end": "28",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 84. Hours Worked. – Hours worked shall include (a) all time during which an\nemployee is required to be on duty or to be at a prescribed workplace; and (b) all time during\nwhich an employee is suffered or permitted to work.\n\nRest periods of short duration during working hours shall be counted as hours worked.",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work"
+              ],
+              "legal_status": "official_consolidation_through_2022",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "conditions": [
+                "Check for post-2022 statutes and issuances before stating the present rule."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ],
+              "quality_flags": [],
+              "review_status": "machine_validated",
+              "extraction_method": "pdf_text",
+              "score": 15.480875742565843,
+              "bm25_score": 15.480875742565843,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false,
+              "citation_label": "PD 442, as amended and renumbered, ART. 84"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_4__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_4",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+              "heading": "Principles in determining hours worked",
+              "display_text": "SECTION 4. Principles in determining hours worked. — The following general principles shall govern in determining whether the time spent by an employee is considered hours worked for purposes of this Rule:\n\n(a) All hours are hours worked which the employee is required to give his employer, regardless of whether or not such hours are spent in productive labor or involve physical or mental exertion.\n\n(b) An employee need not leave the premises of the work place in order that his rest period shall not be counted, it being enough that he stops working, may rest completely and may leave his work place, to go elsewhere, whether within or outside the premises of his work place.\n\n(c) If the work performed was necessary, or it benefited the employer, or the employee could not abandon his work at the end of his normal working hours because he had no replacement, all time spent for such work shall be considered as hours worked, if the work was with the knowledge of his employer or immediate supervisor.\n\n(d) The time during which an employee is inactive by reason of interruptions in his work beyond his control shall be considered working time either if the imminence of the resumption of work requires the employee's presence at the place of work or if the interval is too brief to be utilized effectively and gainfully in the employee's own interest.",
+              "normalized_char_start": 0,
+              "normalized_char_end": 1357,
+              "source_locator": {
+                "pdf_page_start": null,
+                "pdf_page_end": null,
+                "printed_page_start": null,
+                "printed_page_end": null,
+                "html_anchor": null,
+                "source_region": "main legal text",
+                "source_char_start": 133310,
+                "source_char_end": 134669
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "SECTION 4. Principles in determining hours worked. — The following general principles shall govern in determining whether the time spent by an employee is considered hours worked for purposes of this Rule:\n\n(a) All hours are hours worked which the employee is required to give his employer, regardless of whether or not such hours are spent in productive labor or involve physical or mental exertion.\n\n(b) An employee need not leave the premises of the work place in order that his rest period shall not be counted, it being enough that he stops working, may rest completely and may leave his work place, to go elsewhere, whether within or outside the premises of his work place.\n\n(c) If the work performed was necessary, or it benefited the employer, or the employee could not abandon his work at the end of his normal working hours because he had no replacement, all time spent for such work shall be considered as hours worked, if the work was with the knowledge of his employer or immediate supervisor.\n\n(d) The time during which an employee is inactive by reason of interruptions in his work beyond his control shall be considered working time either if the imminence of the resumption of work requires the employee's presence at the place of work or if the interval is too brief to be utilized effectively and gainfully in the employee's own interest.",
+              "document_title": "Omnibus Rules Implementing the Labor Code",
+              "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "retrieval_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/regulations/omnibus_rules_implementing_labor_code_scel.html",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work"
+              ],
+              "legal_status": "in_force_as_amended_not_a_current_consolidation",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "conditions": [
+                "Before using a provision, check the manifest relationships and later topic-specific orders.",
+                "SECTION 1. General statement on coverage. — The provisions of this Rule shall apply to all employees in all establishments and undertakings, whether operated for profit or not, except to those specifically exempted under Section 2 hereof."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_008",
+                  "source_document_id": "LAB_IRR_1989",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "implements",
+                  "scope": "General Labor Code implementing rules",
+                  "effective_or_issue_date": "1989-05-27",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/85819",
+                  "confidence": "high",
+                  "note": "Later subject-specific amendments control."
+                },
+                {
+                  "relationship_id": "LSR_009",
+                  "source_document_id": "DOLE_DO_147_15",
+                  "target_document_id": "LAB_IRR_1989",
+                  "target_citation_if_external": "",
+                  "relationship_type": "amends",
+                  "scope": "Book VI termination rules",
+                  "effective_or_issue_date": "2015-09-07",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/71535",
+                  "confidence": "high",
+                  "note": "Book VI answers should retrieve the amended rule rather than the older text alone."
+                }
+              ],
+              "quality_flags": [
+                "table_structure_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "html_structural",
+              "score": 13.350195217747173,
+              "bm25_score": 13.350195217747173,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 4 — BOOK THREE, RULE I"
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+              "provision_id": "LAB_CODE_2022__art_83",
+              "document_id": "LAB_CODE_2022",
+              "citation_display": "PD 442, as amended and renumbered, ART. 83",
+              "heading": "Normal Hours of Work",
+              "display_text": "ART. 83. Normal Hours of Work. – The normal hours of work of any employee shall not\nexceed eight (8) hours a day.\nHealth personnel in cities and municipalities with a population of at least one million\n(1,000,000) or in hospitals and clinics with a bed capacity of at least one hundred (100) shall\nhold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time\nfor meals, except where the exigencies of the service require that such personnel work for six\n(6) days or forty-eight (48) hours, in which case, they shall be entitled to an additional\ncompensation of at least thirty percent (30%) of their regular wage for work on the sixth day.\nFor purposes of this Article, \"health personnel\" shall include resident physicians, nurses,\nnutritionists, dieticians, pharmacists, social workers, laboratory technicians, paramedical\ntechnicians, psychologists, midwives, attendants and all other hospital or clinic personnel.72",
+              "normalized_char_start": 0,
+              "normalized_char_end": 954,
+              "source_locator": {
+                "pdf_page_start": 39,
+                "pdf_page_end": 39,
+                "printed_page_start": "27",
+                "printed_page_end": "27",
+                "html_anchor": null,
+                "source_region": "PDF page text",
+                "source_char_start": null,
+                "source_char_end": null
+              },
+              "former_locator_labels": [],
+              "parent_provision_id": null,
+              "parent_text": "ART. 83. Normal Hours of Work. – The normal hours of work of any employee shall not\nexceed eight (8) hours a day.\nHealth personnel in cities and municipalities with a population of at least one million\n(1,000,000) or in hospitals and clinics with a bed capacity of at least one hundred (100) shall\nhold regular office hours for eight (8) hours a day, for five (5) days a week, exclusive of time\nfor meals, except where the exigencies of the service require that such personnel work for six\n(6) days or forty-eight (48) hours, in which case, they shall be entitled to an additional\ncompensation of at least thirty percent (30%) of their regular wage for work on the sixth day.\nFor purposes of this Article, \"health personnel\" shall include resident physicians, nurses,\nnutritionists, dieticians, pharmacists, social workers, laboratory technicians, paramedical\ntechnicians, psychologists, midwives, attendants and all other hospital or clinic personnel.72",
+              "document_title": "Labor Code of the Philippines - Renumbered DOLE Edition 2022",
+              "official_source_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+              "retrieval_url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/15242/PHL15242%202022.pdf",
+              "raw_local_path": "dataset/canonical_sources/raw/labor/dole_labor_code_2022.pdf",
+              "domains": [
+                "labor"
+              ],
+              "supported_topics": [
+                "labor.hours_of_work",
+                "labor.wages_payment"
+              ],
+              "legal_status": "official_consolidation_through_2022",
+              "status_family": "current_with_conditions",
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "conditions": [
+                "Check for post-2022 statutes and issuances before stating the present rule."
+              ],
+              "legal_relationships": [
+                {
+                  "relationship_id": "LSR_001",
+                  "source_document_id": "LAB_CODE_2022",
+                  "target_document_id": "PD_442_1974",
+                  "target_citation_if_external": "",
+                  "relationship_type": "consolidates_as_amended_and_renumbered",
+                  "scope": "Labor Code text through the edition's cutoff",
+                  "effective_or_issue_date": "2022",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/labor-code-of-the-philippines-2/",
+                  "confidence": "high",
+                  "note": "A consolidation is not a new enactment and requires a post-2022 freshness check."
+                },
+                {
+                  "relationship_id": "LSR_010",
+                  "source_document_id": "DOLE_LA_06_20",
+                  "target_document_id": "LAB_CODE_2022",
+                  "target_citation_if_external": "",
+                  "relationship_type": "provides_agency_guidance",
+                  "scope": "Final pay and certificate of employment timelines",
+                  "effective_or_issue_date": "2020-01-31",
+                  "status_as_of": "2026-09-29",
+                  "evidence_url": "https://dole.gov.ph/news/labor-advisory-no-06-20-guidelines-on-the-payment-of-final-pay-and-issuance-of-certificate-of-emplo/",
+                  "confidence": "medium_high",
+                  "note": "No official superseding advisory was located in this audit."
+                }
+              ],
+              "quality_flags": [
+                "footnotes_present"
+              ],
+              "review_status": "machine_validated",
+              "extraction_method": "pdf_text",
+              "score": 10.03242916723425,
+              "bm25_score": 10.03242916723425,
+              "semantic_similarity": null,
+              "retrieval_candidate_only": true,
+              "answer_generation_allowed": false,
+              "citation_label": "PD 442, as amended and renumbered, ART. 83"
+            }
+          ],
+          "evidence_gates": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_3__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_7__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_84__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_4__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Before using a provision, check the manifest relationships and later topic-specific orders.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            },
+            {
+              "chunk_id": "LAB_CODE_2022__art_83__chunk_0001",
+              "passed": false,
+              "reasons": [
+                "scoped_currentness_review_missing"
+              ],
+              "source_review_ids": [],
+              "required_related_documents": [],
+              "unavailable_related_documents": [],
+              "status_as_of": "2026-09-29",
+              "freshness_rule": "Check for post-2022 statutes and issuances before stating the present rule.",
+              "currentness_reviewed": false,
+              "recorded_excerpt_only": false
+            }
+          ],
+          "evidence_ready": false
+        }
+      ],
+      "offline_drafting_allowed": false,
+      "all_supported_components_evidence_ready": false,
+      "decision": "insufficient_evidence"
+    },
+    "privacy": {
+      "redacted": false,
+      "categories": {},
+      "guaranteed_complete": false,
+      "note": "Known identifiers are removed locally; avoid personal details. Names and indirect identifiers may still be missed.",
+      "external_ai_enabled": true
+    },
+    "safety_notice": null,
+    "situation_context": {
+      "reason": "same_situation_follow_up",
+      "original_components": [
+        {
+          "component_id": "concern_001",
+          "query": "a private cinema requires ticket staff to count their cash drawers before clocking in"
+        },
+        {
+          "component_id": "concern_002",
+          "query": "does this required preparation count as working time"
+        }
+      ]
+    },
+    "explanation": {
+      "status": "generated",
+      "reason": "citations_and_automated_support_checked",
+      "llm_calls": 2,
+      "claims": [
+        {
+          "claim_id": "development_1",
+          "component_id": "concern_001",
+          "text": "A private cinema requires ticket staff to count their cash drawers before clocking in. You describe that the cinema makes ticket staff count their cash drawers before they clock in. Under the Omnibus Rules, any time an employee is required to be on the employer’s premises or at a prescribed workplace counts as compensable work (Section 3(a)). Counting the drawer is a task the employer mandates before the employee can start his shift, so the staff are required to be at the workplace and to perform work‑related activity. The same principle is reinforced in Section 4(a), which says all hours the employee is required to give the employer are hours worked, regardless of whether the activity is productive labor. Therefore, the pre‑clock‑in cash‑counting period is likely considered working time, unless the employer can show it is a purely voluntary activity not required for the job.",
+          "citations": [
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_3__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_3",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 3",
+              "quote": "(a) All time during which an employee is required to be on duty or to be at the employer's premises or to be at a prescribed work place; and",
+              "start": 91,
+              "end": 231,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 3 — BOOK THREE, RULE I"
+            },
+            {
+              "chunk_id": "LAB_IRR_1989__rule_i_hours_of_work__section_4__chunk_0001",
+              "provision_id": "LAB_IRR_1989__rule_i_hours_of_work__section_4",
+              "document_id": "LAB_IRR_1989",
+              "citation_display": "Omnibus Rules Implementing the Labor Code, SECTION 4",
+              "quote": "(a) All hours are hours worked which the employee is required to give his employer, regardless of whether or not such hours are spent in productive labor or involve physical or mental exertion.",
+              "start": 207,
+              "end": 400,
+              "citation_label": "Omnibus Rules Implementing the Labor Code, SECTION 4 — BOOK THREE, RULE I"
+            }
+          ]
+        }
+      ],
+      "mode": "development_recorded_sources",
+      "citations_checked": true,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": true,
+      "support_check_independent": false,
+      "usage_generation": {
+        "prompt_tokens": 5264,
+        "completion_tokens": 359,
+        "total_tokens": 5623
+      },
+      "usage_support": {
+        "prompt_tokens": 2578,
+        "completion_tokens": 837,
+        "total_tokens": 3415
+      },
+      "coverage_complete": true,
+      "unanswered_components": [],
+      "provider": "together",
+      "model": "openai/gpt-oss-120b"
+    },
+    "request_id": "b77780f44d654783bf7855d08bcf6d2c",
+    "schema_version": "1.0",
+    "network_requests": [
+      {
+        "stage": "explanation_generation",
+        "model": "openai/gpt-oss-120b",
+        "elapsed_ms": 4953.8
+      },
+      {
+        "stage": "explanation_support",
+        "model": "openai/gpt-oss-120b",
+        "elapsed_ms": 6380.1
+      }
+    ],
+    "history": {
+      "saved": false
+    },
+    "referrals": [
+      {
+        "id": "REF_DOLE_ARMS",
+        "agency": "Department of Labor and Employment",
+        "service": "DOLE Assistance for Request Management System / SEnA",
+        "contact": {
+          "portal_url": "https://arms.dole.gov.ph/"
+        },
+        "checked_on": "2026-10-17",
+        "information_url": "https://arms.dole.gov.ph/",
+        "note": "Official portal describes filing and tracking RFAs; phone not reverified on this page.",
+        "complete": false,
+        "jurisdiction_certified": false
+      }
+    ],
+    "source_review_notices": [],
+    "response": {
+      "version": "conversational-guidance-v1.3.0",
+      "kind": "ai_explanation",
+      "heading": "AI explanation",
+      "paragraphs": [],
+      "follow_up": null,
+      "follow_up_options": [],
+      "quotes": [],
+      "ai_generated": true
+    }
+  },
+  "provider_results": [
+    {
+      "schema": "recorded_source_explanation",
+      "result": {
+        "paragraphs": [
+          {
+            "component_id": "concern_001",
+            "text": "You describe that the cinema makes ticket staff count their cash drawers before they clock in. Under the Omnibus Rules, any time an employee is required to be on the employer’s premises or at a prescribed workplace counts as compensable work (Section 3(a)). Counting the drawer is a task the employer mandates before the employee can start his shift, so the staff are required to be at the workplace and to perform work‑related activity. The same principle is reinforced in Section 4(a), which says all hours the employee is required to give the employer are hours worked, regardless of whether the activity is productive labor. Therefore, the pre‑clock‑in cash‑counting period is likely considered working time, unless the employer can show it is a purely voluntary activity not required for the job.",
+            "situation": "A private cinema requires ticket staff to count their cash drawers before clocking in.",
+            "evidence": [
+              {
+                "quote_id": "concern_001.s1.q2"
+              },
+              {
+                "quote_id": "concern_001.s4.q2"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "schema": "explanation_support",
+      "result": {
+        "assessments": [
+          {
+            "claim_id": "development_1",
+            "verdict": "supported",
+            "qualifications_preserved": true,
+            "no_case_outcome": true,
+            "no_excluded_advice": true,
+            "no_new_facts": true
+          }
+        ]
+      }
+    }
+  ]
+}

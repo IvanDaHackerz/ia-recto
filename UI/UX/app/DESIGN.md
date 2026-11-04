@@ -231,6 +231,8 @@ State transitions use feedback timing (160ms), with an active press of (1px) ove
 
 ### Inputs / Fields
 
+The question composer sends on Enter through the same form submission as Ask. Shift+Enter inserts a line break. Composition-confirming Enter and held-key repeats do not send; empty questions and active requests retain their existing submission guards. The helper text states both shortcuts.
+
 Search, select and composer fields use the existing strong boundary, paper ground and control corner. The pinned workspace textarea uses Public Sans, the frontmatter's input padding, line-height (1.55), minimum height (3.6rem) and maximum height (20dvh). Privacy options are a named disclosure below it; checked state is visible in native controls with navy accent.
 
 ### Navigation
@@ -253,7 +255,7 @@ Examples are ruled rows with serif question text and a quiet topic line. Hover/f
 
 Local fallback responses use the same readable explanation measure with a distinct local-response disclosure. A complete short recorded provision or one complete paragraph appears as a serif block quotation, with its source action above and completeness/currentness metadata below. General employment scope uses a flat ruled paragraph, followed by a single targeted follow-up section; wrapping employment-type buttons fill the composer without submitting. Retain the 44px controls, keyboard focus and responsive wrapping. These additions do not introduce a new color, shadow or card system.
 
-Source fallback headings say “Recorded source passages” and describe local topic selection without claiming an explanation or legal support. Diagnostics expose topic, topic coverage and label confidence on local, referral and clarification paths as well as generated responses. Identical local quotations appear once. Preserve these distinctions when extending the response flow.
+Responses lead with the person's concern and its relation to the available rules. A checked legal explanation remains distinct from an AI situation response that explains a clarification, scope boundary or source gap without adding legal rules. The latter discloses its factual-context check and does not claim legal-source support. Local fallbacks use “About your question” with topic-specific reading help. Exact recorded passages sit in a named disclosure beneath that prose. Diagnostics expose both generation paths, original fragments when the application groups a same-scenario follow-up, topic coverage and label confidence. Identical local quotations appear once.
 
 Generated explanations reveal by word with a Show full answer control. Screen readers receive the full paragraph immediately; a reduced-motion preference or hidden document completes the reveal. Citation controls stay available and select the response, concern and matching chunk. Mobile source navigation restores focus to the invoking control when returning.
 

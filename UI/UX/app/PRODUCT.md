@@ -84,6 +84,8 @@ The Library remains a generated source-inspection snapshot. Complete legal text,
 
 All five original reviewer returns were imported earlier. AI-authored development and AI-reviewed question sets remain separate from the empty fresh independent-human intake. Required independent human, legal-professional, accessibility/user and owner/adviser acceptance cannot be supplied by generated artifacts.
 
+The 4 November response repair makes the person’s situation explicit in AI explanations, separating reported quantities from legal quantities for local validation before the full prose is support-checked. When a legal explanation is unavailable, AI can instead explain the specific scope, source or clarification limit without adding legal rules; a separate factual-context check must pass. These responses are clearly distinguished from source-supported legal explanations. Known service failures do not trigger an immediate second transport attempt, and AI-off remains local. Same-scenario search grouping preserves the original classifier fragments and recomputes evidence gates; it does not retrain the classifier or change its label probabilities.
+
 ### Open decisions
 
 Public hosting/TLS, deployed authentication and privacy governance, broader language/device support, fresh independent testing and legal/currentness approval remain release decisions. The loopback API and Vite launcher are development services. Source review gates, software tests and a same-model support judge do not establish current legal correctness.

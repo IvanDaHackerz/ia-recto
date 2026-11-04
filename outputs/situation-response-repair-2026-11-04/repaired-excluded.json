@@ -1,0 +1,144 @@
+{
+  "packet": {
+    "inspection_only": true,
+    "labeled_evaluation": false,
+    "original_question_text": "Regular employee ako ng city treasurer's office. May salary deduction na gusto kong i-dispute. Anong rules ang puwede mong i-apply?",
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Regular employee ako ng city treasurer's office. May salary deduction na gusto kong i-dispute. Anong rules ang puwede mong i-apply?",
+      "normalized_question_text": null,
+      "effective_question_text": "Regular employee ako ng city treasurer's office. May salary deduction na gusto kong i-dispute. Anong rules ang puwede mong i-apply?",
+      "gate": {
+        "needed": false,
+        "reason": "local_path",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "local_path",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "clarification_follow_up": null,
+    "total_query_ms": 9105.268500000193,
+    "result": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "Regular employee ako ng city treasurer's office. May salary deduction na gusto kong i-dispute. Anong rules ang puwede mong i-apply?",
+      "question_sha256": "ebf9cf64b904d1e3eadeb45928792ca6cc4df3bbcbe3fc10aabd69164fceff69",
+      "mode": "current_guidance",
+      "as_of": "2026-11-04",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "clarify",
+        "reason": "unresolved_component_scope",
+        "clarification_question": "Could you clarify the concern and who is responsible for each part? One part is still unclear.",
+        "predicted_primary": "labor",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8759212835492675,
+        "scope_confidence": 0.9378330752863913
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "components": [],
+      "offline_drafting_allowed": false,
+      "all_supported_components_evidence_ready": false,
+      "decision": "clarify"
+    },
+    "privacy": {
+      "redacted": false,
+      "categories": {},
+      "guaranteed_complete": false,
+      "note": "Known identifiers are removed locally; avoid personal details. Names and indirect identifiers may still be missed.",
+      "external_ai_enabled": true
+    },
+    "safety_notice": null,
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "request_id": "5a3aa90e66e443d79f387f038c8d64a3",
+    "schema_version": "1.0",
+    "network_requests": [
+      {
+        "stage": "situation_response",
+        "model": "openai/gpt-oss-120b",
+        "elapsed_ms": 3005.4
+      },
+      {
+        "stage": "situation_response",
+        "model": "openai/gpt-oss-120b",
+        "elapsed_ms": 5770.8
+      }
+    ],
+    "history": {
+      "saved": false
+    },
+    "referrals": [],
+    "source_review_notices": [],
+    "response": {
+      "version": "conversational-guidance-v1.3.0",
+      "kind": "clarification",
+      "heading": "Let’s work out the concern",
+      "paragraphs": [
+        "I need one more detail to choose the right sources. This project covers selected Philippine private-sector employment and ordinary consumer-purchase concerns."
+      ],
+      "follow_up": "Could you clarify the concern and who is responsible for each part? One part is still unclear.",
+      "follow_up_options": [],
+      "quotes": [],
+      "ai_generated": false,
+      "generation": {
+        "status": "withheld",
+        "reason": "context_check_failed",
+        "llm_calls": 2
+      }
+    }
+  },
+  "provider_results": [
+    {
+      "schema": "situation_response",
+      "result": {
+        "paragraphs": [
+          "Kailangan ko pa ng isang detalye para makapili ng tamang sources. Saklaw ng project na ito ang ilang private-sector employment at ordinary consumer-purchase concerns sa Pilipinas.",
+          "Pwede mo bang linawin ang concern at kung sino ang responsible sa bawat parte? May isang parte na hindi pa klaro."
+        ]
+      }
+    },
+    {
+      "schema": "situation_response_check",
+      "result": {
+        "situation_preserved": true,
+        "scope_preserved": true,
+        "no_new_legal_claims": true,
+        "no_new_facts": true,
+        "no_case_outcome": true,
+        "answers_user_concern": false,
+        "response_plan_preserved": true
+      }
+    }
+  ]
+}

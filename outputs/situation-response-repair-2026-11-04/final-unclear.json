@@ -1,0 +1,133 @@
+{
+  "packet": {
+    "inspection_only": true,
+    "labeled_evaluation": false,
+    "original_question_text": "Hindi nila ibinibigay ang bayad ko. Ano ang puwede kong gawin?",
+    "normalization": {
+      "version": "conditional-normalization-v3.0.1",
+      "original_question_text": "Hindi nila ibinibigay ang bayad ko. Ano ang puwede kong gawin?",
+      "normalized_question_text": null,
+      "effective_question_text": "Hindi nila ibinibigay ang bayad ko. Ano ang puwede kong gawin?",
+      "gate": {
+        "needed": false,
+        "reason": "local_path",
+        "trigger_spans": [],
+        "mode": "whole_question_interpretation"
+      },
+      "status": "bypassed",
+      "reason": "local_path",
+      "llm_calls": 0,
+      "elapsed_ms": 0.0,
+      "edits": [],
+      "usage": {},
+      "provider": null,
+      "model": null,
+      "clarification_question": null,
+      "performance_evaluation_completed": false,
+      "meaning_preservation_guaranteed": false,
+      "validation_failure": null
+    },
+    "clarification_follow_up": null,
+    "total_query_ms": 10130.594199999905,
+    "result": {
+      "schema_version": "1.0",
+      "verifier_version": "item12-verifier-v1.0.65",
+      "question_text": "Hindi nila ibinibigay ang bayad ko. Ano ang puwede kong gawin?",
+      "question_sha256": "e8440e7f23edcd927c46581a2489722dc52c9f068784fc887296eb5662d63c26",
+      "mode": "current_guidance",
+      "as_of": "2026-11-04",
+      "classifier_version": "item10-classifier-v1.5.72",
+      "index_version": "item11-retrieval-v1.3.59",
+      "policy_sha256": "d1c20131778b823f034b8011291ef83f0acb25fd7ea8685098d16dbe18bc5490",
+      "review_store_sha256": "3bcf39cbde2e4fa4de26b67d79a1f728d08df7350d531d0d446d7c841938c8fc",
+      "software_fixture_mode": false,
+      "answer_generation_allowed": false,
+      "deployment_allowed": false,
+      "display_allowed": false,
+      "confidence_meaning": "Classifier label probabilities and retrieval ranking only; no legal-correctness probability.",
+      "routing": {
+        "routing_action": "clarify",
+        "reason": "payment_context_missing",
+        "clarification_question": "What was the payment for, and who was supposed to pay or receive it?",
+        "predicted_primary": "consumer",
+        "predicted_scope": "fully_supported",
+        "primary_confidence": 0.8496821558440633,
+        "scope_confidence": 0.9242368284536829
+      },
+      "excluded_components": [],
+      "referral_ids": [],
+      "components": [],
+      "offline_drafting_allowed": false,
+      "all_supported_components_evidence_ready": false,
+      "decision": "clarify"
+    },
+    "privacy": {
+      "redacted": false,
+      "categories": {},
+      "guaranteed_complete": false,
+      "note": "Known identifiers are removed locally; avoid personal details. Names and indirect identifiers may still be missed.",
+      "external_ai_enabled": true
+    },
+    "safety_notice": null,
+    "explanation": {
+      "status": "withheld",
+      "reason": "supported_concern_required",
+      "llm_calls": 0,
+      "claims": [],
+      "mode": "development_recorded_sources",
+      "citations_checked": false,
+      "legal_support_verified": false,
+      "currentness_reviewed": false,
+      "automated_support_checked": false,
+      "support_check_independent": false
+    },
+    "request_id": "ddcb6c1cbd10454885d9e5de60ce7d24",
+    "schema_version": "1.0",
+    "network_requests": [
+      {
+        "stage": "situation_response",
+        "model": "openai/gpt-oss-120b",
+        "elapsed_ms": 4003.2
+      },
+      {
+        "stage": "situation_response",
+        "model": "openai/gpt-oss-120b",
+        "elapsed_ms": 5866.7
+      }
+    ],
+    "history": {
+      "saved": false
+    },
+    "referrals": [],
+    "source_review_notices": [],
+    "response": {
+      "version": "conversational-guidance-v1.3.0",
+      "kind": "clarification",
+      "heading": "Let’s work out the concern",
+      "paragraphs": [
+        "I need one more detail to choose the right sources. This project covers selected Philippine private-sector employment and ordinary consumer-purchase concerns."
+      ],
+      "follow_up": "What was the payment for, and who was supposed to pay or receive it?",
+      "follow_up_options": [],
+      "quotes": [],
+      "ai_generated": false,
+      "generation": {
+        "status": "unavailable",
+        "reason": "provider_incomplete_output",
+        "llm_calls": 2
+      }
+    }
+  },
+  "provider_results": [
+    {
+      "schema": "situation_response",
+      "result": {
+        "situation": "Hindi binabayaran ang iyong bayad; kailangan naming malaman kung anong uri ng bayad ito at sino ang dapat magbayad o tumanggap nito.",
+        "paragraphs": [
+          "Kailangan ko pa ng karagdagang detalye para makapili ng tamang sanggunian. Ang proyektong ito ay sumasaklaw sa mga usapin sa pribadong sektor ng trabaho at ordinaryong consumer purchase sa Pilipinas.",
+          "Puwede mo bang ilarawan kung ano ang bayad na hindi ibinibigay, at sino ang dapat magbigay o tumanggap nito?"
+        ]
+      }
+    }
+  ]
+}

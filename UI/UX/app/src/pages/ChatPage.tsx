@@ -78,6 +78,12 @@ export function ChatPage() {
       ], { duration: 520, easing: "cubic-bezier(0.16, 1, 0.3, 1)" });
     }
   }
+  function questionKeyDown(event: React.KeyboardEvent<HTMLTextAreaElement>) {
+    if (event.key !== "Enter" || event.shiftKey || event.ctrlKey || event.altKey || event.metaKey
+      || event.nativeEvent.isComposing || event.nativeEvent.keyCode === 229) return;
+    event.preventDefault();
+    if (!event.repeat) event.currentTarget.form?.requestSubmit();
+  }
   async function submit(event: React.FormEvent) {
     event.preventDefault();
     const query = value.trim();
@@ -174,11 +180,11 @@ export function ChatPage() {
         </div>
         {conversation ? <div className="workspace-composer"><p className="metadata">Archived design examples. These scripted answers were not generated or verified by the current backend.</p><button type="button" className="primary-button" onClick={newChat}>Start a live question</button></div> : <form onSubmit={submit} className="composer workspace-composer">
           <label htmlFor="query">{turns.length ? "Try another question" : "Your question"}</label>
-          <div className="query-control"><textarea ref={inputRef} id="query" value={value} onChange={event => setValue(event.target.value)} rows={2} maxLength={8000}
+          <div className="query-control"><textarea ref={inputRef} id="query" value={value} onChange={event => setValue(event.target.value)} onKeyDown={questionKeyDown} rows={2} maxLength={8000}
             placeholder="Ask about a labor or consumer concern…" aria-describedby="query-help" />
             <button className="primary-button" aria-label="Ask" disabled={!value.trim() || pending} type="submit"><Send size={17} aria-hidden="true" /><span>{pending ? "Checking…" : "Ask"}</span></button></div>
           <details className="composer-options"><summary>AI &amp; saving · {useAI ? "AI on" : "Local only"} · {saveHistory ? "Saving on" : "Saving off"}</summary><PrivacyControls /></details>
-          <p id="query-help" className="metadata">Use fictional details. Each question is checked independently; include the complete concern and any requested facts. <Link to="/about">Scope &amp; privacy</Link></p>
+          <p id="query-help" className="metadata">Enter to send. Shift+Enter for a new line. Use fictional details. Each question is checked independently; include the complete concern and any requested facts. <Link to="/about">Scope &amp; privacy</Link></p>
         </form>}
       </div>
       <aside className="sources-panel" aria-label="Source references">

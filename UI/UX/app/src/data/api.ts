@@ -17,7 +17,9 @@ export type ChatResult = {
   clarification_follow_up: { question: string } | null;
   guidance_context?: { mode: string; note: string; follow_up: string; classification_is_conditional: boolean; original_routing: Routing };
   search_help?: { query: string; reason: string; changes_user_facts: false };
+  situation_context?: { reason: string; original_components: { component_id: string; query: string }[] };
   response?: { version: string; kind: string; heading: string; paragraphs: string[]; ai_generated: boolean;
+    context_checked?: boolean; generation?: { status: string; reason: string; llm_calls: number };
     follow_up: string | null; follow_up_options: { label: string; question_text: string }[];
     quotes: { component_id: string; chunk_id: string; citation_display: string; quote: string; complete_provision: boolean }[] };
   safety_notice?: { kind: string; heading: string; text: string; source_url: string; emergency_number: string } | null;
@@ -76,6 +78,8 @@ export function isChatResult(value: unknown): value is ChatResult {
   const p = value as ChatResult;
   const responseValid = p.response === undefined || !!p.response && typeof p.response.heading === "string"
     && typeof p.response.ai_generated === "boolean" && Array.isArray(p.response.paragraphs) && p.response.paragraphs.every(text => typeof text === "string")
+    && (p.response.generation === undefined || !!p.response.generation && typeof p.response.generation.status === "string" && typeof p.response.generation.reason === "string" && Number.isInteger(p.response.generation.llm_calls) && p.response.generation.llm_calls >= 0)
+    && (p.response.kind !== "ai_guidance" || p.response.ai_generated && p.response.context_checked === true && p.response.generation?.status === "generated" && p.response.generation.llm_calls >= 2)
     && (p.response.follow_up === null || typeof p.response.follow_up === "string")
     && Array.isArray(p.response.follow_up_options) && p.response.follow_up_options.every(option => typeof option.label === "string" && typeof option.question_text === "string")
     && Array.isArray(p.response.quotes) && p.response.quotes.every(quote => typeof quote.quote === "string" && typeof quote.citation_display === "string"
@@ -83,8 +87,10 @@ export function isChatResult(value: unknown): value is ChatResult {
   const contextValid = p.guidance_context === undefined || !!p.guidance_context && typeof p.guidance_context.note === "string"
     && typeof p.guidance_context.classification_is_conditional === "boolean" && !!p.guidance_context.original_routing
     && typeof p.guidance_context.original_routing.predicted_primary === "string" && typeof p.guidance_context.original_routing.reason === "string";
+  const situationValid = p.situation_context === undefined || !!p.situation_context && typeof p.situation_context.reason === "string"
+    && Array.isArray(p.situation_context.original_components) && p.situation_context.original_components.every(c => typeof c.component_id === "string" && typeof c.query === "string");
   return p.schema_version === "1.0" && typeof p.original_question_text === "string" && typeof p.request_id === "string"
-    && responseValid && contextValid
+    && responseValid && contextValid && situationValid
     && !!p.explanation && Array.isArray(p.explanation.claims) && typeof p.explanation.reason === "string"
     && p.explanation.claims.every(c => typeof c.text === "string" && Array.isArray(c.citations) && c.citations.every(q => typeof q.quote === "string" && typeof q.chunk_id === "string"))
     && (p.result === null || !!p.result?.routing && Array.isArray(p.result.components) && Array.isArray(p.result.excluded_components)

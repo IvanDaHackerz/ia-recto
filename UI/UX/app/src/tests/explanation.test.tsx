@@ -8,6 +8,20 @@ import { packet, reference } from "./fixtures";
 import { mediaPreference } from "./setup";
 
 describe("validated explanation presentation", () => {
+  it("shows checked AI situation guidance without presenting it as a source-approved legal explanation", () => {
+    const guidance = structuredClone(packet);
+    guidance.explanation = { status: "withheld", reason: "supported_concern_required", llm_calls: 0, claims: [] };
+    guidance.response = { version: "test", kind: "ai_guidance", heading: "About your situation", ai_generated: true, context_checked: true,
+      paragraphs: ["Your question concerns a salary deduction in government employment. The private-sector source collection does not establish the applicable rule."],
+      generation: { status: "generated", reason: "factual_context_checked", llm_calls: 2 },
+      quotes: [], follow_up: null, follow_up_options: [] };
+    render(<MemoryRouter><LiveResult packet={guidance} edit={() => {}} onReference={() => {}} /></MemoryRouter>);
+    expect(screen.getByRole("region", { name: "Response" })).toHaveTextContent("salary deduction in government employment");
+    expect(screen.getByText(/Factual context checked; this does not establish a legal answer/)).toBeInTheDocument();
+    expect(screen.queryByText(/No live AI explanation was used/)).not.toBeInTheDocument();
+    expect(screen.queryByRole("region", { name: "AI explanation" })).not.toBeInTheDocument();
+    expect(screen.getByText("AI situation response; no new legal rules")).toBeInTheDocument();
+  });
   it("labels separate labor and consumer explanations and keeps their citations separate", () => {
     mediaPreference(true);
     const mixed = structuredClone(packet);
@@ -70,6 +84,7 @@ describe("validated explanation presentation", () => {
     expect(screen.getByText(/No live AI explanation was used/)).toBeInTheDocument();
     expect(screen.queryByText("Explanation withheld.")).not.toBeInTheDocument();
     expect(screen.queryByRole("region", { name: "AI explanation" })).not.toBeInTheDocument();
+    fireEvent.click(screen.getByText("Read the recorded source passages"));
     fireEvent.click(screen.getByRole("button", { name: "Fictional section" }));
     expect(open.mock.calls[0][0]).toBe("h1");
     expect(open.mock.calls[0][2]).toBe("c1");

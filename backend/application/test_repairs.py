@@ -77,7 +77,7 @@ class GroundingTests(unittest.TestCase):
         adapter=TogetherDevelopmentExplanation('mock','fictional-key')
         components=copy.deepcopy(self.components)
         supplied,lookup=source_options(components);qid=next(iter(lookup))
-        adapter._send=Mock(return_value={'paragraphs':[{'component_id':'c1','text':'A recorded rule.', 'evidence':[{'quote_id':qid}]}]})
+        adapter._send=Mock(return_value={'paragraphs':[{'component_id':'c1','situation':'You describe a fictional work concern.','text':'A recorded rule.', 'evidence':[{'quote_id':qid}]}]})
         adapter.complete('Fictional question',{'components':components})
         body=adapter._send.call_args.args[0];schema=body['response_format']['json_schema']['schema']
         self.assertEqual(schema['properties']['paragraphs']['maxItems'],1)
