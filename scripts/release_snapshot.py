@@ -16,7 +16,7 @@ def allowed(path):
         and (path.suffix.lower()!='.log' or relative.parts[0]=='outputs'))
 def collect_paths(include_model=False):
     current=json.loads((ROOT/'CURRENT_ARTIFACTS.json').read_text(encoding='utf-8'))
-    trees=['backend','scripts','dataset/pipelines','dataset/data_contract','dataset/canonical_sources',
+    trees=['backend','scripts','docs','dataset/pipelines','dataset/data_contract','dataset/canonical_sources',
         'dataset/processed','UI/UX/app/src','UI/UX/app/public','UI/UX/app/scripts','UI/UX/app/.impeccable']
     # Only canonical/processed legal and development data, not the bulk discovery
     # corpus or original returned reviewer workbooks with personal identifiers.
