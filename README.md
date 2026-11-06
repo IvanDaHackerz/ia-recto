@@ -123,7 +123,7 @@ Questions to try:
 | --- | --- |
 | Web interface | React, TypeScript, Vite, Radix UI and Lucide |
 | Local application and API | Python |
-| Classification | Custom scikit-learn classifier with multilingual semantic features and scope handling |
+| Classification | scikit-learn logistic regression with word and character TF-IDF features and explicit scope rules |
 | Legal-source retrieval | Curated, versioned source records and BM25 retrieval in the current application |
 | AI responses | Together.ai with structured output, citation validation and automated checks |
 | Saved history | SQLite with Windows-user DPAPI encryption |
